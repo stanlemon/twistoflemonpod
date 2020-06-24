@@ -1,6 +1,8 @@
 ---
 title: "Stan Returns to His Hobbies"
-date: "2019-04-11"
+date: "2019-04-11T12:37:32.000Z"
+categories: "finance, food, general, home-ownership, technology"
+tags: "bicycle, dark-sky, finance, food, google, grill, jon-kohlmeier, life-with-a-twist-of-lemon, milkshake-beer, mint, stan-lemon, weather"
 ---
 
 Dear Listener,

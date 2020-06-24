@@ -1,6 +1,8 @@
 ---
 title: "Episode 12 - Where you're sure to find something that interests you"
-date: "2018-10-04"
+date: "2018-10-04T07:00:36.000Z"
+categories: "general, technology"
+tags: "apollo-8, apple, food, recipes, tech"
 ---
 
 Dear Listener,

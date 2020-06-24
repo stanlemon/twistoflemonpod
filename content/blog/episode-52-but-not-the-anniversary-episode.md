@@ -1,6 +1,8 @@
 ---
 title: "Episode 52 But Not the Anniversary Episode."
-date: "2019-07-04"
+date: "2019-07-04T15:17:11.000Z"
+categories: "finance, food, general, marvel, technology"
+tags: "apple, finance, ice-cream, jon-kohlmeier, jony-ive, life-with-a-twist-of-lemon, mac, milkshakes, mortgage, spiderman, stan-lemon"
 ---
 
 Dear Listener,

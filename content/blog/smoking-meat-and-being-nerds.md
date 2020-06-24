@@ -1,6 +1,8 @@
 ---
 title: "Smoking Meat and Being Nerds"
-date: "2019-05-30"
+date: "2019-05-30T13:17:00.000Z"
+categories: "food, general, home-ownership, technology"
+tags: "apple, food, home-ownership, jon-kohlmeier, ladder, life-with-a-twist-of-lemon, meat-rubs, meat-smoking, picard, stan-lemon, star-trek, tv, wwcd"
 ---
 
 Dear Listener,

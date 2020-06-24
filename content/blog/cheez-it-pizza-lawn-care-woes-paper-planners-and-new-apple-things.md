@@ -1,6 +1,8 @@
 ---
 title: "Cheez-It Pizza, Lawn Care Woes, Paper Planners and new Apple Things"
-date: "2019-09-26"
+date: "2019-09-26T14:19:06.000Z"
+categories: "food, general, home-ownership, technology"
+tags: "apple, cheez-it, ios, jon-kohlmeier, life-with-a-twist-of-lemon, pizza, planners, stan-lemon, watch"
 ---
 
 Dear Listener,

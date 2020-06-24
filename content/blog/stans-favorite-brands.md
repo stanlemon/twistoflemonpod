@@ -1,6 +1,8 @@
 ---
 title: "Stan's Favorite Brands"
-date: "2020-01-23"
+date: "2020-01-23T12:51:56.000Z"
+categories: "general, technology"
+tags: "brands, jon-kohlmeier, life-with-a-twist-of-lemon, pancakes, robovacuum, shoes, smart-house, st-louis, stan-lemon, technology"
 ---
 
 Dear Listener,

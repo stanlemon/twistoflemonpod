@@ -1,6 +1,8 @@
 ---
 title: "Episode 32 - The Milkshake that Wasn't"
-date: "2019-02-21"
+date: "2019-02-21T12:26:22.000Z"
+categories: "food, general, technology"
+tags: "country, jon-kohlmeier, life-with-a-twist-of-lemon, milkshake, music, snowblower, stan-lemon"
 ---
 
 Dear Listener,

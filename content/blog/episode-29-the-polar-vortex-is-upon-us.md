@@ -1,6 +1,8 @@
 ---
 title: "Episode 29 - The Polar Vortex is Upon Us!"
-date: "2019-01-31"
+date: "2019-01-31T13:41:28.000Z"
+categories: "general, technology"
+tags: "apps, cold, jon-kohlmeier, life-with-a-twist-of-lemon, snow, snowblower, stan-lemon, weather, weather-apps"
 ---
 
 Dear Listener,

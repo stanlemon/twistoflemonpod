@@ -1,6 +1,8 @@
 ---
 title: "Nashville and Disney+"
-date: "2019-11-21"
+date: "2019-11-21T14:21:20.000Z"
+categories: "food, general, marvel, technology"
+tags: "car-maintence, disney, jon-kohlmeier, life-with-a-twist-of-lemon, milkshake, minimalism, nashville, oil, stan-lemon, star-wars"
 ---
 
 Dear Listener,

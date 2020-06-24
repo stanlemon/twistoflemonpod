@@ -1,13 +1,15 @@
 ---
 title: "Episode 9 - Stan's Portillo's Experience"
-date: "2018-09-13"
+date: "2018-09-13T07:00:51.000Z"
+categories: "general"
+tags: "apple, cocktails, milkshake"
 ---
 
 Dear Listener who may in fact be sick of hearing us talk about milkshakes,
 
 This week we talk about Milkshakes! Stan's Portillo's milkshake to be exact. He had an interesting experience. He tells it better than I do. But this picture is referenced...
 
-![Stan's portillo's milkshake](images/IMG_6447-225x300.jpg)
+![Stan's portillo's milkshake](https://twistoflemonpod.com/wp-content/uploads/2018/09/IMG_6447-225x300.jpg)
 
 Other topics covered - Apple event, Cocktails, and other deliciously crafted items.
 

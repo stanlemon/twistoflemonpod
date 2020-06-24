@@ -1,6 +1,8 @@
 ---
 title: "Prime Day Turned Problems with Big Tech"
-date: "2019-07-18"
+date: "2019-07-18T17:10:02.000Z"
+categories: "general, technology"
+tags: "accessibility, amazon, apple, big-tech, internet, jon-kohlmeier, life-with-a-twist-of-lemon, macbook, politics, prime-day, smart-home, stan-lemon"
 ---
 
 Dear Listener,

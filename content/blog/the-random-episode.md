@@ -1,6 +1,8 @@
 ---
 title: "The Random Episode"
-date: "2020-03-19"
+date: "2020-03-19T14:49:34.000Z"
+categories: "general, house-hunting, productivity, technology"
+tags: "books, jon-kohlmeier, life-with-a-twist-of-lemon, reading, stan-lemon"
 ---
 
 Dear Listener,

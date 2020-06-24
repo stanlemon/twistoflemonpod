@@ -1,6 +1,8 @@
 ---
 title: "How Does Jon Eat an Ice Cream Sunday?"
-date: "2019-06-27"
+date: "2019-06-27T11:29:27.000Z"
+categories: "finance, general, technology"
+tags: "banking, catalina, customer-support, finance, food, ice-cream, jon-kohlmeier, life-with-a-twist-of-lemon, mac, macos, spoons, stan-lemon, wifi"
 ---
 
 Dear Listener,

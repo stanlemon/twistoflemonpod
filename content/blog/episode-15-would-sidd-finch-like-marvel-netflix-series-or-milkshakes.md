@@ -1,6 +1,8 @@
 ---
 title: "Episode 15 - Would Sidd Finch like Marvel Netflix Series (or milkshakes)?"
-date: "2018-10-25"
+date: "2018-10-25T11:59:12.000Z"
+categories: "general, house-hunting, movies"
+tags: "book-recommendations, house-hunting, marvel, meat-rubs, milkshake"
 ---
 
 Dear Listener,

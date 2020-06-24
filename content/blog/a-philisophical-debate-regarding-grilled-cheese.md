@@ -1,6 +1,8 @@
 ---
 title: "A Philosophical​ Debate regarding Grilled Cheese"
-date: "2019-03-14"
+date: "2019-03-14T12:22:06.000Z"
+categories: "food, general, home-ownership, movies"
+tags: "grilled-cheese, hamburg-inn, jon-kohlmeier, life-with-a-twist-of-lemon, milkshake, milkshakes, stan-lemon"
 ---
 
 Dear Listener,

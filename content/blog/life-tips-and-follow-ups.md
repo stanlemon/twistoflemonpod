@@ -1,6 +1,8 @@
 ---
 title: "Life Tips and Follow Ups​"
-date: "2019-10-24"
+date: "2019-10-24T12:42:38.000Z"
+categories: "general, home-ownership, movies, productivity"
+tags: "car-maintence, followups, jon-kohlmeier, kansas, life-with-a-twist-of-lemon, marie-kondo, meat-rubs, purge, stan-lemon, star-wars"
 ---
 
 Dear Listener,

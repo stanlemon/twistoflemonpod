@@ -1,6 +1,8 @@
 ---
 title: "BONUS ROUND - Stan needs a CSS Refresher"
-date: "2018-09-13"
+date: "2018-09-13T17:00:25.000Z"
+categories: "general, technology"
+tags: "bonus, css, stan-lemon"
 ---
 
 We forgot to talk about this in Episode 9. Jon gives Stan a hard time for his blog post image not being mobile friendly and helps him to correct his CSS.

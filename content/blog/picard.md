@@ -1,6 +1,8 @@
 ---
 title: "Picard"
-date: "2020-01-30"
+date: "2020-01-30T14:59:15.000Z"
+categories: "general, movies, technology"
+tags: "jon-kohlmeier, life-tip, life-with-a-twist-of-lemon, minimalism, picard, robovacuum, shoes, stan-lemon"
 ---
 
 Dear Listener,

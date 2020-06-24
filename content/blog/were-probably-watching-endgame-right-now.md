@@ -1,6 +1,8 @@
 ---
 title: "We're Probably Watching Endgame Right Now"
-date: "2019-04-25"
+date: "2019-04-25T13:27:29.000Z"
+categories: "general, marvel, movies"
+tags: "baseball, endgame, jon-kohlmeier, life-with-a-twist-of-lemon, marvel"
 ---
 
 Dear Listener,

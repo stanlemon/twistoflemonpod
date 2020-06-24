@@ -1,6 +1,8 @@
 ---
 title: "Stan Visits Iowa"
-date: "2019-03-07"
+date: "2019-03-07T13:24:57.000Z"
+categories: "food, general"
+tags: "cocktails, jon-kohlmeier, life-with-a-twist-of-lemon, mexican-food, milkshake, popcorn, stan-lemon"
 ---
 
 Dear Listener,

@@ -1,6 +1,8 @@
 ---
 title: "Episode 22 - Nashville Milkshake and Grills"
-date: "2018-12-13"
+date: "2018-12-13T13:12:47.000Z"
+categories: "food, general, home-ownership, technology"
+tags: "food, homeownership, milkshake, nashville, wordcamp-us, wordpress"
 ---
 
 Dear Listener,
@@ -39,12 +41,12 @@ Stan Lemon & Jon Kohlmeier
 
  
 
-\[caption id="attachment\_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](images/hattie-bs-225x300.jpg) Hattie B's Hot Chicken\[/caption\]
+\[caption id="attachment\_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](https://twistoflemonpod.com/wp-content/uploads/2018/12/hattie-bs-225x300.jpg) Hattie B's Hot Chicken\[/caption\]
 
-\[caption id="attachment\_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](images/elliston-place-225x300.jpg) Elliston Place Soda Shop\[/caption\]
+\[caption id="attachment\_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-225x300.jpg) Elliston Place Soda Shop\[/caption\]
 
-\[caption id="attachment\_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](images/elliston-place-milkshake-225x300.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
+\[caption id="attachment\_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-milkshake-225x300.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
 
-\[caption id="attachment\_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](images/milkshake-225x300.jpg) Elliston Place Milkshake\[/caption\]
+\[caption id="attachment\_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](https://twistoflemonpod.com/wp-content/uploads/2018/12/milkshake-225x300.jpg) Elliston Place Milkshake\[/caption\]
 
-\[caption id="attachment\_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](images/wordcamp-300x300.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]
+\[caption id="attachment\_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](https://twistoflemonpod.com/wp-content/uploads/2018/12/wordcamp-300x300.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]

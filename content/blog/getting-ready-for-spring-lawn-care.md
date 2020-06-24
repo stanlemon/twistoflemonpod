@@ -1,6 +1,8 @@
 ---
 title: "Getting Ready for Spring Lawn Care"
-date: "2020-02-27"
+date: "2020-02-27T13:58:17.000Z"
+categories: "general, home-ownership"
+tags: "jon-kohlmeier, lawn-care, life-with-a-twist-of-lemon, manhattans, meat-rubs-by-fenker, stan-lemon, star-trek"
 ---
 
 Dear Listener,

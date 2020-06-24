@@ -1,6 +1,8 @@
 ---
 title: "Episode 23 - Our First Pre-Christmas Episode"
-date: "2018-12-20"
+date: "2018-12-20T12:37:29.000Z"
+categories: "food, general, movies"
+tags: "avengers, christmas, eggnog, food, fritsche, milkshake"
 ---
 
 Dear Listener,

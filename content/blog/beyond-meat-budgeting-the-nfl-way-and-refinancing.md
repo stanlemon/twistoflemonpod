@@ -1,6 +1,8 @@
 ---
 title: "Beyond Meat, Budgeting the NFL way, and Refinancing"
-date: "2019-08-22"
+date: "2019-08-22T11:34:12.000Z"
+categories: "finance, food, general, home-ownership, house-hunting"
+tags: "beyond-meat, budgeting, food, impossible-meat, jon-kohlmeier, life-with-a-twist-of-lemon, mortgage, refinance, stan-lemon, tacos"
 ---
 
 Dear Listener,

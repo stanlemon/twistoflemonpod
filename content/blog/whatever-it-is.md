@@ -1,6 +1,8 @@
 ---
 title: "Whatever It Is"
-date: "2019-10-10"
+date: "2019-10-10T12:28:19.000Z"
+categories: "food, general, home-ownership, music, technology"
+tags: "apple, beer, home-improvement, jon-kohlmeier, life-with-a-twist-of-lemon, music, paint-brushes, painting, stan-lemon, techcrawl, wine, zac-brown"
 ---
 
 Dear Listener,

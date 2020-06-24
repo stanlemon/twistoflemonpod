@@ -1,6 +1,8 @@
 ---
 title: "Regenerized"
-date: "2019-12-12"
+date: "2019-12-12T15:32:25.000Z"
+categories: "career-advice, general, productivity, technology"
+tags: "jon-kohlmeier, life-with-a-twist-of-lemon, personal-development, productivity, stan-lemon, taking-a-break, thanksgiving"
 ---
 
 Dear Listener,

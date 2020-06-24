@@ -1,6 +1,8 @@
 ---
 title: "Episode 5 - Ant Man and the Wasp"
-date: "2018-08-16"
+date: "2018-08-16T07:00:40.000Z"
+categories: "general, movies"
+tags: "ant-man, marvel, movies"
 ---
 
 Dear Faithful Listener,

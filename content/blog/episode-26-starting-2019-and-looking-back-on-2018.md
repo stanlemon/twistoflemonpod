@@ -1,9 +1,11 @@
 ---
 title: "Episode 26 - Starting 2019 and Looking Back on 2018"
-date: "2019-01-10"
+date: "2019-01-10T12:49:42.000Z"
+categories: "general, movies, technology"
+tags: "2018, ios, marvel, milkshake, netflix, pop-tart, screentime, top-5, twistoflemon"
 ---
 
-![Stan with Milkshake Poptarts](images/stan-milkshake-poptarts-copy-768x1024.jpg)
+![Stan with Milkshake Poptarts](https://twistoflemonpod.com/wp-content/uploads/2019/01/stan-milkshake-poptarts-copy-768x1024.jpg)
 
 Dear Listener,
 

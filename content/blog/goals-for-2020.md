@@ -1,6 +1,8 @@
 ---
 title: "Goals for 2020"
-date: "2020-01-02"
+date: "2020-01-02T14:10:01.000Z"
+categories: "general"
+tags: "2020, goals, jon-kohlmeier, life-with-a-twist-of-lemon, new-year, resolutions, stan-lemon"
 ---
 
 Dear Listener,

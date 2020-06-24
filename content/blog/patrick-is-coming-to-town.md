@@ -1,6 +1,8 @@
 ---
 title: "Patrick is Coming to Town!"
-date: "2019-02-28"
+date: "2019-02-28T13:12:39.000Z"
+categories: "finance, food, general, movies, technology"
+tags: "avengers, banking, finance, jon-kohlmeier, life-with-a-twist-of-lemon, marvel, milkshake, patrick, stan-lemon, wealfront, web-design"
 ---
 
 Dear Listener,

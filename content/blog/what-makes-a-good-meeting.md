@@ -1,6 +1,8 @@
 ---
 title: "What Makes a Good Meeting"
-date: "2019-06-13"
+date: "2019-06-13T13:15:39.000Z"
+categories: "general, productivity, technology"
+tags: "agenda, communication, jon-kohlmeier, life-with-a-twist-of-lemon, meetings, productivity, stan-lemon, where-you-do-your-best-work, work, writing"
 ---
 
 Dear Listener,

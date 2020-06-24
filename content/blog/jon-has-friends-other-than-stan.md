@@ -1,6 +1,8 @@
 ---
 title: "Jon has friends other than Stan!"
-date: "2019-05-09"
+date: "2019-05-09T12:42:46.000Z"
+categories: "food, general, marvel, movies"
+tags: "grilled-cheese, jon-kohlmeier, life-with-a-twist-of-lemon, marvel, movie, spiderman, stan-lemon, trailer"
 ---
 
 Dear Listener,

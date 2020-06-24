@@ -1,6 +1,8 @@
 ---
 title: "Episode 3 - Web Browsers, Word Processors, and Budgeting"
-date: "2018-08-02"
+date: "2018-08-02T03:24:08.000Z"
+categories: "finance, general"
+tags: "budgeting, finance, firefox, netscape, office, web-browsers"
 ---
 
 Stan switched web browsers for the day, so he and Jon kick off the episode talking about that. That leads into office type suites, to financial apps to budgeting. Listen in to a typical conversation of Stan Lemon and Jon Kohlmeier.

@@ -1,6 +1,8 @@
 ---
 title: "Episode 19 - Jon Moved In!"
-date: "2018-11-22"
+date: "2018-11-22T13:40:16.000Z"
+categories: "general, house-hunting"
+tags: "closing, itunes, moving, reviews, special-announcement, thanksgiving"
 ---
 
 Dear Listener,

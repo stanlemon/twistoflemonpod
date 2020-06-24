@@ -1,6 +1,8 @@
 ---
 title: "Stan's Christmas in September"
-date: "2019-09-12"
+date: "2019-09-12T21:01:49.000Z"
+categories: "food, general, technology"
+tags: "apple, apple-arcade, apple-event, apple-tv, apple-watch, backup, baseball, computer, iphone, jon-kohlmeier, life-with-a-twist-of-lemon, little-league, stan-lemon, taco-bell, wendys"
 ---
 
 Dear Listener,

@@ -1,6 +1,8 @@
 ---
 title: "Episode 1 - A Podcast Episode About Podcasts?"
-date: "2018-07-30"
+date: "2018-07-30T23:20:55.000Z"
+categories: "general"
+tags: "podcasting, podcasts"
 ---
 
 The inaugural episode of Life with a Twist of Lemon! Stan Lemon and Jon Kohlmeier talk about their favorite podcasts and why they thought that they should move their phone conversations into a podcast format.

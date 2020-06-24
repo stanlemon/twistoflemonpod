@@ -1,6 +1,8 @@
 ---
 title: "Stan's Going to Disney World"
-date: "2020-02-13"
+date: "2020-02-13T14:00:37.000Z"
+categories: "general, movies"
+tags: "disney, jon-kohlmeier, life-with-a-twist-of-lemon, stan-lemon, star-wars, trip, vacation"
 ---
 
 Dear Listener,

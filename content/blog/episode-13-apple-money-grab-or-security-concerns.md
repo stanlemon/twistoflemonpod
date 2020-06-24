@@ -1,6 +1,8 @@
 ---
 title: "Episode 13 -  Apple Money Grab... or security concerns?"
-date: "2018-10-11"
+date: "2018-10-11T11:32:45.000Z"
+categories: "finance, general, house-hunting, technology"
+tags: "apple, mortgage, privacy, savings, security, tech"
 ---
 
 Dear Listener,

@@ -1,6 +1,8 @@
 ---
 title: "Bad Reddit Intel From Patrick"
-date: "2019-03-28"
+date: "2019-03-28T12:51:27.000Z"
+categories: "general, marvel, movies, technology"
+tags: "airpods, apple, avengers, endgame, food, grilled-cheese, ipad, jon-kohlmeier, life-with-a-twist-of-lemon, marvel, stan-lemon"
 ---
 
 Dear Listener,

@@ -1,6 +1,8 @@
 ---
 title: "An Episode for Elizabeth"
-date: "2019-09-05"
+date: "2019-09-05T14:03:27.000Z"
+categories: "general, productivity, technology"
+tags: "backup, cal-newport, computer, desk, digital-minimalism, elizabeth, family, jon-kohlmeier, labor-day, life-with-a-twist-of-lemon, liz, stan-lemon, workspace"
 ---
 
 Dear Listener,
@@ -21,10 +23,10 @@ Stan Lemon & Jon Kohlmeier
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/061-lwatol-20190905.mp3"\]\[/audio\]
 
-![](images/jon-desk-1024x768.jpg)
+![](https://twistoflemonpod.com/wp-content/uploads/2019/09/jon-desk-1024x768.jpg)
 
 Jon's Workspace
 
-![](images/stan-desk-768x1024.jpg)
+![](https://twistoflemonpod.com/wp-content/uploads/2019/09/stan-desk-768x1024.jpg)
 
 Stan's Workspace

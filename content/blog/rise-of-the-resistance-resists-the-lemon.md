@@ -1,6 +1,8 @@
 ---
 title: "Rise of the Resistance Resists the Lemon"
-date: "2020-02-20"
+date: "2020-02-20T14:38:44.000Z"
+categories: "general, movies"
+tags: "disney-world, disney, jon-kohlmeier, life-with-a-twist-of-lemon, stan-lemon, star-wars, trip, vacation"
 ---
 
 Dear Listener,

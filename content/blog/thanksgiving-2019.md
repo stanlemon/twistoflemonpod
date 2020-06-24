@@ -1,6 +1,8 @@
 ---
 title: "Thanksgiving 2019"
-date: "2019-11-28"
+date: "2019-11-28T13:14:34.000Z"
+categories: "food, general, marvel, technology"
+tags: "car-maintence, disney, jon-kohlmeier, life-with-a-twist-of-lemon, milkshake, minimalism, nashville, oil, stan-lemon, star-wars"
 ---
 
 Dear Listener,

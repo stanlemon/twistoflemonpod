@@ -1,6 +1,8 @@
 ---
 title: "October Sportsball Episode"
-date: "2019-10-03"
+date: "2019-10-03T10:39:09.000Z"
+categories: "general, sports"
+tags: "baseball, cubs, jon-kohlmeier, life-with-a-twist-of-lemon, october, sports, stan-lemon"
 ---
 
 Dear Listener,

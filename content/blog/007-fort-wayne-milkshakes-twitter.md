@@ -1,6 +1,8 @@
 ---
 title: "Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter"
-date: "2018-08-30"
+date: "2018-08-30T07:00:54.000Z"
+categories: "general"
+tags: "fort-wayne, macintosh, milkshake"
 ---
 
 Dear Listener,

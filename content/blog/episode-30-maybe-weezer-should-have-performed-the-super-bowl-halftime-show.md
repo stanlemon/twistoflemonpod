@@ -1,6 +1,8 @@
 ---
 title: "Episode 30 - Maybe Weezer Should have Performed  the Super Bowl Halftime Show"
-date: "2019-02-07"
+date: "2019-02-07T12:58:41.000Z"
+categories: "food, general, technology"
+tags: "jon-kohlmeier, life-with-a-twist-of-lemon, pizza, stan-lemon, superbowl, weezer"
 ---
 
 Dear Listener,

@@ -1,6 +1,8 @@
 ---
 title: "Episode 20 - Support Pastor Fritsche, get a Sticker."
-date: "2018-11-29"
+date: "2018-11-29T08:00:56.000Z"
+categories: "general, technology, theology"
+tags: "advent, cph, fritsche, giving, gmail"
 ---
 
 Dear Listener,

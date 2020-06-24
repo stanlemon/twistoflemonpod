@@ -1,6 +1,8 @@
 ---
 title: "Manhattans, Mac mini, and Jon's new Router"
-date: "2020-01-09"
+date: "2020-01-09T15:16:55.000Z"
+categories: "food, general, technology"
+tags: "2020, amazon, books, eero, goals, jon-kohlmeier, life-with-a-twist-of-lemon, mac, mac-mini, manhattan, milkshakes, resolution, router, stan-lemon, tv"
 ---
 
 Dear Listener,
