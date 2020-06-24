@@ -1,0 +1,26 @@
+---
+title: "Episode 12 - Where you're sure to find something that interests you"
+date: "2018-10-04"
+---
+
+Dear Listener,
+
+I'm not even really sure where to start for this episode. We cover a plethora of topics from tech to food, to reading non-fiction. You're sure to find something that interests you in this episode (even if it only is the soothing sound of The Lemon's voice) Maybe it will be easier if I just list some of the topics out.
+
+- New recording settings
+- Milkshakes (of course)
+- Apple Activity
+- Meat, Rubbed and Salutary
+- Recipes
+- Killer iOS feature - Password manager.
+- Screen time and tactics to use phone less.
+- Reading Non-fiction books
+- Apollo 8
+- Art of Manliness episodes
+- The Great Books
+
+Enjoy the show!
+
+Jon Kohlmeier
+
+\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/012-lwatol-20181003.mp3"\]\[/audio\]

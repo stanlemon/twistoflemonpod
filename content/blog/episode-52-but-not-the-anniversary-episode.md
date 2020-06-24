@@ -1,0 +1,22 @@
+---
+title: "Episode 52 But Not the Anniversary Episode."
+date: "2019-07-04"
+---
+
+Dear Listener,
+
+Stan ran into some interesting people in Indianapolis, at Wylipalooza of all places. But he didn't get a milkshake.
+
+Stan is disappointed that we reached Episode 52 but we haven't been doing this for a year quite yet. We'll have a full on celebration here in a couple of weeks.
+
+Stan did pay off his mortgage in the last week, we're curious what he's going to do next.
+
+Apple has been in the news a couple of times recently, most notable for the departure of Jony Ive. We reflect on what he's done for Apple and wonder what will happen moving forward.
+
+Another core tennant of the podcast is Marvel. So we talk about going to see Spider-Man far from Home and other things Marvel.
+
+Thanks for listening!
+
+Stan Lemon & Jon Kohlmeier
+
+\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/052-lwatol-20190704.mp3"\]\[/audio\]

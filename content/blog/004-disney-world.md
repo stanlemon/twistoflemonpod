@@ -1,0 +1,8 @@
+---
+title: "Episode 4 - Stan's back from Disney World!"
+date: "2018-08-09"
+---
+
+This week Stan & Jon give their opinion on the New Backstreet Boys song, talk Stan's new Beats headphones, and his family's trip to Disney World, hear about Stan's favorite rides, food, and what he plans to do differently for next time.
+
+\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/004-lwatol-20180809.mp3"\]\[/audio\]

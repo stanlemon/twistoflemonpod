@@ -1,0 +1,22 @@
+---
+title: "Episode 28 - Work When You Work, But Don't Overwork"
+date: "2019-01-24"
+---
+
+Dear Listener,
+
+Today's episode kicks off with some follow-up by Stan on what he found to track his time when on his laptop. It seems promising so far.
+
+The rest of the episode was sparked by a tweak about advice to new software Developers. Stan replied: "Time management. Work when you work, but don’t over work. When I was new I kept absurdly long days, sometimes worked on the weekend and was always connected by email. I’m a better engineer now that I manage time boundaries for myself."
+
+This leads into what exactly he means and concrete takeaways from what we've learned through our career paths and some mistakes we've made along the way.
+
+This episode feels a little different than some of our other ones. Mostly because Jon was really interested in learning everything he can from Stan.
+
+Listen in, let us know what you think!
+
+Thanks for listening,
+
+Stan Lemon & Jon Kohlmeier
+
+\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/028-lwatol-20190124.mp3"\]\[/audio\]
