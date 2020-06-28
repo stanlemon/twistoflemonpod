@@ -1,8 +1,21 @@
 ---
 title: "Episode 28 - Work When You Work, But Don't Overwork"
 date: "2019-01-24T12:38:34.000Z"
-categories: "career-advice, general, productivity, technology"
-tags: "career-advice, careers, jobs, jon-kohlmeier, life-with-a-twist-of-lemon, productivity, stan-lemon, time-tracking, work-life-balance"
+categories: 
+  - "career-advice"
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "career-advice"
+  - "careers"
+  - "jobs"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "productivity"
+  - "stan-lemon"
+  - "time-tracking"
+  - "work-life-balance"
 ---
 
 Dear Listener,

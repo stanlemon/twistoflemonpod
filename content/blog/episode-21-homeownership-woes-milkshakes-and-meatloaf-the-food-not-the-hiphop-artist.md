@@ -1,8 +1,16 @@
 ---
 title: "Episode 21 - Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)"
 date: "2018-12-06T12:29:47.000Z"
-categories: "food, general, home-ownership"
-tags: "diy-fixes, food, homeownership, meatloaf, milkshake"
+categories: 
+  - "food"
+  - "general"
+  - "home-ownership"
+tags: 
+  - "diy-fixes"
+  - "food"
+  - "homeownership"
+  - "meatloaf"
+  - "milkshake"
 ---
 
 Dear Faithful Listener,

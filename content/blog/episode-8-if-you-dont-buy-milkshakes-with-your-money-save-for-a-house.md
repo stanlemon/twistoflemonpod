@@ -1,8 +1,14 @@
 ---
 title: "Episode 8 - If you don't buy milkshakes with your money, save for a house!"
 date: "2018-09-06T07:00:48.000Z"
-categories: "finance, general"
-tags: "finance, money, mortgage, mortgage-rates"
+categories: 
+  - "finance"
+  - "general"
+tags: 
+  - "finance"
+  - "money"
+  - "mortgage"
+  - "mortgage-rates"
 ---
 
 Dear Financially Minded Listener,

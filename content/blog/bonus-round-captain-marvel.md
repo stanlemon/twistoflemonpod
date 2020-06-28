@@ -1,8 +1,20 @@
 ---
 title: "Bonus Round: Captain Marvel"
 date: "2019-03-09T20:07:18.000Z"
-categories: "general, marvel, movies"
-tags: "captain-marvel, jon-kohlmeier, life-with-a-twist-of-lemon, marvel, movie-review, movies, pop-culture, stan-lee, stan-lemon"
+categories: 
+  - "general"
+  - "marvel"
+  - "movies"
+tags: 
+  - "captain-marvel"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "marvel"
+  - "movie-review"
+  - "movies"
+  - "pop-culture"
+  - "stan-lee"
+  - "stan-lemon"
 ---
 
 Dear Listener,

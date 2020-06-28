@@ -1,8 +1,19 @@
 ---
 title: "The Episode with Stan's Name in the Title"
 date: "2019-04-04T12:30:12.000Z"
-categories: "general, marvel, movies, technology"
-tags: "apple, avengers, endgame, jon-kohlmeier, life-with-a-twist-of-lemon, marvel, stan-lemon"
+categories: 
+  - "general"
+  - "marvel"
+  - "movies"
+  - "technology"
+tags: 
+  - "apple"
+  - "avengers"
+  - "endgame"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "marvel"
+  - "stan-lemon"
 ---
 
 Dear Listener,

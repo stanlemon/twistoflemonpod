@@ -1,8 +1,19 @@
 ---
 title: "Patrick Sturdivant: The First Listener (and our review of Endgame)"
 date: "2019-05-02T12:36:18.000Z"
-categories: "food, general, marvel, movies"
-tags: "endgame, indianapolis, jon-kohlmeier, life-with-a-twist-of-lemon, live-recording, marvel, steak"
+categories: 
+  - "food"
+  - "general"
+  - "marvel"
+  - "movies"
+tags: 
+  - "endgame"
+  - "indianapolis"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "live-recording"
+  - "marvel"
+  - "steak"
 ---
 
 Listeners Assemble!

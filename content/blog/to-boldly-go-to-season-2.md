@@ -1,8 +1,16 @@
 ---
 title: "To Boldly Go.... to Season 2"
 date: "2019-08-01T13:24:46.000Z"
-categories: "general, marvel"
-tags: "jon-kohlmeier, life-with-a-twist-of-lemon, marvel, podcast, router, star-trek"
+categories: 
+  - "general"
+  - "marvel"
+tags: 
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "marvel"
+  - "podcast"
+  - "router"
+  - "star-trek"
 ---
 
 Dear Listener,

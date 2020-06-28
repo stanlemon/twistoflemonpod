@@ -1,8 +1,12 @@
 ---
 title: "Episode 9 - Stan's Portillo's Experience"
 date: "2018-09-13T07:00:51.000Z"
-categories: "general"
-tags: "apple, cocktails, milkshake"
+categories: 
+  - "general"
+tags: 
+  - "apple"
+  - "cocktails"
+  - "milkshake"
 ---
 
 Dear Listener who may in fact be sick of hearing us talk about milkshakes,

@@ -1,8 +1,23 @@
 ---
 title: "The Impossible Episode"
 date: "2019-08-15T14:49:57.000Z"
-categories: "food, general, home-ownership, technology"
-tags: "apple-card, baseball, birthday, buetow, burger-king, impossible-meat, impossible-whopper, jon-kohlmeier, life-with-a-twist-of-lemon, mortgage, stan-lemon"
+categories: 
+  - "food"
+  - "general"
+  - "home-ownership"
+  - "technology"
+tags: 
+  - "apple-card"
+  - "baseball"
+  - "birthday"
+  - "buetow"
+  - "burger-king"
+  - "impossible-meat"
+  - "impossible-whopper"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "mortgage"
+  - "stan-lemon"
 ---
 
 Dear Listener,

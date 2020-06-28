@@ -1,8 +1,18 @@
 ---
 title: "A Philosophical Debate on Mac & Cheese"
 date: "2019-11-14T13:10:51.000Z"
-categories: "food, general"
-tags: "boots, jon-kohlmeier, life-tip, life-with-a-twist-of-lemon, mac-cheese, minimalism, single-use-kitchen-gadgets, stan-lemon"
+categories: 
+  - "food"
+  - "general"
+tags: 
+  - "boots"
+  - "jon-kohlmeier"
+  - "life-tip"
+  - "life-with-a-twist-of-lemon"
+  - "mac-cheese"
+  - "minimalism"
+  - "single-use-kitchen-gadgets"
+  - "stan-lemon"
 ---
 
 Dear Listener,

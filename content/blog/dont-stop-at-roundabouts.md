@@ -1,8 +1,16 @@
 ---
 title: "Don't Stop at Roundabouts"
 date: "2019-10-31T12:11:52.000Z"
-categories: "general"
-tags: "baseball, jon-kohlmeier, kansas, life-tip, life-with-a-twist-of-lemon, minimalism, stan-lemon"
+categories: 
+  - "general"
+tags: 
+  - "baseball"
+  - "jon-kohlmeier"
+  - "kansas"
+  - "life-tip"
+  - "life-with-a-twist-of-lemon"
+  - "minimalism"
+  - "stan-lemon"
 ---
 
 Dear Listener,

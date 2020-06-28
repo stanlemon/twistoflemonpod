@@ -1,8 +1,18 @@
 ---
 title: "Episode 18 - Remembering Stan Lee"
 date: "2018-11-15T12:29:40.000Z"
-categories: "general, movies"
-tags: "chicago, comics, food, marvel, movies, moving, politics, stan-lee"
+categories: 
+  - "general"
+  - "movies"
+tags: 
+  - "chicago"
+  - "comics"
+  - "food"
+  - "marvel"
+  - "movies"
+  - "moving"
+  - "politics"
+  - "stan-lee"
 ---
 
 Dear Listener,

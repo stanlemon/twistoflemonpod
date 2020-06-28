@@ -1,8 +1,19 @@
 ---
 title: "Episode 27 - Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story"
 date: "2019-01-17T13:39:48.000Z"
-categories: "food, general, movies, technology"
-tags: "agents-of-shield, customer-support, marvel, milkshake, netflix, pop-tart, twistoflemon"
+categories: 
+  - "food"
+  - "general"
+  - "movies"
+  - "technology"
+tags: 
+  - "agents-of-shield"
+  - "customer-support"
+  - "marvel"
+  - "milkshake"
+  - "netflix"
+  - "pop-tart"
+  - "twistoflemon"
 ---
 
 Dear Listener,

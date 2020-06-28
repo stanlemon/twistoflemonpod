@@ -1,8 +1,18 @@
 ---
 title: "Episode 22 - Nashville Milkshake and Grills"
 date: "2018-12-13T13:12:47.000Z"
-categories: "food, general, home-ownership, technology"
-tags: "food, homeownership, milkshake, nashville, wordcamp-us, wordpress"
+categories: 
+  - "food"
+  - "general"
+  - "home-ownership"
+  - "technology"
+tags: 
+  - "food"
+  - "homeownership"
+  - "milkshake"
+  - "nashville"
+  - "wordcamp-us"
+  - "wordpress"
 ---
 
 Dear Listener,

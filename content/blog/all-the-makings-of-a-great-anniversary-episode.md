@@ -1,8 +1,30 @@
 ---
 title: "All the makings of a great anniversary episode"
 date: "2019-07-11T12:15:31.000Z"
-categories: "general, marvel, movies, technology"
-tags: "apple, architecture, far-from-home, frank-lloyd-wright, ice-cream, internet, jon-kohlmeier, life-with-a-twist-of-lemon, mac, macbeth, macbook, milkshakes, movie-review, router, shakespeare, spiderman, stan-lemon, taliesin"
+categories: 
+  - "general"
+  - "marvel"
+  - "movies"
+  - "technology"
+tags: 
+  - "apple"
+  - "architecture"
+  - "far-from-home"
+  - "frank-lloyd-wright"
+  - "ice-cream"
+  - "internet"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "mac"
+  - "macbeth"
+  - "macbook"
+  - "milkshakes"
+  - "movie-review"
+  - "router"
+  - "shakespeare"
+  - "spiderman"
+  - "stan-lemon"
+  - "taliesin"
 ---
 
 Dear Listener,

@@ -1,8 +1,23 @@
 ---
 title: "Life Updates"
 date: "2019-09-19T13:51:54.000Z"
-categories: "food, general, productivity, technology"
-tags: "art-of-manliness, bicycle, books, breaks, ecobee, jon-kohlmeier, life-with-a-twist-of-lemon, maintence, reading, stan-lemon, time-warrior"
+categories: 
+  - "food"
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "art-of-manliness"
+  - "bicycle"
+  - "books"
+  - "breaks"
+  - "ecobee"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "maintence"
+  - "reading"
+  - "stan-lemon"
+  - "time-warrior"
 ---
 
 Dear Listener,

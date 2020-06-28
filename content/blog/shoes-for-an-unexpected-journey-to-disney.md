@@ -1,8 +1,18 @@
 ---
 title: "Shoes for An Unexpected Journey to Disney"
 date: "2020-01-16T13:13:41.000Z"
-categories: "books, general"
-tags: "ad-blocker, books, hobbit, jeopardy, jon-kohlmeier, life-with-a-twist-of-lemon, shoes, stan-lemon"
+categories: 
+  - "books"
+  - "general"
+tags: 
+  - "ad-blocker"
+  - "books"
+  - "hobbit"
+  - "jeopardy"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "shoes"
+  - "stan-lemon"
 ---
 
 Dear Listener,

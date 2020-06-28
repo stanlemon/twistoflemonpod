@@ -1,8 +1,14 @@
 ---
 title: "Episode 4 - Stan's back from Disney World!"
 date: "2018-08-09T08:00:30.000Z"
-categories: "general"
-tags: "backstreet-boys, beats, disney-world, mickey-mouse, vacation"
+categories: 
+  - "general"
+tags: 
+  - "backstreet-boys"
+  - "beats"
+  - "disney-world"
+  - "mickey-mouse"
+  - "vacation"
 ---
 
 This week Stan & Jon give their opinion on the New Backstreet Boys song, talk Stan's new Beats headphones, and his family's trip to Disney World, hear about Stan's favorite rides, food, and what he plans to do differently for next time.

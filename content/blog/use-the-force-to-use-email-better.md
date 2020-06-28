@@ -1,8 +1,21 @@
 ---
 title: "Use the Force... to Use Email Better"
 date: "2019-08-29T11:24:37.000Z"
-categories: "general, movies, productivity, technology"
-tags: "d23, disney, email, jon-kohlmeier, life-with-a-twist-of-lemon, obi-wan, rise-of-skywalker, stan-lemon, star-wars"
+categories: 
+  - "general"
+  - "movies"
+  - "productivity"
+  - "technology"
+tags: 
+  - "d23"
+  - "disney"
+  - "email"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "obi-wan"
+  - "rise-of-skywalker"
+  - "stan-lemon"
+  - "star-wars"
 ---
 
 Dear Listener,

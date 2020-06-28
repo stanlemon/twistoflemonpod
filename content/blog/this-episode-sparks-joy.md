@@ -1,8 +1,19 @@
 ---
 title: "This Episode Sparks Joy"
 date: "2019-10-17T14:32:56.000Z"
-categories: "general, home-ownership, productivity"
-tags: "cleaning, jon-kohlmeier, life-with-a-twist-of-lemon, marie-kondo, minimalism, purge, spark-joy, stan-lemon"
+categories: 
+  - "general"
+  - "home-ownership"
+  - "productivity"
+tags: 
+  - "cleaning"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "marie-kondo"
+  - "minimalism"
+  - "purge"
+  - "spark-joy"
+  - "stan-lemon"
 ---
 
 Dear Listener,

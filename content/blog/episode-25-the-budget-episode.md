@@ -1,8 +1,16 @@
 ---
 title: "Episode 25 - The Budget Episode"
 date: "2019-01-03T12:31:14.000Z"
-categories: "finance, general, productivity"
-tags: "budget, budgeting, financial, lilac, twistoflemon"
+categories: 
+  - "finance"
+  - "general"
+  - "productivity"
+tags: 
+  - "budget"
+  - "budgeting"
+  - "financial"
+  - "lilac"
+  - "twistoflemon"
 ---
 
 Dear Listener,

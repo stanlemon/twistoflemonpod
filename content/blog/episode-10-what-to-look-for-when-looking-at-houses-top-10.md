@@ -1,8 +1,13 @@
 ---
 title: "Episode 10 - What to look for when looking at Houses (Top 10!)"
 date: "2018-09-20T07:00:24.000Z"
-categories: "general, house-hunting"
-tags: "home-buying, house-hunting, milkshake"
+categories: 
+  - "general"
+  - "house-hunting"
+tags: 
+  - "home-buying"
+  - "house-hunting"
+  - "milkshake"
 ---
 
 Dear Listener,

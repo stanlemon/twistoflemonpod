@@ -1,8 +1,13 @@
 ---
 title: "Episode 14 - Milkshakes power our productivity"
 date: "2018-10-18T12:19:59.000Z"
-categories: "general, productivity"
-tags: "ideal-week, milkshake, productivity"
+categories: 
+  - "general"
+  - "productivity"
+tags: 
+  - "ideal-week"
+  - "milkshake"
+  - "productivity"
 ---
 
 Dear Listener,

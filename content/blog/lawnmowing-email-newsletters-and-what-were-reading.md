@@ -1,8 +1,26 @@
 ---
 title: "Lawnmowing, email newsletters, and what we're reading."
 date: "2019-05-16T11:28:51.000Z"
-categories: "general, home-ownership, technology"
-tags: "books, email, jon-kohlmeier, jon-turns-30, lawn-mowing, life-with-a-twist-of-lemon, lincoln, mailchimp, marketing, mothers-day, reading-devices, stan-lemon, technology, yard, yardwork"
+categories: 
+  - "general"
+  - "home-ownership"
+  - "technology"
+tags: 
+  - "books"
+  - "email"
+  - "jon-kohlmeier"
+  - "jon-turns-30"
+  - "lawn-mowing"
+  - "life-with-a-twist-of-lemon"
+  - "lincoln"
+  - "mailchimp"
+  - "marketing"
+  - "mothers-day"
+  - "reading-devices"
+  - "stan-lemon"
+  - "technology"
+  - "yard"
+  - "yardwork"
 ---
 
 Dear Listener,

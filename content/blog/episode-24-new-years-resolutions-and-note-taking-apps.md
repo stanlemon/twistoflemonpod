@@ -1,8 +1,16 @@
 ---
 title: "Episode 24 - New Year's Resolutions and Note-Taking Apps."
 date: "2018-12-27T16:19:26.000Z"
-categories: "general, productivity, technology"
-tags: "apps, fritsche, iphone, new-year, resolutions"
+categories: 
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "apps"
+  - "fritsche"
+  - "iphone"
+  - "new-year"
+  - "resolutions"
 ---
 
 Dear Listener,

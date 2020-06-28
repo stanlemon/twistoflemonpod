@@ -1,8 +1,17 @@
 ---
 title: "Merry Star Warsmas"
 date: "2019-12-19T13:49:58.000Z"
-categories: "general, movies, technology"
-tags: "christmas, holiday, jon-kohlmeier, life-with-a-twist-of-lemon, stan-lemon, star-wars"
+categories: 
+  - "general"
+  - "movies"
+  - "technology"
+tags: 
+  - "christmas"
+  - "holiday"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "stan-lemon"
+  - "star-wars"
 ---
 
 Dear Listener,

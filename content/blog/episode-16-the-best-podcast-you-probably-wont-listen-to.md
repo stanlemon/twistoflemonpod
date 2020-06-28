@@ -1,8 +1,15 @@
 ---
 title: "Episode 16 - The Best Podcast you Probably Won't Listen To"
 date: "2018-11-01T12:02:28.000Z"
-categories: "general, theology"
-tags: "apple, halloween, macbooks, milkshake, theology"
+categories: 
+  - "general"
+  - "theology"
+tags: 
+  - "apple"
+  - "halloween"
+  - "macbooks"
+  - "milkshake"
+  - "theology"
 ---
 
 Dear Listener,

@@ -1,8 +1,16 @@
 ---
 title: "One Year with a Twist of Lemon"
 date: "2019-07-25T14:42:49.000Z"
-categories: "general, marvel"
-tags: "anniversary, jon-kohlmeier, life-with-a-twist-of-lemon, listeners, marvel, stan-lemon"
+categories: 
+  - "general"
+  - "marvel"
+tags: 
+  - "anniversary"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "listeners"
+  - "marvel"
+  - "stan-lemon"
 ---
 
 Dear Listener,

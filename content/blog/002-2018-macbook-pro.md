@@ -1,8 +1,12 @@
 ---
 title: "Episode 2 - The 2018 MacBook Pro"
 date: "2018-08-01T02:18:22.000Z"
-categories: "general"
-tags: "apple, macbooks, technology"
+categories: 
+  - "general"
+tags: 
+  - "apple"
+  - "macbooks"
+  - "technology"
 ---
 
 Stan and Jon take a look at their current Apple products (specifically Mac) and workflows, talk about their history using Apple products, and take a look at the recently release MacBook Pro as they look toward purchasing updates.

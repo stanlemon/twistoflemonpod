@@ -1,8 +1,24 @@
 ---
 title: "An Episode for Elizabeth"
 date: "2019-09-05T14:03:27.000Z"
-categories: "general, productivity, technology"
-tags: "backup, cal-newport, computer, desk, digital-minimalism, elizabeth, family, jon-kohlmeier, labor-day, life-with-a-twist-of-lemon, liz, stan-lemon, workspace"
+categories: 
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "backup"
+  - "cal-newport"
+  - "computer"
+  - "desk"
+  - "digital-minimalism"
+  - "elizabeth"
+  - "family"
+  - "jon-kohlmeier"
+  - "labor-day"
+  - "life-with-a-twist-of-lemon"
+  - "liz"
+  - "stan-lemon"
+  - "workspace"
 ---
 
 Dear Listener,

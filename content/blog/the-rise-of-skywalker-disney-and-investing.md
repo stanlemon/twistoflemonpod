@@ -1,8 +1,27 @@
 ---
 title: "The Rise of Skywalker, Disney+, and Investing"
 date: "2019-04-18T11:57:56.000Z"
-categories: "finance, general, marvel, movies, theology"
-tags: "disney, finance, game-of-thrones, holy-week, investing, jon-kohlmeier, life-with-a-twist-of-lemon, media, stan-lemon, star-wars, streaming, the-rise-of-skywalker, tv-streaming, wealthfront"
+categories: 
+  - "finance"
+  - "general"
+  - "marvel"
+  - "movies"
+  - "theology"
+tags: 
+  - "disney"
+  - "finance"
+  - "game-of-thrones"
+  - "holy-week"
+  - "investing"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "media"
+  - "stan-lemon"
+  - "star-wars"
+  - "streaming"
+  - "the-rise-of-skywalker"
+  - "tv-streaming"
+  - "wealthfront"
 ---
 
 Dear Listener,

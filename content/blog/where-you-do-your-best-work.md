@@ -1,8 +1,22 @@
 ---
 title: "Where You Do Your Best Work"
 date: "2019-06-06T12:25:03.000Z"
-categories: "general, productivity, technology"
-tags: "apple, itunes, jon-kohlmeier, life-with-a-twist-of-lemon, productivity, review, stan-lemon, star-trek, where-you-do-your-best-work, work, wwdc"
+categories: 
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "apple"
+  - "itunes"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "productivity"
+  - "review"
+  - "stan-lemon"
+  - "star-trek"
+  - "where-you-do-your-best-work"
+  - "work"
+  - "wwdc"
 ---
 
 Dear Listener,

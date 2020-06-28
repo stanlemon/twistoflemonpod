@@ -1,8 +1,22 @@
 ---
 title: "Celebrating Jon's Birthday All Month"
 date: "2019-05-23T13:07:28.000Z"
-categories: "food, general, technology"
-tags: "bacon, email, food, jon-kohlmeier, jon-turns-30, life-with-a-twist-of-lemon, marketing, stan-lemon, surprise, website, white-house"
+categories: 
+  - "food"
+  - "general"
+  - "technology"
+tags: 
+  - "bacon"
+  - "email"
+  - "food"
+  - "jon-kohlmeier"
+  - "jon-turns-30"
+  - "life-with-a-twist-of-lemon"
+  - "marketing"
+  - "stan-lemon"
+  - "surprise"
+  - "website"
+  - "white-house"
 ---
 
 Dear Listener,

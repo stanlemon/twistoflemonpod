@@ -1,8 +1,24 @@
 ---
 title: "What exactly are the Iowa Caucuses?"
 date: "2020-02-06T14:08:24.000Z"
-categories: "food, general, productivity, technology"
-tags: "facebook, iowa-caucuses, jon-kohlmeier, life-tip, life-with-a-twist-of-lemon, meetings, minimalism, paper, picard, politics, stan-lemon, super-bowl"
+categories: 
+  - "food"
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "facebook"
+  - "iowa-caucuses"
+  - "jon-kohlmeier"
+  - "life-tip"
+  - "life-with-a-twist-of-lemon"
+  - "meetings"
+  - "minimalism"
+  - "paper"
+  - "picard"
+  - "politics"
+  - "stan-lemon"
+  - "super-bowl"
 ---
 
 Dear Listener,

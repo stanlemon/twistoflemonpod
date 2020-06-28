@@ -1,8 +1,19 @@
 ---
 title: "You probably shouldn't include Euchre on your resume"
 date: "2019-08-08T14:33:16.000Z"
-categories: "career-advice, food, general, productivity"
-tags: "ecommerce, euchre, five-guys, hamburgers, jon-kohlmeier, life-with-a-twist-of-lemon, resume"
+categories: 
+  - "career-advice"
+  - "food"
+  - "general"
+  - "productivity"
+tags: 
+  - "ecommerce"
+  - "euchre"
+  - "five-guys"
+  - "hamburgers"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "resume"
 ---
 
 Dear Listener,

@@ -1,8 +1,22 @@
 ---
 title: "Back from Vacation and Talking Tech"
 date: "2019-06-20T12:32:31.000Z"
-categories: "general, productivity, technology"
-tags: "beer, headphones, jon-kohlmeier, life-with-a-twist-of-lemon, michigan, milkshake-beer, networking, orbi, stan-lemon, task-manager, vacation"
+categories: 
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "beer"
+  - "headphones"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "michigan"
+  - "milkshake-beer"
+  - "networking"
+  - "orbi"
+  - "stan-lemon"
+  - "task-manager"
+  - "vacation"
 ---
 
 Dear Listener,

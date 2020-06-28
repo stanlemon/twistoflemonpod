@@ -1,8 +1,22 @@
 ---
 title: "Long Overdue Milkshake Reviews"
 date: "2020-03-12T13:05:31.000Z"
-categories: "food, general, productivity, technology"
-tags: "apps, food, ios, jon-kohlmeier, life-with-a-twist-of-lemon, macos, milkshake, milkshakes, mint, stan-lemon"
+categories: 
+  - "food"
+  - "general"
+  - "productivity"
+  - "technology"
+tags: 
+  - "apps"
+  - "food"
+  - "ios"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "macos"
+  - "milkshake"
+  - "milkshakes"
+  - "mint"
+  - "stan-lemon"
 ---
 
 Dear Listener,

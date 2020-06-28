@@ -1,8 +1,20 @@
 ---
 title: "Stan doesn't want you to buy books and Twitter doesn't want you to buy Political Ads"
 date: "2019-11-07T13:46:36.000Z"
-categories: "general, movies, technology"
-tags: "apple-tv, books, jon-kohlmeier, life-tip, life-with-a-twist-of-lemon, minimalism, montana, political-ads, stan-lemon"
+categories: 
+  - "general"
+  - "movies"
+  - "technology"
+tags: 
+  - "apple-tv"
+  - "books"
+  - "jon-kohlmeier"
+  - "life-tip"
+  - "life-with-a-twist-of-lemon"
+  - "minimalism"
+  - "montana"
+  - "political-ads"
+  - "stan-lemon"
 ---
 
 Dear Listener,

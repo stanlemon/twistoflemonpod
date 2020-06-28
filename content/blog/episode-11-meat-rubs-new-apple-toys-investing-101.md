@@ -1,8 +1,14 @@
 ---
 title: "Episode 11 - Meat Rubs, New Apple Toys, Investing 101"
 date: "2018-09-27T10:38:53.000Z"
-categories: "finance, general, technology"
-tags: "apple, investing, milkshake"
+categories: 
+  - "finance"
+  - "general"
+  - "technology"
+tags: 
+  - "apple"
+  - "investing"
+  - "milkshake"
 ---
 
 Dear Listener,

@@ -1,8 +1,14 @@
 ---
 title: "Danchez's Misguided Mac & Cheese Opinions"
 date: "2019-11-20T02:54:54.000Z"
-categories: "food"
-tags: "bonus-round, jon-kohlmeier, life-with-a-twist-of-lemon, mac-cheese, stan-lemon"
+categories: 
+  - "food"
+tags: 
+  - "bonus-round"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "mac-cheese"
+  - "stan-lemon"
 ---
 
 Listener Danchez sent Jon a couple of text messages today:

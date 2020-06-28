@@ -1,8 +1,15 @@
 ---
 title: "Episode 6 - Atlanta and Alexa"
 date: "2018-08-23T07:00:51.000Z"
-categories: "general, technology"
-tags: "alexa, atlanta, echo, smart-home, technology"
+categories: 
+  - "general"
+  - "technology"
+tags: 
+  - "alexa"
+  - "atlanta"
+  - "echo"
+  - "smart-home"
+  - "technology"
 ---
 
 Dear Listener,

@@ -1,8 +1,22 @@
 ---
 title: "Prep with Boneless Wings"
 date: "2020-03-05T12:53:13.000Z"
-categories: "food, general, home-ownership, music"
-tags: "apocolyps, bones-thugs-n-harmony, buffalo-wild-wings, jon-kohlmeier, life-with-a-twist-of-lemon, meat-rubs-by-fenker, music, prepping, stan-lemon, wings"
+categories: 
+  - "food"
+  - "general"
+  - "home-ownership"
+  - "music"
+tags: 
+  - "apocolyps"
+  - "bones-thugs-n-harmony"
+  - "buffalo-wild-wings"
+  - "jon-kohlmeier"
+  - "life-with-a-twist-of-lemon"
+  - "meat-rubs-by-fenker"
+  - "music"
+  - "prepping"
+  - "stan-lemon"
+  - "wings"
 ---
 
 Dear Listener,
