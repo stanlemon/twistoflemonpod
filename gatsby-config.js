@@ -1,15 +1,14 @@
 module.exports = {
   pathPrefix: `/twistoflemonpod`,
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Life with a Twist of Lemon`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jon Kohlmeier & Stan Lemon`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.`,
+    siteUrl: `https://twistoflemonpod.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `twistoflemonpod`,
     },
   },
   plugins: [
