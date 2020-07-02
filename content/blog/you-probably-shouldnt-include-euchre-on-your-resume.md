@@ -14,6 +14,10 @@ tags:
   - "jon-kohlmeier"
   - "life-with-a-twist-of-lemon"
   - "resume"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/057-lwatol-20190808.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

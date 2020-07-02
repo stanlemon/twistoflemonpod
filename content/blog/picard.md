@@ -14,6 +14,10 @@ tags:
   - "robovacuum"
   - "shoes"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/081-lwatol-20200130.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

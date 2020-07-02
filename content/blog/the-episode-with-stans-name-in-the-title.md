@@ -14,6 +14,10 @@ tags:
   - "life-with-a-twist-of-lemon"
   - "marvel"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/039-lwatol-20190404.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

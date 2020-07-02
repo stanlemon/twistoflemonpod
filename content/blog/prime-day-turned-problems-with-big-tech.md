@@ -17,6 +17,10 @@ tags:
   - "prime-day"
   - "smart-home"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/053-lwatol-20190718.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

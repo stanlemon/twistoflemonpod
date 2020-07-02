@@ -8,6 +8,10 @@ tags:
   - "home-buying"
   - "house-hunting"
   - "milkshake"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/010-lwatol-20180919.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

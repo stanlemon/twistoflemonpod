@@ -8,6 +8,10 @@ tags:
   - "ideal-week"
   - "milkshake"
   - "productivity"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/014-lwatol-20181018.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

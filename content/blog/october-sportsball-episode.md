@@ -12,6 +12,10 @@ tags:
   - "october"
   - "sports"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/065-lwatol-20191003.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

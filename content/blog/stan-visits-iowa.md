@@ -12,6 +12,10 @@ tags:
   - "milkshake"
   - "popcorn"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/034-lwatol-20190307.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

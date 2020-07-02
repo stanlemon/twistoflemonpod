@@ -14,6 +14,10 @@ tags:
   - "stan-lemon"
   - "taking-a-break"
   - "thanksgiving"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/074-lwatol-20191212.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

@@ -15,6 +15,10 @@ tags:
   - "screentime"
   - "top-5"
   - "twistoflemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/026-lwatol-20190110.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 ![Stan with Milkshake Poptarts](https://twistoflemonpod.com/wp-content/uploads/2019/01/stan-milkshake-poptarts-copy-768x1024.jpg)

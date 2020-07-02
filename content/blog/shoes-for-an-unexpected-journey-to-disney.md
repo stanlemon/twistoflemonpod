@@ -13,6 +13,10 @@ tags:
   - "life-with-a-twist-of-lemon"
   - "shoes"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/079-lwatol-20200116.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

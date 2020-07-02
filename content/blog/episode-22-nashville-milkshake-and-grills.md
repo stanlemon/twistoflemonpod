@@ -13,6 +13,10 @@ tags:
   - "nashville"
   - "wordcamp-us"
   - "wordpress"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/022-lwatol-20181213.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

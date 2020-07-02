@@ -16,6 +16,10 @@ tags:
   - "rise-of-skywalker"
   - "stan-lemon"
   - "star-wars"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/060-lwatol-20190829.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

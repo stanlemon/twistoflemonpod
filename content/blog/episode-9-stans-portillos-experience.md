@@ -7,6 +7,10 @@ tags:
   - "apple"
   - "cocktails"
   - "milkshake"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/009-lwatol-20180913.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener who may in fact be sick of hearing us talk about milkshakes,

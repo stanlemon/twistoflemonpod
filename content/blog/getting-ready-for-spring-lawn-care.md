@@ -12,6 +12,10 @@ tags:
   - "meat-rubs-by-fenker"
   - "stan-lemon"
   - "star-trek"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/085-lwatol-20200227mp3.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

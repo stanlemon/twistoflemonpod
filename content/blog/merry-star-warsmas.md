@@ -12,6 +12,10 @@ tags:
   - "life-with-a-twist-of-lemon"
   - "stan-lemon"
   - "star-wars"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/075-lwatol-20191219.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

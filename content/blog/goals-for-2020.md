@@ -11,6 +11,10 @@ tags:
   - "new-year"
   - "resolutions"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/077-lwatol-20200102.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

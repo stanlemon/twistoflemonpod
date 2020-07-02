@@ -17,6 +17,10 @@ tags:
   - "stan-lemon"
   - "task-manager"
   - "vacation"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/050-lwatol-20190620.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

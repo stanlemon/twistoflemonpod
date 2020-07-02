@@ -18,6 +18,10 @@ tags:
   - "refinance"
   - "stan-lemon"
   - "tacos"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/059-lwatol-20190822.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

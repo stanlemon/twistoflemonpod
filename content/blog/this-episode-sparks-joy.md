@@ -14,6 +14,10 @@ tags:
   - "purge"
   - "spark-joy"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/067-lwatol-20191017.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

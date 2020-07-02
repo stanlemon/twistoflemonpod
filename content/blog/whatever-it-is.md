@@ -20,6 +20,10 @@ tags:
   - "techcrawl"
   - "wine"
   - "zac-brown"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/066-lwatol-20191010.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

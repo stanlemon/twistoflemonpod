@@ -13,6 +13,10 @@ tags:
   - "reformation"
   - "technology"
   - "voting"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/017-lwatol-20181108.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 ![](https://twistoflemonpod.com/wp-content/uploads/2018/11/45327660_336045846945094_2409562380603228160_n-340x230.jpg)Dear Listener,

@@ -21,6 +21,10 @@ tags:
   - "technology"
   - "yard"
   - "yardwork"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/045-lwatol-20190516.mp3"
+  length: "222"
+  type: "audio/mpeg"
 ---
 
 Dear Listener,

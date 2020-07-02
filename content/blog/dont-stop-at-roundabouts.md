@@ -11,6 +11,10 @@ tags:
   - "life-with-a-twist-of-lemon"
   - "minimalism"
   - "stan-lemon"
+enclosure: 
+  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/069-lwatol-20191031.mp3"
+  length: ""
+  type: ""
 ---
 
 Dear Listener,

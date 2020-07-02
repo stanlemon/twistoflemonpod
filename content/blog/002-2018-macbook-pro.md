@@ -7,6 +7,10 @@ tags:
   - "apple"
   - "macbooks"
   - "technology"
+enclosure: 
+  url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/002-lwatol-20180801.mp3"
+  length: "221"
+  type: "audio/mpeg"
 ---
 
 Stan and Jon take a look at their current Apple products (specifically Mac) and workflows, talk about their history using Apple products, and take a look at the recently release MacBook Pro as they look toward purchasing updates.
