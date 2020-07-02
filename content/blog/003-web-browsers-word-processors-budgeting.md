@@ -29,7 +29,7 @@ tags:
     slug: "web-browsers"
 enclosure: 
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/003-lwatol-20180802.mp3"
-  length: "221"
+  length: 221
   type: "audio/mpeg"
 ---
 

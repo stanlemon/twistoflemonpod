@@ -41,8 +41,8 @@ tags:
     slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/11/070-lwatol-20191107.mp3"
-  length: ""
-  type: ""
+  length: 
+  type: 
 ---
 
 Dear Listener,

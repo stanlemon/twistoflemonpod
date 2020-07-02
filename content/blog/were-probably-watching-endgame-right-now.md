@@ -29,7 +29,7 @@ tags:
     slug: "marvel"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/042-lwatol-20190425.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 

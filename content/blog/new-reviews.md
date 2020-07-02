@@ -56,7 +56,7 @@ tags:
     slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/037-lwatol-20190321.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 

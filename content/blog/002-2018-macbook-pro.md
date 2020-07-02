@@ -17,7 +17,7 @@ tags:
     slug: "technology"
 enclosure: 
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/002-lwatol-20180801.mp3"
-  length: "221"
+  length: 221
   type: "audio/mpeg"
 ---
 

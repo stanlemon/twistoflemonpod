@@ -95,8 +95,19 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
-        categories
-        tags
+        enclosure {
+          url
+          length
+          type
+        }
+        categories {
+          name
+          slug
+        }
+        tags {
+          name
+          slug
+        }
       }
     }
   }

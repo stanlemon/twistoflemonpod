@@ -56,7 +56,7 @@ tags:
     slug: "weather"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/040-lwatol-20190411.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 

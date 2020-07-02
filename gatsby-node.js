@@ -75,3 +75,24 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+// This isn't needed right now, but I'm leaving it here in case I do in the future.
+/**
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  const typeDefs = `
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter!
+    }
+    type MarkdownRemarkFrontmatter {
+      enclosure: Enclosure @dontInfer
+    }
+    type Enclosure @dontInfer {
+        url: String
+        length: Int
+        type: String
+    }
+  `
+  createTypes(typeDefs)
+}
+*/

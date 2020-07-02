@@ -47,8 +47,8 @@ tags:
     slug: "star-wars"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/11/073-lwatol-20191128.mp3"
-  length: ""
-  type: ""
+  length: 
+  type: 
 ---
 
 Dear Listener,

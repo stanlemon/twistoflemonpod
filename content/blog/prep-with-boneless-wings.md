@@ -47,8 +47,8 @@ tags:
     slug: "wings"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/03/086-lwatol-20200305.mp3"
-  length: ""
-  type: ""
+  length: 
+  type: 
 ---
 
 Dear Listener,

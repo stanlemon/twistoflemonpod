@@ -50,7 +50,7 @@ tags:
     slug: "time-warrior"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/063-lwatol-20190919.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 

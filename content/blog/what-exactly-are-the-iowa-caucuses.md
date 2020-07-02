@@ -53,8 +53,8 @@ tags:
     slug: "super-bowl"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/082-lwatol-20200206.mp3"
-  length: ""
-  type: ""
+  length: 
+  type: 
 ---
 
 Dear Listener,

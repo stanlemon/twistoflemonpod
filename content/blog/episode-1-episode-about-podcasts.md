@@ -14,7 +14,7 @@ tags:
     slug: "podcasts"
 enclosure: 
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/001-lwatol-20180731.mp3"
-  length: "221"
+  length: 221
   type: "audio/mpeg"
 ---
 

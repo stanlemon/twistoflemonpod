@@ -23,7 +23,7 @@ tags:
     slug: "mortgage-rates"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/008-lwatol-20180906.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 

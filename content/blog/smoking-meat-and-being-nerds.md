@@ -56,7 +56,7 @@ tags:
     slug: "wwcd"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/047-lwatol-20190530.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 

@@ -35,8 +35,8 @@ tags:
     slug: "vacation"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/084-lwatol-20200220.mp3"
-  length: ""
-  type: ""
+  length: 
+  type: 
 ---
 
 Dear Listener,

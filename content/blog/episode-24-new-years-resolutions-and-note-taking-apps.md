@@ -29,7 +29,7 @@ tags:
     slug: "resolutions"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/024-lwatol-20181227.mp3"
-  length: "222"
+  length: 222
   type: "audio/mpeg"
 ---
 
