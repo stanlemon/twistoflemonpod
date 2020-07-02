@@ -2,18 +2,40 @@
 title: "Patrick Sturdivant: The First Listener (and our review of Endgame)"
 date: "2019-05-02T12:36:18.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "marvel"
-  - "movies"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Marvel"
+    slug: "marvel"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "endgame"
-  - "indianapolis"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "live-recording"
-  - "marvel"
-  - "steak"
+  - 
+    name: "endgame"
+    slug: "endgame"
+  - 
+    name: "indianapolis"
+    slug: "indianapolis"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "live recording"
+    slug: "live-recording"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "steak"
+    slug: "steak"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/043-lwatol-20190502.mp3"
   length: "222"

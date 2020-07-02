@@ -2,11 +2,19 @@
 title: "Episode 2 - The 2018 MacBook Pro"
 date: "2018-08-01T02:18:22.000Z"
 categories: 
-  - "general"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "apple"
-  - "macbooks"
-  - "technology"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "MacBooks"
+    slug: "macbooks"
+  - 
+    name: "technology"
+    slug: "technology"
 enclosure: 
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/002-lwatol-20180801.mp3"
   length: "221"

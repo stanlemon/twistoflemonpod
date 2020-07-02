@@ -2,17 +2,37 @@
 title: "A Philosophical Debate on Mac & Cheese"
 date: "2019-11-14T13:10:51.000Z"
 categories: 
-  - "food"
-  - "general"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "boots"
-  - "jon-kohlmeier"
-  - "life-tip"
-  - "life-with-a-twist-of-lemon"
-  - "mac-cheese"
-  - "minimalism"
-  - "single-use-kitchen-gadgets"
-  - "stan-lemon"
+  - 
+    name: "boots"
+    slug: "boots"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life tip"
+    slug: "life-tip"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "Mac &amp; cheese"
+    slug: "mac-cheese"
+  - 
+    name: "minimalism"
+    slug: "minimalism"
+  - 
+    name: "single use kitchen gadgets"
+    slug: "single-use-kitchen-gadgets"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/11/071-lwatol-20191114.mp3"
   length: ""

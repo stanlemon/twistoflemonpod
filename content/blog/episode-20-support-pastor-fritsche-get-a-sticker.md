@@ -2,15 +2,31 @@
 title: "Episode 20 - Support Pastor Fritsche, get a Sticker."
 date: "2018-11-29T08:00:56.000Z"
 categories: 
-  - "general"
-  - "technology"
-  - "theology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Technology"
+    slug: "technology"
+  - 
+    name: "Theology"
+    slug: "theology"
 tags: 
-  - "advent"
-  - "cph"
-  - "fritsche"
-  - "giving"
-  - "gmail"
+  - 
+    name: "advent"
+    slug: "advent"
+  - 
+    name: "cph"
+    slug: "cph"
+  - 
+    name: "Fritsche"
+    slug: "fritsche"
+  - 
+    name: "giving"
+    slug: "giving"
+  - 
+    name: "gmail"
+    slug: "gmail"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/020-lwatol-20181129.mp3"
   length: "222"

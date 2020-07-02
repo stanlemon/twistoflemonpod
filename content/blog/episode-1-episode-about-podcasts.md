@@ -2,10 +2,16 @@
 title: "Episode 1 - A Podcast Episode About Podcasts?"
 date: "2018-07-30T23:20:55.000Z"
 categories: 
-  - "general"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "podcasting"
-  - "podcasts"
+  - 
+    name: "podcasting"
+    slug: "podcasting"
+  - 
+    name: "podcasts"
+    slug: "podcasts"
 enclosure: 
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/001-lwatol-20180731.mp3"
   length: "221"

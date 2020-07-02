@@ -2,22 +2,52 @@
 title: "Life Updates"
 date: "2019-09-19T13:51:54.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "productivity"
-  - "technology"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Productivity"
+    slug: "productivity"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "art-of-manliness"
-  - "bicycle"
-  - "books"
-  - "breaks"
-  - "ecobee"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "maintence"
-  - "reading"
-  - "stan-lemon"
-  - "time-warrior"
+  - 
+    name: "art of manliness"
+    slug: "art-of-manliness"
+  - 
+    name: "bicycle"
+    slug: "bicycle"
+  - 
+    name: "books"
+    slug: "books"
+  - 
+    name: "breaks"
+    slug: "breaks"
+  - 
+    name: "ecobee"
+    slug: "ecobee"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "maintence"
+    slug: "maintence"
+  - 
+    name: "reading"
+    slug: "reading"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "time warrior"
+    slug: "time-warrior"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/063-lwatol-20190919.mp3"
   length: "222"

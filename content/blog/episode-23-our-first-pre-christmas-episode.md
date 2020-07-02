@@ -2,16 +2,34 @@
 title: "Episode 23 - Our First Pre-Christmas Episode"
 date: "2018-12-20T12:37:29.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "movies"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "avengers"
-  - "christmas"
-  - "eggnog"
-  - "food"
-  - "fritsche"
-  - "milkshake"
+  - 
+    name: "avengers"
+    slug: "avengers"
+  - 
+    name: "Christmas"
+    slug: "christmas"
+  - 
+    name: "eggnog"
+    slug: "eggnog"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "Fritsche"
+    slug: "fritsche"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/023-lwatol-20181220.mp3"
   length: "222"

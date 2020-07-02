@@ -2,17 +2,37 @@
 title: "Rise of the Resistance Resists the Lemon"
 date: "2020-02-20T14:38:44.000Z"
 categories: 
-  - "general"
-  - "movies"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "disney-world"
-  - "disney"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "stan-lemon"
-  - "star-wars"
-  - "trip"
-  - "vacation"
+  - 
+    name: "Disney world"
+    slug: "disney-world"
+  - 
+    name: "disney+"
+    slug: "disney"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "star wars"
+    slug: "star-wars"
+  - 
+    name: "trip"
+    slug: "trip"
+  - 
+    name: "vacation"
+    slug: "vacation"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/084-lwatol-20200220.mp3"
   length: ""

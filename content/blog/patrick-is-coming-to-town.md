@@ -2,23 +2,55 @@
 title: "Patrick is Coming to Town!"
 date: "2019-02-28T13:12:39.000Z"
 categories: 
-  - "finance"
-  - "food"
-  - "general"
-  - "movies"
-  - "technology"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "avengers"
-  - "banking"
-  - "finance"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "marvel"
-  - "milkshake"
-  - "patrick"
-  - "stan-lemon"
-  - "wealfront"
-  - "web-design"
+  - 
+    name: "avengers"
+    slug: "avengers"
+  - 
+    name: "banking"
+    slug: "banking"
+  - 
+    name: "finance"
+    slug: "finance"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
+  - 
+    name: "patrick"
+    slug: "patrick"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "wealfront"
+    slug: "wealfront"
+  - 
+    name: "web design"
+    slug: "web-design"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/02/033-lwatol-20190228.mp3"
   length: "222"

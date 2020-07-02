@@ -2,16 +2,34 @@
 title: "Merry Star Warsmas"
 date: "2019-12-19T13:49:58.000Z"
 categories: 
-  - "general"
-  - "movies"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "christmas"
-  - "holiday"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "stan-lemon"
-  - "star-wars"
+  - 
+    name: "Christmas"
+    slug: "christmas"
+  - 
+    name: "holiday"
+    slug: "holiday"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "star wars"
+    slug: "star-wars"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/075-lwatol-20191219.mp3"
   length: ""

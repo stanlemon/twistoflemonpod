@@ -2,15 +2,31 @@
 title: "Episode 15 - Would Sidd Finch like Marvel Netflix Series (or milkshakes)?"
 date: "2018-10-25T11:59:12.000Z"
 categories: 
-  - "general"
-  - "house-hunting"
-  - "movies"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "House Hunting"
+    slug: "house-hunting"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "book-recommendations"
-  - "house-hunting"
-  - "marvel"
-  - "meat-rubs"
-  - "milkshake"
+  - 
+    name: "book recommendations"
+    slug: "book-recommendations"
+  - 
+    name: "house hunting"
+    slug: "house-hunting"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "meat rubs"
+    slug: "meat-rubs"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/015-lwatol-20181025.mp3"
   length: "222"

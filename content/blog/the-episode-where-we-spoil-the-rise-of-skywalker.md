@@ -2,17 +2,37 @@
 title: "The Episode Where We Spoil The Rise of Skywalker"
 date: "2019-12-26T16:00:45.000Z"
 categories: 
-  - "general"
-  - "movies"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "movies"
-  - "spoilers"
-  - "stan-lemon"
-  - "star-wars"
-  - "the-rise-of-skywalker"
-  - "warby-parker"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "movies"
+    slug: "movies"
+  - 
+    name: "spoilers"
+    slug: "spoilers"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "star wars"
+    slug: "star-wars"
+  - 
+    name: "the rise of skywalker"
+    slug: "the-rise-of-skywalker"
+  - 
+    name: "Warby parker"
+    slug: "warby-parker"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/076-lwatol-20191236.mp3"
   length: ""

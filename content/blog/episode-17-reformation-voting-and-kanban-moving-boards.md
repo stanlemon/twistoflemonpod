@@ -2,17 +2,37 @@
 title: "Episode 17 - Reformation, Voting, and Kanban Moving Boards"
 date: "2018-11-08T13:00:16.000Z"
 categories: 
-  - "general"
-  - "house-hunting"
-  - "productivity"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "House Hunting"
+    slug: "house-hunting"
+  - 
+    name: "Productivity"
+    slug: "productivity"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "kanban"
-  - "moving"
-  - "politics"
-  - "reformation"
-  - "technology"
-  - "voting"
+  - 
+    name: "kanban"
+    slug: "kanban"
+  - 
+    name: "moving"
+    slug: "moving"
+  - 
+    name: "politics"
+    slug: "politics"
+  - 
+    name: "reformation"
+    slug: "reformation"
+  - 
+    name: "technology"
+    slug: "technology"
+  - 
+    name: "voting"
+    slug: "voting"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/017-lwatol-20181108.mp3"
   length: "222"

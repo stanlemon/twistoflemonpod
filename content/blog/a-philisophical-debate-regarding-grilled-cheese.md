@@ -2,18 +2,40 @@
 title: "A Philosophical​ Debate regarding Grilled Cheese"
 date: "2019-03-14T12:22:06.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "home-ownership"
-  - "movies"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Home Ownership"
+    slug: "home-ownership"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "grilled-cheese"
-  - "hamburg-inn"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "milkshake"
-  - "milkshakes"
-  - "stan-lemon"
+  - 
+    name: "grilled cheese"
+    slug: "grilled-cheese"
+  - 
+    name: "Hamburg inn"
+    slug: "hamburg-inn"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
+  - 
+    name: "milkshakes"
+    slug: "milkshakes"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/036-lwatol-20190314.mp3"
   length: "222"

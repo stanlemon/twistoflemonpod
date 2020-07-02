@@ -2,17 +2,37 @@
 title: "Episode 13 -  Apple Money Grab... or security concerns?"
 date: "2018-10-11T11:32:45.000Z"
 categories: 
-  - "finance"
-  - "general"
-  - "house-hunting"
-  - "technology"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "House Hunting"
+    slug: "house-hunting"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apple"
-  - "mortgage"
-  - "privacy"
-  - "savings"
-  - "security"
-  - "tech"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "mortgage"
+    slug: "mortgage"
+  - 
+    name: "privacy"
+    slug: "privacy"
+  - 
+    name: "savings"
+    slug: "savings"
+  - 
+    name: "security"
+    slug: "security"
+  - 
+    name: "tech"
+    slug: "tech"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/013-lwatol-20181011.mp3"
   length: "222"

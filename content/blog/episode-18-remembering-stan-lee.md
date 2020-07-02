@@ -2,17 +2,37 @@
 title: "Episode 18 - Remembering Stan Lee"
 date: "2018-11-15T12:29:40.000Z"
 categories: 
-  - "general"
-  - "movies"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "chicago"
-  - "comics"
-  - "food"
-  - "marvel"
-  - "movies"
-  - "moving"
-  - "politics"
-  - "stan-lee"
+  - 
+    name: "chicago"
+    slug: "chicago"
+  - 
+    name: "comics"
+    slug: "comics"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "movies"
+    slug: "movies"
+  - 
+    name: "moving"
+    slug: "moving"
+  - 
+    name: "politics"
+    slug: "politics"
+  - 
+    name: "stan lee"
+    slug: "stan-lee"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/018-lwatol-20181115.mp3"
   length: "222"

@@ -2,13 +2,25 @@
 title: "Episode 8 - If you don't buy milkshakes with your money, save for a house!"
 date: "2018-09-06T07:00:48.000Z"
 categories: 
-  - "finance"
-  - "general"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "finance"
-  - "money"
-  - "mortgage"
-  - "mortgage-rates"
+  - 
+    name: "finance"
+    slug: "finance"
+  - 
+    name: "money"
+    slug: "money"
+  - 
+    name: "mortgage"
+    slug: "mortgage"
+  - 
+    name: "mortgage rates"
+    slug: "mortgage-rates"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/008-lwatol-20180906.mp3"
   length: "222"

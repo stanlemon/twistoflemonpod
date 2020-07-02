@@ -2,22 +2,52 @@
 title: "Bad Reddit Intel From Patrick"
 date: "2019-03-28T12:51:27.000Z"
 categories: 
-  - "general"
-  - "marvel"
-  - "movies"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Marvel"
+    slug: "marvel"
+  - 
+    name: "Movies"
+    slug: "movies"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "airpods"
-  - "apple"
-  - "avengers"
-  - "endgame"
-  - "food"
-  - "grilled-cheese"
-  - "ipad"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "marvel"
-  - "stan-lemon"
+  - 
+    name: "airpods"
+    slug: "airpods"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "avengers"
+    slug: "avengers"
+  - 
+    name: "endgame"
+    slug: "endgame"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "grilled cheese"
+    slug: "grilled-cheese"
+  - 
+    name: "ipad"
+    slug: "ipad"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/038-lwatol-20190328.mp3"
   length: "222"

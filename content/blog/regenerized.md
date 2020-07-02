@@ -2,18 +2,40 @@
 title: "Regenerized"
 date: "2019-12-12T15:32:25.000Z"
 categories: 
-  - "career-advice"
-  - "general"
-  - "productivity"
-  - "technology"
+  - 
+    name: "Career Advice"
+    slug: "career-advice"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Productivity"
+    slug: "productivity"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "personal-development"
-  - "productivity"
-  - "stan-lemon"
-  - "taking-a-break"
-  - "thanksgiving"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "personal development"
+    slug: "personal-development"
+  - 
+    name: "productivity"
+    slug: "productivity"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "taking a break"
+    slug: "taking-a-break"
+  - 
+    name: "thanksgiving"
+    slug: "thanksgiving"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/074-lwatol-20191212.mp3"
   length: ""

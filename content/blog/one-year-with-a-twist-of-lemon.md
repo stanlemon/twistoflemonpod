@@ -2,15 +2,31 @@
 title: "One Year with a Twist of Lemon"
 date: "2019-07-25T14:42:49.000Z"
 categories: 
-  - "general"
-  - "marvel"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Marvel"
+    slug: "marvel"
 tags: 
-  - "anniversary"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "listeners"
-  - "marvel"
-  - "stan-lemon"
+  - 
+    name: "anniversary"
+    slug: "anniversary"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "listeners"
+    slug: "listeners"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/055-lwatol-20190725.mp3"
   length: "222"

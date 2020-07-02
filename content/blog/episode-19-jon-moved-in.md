@@ -2,15 +2,31 @@
 title: "Episode 19 - Jon Moved In!"
 date: "2018-11-22T13:40:16.000Z"
 categories: 
-  - "general"
-  - "house-hunting"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "House Hunting"
+    slug: "house-hunting"
 tags: 
-  - "closing"
-  - "itunes"
-  - "moving"
-  - "reviews"
-  - "special-announcement"
-  - "thanksgiving"
+  - 
+    name: "closing"
+    slug: "closing"
+  - 
+    name: "iTunes"
+    slug: "itunes"
+  - 
+    name: "moving"
+    slug: "moving"
+  - 
+    name: "reviews"
+    slug: "reviews"
+  - 
+    name: "special announcement"
+    slug: "special-announcement"
+  - 
+    name: "thanksgiving"
+    slug: "thanksgiving"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/019-lwatol-20181122.mp3"
   length: "222"

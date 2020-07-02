@@ -2,11 +2,19 @@
 title: "Some Rather Sour Grievances - Festivus 2018"
 date: "2018-12-23T19:24:36.000Z"
 categories: 
-  - "general"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "festivus"
-  - "grievances"
-  - "holiday"
+  - 
+    name: "festivus"
+    slug: "festivus"
+  - 
+    name: "grievances"
+    slug: "grievances"
+  - 
+    name: "holiday"
+    slug: "holiday"
 enclosure: ""
 ---
 

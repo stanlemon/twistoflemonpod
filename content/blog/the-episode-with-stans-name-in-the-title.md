@@ -2,18 +2,40 @@
 title: "The Episode with Stan's Name in the Title"
 date: "2019-04-04T12:30:12.000Z"
 categories: 
-  - "general"
-  - "marvel"
-  - "movies"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Marvel"
+    slug: "marvel"
+  - 
+    name: "Movies"
+    slug: "movies"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apple"
-  - "avengers"
-  - "endgame"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "marvel"
-  - "stan-lemon"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "avengers"
+    slug: "avengers"
+  - 
+    name: "endgame"
+    slug: "endgame"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/039-lwatol-20190404.mp3"
   length: "222"

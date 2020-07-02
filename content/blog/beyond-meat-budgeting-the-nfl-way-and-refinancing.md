@@ -2,22 +2,52 @@
 title: "Beyond Meat, Budgeting the NFL way, and Refinancing"
 date: "2019-08-22T11:34:12.000Z"
 categories: 
-  - "finance"
-  - "food"
-  - "general"
-  - "home-ownership"
-  - "house-hunting"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Home Ownership"
+    slug: "home-ownership"
+  - 
+    name: "House Hunting"
+    slug: "house-hunting"
 tags: 
-  - "beyond-meat"
-  - "budgeting"
-  - "food"
-  - "impossible-meat"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "mortgage"
-  - "refinance"
-  - "stan-lemon"
-  - "tacos"
+  - 
+    name: "beyond meat"
+    slug: "beyond-meat"
+  - 
+    name: "budgeting"
+    slug: "budgeting"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "impossible meat"
+    slug: "impossible-meat"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "mortgage"
+    slug: "mortgage"
+  - 
+    name: "refinance"
+    slug: "refinance"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "tacos"
+    slug: "tacos"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/059-lwatol-20190822.mp3"
   length: "222"

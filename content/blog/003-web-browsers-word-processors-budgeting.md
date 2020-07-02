@@ -2,15 +2,31 @@
 title: "Episode 3 - Web Browsers, Word Processors, and Budgeting"
 date: "2018-08-02T03:24:08.000Z"
 categories: 
-  - "finance"
-  - "general"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "budgeting"
-  - "finance"
-  - "firefox"
-  - "netscape"
-  - "office"
-  - "web-browsers"
+  - 
+    name: "budgeting"
+    slug: "budgeting"
+  - 
+    name: "finance"
+    slug: "finance"
+  - 
+    name: "firefox"
+    slug: "firefox"
+  - 
+    name: "netscape"
+    slug: "netscape"
+  - 
+    name: "office"
+    slug: "office"
+  - 
+    name: "web browsers"
+    slug: "web-browsers"
 enclosure: 
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/003-lwatol-20180802.mp3"
   length: "221"

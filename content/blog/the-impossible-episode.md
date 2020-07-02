@@ -2,22 +2,52 @@
 title: "The Impossible Episode"
 date: "2019-08-15T14:49:57.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "home-ownership"
-  - "technology"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Home Ownership"
+    slug: "home-ownership"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apple-card"
-  - "baseball"
-  - "birthday"
-  - "buetow"
-  - "burger-king"
-  - "impossible-meat"
-  - "impossible-whopper"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "mortgage"
-  - "stan-lemon"
+  - 
+    name: "apple card"
+    slug: "apple-card"
+  - 
+    name: "baseball"
+    slug: "baseball"
+  - 
+    name: "birthday"
+    slug: "birthday"
+  - 
+    name: "buetow"
+    slug: "buetow"
+  - 
+    name: "burger king"
+    slug: "burger-king"
+  - 
+    name: "impossible meat"
+    slug: "impossible-meat"
+  - 
+    name: "impossible whopper"
+    slug: "impossible-whopper"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "mortgage"
+    slug: "mortgage"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/058-lwatol-20190815.mp3"
   length: "222"

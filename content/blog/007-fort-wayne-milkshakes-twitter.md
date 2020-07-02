@@ -2,11 +2,19 @@
 title: "Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter"
 date: "2018-08-30T07:00:54.000Z"
 categories: 
-  - "general"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "fort-wayne"
-  - "macintosh"
-  - "milkshake"
+  - 
+    name: "Fort Wayne"
+    slug: "fort-wayne"
+  - 
+    name: "Macintosh"
+    slug: "macintosh"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/007-lwatol-20180830.mp3"
   length: "222"

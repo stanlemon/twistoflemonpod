@@ -2,17 +2,37 @@
 title: "Shoes for An Unexpected Journey to Disney"
 date: "2020-01-16T13:13:41.000Z"
 categories: 
-  - "books"
-  - "general"
+  - 
+    name: "books"
+    slug: "books"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "ad-blocker"
-  - "books"
-  - "hobbit"
-  - "jeopardy"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "shoes"
-  - "stan-lemon"
+  - 
+    name: "ad blocker"
+    slug: "ad-blocker"
+  - 
+    name: "books"
+    slug: "books"
+  - 
+    name: "hobbit"
+    slug: "hobbit"
+  - 
+    name: "jeopardy"
+    slug: "jeopardy"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "shoes"
+    slug: "shoes"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/079-lwatol-20200116.mp3"
   length: ""

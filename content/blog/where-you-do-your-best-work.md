@@ -2,21 +2,49 @@
 title: "Where You Do Your Best Work"
 date: "2019-06-06T12:25:03.000Z"
 categories: 
-  - "general"
-  - "productivity"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Productivity"
+    slug: "productivity"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apple"
-  - "itunes"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "productivity"
-  - "review"
-  - "stan-lemon"
-  - "star-trek"
-  - "where-you-do-your-best-work"
-  - "work"
-  - "wwdc"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "iTunes"
+    slug: "itunes"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "productivity"
+    slug: "productivity"
+  - 
+    name: "review"
+    slug: "review"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "star trek"
+    slug: "star-trek"
+  - 
+    name: "where you do your best work"
+    slug: "where-you-do-your-best-work"
+  - 
+    name: "work"
+    slug: "work"
+  - 
+    name: "wwdc"
+    slug: "wwdc"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/048-lwatol-20190606.mp3"
   length: "222"

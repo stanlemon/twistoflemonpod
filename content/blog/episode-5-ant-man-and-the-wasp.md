@@ -2,12 +2,22 @@
 title: "Episode 5 - Ant Man and the Wasp"
 date: "2018-08-16T07:00:40.000Z"
 categories: 
-  - "general"
-  - "movies"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "ant-man"
-  - "marvel"
-  - "movies"
+  - 
+    name: "ant man"
+    slug: "ant-man"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "movies"
+    slug: "movies"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/005-lwatol-20180816.mp3"
   length: "222"

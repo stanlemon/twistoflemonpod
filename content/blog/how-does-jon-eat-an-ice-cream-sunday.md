@@ -2,23 +2,55 @@
 title: "How Does Jon Eat an Ice Cream Sunday?"
 date: "2019-06-27T11:29:27.000Z"
 categories: 
-  - "finance"
-  - "general"
-  - "technology"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "banking"
-  - "catalina"
-  - "customer-support"
-  - "finance"
-  - "food"
-  - "ice-cream"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "mac"
-  - "macos"
-  - "spoons"
-  - "stan-lemon"
-  - "wifi"
+  - 
+    name: "banking"
+    slug: "banking"
+  - 
+    name: "catalina"
+    slug: "catalina"
+  - 
+    name: "customer support"
+    slug: "customer-support"
+  - 
+    name: "finance"
+    slug: "finance"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "ice cream"
+    slug: "ice-cream"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "mac"
+    slug: "mac"
+  - 
+    name: "macos"
+    slug: "macos"
+  - 
+    name: "spoons"
+    slug: "spoons"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "wifi"
+    slug: "wifi"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/051-lwatol-20190627.mp3"
   length: "222"

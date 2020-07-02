@@ -2,25 +2,61 @@
 title: "Manhattans, Mac mini, and Jon's new Router"
 date: "2020-01-09T15:16:55.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "technology"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "2020"
-  - "amazon"
-  - "books"
-  - "eero"
-  - "goals"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "mac"
-  - "mac-mini"
-  - "manhattan"
-  - "milkshakes"
-  - "resolution"
-  - "router"
-  - "stan-lemon"
-  - "tv"
+  - 
+    name: "2020"
+    slug: "2020"
+  - 
+    name: "amazon"
+    slug: "amazon"
+  - 
+    name: "books"
+    slug: "books"
+  - 
+    name: "eero"
+    slug: "eero"
+  - 
+    name: "goals"
+    slug: "goals"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "mac"
+    slug: "mac"
+  - 
+    name: "Mac mini"
+    slug: "mac-mini"
+  - 
+    name: "manhattan"
+    slug: "manhattan"
+  - 
+    name: "milkshakes"
+    slug: "milkshakes"
+  - 
+    name: "resolution"
+    slug: "resolution"
+  - 
+    name: "router"
+    slug: "router"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "tv"
+    slug: "tv"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/078-lwatol-20200109.mp3"
   length: ""

@@ -2,12 +2,22 @@
 title: "Episode 10 - What to look for when looking at Houses (Top 10!)"
 date: "2018-09-20T07:00:24.000Z"
 categories: 
-  - "general"
-  - "house-hunting"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "House Hunting"
+    slug: "house-hunting"
 tags: 
-  - "home-buying"
-  - "house-hunting"
-  - "milkshake"
+  - 
+    name: "home buying"
+    slug: "home-buying"
+  - 
+    name: "house hunting"
+    slug: "house-hunting"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/010-lwatol-20180919.mp3"
   length: "222"

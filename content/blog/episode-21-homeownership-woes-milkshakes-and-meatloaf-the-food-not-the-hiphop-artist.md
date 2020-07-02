@@ -2,15 +2,31 @@
 title: "Episode 21 - Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)"
 date: "2018-12-06T12:29:47.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "home-ownership"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Home Ownership"
+    slug: "home-ownership"
 tags: 
-  - "diy-fixes"
-  - "food"
-  - "homeownership"
-  - "meatloaf"
-  - "milkshake"
+  - 
+    name: "DIY fixes"
+    slug: "diy-fixes"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "homeownership"
+    slug: "homeownership"
+  - 
+    name: "meatloaf"
+    slug: "meatloaf"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/021-lwatol-20181206.mp3"
   length: "222"

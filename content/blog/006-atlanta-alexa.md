@@ -2,14 +2,28 @@
 title: "Episode 6 - Atlanta and Alexa"
 date: "2018-08-23T07:00:51.000Z"
 categories: 
-  - "general"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "alexa"
-  - "atlanta"
-  - "echo"
-  - "smart-home"
-  - "technology"
+  - 
+    name: "Alexa"
+    slug: "alexa"
+  - 
+    name: "Atlanta"
+    slug: "atlanta"
+  - 
+    name: "echo"
+    slug: "echo"
+  - 
+    name: "smart home"
+    slug: "smart-home"
+  - 
+    name: "technology"
+    slug: "technology"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/006-lwatol-20180822.mp3"
   length: "222"

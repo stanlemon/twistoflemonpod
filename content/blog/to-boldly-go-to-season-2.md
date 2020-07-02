@@ -2,15 +2,31 @@
 title: "To Boldly Go.... to Season 2"
 date: "2019-08-01T13:24:46.000Z"
 categories: 
-  - "general"
-  - "marvel"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Marvel"
+    slug: "marvel"
 tags: 
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "marvel"
-  - "podcast"
-  - "router"
-  - "star-trek"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "podcast"
+    slug: "podcast"
+  - 
+    name: "router"
+    slug: "router"
+  - 
+    name: "star trek"
+    slug: "star-trek"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/056-lwatol-20190801.mp3"
   length: "222"

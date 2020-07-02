@@ -2,19 +2,43 @@
 title: "Jon has friends other than Stan!"
 date: "2019-05-09T12:42:46.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "marvel"
-  - "movies"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Marvel"
+    slug: "marvel"
+  - 
+    name: "Movies"
+    slug: "movies"
 tags: 
-  - "grilled-cheese"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "marvel"
-  - "movie"
-  - "spiderman"
-  - "stan-lemon"
-  - "trailer"
+  - 
+    name: "grilled cheese"
+    slug: "grilled-cheese"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "marvel"
+    slug: "marvel"
+  - 
+    name: "movie"
+    slug: "movie"
+  - 
+    name: "spiderman"
+    slug: "spiderman"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "trailer"
+    slug: "trailer"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/044-lwatol-20190509.mp3"
   length: "222"

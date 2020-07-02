@@ -2,18 +2,40 @@
 title: "Picard"
 date: "2020-01-30T14:59:15.000Z"
 categories: 
-  - "general"
-  - "movies"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Movies"
+    slug: "movies"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "jon-kohlmeier"
-  - "life-tip"
-  - "life-with-a-twist-of-lemon"
-  - "minimalism"
-  - "picard"
-  - "robovacuum"
-  - "shoes"
-  - "stan-lemon"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life tip"
+    slug: "life-tip"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "minimalism"
+    slug: "minimalism"
+  - 
+    name: "picard"
+    slug: "picard"
+  - 
+    name: "robovacuum"
+    slug: "robovacuum"
+  - 
+    name: "shoes"
+    slug: "shoes"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/081-lwatol-20200130.mp3"
   length: ""

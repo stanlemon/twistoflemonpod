@@ -2,15 +2,31 @@
 title: "Goals for 2020"
 date: "2020-01-02T14:10:01.000Z"
 categories: 
-  - "general"
+  - 
+    name: "General"
+    slug: "general"
 tags: 
-  - "2020"
-  - "goals"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "new-year"
-  - "resolutions"
-  - "stan-lemon"
+  - 
+    name: "2020"
+    slug: "2020"
+  - 
+    name: "goals"
+    slug: "goals"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "new year"
+    slug: "new-year"
+  - 
+    name: "resolutions"
+    slug: "resolutions"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/077-lwatol-20200102.mp3"
   length: ""

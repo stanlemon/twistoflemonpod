@@ -2,15 +2,31 @@
 title: "Episode 24 - New Year's Resolutions and Note-Taking Apps."
 date: "2018-12-27T16:19:26.000Z"
 categories: 
-  - "general"
-  - "productivity"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Productivity"
+    slug: "productivity"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apps"
-  - "fritsche"
-  - "iphone"
-  - "new-year"
-  - "resolutions"
+  - 
+    name: "apps"
+    slug: "apps"
+  - 
+    name: "Fritsche"
+    slug: "fritsche"
+  - 
+    name: "iPhone"
+    slug: "iphone"
+  - 
+    name: "new year"
+    slug: "new-year"
+  - 
+    name: "resolutions"
+    slug: "resolutions"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/024-lwatol-20181227.mp3"
   length: "222"

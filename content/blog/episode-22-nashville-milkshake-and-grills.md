@@ -2,17 +2,37 @@
 title: "Episode 22 - Nashville Milkshake and Grills"
 date: "2018-12-13T13:12:47.000Z"
 categories: 
-  - "food"
-  - "general"
-  - "home-ownership"
-  - "technology"
+  - 
+    name: "Food"
+    slug: "food"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Home Ownership"
+    slug: "home-ownership"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "food"
-  - "homeownership"
-  - "milkshake"
-  - "nashville"
-  - "wordcamp-us"
-  - "wordpress"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "homeownership"
+    slug: "homeownership"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
+  - 
+    name: "nashville"
+    slug: "nashville"
+  - 
+    name: "wordcamp us"
+    slug: "wordcamp-us"
+  - 
+    name: "WordPress"
+    slug: "wordpress"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/022-lwatol-20181213.mp3"
   length: "222"

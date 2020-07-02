@@ -2,13 +2,25 @@
 title: "Episode 11 - Meat Rubs, New Apple Toys, Investing 101"
 date: "2018-09-27T10:38:53.000Z"
 categories: 
-  - "finance"
-  - "general"
-  - "technology"
+  - 
+    name: "Finance"
+    slug: "finance"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apple"
-  - "investing"
-  - "milkshake"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "investing"
+    slug: "investing"
+  - 
+    name: "Milkshake"
+    slug: "milkshake"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/011-lwatol-20180927.mp3"
   length: "222"

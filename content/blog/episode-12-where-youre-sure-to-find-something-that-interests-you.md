@@ -2,14 +2,28 @@
 title: "Episode 12 - Where you're sure to find something that interests you"
 date: "2018-10-04T07:00:36.000Z"
 categories: 
-  - "general"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "apollo-8"
-  - "apple"
-  - "food"
-  - "recipes"
-  - "tech"
+  - 
+    name: "Apollo 8"
+    slug: "apollo-8"
+  - 
+    name: "apple"
+    slug: "apple"
+  - 
+    name: "food"
+    slug: "food"
+  - 
+    name: "recipes"
+    slug: "recipes"
+  - 
+    name: "tech"
+    slug: "tech"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/012-lwatol-20181003.mp3"
   length: "222"

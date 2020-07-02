@@ -2,18 +2,40 @@
 title: "Episode 31 - Snow, Football, Star Trek and Twitter"
 date: "2019-02-14T13:11:53.000Z"
 categories: 
-  - "general"
-  - "home-ownership"
-  - "movies"
-  - "technology"
+  - 
+    name: "General"
+    slug: "general"
+  - 
+    name: "Home Ownership"
+    slug: "home-ownership"
+  - 
+    name: "Movies"
+    slug: "movies"
+  - 
+    name: "Technology"
+    slug: "technology"
 tags: 
-  - "football"
-  - "jon-kohlmeier"
-  - "life-with-a-twist-of-lemon"
-  - "snowblower"
-  - "stan-lemon"
-  - "star-trek"
-  - "twitter"
+  - 
+    name: "football"
+    slug: "football"
+  - 
+    name: "jon kohlmeier"
+    slug: "jon-kohlmeier"
+  - 
+    name: "life with a twist of lemon"
+    slug: "life-with-a-twist-of-lemon"
+  - 
+    name: "snowblower"
+    slug: "snowblower"
+  - 
+    name: "stan lemon"
+    slug: "stan-lemon"
+  - 
+    name: "star trek"
+    slug: "star-trek"
+  - 
+    name: "twitter"
+    slug: "twitter"
 enclosure: 
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/02/031-lwatol-20190214.mp3"
   length: "222"
