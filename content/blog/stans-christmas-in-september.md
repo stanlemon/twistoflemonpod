@@ -1,63 +1,45 @@
 ---
 title: "Stan's Christmas in September"
 date: "2019-09-12T21:01:49.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "apple arcade"
+  - name: "apple arcade"
     slug: "apple-arcade"
-  - 
-    name: "apple event"
+  - name: "apple event"
     slug: "apple-event"
-  - 
-    name: "apple tv"
+  - name: "apple tv"
     slug: "apple-tv"
-  - 
-    name: "apple watch"
+  - name: "apple watch"
     slug: "apple-watch"
-  - 
-    name: "backup"
+  - name: "backup"
     slug: "backup"
-  - 
-    name: "baseball"
+  - name: "baseball"
     slug: "baseball"
-  - 
-    name: "computer"
+  - name: "computer"
     slug: "computer"
-  - 
-    name: "iPhone"
+  - name: "iPhone"
     slug: "iphone"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "little league"
+  - name: "little league"
     slug: "little-league"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "taco bell"
+  - name: "taco bell"
     slug: "taco-bell"
-  - 
-    name: "wendys"
+  - name: "wendys"
     slug: "wendys"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/062-lwatol-20190912.mp3"
   length: 222
   type: "audio/mpeg"

@@ -1,48 +1,35 @@
 ---
 title: "What Makes a Good Meeting"
 date: "2019-06-13T13:15:39.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "agenda"
+tags:
+  - name: "agenda"
     slug: "agenda"
-  - 
-    name: "communication"
+  - name: "communication"
     slug: "communication"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "meetings"
+  - name: "meetings"
     slug: "meetings"
-  - 
-    name: "productivity"
+  - name: "productivity"
     slug: "productivity"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "where you do your best work"
+  - name: "where you do your best work"
     slug: "where-you-do-your-best-work"
-  - 
-    name: "work"
+  - name: "work"
     slug: "work"
-  - 
-    name: "writing"
+  - name: "writing"
     slug: "writing"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/049-lwatol-20190613.mp3"
   length: 222
   type: "audio/mpeg"

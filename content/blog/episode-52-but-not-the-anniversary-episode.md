@@ -1,57 +1,41 @@
 ---
 title: "Episode 52 But Not the Anniversary Episode."
 date: "2019-07-04T15:17:11.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "Food"
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Marvel"
+  - name: "Marvel"
     slug: "marvel"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "finance"
+  - name: "finance"
     slug: "finance"
-  - 
-    name: "ice cream"
+  - name: "ice cream"
     slug: "ice-cream"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "jony ive"
+  - name: "jony ive"
     slug: "jony-ive"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "mac"
+  - name: "mac"
     slug: "mac"
-  - 
-    name: "milkshakes"
+  - name: "milkshakes"
     slug: "milkshakes"
-  - 
-    name: "mortgage"
+  - name: "mortgage"
     slug: "mortgage"
-  - 
-    name: "spiderman"
+  - name: "spiderman"
     slug: "spiderman"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/052-lwatol-20190704.mp3"
   length: 222
   type: "audio/mpeg"

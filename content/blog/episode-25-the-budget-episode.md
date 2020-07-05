@@ -1,33 +1,25 @@
 ---
 title: "Episode 25 - The Budget Episode"
 date: "2019-01-03T12:31:14.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-tags: 
-  - 
-    name: "budget"
+tags:
+  - name: "budget"
     slug: "budget"
-  - 
-    name: "budgeting"
+  - name: "budgeting"
     slug: "budgeting"
-  - 
-    name: "financial"
+  - name: "financial"
     slug: "financial"
-  - 
-    name: "lilac"
+  - name: "lilac"
     slug: "lilac"
-  - 
-    name: "twistoflemon"
+  - name: "twistoflemon"
     slug: "twistoflemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/025-lwatol-20190103.mp3"
   length: 222
   type: "audio/mpeg"

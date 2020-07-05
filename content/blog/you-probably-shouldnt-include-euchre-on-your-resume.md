@@ -1,42 +1,31 @@
 ---
 title: "You probably shouldn't include Euchre on your resume"
 date: "2019-08-08T14:33:16.000Z"
-categories: 
-  - 
-    name: "Career Advice"
+categories:
+  - name: "Career Advice"
     slug: "career-advice"
-  - 
-    name: "Food"
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-tags: 
-  - 
-    name: "ecommerce"
+tags:
+  - name: "ecommerce"
     slug: "ecommerce"
-  - 
-    name: "euchre"
+  - name: "euchre"
     slug: "euchre"
-  - 
-    name: "five guys"
+  - name: "five guys"
     slug: "five-guys"
-  - 
-    name: "hamburgers"
+  - name: "hamburgers"
     slug: "hamburgers"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "resume"
+  - name: "resume"
     slug: "resume"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/057-lwatol-20190808.mp3"
   length: 222
   type: "audio/mpeg"

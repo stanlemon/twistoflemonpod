@@ -1,39 +1,29 @@
 ---
 title: "Episode 18 - Remembering Stan Lee"
 date: "2018-11-15T12:29:40.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-tags: 
-  - 
-    name: "chicago"
+tags:
+  - name: "chicago"
     slug: "chicago"
-  - 
-    name: "comics"
+  - name: "comics"
     slug: "comics"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "marvel"
+  - name: "marvel"
     slug: "marvel"
-  - 
-    name: "movies"
+  - name: "movies"
     slug: "movies"
-  - 
-    name: "moving"
+  - name: "moving"
     slug: "moving"
-  - 
-    name: "politics"
+  - name: "politics"
     slug: "politics"
-  - 
-    name: "stan lee"
+  - name: "stan lee"
     slug: "stan-lee"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/018-lwatol-20181115.mp3"
   length: 222
   type: "audio/mpeg"
@@ -57,10 +47,8 @@ Jon Kohlmeier
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/018-lwatol-20181115.mp3"\]\[/audio\]
 
- 
-
 ## Show notes:
 
-[The 3am recording of HT Radio on The Avengers (5/11/2012)](https://media.higherthings.org/podcasts/legacy-cast/episode-186-may-11th-2012/) 
+[The 3am recording of HT Radio on The Avengers (5/11/2012)](https://media.higherthings.org/podcasts/legacy-cast/episode-186-may-11th-2012/)
 
 [Gianna's Italian Beef](http://giannasbeef.com)

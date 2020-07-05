@@ -1,33 +1,25 @@
 ---
 title: "We're Probably Watching Endgame Right Now"
 date: "2019-04-25T13:27:29.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Marvel"
+  - name: "Marvel"
     slug: "marvel"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-tags: 
-  - 
-    name: "baseball"
+tags:
+  - name: "baseball"
     slug: "baseball"
-  - 
-    name: "endgame"
+  - name: "endgame"
     slug: "endgame"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "marvel"
+  - name: "marvel"
     slug: "marvel"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/042-lwatol-20190425.mp3"
   length: 222
   type: "audio/mpeg"

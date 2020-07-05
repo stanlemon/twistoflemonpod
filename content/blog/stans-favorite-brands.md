@@ -1,48 +1,36 @@
 ---
 title: "Stan's Favorite Brands"
 date: "2020-01-23T12:51:56.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "brands"
+tags:
+  - name: "brands"
     slug: "brands"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "pancakes"
+  - name: "pancakes"
     slug: "pancakes"
-  - 
-    name: "robovacuum"
+  - name: "robovacuum"
     slug: "robovacuum"
-  - 
-    name: "shoes"
+  - name: "shoes"
     slug: "shoes"
-  - 
-    name: "smart. house"
+  - name: "smart. house"
     slug: "smart-house"
-  - 
-    name: "st. louis"
+  - name: "st. louis"
     slug: "st-louis"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "technology"
+  - name: "technology"
     slug: "technology"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/080-lwatol-20200123.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

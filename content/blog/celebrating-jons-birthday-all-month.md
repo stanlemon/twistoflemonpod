@@ -1,51 +1,37 @@
 ---
 title: "Celebrating Jon's Birthday All Month"
 date: "2019-05-23T13:07:28.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "bacon"
+tags:
+  - name: "bacon"
     slug: "bacon"
-  - 
-    name: "email"
+  - name: "email"
     slug: "email"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "Jon turns 30"
+  - name: "Jon turns 30"
     slug: "jon-turns-30"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "marketing"
+  - name: "marketing"
     slug: "marketing"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "surprise"
+  - name: "surprise"
     slug: "surprise"
-  - 
-    name: "website"
+  - name: "website"
     slug: "website"
-  - 
-    name: "white house"
+  - name: "white house"
     slug: "white-house"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/046-lwatol-20190523.mp3"
   length: 222
   type: "audio/mpeg"

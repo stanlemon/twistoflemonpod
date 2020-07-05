@@ -1,66 +1,48 @@
 ---
 title: "Manhattans, Mac mini, and Jon's new Router"
 date: "2020-01-09T15:16:55.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "2020"
+tags:
+  - name: "2020"
     slug: "2020"
-  - 
-    name: "amazon"
+  - name: "amazon"
     slug: "amazon"
-  - 
-    name: "books"
+  - name: "books"
     slug: "books"
-  - 
-    name: "eero"
+  - name: "eero"
     slug: "eero"
-  - 
-    name: "goals"
+  - name: "goals"
     slug: "goals"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "mac"
+  - name: "mac"
     slug: "mac"
-  - 
-    name: "Mac mini"
+  - name: "Mac mini"
     slug: "mac-mini"
-  - 
-    name: "manhattan"
+  - name: "manhattan"
     slug: "manhattan"
-  - 
-    name: "milkshakes"
+  - name: "milkshakes"
     slug: "milkshakes"
-  - 
-    name: "resolution"
+  - name: "resolution"
     slug: "resolution"
-  - 
-    name: "router"
+  - name: "router"
     slug: "router"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "tv"
+  - name: "tv"
     slug: "tv"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/078-lwatol-20200109.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

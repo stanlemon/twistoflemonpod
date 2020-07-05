@@ -1,60 +1,43 @@
 ---
 title: "Smoking Meat and Being Nerds"
 date: "2019-05-30T13:17:00.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "home ownership"
+  - name: "home ownership"
     slug: "home-ownership"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "ladder"
+  - name: "ladder"
     slug: "ladder"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "meat rubs"
+  - name: "meat rubs"
     slug: "meat-rubs"
-  - 
-    name: "meat smoking"
+  - name: "meat smoking"
     slug: "meat-smoking"
-  - 
-    name: "picard"
+  - name: "picard"
     slug: "picard"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "star trek"
+  - name: "star trek"
     slug: "star-trek"
-  - 
-    name: "tv"
+  - name: "tv"
     slug: "tv"
-  - 
-    name: "wwcd"
+  - name: "wwcd"
     slug: "wwcd"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/047-lwatol-20190530.mp3"
   length: 222
   type: "audio/mpeg"

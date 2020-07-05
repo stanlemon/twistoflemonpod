@@ -1,45 +1,33 @@
 ---
 title: "Episode 26 - Starting 2019 and Looking Back on 2018"
 date: "2019-01-10T12:49:42.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "2018"
+tags:
+  - name: "2018"
     slug: "2018"
-  - 
-    name: "ios"
+  - name: "ios"
     slug: "ios"
-  - 
-    name: "marvel"
+  - name: "marvel"
     slug: "marvel"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-  - 
-    name: "netflix"
+  - name: "netflix"
     slug: "netflix"
-  - 
-    name: "pop-tart"
+  - name: "pop-tart"
     slug: "pop-tart"
-  - 
-    name: "screentime"
+  - name: "screentime"
     slug: "screentime"
-  - 
-    name: "top 5"
+  - name: "top 5"
     slug: "top-5"
-  - 
-    name: "twistoflemon"
+  - name: "twistoflemon"
     slug: "twistoflemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/026-lwatol-20190110.mp3"
   length: 222
   type: "audio/mpeg"

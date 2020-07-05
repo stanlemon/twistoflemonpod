@@ -1,66 +1,47 @@
 ---
 title: "The Rise of Skywalker, Disney+, and Investing"
 date: "2019-04-18T11:57:56.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Marvel"
+  - name: "Marvel"
     slug: "marvel"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-  - 
-    name: "Theology"
+  - name: "Theology"
     slug: "theology"
-tags: 
-  - 
-    name: "disney+"
+tags:
+  - name: "disney+"
     slug: "disney"
-  - 
-    name: "finance"
+  - name: "finance"
     slug: "finance"
-  - 
-    name: "game of thrones"
+  - name: "game of thrones"
     slug: "game-of-thrones"
-  - 
-    name: "holy week"
+  - name: "holy week"
     slug: "holy-week"
-  - 
-    name: "investing"
+  - name: "investing"
     slug: "investing"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "media"
+  - name: "media"
     slug: "media"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "star wars"
+  - name: "star wars"
     slug: "star-wars"
-  - 
-    name: "streaming"
+  - name: "streaming"
     slug: "streaming"
-  - 
-    name: "the rise of skywalker"
+  - name: "the rise of skywalker"
     slug: "the-rise-of-skywalker"
-  - 
-    name: "tv streaming"
+  - name: "tv streaming"
     slug: "tv-streaming"
-  - 
-    name: "wealthfront"
+  - name: "wealthfront"
     slug: "wealthfront"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/041-lwatol-20190418.mp3"
   length: 222
   type: "audio/mpeg"
@@ -87,4 +68,4 @@ P.S. Sorry Jon's audio is so bad. Looks like Audio Hijack picked up the wrong in
 **Show Notes:**
 
 - New Disney+ content [https://www.indiewire.com/2019/04/disney-plus-original-series-star-wars-marvel-1202057907/](https://www.indiewire.com/2019/04/disney-plus-original-series-star-wars-marvel-1202057907/)
-- The Rise of Skywalker Trailer: [https://www.youtube.com/watch?v=adzYW5DZoWs](https://www.youtube.com/watch?v=adzYW5DZoWs )
+- The Rise of Skywalker Trailer: [https://www.youtube.com/watch?v=adzYW5DZoWs](https://www.youtube.com/watch?v=adzYW5DZoWs)

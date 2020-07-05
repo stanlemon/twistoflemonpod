@@ -1,75 +1,53 @@
 ---
 title: "All the makings of a great anniversary episode"
 date: "2019-07-11T12:15:31.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Marvel"
+  - name: "Marvel"
     slug: "marvel"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "architecture"
+  - name: "architecture"
     slug: "architecture"
-  - 
-    name: "far from home"
+  - name: "far from home"
     slug: "far-from-home"
-  - 
-    name: "frank Lloyd wright"
+  - name: "frank Lloyd wright"
     slug: "frank-lloyd-wright"
-  - 
-    name: "ice cream"
+  - name: "ice cream"
     slug: "ice-cream"
-  - 
-    name: "internet"
+  - name: "internet"
     slug: "internet"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "mac"
+  - name: "mac"
     slug: "mac"
-  - 
-    name: "macbeth"
+  - name: "macbeth"
     slug: "macbeth"
-  - 
-    name: "macbook"
+  - name: "macbook"
     slug: "macbook"
-  - 
-    name: "milkshakes"
+  - name: "milkshakes"
     slug: "milkshakes"
-  - 
-    name: "movie review"
+  - name: "movie review"
     slug: "movie-review"
-  - 
-    name: "router"
+  - name: "router"
     slug: "router"
-  - 
-    name: "shakespeare"
+  - name: "shakespeare"
     slug: "shakespeare"
-  - 
-    name: "spiderman"
+  - name: "spiderman"
     slug: "spiderman"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "taliesin"
+  - name: "taliesin"
     slug: "taliesin"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/053-lwatol-20190711.mp3"
   length: 222
   type: "audio/mpeg"

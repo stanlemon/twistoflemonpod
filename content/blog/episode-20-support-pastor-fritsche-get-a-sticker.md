@@ -1,33 +1,25 @@
 ---
 title: "Episode 20 - Support Pastor Fritsche, get a Sticker."
 date: "2018-11-29T08:00:56.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-  - 
-    name: "Theology"
+  - name: "Theology"
     slug: "theology"
-tags: 
-  - 
-    name: "advent"
+tags:
+  - name: "advent"
     slug: "advent"
-  - 
-    name: "cph"
+  - name: "cph"
     slug: "cph"
-  - 
-    name: "Fritsche"
+  - name: "Fritsche"
     slug: "fritsche"
-  - 
-    name: "giving"
+  - name: "giving"
     slug: "giving"
-  - 
-    name: "gmail"
+  - name: "gmail"
     slug: "gmail"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/020-lwatol-20181129.mp3"
   length: 222
   type: "audio/mpeg"
@@ -35,9 +27,9 @@ enclosure:
 
 Dear Listener,
 
-We have an exciting campaign going on during the month of December. We're looking to support Pastor Joel Fritsche and his work in the Dominican Republic. Here's the deal, you donate - send us proof of donating $50 or more and we'll send you a limited edition Life with a Twist of Lemon sticker (3" x 3").
+We have an exciting campaign going on during the month of December. We're looking to support Pastor Joel Fritsche and his work in the Dominican Republic. Here's the deal, you donate - send us proof of donating \$50 or more and we'll send you a limited edition Life with a Twist of Lemon sticker (3" x 3").
 
-Even better is Stan will be matching the first $1000 raised.
+Even better is Stan will be matching the first \$1000 raised.
 
 Listen in to hear about the work of Pastor Fritsche with the seminary in the Dominican Republic.
 

@@ -1,48 +1,36 @@
 ---
 title: "Stan doesn't want you to buy books and Twitter doesn't want you to buy Political Ads"
 date: "2019-11-07T13:46:36.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple tv"
+tags:
+  - name: "apple tv"
     slug: "apple-tv"
-  - 
-    name: "books"
+  - name: "books"
     slug: "books"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life tip"
+  - name: "life tip"
     slug: "life-tip"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "minimalism"
+  - name: "minimalism"
     slug: "minimalism"
-  - 
-    name: "montana"
+  - name: "montana"
     slug: "montana"
-  - 
-    name: "political ads"
+  - name: "political ads"
     slug: "political-ads"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/11/070-lwatol-20191107.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

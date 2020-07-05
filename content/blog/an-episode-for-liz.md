@@ -1,57 +1,41 @@
 ---
 title: "An Episode for Elizabeth"
 date: "2019-09-05T14:03:27.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "backup"
+tags:
+  - name: "backup"
     slug: "backup"
-  - 
-    name: "cal newport"
+  - name: "cal newport"
     slug: "cal-newport"
-  - 
-    name: "computer"
+  - name: "computer"
     slug: "computer"
-  - 
-    name: "desk"
+  - name: "desk"
     slug: "desk"
-  - 
-    name: "digital minimalism"
+  - name: "digital minimalism"
     slug: "digital-minimalism"
-  - 
-    name: "elizabeth"
+  - name: "elizabeth"
     slug: "elizabeth"
-  - 
-    name: "family"
+  - name: "family"
     slug: "family"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "labor day"
+  - name: "labor day"
     slug: "labor-day"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "liz"
+  - name: "liz"
     slug: "liz"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "workspace"
+  - name: "workspace"
     slug: "workspace"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/061-lwatol-20190905.mp3"
   length: 222
   type: "audio/mpeg"

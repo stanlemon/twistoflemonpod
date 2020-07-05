@@ -1,42 +1,31 @@
 ---
 title: "This Episode Sparks Joy"
 date: "2019-10-17T14:32:56.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-tags: 
-  - 
-    name: "cleaning"
+tags:
+  - name: "cleaning"
     slug: "cleaning"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "marie kondo"
+  - name: "marie kondo"
     slug: "marie-kondo"
-  - 
-    name: "minimalism"
+  - name: "minimalism"
     slug: "minimalism"
-  - 
-    name: "purge"
+  - name: "purge"
     slug: "purge"
-  - 
-    name: "spark joy"
+  - name: "spark joy"
     slug: "spark-joy"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/067-lwatol-20191017.mp3"
   length: 222
   type: "audio/mpeg"

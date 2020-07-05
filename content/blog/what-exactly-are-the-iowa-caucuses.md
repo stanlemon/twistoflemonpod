@@ -1,60 +1,44 @@
 ---
 title: "What exactly are the Iowa Caucuses?"
 date: "2020-02-06T14:08:24.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "facebook"
+tags:
+  - name: "facebook"
     slug: "facebook"
-  - 
-    name: "Iowa caucuses"
+  - name: "Iowa caucuses"
     slug: "iowa-caucuses"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life tip"
+  - name: "life tip"
     slug: "life-tip"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "meetings"
+  - name: "meetings"
     slug: "meetings"
-  - 
-    name: "minimalism"
+  - name: "minimalism"
     slug: "minimalism"
-  - 
-    name: "paper"
+  - name: "paper"
     slug: "paper"
-  - 
-    name: "picard"
+  - name: "picard"
     slug: "picard"
-  - 
-    name: "politics"
+  - name: "politics"
     slug: "politics"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "super bowl"
+  - name: "super bowl"
     slug: "super-bowl"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/082-lwatol-20200206.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

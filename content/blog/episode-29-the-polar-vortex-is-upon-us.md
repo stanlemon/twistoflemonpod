@@ -1,42 +1,31 @@
 ---
 title: "Episode 29 - The Polar Vortex is Upon Us!"
 date: "2019-01-31T13:41:28.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apps"
+tags:
+  - name: "apps"
     slug: "apps"
-  - 
-    name: "cold"
+  - name: "cold"
     slug: "cold"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "snow"
+  - name: "snow"
     slug: "snow"
-  - 
-    name: "snowblower"
+  - name: "snowblower"
     slug: "snowblower"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "weather"
+  - name: "weather"
     slug: "weather"
-  - 
-    name: "weather apps"
+  - name: "weather apps"
     slug: "weather-apps"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/029-lwatol-20190131.mp3"
   length: 222
   type: "audio/mpeg"

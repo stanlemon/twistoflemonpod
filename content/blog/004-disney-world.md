@@ -1,27 +1,21 @@
 ---
 title: "Episode 4 - Stan's back from Disney World!"
 date: "2018-08-09T08:00:30.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-tags: 
-  - 
-    name: "backstreet boys"
+tags:
+  - name: "backstreet boys"
     slug: "backstreet-boys"
-  - 
-    name: "beats"
+  - name: "beats"
     slug: "beats"
-  - 
-    name: "Disney world"
+  - name: "Disney world"
     slug: "disney-world"
-  - 
-    name: "mickey mouse"
+  - name: "mickey mouse"
     slug: "mickey-mouse"
-  - 
-    name: "vacation"
+  - name: "vacation"
     slug: "vacation"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/004-lwatol-20180809.mp3"
   length: 222
   type: "audio/mpeg"

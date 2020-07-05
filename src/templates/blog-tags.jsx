@@ -3,8 +3,8 @@ import BlogIndex from "../components/BlogIndex";
 
 export default BlogIndex;
 
-export const pageQuery = graphql`
-  query($skip: Int!, $limit: Int!) {
+export const query = graphql`
+  query($tag: String!, $skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title
@@ -12,6 +12,7 @@ export const pageQuery = graphql`
     }
     posts: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { tags: { elemMatch: { slug: { eq: $tag } } } } }
       skip: $skip
       limit: $limit
     ) {

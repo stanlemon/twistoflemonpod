@@ -1,36 +1,27 @@
 ---
 title: "Episode 23 - Our First Pre-Christmas Episode"
 date: "2018-12-20T12:37:29.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-tags: 
-  - 
-    name: "avengers"
+tags:
+  - name: "avengers"
     slug: "avengers"
-  - 
-    name: "Christmas"
+  - name: "Christmas"
     slug: "christmas"
-  - 
-    name: "eggnog"
+  - name: "eggnog"
     slug: "eggnog"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "Fritsche"
+  - name: "Fritsche"
     slug: "fritsche"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/023-lwatol-20181220.mp3"
   length: 222
   type: "audio/mpeg"
@@ -44,7 +35,7 @@ That leads into a real milkshake segment! Both Stan and Jon returned to their pl
 
 Finally, Stan and Jon discuss the Avengers: Endgame trailer, focusing a lot on the character development of Tony Stark throughout the franchise.
 
-We are only $150 away from reaching our goal in support of Pastor Fritsche. Stan will match any donations up to our goal.
+We are only \$150 away from reaching our goal in support of Pastor Fritsche. Stan will match any donations up to our goal.
 
 Merry Christmas,
 

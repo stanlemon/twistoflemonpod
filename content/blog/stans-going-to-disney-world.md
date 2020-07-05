@@ -1,39 +1,30 @@
 ---
 title: "Stan's Going to Disney World"
 date: "2020-02-13T14:00:37.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-tags: 
-  - 
-    name: "disney+"
+tags:
+  - name: "disney+"
     slug: "disney"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "star wars"
+  - name: "star wars"
     slug: "star-wars"
-  - 
-    name: "trip"
+  - name: "trip"
     slug: "trip"
-  - 
-    name: "vacation"
+  - name: "vacation"
     slug: "vacation"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/083-lwatol-20200213.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

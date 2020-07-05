@@ -1,27 +1,21 @@
 ---
 title: "Episode 8 - If you don't buy milkshakes with your money, save for a house!"
 date: "2018-09-06T07:00:48.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-tags: 
-  - 
-    name: "finance"
+tags:
+  - name: "finance"
     slug: "finance"
-  - 
-    name: "money"
+  - name: "money"
     slug: "money"
-  - 
-    name: "mortgage"
+  - name: "mortgage"
     slug: "mortgage"
-  - 
-    name: "mortgage rates"
+  - name: "mortgage rates"
     slug: "mortgage-rates"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/008-lwatol-20180906.mp3"
   length: 222
   type: "audio/mpeg"
@@ -42,10 +36,6 @@ Sincerely,
 Jon Kohlmeier & Stan Lemon
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/008-lwatol-20180906.mp3"\]\[/audio\]
-
- 
-
- 
 
 ## Links
 

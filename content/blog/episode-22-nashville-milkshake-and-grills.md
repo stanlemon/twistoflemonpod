@@ -1,39 +1,29 @@
 ---
 title: "Episode 22 - Nashville Milkshake and Grills"
 date: "2018-12-13T13:12:47.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "food"
+tags:
+  - name: "food"
     slug: "food"
-  - 
-    name: "homeownership"
+  - name: "homeownership"
     slug: "homeownership"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-  - 
-    name: "nashville"
+  - name: "nashville"
     slug: "nashville"
-  - 
-    name: "wordcamp us"
+  - name: "wordcamp us"
     slug: "wordcamp-us"
-  - 
-    name: "WordPress"
+  - name: "WordPress"
     slug: "wordpress"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/022-lwatol-20181213.mp3"
   length: 222
   type: "audio/mpeg"
@@ -53,7 +43,7 @@ This is probably where we should have stopped for time sake, but you'll get a lo
 
 Stan and Jon talk about Grills so Jon can decide what kind of Grill he wants to get.
 
-Finally, we're over halfway to our goal for support to Pastor Fritsche. Thanks for those who have supported so far. Let's reach $1000 before the end of the year.
+Finally, we're over halfway to our goal for support to Pastor Fritsche. Thanks for those who have supported so far. Let's reach \$1000 before the end of the year.
 
 Thanks for listening,
 
@@ -73,14 +63,12 @@ Stan Lemon & Jon Kohlmeier
 - [Classic Webber Grill](https://amzn.to/2Ld99Td)
 - [Weber Genesis E-330](https://amzn.to/2UKdf9R)
 
- 
+\[caption id="attachment_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](https://twistoflemonpod.com/wp-content/uploads/2018/12/hattie-bs-225x300.jpg) Hattie B's Hot Chicken\[/caption\]
 
-\[caption id="attachment\_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](https://twistoflemonpod.com/wp-content/uploads/2018/12/hattie-bs-225x300.jpg) Hattie B's Hot Chicken\[/caption\]
+\[caption id="attachment_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-225x300.jpg) Elliston Place Soda Shop\[/caption\]
 
-\[caption id="attachment\_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-225x300.jpg) Elliston Place Soda Shop\[/caption\]
+\[caption id="attachment_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-milkshake-225x300.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
 
-\[caption id="attachment\_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-milkshake-225x300.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
+\[caption id="attachment_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](https://twistoflemonpod.com/wp-content/uploads/2018/12/milkshake-225x300.jpg) Elliston Place Milkshake\[/caption\]
 
-\[caption id="attachment\_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](https://twistoflemonpod.com/wp-content/uploads/2018/12/milkshake-225x300.jpg) Elliston Place Milkshake\[/caption\]
-
-\[caption id="attachment\_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](https://twistoflemonpod.com/wp-content/uploads/2018/12/wordcamp-300x300.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]
+\[caption id="attachment_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](https://twistoflemonpod.com/wp-content/uploads/2018/12/wordcamp-300x300.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]

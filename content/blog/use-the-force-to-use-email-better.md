@@ -1,48 +1,35 @@
 ---
 title: "Use the Force... to Use Email Better"
 date: "2019-08-29T11:24:37.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "d23"
+tags:
+  - name: "d23"
     slug: "d23"
-  - 
-    name: "disney+"
+  - name: "disney+"
     slug: "disney"
-  - 
-    name: "email"
+  - name: "email"
     slug: "email"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "obi-wan"
+  - name: "obi-wan"
     slug: "obi-wan"
-  - 
-    name: "rise of skywalker"
+  - name: "rise of skywalker"
     slug: "rise-of-skywalker"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "star wars"
+  - name: "star wars"
     slug: "star-wars"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/08/060-lwatol-20190829.mp3"
   length: 222
   type: "audio/mpeg"

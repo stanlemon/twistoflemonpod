@@ -1,48 +1,35 @@
 ---
 title: "Cheez-It Pizza, Lawn Care Woes, Paper Planners and new Apple Things"
 date: "2019-09-26T14:19:06.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "cheez it"
+  - name: "cheez it"
     slug: "cheez-it"
-  - 
-    name: "ios"
+  - name: "ios"
     slug: "ios"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "pizza"
+  - name: "pizza"
     slug: "pizza"
-  - 
-    name: "planners"
+  - name: "planners"
     slug: "planners"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "watch"
+  - name: "watch"
     slug: "watch"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/064-lwatol-20190926.mp3"
   length: 222
   type: "audio/mpeg"

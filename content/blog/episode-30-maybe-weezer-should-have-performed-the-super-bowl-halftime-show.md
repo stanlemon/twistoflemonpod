@@ -1,36 +1,27 @@
 ---
 title: "Episode 30 - Maybe Weezer Should have Performed  the Super Bowl Halftime Show"
 date: "2019-02-07T12:58:41.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "jon kohlmeier"
+tags:
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "pizza"
+  - name: "pizza"
     slug: "pizza"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "superbowl"
+  - name: "superbowl"
     slug: "superbowl"
-  - 
-    name: "weezer"
+  - name: "weezer"
     slug: "weezer"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/02/030-lwatol-20190207.mp3"
   length: 222
   type: "audio/mpeg"
