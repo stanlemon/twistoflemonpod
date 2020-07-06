@@ -1,39 +1,30 @@
 ---
 title: "The Random Episode"
 date: "2020-03-19T14:49:34.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "House Hunting"
+  - name: "House Hunting"
     slug: "house-hunting"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "books"
+tags:
+  - name: "books"
     slug: "books"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "reading"
+  - name: "reading"
     slug: "reading"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/03/088-lwatol-20200319.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

@@ -1,30 +1,23 @@
 ---
 title: "Episode 16 - The Best Podcast you Probably Won't Listen To"
 date: "2018-11-01T12:02:28.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Theology"
+  - name: "Theology"
     slug: "theology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "halloween"
+  - name: "halloween"
     slug: "halloween"
-  - 
-    name: "MacBooks"
+  - name: "MacBooks"
     slug: "macbooks"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-  - 
-    name: "theology"
+  - name: "theology"
     slug: "theology"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/016-lwatol-20181101.mp3"
   length: 222
   type: "audio/mpeg"
@@ -47,8 +40,6 @@ Listen in, rate us (5 stars) on iTunes, post any complaints on Reddit and we'll 
 \-Jon Kohlmeier
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/016-lwatol-20181101.mp3"\]\[/audio\]
-
- 
 
 ## Show notes:
 

@@ -1,21 +1,17 @@
 ---
 title: "Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter"
 date: "2018-08-30T07:00:54.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-tags: 
-  - 
-    name: "Fort Wayne"
+tags:
+  - name: "Fort Wayne"
     slug: "fort-wayne"
-  - 
-    name: "Macintosh"
+  - name: "Macintosh"
     slug: "macintosh"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/007-lwatol-20180830.mp3"
   length: 222
   type: "audio/mpeg"
@@ -35,10 +31,6 @@ LWaToL Hosts
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/007-lwatol-20180830.mp3"\]\[/audio\]
 
- 
-
- 
-
 ## Links
 
 - [Fort Wayne TinCaps](https://www.milb.com/fort-wayne)
@@ -47,7 +39,7 @@ LWaToL Hosts
 - [Portillo's](https://www.portillos.com)
 - [Arby's](https://arbys.com)
 - [Hamburg Inn](http://www.hamburginn2.com)
-- [St. Paul's Lutheran Chapel](https://stpaulic.com) 
+- [St. Paul's Lutheran Chapel](https://stpaulic.com)
 - [Aspen Leaf Frozen Yogurt](https://www.aspenleafyogurt.com)
 - [Stan on Twitter](https://twitter.com/stanlemon)
 - [Jon on Twitter](https://twitter.com/jonkohlmeier)

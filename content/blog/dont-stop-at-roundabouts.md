@@ -1,36 +1,28 @@
 ---
 title: "Don't Stop at Roundabouts"
 date: "2019-10-31T12:11:52.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-tags: 
-  - 
-    name: "baseball"
+tags:
+  - name: "baseball"
     slug: "baseball"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "kansas"
+  - name: "kansas"
     slug: "kansas"
-  - 
-    name: "life tip"
+  - name: "life tip"
     slug: "life-tip"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "minimalism"
+  - name: "minimalism"
     slug: "minimalism"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/069-lwatol-20191031.mp3"
-  length: 
-  type: 
+  length:
+  type:
 ---
 
 Dear Listener,

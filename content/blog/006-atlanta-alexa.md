@@ -1,30 +1,23 @@
 ---
 title: "Episode 6 - Atlanta and Alexa"
 date: "2018-08-23T07:00:51.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "Alexa"
+tags:
+  - name: "Alexa"
     slug: "alexa"
-  - 
-    name: "Atlanta"
+  - name: "Atlanta"
     slug: "atlanta"
-  - 
-    name: "echo"
+  - name: "echo"
     slug: "echo"
-  - 
-    name: "smart home"
+  - name: "smart home"
     slug: "smart-home"
-  - 
-    name: "technology"
+  - name: "technology"
     slug: "technology"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/006-lwatol-20180822.mp3"
   length: 222
   type: "audio/mpeg"
@@ -46,11 +39,7 @@ LWaToL Hosts
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/006-lwatol-20180822.mp3"\]\[/audio\]
 
- 
-
 _P.S. Sorry for setting off your Alexa devices multiple times this episode._
-
- 
 
 ## Links
 

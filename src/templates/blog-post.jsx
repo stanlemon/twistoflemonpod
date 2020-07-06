@@ -1,16 +1,18 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from "react";
+import { Link, graphql } from "gatsby";
 
-import Bio from "../components/Bio"
-import Layout from "../components/Layout"
-import SEO from "../components/SEO"
-import { rhythm, scale } from "../utils/typography"
+import Bio from "../components/Bio";
+import Layout from "../components/Layout";
+import SEO from "../components/SEO";
+import Tags from "../components/Tags";
+import { rhythm, scale } from "../utils/typography";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  console.log(data)
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata.title;
+  const { previous, next } = pageContext;
+
+  const { tags, categories } = data.markdownRemark.frontmatter;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -39,6 +41,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        {[
+          { label: "tags", prefix: "tag", values: tags },
+          { label: "categories", prefix: "category", values: categories },
+        ].map((props, index) => (
+          <Tags key={index} {...props} />
+        ))}
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -76,10 +84,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -111,4 +119,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

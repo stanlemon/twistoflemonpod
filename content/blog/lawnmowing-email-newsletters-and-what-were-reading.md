@@ -1,63 +1,45 @@
 ---
 title: "Lawnmowing, email newsletters, and what we're reading."
 date: "2019-05-16T11:28:51.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "books"
+tags:
+  - name: "books"
     slug: "books"
-  - 
-    name: "email"
+  - name: "email"
     slug: "email"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "Jon turns 30"
+  - name: "Jon turns 30"
     slug: "jon-turns-30"
-  - 
-    name: "lawn mowing"
+  - name: "lawn mowing"
     slug: "lawn-mowing"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "lincoln"
+  - name: "lincoln"
     slug: "lincoln"
-  - 
-    name: "mailchimp"
+  - name: "mailchimp"
     slug: "mailchimp"
-  - 
-    name: "marketing"
+  - name: "marketing"
     slug: "marketing"
-  - 
-    name: "mothers day"
+  - name: "mothers day"
     slug: "mothers-day"
-  - 
-    name: "reading devices"
+  - name: "reading devices"
     slug: "reading-devices"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "technology"
+  - name: "technology"
     slug: "technology"
-  - 
-    name: "yard"
+  - name: "yard"
     slug: "yard"
-  - 
-    name: "yardwork"
+  - name: "yardwork"
     slug: "yardwork"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/05/045-lwatol-20190516.mp3"
   length: 222
   type: "audio/mpeg"

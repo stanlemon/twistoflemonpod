@@ -1,45 +1,33 @@
 ---
 title: "Bonus Round: Captain Marvel"
 date: "2019-03-09T20:07:18.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Marvel"
+  - name: "Marvel"
     slug: "marvel"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-tags: 
-  - 
-    name: "captain marvel"
+tags:
+  - name: "captain marvel"
     slug: "captain-marvel"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "marvel"
+  - name: "marvel"
     slug: "marvel"
-  - 
-    name: "movie review"
+  - name: "movie review"
     slug: "movie-review"
-  - 
-    name: "movies"
+  - name: "movies"
     slug: "movies"
-  - 
-    name: "pop culture"
+  - name: "pop culture"
     slug: "pop-culture"
-  - 
-    name: "stan lee"
+  - name: "stan lee"
     slug: "stan-lee"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/b02-lwatol-20190309.mp3"
   length: 222
   type: "audio/mpeg"

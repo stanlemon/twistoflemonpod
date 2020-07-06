@@ -1,60 +1,43 @@
 ---
 title: "Stan Returns to His Hobbies"
 date: "2019-04-11T12:37:32.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "Food"
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "bicycle"
+tags:
+  - name: "bicycle"
     slug: "bicycle"
-  - 
-    name: "dark sky"
+  - name: "dark sky"
     slug: "dark-sky"
-  - 
-    name: "finance"
+  - name: "finance"
     slug: "finance"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "google"
+  - name: "google"
     slug: "google"
-  - 
-    name: "grill"
+  - name: "grill"
     slug: "grill"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "milkshake beer"
+  - name: "milkshake beer"
     slug: "milkshake-beer"
-  - 
-    name: "mint"
+  - name: "mint"
     slug: "mint"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "weather"
+  - name: "weather"
     slug: "weather"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/040-lwatol-20190411.mp3"
   length: 222
   type: "audio/mpeg"

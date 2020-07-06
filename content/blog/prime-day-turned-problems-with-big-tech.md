@@ -1,51 +1,37 @@
 ---
 title: "Prime Day Turned Problems with Big Tech"
 date: "2019-07-18T17:10:02.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "accessibility"
+tags:
+  - name: "accessibility"
     slug: "accessibility"
-  - 
-    name: "amazon"
+  - name: "amazon"
     slug: "amazon"
-  - 
-    name: "apple"
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "big tech"
+  - name: "big tech"
     slug: "big-tech"
-  - 
-    name: "internet"
+  - name: "internet"
     slug: "internet"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "macbook"
+  - name: "macbook"
     slug: "macbook"
-  - 
-    name: "politics"
+  - name: "politics"
     slug: "politics"
-  - 
-    name: "prime day"
+  - name: "prime day"
     slug: "prime-day"
-  - 
-    name: "smart home"
+  - name: "smart home"
     slug: "smart-home"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/053-lwatol-20190718.mp3"
   length: 222
   type: "audio/mpeg"

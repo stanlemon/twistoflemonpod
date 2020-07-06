@@ -1,60 +1,43 @@
 ---
 title: "Whatever It Is"
 date: "2019-10-10T12:28:19.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Home Ownership"
+  - name: "Home Ownership"
     slug: "home-ownership"
-  - 
-    name: "Music"
+  - name: "Music"
     slug: "music"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "beer"
+  - name: "beer"
     slug: "beer"
-  - 
-    name: "home improvement"
+  - name: "home improvement"
     slug: "home-improvement"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "music"
+  - name: "music"
     slug: "music"
-  - 
-    name: "paint brushes"
+  - name: "paint brushes"
     slug: "paint-brushes"
-  - 
-    name: "painting"
+  - name: "painting"
     slug: "painting"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "techcrawl"
+  - name: "techcrawl"
     slug: "techcrawl"
-  - 
-    name: "wine"
+  - name: "wine"
     slug: "wine"
-  - 
-    name: "zac brown"
+  - name: "zac brown"
     slug: "zac-brown"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/10/066-lwatol-20191010.mp3"
   length: 222
   type: "audio/mpeg"

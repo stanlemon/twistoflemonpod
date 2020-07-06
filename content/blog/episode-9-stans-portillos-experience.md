@@ -1,21 +1,17 @@
 ---
 title: "Episode 9 - Stan's Portillo's Experience"
 date: "2018-09-13T07:00:51.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-tags: 
-  - 
-    name: "apple"
+tags:
+  - name: "apple"
     slug: "apple"
-  - 
-    name: "cocktails"
+  - name: "cocktails"
     slug: "cocktails"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/009-lwatol-20180913.mp3"
   length: 222
   type: "audio/mpeg"

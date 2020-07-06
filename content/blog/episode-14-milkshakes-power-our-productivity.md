@@ -1,24 +1,19 @@
 ---
 title: "Episode 14 - Milkshakes power our productivity"
 date: "2018-10-18T12:19:59.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-tags: 
-  - 
-    name: "ideal week"
+tags:
+  - name: "ideal week"
     slug: "ideal-week"
-  - 
-    name: "Milkshake"
+  - name: "Milkshake"
     slug: "milkshake"
-  - 
-    name: "productivity"
+  - name: "productivity"
     slug: "productivity"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/014-lwatol-20181018.mp3"
   length: 222
   type: "audio/mpeg"
@@ -37,8 +32,6 @@ Thanks for listening, If you like what you hear - please leave us a 5-star revie
 \- Jon Kohlmeier
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/10/014-lwatol-20181018.mp3"\]\[/audio\]
-
- 
 
 ## Show notes:
 

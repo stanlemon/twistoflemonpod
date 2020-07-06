@@ -1,51 +1,37 @@
 ---
 title: "Back from Vacation and Talking Tech"
 date: "2019-06-20T12:32:31.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "beer"
+tags:
+  - name: "beer"
     slug: "beer"
-  - 
-    name: "headphones"
+  - name: "headphones"
     slug: "headphones"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "michigan"
+  - name: "michigan"
     slug: "michigan"
-  - 
-    name: "milkshake beer"
+  - name: "milkshake beer"
     slug: "milkshake-beer"
-  - 
-    name: "networking"
+  - name: "networking"
     slug: "networking"
-  - 
-    name: "orbi"
+  - name: "orbi"
     slug: "orbi"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "task manager"
+  - name: "task manager"
     slug: "task-manager"
-  - 
-    name: "vacation"
+  - name: "vacation"
     slug: "vacation"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/050-lwatol-20190620.mp3"
   length: 222
   type: "audio/mpeg"

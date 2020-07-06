@@ -1,39 +1,29 @@
 ---
 title: "Episode 17 - Reformation, Voting, and Kanban Moving Boards"
 date: "2018-11-08T13:00:16.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "House Hunting"
+  - name: "House Hunting"
     slug: "house-hunting"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "kanban"
+tags:
+  - name: "kanban"
     slug: "kanban"
-  - 
-    name: "moving"
+  - name: "moving"
     slug: "moving"
-  - 
-    name: "politics"
+  - name: "politics"
     slug: "politics"
-  - 
-    name: "reformation"
+  - name: "reformation"
     slug: "reformation"
-  - 
-    name: "technology"
+  - name: "technology"
     slug: "technology"
-  - 
-    name: "voting"
+  - name: "voting"
     slug: "voting"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/017-lwatol-20181108.mp3"
   length: 222
   type: "audio/mpeg"
@@ -58,8 +48,6 @@ Sincerely,
 Jon Kohlmeier
 
 \[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/017-lwatol-20181108.mp3"\]\[/audio\]
-
- 
 
 ## Show notes:
 

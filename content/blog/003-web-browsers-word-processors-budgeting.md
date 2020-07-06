@@ -1,33 +1,25 @@
 ---
 title: "Episode 3 - Web Browsers, Word Processors, and Budgeting"
 date: "2018-08-02T03:24:08.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-tags: 
-  - 
-    name: "budgeting"
+tags:
+  - name: "budgeting"
     slug: "budgeting"
-  - 
-    name: "finance"
+  - name: "finance"
     slug: "finance"
-  - 
-    name: "firefox"
+  - name: "firefox"
     slug: "firefox"
-  - 
-    name: "netscape"
+  - name: "netscape"
     slug: "netscape"
-  - 
-    name: "office"
+  - name: "office"
     slug: "office"
-  - 
-    name: "web browsers"
+  - name: "web browsers"
     slug: "web-browsers"
-enclosure: 
+enclosure:
   url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/003-lwatol-20180802.mp3"
   length: 221
   type: "audio/mpeg"
@@ -39,6 +31,6 @@ Stan switched web browsers for the day, so he and Jon kick off the episode talki
 
 ## References
 
-[Refinery29 - A Week in New York City on $25/hour](https://www.refinery29.com/money-diary-new-york-city-marketing-intern-income)
+[Refinery29 - A Week in New York City on \$25/hour](https://www.refinery29.com/money-diary-new-york-city-marketing-intern-income)
 
 [Dave Ramsey 7 Baby Steps](https://www.daveramsey.com/baby-steps)

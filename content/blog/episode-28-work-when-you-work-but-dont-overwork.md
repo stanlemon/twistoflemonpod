@@ -1,48 +1,35 @@
 ---
 title: "Episode 28 - Work When You Work, But Don't Overwork"
 date: "2019-01-24T12:38:34.000Z"
-categories: 
-  - 
-    name: "Career Advice"
+categories:
+  - name: "Career Advice"
     slug: "career-advice"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Productivity"
+  - name: "Productivity"
     slug: "productivity"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "career advice"
+tags:
+  - name: "career advice"
     slug: "career-advice"
-  - 
-    name: "careers"
+  - name: "careers"
     slug: "careers"
-  - 
-    name: "jobs"
+  - name: "jobs"
     slug: "jobs"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "productivity"
+  - name: "productivity"
     slug: "productivity"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "time tracking"
+  - name: "time tracking"
     slug: "time-tracking"
-  - 
-    name: "work-life balance"
+  - name: "work-life balance"
     slug: "work-life-balance"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/028-lwatol-20190124.mp3"
   length: 222
   type: "audio/mpeg"

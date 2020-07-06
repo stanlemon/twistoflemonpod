@@ -1,57 +1,41 @@
 ---
 title: "How Does Jon Eat an Ice Cream Sunday?"
 date: "2019-06-27T11:29:27.000Z"
-categories: 
-  - 
-    name: "Finance"
+categories:
+  - name: "Finance"
     slug: "finance"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "banking"
+tags:
+  - name: "banking"
     slug: "banking"
-  - 
-    name: "catalina"
+  - name: "catalina"
     slug: "catalina"
-  - 
-    name: "customer support"
+  - name: "customer support"
     slug: "customer-support"
-  - 
-    name: "finance"
+  - name: "finance"
     slug: "finance"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "ice cream"
+  - name: "ice cream"
     slug: "ice-cream"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "mac"
+  - name: "mac"
     slug: "mac"
-  - 
-    name: "macos"
+  - name: "macos"
     slug: "macos"
-  - 
-    name: "spoons"
+  - name: "spoons"
     slug: "spoons"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-  - 
-    name: "wifi"
+  - name: "wifi"
     slug: "wifi"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/051-lwatol-20190627.mp3"
   length: 222
   type: "audio/mpeg"

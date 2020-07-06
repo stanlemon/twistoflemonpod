@@ -1,60 +1,43 @@
 ---
 title: "New Reviews!"
 date: "2019-03-21T11:57:21.000Z"
-categories: 
-  - 
-    name: "Food"
+categories:
+  - name: "Food"
     slug: "food"
-  - 
-    name: "General"
+  - name: "General"
     slug: "general"
-  - 
-    name: "Marvel"
+  - name: "Marvel"
     slug: "marvel"
-  - 
-    name: "Movies"
+  - name: "Movies"
     slug: "movies"
-tags: 
-  - 
-    name: "avengers"
+tags:
+  - name: "avengers"
     slug: "avengers"
-  - 
-    name: "digital marketing"
+  - name: "digital marketing"
     slug: "digital-marketing"
-  - 
-    name: "endgame"
+  - name: "endgame"
     slug: "endgame"
-  - 
-    name: "facebook"
+  - name: "facebook"
     slug: "facebook"
-  - 
-    name: "food"
+  - name: "food"
     slug: "food"
-  - 
-    name: "grilled cheese"
+  - name: "grilled cheese"
     slug: "grilled-cheese"
-  - 
-    name: "jon kohlmeier"
+  - name: "jon kohlmeier"
     slug: "jon-kohlmeier"
-  - 
-    name: "life with a twist of lemon"
+  - name: "life with a twist of lemon"
     slug: "life-with-a-twist-of-lemon"
-  - 
-    name: "marvel"
+  - name: "marvel"
     slug: "marvel"
-  - 
-    name: "milkshakes"
+  - name: "milkshakes"
     slug: "milkshakes"
-  - 
-    name: "pokemon"
+  - name: "pokemon"
     slug: "pokemon"
-  - 
-    name: "reviews"
+  - name: "reviews"
     slug: "reviews"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/037-lwatol-20190321.mp3"
   length: 222
   type: "audio/mpeg"

@@ -1,24 +1,19 @@
 ---
 title: "BONUS ROUND - Stan needs a CSS Refresher"
 date: "2018-09-13T17:00:25.000Z"
-categories: 
-  - 
-    name: "General"
+categories:
+  - name: "General"
     slug: "general"
-  - 
-    name: "Technology"
+  - name: "Technology"
     slug: "technology"
-tags: 
-  - 
-    name: "bonus"
+tags:
+  - name: "bonus"
     slug: "bonus"
-  - 
-    name: "css"
+  - name: "css"
     slug: "css"
-  - 
-    name: "stan lemon"
+  - name: "stan lemon"
     slug: "stan-lemon"
-enclosure: 
+enclosure:
   url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/b01-lwatol-20180913.mp3"
   length: 222
   type: "audio/mpeg"
