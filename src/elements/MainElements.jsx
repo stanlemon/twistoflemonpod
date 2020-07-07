@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const NavWrapper = styled.nav`
+export const MainWrapper = styled.div`
     grid-column: 2 / span 12;
-    grid-row: 1 / 2; 
+    grid-row:  4; 
 `

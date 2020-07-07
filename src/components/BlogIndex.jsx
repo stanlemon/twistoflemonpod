@@ -51,7 +51,6 @@ const BlogIndex = ({ data, location, pageContext }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Bio />
 
       {posts.edges.map((edge) => (
         <BlogPost key={edge.node.id} post={edge.node} />
