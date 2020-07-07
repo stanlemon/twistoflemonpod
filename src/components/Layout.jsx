@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { Container } from "../components"
 
 import { rhythm, scale } from "../utils/typography";
 
@@ -65,6 +66,7 @@ const Layout = ({ location, title, children }) => {
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
+    </Container>
   );
 };
 
