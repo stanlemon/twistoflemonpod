@@ -13,10 +13,11 @@ jobs:
           persist-credentials: false
 
       - name: Setup Node.js environment
-        uses: actions/setup-node@v1.4.2
+        uses: actions/setup-node@v1
         with:
-          node-version: "12"
-      - run: npm install
+          node-version: '16'
+
+      - run: npm ci
       - run: npm run build
         env:
           PUBLIC_PATH: "/json-schema-pouchdb-app/"
