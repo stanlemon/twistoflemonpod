@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-tags-jsx",
+    "path": "/tag/macintosh/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Life with a Twist of Lemon"}},"posts":{"edges":[{"node":{"id":"11ab54dc-13e2-51cc-abdb-eeb6005fda74","excerpt":"Dear Listener, If you want to hear us talk about milkshakes for an abnormal amount of time, you won’t want to miss this episode! Stan kicks off the episode talking about his day trip to Fort Wayne and how there are now places to eat. We follow up on our milkshake discussion with…","fields":{"slug":"/007-fort-wayne-milkshakes-twitter/"},"frontmatter":{"date":"August 30, 2018","title":"Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter","categories":[{"name":"General","slug":"general"}],"tags":[{"name":"Fort Wayne","slug":"fort-wayne"},{"name":"Macintosh","slug":"macintosh"},{"name":"Milkshake","slug":"milkshake"}]}}}]}},"pageContext":{"tag":"macintosh","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
+    "staticQueryHashes": ["2390394235","2841359383"]}

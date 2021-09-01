@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-tags-jsx",
+    "path": "/tag/css/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Life with a Twist of Lemon"}},"posts":{"edges":[{"node":{"id":"ae84b983-8ebe-5a0b-b5f6-29ff52de83b7","excerpt":"We forgot to talk about this in Episode 9. Jon gives Stan a hard time for his blog post image not being mobile friendly and helps him to correct his CSS. [audio mp3=”https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/b01-lwatol-20180913.mp…","fields":{"slug":"/bonus-round-stan-needs-a-css-refresher/"},"frontmatter":{"date":"September 13, 2018","title":"BONUS ROUND - Stan needs a CSS Refresher","categories":[{"name":"General","slug":"general"},{"name":"Technology","slug":"technology"}],"tags":[{"name":"bonus","slug":"bonus"},{"name":"css","slug":"css"},{"name":"stan lemon","slug":"stan-lemon"}]}}}]}},"pageContext":{"tag":"css","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
+    "staticQueryHashes": ["2390394235","2841359383"]}

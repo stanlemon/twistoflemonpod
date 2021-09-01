@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-categories-jsx",
+    "path": "/category/uncategorized/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Life with a Twist of Lemon"}},"posts":{"edges":[{"node":{"id":"7941166e-bad7-5d93-802a-96b95050464d","excerpt":"Stan Lemon gives us the gift of him reading the first part of the Hobbit. Recorder Solo by Jon Kohlmeier","fields":{"slug":"/bonus-round-concerning-hobbits-with-a-twist-of-lemon/"},"frontmatter":{"date":"January 16, 2020","title":"Bonus Round: Concerning Hobbits with a Twist of Lemon","categories":[{"name":"Uncategorized","slug":"uncategorized"}],"tags":[{"name":"bonus round","slug":"bonus-round"}]}}}]}},"pageContext":{"category":"uncategorized","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
+    "staticQueryHashes": ["2390394235","2841359383"]}
