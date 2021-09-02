@@ -12,9 +12,8 @@ const Layout = ({ location, title, children }) => {
     <Nav title={title}/>
     
     <Main children={children}/>
-      
-   {/*<Footer /> */}
-}    </Container>
+  
+    </Container>
   );
 };
 
