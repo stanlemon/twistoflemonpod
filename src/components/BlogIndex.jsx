@@ -7,12 +7,14 @@ import SEO from "../components/SEO";
 import Tags from "../components/Tags";
 import { rhythm } from "../utils/typography";
 
+import "../styles/blog-index.css";
+
 const BlogPost = ({ post }) => {
   const { fields, frontmatter, excerpt } = post;
   const { tags, categories } = frontmatter;
 
   return (
-    <article key={fields.slug}>
+    <article key={fields.slug} style={{ gridColumn: "span 1", }}>
       <header>
         <h3
           style={{
@@ -48,13 +50,18 @@ const BlogIndex = ({ data, location, pageContext }) => {
   const posts = data.posts;
   const { previousPagePath, nextPagePath } = pageContext;
 
+  const isMobile = window.innerWidth <= 768;
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
 
-      {posts.edges.map((edge) => (
-        <BlogPost key={edge.node.id} post={edge.node} />
-      ))}
+      <div className={`blog-grid ${isMobile ? "mobile" : ""}`}>
+        {posts.edges.map((edge) => (
+            <BlogPost key={edge.node.id} post={edge.node} />
+        ))}
+      </div>
+      
       <div>
         {previousPagePath ? <Link to={previousPagePath}>Previous</Link> : null}
         {` `}
