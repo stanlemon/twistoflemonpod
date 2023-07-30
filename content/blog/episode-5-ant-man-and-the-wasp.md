@@ -14,7 +14,7 @@ tags:
   - name: "movies"
     slug: "movies"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/005-lwatol-20180816.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/005-lwatol-20180816.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -31,6 +31,6 @@ Sincerely,
 
 Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/005-lwatol-20180816.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/005-lwatol-20180816.mp3"\]\[/audio\]
 
 _P.S. If you like what you hear please share with a friend, subscribe, and/or leave a review on iTunes!._

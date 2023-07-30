@@ -22,7 +22,7 @@ tags:
   - name: "vacation"
     slug: "vacation"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/083-lwatol-20200213.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/083-lwatol-20200213.mp3"
   length:
   type:
 ---

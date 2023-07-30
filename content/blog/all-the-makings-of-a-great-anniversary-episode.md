@@ -48,7 +48,7 @@ tags:
   - name: "taliesin"
     slug: "taliesin"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/053-lwatol-20190711.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190711.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -71,7 +71,7 @@ Thanks for Listening! Leave a review on iTunes if you're so inclined.
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/07/053-lwatol-20190711.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190711.mp3"\]\[/audio\]
 
 ## Show Notes
 

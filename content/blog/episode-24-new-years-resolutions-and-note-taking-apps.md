@@ -20,7 +20,7 @@ tags:
   - name: "resolutions"
     slug: "resolutions"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/024-lwatol-20181227.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/024-lwatol-20181227.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -39,4 +39,4 @@ Merry Christmas and Happy New Year!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/024-lwatol-20181227.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/024-lwatol-20181227.mp3"\]\[/audio\]

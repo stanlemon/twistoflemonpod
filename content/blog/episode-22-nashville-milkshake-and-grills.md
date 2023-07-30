@@ -24,7 +24,7 @@ tags:
   - name: "WordPress"
     slug: "wordpress"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/022-lwatol-20181213.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/022-lwatol-20181213.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -49,7 +49,7 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/12/022-lwatol-20181213.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/022-lwatol-20181213.mp3"\]\[/audio\]
 
 ### Show notes
 
@@ -63,12 +63,12 @@ Stan Lemon & Jon Kohlmeier
 - [Classic Webber Grill](https://amzn.to/2Ld99Td)
 - [Weber Genesis E-330](https://amzn.to/2UKdf9R)
 
-\[caption id="attachment_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](https://twistoflemonpod.com/wp-content/uploads/2018/12/hattie-bs-225x300.jpg) Hattie B's Hot Chicken\[/caption\]
+\[caption id="attachment_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](https://twistoflemonpod.com/wp-content/uploads/12/hattie-bs-225x300.jpg) Hattie B's Hot Chicken\[/caption\]
 
-\[caption id="attachment_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-225x300.jpg) Elliston Place Soda Shop\[/caption\]
+\[caption id="attachment_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/12/elliston-place-225x300.jpg) Elliston Place Soda Shop\[/caption\]
 
-\[caption id="attachment_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/2018/12/elliston-place-milkshake-225x300.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
+\[caption id="attachment_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](https://twistoflemonpod.com/wp-content/uploads/12/elliston-place-milkshake-225x300.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
 
-\[caption id="attachment_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](https://twistoflemonpod.com/wp-content/uploads/2018/12/milkshake-225x300.jpg) Elliston Place Milkshake\[/caption\]
+\[caption id="attachment_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](https://twistoflemonpod.com/wp-content/uploads/12/milkshake-225x300.jpg) Elliston Place Milkshake\[/caption\]
 
-\[caption id="attachment_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](https://twistoflemonpod.com/wp-content/uploads/2018/12/wordcamp-300x300.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]
+\[caption id="attachment_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](https://twistoflemonpod.com/wp-content/uploads/12/wordcamp-300x300.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]

@@ -20,14 +20,14 @@ tags:
   - name: "web browsers"
     slug: "web-browsers"
 enclosure:
-  url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/003-lwatol-20180802.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/003-lwatol-20180802.mp3"
   length: 221
   type: "audio/mpeg"
 ---
 
 Stan switched web browsers for the day, so he and Jon kick off the episode talking about that. That leads into office type suites, to financial apps to budgeting. Listen in to a typical conversation of Stan Lemon and Jon Kohlmeier.
 
-\[audio mp3="http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/003-lwatol-20180802.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/08/003-lwatol-20180802.mp3"\]\[/audio\]
 
 ## References
 

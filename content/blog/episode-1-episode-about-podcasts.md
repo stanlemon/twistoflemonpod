@@ -10,11 +10,11 @@ tags:
   - name: "podcasts"
     slug: "podcasts"
 enclosure:
-  url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/001-lwatol-20180731.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180802.mp3"
   length: 221
   type: "audio/mpeg"
 ---
 
 The inaugural episode of Life with a Twist of Lemon! Stan Lemon and Jon Kohlmeier talk about their favorite podcasts and why they thought that they should move their phone conversations into a podcast format.
 
-\[audio mp3="http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/001-lwatol-20180731.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180802.mp3"\]\[/audio\]

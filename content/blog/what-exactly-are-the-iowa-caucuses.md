@@ -36,7 +36,7 @@ tags:
   - name: "super bowl"
     slug: "super-bowl"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/02/082-lwatol-20200206.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/082-lwatol-20200206.mp3"
   length:
   type:
 ---

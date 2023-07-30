@@ -18,7 +18,7 @@ tags:
   - name: "theology"
     slug: "theology"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/016-lwatol-20181101.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -39,7 +39,7 @@ Listen in, rate us (5 stars) on iTunes, post any complaints on Reddit and we'll 
 
 \-Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/016-lwatol-20181101.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3"\]\[/audio\]
 
 ## Show notes:
 

@@ -26,7 +26,7 @@ tags:
   - name: "thanksgiving"
     slug: "thanksgiving"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/074-lwatol-20191212.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/074-lwatol-20191212.mp3"
   length:
   type:
 ---

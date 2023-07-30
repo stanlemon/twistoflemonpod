@@ -32,7 +32,7 @@ tags:
   - name: "vacation"
     slug: "vacation"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/050-lwatol-20190620.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/050-lwatol-20190620.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -53,4 +53,4 @@ We talk about our Libra - the cryptocurrency that Facebook is now involved in.
 
 Finally, We talk about Stan's new network equipment the NetGear Orbi. He's also starting to consider new headphones.
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/06/050-lwatol-20190620.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/050-lwatol-20190620.mp3"\]\[/audio\]

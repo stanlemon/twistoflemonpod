@@ -24,7 +24,7 @@ tags:
   - name: "stan lee"
     slug: "stan-lee"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/018-lwatol-20181115.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -45,7 +45,7 @@ Talk to you later,
 
 Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/018-lwatol-20181115.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3"\]\[/audio\]
 
 ## Show notes:
 

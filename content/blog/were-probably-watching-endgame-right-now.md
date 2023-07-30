@@ -20,7 +20,7 @@ tags:
   - name: "marvel"
     slug: "marvel"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/042-lwatol-20190425.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -37,4 +37,4 @@ We talk through how we would rank the movies in the Marvel Cinematic Universe.
 
 Listen in and stay tuned to our Endgame Episode guest starring the one, the only, Patrick Sturdivant.
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/042-lwatol-20190425.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3"\]\[/audio\]
