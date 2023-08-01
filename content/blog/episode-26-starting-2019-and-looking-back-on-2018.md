@@ -28,12 +28,12 @@ tags:
   - name: "twistoflemon"
     slug: "twistoflemon"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/026-lwatol-20190110.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/026-lwatol-20190110.mp3"
   length: 222
   type: "audio/mpeg"
 ---
 
-![Stan with Milkshake Poptarts](https://twistoflemonpod.com/wp-content/uploads/2019/01/stan-milkshake-poptarts-copy-768x1024.jpg)
+![Stan with Milkshake Poptarts](images/stan-milkshake-poptarts-copy-768x1024.jpg)
 
 Dear Listener,
 

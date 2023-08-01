@@ -50,13 +50,11 @@ const BlogIndex = ({ data, location, pageContext }) => {
   const posts = data.posts;
   const { previousPagePath, nextPagePath } = pageContext;
 
-  const isMobile = window.innerWidth <= 768;
-
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
 
-      <div className={`blog-grid ${isMobile ? "mobile" : ""}`}>
+      <div className={`blog-grid`}>
         {posts.edges.map((edge) => (
             <BlogPost key={edge.node.id} post={edge.node} />
         ))}

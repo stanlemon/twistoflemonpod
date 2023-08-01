@@ -1,0 +1,31 @@
+---
+title: "Core Values"
+date: "2021-10-28T00:49:47.000Z"
+categories:
+  - name: "Career Advice"
+    slug: "career-advice"
+  - name: "General"
+    slug: "general"
+tags:
+  - name: "core values"
+    slug: "core-values"
+  - name: "professionalism"
+    slug: "professionalism"
+enclosure:
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/158-lwatol-20211028.mp3"
+  length:
+  type:
+---
+
+Dear Listener,
+
+We tackle some things that have been on our minds (and on the list) a lot recently. We talk about the how and the why our discovery and setting of Core Values which leads us to all sorts of philosophical discussion. Secondly we touch on professionalism with a side of MacOs.
+
+Take a look at these posts if you want to dive into Core Values more:
+
+- [https://jonkohlmeier.com/2018-03-28-core-values/](https://jonkohlmeier.com/2018-03-28-core-values/)
+- [https://www.artofmanliness.com/2009/05/31/30-days-to-a-better-man-day-1-define-your-core-values/](https://www.artofmanliness.com/2009/05/31/30-days-to-a-better-man-day-1-define-your-core-values/)
+
+Thanks for listening,
+
+Stan Lemon & Jon Kohlmeier

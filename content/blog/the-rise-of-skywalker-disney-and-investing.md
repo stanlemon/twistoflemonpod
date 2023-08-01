@@ -63,7 +63,7 @@ Stan Lemon & Jon Kohlmeier
 
 P.S. Sorry Jon's audio is so bad. Looks like Audio Hijack picked up the wrong input source.
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/041-lwatol-20190418.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3"\]\[/audio\]
 
 **Show Notes:**
 

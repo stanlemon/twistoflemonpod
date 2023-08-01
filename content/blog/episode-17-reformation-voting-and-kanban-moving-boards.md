@@ -1,35 +1,46 @@
 ---
 title: "Episode 17 - Reformation, Voting, and Kanban Moving Boards"
 date: "2018-11-08T13:00:16.000Z"
-categories:
-  - name: "General"
+categories: 
+  - 
+    name: "General"
     slug: "general"
-  - name: "House Hunting"
+  - 
+    name: "House Hunting"
     slug: "house-hunting"
-  - name: "Productivity"
+  - 
+    name: "Productivity"
     slug: "productivity"
-  - name: "Technology"
+  - 
+    name: "Technology"
     slug: "technology"
-tags:
-  - name: "kanban"
+tags: 
+  - 
+    name: "kanban"
     slug: "kanban"
-  - name: "moving"
+  - 
+    name: "moving"
     slug: "moving"
-  - name: "politics"
+  - 
+    name: "politics"
     slug: "politics"
-  - name: "reformation"
+  - 
+    name: "reformation"
     slug: "reformation"
-  - name: "technology"
+  - 
+    name: "technology"
     slug: "technology"
-  - name: "voting"
+  - 
+    name: "voting"
     slug: "voting"
-enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3
+"
   length: 222
   type: "audio/mpeg"
 ---
 
-![](https://twistoflemonpod.com/wp-content/uploads/11/45327660_336045846945094_2409562380603228160_n-340x230.jpg)Dear Listener,
+![](images/45327660_336045846945094_2409562380603228160_n-340x230.jpg)Dear Listener,
 
 As of this episode you may be listening on Spotify!
 
@@ -46,8 +57,8 @@ Thanks for tuning in, thanks for those of you who have written reviews on iTunes
 Sincerely,
 
 Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3"\]\[/audio\]
+.mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/11/017-lwatol-20181108.mp3"\]\[/audio\]
 
 ## Show notes:
 

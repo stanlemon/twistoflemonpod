@@ -1,26 +1,35 @@
 ---
 title: "Episode 15 - Would Sidd Finch like Marvel Netflix Series (or milkshakes)?"
 date: "2018-10-25T11:59:12.000Z"
-categories:
-  - name: "General"
+categories: 
+  - 
+    name: "General"
     slug: "general"
-  - name: "House Hunting"
+  - 
+    name: "House Hunting"
     slug: "house-hunting"
-  - name: "Movies"
+  - 
+    name: "Movies"
     slug: "movies"
-tags:
-  - name: "book recommendations"
+tags: 
+  - 
+    name: "book recommendations"
     slug: "book-recommendations"
-  - name: "house hunting"
+  - 
+    name: "house hunting"
     slug: "house-hunting"
-  - name: "marvel"
+  - 
+    name: "marvel"
     slug: "marvel"
-  - name: "meat rubs"
+  - 
+    name: "meat rubs"
     slug: "meat-rubs"
-  - name: "Milkshake"
+  - 
+    name: "Milkshake"
     slug: "milkshake"
-enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3
+"
   length: 222
   type: "audio/mpeg"
 ---
@@ -40,8 +49,8 @@ Finally - Stan suggests a book for Jon to read: "Creative Selection." A book tha
 Thanks for listening - leave a review and we just might talk about you too!
 
 \- Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3"\]\[/audio\]
+.mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/10/015-lwatol-20181025.mp3"\]\[/audio\]
 
 ## Show notes:
 

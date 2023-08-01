@@ -1,26 +1,35 @@
 ---
 title: "Episode 21 - Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)"
 date: "2018-12-06T12:29:47.000Z"
-categories:
-  - name: "Food"
+categories: 
+  - 
+    name: "Food"
     slug: "food"
-  - name: "General"
+  - 
+    name: "General"
     slug: "general"
-  - name: "Home Ownership"
+  - 
+    name: "Home Ownership"
     slug: "home-ownership"
-tags:
-  - name: "DIY fixes"
+tags: 
+  - 
+    name: "DIY fixes"
     slug: "diy-fixes"
-  - name: "food"
+  - 
+    name: "food"
     slug: "food"
-  - name: "homeownership"
+  - 
+    name: "homeownership"
     slug: "homeownership"
-  - name: "meatloaf"
+  - 
+    name: "meatloaf"
     slug: "meatloaf"
-  - name: "Milkshake"
+  - 
+    name: "Milkshake"
     slug: "milkshake"
-enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/021-lwatol-20181206.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/021-lwatol-20181206.mp3
+"
   length: 222
   type: "audio/mpeg"
 ---
@@ -46,8 +55,8 @@ Donate to Fritsche, let us know. You'll want to read the letter that comes with 
 Talk next week,
 
 \-Jon Kohlmeier & Stan Lemon
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/021-lwatol-20181206.mp3"\]\[/audio\]
+.mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/12/021-lwatol-20181206.mp3"\]\[/audio\]
 
 ### Show notes
 

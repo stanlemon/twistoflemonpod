@@ -1,30 +1,41 @@
 ---
 title: "Episode 18 - Remembering Stan Lee"
 date: "2018-11-15T12:29:40.000Z"
-categories:
-  - name: "General"
+categories: 
+  - 
+    name: "General"
     slug: "general"
-  - name: "Movies"
+  - 
+    name: "Movies"
     slug: "movies"
-tags:
-  - name: "chicago"
+tags: 
+  - 
+    name: "chicago"
     slug: "chicago"
-  - name: "comics"
+  - 
+    name: "comics"
     slug: "comics"
-  - name: "food"
+  - 
+    name: "food"
     slug: "food"
-  - name: "marvel"
+  - 
+    name: "marvel"
     slug: "marvel"
-  - name: "movies"
+  - 
+    name: "movies"
     slug: "movies"
-  - name: "moving"
+  - 
+    name: "moving"
     slug: "moving"
-  - name: "politics"
+  - 
+    name: "politics"
     slug: "politics"
-  - name: "stan lee"
+  - 
+    name: "stan lee"
     slug: "stan-lee"
-enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3
+"
   length: 222
   type: "audio/mpeg"
 ---
@@ -44,8 +55,8 @@ Listen in, have fun, write a review on iTunes: we'll be talking about some on ai
 Talk to you later,
 
 Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3"\]\[/audio\]
+.mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/11/018-lwatol-20181115.mp3"\]\[/audio\]
 
 ## Show notes:
 

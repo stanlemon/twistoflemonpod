@@ -35,7 +35,7 @@ That leads into a real milkshake segment! Both Stan and Jon returned to their pl
 
 Finally, Stan and Jon discuss the Avengers: Endgame trailer, focusing a lot on the character development of Tony Stark throughout the franchise.
 
-We are only \$150 away from reaching our goal in support of Pastor Fritsche. Stan will match any donations up to our goal.
+We are only $150 away from reaching our goal in support of Pastor Fritsche. Stan will match any donations up to our goal.
 
 Merry Christmas,
 

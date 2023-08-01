@@ -45,7 +45,7 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/b02-lwatol-20190309.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3"\]\[/audio\]
 
 ## Show Notes
 
