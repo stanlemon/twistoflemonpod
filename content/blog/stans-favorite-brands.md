@@ -28,7 +28,7 @@ tags:
   - name: "technology"
     slug: "technology"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2020/01/080-lwatol-20200123.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/080-lwatol-20200123.mp3"
   length:
   type:
 ---

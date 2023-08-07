@@ -12,7 +12,7 @@ tags:
   - name: "Milkshake"
     slug: "milkshake"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/007-lwatol-20180830.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/007-lwatol-20180830.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -29,7 +29,7 @@ Sincerely,
 
 LWaToL Hosts
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/007-lwatol-20180830.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/007-lwatol-20180830.mp3"\]\[/audio\]
 
 ## Links
 

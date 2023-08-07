@@ -34,7 +34,7 @@ tags:
   - name: "time warrior"
     slug: "time-warrior"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/063-lwatol-20190919.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -55,7 +55,7 @@ Thanks!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/09/063-lwatol-20190919.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3"\]\[/audio\]
 
 ## Links
 

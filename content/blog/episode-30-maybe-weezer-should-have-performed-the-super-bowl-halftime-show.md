@@ -22,7 +22,7 @@ tags:
   - name: "weezer"
     slug: "weezer"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/02/030-lwatol-20190207.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/030-lwatol-20190207.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -43,4 +43,4 @@ P.S. - Jon's audio quality is terrible. We'll get it fixed.
 
 "You don't have to listen to the show to leave a review. You don't have to listen to the show to give it 5 stars. In fact, if you don't listen you're more likely to give it 5 stars!" - Stanley C. Lemon.
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/02/030-lwatol-20190207.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/030-lwatol-20190207.mp3"\]\[/audio\]

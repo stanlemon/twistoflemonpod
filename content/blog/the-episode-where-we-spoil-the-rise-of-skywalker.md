@@ -24,7 +24,7 @@ tags:
   - name: "Warby parker"
     slug: "warby-parker"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/12/076-lwatol-20191236.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/076-lwatol-20191236.mp3"
   length:
   type:
 ---

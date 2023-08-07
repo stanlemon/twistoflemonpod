@@ -1,18 +1,23 @@
 ---
 title: "Episode 2 - The 2018 MacBook Pro"
 date: "2018-08-01T02:18:22.000Z"
-categories:
-  - name: "General"
+categories: 
+  - 
+    name: "General"
     slug: "general"
-tags:
-  - name: "apple"
+tags: 
+  - 
+    name: "apple"
     slug: "apple"
-  - name: "MacBooks"
+  - 
+    name: "MacBooks"
     slug: "macbooks"
-  - name: "technology"
+  - 
+    name: "technology"
     slug: "technology"
-enclosure:
-  url: "http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/002-lwatol-20180801.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/002-lwatol-20180801.mp3
+"
   length: 221
   type: "audio/mpeg"
 ---
@@ -21,7 +26,7 @@ Stan and Jon take a look at their current Apple products (specifically Mac) and 
 
 Listen in to hear how they use their devices and what they're thinking going forward.
 
-\[audio mp3="http://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/07/002-lwatol-20180801.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/002-lwatol-20180801.mp3"\]\[/audio\]
 
 ## References
 

@@ -32,7 +32,7 @@ tags:
   - name: "star wars"
     slug: "star-wars"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/11/073-lwatol-20191128.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/073-lwatol-20191128.mp3"
   length:
   type:
 ---

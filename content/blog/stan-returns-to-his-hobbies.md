@@ -38,7 +38,7 @@ tags:
   - name: "weather"
     slug: "weather"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/040-lwatol-20190411.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -61,4 +61,4 @@ Thanks for Listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/04/040-lwatol-20190411.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3"\]\[/audio\]

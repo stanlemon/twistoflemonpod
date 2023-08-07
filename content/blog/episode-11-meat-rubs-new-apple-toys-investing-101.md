@@ -1,22 +1,29 @@
 ---
 title: "Episode 11 - Meat Rubs, New Apple Toys, Investing 101"
 date: "2018-09-27T10:38:53.000Z"
-categories:
-  - name: "Finance"
+categories: 
+  - 
+    name: "Finance"
     slug: "finance"
-  - name: "General"
+  - 
+    name: "General"
     slug: "general"
-  - name: "Technology"
+  - 
+    name: "Technology"
     slug: "technology"
-tags:
-  - name: "apple"
+tags: 
+  - 
+    name: "apple"
     slug: "apple"
-  - name: "investing"
+  - 
+    name: "investing"
     slug: "investing"
-  - name: "Milkshake"
+  - 
+    name: "Milkshake"
     slug: "milkshake"
-enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/011-lwatol-20180927.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/011-lwatol-20180927.mp3
+"
   length: 222
   type: "audio/mpeg"
 ---
@@ -36,5 +43,5 @@ If that doesn't give you a good idea of what life with a Twist of Lemon is... I 
 Thanks for sticking with us!
 
 Jon Kohlmeier
-
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/09/011-lwatol-20180927.mp3"\]\[/audio\]
+.mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/09/011-lwatol-20180927.mp3"\]\[/audio\]

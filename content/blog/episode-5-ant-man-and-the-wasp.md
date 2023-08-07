@@ -1,20 +1,26 @@
 ---
 title: "Episode 5 - Ant Man and the Wasp"
 date: "2018-08-16T07:00:40.000Z"
-categories:
-  - name: "General"
+categories: 
+  - 
+    name: "General"
     slug: "general"
-  - name: "Movies"
+  - 
+    name: "Movies"
     slug: "movies"
-tags:
-  - name: "ant man"
+tags: 
+  - 
+    name: "ant man"
     slug: "ant-man"
-  - name: "marvel"
+  - 
+    name: "marvel"
     slug: "marvel"
-  - name: "movies"
+  - 
+    name: "movies"
     slug: "movies"
-enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/005-lwatol-20180816.mp3"
+enclosure: 
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/005-lwatol-20180816.mp3
+"
   length: 222
   type: "audio/mpeg"
 ---
@@ -30,7 +36,7 @@ Thanks for listening!
 Sincerely,
 
 Jon Kohlmeier
-
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/08/005-lwatol-20180816.mp3"\]\[/audio\]
+.mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/08/005-lwatol-20180816.mp3"\]\[/audio\]
 
 _P.S. If you like what you hear please share with a friend, subscribe, and/or leave a review on iTunes!._

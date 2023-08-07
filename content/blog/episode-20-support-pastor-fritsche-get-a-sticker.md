@@ -20,16 +20,16 @@ tags:
   - name: "gmail"
     slug: "gmail"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/020-lwatol-20181129.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3"
   length: 222
   type: "audio/mpeg"
 ---
 
 Dear Listener,
 
-We have an exciting campaign going on during the month of December. We're looking to support Pastor Joel Fritsche and his work in the Dominican Republic. Here's the deal, you donate - send us proof of donating \$50 or more and we'll send you a limited edition Life with a Twist of Lemon sticker (3" x 3").
+We have an exciting campaign going on during the month of December. We're looking to support Pastor Joel Fritsche and his work in the Dominican Republic. Here's the deal, you donate - send us proof of donating $50 or more and we'll send you a limited edition Life with a Twist of Lemon sticker (3" x 3").
 
-Even better is Stan will be matching the first \$1000 raised.
+Even better is Stan will be matching the first $1000 raised.
 
 Listen in to hear about the work of Pastor Fritsche with the seminary in the Dominican Republic.
 
@@ -41,7 +41,7 @@ Thanks for tuning in and we hope to be sending you a sticker soon!
 
 \- Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2018/11/020-lwatol-20181129.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3"\]\[/audio\]
 
 ### Show notes
 

@@ -26,7 +26,7 @@ tags:
   - name: "stan lemon"
     slug: "stan-lemon"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/036-lwatol-20190314.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -47,4 +47,4 @@ Finally the recap some other things from Stan's trip including home improvement,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/03/036-lwatol-20190314.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3"\]\[/audio\]

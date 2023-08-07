@@ -30,7 +30,7 @@ tags:
   - name: "work-life balance"
     slug: "work-life-balance"
 enclosure:
-  url: "https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/028-lwatol-20190124.mp3"
+  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3"
   length: 222
   type: "audio/mpeg"
 ---
@@ -51,4 +51,4 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://dts.podtrac.com/redirect.mp3/twistoflemonpod.com/wp-content/uploads/2019/01/028-lwatol-20190124.mp3"\]\[/audio\]
+\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3"\]\[/audio\]
