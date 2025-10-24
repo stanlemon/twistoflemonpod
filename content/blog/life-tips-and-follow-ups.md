@@ -4,20 +4,21 @@ slug: life-tips-and-follow-ups
 episode: 68
 date: '2019-10-24T12:42:38.000Z'
 categories:
-- Home Ownership
-- Movies
-- Productivity
+  - Home Ownership
+  - Movies
+  - Productivity
 tags:
-- car maintence
-- jon kohlmeier
-- life with a twist of lemon
-- meat rubs
-- stan lemon
-- star wars
-- macbook
-- milkshakes
+  - car maintence
+  - jon kohlmeier
+  - life with a twist of lemon
+  - meat rubs
+  - stan lemon
+  - star wars
+  - macbook
+  - milkshakes
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/068-lwatol-20191024.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/068-lwatol-20191024.mp3
   length: null
   type: null
 ---

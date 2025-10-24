@@ -4,18 +4,19 @@ slug: prime-day-turned-problems-with-big-tech
 episode: 54
 date: '2019-07-18T17:10:02.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- amazon
-- apple
-- jon kohlmeier
-- life with a twist of lemon
-- macbook
-- politics
-- stan lemon
-- ipad
+  - amazon
+  - apple
+  - jon kohlmeier
+  - life with a twist of lemon
+  - macbook
+  - politics
+  - stan lemon
+  - ipad
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190718.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190718.mp3
   length: 222
   type: audio/mpeg
 ---

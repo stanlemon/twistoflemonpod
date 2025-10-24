@@ -4,13 +4,14 @@ slug: confessions-of-a-recovering-android-user
 episode: 126
 date: '2021-03-18T12:33:07.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- apple
-- iPhone
-- wandavision
+  - apple
+  - iPhone
+  - wandavision
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/126-lwatol-20210318.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/126-lwatol-20210318.mp3
   length: null
   type: null
 ---

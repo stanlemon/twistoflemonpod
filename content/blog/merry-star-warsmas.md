@@ -4,16 +4,17 @@ slug: merry-star-warsmas
 episode: 75
 date: '2019-12-19T13:49:58.000Z'
 categories:
-- Movies
-- Technology
+  - Movies
+  - Technology
 tags:
-- christmas
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- star wars
+  - Christmas
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - star wars
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/075-lwatol-20191219.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/075-lwatol-20191219.mp3
   length: null
   type: null
 ---

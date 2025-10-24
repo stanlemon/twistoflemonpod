@@ -4,20 +4,21 @@ slug: long-overdue-milkshake-reviews
 episode: 87
 date: '2020-03-12T13:05:31.000Z'
 categories:
-- Food
-- Productivity
-- Technology
-- Movies
+  - Food
+  - Productivity
+  - Technology
+  - Movies
 tags:
-- apps
-- ios
-- jon kohlmeier
-- life with a twist of lemon
-- milkshakes
-- mint
-- stan lemon
+  - apps
+  - ios
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshakes
+  - mint
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/087-lwatol-20200312.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/087-lwatol-20200312.mp3
   length: null
   type: null
 ---

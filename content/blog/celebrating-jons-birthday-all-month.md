@@ -4,17 +4,18 @@ slug: celebrating-jons-birthday-all-month
 episode: 46
 date: '2019-05-23T13:07:28.000Z'
 categories:
-- Food
-- Technology
+  - Food
+  - Technology
 tags:
-- email
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- macbook
-- home improvement
+  - email
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - macbook
+  - home improvement
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3
   length: 222
   type: audio/mpeg
 ---

@@ -4,21 +4,22 @@ slug: what-exactly-are-the-iowa-caucuses
 episode: 82
 date: '2020-02-06T14:08:24.000Z'
 categories:
-- Food
-- Productivity
-- Technology
-- Movies
+  - Food
+  - Productivity
+  - Technology
+  - Movies
 tags:
-- jon kohlmeier
-- life tip
-- life with a twist of lemon
-- minimalism
-- picard
-- politics
-- stan lemon
-- star trek
+  - jon kohlmeier
+  - life tip
+  - life with a twist of lemon
+  - minimalism
+  - picard
+  - politics
+  - stan lemon
+  - star trek
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/082-lwatol-20200206.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/082-lwatol-20200206.mp3
   length: null
   type: null
 ---

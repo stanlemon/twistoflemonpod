@@ -4,18 +4,19 @@ slug: amazon-sidewalk-vs-apple-wwdc-focus-on-privacy
 episode: 138
 date: '2021-06-08T13:50:29.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- amazon
-- apple
-- apple music
-- apple tv
-- ios
-- mac
-- wwdc
-- budgeting
+  - amazon
+  - apple
+  - apple music
+  - apple tv
+  - ios
+  - mac
+  - wwdc
+  - budgeting
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/138-lwatol-20210608.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/138-lwatol-20210608.mp3
   length: null
   type: null
 ---

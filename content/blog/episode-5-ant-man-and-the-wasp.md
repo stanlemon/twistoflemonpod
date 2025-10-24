@@ -4,10 +4,11 @@ slug: episode-5-ant-man-and-the-wasp
 episode: 5
 date: '2018-08-16T07:00:40.000Z'
 categories:
-- Movies
+  - Movies
 tags: null
 enclosure:
-  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/005-lwatol-20180816.mp3'
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/005-lwatol-20180816.mp3 
   length: 222
   type: audio/mpeg
 ---

@@ -4,13 +4,14 @@ slug: pixar-movies-ranked
 episode: 117
 date: '2021-01-14T14:07:07.000Z'
 categories:
-- Movies
-- Technology
+  - Movies
+  - Technology
 tags:
-- meat rubs
-- christmas
+  - meat rubs
+  - christmas
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3
   length: null
   type: null
 ---

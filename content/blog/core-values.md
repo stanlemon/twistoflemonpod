@@ -4,10 +4,11 @@ slug: core-values
 episode: 158
 date: '2021-10-28T00:49:47.000Z'
 categories:
-- Career Advice
+  - Career Advice
 tags: null
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/158-lwatol-20211028.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/158-lwatol-20211028.mp3
   length: null
   type: null
 ---

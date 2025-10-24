@@ -1,17 +1,19 @@
 ---
-title: Episode 11 - Meat Rubs, New Apple Toys, Investing 101
+title: 'Episode 11 - Meat Rubs, New Apple Toys, Investing 101'
 slug: episode-11-meat-rubs-new-apple-toys-investing-101
 episode: 11
 date: '2018-09-27T10:38:53.000Z'
 categories:
-- Finance
-- Technology
+  - Finance
+  - Technology
 tags:
-- apple
-- milkshakes
-- meat rubs
+  - apple
+  - milkshakes
+  - meat rubs
+  - investing
 enclosure:
-  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/011-lwatol-20180927.mp3 '
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/011-lwatol-20180927.mp3 
   length: 222
   type: audio/mpeg
 ---

@@ -4,11 +4,13 @@ slug: episode-14-milkshakes-power-our-productivity
 episode: 14
 date: '2018-10-18T12:19:59.000Z'
 categories:
-- Productivity
+  - Productivity
 tags:
-- milkshakes
+  - milkshakes
+  - productivity
 enclosure:
-  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/014-lwatol-20181018.mp3 '
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/014-lwatol-20181018.mp3 
   length: 222
   type: audio/mpeg
 ---

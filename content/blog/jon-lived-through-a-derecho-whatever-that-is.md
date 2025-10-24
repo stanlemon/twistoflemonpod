@@ -1,16 +1,17 @@
 ---
-title: Jon Lived Through a Derecho, whatever that is.
+title: 'Jon Lived Through a Derecho, whatever that is.'
 slug: jon-lived-through-a-derecho-whatever-that-is
 episode: 96
 date: '2020-08-20T13:17:18.000Z'
 categories:
-- Home Ownership
+  - Home Ownership
 tags:
-- apple
-- derecho
-- home improvement
+  - apple
+  - derecho
+  - home improvement
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/096-lwatol-20200820.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/096-lwatol-20200820.mp3
   length: 51609615
   type: audio/mpeg
 ---

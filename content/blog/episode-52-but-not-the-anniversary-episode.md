@@ -4,23 +4,24 @@ slug: episode-52-but-not-the-anniversary-episode
 episode: 52
 date: '2019-07-04T15:17:11.000Z'
 categories:
-- Finance
-- Food
-- Marvel
-- Technology
-- Movies
+  - Finance
+  - Food
+  - Marvel
+  - Technology
+  - Movies
 tags:
-- apple
-- ice cream
-- jon kohlmeier
-- life with a twist of lemon
-- mac
-- milkshakes
-- mortgage
-- spiderman
-- stan lemon
+  - apple
+  - ice cream
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mac
+  - milkshakes
+  - mortgage
+  - spiderman
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/052-lwatol-20190704.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/052-lwatol-20190704.mp3
   length: 222
   type: audio/mpeg
 ---

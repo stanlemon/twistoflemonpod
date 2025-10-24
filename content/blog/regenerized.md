@@ -4,16 +4,18 @@ slug: regenerized
 episode: 74
 date: '2019-12-12T15:32:25.000Z'
 categories:
-- Career Advice
-- Productivity
-- Technology
+  - Career Advice
+  - Productivity
+  - Technology
 tags:
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- thanksgiving
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - thanksgiving
+  - productivity
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/074-lwatol-20191212.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/074-lwatol-20191212.mp3
   length: null
   type: null
 ---

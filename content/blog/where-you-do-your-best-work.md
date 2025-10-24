@@ -4,18 +4,19 @@ slug: where-you-do-your-best-work
 episode: 48
 date: '2019-06-06T12:25:03.000Z'
 categories:
-- Productivity
-- Technology
+  - Productivity
+  - Technology
 tags:
-- apple
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- star trek
-- wwdc
-- milkshakes
+  - apple
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - star trek
+  - wwdc
+  - milkshakes
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/048-lwatol-20190606.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/048-lwatol-20190606.mp3
   length: 222
   type: audio/mpeg
 ---

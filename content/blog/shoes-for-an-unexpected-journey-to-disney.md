@@ -4,14 +4,15 @@ slug: shoes-for-an-unexpected-journey-to-disney
 episode: 79
 date: '2020-01-16T13:13:41.000Z'
 categories:
-- Books
+  - Books
 tags:
-- jon kohlmeier
-- life with a twist of lemon
-- shoes
-- stan lemon
+  - jon kohlmeier
+  - life with a twist of lemon
+  - shoes
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/079-lwatol-20200116.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/079-lwatol-20200116.mp3
   length: null
   type: null
 ---

@@ -4,13 +4,14 @@ slug: episode-25-the-budget-episode
 episode: 25
 date: '2019-01-03T12:31:14.000Z'
 categories:
-- Finance
-- Productivity
+  - Finance
+  - Productivity
 tags:
-- budgeting
-- twistoflemon
+  - budgeting
+  - twistoflemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/025-lwatol-20190103.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/025-lwatol-20190103.mp3
   length: 222
   type: audio/mpeg
 ---

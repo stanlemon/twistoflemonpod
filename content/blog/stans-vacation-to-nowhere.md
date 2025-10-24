@@ -4,11 +4,12 @@ slug: stans-vacation-to-nowhere
 episode: 106
 date: '2020-10-29T12:29:34.000Z'
 categories:
-- Productivity
+  - Productivity
 tags:
-- vacation
+  - vacation
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/106-lwatol-20201029.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/106-lwatol-20201029.mp3
   length: null
   type: null
 ---

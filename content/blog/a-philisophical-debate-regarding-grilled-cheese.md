@@ -4,18 +4,19 @@ slug: a-philisophical-debate-regarding-grilled-cheese
 episode: 36
 date: '2019-03-14T12:22:06.000Z'
 categories:
-- Food
-- Home Ownership
-- Movies
+  - Food
+  - Home Ownership
+  - Movies
 tags:
-- grilled cheese
-- jon kohlmeier
-- life with a twist of lemon
-- milkshakes
-- stan lemon
-- home improvement
+  - grilled cheese
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshakes
+  - stan lemon
+  - home improvement
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3
   length: 222
   type: audio/mpeg
 ---

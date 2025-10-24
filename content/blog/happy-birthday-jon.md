@@ -1,14 +1,15 @@
 ---
-title: Happy birthday, Jon!
+title: 'Happy birthday, Jon!'
 slug: happy-birthday-jon
 episode: 134
 date: '2021-05-13T13:59:37.000Z'
 categories:
-- Home Ownership
+  - Home Ownership
 tags:
-- home improvement
+  - home improvement
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/134-lwatol-20210513.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/134-lwatol-20210513.mp3
   length: null
   type: null
 ---

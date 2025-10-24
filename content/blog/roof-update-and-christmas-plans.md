@@ -4,12 +4,13 @@ slug: roof-update-and-christmas-plans
 episode: 114
 date: '2020-12-24T14:29:33.000Z'
 categories:
-- Home Ownership
+  - Home Ownership
 tags:
-- christmas
-- roof
+  - Christmas
+  - roof
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/114-lwatol-20201224.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/114-lwatol-20201224.mp3
   length: null
   type: null
 ---

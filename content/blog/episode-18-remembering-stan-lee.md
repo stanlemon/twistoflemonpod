@@ -4,14 +4,15 @@ slug: episode-18-remembering-stan-lee
 episode: 18
 date: '2018-11-15T12:29:40.000Z'
 categories:
-- Movies
+  - Movies
 tags:
-- moving
-- politics
-- avengers
-- milkshakes
+  - moving
+  - politics
+  - avengers
+  - milkshakes
 enclosure:
-  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3 '
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3 
   length: 222
   type: audio/mpeg
 ---

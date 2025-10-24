@@ -4,17 +4,18 @@ slug: getting-ready-for-spring-lawn-care
 episode: 85
 date: '2020-02-27T13:58:17.000Z'
 categories:
-- Home Ownership
-- Movies
+  - Home Ownership
+  - Movies
 tags:
-- jon kohlmeier
-- lawn care
-- life with a twist of lemon
-- meat rubs by fenker
-- stan lemon
-- star trek
+  - jon kohlmeier
+  - lawn care
+  - life with a twist of lemon
+  - meat rubs by fenker
+  - stan lemon
+  - star trek
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/085-lwatol-20200227mp3.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/085-lwatol-20200227mp3.mp3
   length: null
   type: null
 ---

@@ -4,18 +4,19 @@ slug: use-the-force-to-use-email-better
 episode: 60
 date: '2019-08-29T11:24:37.000Z'
 categories:
-- Movies
-- Productivity
-- Technology
+  - Movies
+  - Productivity
+  - Technology
 tags:
-- disney+
-- email
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- star wars
+  - disney+
+  - email
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - star wars
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/060-lwatol-20190829.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/060-lwatol-20190829.mp3
   length: 222
   type: audio/mpeg
 ---

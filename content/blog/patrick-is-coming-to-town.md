@@ -4,19 +4,20 @@ slug: patrick-is-coming-to-town
 episode: 33
 date: '2019-02-28T13:12:39.000Z'
 categories:
-- Finance
-- Food
-- Movies
-- Technology
+  - Finance
+  - Food
+  - Movies
+  - Technology
 tags:
-- avengers
-- jon kohlmeier
-- life with a twist of lemon
-- milkshakes
-- stan lemon
-- endgame
+  - avengers
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshakes
+  - stan lemon
+  - endgame
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/033-lwatol-20190228.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/033-lwatol-20190228.mp3
   length: 222
   type: audio/mpeg
 ---

@@ -4,17 +4,18 @@ slug: the-impossible-episode
 episode: 58
 date: '2019-08-15T14:49:57.000Z'
 categories:
-- Food
-- Home Ownership
-- Technology
+  - Food
+  - Home Ownership
+  - Technology
 tags:
-- baseball
-- jon kohlmeier
-- life with a twist of lemon
-- mortgage
-- stan lemon
+  - baseball
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mortgage
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/058-lwatol-20190815.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/058-lwatol-20190815.mp3
   length: 222
   type: audio/mpeg
 ---

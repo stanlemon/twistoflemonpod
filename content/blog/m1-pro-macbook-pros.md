@@ -4,13 +4,14 @@ slug: m1-pro-macbook-pros
 episode: 157
 date: '2021-10-21T14:42:37.000Z'
 categories:
-- Food
-- Technology
+  - Food
+  - Technology
 tags:
-- apple music
-- macbook
+  - apple music
+  - macbook
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/157-lwatol-20211021.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/157-lwatol-20211021.mp3
   length: null
   type: null
 ---

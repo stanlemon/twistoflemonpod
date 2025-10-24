@@ -4,19 +4,20 @@ slug: new-reviews
 episode: 37
 date: '2019-03-21T11:57:21.000Z'
 categories:
-- Food
-- Marvel
-- Movies
+  - Food
+  - Marvel
+  - Movies
 tags:
-- avengers
-- endgame
-- grilled cheese
-- jon kohlmeier
-- life with a twist of lemon
-- milkshakes
-- stan lemon
+  - avengers
+  - endgame
+  - grilled cheese
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshakes
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/037-lwatol-20190321.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/037-lwatol-20190321.mp3
   length: 222
   type: audio/mpeg
 ---

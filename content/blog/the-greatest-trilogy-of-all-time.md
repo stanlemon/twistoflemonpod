@@ -4,11 +4,12 @@ slug: the-greatest-trilogy-of-all-time
 episode: 92
 date: '2020-07-15T19:30:21.000Z'
 categories:
-- Movies
+  - Movies
 tags:
-- disney+
+  - disney+
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/092-lwatol-20200716.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/092-lwatol-20200716.mp3
   length: null
   type: null
 ---

@@ -4,15 +4,17 @@ slug: episode-30-maybe-weezer-should-have-performed-the-super-bowl-halftime-show
 episode: 30
 date: '2019-02-07T12:58:41.000Z'
 categories:
-- Food
-- Technology
+  - Food
+  - Technology
 tags:
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- football
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - football
+  - pizza
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/030-lwatol-20190207.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/030-lwatol-20190207.mp3
   length: 222
   type: audio/mpeg
 ---

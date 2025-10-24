@@ -1,19 +1,20 @@
 ---
-title: Episode 17 - Reformation, Voting, and Kanban Moving Boards
+title: 'Episode 17 - Reformation, Voting, and Kanban Moving Boards'
 slug: episode-17-reformation-voting-and-kanban-moving-boards
 episode: 17
 date: '2018-11-08T13:00:16.000Z'
 categories:
-- House Hunting
-- Productivity
-- Technology
+  - House Hunting
+  - Productivity
+  - Technology
 tags:
-- moving
-- politics
-- milkshakes
-- music
+  - moving
+  - politics
+  - milkshakes
+  - music
 enclosure:
-  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3 '
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3 
   length: 222
   type: audio/mpeg
 ---

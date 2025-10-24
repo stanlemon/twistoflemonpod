@@ -4,22 +4,23 @@ slug: nashville-and-disney
 episode: 72
 date: '2019-11-21T14:21:20.000Z'
 categories:
-- Food
-- Marvel
-- Technology
-- Movies
+  - Food
+  - Marvel
+  - Technology
+  - Movies
 tags:
-- car maintence
-- disney+
-- jon kohlmeier
-- life with a twist of lemon
-- milkshakes
-- minimalism
-- nashville
-- stan lemon
-- star wars
+  - car maintence
+  - disney+
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshakes
+  - minimalism
+  - nashville
+  - stan lemon
+  - star wars
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/072-lwatol-20191121.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/072-lwatol-20191121.mp3
   length: null
   type: null
 ---

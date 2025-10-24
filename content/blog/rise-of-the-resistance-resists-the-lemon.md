@@ -4,18 +4,19 @@ slug: rise-of-the-resistance-resists-the-lemon
 episode: 84
 date: '2020-02-20T14:38:44.000Z'
 categories:
-- Movies
+  - Movies
 tags:
-- disney+
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- star wars
-- vacation
-- star trek
-- disney
+  - disney+
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - star wars
+  - vacation
+  - star trek
+  - disney
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/084-lwatol-20200220.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/084-lwatol-20200220.mp3
   length: null
   type: null
 ---

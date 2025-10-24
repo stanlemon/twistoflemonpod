@@ -4,11 +4,12 @@ slug: fitness-with-mark-buetow
 episode: 116
 date: '2021-01-07T13:56:15.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- apple
+  - apple
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/116-lwatol-20210107.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/116-lwatol-20210107.mp3
   length: null
   type: null
 ---

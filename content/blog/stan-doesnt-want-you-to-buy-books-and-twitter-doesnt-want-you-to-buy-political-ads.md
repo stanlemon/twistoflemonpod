@@ -1,21 +1,24 @@
 ---
-title: Stan doesn't want you to buy books and Twitter doesn't want you to buy Political
-  Ads
-slug: stan-doesnt-want-you-to-buy-books-and-twitter-doesnt-want-you-to-buy-political-ads
+title: >-
+  Stan doesn't want you to buy books and Twitter doesn't want you to buy
+  Political Ads
+slug: >-
+  stan-doesnt-want-you-to-buy-books-and-twitter-doesnt-want-you-to-buy-political-ads
 episode: 70
 date: '2019-11-07T13:46:36.000Z'
 categories:
-- Movies
-- Technology
+  - Movies
+  - Technology
 tags:
-- apple tv
-- jon kohlmeier
-- life tip
-- life with a twist of lemon
-- minimalism
-- stan lemon
+  - apple tv
+  - jon kohlmeier
+  - life tip
+  - life with a twist of lemon
+  - minimalism
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/070-lwatol-20191107.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/070-lwatol-20191107.mp3
   length: null
   type: null
 ---

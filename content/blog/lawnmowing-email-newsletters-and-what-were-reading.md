@@ -1,19 +1,20 @@
 ---
-title: Lawnmowing, email newsletters, and what we're reading.
+title: 'Lawnmowing, email newsletters, and what we''re reading.'
 slug: lawnmowing-email-newsletters-and-what-were-reading
 episode: 45
 date: '2019-05-16T11:28:51.000Z'
 categories:
-- Home Ownership
-- Technology
+  - Home Ownership
+  - Technology
 tags:
-- email
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- lawn care
+  - email
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - lawn care
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/045-lwatol-20190516.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/045-lwatol-20190516.mp3
   length: 222
   type: audio/mpeg
 ---

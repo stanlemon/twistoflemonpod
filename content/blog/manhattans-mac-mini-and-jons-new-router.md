@@ -1,22 +1,24 @@
 ---
-title: Manhattans, Mac mini, and Jon's new Router
+title: 'Manhattans, Mac mini, and Jon''s new Router'
 slug: manhattans-mac-mini-and-jons-new-router
 episode: 78
 date: '2020-01-09T15:16:55.000Z'
 categories:
-- Food
-- Technology
+  - Food
+  - Technology
 tags:
-- amazon
-- goals
-- jon kohlmeier
-- life with a twist of lemon
-- mac
-- milkshakes
-- router
-- stan lemon
+  - amazon
+  - goals
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mac
+  - milkshakes
+  - router
+  - stan lemon
+  - mac mini
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/078-lwatol-20200109.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/078-lwatol-20200109.mp3
   length: null
   type: null
 ---

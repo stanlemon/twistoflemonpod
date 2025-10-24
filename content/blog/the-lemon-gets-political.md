@@ -4,15 +4,16 @@ slug: the-lemon-gets-political
 episode: 103
 date: '2020-10-08T13:52:25.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- airpods
-- apple
-- politics
-- shoes
-- meat rubs
+  - airpods
+  - apple
+  - politics
+  - shoes
+  - meat rubs
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/103-lwatol-20201008.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/103-lwatol-20201008.mp3
   length: null
   type: null
 ---

@@ -4,11 +4,12 @@ slug: stan-makes-full-use-of-apple-health
 episode: 136
 date: '2021-05-27T15:54:25.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- apple
+  - apple
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210527.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210527.mp3
   length: null
   type: null
 ---

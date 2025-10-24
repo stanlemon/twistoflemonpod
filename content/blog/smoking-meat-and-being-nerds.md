@@ -4,20 +4,21 @@ slug: smoking-meat-and-being-nerds
 episode: 47
 date: '2019-05-30T13:17:00.000Z'
 categories:
-- Food
-- Home Ownership
-- Technology
-- Movies
+  - Food
+  - Home Ownership
+  - Technology
+  - Movies
 tags:
-- apple
-- jon kohlmeier
-- life with a twist of lemon
-- meat rubs
-- picard
-- stan lemon
-- star trek
+  - apple
+  - jon kohlmeier
+  - life with a twist of lemon
+  - meat rubs
+  - picard
+  - stan lemon
+  - star trek
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3
   length: 222
   type: audio/mpeg
 ---

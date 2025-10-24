@@ -4,14 +4,15 @@ slug: the-inklings-of-stan-and-jon
 episode: 122
 date: '2021-02-18T14:57:31.000Z'
 categories:
-- Books
-- Marvel
-- Movies
+  - Books
+  - Marvel
+  - Movies
 tags:
-- macbook
-- wandavision
+  - macbook
+  - wandavision
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210218.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210218.mp3
   length: null
   type: null
 ---

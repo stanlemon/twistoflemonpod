@@ -4,20 +4,21 @@ slug: stan-returns-to-his-hobbies
 episode: 40
 date: '2019-04-11T12:37:32.000Z'
 categories:
-- Finance
-- Food
-- Home Ownership
-- Technology
+  - Finance
+  - Food
+  - Home Ownership
+  - Technology
 tags:
-- jon kohlmeier
-- life with a twist of lemon
-- mint
-- stan lemon
-- tacos
-- milkshakes
-- meat rubs
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mint
+  - stan lemon
+  - tacos
+  - milkshakes
+  - meat rubs
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3
   length: 222
   type: audio/mpeg
 ---

@@ -4,17 +4,18 @@ slug: its-beginning-to-look-a-lot-like-spring
 episode: 124
 date: '2021-03-04T13:54:11.000Z'
 categories:
-- Home Ownership
-- Marvel
-- Productivity
-- Movies
+  - Home Ownership
+  - Marvel
+  - Productivity
+  - Movies
 tags:
-- lawn care
-- wandavision
-- macbook
-- patrick sturdivant
+  - lawn care
+  - wandavision
+  - macbook
+  - patrick sturdivant
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/124-lwatol-20210304.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/124-lwatol-20210304.mp3
   length: null
   type: null
 ---

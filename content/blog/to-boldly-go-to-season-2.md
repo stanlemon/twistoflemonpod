@@ -4,17 +4,18 @@ slug: to-boldly-go-to-season-2
 episode: 56
 date: '2019-08-01T13:24:46.000Z'
 categories:
-- Marvel
-- Movies
+  - Marvel
+  - Movies
 tags:
-- jon kohlmeier
-- life with a twist of lemon
-- router
-- star trek
-- endgame
-- milkshakes
+  - jon kohlmeier
+  - life with a twist of lemon
+  - router
+  - star trek
+  - endgame
+  - milkshakes
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/056-lwatol-20190801.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/056-lwatol-20190801.mp3
   length: 222
   type: audio/mpeg
 ---

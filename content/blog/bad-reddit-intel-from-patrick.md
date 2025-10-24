@@ -4,22 +4,23 @@ slug: bad-reddit-intel-from-patrick
 episode: 38
 date: '2019-03-28T12:51:27.000Z'
 categories:
-- Marvel
-- Movies
-- Technology
+  - Marvel
+  - Movies
+  - Technology
 tags:
-- airpods
-- apple
-- avengers
-- endgame
-- grilled cheese
-- ipad
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- patrick sturdivant
+  - airpods
+  - apple
+  - avengers
+  - endgame
+  - grilled cheese
+  - ipad
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - patrick sturdivant
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/038-lwatol-20190328.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/038-lwatol-20190328.mp3
   length: 222
   type: audio/mpeg
 ---

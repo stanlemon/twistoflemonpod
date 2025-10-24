@@ -4,17 +4,18 @@ slug: back-from-vacation-and-talking-tech
 episode: 50
 date: '2019-06-20T12:32:31.000Z'
 categories:
-- Productivity
-- Technology
+  - Productivity
+  - Technology
 tags:
-- beer
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- vacation
-- milkshakes
+  - beer
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - vacation
+  - milkshakes
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/050-lwatol-20190620.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/050-lwatol-20190620.mp3
   length: 222
   type: audio/mpeg
 ---

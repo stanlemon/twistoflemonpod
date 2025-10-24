@@ -4,14 +4,15 @@ slug: october-sportsball-episode
 episode: 65
 date: '2019-10-03T10:39:09.000Z'
 categories:
-- Lifestyle
+  - Lifestyle
 tags:
-- baseball
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
+  - baseball
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/065-lwatol-20191003.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/065-lwatol-20191003.mp3
   length: 222
   type: audio/mpeg
 ---

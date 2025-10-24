@@ -4,15 +4,16 @@ slug: reunited
 episode: 143
 date: '2021-07-13T13:39:23.000Z'
 categories:
-- Food
-- Marvel
-- Technology
+  - Food
+  - Marvel
+  - Technology
 tags:
-- milkshakes
-- vacation
-- visit
+  - milkshakes
+  - vacation
+  - visit
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/143-lwatol-20210713.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/143-lwatol-20210713.mp3
   length: null
   type: null
 ---

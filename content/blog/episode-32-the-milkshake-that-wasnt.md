@@ -4,17 +4,18 @@ slug: episode-32-the-milkshake-that-wasnt
 episode: 32
 date: '2019-02-21T12:26:22.000Z'
 categories:
-- Food
-- Technology
+  - Food
+  - Technology
 tags:
-- jon kohlmeier
-- life with a twist of lemon
-- milkshakes
-- music
-- snowblower
-- stan lemon
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshakes
+  - music
+  - snowblower
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3
   length: 222
   type: audio/mpeg
 ---

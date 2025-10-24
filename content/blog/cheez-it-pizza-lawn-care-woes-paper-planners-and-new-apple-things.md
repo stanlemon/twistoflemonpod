@@ -1,22 +1,24 @@
 ---
-title: Cheez-It Pizza, Lawn Care Woes, Paper Planners and new Apple Things
+title: 'Cheez-It Pizza, Lawn Care Woes, Paper Planners and new Apple Things'
 slug: cheez-it-pizza-lawn-care-woes-paper-planners-and-new-apple-things
 episode: 64
 date: '2019-09-26T14:19:06.000Z'
 categories:
-- Food
-- Home Ownership
-- Technology
+  - Food
+  - Home Ownership
+  - Technology
 tags:
-- apple
-- ios
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- milkshakes
-- lawn care
+  - apple
+  - ios
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - milkshakes
+  - lawn care
+  - pizza
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3
   length: 222
   type: audio/mpeg
 ---

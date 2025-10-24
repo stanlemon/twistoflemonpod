@@ -4,10 +4,11 @@ slug: episode-1-episode-about-podcasts
 episode: 1
 date: '2018-07-30T23:20:55.000Z'
 categories:
-- Lifestyle
+  - Lifestyle
 tags: null
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180731.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180731.mp3
   length: 221
   type: audio/mpeg
 ---

@@ -4,11 +4,12 @@ slug: lemilton-our-review-of-hamilton
 episode: 91
 date: '2020-07-09T13:28:13.000Z'
 categories:
-- Movies
+  - Movies
 tags:
-- disney+
+  - disney+
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/091-lwatol-20200709.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/091-lwatol-20200709.mp3
   length: null
   type: null
 ---

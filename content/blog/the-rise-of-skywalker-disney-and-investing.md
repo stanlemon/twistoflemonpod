@@ -1,21 +1,23 @@
 ---
-title: The Rise of Skywalker, Disney+, and Investing
+title: 'The Rise of Skywalker, Disney+, and Investing'
 slug: the-rise-of-skywalker-disney-and-investing
 episode: 41
 date: '2019-04-18T11:57:56.000Z'
 categories:
-- Finance
-- Marvel
-- Movies
-- Theology
+  - Finance
+  - Marvel
+  - Movies
+  - Theology
 tags:
-- disney+
-- jon kohlmeier
-- life with a twist of lemon
-- stan lemon
-- star wars
+  - disney+
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - star wars
+  - investing
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3
   length: 222
   type: audio/mpeg
 ---

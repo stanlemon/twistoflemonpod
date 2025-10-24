@@ -1,14 +1,15 @@
 ---
-title: Stan Lemon, Inventor
+title: 'Stan Lemon, Inventor'
 slug: stan-lemon-inventor
 episode: 94
 date: '2020-07-30T12:03:00.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- baseball
+  - baseball
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/094-lwatol-20200730.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/094-lwatol-20200730.mp3
   length: null
   type: null
 ---

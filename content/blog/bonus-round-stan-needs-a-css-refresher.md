@@ -4,11 +4,12 @@ slug: bonus-round-stan-needs-a-css-refresher
 episode: bonus-1
 date: '2018-09-13T17:00:25.000Z'
 categories:
-- Technology
+  - Technology
 tags:
-- stan lemon
+  - stan lemon
 enclosure:
-  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3
   length: 222
   type: audio/mpeg
 ---
