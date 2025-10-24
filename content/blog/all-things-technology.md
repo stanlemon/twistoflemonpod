@@ -4,16 +4,12 @@ slug: all-things-technology
 episode: 109
 date: '2020-11-19T13:53:51.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - apple
-  - Big Sur
-  - gaming
-  - os
-  - xbox
+- apple
+- xbox
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/109-lwatol-20201119.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/109-lwatol-20201119.mp3
   length: null
   type: null
 ---

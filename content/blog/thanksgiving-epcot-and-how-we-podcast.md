@@ -1,19 +1,16 @@
 ---
-title: 'Thanksgiving, Epcot, and How we Podcast'
+title: Thanksgiving, Epcot, and How we Podcast
 slug: thanksgiving-epcot-and-how-we-podcast
 episode: 162
 date: '2021-11-25T14:46:42.000Z'
 categories:
-  - Food
-  - Technology
+- Food
+- Technology
 tags:
-  - disney
-  - epcot
-  - food
-  - thanksgiving
+- disney
+- thanksgiving
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/162-lwatol-20211125.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/162-lwatol-20211125.mp3
   length: null
   type: null
 ---

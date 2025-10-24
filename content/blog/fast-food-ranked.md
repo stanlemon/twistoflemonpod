@@ -4,20 +4,15 @@ slug: fast-food-ranked
 episode: 140
 date: '2021-06-22T14:08:58.000Z'
 categories:
-  - Food
-  - Marvel
-  - Recreation
+- Food
+- Marvel
+- Recreation
+- Movies
 tags:
-  - fast food
-  - loki
-  - marvel
-  - mcdonalds
-  - post-pandemic
-  - rv
-  - vacation
+- loki
+- vacation
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/140-lwatol-20210622.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/140-lwatol-20210622.mp3
   length: null
   type: null
 ---

@@ -4,15 +4,14 @@ slug: wandacast-the-finale
 episode: 125
 date: '2021-03-11T13:40:52.000Z'
 categories:
-  - Marvel
+- Marvel
+- Movies
 tags:
-  - marvel
-  - Patrick sturdivant
-  - tv reviews
-  - wandavision
+- patrick sturdivant
+- wandavision
+- falcon and the winter soldier
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/125-lwatol-20210311.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/125-lwatol-20210311.mp3
   length: null
   type: null
 ---

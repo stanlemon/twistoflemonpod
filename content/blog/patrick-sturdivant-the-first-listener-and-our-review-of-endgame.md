@@ -4,20 +4,17 @@ slug: patrick-sturdivant-the-first-listener-and-our-review-of-endgame
 episode: 43
 date: '2019-05-02T12:36:18.000Z'
 categories:
-  - Food
-  - Marvel
-  - Movies
+- Food
+- Marvel
+- Movies
 tags:
-  - endgame
-  - indianapolis
-  - jon kohlmeier
-  - life with a twist of lemon
-  - live recording
-  - marvel
-  - steak
+- endgame
+- jon kohlmeier
+- life with a twist of lemon
+- avengers
+- patrick sturdivant
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/043-lwatol-20190502.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/043-lwatol-20190502.mp3
   length: 222
   type: audio/mpeg
 ---

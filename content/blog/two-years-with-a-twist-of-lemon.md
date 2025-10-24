@@ -4,15 +4,10 @@ slug: two-years-with-a-twist-of-lemon
 episode: 95
 date: '2020-08-06T13:32:11.000Z'
 categories:
-  - Food
-tags:
-  - anniversary
-  - milestone
-  - henry lemon
-  - manhattan
+- Food
+tags: null
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/095-lwatol-20200806.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/095-lwatol-20200806.mp3
   length: 45805056
   type: audio/mpeg
 ---

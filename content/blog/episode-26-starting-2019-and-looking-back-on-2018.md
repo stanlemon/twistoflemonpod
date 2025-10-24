@@ -4,20 +4,14 @@ slug: episode-26-starting-2019-and-looking-back-on-2018
 episode: 26
 date: '2019-01-10T12:49:42.000Z'
 categories:
-  - Movies
-  - Technology
+- Movies
+- Technology
 tags:
-  - ios
-  - marvel
-  - milkshake
-  - netflix
-  - pop-tart
-  - screentime
-  - top 5
-  - twistoflemon
+- ios
+- twistoflemon
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/026-lwatol-20190110.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/026-lwatol-20190110.mp3
   length: 222
   type: audio/mpeg
 ---

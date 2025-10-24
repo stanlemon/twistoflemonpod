@@ -3,11 +3,9 @@ title: Some Rather Sour Grievances - Festivus 2018
 slug: some-rather-sour-grievances-festivus-2018
 date: '2018-12-23T19:24:36.000Z'
 categories:
-  - Lifestyle
+- Lifestyle
 tags:
-  - festivus
-  - grievances
-  - holiday
+- milkshakes
 ---
 
 1. Not having hit $1000 for Fritsche yet (Fix this. Yes - you. [convenient link to donation page](https://twistoflemonpod.com/fritsche/)).

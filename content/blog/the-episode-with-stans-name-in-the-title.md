@@ -4,20 +4,18 @@ slug: the-episode-with-stans-name-in-the-title
 episode: 39
 date: '2019-04-04T12:30:12.000Z'
 categories:
-  - Marvel
-  - Movies
-  - Technology
+- Marvel
+- Movies
+- Technology
 tags:
-  - apple
-  - avengers
-  - endgame
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marvel
-  - stan lemon
+- apple
+- avengers
+- endgame
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/039-lwatol-20190404.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/039-lwatol-20190404.mp3
   length: 222
   type: audio/mpeg
 ---

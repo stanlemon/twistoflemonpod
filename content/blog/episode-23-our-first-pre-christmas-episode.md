@@ -4,18 +4,16 @@ slug: episode-23-our-first-pre-christmas-episode
 episode: 23
 date: '2018-12-20T12:37:29.000Z'
 categories:
-  - Food
-  - Movies
+- Food
+- Movies
 tags:
-  - avengers
-  - Christmas
-  - eggnog
-  - food
-  - Fritsche
-  - Milkshake
+- avengers
+- christmas
+- Fritsche
+- milkshakes
+- endgame
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/023-lwatol-20181220.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/023-lwatol-20181220.mp3
   length: 222
   type: audio/mpeg
 ---

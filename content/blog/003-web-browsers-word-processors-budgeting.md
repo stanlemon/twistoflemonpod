@@ -1,20 +1,14 @@
 ---
-title: 'Episode 3 - Web Browsers, Word Processors, and Budgeting'
+title: Episode 3 - Web Browsers, Word Processors, and Budgeting
 slug: 003-web-browsers-word-processors-budgeting
 episode: 3
 date: '2018-08-02T03:24:08.000Z'
 categories:
-  - Finance
+- Finance
 tags:
-  - budgeting
-  - finance
-  - firefox
-  - netscape
-  - office
-  - web browsers
+- budgeting
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/003-lwatol-20180802.mp3 
+  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/003-lwatol-20180802.mp3 '
   length: 221
   type: audio/mpeg
 ---

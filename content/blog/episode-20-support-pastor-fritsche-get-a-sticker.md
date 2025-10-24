@@ -1,20 +1,18 @@
 ---
-title: 'Episode 20 - Support Pastor Fritsche, get a Sticker.'
+title: Episode 20 - Support Pastor Fritsche, get a Sticker.
 slug: episode-20-support-pastor-fritsche-get-a-sticker
 episode: 20
 date: '2018-11-29T08:00:56.000Z'
 categories:
-  - Technology
-  - Theology
+- Technology
+- Theology
 tags:
-  - advent
-  - cph
-  - Fritsche
-  - giving
-  - gmail
+- Fritsche
+- roof
+- email
+- baseball
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3
   length: 222
   type: audio/mpeg
 ---

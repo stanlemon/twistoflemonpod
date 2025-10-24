@@ -4,14 +4,12 @@ slug: episode-9-stans-portillos-experience
 episode: 9
 date: '2018-09-13T07:00:51.000Z'
 categories:
-  - Food
+- Food
 tags:
-  - apple
-  - cocktails
-  - Milkshake
+- apple
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/009-lwatol-20180913.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/009-lwatol-20180913.mp3
   length: 222
   type: audio/mpeg
 ---

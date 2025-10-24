@@ -4,18 +4,16 @@ slug: dont-stop-at-roundabouts
 episode: 69
 date: '2019-10-31T12:11:52.000Z'
 categories:
-  - Lifestyle
+- Lifestyle
 tags:
-  - baseball
-  - jon kohlmeier
-  - kansas
-  - life tip
-  - life with a twist of lemon
-  - minimalism
-  - stan lemon
+- baseball
+- jon kohlmeier
+- life tip
+- life with a twist of lemon
+- minimalism
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/069-lwatol-20191031.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/069-lwatol-20191031.mp3
   length: null
   type: null
 ---

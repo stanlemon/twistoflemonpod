@@ -4,21 +4,18 @@ slug: jon-has-friends-other-than-stan
 episode: 44
 date: '2019-05-09T12:42:46.000Z'
 categories:
-  - Food
-  - Marvel
-  - Movies
+- Food
+- Marvel
+- Movies
 tags:
-  - grilled cheese
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marvel
-  - movie
-  - spiderman
-  - stan lemon
-  - trailer
+- grilled cheese
+- jon kohlmeier
+- life with a twist of lemon
+- spiderman
+- stan lemon
+- endgame
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/044-lwatol-20190509.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/044-lwatol-20190509.mp3
   length: 222
   type: audio/mpeg
 ---

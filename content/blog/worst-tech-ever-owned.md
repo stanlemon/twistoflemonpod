@@ -4,14 +4,11 @@ slug: worst-tech-ever-owned
 episode: 160
 date: '2021-11-11T13:00:57.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - bota box
-  - iPhone
-  - technology
+- iPhone
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/160-lwatol-20211111.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/160-lwatol-20211111.mp3
   length: null
   type: null
 ---

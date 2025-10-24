@@ -4,13 +4,12 @@ slug: on-a-very-special-episode
 episode: 121
 date: '2021-02-11T14:27:00.000Z'
 categories:
-  - Marvel
+- Marvel
+- Movies
 tags:
-  - overwatch
-  - wandavision
+- wandavision
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210211.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210211.mp3
   length: null
   type: null
 ---

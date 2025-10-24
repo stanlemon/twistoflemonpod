@@ -4,14 +4,12 @@ slug: end-of-year-music-and-shipping
 episode: 112
 date: '2020-12-10T14:42:34.000Z'
 categories:
-  - Lifestyle
+- Lifestyle
 tags:
-  - christmas
-  - shipping
-  - shopping
+- christmas
+- music
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/112-lwatol-20201210.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/112-lwatol-20201210.mp3
   length: null
   type: null
 ---

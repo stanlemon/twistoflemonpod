@@ -4,20 +4,15 @@ slug: this-episode-sparks-joy
 episode: 67
 date: '2019-10-17T14:32:56.000Z'
 categories:
-  - Home Ownership
-  - Productivity
+- Home Ownership
+- Productivity
 tags:
-  - cleaning
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marie kondo
-  - minimalism
-  - purge
-  - spark joy
-  - stan lemon
+- jon kohlmeier
+- life with a twist of lemon
+- minimalism
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/067-lwatol-20191017.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/067-lwatol-20191017.mp3
   length: 222
   type: audio/mpeg
 ---

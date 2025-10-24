@@ -4,15 +4,14 @@ slug: kohlmeier-updates
 episode: 105
 date: '2020-10-22T13:41:17.000Z'
 categories:
-  - Food
-  - Home Ownership
+- Food
+- Home Ownership
 tags:
-  - Kohlmeier
-  - roof
-  - smoker
+- roof
+- meat rubs
+- lawn care
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/105-lwatol-20201022.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/105-lwatol-20201022.mp3
   length: null
   type: null
 ---

@@ -4,20 +4,16 @@ slug: you-probably-shouldnt-include-euchre-on-your-resume
 episode: 57
 date: '2019-08-08T14:33:16.000Z'
 categories:
-  - Career Advice
-  - Food
-  - Productivity
+- Career Advice
+- Food
+- Productivity
+- Movies
 tags:
-  - ecommerce
-  - euchre
-  - five guys
-  - hamburgers
-  - jon kohlmeier
-  - life with a twist of lemon
-  - resume
+- jon kohlmeier
+- life with a twist of lemon
+- star trek
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/057-lwatol-20190808.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/057-lwatol-20190808.mp3
   length: 222
   type: audio/mpeg
 ---

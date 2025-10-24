@@ -4,27 +4,23 @@ slug: stans-christmas-in-september
 episode: 62
 date: '2019-09-12T21:01:49.000Z'
 categories:
-  - Food
-  - Technology
+- Food
+- Technology
 tags:
-  - apple
-  - apple arcade
-  - apple event
-  - apple tv
-  - apple watch
-  - backup
-  - baseball
-  - computer
-  - iPhone
-  - jon kohlmeier
-  - life with a twist of lemon
-  - little league
-  - stan lemon
-  - taco bell
-  - wendys
+- apple
+- apple event
+- apple tv
+- apple watch
+- baseball
+- iPhone
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- taco bell
+- ipad
+- christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/062-lwatol-20190912.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/062-lwatol-20190912.mp3
   length: 222
   type: audio/mpeg
 ---

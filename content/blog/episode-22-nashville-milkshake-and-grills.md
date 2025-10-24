@@ -4,19 +4,15 @@ slug: episode-22-nashville-milkshake-and-grills
 episode: 22
 date: '2018-12-13T13:12:47.000Z'
 categories:
-  - Food
-  - Home Ownership
-  - Technology
+- Food
+- Home Ownership
+- Technology
 tags:
-  - food
-  - homeownership
-  - Milkshake
-  - nashville
-  - wordcamp us
-  - WordPress
+- milkshakes
+- nashville
+- christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/022-lwatol-20181213.mp3 
+  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/022-lwatol-20181213.mp3 '
   length: 222
   type: audio/mpeg
 ---

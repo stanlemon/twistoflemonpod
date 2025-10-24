@@ -4,16 +4,14 @@ slug: jon-and-stans-excellent-adventure
 episode: 149
 date: '2021-08-24T14:23:54.000Z'
 categories:
-  - Food
+- Food
 tags:
-  - beer
-  - food
-  - Milkshake
-  - visit
-  - yard work
+- beer
+- milkshakes
+- visit
+- meat rubs
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/149-lwatol-20210824.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/149-lwatol-20210824.mp3
   length: null
   type: null
 ---

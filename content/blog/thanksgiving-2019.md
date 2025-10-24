@@ -4,23 +4,23 @@ slug: thanksgiving-2019
 episode: 73
 date: '2019-11-28T13:14:34.000Z'
 categories:
-  - Food
-  - Marvel
-  - Technology
+- Food
+- Marvel
+- Technology
 tags:
-  - car maintence
-  - disney+
-  - jon kohlmeier
-  - life with a twist of lemon
-  - Milkshake
-  - minimalism
-  - nashville
-  - oil
-  - stan lemon
-  - star wars
+- car maintence
+- disney+
+- jon kohlmeier
+- life with a twist of lemon
+- milkshakes
+- minimalism
+- nashville
+- stan lemon
+- star wars
+- email
+- thanksgiving
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/073-lwatol-20191128.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/073-lwatol-20191128.mp3
   length: null
   type: null
 ---

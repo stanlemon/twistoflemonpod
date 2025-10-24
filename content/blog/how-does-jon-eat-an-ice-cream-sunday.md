@@ -4,25 +4,17 @@ slug: how-does-jon-eat-an-ice-cream-sunday
 episode: 51
 date: '2019-06-27T11:29:27.000Z'
 categories:
-  - Finance
-  - Technology
+- Finance
+- Technology
 tags:
-  - banking
-  - catalina
-  - customer support
-  - finance
-  - food
-  - ice cream
-  - jon kohlmeier
-  - life with a twist of lemon
-  - mac
-  - macos
-  - spoons
-  - stan lemon
-  - wifi
+- ice cream
+- jon kohlmeier
+- life with a twist of lemon
+- mac
+- stan lemon
+- grilled cheese
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3
   length: 222
   type: audio/mpeg
 ---

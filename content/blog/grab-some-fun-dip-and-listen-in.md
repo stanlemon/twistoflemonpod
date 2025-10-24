@@ -4,15 +4,13 @@ slug: grab-some-fun-dip-and-listen-in
 episode: 123
 date: '2021-02-25T14:48:18.000Z'
 categories:
-  - Food
-  - Marvel
+- Food
+- Marvel
+- Movies
 tags:
-  - tendershack
-  - valentines day
-  - wandavision
+- wandavision
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/123-lwatol-20210225.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/123-lwatol-20210225.mp3
   length: null
   type: null
 ---

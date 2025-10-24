@@ -4,17 +4,13 @@ slug: episode-19-jon-moved-in
 episode: 19
 date: '2018-11-22T13:40:16.000Z'
 categories:
-  - House Hunting
+- House Hunting
 tags:
-  - closing
-  - iTunes
-  - moving
-  - reviews
-  - special announcement
-  - thanksgiving
+- moving
+- thanksgiving
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/019-lwatol-20181122.mp3 
+  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/019-lwatol-20181122.mp3 '
   length: 222
   type: audio/mpeg
 ---

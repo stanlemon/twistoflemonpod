@@ -4,18 +4,17 @@ slug: the-random-episode
 episode: 88
 date: '2020-03-19T14:49:34.000Z'
 categories:
-  - House Hunting
-  - Productivity
-  - Technology
+- House Hunting
+- Productivity
+- Technology
+- Movies
 tags:
-  - books
-  - jon kohlmeier
-  - life with a twist of lemon
-  - reading
-  - stan lemon
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- grilled cheese
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/088-lwatol-20200319.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/088-lwatol-20200319.mp3
   length: null
   type: null
 ---

@@ -1,17 +1,15 @@
 ---
-title: 'Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter'
+title: Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter
 slug: 007-fort-wayne-milkshakes-twitter
 episode: 7
 date: '2018-08-30T07:00:54.000Z'
 categories:
-  - Food
+- Food
+- Movies
 tags:
-  - Fort Wayne
-  - Macintosh
-  - Milkshake
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/007-lwatol-20180830.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/007-lwatol-20180830.mp3
   length: 222
   type: audio/mpeg
 ---

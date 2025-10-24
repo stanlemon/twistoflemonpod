@@ -4,31 +4,22 @@ slug: all-the-makings-of-a-great-anniversary-episode
 episode: 53
 date: '2019-07-11T12:15:31.000Z'
 categories:
-  - Marvel
-  - Movies
-  - Technology
+- Marvel
+- Movies
+- Technology
 tags:
-  - apple
-  - architecture
-  - far from home
-  - frank Lloyd wright
-  - ice cream
-  - internet
-  - jon kohlmeier
-  - life with a twist of lemon
-  - mac
-  - macbeth
-  - macbook
-  - milkshakes
-  - movie review
-  - router
-  - shakespeare
-  - spiderman
-  - stan lemon
-  - taliesin
+- apple
+- ice cream
+- jon kohlmeier
+- life with a twist of lemon
+- mac
+- macbook
+- milkshakes
+- router
+- spiderman
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190711.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190711.mp3
   length: 222
   type: audio/mpeg
 ---

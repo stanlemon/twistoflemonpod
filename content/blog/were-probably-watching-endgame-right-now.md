@@ -4,17 +4,16 @@ slug: were-probably-watching-endgame-right-now
 episode: 42
 date: '2019-04-25T13:27:29.000Z'
 categories:
-  - Marvel
-  - Movies
+- Marvel
+- Movies
 tags:
-  - baseball
-  - endgame
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marvel
+- baseball
+- endgame
+- jon kohlmeier
+- life with a twist of lemon
+- patrick sturdivant
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3
   length: 222
   type: audio/mpeg
 ---

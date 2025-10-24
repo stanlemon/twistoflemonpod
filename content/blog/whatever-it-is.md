@@ -4,26 +4,21 @@ slug: whatever-it-is
 episode: 66
 date: '2019-10-10T12:28:19.000Z'
 categories:
-  - Food
-  - Home Ownership
-  - Music
-  - Technology
+- Food
+- Home Ownership
+- Music
+- Technology
 tags:
-  - apple
-  - beer
-  - home improvement
-  - jon kohlmeier
-  - life with a twist of lemon
-  - music
-  - paint brushes
-  - painting
-  - stan lemon
-  - techcrawl
-  - wine
-  - zac brown
+- apple
+- beer
+- home improvement
+- jon kohlmeier
+- life with a twist of lemon
+- music
+- stan lemon
+- ipad
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/066-lwatol-20191010.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/066-lwatol-20191010.mp3
   length: 222
   type: audio/mpeg
 ---

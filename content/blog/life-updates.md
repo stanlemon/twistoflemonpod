@@ -4,24 +4,16 @@ slug: life-updates
 episode: 63
 date: '2019-09-19T13:51:54.000Z'
 categories:
-  - Food
-  - Productivity
-  - Technology
+- Food
+- Productivity
+- Technology
 tags:
-  - art of manliness
-  - bicycle
-  - books
-  - breaks
-  - ecobee
-  - jon kohlmeier
-  - life with a twist of lemon
-  - maintence
-  - reading
-  - stan lemon
-  - time warrior
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- football
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3
   length: 222
   type: audio/mpeg
 ---

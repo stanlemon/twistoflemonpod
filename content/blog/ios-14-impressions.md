@@ -4,14 +4,12 @@ slug: ios-14-impressions
 episode: 101
 date: '2020-09-24T14:12:58.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - apple
-  - food
-  - ios
+- apple
+- ios
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/101-lwatol-20200924.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/101-lwatol-20200924.mp3
   length: null
   type: null
 ---

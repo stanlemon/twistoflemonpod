@@ -4,22 +4,14 @@ slug: movies-during-the-pandemic
 episode: 90
 date: '2020-07-02T11:42:07.000Z'
 categories:
-  - Movies
+- Movies
 tags:
-  - apple
-  - covid-19
-  - danchez
-  - donuts
-  - evelyn
-  - guest
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marvel
-  - movies
-  - stan lemon
+- apple
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes//2020/07/090-lwatol-20200702.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes//2020/07/090-lwatol-20200702.mp3
   length: null
   type: null
 ---

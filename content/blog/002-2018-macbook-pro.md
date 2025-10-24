@@ -4,14 +4,12 @@ slug: 002-2018-macbook-pro
 episode: 2
 date: '2018-08-01T02:18:22.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - apple
-  - MacBooks
-  - technology
+- apple
+- macbook
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/002-lwatol-20180801.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/002-lwatol-20180801.mp3
   length: 221
   type: audio/mpeg
 ---

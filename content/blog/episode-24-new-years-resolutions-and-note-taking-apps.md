@@ -4,17 +4,16 @@ slug: episode-24-new-years-resolutions-and-note-taking-apps
 episode: 24
 date: '2018-12-27T16:19:26.000Z'
 categories:
-  - Productivity
-  - Technology
+- Productivity
+- Technology
 tags:
-  - apps
-  - Fritsche
-  - iPhone
-  - new year
-  - resolutions
+- apps
+- Fritsche
+- iPhone
+- new year
+- christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/024-lwatol-20181227.mp3 
+  url: 'https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/024-lwatol-20181227.mp3 '
   length: 222
   type: audio/mpeg
 ---

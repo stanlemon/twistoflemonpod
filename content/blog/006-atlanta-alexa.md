@@ -4,16 +4,10 @@ slug: 006-atlanta-alexa
 episode: 6
 date: '2018-08-23T07:00:51.000Z'
 categories:
-  - Technology
-tags:
-  - Alexa
-  - Atlanta
-  - echo
-  - smart home
-  - technology
+- Technology
+tags: null
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/006-lwatol-20180822.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/006-lwatol-20180822.mp3
   length: 222
   type: audio/mpeg
 ---

@@ -4,15 +4,12 @@ slug: episode-100
 episode: 100
 date: '2020-09-17T17:44:43.000Z'
 categories:
-  - Food
-  - Technology
+- Food
+- Technology
 tags:
-  - milestone
-  - apple
-  - food
+- apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/100-lwatol-20200917.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/100-lwatol-20200917.mp3
   length: null
   type: null
 ---

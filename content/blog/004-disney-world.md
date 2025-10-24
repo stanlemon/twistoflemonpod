@@ -4,16 +4,12 @@ slug: 004-disney-world
 episode: 4
 date: '2018-08-09T08:00:30.000Z'
 categories:
-  - Lifestyle
+- Lifestyle
 tags:
-  - backstreet boys
-  - beats
-  - Disney world
-  - mickey mouse
-  - vacation
+- vacation
+- disney
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/004-lwatol-20180809.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/004-lwatol-20180809.mp3
   length: 222
   type: audio/mpeg
 ---

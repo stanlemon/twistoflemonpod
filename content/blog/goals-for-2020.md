@@ -4,17 +4,16 @@ slug: goals-for-2020
 episode: 77
 date: '2020-01-02T14:10:01.000Z'
 categories:
-  - Lifestyle
+- Lifestyle
 tags:
-  - goals
-  - jon kohlmeier
-  - life with a twist of lemon
-  - new year
-  - resolutions
-  - stan lemon
+- goals
+- jon kohlmeier
+- life with a twist of lemon
+- new year
+- stan lemon
+- mortgage
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/077-lwatol-20200102.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/077-lwatol-20200102.mp3
   length: null
   type: null
 ---

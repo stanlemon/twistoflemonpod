@@ -4,18 +4,13 @@ slug: cause-youre-invited-to-a-bbq-thats-starting-at-4
 episode: 147
 date: '2021-08-10T14:14:33.000Z'
 categories:
-  - Food
-  - Home Ownership
+- Food
+- Home Ownership
 tags:
-  - lawn care
-  - lawn mowing
-  - pork shoulder
-  - smoking
-  - summertime
-  - treager
+- lawn care
+- meat rubs
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/147-lwatol-20210810.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/147-lwatol-20210810.mp3
   length: null
   type: null
 ---

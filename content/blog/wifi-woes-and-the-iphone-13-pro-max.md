@@ -4,16 +4,14 @@ slug: wifi-woes-and-the-iphone-13-pro-max
 episode: 154
 date: '2021-09-30T15:00:12.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - apple
-  - beer
-  - iPhone
-  - router
-  - wifi
+- apple
+- beer
+- iPhone
+- router
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/154-lwatol-20210930.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/154-lwatol-20210930.mp3
   length: null
   type: null
 ---

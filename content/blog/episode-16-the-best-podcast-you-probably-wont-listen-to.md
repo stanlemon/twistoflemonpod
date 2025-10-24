@@ -4,16 +4,15 @@ slug: episode-16-the-best-podcast-you-probably-wont-listen-to
 episode: 16
 date: '2018-11-01T12:02:28.000Z'
 categories:
-  - Theology
+- Theology
 tags:
-  - apple
-  - halloween
-  - MacBooks
-  - Milkshake
-  - theology
+- apple
+- milkshakes
+- ipad
+- macbook
+- politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3
   length: 222
   type: audio/mpeg
 ---

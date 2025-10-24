@@ -1,18 +1,16 @@
 ---
-title: 'Episode 8 - If you don''t buy milkshakes with your money, save for a house!'
+title: Episode 8 - If you don't buy milkshakes with your money, save for a house!
 slug: episode-8-if-you-dont-buy-milkshakes-with-your-money-save-for-a-house
 episode: 8
 date: '2018-09-06T07:00:48.000Z'
 categories:
-  - Finance
+- Finance
 tags:
-  - finance
-  - money
-  - mortgage
-  - mortgage rates
+- mortgage
+- milkshakes
+- roof
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3
   length: 222
   type: audio/mpeg
 ---

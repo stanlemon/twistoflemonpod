@@ -4,16 +4,15 @@ slug: this-is-the-way
 episode: 107
 date: '2020-11-05T15:22:21.000Z'
 categories:
-  - Movies
-  - Technology
+- Movies
+- Technology
 tags:
-  - election
-  - mandalorian
-  - star wars
-  - xbox
+- star wars
+- xbox
+- home improvement
+- politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/107-lwatol-20201105.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/107-lwatol-20201105.mp3
   length: null
   type: null
 ---

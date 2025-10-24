@@ -1,19 +1,16 @@
 ---
-title: 'Food, Home Repairs, and House Training'
+title: Food, Home Repairs, and House Training
 slug: food-home-repairs-and-house-training
 episode: 99
 date: '2020-09-10T13:56:18.000Z'
 categories:
-  - Food
-  - Home Ownership
+- Food
+- Home Ownership
 tags:
-  - dogs
-  - food
-  - home improvement
-  - labor day
+- home improvement
+- football
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/099-lwatol-20200910.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/099-lwatol-20200910.mp3
   length: null
   type: null
 ---

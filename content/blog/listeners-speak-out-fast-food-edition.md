@@ -4,19 +4,15 @@ slug: listeners-speak-out-fast-food-edition
 episode: 141
 date: '2021-06-29T12:35:19.000Z'
 categories:
-  - Food
-  - Marvel
-  - Recreation
+- Food
+- Marvel
+- Recreation
+- Movies
 tags:
-  - fast food
-  - loki
-  - marvel
-  - mcdonalds
-  - post-pandemic
-  - vacation
+- loki
+- vacation
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/141-lwatol-20210629.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/141-lwatol-20210629.mp3
   length: null
   type: null
 ---

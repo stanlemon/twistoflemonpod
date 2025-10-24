@@ -4,15 +4,10 @@ slug: spring-cleaning
 episode: 131
 date: '2021-04-22T14:13:56.000Z'
 categories:
-  - Home Ownership
-tags:
-  - home ownership
-  - house maintence
-  - spring
-  - spring cleaning
+- Home Ownership
+tags: null
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/131-lwatol-20210422.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/131-lwatol-20210422.mp3
   length: null
   type: null
 ---

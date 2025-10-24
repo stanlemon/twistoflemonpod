@@ -4,22 +4,16 @@ slug: what-makes-a-good-meeting
 episode: 49
 date: '2019-06-13T13:15:39.000Z'
 categories:
-  - Productivity
-  - Technology
+- Productivity
+- Technology
 tags:
-  - agenda
-  - communication
-  - jon kohlmeier
-  - life with a twist of lemon
-  - meetings
-  - productivity
-  - stan lemon
-  - where you do your best work
-  - work
-  - writing
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- vacation
+- politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3
   length: 222
   type: audio/mpeg
 ---

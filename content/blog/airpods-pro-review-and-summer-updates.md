@@ -4,17 +4,15 @@ slug: airpods-pro-review-and-summer-updates
 episode: 93
 date: '2020-07-23T14:33:39.000Z'
 categories:
-  - Home Ownership
-  - Technology
+- Home Ownership
+- Technology
+- Movies
 tags:
-  - airpods
-  - apple
-  - lawn
-  - Milkshake
-  - wine
+- airpods
+- apple
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/093-lwatol-20200723.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/093-lwatol-20200723.mp3
   length: null
   type: null
 ---

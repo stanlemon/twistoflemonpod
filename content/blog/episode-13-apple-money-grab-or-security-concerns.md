@@ -4,19 +4,17 @@ slug: episode-13-apple-money-grab-or-security-concerns
 episode: 13
 date: '2018-10-11T11:32:45.000Z'
 categories:
-  - Finance
-  - House Hunting
-  - Technology
+- Finance
+- House Hunting
+- Technology
 tags:
-  - apple
-  - mortgage
-  - privacy
-  - savings
-  - security
-  - tech
+- apple
+- mortgage
+- macbook
+- milkshakes
+- home improvement
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3
   length: 222
   type: audio/mpeg
 ---

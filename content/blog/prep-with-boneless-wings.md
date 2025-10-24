@@ -4,23 +4,17 @@ slug: prep-with-boneless-wings
 episode: 86
 date: '2020-03-05T12:53:13.000Z'
 categories:
-  - Food
-  - Home Ownership
-  - Music
+- Food
+- Home Ownership
+- Music
 tags:
-  - apocolyps
-  - bones thugs n harmony
-  - buffalo wild wings
-  - jon kohlmeier
-  - life with a twist of lemon
-  - meat rubs by fenker
-  - music
-  - prepping
-  - stan lemon
-  - wings
+- jon kohlmeier
+- life with a twist of lemon
+- meat rubs by fenker
+- music
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/086-lwatol-20200305.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/086-lwatol-20200305.mp3
   length: null
   type: null
 ---

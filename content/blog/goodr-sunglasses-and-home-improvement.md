@@ -4,17 +4,12 @@ slug: goodr-sunglasses-and-home-improvement
 episode: 97
 date: '2020-08-27T21:53:03.000Z'
 categories:
-  - Home Ownership
+- Home Ownership
 tags:
-  - deck
-  - derecho
-  - goodr
-  - home improvement
-  - Iowa
-  - sunglasses
+- derecho
+- home improvement
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/097-lwatol-20200827.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/097-lwatol-20200827.mp3
   length: null
   type: null
 ---

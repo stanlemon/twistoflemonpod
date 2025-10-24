@@ -4,14 +4,14 @@ slug: meat-rubs-by-fenker-hamburger-edition
 episode: 102
 date: '2020-10-01T13:14:47.000Z'
 categories:
-  - Food
-  - Home Ownership
+- Food
+- Home Ownership
 tags:
-  - lawn care
-  - meat rubs by fenker
+- lawn care
+- meat rubs by fenker
+- meat rubs
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/102-lwatol-20201001.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/102-lwatol-20201001.mp3
   length: null
   type: null
 ---

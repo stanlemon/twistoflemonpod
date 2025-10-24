@@ -4,16 +4,12 @@ slug: stay-hidrated
 episode: 142
 date: '2021-07-06T12:53:51.000Z'
 categories:
-  - Food
+- Food
 tags:
-  - bourbon
-  - hidrate
-  - lg
-  - vacation
-  - visit
+- vacation
+- visit
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/142-lwatol-20210706.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/142-lwatol-20210706.mp3
   length: null
   type: null
 ---

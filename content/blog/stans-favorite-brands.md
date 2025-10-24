@@ -4,21 +4,14 @@ slug: stans-favorite-brands
 episode: 80
 date: '2020-01-23T12:51:56.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - brands
-  - jon kohlmeier
-  - life with a twist of lemon
-  - pancakes
-  - robovacuum
-  - shoes
-  - smart. house
-  - st. louis
-  - stan lemon
-  - technology
+- jon kohlmeier
+- life with a twist of lemon
+- shoes
+- stan lemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/080-lwatol-20200123.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/080-lwatol-20200123.mp3
   length: null
   type: null
 ---

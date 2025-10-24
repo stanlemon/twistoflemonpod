@@ -4,17 +4,12 @@ slug: top-10-non-apple-tech-around-the-house
 episode: 129
 date: '2021-04-08T14:02:06.000Z'
 categories:
-  - Home Ownership
-  - Technology
+- Home Ownership
+- Technology
 tags:
-  - falcon and the winter soilder
-  - home tech
-  - marvel
-  - non-apple tech
-  - technology
+- falcon and the winter soldier
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/129-lwatol-20210408.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/129-lwatol-20210408.mp3
   length: null
   type: null
 ---

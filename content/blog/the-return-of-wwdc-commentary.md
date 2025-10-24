@@ -4,21 +4,19 @@ slug: the-return-of-wwdc-commentary
 episode: 89
 date: '2020-06-25T11:25:48.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - airpods
-  - apple
-  - ipad
-  - jon kohlmeier
-  - life with a twist of lemon
-  - mac
-  - macbook
-  - stan lemon
-  - watch
-  - wwdc
+- airpods
+- apple
+- ipad
+- jon kohlmeier
+- life with a twist of lemon
+- mac
+- macbook
+- stan lemon
+- wwdc
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/089-lwatol-20200625.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/089-lwatol-20200625.mp3
   length: null
   type: null
 ---

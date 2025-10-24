@@ -4,15 +4,15 @@ slug: life-with-a-twist-of-lime
 episode: 128
 date: '2021-04-01T14:33:38.000Z'
 categories:
-  - Home Ownership
-  - Technology
+- Home Ownership
+- Technology
 tags:
-  - April fools
-  - falcon and the winter soilder
-  - marvel
+- falcon and the winter soldier
+- milkshakes
+- roof
+- email
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/128-lwatol-20210401.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/128-lwatol-20210401.mp3
   length: null
   type: null
 ---

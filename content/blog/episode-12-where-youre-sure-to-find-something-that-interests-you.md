@@ -4,16 +4,12 @@ slug: episode-12-where-youre-sure-to-find-something-that-interests-you
 episode: 12
 date: '2018-10-04T07:00:36.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - Apollo 8
-  - apple
-  - food
-  - recipes
-  - tech
+- apple
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/012-lwatol-20181003.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/012-lwatol-20181003.mp3
   length: 222
   type: audio/mpeg
 ---

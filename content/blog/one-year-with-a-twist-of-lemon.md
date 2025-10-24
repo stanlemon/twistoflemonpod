@@ -4,17 +4,15 @@ slug: one-year-with-a-twist-of-lemon
 episode: 55
 date: '2019-07-25T14:42:49.000Z'
 categories:
-  - Marvel
+- Marvel
 tags:
-  - anniversary
-  - jon kohlmeier
-  - life with a twist of lemon
-  - listeners
-  - marvel
-  - stan lemon
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- milkshakes
+- grilled cheese
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/055-lwatol-20190725.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/055-lwatol-20190725.mp3
   length: 222
   type: audio/mpeg
 ---

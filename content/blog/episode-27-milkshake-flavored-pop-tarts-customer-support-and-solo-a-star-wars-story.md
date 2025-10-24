@@ -1,26 +1,19 @@
 ---
-title: >-
-  Episode 27 - Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star
-  Wars Story
-slug: >-
-  episode-27-milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story
+title: 'Episode 27 - Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star
+  Wars Story'
+slug: episode-27-milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story
 episode: 27
 date: '2019-01-17T13:39:48.000Z'
 categories:
-  - Food
-  - Movies
-  - Technology
+- Food
+- Movies
+- Technology
 tags:
-  - agents of shield
-  - customer support
-  - marvel
-  - Milkshake
-  - netflix
-  - pop-tart
-  - twistoflemon
+- milkshakes
+- twistoflemon
+- star wars
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/027-lwatol-20190117.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/027-lwatol-20190117.mp3
   length: 222
   type: audio/mpeg
 ---

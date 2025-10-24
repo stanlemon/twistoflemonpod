@@ -4,25 +4,17 @@ slug: an-episode-for-liz
 episode: 61
 date: '2019-09-05T14:03:27.000Z'
 categories:
-  - Productivity
-  - Technology
+- Productivity
+- Technology
+- Movies
 tags:
-  - backup
-  - cal newport
-  - computer
-  - desk
-  - digital minimalism
-  - elizabeth
-  - family
-  - jon kohlmeier
-  - labor day
-  - life with a twist of lemon
-  - liz
-  - stan lemon
-  - workspace
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- star wars
+- minimalism
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3
   length: 222
   type: audio/mpeg
 ---

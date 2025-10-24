@@ -4,17 +4,15 @@ slug: ipad-or-macbook-for-high-school
 episode: 98
 date: '2020-09-03T12:04:03.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - derecho
-  - football
-  - home improvement
-  - ipad
-  - macbook
-  - school
+- derecho
+- football
+- home improvement
+- ipad
+- macbook
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/098-lwatol-20200903.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/098-lwatol-20200903.mp3
   length: null
   type: null
 ---

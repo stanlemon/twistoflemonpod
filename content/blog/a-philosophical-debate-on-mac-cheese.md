@@ -4,19 +4,16 @@ slug: a-philosophical-debate-on-mac-cheese
 episode: 71
 date: '2019-11-14T13:10:51.000Z'
 categories:
-  - Food
+- Food
 tags:
-  - boots
-  - jon kohlmeier
-  - life tip
-  - life with a twist of lemon
-  - Mac &amp; cheese
-  - minimalism
-  - single use kitchen gadgets
-  - stan lemon
+- jon kohlmeier
+- life tip
+- life with a twist of lemon
+- minimalism
+- stan lemon
+- grilled cheese
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/071-lwatol-20191114.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/071-lwatol-20191114.mp3
   length: null
   type: null
 ---

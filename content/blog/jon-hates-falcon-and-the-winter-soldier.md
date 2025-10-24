@@ -4,13 +4,13 @@ slug: jon-hates-falcon-and-the-winter-soldier
 episode: 130
 date: '2021-04-15T13:41:58.000Z'
 categories:
-  - Marvel
+- Marvel
+- Movies
 tags:
-  - falcon and the winter soilder
-  - marvel
+- falcon and the winter soldier
+- disney+
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/130-lwatol-20210415.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/130-lwatol-20210415.mp3
   length: null
   type: null
 ---

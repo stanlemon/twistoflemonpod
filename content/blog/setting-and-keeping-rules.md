@@ -4,16 +4,12 @@ slug: setting-and-keeping-rules
 episode: 164
 date: '2021-12-09T13:38:10.000Z'
 categories:
-  - Marvel
-  - Productivity
-tags:
-  - hawkeye
-  - life
-  - marvel
-  - rules
+- Marvel
+- Productivity
+- Movies
+tags: null
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/164-lwatol-20211209.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/164-lwatol-20211209.mp3
   length: null
   type: null
 ---

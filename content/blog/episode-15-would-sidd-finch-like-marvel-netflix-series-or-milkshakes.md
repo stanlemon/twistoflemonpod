@@ -4,18 +4,15 @@ slug: episode-15-would-sidd-finch-like-marvel-netflix-series-or-milkshakes
 episode: 15
 date: '2018-10-25T11:59:12.000Z'
 categories:
-  - House Hunting
-  - Movies
-  - Books
+- House Hunting
+- Movies
+- Books
 tags:
-  - books
-  - house hunting
-  - marvel
-  - meat rubs
-  - Milkshake
+- meat rubs
+- milkshakes
+- politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3
   length: 222
   type: audio/mpeg
 ---

@@ -4,20 +4,19 @@ slug: picard
 episode: 81
 date: '2020-01-30T14:59:15.000Z'
 categories:
-  - Movies
-  - Technology
+- Movies
+- Technology
 tags:
-  - jon kohlmeier
-  - life tip
-  - life with a twist of lemon
-  - minimalism
-  - picard
-  - robovacuum
-  - shoes
-  - stan lemon
+- jon kohlmeier
+- life tip
+- life with a twist of lemon
+- minimalism
+- picard
+- shoes
+- stan lemon
+- star trek
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/081-lwatol-20200130.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/081-lwatol-20200130.mp3
   length: null
   type: null
 ---

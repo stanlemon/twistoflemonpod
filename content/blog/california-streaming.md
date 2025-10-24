@@ -4,16 +4,16 @@ slug: california-streaming
 episode: 152
 date: '2021-09-16T14:25:44.000Z'
 categories:
-  - Technology
+- Technology
 tags:
-  - apple
-  - apple event
-  - apple watch
-  - ipad
-  - iPhone
+- apple
+- apple event
+- apple watch
+- ipad
+- iPhone
+- music
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/152-lwatol-20210916.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/152-lwatol-20210916.mp3
   length: null
   type: null
 ---

@@ -4,21 +4,16 @@ slug: bonus-round-captain-marvel
 episode: bonus-2
 date: '2019-03-09T20:07:18.000Z'
 categories:
-  - Marvel
-  - Movies
+- Marvel
+- Movies
 tags:
-  - captain marvel
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marvel
-  - movie review
-  - movies
-  - pop culture
-  - stan lee
-  - stan lemon
+- jon kohlmeier
+- life with a twist of lemon
+- stan lemon
+- avengers
+- milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3
   length: 222
   type: audio/mpeg
 ---

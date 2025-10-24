@@ -4,15 +4,10 @@ slug: new-apple-things-but-no-apple-car
 episode: 132
 date: '2021-04-29T14:28:10.000Z'
 categories:
-  - Home Ownership
-tags:
-  - home ownership
-  - house maintence
-  - spring
-  - spring cleaning
+- Home Ownership
+tags: null
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/132-lwatol-20210429.mp3
+  url: https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/132-lwatol-20210429.mp3
   length: null
   type: null
 ---
