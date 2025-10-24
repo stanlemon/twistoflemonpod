@@ -50,13 +50,14 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingIds: [`ADD YOUR TRACKING ID HERE`],
       },
     },
-    
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-typography`,

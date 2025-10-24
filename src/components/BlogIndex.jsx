@@ -14,7 +14,7 @@ const BlogPost = ({ post }) => {
   const { tags, categories } = frontmatter;
 
   return (
-    <article key={fields.slug} style={{ gridColumn: "span 1", }}>
+    <article key={fields.slug} style={{ gridColumn: "span 1" }}>
       <header>
         <h3
           style={{
@@ -56,10 +56,10 @@ const BlogIndex = ({ data, location, pageContext }) => {
 
       <div className={`blog-grid`}>
         {posts.edges.map((edge) => (
-            <BlogPost key={edge.node.id} post={edge.node} />
+          <BlogPost key={edge.node.id} post={edge.node} />
         ))}
       </div>
-      
+
       <div>
         {previousPagePath ? <Link to={previousPagePath}>Previous</Link> : null}
         {` `}

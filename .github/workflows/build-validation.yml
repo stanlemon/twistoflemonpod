@@ -1,0 +1,39 @@
+name: Build Validation
+
+on:
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Prettier check
+        run: npm run format -- --check
+
+      - name: Build site
+        run: npm run build
+
+      - name: Check build artifacts
+        run: |
+          if [ ! -d "public" ]; then
+            echo "Build failed - public directory not found"
+            exit 1
+          fi
+          echo "Build successful - public directory created"
