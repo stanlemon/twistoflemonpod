@@ -1,40 +1,28 @@
 ---
-title: "Nashville and Disney+"
-date: "2019-11-21T14:21:20.000Z"
+title: Nashville and Disney+
+slug: nashville-and-disney
+episode: 72
+date: '2019-11-21T14:21:20.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Marvel
+  - Technology
 tags:
-  - name: "car maintence"
-    slug: "car-maintence"
-  - name: "disney+"
-    slug: "disney"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "minimalism"
-    slug: "minimalism"
-  - name: "nashville"
-    slug: "nashville"
-  - name: "oil"
-    slug: "oil"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star wars"
-    slug: "star-wars"
+  - car maintence
+  - disney+
+  - jon kohlmeier
+  - life with a twist of lemon
+  - Milkshake
+  - minimalism
+  - nashville
+  - oil
+  - stan lemon
+  - star wars
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/072-lwatol-20191121.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/072-lwatol-20191121.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

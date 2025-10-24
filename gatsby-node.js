@@ -2,6 +2,19 @@ const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const { paginate } = require("gatsby-awesome-pagination");
 
+// Utility function to generate slug from name
+function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
+}
+
 const allPagesQuery = `
 query AllPages {
   allMarkdownRemark(
@@ -29,7 +42,7 @@ query Categories($category: String!) {
     limit: 1000
     filter: {
       frontmatter: {
-        categories: { elemMatch: { slug: { eq: $category } } }
+        categories: { in: [$category] }
       }
     }
   ) {
@@ -54,7 +67,7 @@ query Tags($tag: String!) {
     limit: 1000
     filter: {
       frontmatter: {
-        tags: { elemMatch: { slug: { eq: $tag } } }
+        tags: { in: [$tag] }
       }
     }
   ) {
@@ -75,7 +88,7 @@ query Tags($tag: String!) {
 const allCategoriesQuery = `
 query AllCategories {
   allMarkdownRemark {
-    distinct(field: frontmatter___categories___slug)
+    distinct(field: frontmatter___categories)
   }
 }
 `;
@@ -83,7 +96,7 @@ query AllCategories {
 const allTagsQuery = `
 query AllTags {
   allMarkdownRemark {
-    distinct(field: frontmatter___tags___slug)
+    distinct(field: frontmatter___tags)
   }
 }
 `;
@@ -121,7 +134,8 @@ exports.createPages = async ({ graphql, actions }) => {
         throw results.errors;
       }
 
-      const pagePrefix = `/${prefix}/${value}`;
+      const slug = slugify(value);
+      const pagePrefix = `/${prefix}/${slug}`;
 
       paginate({
         createPage,
@@ -133,6 +147,7 @@ exports.createPages = async ({ graphql, actions }) => {
         component,
         context: {
           [prefix]: value,
+          [`${prefix}Slug`]: slug,
         },
       });
     });

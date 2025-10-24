@@ -1,34 +1,25 @@
 ---
-title: "Fast Food Ranked"
-date: "2021-06-22T14:08:58.000Z"
+title: Fast Food Ranked
+slug: fast-food-ranked
+episode: 140
+date: '2021-06-22T14:08:58.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Recreation"
-    slug: "recreation"
+  - Food
+  - Marvel
+  - Recreation
 tags:
-  - name: "fast food"
-    slug: "fast-food"
-  - name: "loki"
-    slug: "loki"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "mcdonalds"
-    slug: "mcdonalds"
-  - name: "post-pandemic"
-    slug: "post-pandemic"
-  - name: "rv"
-    slug: "rv"
-  - name: "vacation"
-    slug: "vacation"
+  - fast food
+  - loki
+  - marvel
+  - mcdonalds
+  - post-pandemic
+  - rv
+  - vacation
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/140-lwatol-20210622.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/140-lwatol-20210622.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

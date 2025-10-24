@@ -1,18 +1,18 @@
 ---
-title: "Heading into 2022"
-date: "2021-12-30T13:33:18.000Z"
+title: Heading into 2022
+slug: heading-into-2022
+episode: 167
+date: '2021-12-30T13:33:18.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Lifestyle
 tags:
-  - name: "goals"
-    slug: "goals"
-  - name: "new year"
-    slug: "new-year"
+  - goals
+  - new year
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/167-lwatol-20211230.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/167-lwatol-20211230.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,24 +1,19 @@
 ---
-title: "Fall Technology, Movies and Back to School"
-date: "2021-09-07T15:15:40.000Z"
+title: 'Fall Technology, Movies and Back to School'
+slug: fall-technology-movies-and-back-to-school
+episode: 151
+date: '2021-09-07T15:15:40.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Theology"
-    slug: "theology"
+  - Theology
 tags:
-  - name: "marvel"
-    slug: "marvel"
-  - name: "podcast"
-    slug: "podcast"
-  - name: "school"
-    slug: "school"
-  - name: "spiderman"
-    slug: "spiderman"
+  - marvel
+  - school
+  - spiderman
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/151-lwatol-20210907.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/151-lwatol-20210907.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,34 +1,25 @@
 ---
-title: "Regenerized"
-date: "2019-12-12T15:32:25.000Z"
+title: Regenerized
+slug: regenerized
+episode: 74
+date: '2019-12-12T15:32:25.000Z'
 categories:
-  - name: "Career Advice"
-    slug: "career-advice"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Career Advice
+  - Productivity
+  - Technology
 tags:
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "personal development"
-    slug: "personal-development"
-  - name: "productivity"
-    slug: "productivity"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "taking a break"
-    slug: "taking-a-break"
-  - name: "thanksgiving"
-    slug: "thanksgiving"
+  - jon kohlmeier
+  - life with a twist of lemon
+  - personal development
+  - productivity
+  - stan lemon
+  - taking a break
+  - thanksgiving
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/074-lwatol-20191212.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/074-lwatol-20191212.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,22 +1,19 @@
 ---
-title: "Black Widow Review with Patrick"
-date: "2021-07-20T14:58:52.000Z"
+title: Black Widow Review with Patrick
+slug: black-widow-review-with-patrick
+episode: 144
+date: '2021-07-20T14:58:52.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "black widow"
-    slug: "black-widow"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "Patrick sturdivant"
-    slug: "patrick-sturdivant"
+  - black widow
+  - marvel
+  - Patrick sturdivant
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/144-lwatol-20210720.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/144-lwatol-20210720.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

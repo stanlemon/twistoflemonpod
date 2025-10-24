@@ -1,24 +1,20 @@
 ---
-title: "Episode 8 - If you don't buy milkshakes with your money, save for a house!"
-date: "2018-09-06T07:00:48.000Z"
+title: 'Episode 8 - If you don''t buy milkshakes with your money, save for a house!'
+slug: episode-8-if-you-dont-buy-milkshakes-with-your-money-save-for-a-house
+episode: 8
+date: '2018-09-06T07:00:48.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "General"
-    slug: "general"
+  - Finance
 tags:
-  - name: "finance"
-    slug: "finance"
-  - name: "money"
-    slug: "money"
-  - name: "mortgage"
-    slug: "mortgage"
-  - name: "mortgage rates"
-    slug: "mortgage-rates"
+  - finance
+  - money
+  - mortgage
+  - mortgage rates
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Financially Minded Listener,
@@ -34,8 +30,6 @@ We'll be back next week,
 Sincerely,
 
 Jon Kohlmeier & Stan Lemon
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3"\]\[/audio\]
 
 ## Links
 

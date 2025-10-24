@@ -1,30 +1,23 @@
 ---
-title: "October Sportsball Episode"
-date: "2019-10-03T10:39:09.000Z"
+title: October Sportsball Episode
+slug: october-sportsball-episode
+episode: 65
+date: '2019-10-03T10:39:09.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "sports"
-    slug: "sports"
+  - sports
 tags:
-  - name: "baseball"
-    slug: "baseball"
-  - name: "cubs"
-    slug: "cubs"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "october"
-    slug: "october"
-  - name: "sports"
-    slug: "sports"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - baseball
+  - cubs
+  - jon kohlmeier
+  - life with a twist of lemon
+  - october
+  - sports
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/065-lwatol-20191003.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/065-lwatol-20191003.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -39,4 +32,3 @@ Thanks for listening and we hope you'll leave a review.
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/065-lwatol-20191003.mp3"\]\[/audio\]

@@ -1,40 +1,28 @@
 ---
-title: "Celebrating Jon's Birthday All Month"
-date: "2019-05-23T13:07:28.000Z"
+title: Celebrating Jon's Birthday All Month
+slug: celebrating-jons-birthday-all-month
+episode: 46
+date: '2019-05-23T13:07:28.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Technology
 tags:
-  - name: "bacon"
-    slug: "bacon"
-  - name: "email"
-    slug: "email"
-  - name: "food"
-    slug: "food"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "Jon turns 30"
-    slug: "jon-turns-30"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marketing"
-    slug: "marketing"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "surprise"
-    slug: "surprise"
-  - name: "website"
-    slug: "website"
-  - name: "white house"
-    slug: "white-house"
+  - bacon
+  - email
+  - food
+  - jon kohlmeier
+  - Jon turns 30
+  - life with a twist of lemon
+  - marketing
+  - stan lemon
+  - surprise
+  - website
+  - white house
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -56,8 +44,6 @@ Turns out that Apple announced new MacBook Pros. Stan talks through the specs on
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3"\]\[/audio\]
 
 ## Links from the Show
 

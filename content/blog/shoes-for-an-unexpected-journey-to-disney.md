@@ -1,32 +1,24 @@
 ---
-title: "Shoes for An Unexpected Journey to Disney"
-date: "2020-01-16T13:13:41.000Z"
+title: Shoes for An Unexpected Journey to Disney
+slug: shoes-for-an-unexpected-journey-to-disney
+episode: 79
+date: '2020-01-16T13:13:41.000Z'
 categories:
-  - name: "books"
-    slug: "books"
-  - name: "General"
-    slug: "general"
+  - Books
 tags:
-  - name: "ad blocker"
-    slug: "ad-blocker"
-  - name: "books"
-    slug: "books"
-  - name: "hobbit"
-    slug: "hobbit"
-  - name: "jeopardy"
-    slug: "jeopardy"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "shoes"
-    slug: "shoes"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - ad blocker
+  - books
+  - hobbit
+  - jeopardy
+  - jon kohlmeier
+  - life with a twist of lemon
+  - shoes
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/079-lwatol-20200116.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/079-lwatol-20200116.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -12,7 +12,7 @@ export const query = graphql`
     }
     posts: allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { tags: { elemMatch: { slug: { eq: $tag } } } } }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
       skip: $skip
       limit: $limit
     ) {
@@ -26,14 +26,8 @@ export const query = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            categories {
-              name
-              slug
-            }
-            tags {
-              name
-              slug
-            }
+            categories
+            tags
           }
         }
       }

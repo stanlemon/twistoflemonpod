@@ -1,28 +1,22 @@
 ---
-title: "Goals for 2020"
-date: "2020-01-02T14:10:01.000Z"
+title: Goals for 2020
+slug: goals-for-2020
+episode: 77
+date: '2020-01-02T14:10:01.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Lifestyle
 tags:
-  - name: "2020"
-    slug: "2020"
-  - name: "goals"
-    slug: "goals"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "new year"
-    slug: "new-year"
-  - name: "resolutions"
-    slug: "resolutions"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - goals
+  - jon kohlmeier
+  - life with a twist of lemon
+  - new year
+  - resolutions
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/077-lwatol-20200102.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/077-lwatol-20200102.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

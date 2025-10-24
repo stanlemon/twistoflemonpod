@@ -1,26 +1,21 @@
 ---
-title: "Setting and Keeping Rules"
-date: "2021-12-09T13:38:10.000Z"
+title: Setting and Keeping Rules
+slug: setting-and-keeping-rules
+episode: 164
+date: '2021-12-09T13:38:10.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Productivity"
-    slug: "productivity"
+  - Marvel
+  - Productivity
 tags:
-  - name: "hawkeye"
-    slug: "hawkeye"
-  - name: "life"
-    slug: "life"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "rules"
-    slug: "rules"
+  - hawkeye
+  - life
+  - marvel
+  - rules
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/164-lwatol-20211209.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/164-lwatol-20211209.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

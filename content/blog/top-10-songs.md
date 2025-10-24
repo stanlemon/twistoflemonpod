@@ -1,20 +1,18 @@
 ---
-title: "Top 10 Songs"
-date: "2021-12-23T13:30:13.000Z"
+title: Top 10 Songs
+slug: top-10-songs
+episode: 166
+date: '2021-12-23T13:30:13.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Music"
-    slug: "music"
+  - Music
 tags:
-  - name: "Christmas"
-    slug: "christmas"
-  - name: "music"
-    slug: "music"
+  - Christmas
+  - music
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/166-lwatol-20211223.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/166-lwatol-20211223.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

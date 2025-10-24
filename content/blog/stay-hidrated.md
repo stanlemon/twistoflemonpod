@@ -1,26 +1,21 @@
 ---
-title: "Stay Hidrated"
-date: "2021-07-06T12:53:51.000Z"
+title: Stay Hidrated
+slug: stay-hidrated
+episode: 142
+date: '2021-07-06T12:53:51.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
+  - Food
 tags:
-  - name: "bourbon"
-    slug: "bourbon"
-  - name: "hidrate"
-    slug: "hidrate"
-  - name: "lg"
-    slug: "lg"
-  - name: "vacation"
-    slug: "vacation"
-  - name: "visit"
-    slug: "visit"
+  - bourbon
+  - hidrate
+  - lg
+  - vacation
+  - visit
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/142-lwatol-20210706.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/142-lwatol-20210706.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

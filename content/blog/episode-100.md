@@ -1,24 +1,20 @@
 ---
-title: "Episode 100"
-date: "2020-09-17T17:44:43.000Z"
+title: Episode 100
+slug: episode-100
+episode: 100
+date: '2020-09-17T17:44:43.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Technology
 tags:
-  - name: "100th episode"
-    slug: "100th-episode"
-  - name: "apple"
-    slug: "apple"
-  - name: "food"
-    slug: "food"
+  - milestone
+  - apple
+  - food
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/100-lwatol-20200917.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/100-lwatol-20200917.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

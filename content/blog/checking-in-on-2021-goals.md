@@ -1,18 +1,17 @@
 ---
-title: "Checking in on 2021 Goals"
-date: "2021-08-03T19:01:10.000Z"
+title: Checking in on 2021 Goals
+slug: checking-in-on-2021-goals
+episode: 146
+date: '2021-08-03T19:01:10.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Lifestyle
 tags:
-  - name: "2021"
-    slug: "2021"
-  - name: "goals"
-    slug: "goals"
+  - goals
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/146-lwatol-20210803.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/146-lwatol-20210803.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

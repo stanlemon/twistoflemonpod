@@ -1,46 +1,31 @@
 ---
-title: "New Reviews!"
-date: "2019-03-21T11:57:21.000Z"
+title: New Reviews!
+slug: new-reviews
+episode: 37
+date: '2019-03-21T11:57:21.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Movies"
-    slug: "movies"
+  - Food
+  - Marvel
+  - Movies
 tags:
-  - name: "avengers"
-    slug: "avengers"
-  - name: "digital marketing"
-    slug: "digital-marketing"
-  - name: "endgame"
-    slug: "endgame"
-  - name: "facebook"
-    slug: "facebook"
-  - name: "food"
-    slug: "food"
-  - name: "grilled cheese"
-    slug: "grilled-cheese"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "milkshakes"
-    slug: "milkshakes"
-  - name: "pokemon"
-    slug: "pokemon"
-  - name: "reviews"
-    slug: "reviews"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - avengers
+  - digital marketing
+  - endgame
+  - facebook
+  - food
+  - grilled cheese
+  - jon kohlmeier
+  - life with a twist of lemon
+  - marvel
+  - milkshakes
+  - pokemon
+  - reviews
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/037-lwatol-20190321.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/037-lwatol-20190321.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -63,4 +48,3 @@ Thanks!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/037-lwatol-20190321.mp3"\]\[/audio\]

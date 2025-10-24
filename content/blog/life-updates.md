@@ -1,42 +1,29 @@
 ---
-title: "Life Updates"
-date: "2019-09-19T13:51:54.000Z"
+title: Life Updates
+slug: life-updates
+episode: 63
+date: '2019-09-19T13:51:54.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Productivity
+  - Technology
 tags:
-  - name: "art of manliness"
-    slug: "art-of-manliness"
-  - name: "bicycle"
-    slug: "bicycle"
-  - name: "books"
-    slug: "books"
-  - name: "breaks"
-    slug: "breaks"
-  - name: "ecobee"
-    slug: "ecobee"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "maintence"
-    slug: "maintence"
-  - name: "reading"
-    slug: "reading"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "time warrior"
-    slug: "time-warrior"
+  - art of manliness
+  - bicycle
+  - books
+  - breaks
+  - ecobee
+  - jon kohlmeier
+  - life with a twist of lemon
+  - maintence
+  - reading
+  - stan lemon
+  - time warrior
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -54,8 +41,6 @@ Listen in - let us know if you have ideas for us to talk about.
 Thanks!
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3"\]\[/audio\]
 
 ## Links
 

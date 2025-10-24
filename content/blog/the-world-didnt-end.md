@@ -1,18 +1,17 @@
 ---
-title: "The World Didn't End"
-date: "2021-01-28T14:24:32.000Z"
+title: The World Didn't End
+slug: the-world-didnt-end
+episode: 119
+date: '2021-01-28T14:24:32.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "wandavision"
-    slug: "wandavision"
+  - wandavision
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/119-lwatol-20210128.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/119-lwatol-20210128.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,28 +1,22 @@
 ---
-title: "It's Beginning To Look A Lot Like Spring"
-date: "2021-03-04T13:54:11.000Z"
+title: It's Beginning To Look A Lot Like Spring
+slug: its-beginning-to-look-a-lot-like-spring
+episode: 124
+date: '2021-03-04T13:54:11.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Productivity"
-    slug: "productivity"
+  - Home Ownership
+  - Marvel
+  - Productivity
 tags:
-  - name: "lawn care"
-    slug: "lawn-care"
-  - name: "taxes"
-    slug: "taxes"
-  - name: "wandavision"
-    slug: "wandavision"
-  - name: "work phone"
-    slug: "work-phone"
+  - lawn care
+  - taxes
+  - wandavision
+  - work phone
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/124-lwatol-20210304.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/124-lwatol-20210304.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,30 +1,23 @@
 ---
-title: "Episode 23 - Our First Pre-Christmas Episode"
-date: "2018-12-20T12:37:29.000Z"
+title: Episode 23 - Our First Pre-Christmas Episode
+slug: episode-23-our-first-pre-christmas-episode
+episode: 23
+date: '2018-12-20T12:37:29.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
+  - Food
+  - Movies
 tags:
-  - name: "avengers"
-    slug: "avengers"
-  - name: "Christmas"
-    slug: "christmas"
-  - name: "eggnog"
-    slug: "eggnog"
-  - name: "food"
-    slug: "food"
-  - name: "Fritsche"
-    slug: "fritsche"
-  - name: "Milkshake"
-    slug: "milkshake"
+  - avengers
+  - Christmas
+  - eggnog
+  - food
+  - Fritsche
+  - Milkshake
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/023-lwatol-20181220.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/023-lwatol-20181220.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -40,8 +33,6 @@ We are only $150 away from reaching our goal in support of Pastor Fritsche. Stan
 Merry Christmas,
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/023-lwatol-20181220.mp3"\]\[/audio\]
 
 ### Show notes
 

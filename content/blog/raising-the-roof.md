@@ -1,26 +1,21 @@
 ---
-title: "Raising the Roof?"
-date: "2021-03-25T14:17:50.000Z"
+title: Raising the Roof?
+slug: raising-the-roof
+episode: 127
+date: '2021-03-25T14:17:50.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Home Ownership
 tags:
-  - name: "baseball"
-    slug: "baseball"
-  - name: "falcon and the winter soilder"
-    slug: "falcon-and-the-winter-soilder"
-  - name: "job search"
-    slug: "job-search"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "roof"
-    slug: "roof"
+  - baseball
+  - falcon and the winter soilder
+  - job search
+  - marvel
+  - roof
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/127-lwatol-20210325.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/127-lwatol-20210325.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

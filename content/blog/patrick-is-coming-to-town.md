@@ -1,44 +1,30 @@
 ---
-title: "Patrick is Coming to Town!"
-date: "2019-02-28T13:12:39.000Z"
+title: Patrick is Coming to Town!
+slug: patrick-is-coming-to-town
+episode: 33
+date: '2019-02-28T13:12:39.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Technology"
-    slug: "technology"
+  - Finance
+  - Food
+  - Movies
+  - Technology
 tags:
-  - name: "avengers"
-    slug: "avengers"
-  - name: "banking"
-    slug: "banking"
-  - name: "finance"
-    slug: "finance"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "patrick"
-    slug: "patrick"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "wealfront"
-    slug: "wealfront"
-  - name: "web design"
-    slug: "web-design"
+  - avengers
+  - banking
+  - finance
+  - jon kohlmeier
+  - life with a twist of lemon
+  - marvel
+  - Milkshake
+  - patrick
+  - stan lemon
+  - wealfront
+  - web design
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/033-lwatol-20190228.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/033-lwatol-20190228.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -57,4 +43,3 @@ Thanks for Listening!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/033-lwatol-20190228.mp3"\]\[/audio\]

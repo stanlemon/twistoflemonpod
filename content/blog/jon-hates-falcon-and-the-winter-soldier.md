@@ -1,20 +1,18 @@
 ---
-title: "Jon hates Falcon and the Winter Soldier"
-date: "2021-04-15T13:41:58.000Z"
+title: Jon hates Falcon and the Winter Soldier
+slug: jon-hates-falcon-and-the-winter-soldier
+episode: 130
+date: '2021-04-15T13:41:58.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "falcon and the winter soilder"
-    slug: "falcon-and-the-winter-soilder"
-  - name: "marvel"
-    slug: "marvel"
+  - falcon and the winter soilder
+  - marvel
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/130-lwatol-20210415.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/130-lwatol-20210415.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

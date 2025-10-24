@@ -1,24 +1,19 @@
 ---
-title: "BONUS ROUND - Stan needs a CSS Refresher"
-date: "2018-09-13T17:00:25.000Z"
+title: BONUS ROUND - Stan needs a CSS Refresher
+slug: bonus-round-stan-needs-a-css-refresher
+episode: bonus-1
+date: '2018-09-13T17:00:25.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "bonus"
-    slug: "bonus"
-  - name: "css"
-    slug: "css"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - css
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 We forgot to talk about this in Episode 9. Jon gives Stan a hard time for his blog post image not being mobile friendly and helps him to correct his CSS.
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3"\]\[/audio\]

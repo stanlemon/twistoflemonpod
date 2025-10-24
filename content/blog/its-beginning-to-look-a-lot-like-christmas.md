@@ -1,20 +1,18 @@
 ---
-title: "It's Beginning To Look A Lot Like Christmas"
-date: "2020-12-03T15:10:08.000Z"
+title: It's Beginning To Look A Lot Like Christmas
+slug: its-beginning-to-look-a-lot-like-christmas
+episode: 111
+date: '2020-12-03T15:10:08.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Lifestyle
 tags:
-  - name: "christmas lights"
-    slug: "christmas-lights"
-  - name: "podcast"
-    slug: "podcast"
-  - name: "xbox"
-    slug: "xbox"
+  - christmas lights
+  - xbox
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/111-lwatol-20201203.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/111-lwatol-20201203.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

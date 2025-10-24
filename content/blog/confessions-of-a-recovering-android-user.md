@@ -1,28 +1,22 @@
 ---
-title: "Confessions of a Recovering Android User"
-date: "2021-03-18T12:33:07.000Z"
+title: Confessions of a Recovering Android User
+slug: confessions-of-a-recovering-android-user
+episode: 126
+date: '2021-03-18T12:33:07.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "android"
-    slug: "android"
-  - name: "apple"
-    slug: "apple"
-  - name: "Daniel Sanchez"
-    slug: "daniel-sanchez"
-  - name: "google"
-    slug: "google"
-  - name: "iPhone"
-    slug: "iphone"
-  - name: "wandavision"
-    slug: "wandavision"
+  - android
+  - apple
+  - Daniel Sanchez
+  - google
+  - iPhone
+  - wandavision
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/126-lwatol-20210318.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/126-lwatol-20210318.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

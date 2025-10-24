@@ -1,34 +1,25 @@
 ---
-title: "A Philosophical​ Debate regarding Grilled Cheese"
-date: "2019-03-14T12:22:06.000Z"
+title: A Philosophical​ Debate regarding Grilled Cheese
+slug: a-philisophical-debate-regarding-grilled-cheese
+episode: 36
+date: '2019-03-14T12:22:06.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Movies"
-    slug: "movies"
+  - Food
+  - Home Ownership
+  - Movies
 tags:
-  - name: "grilled cheese"
-    slug: "grilled-cheese"
-  - name: "Hamburg inn"
-    slug: "hamburg-inn"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "milkshakes"
-    slug: "milkshakes"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - grilled cheese
+  - Hamburg inn
+  - jon kohlmeier
+  - life with a twist of lemon
+  - Milkshake
+  - milkshakes
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -47,4 +38,3 @@ Finally the recap some other things from Stan's trip including home improvement,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3"\]\[/audio\]

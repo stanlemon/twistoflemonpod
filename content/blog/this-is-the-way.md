@@ -1,26 +1,21 @@
 ---
-title: "This is the Way"
-date: "2020-11-05T15:22:21.000Z"
+title: This is the Way
+slug: this-is-the-way
+episode: 107
+date: '2020-11-05T15:22:21.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Technology"
-    slug: "technology"
+  - Movies
+  - Technology
 tags:
-  - name: "election"
-    slug: "election"
-  - name: "mandalorian"
-    slug: "mandalorian"
-  - name: "star wars"
-    slug: "star-wars"
-  - name: "xbox"
-    slug: "xbox"
+  - election
+  - mandalorian
+  - star wars
+  - xbox
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/107-lwatol-20201105.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/107-lwatol-20201105.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

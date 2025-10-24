@@ -1,26 +1,21 @@
 ---
-title: "Don't Get Wing Sauce on your iPhone 12"
-date: "2020-10-15T12:48:22.000Z"
+title: Don't Get Wing Sauce on your iPhone 12
+slug: dont-get-wing-sauce-on-your-iphone-12
+episode: 104
+date: '2020-10-15T12:48:22.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "iPhone"
-    slug: "iphone"
-  - name: "iPhone 12"
-    slug: "iphone-12"
-  - name: "it's just wings"
-    slug: "its-just-wings"
-  - name: "wings"
-    slug: "wings"
+  - apple
+  - iPhone
+  - iPhone 12
+  - it's just wings
+  - wings
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/104-lwatol-20201015.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/104-lwatol-20201015.mp3
   length: 44526344
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,

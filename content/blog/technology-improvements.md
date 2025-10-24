@@ -1,30 +1,23 @@
 ---
-title: "Technology Improvements"
-date: "2021-05-06T14:17:07.000Z"
+title: Technology Improvements
+slug: technology-improvements
+episode: 133
+date: '2021-05-06T14:17:07.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Technology"
-    slug: "technology"
+  - Home Ownership
+  - Marvel
+  - Technology
 tags:
-  - name: "falcon and the winter soilder"
-    slug: "falcon-and-the-winter-soilder"
-  - name: "home ownership"
-    slug: "home-ownership"
-  - name: "home tech"
-    slug: "home-tech"
-  - name: "music"
-    slug: "music"
-  - name: "technology"
-    slug: "technology"
+  - falcon and the winter soilder
+  - home ownership
+  - home tech
+  - music
+  - technology
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/133-lwatol-20210506.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/133-lwatol-20210506.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

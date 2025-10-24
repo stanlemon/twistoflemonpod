@@ -1,30 +1,23 @@
 ---
-title: "The Random Episode"
-date: "2020-03-19T14:49:34.000Z"
+title: The Random Episode
+slug: the-random-episode
+episode: 88
+date: '2020-03-19T14:49:34.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "House Hunting"
-    slug: "house-hunting"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - House Hunting
+  - Productivity
+  - Technology
 tags:
-  - name: "books"
-    slug: "books"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "reading"
-    slug: "reading"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - books
+  - jon kohlmeier
+  - life with a twist of lemon
+  - reading
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/088-lwatol-20200319.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/088-lwatol-20200319.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

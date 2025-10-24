@@ -1,37 +1,22 @@
 ---
-title: "Episode 19 - Jon Moved In!"
-date: "2018-11-22T13:40:16.000Z"
-categories: 
-  - 
-    name: "General"
-    slug: "general"
-  - 
-    name: "House Hunting"
-    slug: "house-hunting"
-tags: 
-  - 
-    name: "closing"
-    slug: "closing"
-  - 
-    name: "iTunes"
-    slug: "itunes"
-  - 
-    name: "moving"
-    slug: "moving"
-  - 
-    name: "reviews"
-    slug: "reviews"
-  - 
-    name: "special announcement"
-    slug: "special-announcement"
-  - 
-    name: "thanksgiving"
-    slug: "thanksgiving"
-enclosure: 
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/019-lwatol-20181122.mp3
-"
+title: Episode 19 - Jon Moved In!
+slug: episode-19-jon-moved-in
+episode: 19
+date: '2018-11-22T13:40:16.000Z'
+categories:
+  - House Hunting
+tags:
+  - closing
+  - iTunes
+  - moving
+  - reviews
+  - special announcement
+  - thanksgiving
+enclosure:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/019-lwatol-20181122.mp3 
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -48,4 +33,3 @@ See you next week,
 
 \- Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
-\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/11/019-lwatol-20181122.mp3"\]\[/audio\]

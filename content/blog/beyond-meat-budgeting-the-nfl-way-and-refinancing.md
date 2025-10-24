@@ -1,42 +1,29 @@
 ---
-title: "Beyond Meat, Budgeting the NFL way, and Refinancing"
-date: "2019-08-22T11:34:12.000Z"
+title: 'Beyond Meat, Budgeting the NFL way, and Refinancing'
+slug: beyond-meat-budgeting-the-nfl-way-and-refinancing
+episode: 59
+date: '2019-08-22T11:34:12.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "House Hunting"
-    slug: "house-hunting"
+  - Finance
+  - Food
+  - Home Ownership
+  - House Hunting
 tags:
-  - name: "beyond meat"
-    slug: "beyond-meat"
-  - name: "budgeting"
-    slug: "budgeting"
-  - name: "food"
-    slug: "food"
-  - name: "impossible meat"
-    slug: "impossible-meat"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "mortgage"
-    slug: "mortgage"
-  - name: "refinance"
-    slug: "refinance"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "tacos"
-    slug: "tacos"
+  - beyond meat
+  - budgeting
+  - food
+  - impossible meat
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mortgage
+  - refinance
+  - stan lemon
+  - tacos
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/059-lwatol-20190822.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/059-lwatol-20190822.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -52,8 +39,6 @@ Jon's mortgage contact reached out to see if he was interested in refinancing. D
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/059-lwatol-20190822.mp3"\]\[/audio\]
 
 ## Show Notes
 

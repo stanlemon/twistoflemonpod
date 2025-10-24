@@ -1,24 +1,20 @@
 ---
-title: "Stan Makes Full Use of Apple Health"
-date: "2021-05-27T15:54:25.000Z"
+title: Stan Makes Full Use of Apple Health
+slug: stan-makes-full-use-of-apple-health
+episode: 136
+date: '2021-05-27T15:54:25.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "apple health"
-    slug: "apple-health"
-  - name: "ecobee"
-    slug: "ecobee"
-  - name: "streaming"
-    slug: "streaming"
+  - apple
+  - apple health
+  - ecobee
+  - streaming
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210527.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210527.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

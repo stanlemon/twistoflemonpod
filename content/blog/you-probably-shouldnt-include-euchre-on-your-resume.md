@@ -1,34 +1,25 @@
 ---
-title: "You probably shouldn't include Euchre on your resume"
-date: "2019-08-08T14:33:16.000Z"
+title: You probably shouldn't include Euchre on your resume
+slug: you-probably-shouldnt-include-euchre-on-your-resume
+episode: 57
+date: '2019-08-08T14:33:16.000Z'
 categories:
-  - name: "Career Advice"
-    slug: "career-advice"
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
+  - Career Advice
+  - Food
+  - Productivity
 tags:
-  - name: "ecommerce"
-    slug: "ecommerce"
-  - name: "euchre"
-    slug: "euchre"
-  - name: "five guys"
-    slug: "five-guys"
-  - name: "hamburgers"
-    slug: "hamburgers"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "resume"
-    slug: "resume"
+  - ecommerce
+  - euchre
+  - five guys
+  - hamburgers
+  - jon kohlmeier
+  - life with a twist of lemon
+  - resume
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/057-lwatol-20190808.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/057-lwatol-20190808.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -49,4 +40,3 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/057-lwatol-20190808.mp3"\]\[/audio\]

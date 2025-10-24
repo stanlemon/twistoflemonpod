@@ -1,28 +1,22 @@
 ---
-title: "One Year with a Twist of Lemon"
-date: "2019-07-25T14:42:49.000Z"
+title: One Year with a Twist of Lemon
+slug: one-year-with-a-twist-of-lemon
+episode: 55
+date: '2019-07-25T14:42:49.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "anniversary"
-    slug: "anniversary"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "listeners"
-    slug: "listeners"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - anniversary
+  - jon kohlmeier
+  - life with a twist of lemon
+  - listeners
+  - marvel
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/055-lwatol-20190725.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/055-lwatol-20190725.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -41,4 +35,3 @@ Stay Sour, friends,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/055-lwatol-20190725.mp3"\]\[/audio\]

@@ -1,24 +1,20 @@
 ---
-title: "Lemilton - Our Review of Hamilton"
-date: "2020-07-09T13:28:13.000Z"
+title: Lemilton - Our Review of Hamilton
+slug: lemilton-our-review-of-hamilton
+episode: 91
+date: '2020-07-09T13:28:13.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
+  - Movies
 tags:
-  - name: "disney+"
-    slug: "disney"
-  - name: "Hamilton"
-    slug: "hamilton"
-  - name: "history"
-    slug: "history"
-  - name: "musicals"
-    slug: "musicals"
+  - disney+
+  - Hamilton
+  - history
+  - musicals
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/091-lwatol-20200709.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/091-lwatol-20200709.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

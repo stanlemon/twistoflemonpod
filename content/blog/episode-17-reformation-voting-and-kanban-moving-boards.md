@@ -1,43 +1,24 @@
 ---
-title: "Episode 17 - Reformation, Voting, and Kanban Moving Boards"
-date: "2018-11-08T13:00:16.000Z"
-categories: 
-  - 
-    name: "General"
-    slug: "general"
-  - 
-    name: "House Hunting"
-    slug: "house-hunting"
-  - 
-    name: "Productivity"
-    slug: "productivity"
-  - 
-    name: "Technology"
-    slug: "technology"
-tags: 
-  - 
-    name: "kanban"
-    slug: "kanban"
-  - 
-    name: "moving"
-    slug: "moving"
-  - 
-    name: "politics"
-    slug: "politics"
-  - 
-    name: "reformation"
-    slug: "reformation"
-  - 
-    name: "technology"
-    slug: "technology"
-  - 
-    name: "voting"
-    slug: "voting"
-enclosure: 
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3
-"
+title: 'Episode 17 - Reformation, Voting, and Kanban Moving Boards'
+slug: episode-17-reformation-voting-and-kanban-moving-boards
+episode: 17
+date: '2018-11-08T13:00:16.000Z'
+categories:
+  - House Hunting
+  - Productivity
+  - Technology
+tags:
+  - kanban
+  - moving
+  - politics
+  - reformation
+  - technology
+  - voting
+enclosure:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3 
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 ![](images/45327660_336045846945094_2409562380603228160_n-340x230.jpg)Dear Listener,
@@ -58,8 +39,6 @@ Sincerely,
 
 Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
-\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/11/017-lwatol-20181108.mp3"\]\[/audio\]
-
 ## Show notes:
 
 Uh... Tweet [@twistoflemonpod](https://twitter.com/twistoflemonpod) if there was something I should have linked here.

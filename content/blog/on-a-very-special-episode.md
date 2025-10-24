@@ -1,20 +1,18 @@
 ---
-title: "On a Very Special Episode"
-date: "2021-02-11T14:27:00.000Z"
+title: On a Very Special Episode
+slug: on-a-very-special-episode
+episode: 121
+date: '2021-02-11T14:27:00.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "overwatch"
-    slug: "overwatch"
-  - name: "wandavision"
-    slug: "wandavision"
+  - overwatch
+  - wandavision
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210211.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210211.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

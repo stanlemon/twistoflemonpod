@@ -1,26 +1,21 @@
 ---
-title: "California Streaming"
-date: "2021-09-16T14:25:44.000Z"
+title: California Streaming
+slug: california-streaming
+episode: 152
+date: '2021-09-16T14:25:44.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "apple event"
-    slug: "apple-event"
-  - name: "apple watch"
-    slug: "apple-watch"
-  - name: "ipad"
-    slug: "ipad"
-  - name: "iPhone"
-    slug: "iphone"
+  - apple
+  - apple event
+  - apple watch
+  - ipad
+  - iPhone
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/152-lwatol-20210916.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/152-lwatol-20210916.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

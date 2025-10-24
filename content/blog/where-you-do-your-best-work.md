@@ -1,40 +1,28 @@
 ---
-title: "Where You Do Your Best Work"
-date: "2019-06-06T12:25:03.000Z"
+title: Where You Do Your Best Work
+slug: where-you-do-your-best-work
+episode: 48
+date: '2019-06-06T12:25:03.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Productivity
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "iTunes"
-    slug: "itunes"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "productivity"
-    slug: "productivity"
-  - name: "review"
-    slug: "review"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star trek"
-    slug: "star-trek"
-  - name: "where you do your best work"
-    slug: "where-you-do-your-best-work"
-  - name: "work"
-    slug: "work"
-  - name: "wwdc"
-    slug: "wwdc"
+  - apple
+  - iTunes
+  - jon kohlmeier
+  - life with a twist of lemon
+  - productivity
+  - review
+  - stan lemon
+  - star trek
+  - where you do your best work
+  - work
+  - wwdc
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/048-lwatol-20190606.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/048-lwatol-20190606.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -51,4 +39,3 @@ Thanks for listening! Leave a review!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/048-lwatol-20190606.mp3"\]\[/audio\]

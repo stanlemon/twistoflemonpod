@@ -1,34 +1,25 @@
 ---
-title: "The Episode with Stan's Name in the Title"
-date: "2019-04-04T12:30:12.000Z"
+title: The Episode with Stan's Name in the Title
+slug: the-episode-with-stans-name-in-the-title
+episode: 39
+date: '2019-04-04T12:30:12.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Technology"
-    slug: "technology"
+  - Marvel
+  - Movies
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "avengers"
-    slug: "avengers"
-  - name: "endgame"
-    slug: "endgame"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - apple
+  - avengers
+  - endgame
+  - jon kohlmeier
+  - life with a twist of lemon
+  - marvel
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/039-lwatol-20190404.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/039-lwatol-20190404.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -43,4 +34,3 @@ Thanks for listening and leaving reviews!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/039-lwatol-20190404.mp3"\]\[/audio\]

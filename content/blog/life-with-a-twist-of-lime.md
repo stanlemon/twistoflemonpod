@@ -1,24 +1,20 @@
 ---
-title: "Life with a Twist of Lime"
-date: "2021-04-01T14:33:38.000Z"
+title: Life with a Twist of Lime
+slug: life-with-a-twist-of-lime
+episode: 128
+date: '2021-04-01T14:33:38.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Home Ownership
+  - Technology
 tags:
-  - name: "April fools"
-    slug: "april-fools"
-  - name: "falcon and the winter soilder"
-    slug: "falcon-and-the-winter-soilder"
-  - name: "marvel"
-    slug: "marvel"
+  - April fools
+  - falcon and the winter soilder
+  - marvel
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/128-lwatol-20210401.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/128-lwatol-20210401.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

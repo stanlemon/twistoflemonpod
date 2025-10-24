@@ -1,20 +1,19 @@
 ---
-title: "Episode 9 - Stan's Portillo's Experience"
-date: "2018-09-13T07:00:51.000Z"
+title: Episode 9 - Stan's Portillo's Experience
+slug: episode-9-stans-portillos-experience
+episode: 9
+date: '2018-09-13T07:00:51.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Food
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "cocktails"
-    slug: "cocktails"
-  - name: "Milkshake"
-    slug: "milkshake"
+  - apple
+  - cocktails
+  - Milkshake
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/009-lwatol-20180913.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/009-lwatol-20180913.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener who may in fact be sick of hearing us talk about milkshakes,
@@ -31,4 +30,3 @@ Sincerely,
 
 Jon Kohlmeier & Stan Lemon
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/009-lwatol-20180913.mp3"\]\[/audio\]

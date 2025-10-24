@@ -1,44 +1,30 @@
 ---
-title: "What exactly are the Iowa Caucuses?"
-date: "2020-02-06T14:08:24.000Z"
+title: What exactly are the Iowa Caucuses?
+slug: what-exactly-are-the-iowa-caucuses
+episode: 82
+date: '2020-02-06T14:08:24.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Productivity
+  - Technology
 tags:
-  - name: "facebook"
-    slug: "facebook"
-  - name: "Iowa caucuses"
-    slug: "iowa-caucuses"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life tip"
-    slug: "life-tip"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "meetings"
-    slug: "meetings"
-  - name: "minimalism"
-    slug: "minimalism"
-  - name: "paper"
-    slug: "paper"
-  - name: "picard"
-    slug: "picard"
-  - name: "politics"
-    slug: "politics"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "super bowl"
-    slug: "super-bowl"
+  - facebook
+  - Iowa caucuses
+  - jon kohlmeier
+  - life tip
+  - life with a twist of lemon
+  - meetings
+  - minimalism
+  - paper
+  - picard
+  - politics
+  - stan lemon
+  - super bowl
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/082-lwatol-20200206.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/082-lwatol-20200206.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,34 +1,25 @@
 ---
-title: "Episode 29 - The Polar Vortex is Upon Us!"
-date: "2019-01-31T13:41:28.000Z"
+title: Episode 29 - The Polar Vortex is Upon Us!
+slug: episode-29-the-polar-vortex-is-upon-us
+episode: 29
+date: '2019-01-31T13:41:28.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apps"
-    slug: "apps"
-  - name: "cold"
-    slug: "cold"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "snow"
-    slug: "snow"
-  - name: "snowblower"
-    slug: "snowblower"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "weather"
-    slug: "weather"
-  - name: "weather apps"
-    slug: "weather-apps"
+  - apps
+  - cold
+  - jon kohlmeier
+  - life with a twist of lemon
+  - snow
+  - snowblower
+  - stan lemon
+  - weather
+  - weather apps
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/029-lwatol-20190131.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/029-lwatol-20190131.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -45,4 +36,3 @@ Thanks for listening. Review us on iTunes and we'll read your review on air!
 
 Stan Lemon and Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/029-lwatol-20190131.mp3"\]\[/audio\]

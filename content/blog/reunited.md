@@ -1,34 +1,25 @@
 ---
-title: "Reunited"
-date: "2021-07-13T13:39:23.000Z"
+title: Reunited
+slug: reunited
+episode: 143
+date: '2021-07-13T13:39:23.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Marvel
+  - Technology
 tags:
-  - name: "macs"
-    slug: "macs"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "meat"
-    slug: "meat"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "mixology"
-    slug: "mixology"
-  - name: "vacation"
-    slug: "vacation"
-  - name: "visit"
-    slug: "visit"
+  - macs
+  - marvel
+  - meat
+  - Milkshake
+  - mixology
+  - vacation
+  - visit
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/143-lwatol-20210713.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/143-lwatol-20210713.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,22 +1,19 @@
 ---
-title: "Fitness+ with Mark Buetow"
-date: "2021-01-07T13:56:15.000Z"
+title: Fitness+ with Mark Buetow
+slug: fitness-with-mark-buetow
+episode: 116
+date: '2021-01-07T13:56:15.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "buetow"
-    slug: "buetow"
-  - name: "fitness+"
-    slug: "fitness"
+  - apple
+  - buetow
+  - fitness+
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/116-lwatol-20210107.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/116-lwatol-20210107.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

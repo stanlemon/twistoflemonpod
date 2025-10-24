@@ -1,36 +1,26 @@
 ---
-title: "The Return of... WWDC Commentary"
-date: "2020-06-25T11:25:48.000Z"
+title: The Return of... WWDC Commentary
+slug: the-return-of-wwdc-commentary
+episode: 89
+date: '2020-06-25T11:25:48.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "airpods"
-    slug: "airpods"
-  - name: "apple"
-    slug: "apple"
-  - name: "ipad"
-    slug: "ipad"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "mac"
-    slug: "mac"
-  - name: "macbook"
-    slug: "macbook"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "watch"
-    slug: "watch"
-  - name: "wwdc"
-    slug: "wwdc"
+  - airpods
+  - apple
+  - ipad
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mac
+  - macbook
+  - stan lemon
+  - watch
+  - wwdc
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/089-lwatol-20200625.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/089-lwatol-20200625.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,31 +1,20 @@
 ---
-title: "Episode 11 - Meat Rubs, New Apple Toys, Investing 101"
-date: "2018-09-27T10:38:53.000Z"
-categories: 
-  - 
-    name: "Finance"
-    slug: "finance"
-  - 
-    name: "General"
-    slug: "general"
-  - 
-    name: "Technology"
-    slug: "technology"
-tags: 
-  - 
-    name: "apple"
-    slug: "apple"
-  - 
-    name: "investing"
-    slug: "investing"
-  - 
-    name: "Milkshake"
-    slug: "milkshake"
-enclosure: 
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/011-lwatol-20180927.mp3
-"
+title: 'Episode 11 - Meat Rubs, New Apple Toys, Investing 101'
+slug: episode-11-meat-rubs-new-apple-toys-investing-101
+episode: 11
+date: '2018-09-27T10:38:53.000Z'
+categories:
+  - Finance
+  - Technology
+tags:
+  - apple
+  - investing
+  - Milkshake
+enclosure:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/011-lwatol-20180927.mp3 
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -44,4 +33,3 @@ Thanks for sticking with us!
 
 Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
-\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/09/011-lwatol-20180927.mp3"\]\[/audio\]

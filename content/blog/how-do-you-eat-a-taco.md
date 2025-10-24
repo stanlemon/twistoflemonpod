@@ -1,26 +1,21 @@
 ---
-title: "How Do You Eat a Taco?"
-date: "2021-10-14T14:09:03.000Z"
+title: How Do You Eat a Taco?
+slug: how-do-you-eat-a-taco
+episode: 156
+date: '2021-10-14T14:09:03.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Technology
 tags:
-  - name: "AirPods max"
-    slug: "airpods-max"
-  - name: "taco bell"
-    slug: "taco-bell"
-  - name: "tacos"
-    slug: "tacos"
-  - name: "ted lasso"
-    slug: "ted-lasso"
+  - airpods
+  - taco bell
+  - tacos
+  - ted lasso
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/156-lwatol-20211014.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/156-lwatol-20211014.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

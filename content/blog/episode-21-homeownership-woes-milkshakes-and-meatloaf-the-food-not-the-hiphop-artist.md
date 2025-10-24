@@ -1,37 +1,25 @@
 ---
-title: "Episode 21 - Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)"
-date: "2018-12-06T12:29:47.000Z"
-categories: 
-  - 
-    name: "Food"
-    slug: "food"
-  - 
-    name: "General"
-    slug: "general"
-  - 
-    name: "Home Ownership"
-    slug: "home-ownership"
-tags: 
-  - 
-    name: "DIY fixes"
-    slug: "diy-fixes"
-  - 
-    name: "food"
-    slug: "food"
-  - 
-    name: "homeownership"
-    slug: "homeownership"
-  - 
-    name: "meatloaf"
-    slug: "meatloaf"
-  - 
-    name: "Milkshake"
-    slug: "milkshake"
-enclosure: 
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/021-lwatol-20181206.mp3
-"
+title: >-
+  Episode 21 - Homeownership Woes, Milkshakes and Meatloaf (The food, not the
+  hiphop artist)
+slug: >-
+  episode-21-homeownership-woes-milkshakes-and-meatloaf-the-food-not-the-hiphop-artist
+episode: 21
+date: '2018-12-06T12:29:47.000Z'
+categories:
+  - Food
+  - Home Ownership
+tags:
+  - DIY fixes
+  - food
+  - homeownership
+  - meatloaf
+  - Milkshake
+enclosure:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/021-lwatol-20181206.mp3 
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Faithful Listener,
@@ -56,8 +44,6 @@ Talk next week,
 
 \-Jon Kohlmeier & Stan Lemon
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
-\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/12/021-lwatol-20181206.mp3"\]\[/audio\]
-
 ### Show notes
 
 - [Grindhouse Killer Burgers](http://www.grindhouseburgers.com)

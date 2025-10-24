@@ -1,24 +1,20 @@
 ---
-title: "WandaVision - Initial Reactions"
-date: "2021-01-21T14:54:06.000Z"
+title: WandaVision - Initial Reactions
+slug: wandavision-initial-reactions
+episode: 118
+date: '2021-01-21T14:54:06.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Finance
+  - Marvel
 tags:
-  - name: "budgeting"
-    slug: "budgeting"
-  - name: "mint"
-    slug: "mint"
-  - name: "wandavision"
-    slug: "wandavision"
+  - budgeting
+  - mint
+  - wandavision
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/118-lwatol-20210121.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/118-lwatol-20210121.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,46 +1,31 @@
 ---
-title: "Smoking Meat and Being Nerds"
-date: "2019-05-30T13:17:00.000Z"
+title: Smoking Meat and Being Nerds
+slug: smoking-meat-and-being-nerds
+episode: 47
+date: '2019-05-30T13:17:00.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Home Ownership
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "food"
-    slug: "food"
-  - name: "home ownership"
-    slug: "home-ownership"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "ladder"
-    slug: "ladder"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "meat rubs"
-    slug: "meat-rubs"
-  - name: "meat smoking"
-    slug: "meat-smoking"
-  - name: "picard"
-    slug: "picard"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star trek"
-    slug: "star-trek"
-  - name: "tv"
-    slug: "tv"
-  - name: "wwcd"
-    slug: "wwcd"
+  - apple
+  - food
+  - home ownership
+  - jon kohlmeier
+  - ladder
+  - life with a twist of lemon
+  - meat rubs
+  - meat smoking
+  - picard
+  - stan lemon
+  - star trek
+  - tv
+  - wwcd
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -60,8 +45,6 @@ Finally Stan gives Jon a hard time for still not having a ladder.
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3"\]\[/audio\]
 
 ## Links from the Show
 

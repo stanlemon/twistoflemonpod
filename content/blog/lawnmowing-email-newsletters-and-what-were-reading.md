@@ -1,48 +1,32 @@
 ---
-title: "Lawnmowing, email newsletters, and what we're reading."
-date: "2019-05-16T11:28:51.000Z"
+title: 'Lawnmowing, email newsletters, and what we''re reading.'
+slug: lawnmowing-email-newsletters-and-what-were-reading
+episode: 45
+date: '2019-05-16T11:28:51.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Home Ownership
+  - Technology
 tags:
-  - name: "books"
-    slug: "books"
-  - name: "email"
-    slug: "email"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "Jon turns 30"
-    slug: "jon-turns-30"
-  - name: "lawn mowing"
-    slug: "lawn-mowing"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "lincoln"
-    slug: "lincoln"
-  - name: "mailchimp"
-    slug: "mailchimp"
-  - name: "marketing"
-    slug: "marketing"
-  - name: "mothers day"
-    slug: "mothers-day"
-  - name: "reading devices"
-    slug: "reading-devices"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "technology"
-    slug: "technology"
-  - name: "yard"
-    slug: "yard"
-  - name: "yardwork"
-    slug: "yardwork"
+  - books
+  - email
+  - jon kohlmeier
+  - Jon turns 30
+  - lawn mowing
+  - life with a twist of lemon
+  - lincoln
+  - mailchimp
+  - marketing
+  - mothers day
+  - reading devices
+  - stan lemon
+  - technology
+  - yard
+  - yardwork
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/045-lwatol-20190516.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/045-lwatol-20190516.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -63,4 +47,3 @@ Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/045-lwatol-20190516.mp3"\]\[/audio\]

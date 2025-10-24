@@ -1,30 +1,23 @@
 ---
-title: "Jon Lived Through a Derecho, whatever that is."
-date: "2020-08-20T13:17:18.000Z"
+title: 'Jon Lived Through a Derecho, whatever that is.'
+slug: jon-lived-through-a-derecho-whatever-that-is
+episode: 96
+date: '2020-08-20T13:17:18.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Home Ownership
 tags:
-  - name: "App Store"
-    slug: "app-store"
-  - name: "apple"
-    slug: "apple"
-  - name: "cherries"
-    slug: "cherries"
-  - name: "damage"
-    slug: "damage"
-  - name: "derecho"
-    slug: "derecho"
-  - name: "Iowa"
-    slug: "iowa"
-  - name: "storm"
-    slug: "storm"
+  - App Store
+  - apple
+  - cherries
+  - damage
+  - derecho
+  - Iowa
+  - storm
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/096-lwatol-20200820.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/096-lwatol-20200820.mp3
   length: 51609615
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 \[caption id="attachment_530" align="aligncenter" width="750"\]![](images/tree-on-house-1024x682.jpg) Iowa Twist of Lemon Bunker after tree fell on it.\[/caption\]

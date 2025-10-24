@@ -1,28 +1,22 @@
 ---
-title: "Food You Probably Shouldn't Order"
-date: "2021-05-20T13:42:38.000Z"
+title: Food You Probably Shouldn't Order
+slug: food-you-probably-shouldnt-order
+episode: 135
+date: '2021-05-20T13:42:38.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Food
+  - Home Ownership
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "apple watch"
-    slug: "apple-watch"
-  - name: "food"
-    slug: "food"
-  - name: "home ownership"
-    slug: "home-ownership"
-  - name: "regional food"
-    slug: "regional-food"
+  - apple
+  - apple watch
+  - food
+  - home ownership
+  - regional food
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/135-lwatol-20210520.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/135-lwatol-20210520.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

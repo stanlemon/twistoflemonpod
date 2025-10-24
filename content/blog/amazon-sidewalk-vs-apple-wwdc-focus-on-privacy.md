@@ -1,34 +1,25 @@
 ---
-title: "Amazon Sidewalk Vs. Apple WWDC Focus on Privacy"
-date: "2021-06-08T13:50:29.000Z"
+title: Amazon Sidewalk Vs. Apple WWDC Focus on Privacy
+slug: amazon-sidewalk-vs-apple-wwdc-focus-on-privacy
+episode: 138
+date: '2021-06-08T13:50:29.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "amazon"
-    slug: "amazon"
-  - name: "apple"
-    slug: "apple"
-  - name: "apple music"
-    slug: "apple-music"
-  - name: "apple tv"
-    slug: "apple-tv"
-  - name: "homepod"
-    slug: "homepod"
-  - name: "ios"
-    slug: "ios"
-  - name: "mac"
-    slug: "mac"
-  - name: "privacy"
-    slug: "privacy"
-  - name: "wwdc"
-    slug: "wwdc"
+  - amazon
+  - apple
+  - apple music
+  - apple tv
+  - homepod
+  - ios
+  - mac
+  - privacy
+  - wwdc
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/138-lwatol-20210608.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/138-lwatol-20210608.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

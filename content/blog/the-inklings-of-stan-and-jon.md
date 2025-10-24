@@ -1,22 +1,19 @@
 ---
-title: "The Inklings of Stan and Jon"
-date: "2021-02-18T14:57:31.000Z"
+title: The Inklings of Stan and Jon
+slug: the-inklings-of-stan-and-jon
+episode: 122
+date: '2021-02-18T14:57:31.000Z'
 categories:
-  - name: "books"
-    slug: "books"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Books
+  - Marvel
 tags:
-  - name: "lord of the rings"
-    slug: "lord-of-the-rings"
-  - name: "Narnia"
-    slug: "narnia"
+  - lord of the rings
+  - Narnia
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210218.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/121-lwatol-20210218.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,26 +1,21 @@
 ---
-title: "Marvel-ing at Disney Announcements"
-date: "2020-12-17T13:20:10.000Z"
+title: Marvel-ing at Disney Announcements
+slug: marvel-ing-at-disney-announcements
+episode: 113
+date: '2020-12-17T13:20:10.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Movies"
-    slug: "movies"
+  - Marvel
+  - Movies
 tags:
-  - name: "disney"
-    slug: "disney-2"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "Patrick sturdivant"
-    slug: "patrick-sturdivant"
-  - name: "star wars"
-    slug: "star-wars"
+  - disney
+  - marvel
+  - Patrick sturdivant
+  - star wars
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/113-lwatol-20201217.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/113-lwatol-20201217.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

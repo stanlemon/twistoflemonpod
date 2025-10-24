@@ -1,38 +1,27 @@
 ---
-title: "Use the Force... to Use Email Better"
-date: "2019-08-29T11:24:37.000Z"
+title: Use the Force... to Use Email Better
+slug: use-the-force-to-use-email-better
+episode: 60
+date: '2019-08-29T11:24:37.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Movies
+  - Productivity
+  - Technology
 tags:
-  - name: "d23"
-    slug: "d23"
-  - name: "disney+"
-    slug: "disney"
-  - name: "email"
-    slug: "email"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "obi-wan"
-    slug: "obi-wan"
-  - name: "rise of skywalker"
-    slug: "rise-of-skywalker"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star wars"
-    slug: "star-wars"
+  - d23
+  - disney+
+  - email
+  - jon kohlmeier
+  - life with a twist of lemon
+  - obi-wan
+  - rise of skywalker
+  - stan lemon
+  - star wars
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/060-lwatol-20190829.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/060-lwatol-20190829.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -58,4 +47,3 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/060-lwatol-20190829.mp3"\]\[/audio\]

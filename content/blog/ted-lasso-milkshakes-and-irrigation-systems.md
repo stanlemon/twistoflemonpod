@@ -1,34 +1,25 @@
 ---
-title: "Ted Lasso, Milkshakes, and Irrigation Systems"
-date: "2021-07-27T13:43:51.000Z"
+title: 'Ted Lasso, Milkshakes, and Irrigation Systems'
+slug: ted-lasso-milkshakes-and-irrigation-systems
+episode: 145
+date: '2021-07-27T13:43:51.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Marvel"
-    slug: "marvel"
+  - Home Ownership
+  - Marvel
 tags:
-  - name: "apple tv"
-    slug: "apple-tv"
-  - name: "irrigation"
-    slug: "irrigation"
-  - name: "lawn care"
-    slug: "lawn-care"
-  - name: "loki"
-    slug: "loki"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "taliesin"
-    slug: "taliesin"
-  - name: "ted lasso"
-    slug: "ted-lasso"
+  - apple tv
+  - irrigation
+  - lawn care
+  - loki
+  - marvel
+  - Milkshake
+  - taliesin
+  - ted lasso
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/145-lwatol-20210727.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/145-lwatol-20210727.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

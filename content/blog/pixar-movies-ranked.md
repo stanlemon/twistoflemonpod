@@ -1,26 +1,21 @@
 ---
-title: "Pixar Movies Ranked"
-date: "2021-01-14T14:07:07.000Z"
+title: Pixar Movies Ranked
+slug: pixar-movies-ranked
+episode: 117
+date: '2021-01-14T14:07:07.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Technology"
-    slug: "technology"
+  - Movies
+  - Technology
 tags:
-  - name: "lord of the rings"
-    slug: "lord-of-the-rings"
-  - name: "nextdns"
-    slug: "nextdns"
-  - name: "pixar"
-    slug: "pixar"
-  - name: "the bbq rev"
-    slug: "the-bbq-rev"
+  - lord of the rings
+  - nextdns
+  - pixar
+  - the bbq rev
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

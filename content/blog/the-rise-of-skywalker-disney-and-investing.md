@@ -1,50 +1,33 @@
 ---
-title: "The Rise of Skywalker, Disney+, and Investing"
-date: "2019-04-18T11:57:56.000Z"
+title: 'The Rise of Skywalker, Disney+, and Investing'
+slug: the-rise-of-skywalker-disney-and-investing
+episode: 41
+date: '2019-04-18T11:57:56.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Theology"
-    slug: "theology"
+  - Finance
+  - Marvel
+  - Movies
+  - Theology
 tags:
-  - name: "disney+"
-    slug: "disney"
-  - name: "finance"
-    slug: "finance"
-  - name: "game of thrones"
-    slug: "game-of-thrones"
-  - name: "holy week"
-    slug: "holy-week"
-  - name: "investing"
-    slug: "investing"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "media"
-    slug: "media"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star wars"
-    slug: "star-wars"
-  - name: "streaming"
-    slug: "streaming"
-  - name: "the rise of skywalker"
-    slug: "the-rise-of-skywalker"
-  - name: "tv streaming"
-    slug: "tv-streaming"
-  - name: "wealthfront"
-    slug: "wealthfront"
+  - disney+
+  - finance
+  - game of thrones
+  - holy week
+  - investing
+  - jon kohlmeier
+  - life with a twist of lemon
+  - media
+  - stan lemon
+  - star wars
+  - streaming
+  - the rise of skywalker
+  - tv streaming
+  - wealthfront
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -62,8 +45,6 @@ Thanks for listening in!
 Stan Lemon & Jon Kohlmeier
 
 P.S. Sorry Jon's audio is so bad. Looks like Audio Hijack picked up the wrong input source.
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3"\]\[/audio\]
 
 **Show Notes:**
 

@@ -1,26 +1,21 @@
 ---
-title: "Episode 6 - Atlanta and Alexa"
-date: "2018-08-23T07:00:51.000Z"
+title: Episode 6 - Atlanta and Alexa
+slug: 006-atlanta-alexa
+episode: 6
+date: '2018-08-23T07:00:51.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "Alexa"
-    slug: "alexa"
-  - name: "Atlanta"
-    slug: "atlanta"
-  - name: "echo"
-    slug: "echo"
-  - name: "smart home"
-    slug: "smart-home"
-  - name: "technology"
-    slug: "technology"
+  - Alexa
+  - Atlanta
+  - echo
+  - smart home
+  - technology
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/006-lwatol-20180822.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/006-lwatol-20180822.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -36,8 +31,6 @@ Let us know what else we should use our home assistants for on social media.
 Sincerely,
 
 LWaToL Hosts
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/006-lwatol-20180822.mp3"\]\[/audio\]
 
 _P.S. Sorry for setting off your Alexa devices multiple times this episode._
 

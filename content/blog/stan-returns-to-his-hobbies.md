@@ -1,46 +1,31 @@
 ---
-title: "Stan Returns to His Hobbies"
-date: "2019-04-11T12:37:32.000Z"
+title: Stan Returns to His Hobbies
+slug: stan-returns-to-his-hobbies
+episode: 40
+date: '2019-04-11T12:37:32.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Finance
+  - Food
+  - Home Ownership
+  - Technology
 tags:
-  - name: "bicycle"
-    slug: "bicycle"
-  - name: "dark sky"
-    slug: "dark-sky"
-  - name: "finance"
-    slug: "finance"
-  - name: "food"
-    slug: "food"
-  - name: "google"
-    slug: "google"
-  - name: "grill"
-    slug: "grill"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "milkshake beer"
-    slug: "milkshake-beer"
-  - name: "mint"
-    slug: "mint"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "weather"
-    slug: "weather"
+  - bicycle
+  - dark sky
+  - finance
+  - food
+  - google
+  - grill
+  - jon kohlmeier
+  - life with a twist of lemon
+  - milkshake beer
+  - mint
+  - stan lemon
+  - weather
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -61,4 +46,3 @@ Thanks for Listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3"\]\[/audio\]

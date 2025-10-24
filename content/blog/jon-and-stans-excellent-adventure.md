@@ -1,26 +1,21 @@
 ---
-title: "Jon and Stan's Excellent Adventure"
-date: "2021-08-24T14:23:54.000Z"
+title: Jon and Stan's Excellent Adventure
+slug: jon-and-stans-excellent-adventure
+episode: 149
+date: '2021-08-24T14:23:54.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
+  - Food
 tags:
-  - name: "beer"
-    slug: "beer"
-  - name: "food"
-    slug: "food"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "visit"
-    slug: "visit"
-  - name: "yard work"
-    slug: "yard-work"
+  - beer
+  - food
+  - Milkshake
+  - visit
+  - yard work
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/149-lwatol-20210824.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/149-lwatol-20210824.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

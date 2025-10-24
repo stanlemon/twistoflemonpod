@@ -1,22 +1,19 @@
 ---
-title: "iOS 14 Impressions"
-date: "2020-09-24T14:12:58.000Z"
+title: iOS 14 Impressions
+slug: ios-14-impressions
+episode: 101
+date: '2020-09-24T14:12:58.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "food"
-    slug: "food"
-  - name: "ios"
-    slug: "ios"
+  - apple
+  - food
+  - ios
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/101-lwatol-20200924.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/101-lwatol-20200924.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

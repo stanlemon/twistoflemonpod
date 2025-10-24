@@ -1,24 +1,20 @@
 ---
-title: "Two Years with a Twist of Lemon"
-date: "2020-08-06T13:32:11.000Z"
+title: Two Years with a Twist of Lemon
+slug: two-years-with-a-twist-of-lemon
+episode: 95
+date: '2020-08-06T13:32:11.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
+  - Food
 tags:
-  - name: "2 years"
-    slug: "2-years"
-  - name: "Henry lemon"
-    slug: "henry-lemon"
-  - name: "manhattan"
-    slug: "manhattan"
-  - name: "podcast"
-    slug: "podcast"
+  - anniversary
+  - milestone
+  - henry lemon
+  - manhattan
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/095-lwatol-20200806.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/095-lwatol-20200806.mp3
   length: 45805056
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,

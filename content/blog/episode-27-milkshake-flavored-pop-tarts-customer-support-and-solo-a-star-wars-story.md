@@ -1,34 +1,28 @@
 ---
-title: "Episode 27 - Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story"
-date: "2019-01-17T13:39:48.000Z"
+title: >-
+  Episode 27 - Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star
+  Wars Story
+slug: >-
+  episode-27-milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story
+episode: 27
+date: '2019-01-17T13:39:48.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Movies
+  - Technology
 tags:
-  - name: "agents of shield"
-    slug: "agents-of-shield"
-  - name: "customer support"
-    slug: "customer-support"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "netflix"
-    slug: "netflix"
-  - name: "pop-tart"
-    slug: "pop-tart"
-  - name: "twistoflemon"
-    slug: "twistoflemon"
+  - agents of shield
+  - customer support
+  - marvel
+  - Milkshake
+  - netflix
+  - pop-tart
+  - twistoflemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/027-lwatol-20190117.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/027-lwatol-20190117.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -47,4 +41,3 @@ Thanks for listening. If you like what you hear leave us a review on iTunes!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/027-lwatol-20190117.mp3"\]\[/audio\]

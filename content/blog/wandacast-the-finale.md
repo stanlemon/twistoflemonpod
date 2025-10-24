@@ -1,24 +1,20 @@
 ---
-title: "WandaCast: The Finale"
-date: "2021-03-11T13:40:52.000Z"
+title: 'WandaCast: The Finale'
+slug: wandacast-the-finale
+episode: 125
+date: '2021-03-11T13:40:52.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "marvel"
-    slug: "marvel"
-  - name: "Patrick sturdivant"
-    slug: "patrick-sturdivant"
-  - name: "tv reviews"
-    slug: "tv-reviews"
-  - name: "wandavision"
-    slug: "wandavision"
+  - marvel
+  - Patrick sturdivant
+  - tv reviews
+  - wandavision
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/125-lwatol-20210311.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/125-lwatol-20210311.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

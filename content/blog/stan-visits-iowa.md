@@ -1,30 +1,23 @@
 ---
-title: "Stan Visits Iowa"
-date: "2019-03-07T13:24:57.000Z"
+title: Stan Visits Iowa
+slug: stan-visits-iowa
+episode: 34
+date: '2019-03-07T13:24:57.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
+  - Food
 tags:
-  - name: "cocktails"
-    slug: "cocktails"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "Mexican food"
-    slug: "mexican-food"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "popcorn"
-    slug: "popcorn"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - cocktails
+  - jon kohlmeier
+  - life with a twist of lemon
+  - Mexican food
+  - Milkshake
+  - popcorn
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/034-lwatol-20190307.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/034-lwatol-20190307.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -45,4 +38,3 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/034-lwatol-20190307.mp3"\]\[/audio\]

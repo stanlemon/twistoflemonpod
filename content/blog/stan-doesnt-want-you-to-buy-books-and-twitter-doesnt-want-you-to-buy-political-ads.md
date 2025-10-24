@@ -1,36 +1,29 @@
 ---
-title: "Stan doesn't want you to buy books and Twitter doesn't want you to buy Political Ads"
-date: "2019-11-07T13:46:36.000Z"
+title: >-
+  Stan doesn't want you to buy books and Twitter doesn't want you to buy
+  Political Ads
+slug: >-
+  stan-doesnt-want-you-to-buy-books-and-twitter-doesnt-want-you-to-buy-political-ads
+episode: 70
+date: '2019-11-07T13:46:36.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Technology"
-    slug: "technology"
+  - Movies
+  - Technology
 tags:
-  - name: "apple tv"
-    slug: "apple-tv"
-  - name: "books"
-    slug: "books"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life tip"
-    slug: "life-tip"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "minimalism"
-    slug: "minimalism"
-  - name: "montana"
-    slug: "montana"
-  - name: "political ads"
-    slug: "political-ads"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - apple tv
+  - books
+  - jon kohlmeier
+  - life tip
+  - life with a twist of lemon
+  - minimalism
+  - montana
+  - political ads
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/070-lwatol-20191107.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/070-lwatol-20191107.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

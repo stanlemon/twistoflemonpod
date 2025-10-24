@@ -1,28 +1,22 @@
 ---
-title: "Burdened with Glorious Podcast"
-date: "2021-06-15T15:06:49.000Z"
+title: Burdened with Glorious Podcast
+slug: burdened-with-glorious-podcast
+episode: 139
+date: '2021-06-15T15:06:49.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Technology"
-    slug: "technology"
+  - Marvel
+  - Technology
 tags:
-  - name: "apple music"
-    slug: "apple-music"
-  - name: "loki"
-    slug: "loki"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "recording schedule"
-    slug: "recording-schedule"
-  - name: "wwdc"
-    slug: "wwdc"
+  - apple music
+  - loki
+  - marvel
+  - recording schedule
+  - wwdc
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/139-lwatol-20210615.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/139-lwatol-20210615.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

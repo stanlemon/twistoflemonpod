@@ -1,40 +1,28 @@
 ---
-title: "Prep with Boneless Wings"
-date: "2020-03-05T12:53:13.000Z"
+title: Prep with Boneless Wings
+slug: prep-with-boneless-wings
+episode: 86
+date: '2020-03-05T12:53:13.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Music"
-    slug: "music"
+  - Food
+  - Home Ownership
+  - Music
 tags:
-  - name: "apocolyps"
-    slug: "apocolyps"
-  - name: "bones thugs n harmony"
-    slug: "bones-thugs-n-harmony"
-  - name: "buffalo wild wings"
-    slug: "buffalo-wild-wings"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "meat rubs by fenker"
-    slug: "meat-rubs-by-fenker"
-  - name: "music"
-    slug: "music"
-  - name: "prepping"
-    slug: "prepping"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "wings"
-    slug: "wings"
+  - apocolyps
+  - bones thugs n harmony
+  - buffalo wild wings
+  - jon kohlmeier
+  - life with a twist of lemon
+  - meat rubs by fenker
+  - music
+  - prepping
+  - stan lemon
+  - wings
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/086-lwatol-20200305.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/086-lwatol-20200305.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

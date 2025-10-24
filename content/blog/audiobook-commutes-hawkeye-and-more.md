@@ -1,30 +1,23 @@
 ---
-title: "Audiobook Commutes, Hawkeye and More"
-date: "2021-12-02T13:16:02.000Z"
+title: 'Audiobook Commutes, Hawkeye and More'
+slug: audiobook-commutes-hawkeye-and-more
+episode: 163
+date: '2021-12-02T13:16:02.000Z'
 categories:
-  - name: "books"
-    slug: "books"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Books
+  - Marvel
 tags:
-  - name: "audiobooks"
-    slug: "audiobooks"
-  - name: "commute"
-    slug: "commute"
-  - name: "hawkeye"
-    slug: "hawkeye"
-  - name: "manson"
-    slug: "manson"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "obama"
-    slug: "obama"
+  - audiobooks
+  - commute
+  - hawkeye
+  - manson
+  - marvel
+  - obama
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/163-lwatol-20211202.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/163-lwatol-20211202.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

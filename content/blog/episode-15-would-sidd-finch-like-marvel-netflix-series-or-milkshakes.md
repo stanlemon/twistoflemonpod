@@ -1,37 +1,23 @@
 ---
-title: "Episode 15 - Would Sidd Finch like Marvel Netflix Series (or milkshakes)?"
-date: "2018-10-25T11:59:12.000Z"
-categories: 
-  - 
-    name: "General"
-    slug: "general"
-  - 
-    name: "House Hunting"
-    slug: "house-hunting"
-  - 
-    name: "Movies"
-    slug: "movies"
-tags: 
-  - 
-    name: "book recommendations"
-    slug: "book-recommendations"
-  - 
-    name: "house hunting"
-    slug: "house-hunting"
-  - 
-    name: "marvel"
-    slug: "marvel"
-  - 
-    name: "meat rubs"
-    slug: "meat-rubs"
-  - 
-    name: "Milkshake"
-    slug: "milkshake"
-enclosure: 
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3
-"
+title: Episode 15 - Would Sidd Finch like Marvel Netflix Series (or milkshakes)?
+slug: episode-15-would-sidd-finch-like-marvel-netflix-series-or-milkshakes
+episode: 15
+date: '2018-10-25T11:59:12.000Z'
+categories:
+  - House Hunting
+  - Movies
+  - Books
+tags:
+  - books
+  - house hunting
+  - marvel
+  - meat rubs
+  - Milkshake
+enclosure:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -50,8 +36,6 @@ Thanks for listening - leave a review and we just might talk about you too!
 
 \- Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
-\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/10/015-lwatol-20181025.mp3"\]\[/audio\]
-
 ## Show notes:
 
 - [The Catechism Prayer Book](https://amzn.to/2CGrci7) - by Jon's Father in Law

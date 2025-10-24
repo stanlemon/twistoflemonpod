@@ -1,28 +1,22 @@
 ---
-title: "AirPods Pro Review and Summer Updates"
-date: "2020-07-23T14:33:39.000Z"
+title: AirPods Pro Review and Summer Updates
+slug: airpods-pro-review-and-summer-updates
+episode: 93
+date: '2020-07-23T14:33:39.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Home Ownership
+  - Technology
 tags:
-  - name: "airpods"
-    slug: "airpods"
-  - name: "apple"
-    slug: "apple"
-  - name: "lawn"
-    slug: "lawn"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "wine"
-    slug: "wine"
+  - airpods
+  - apple
+  - lawn
+  - Milkshake
+  - wine
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/093-lwatol-20200723.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/093-lwatol-20200723.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,36 +1,26 @@
 ---
-title: "Bonus Round: Captain Marvel"
-date: "2019-03-09T20:07:18.000Z"
+title: 'Bonus Round: Captain Marvel'
+slug: bonus-round-captain-marvel
+episode: bonus-2
+date: '2019-03-09T20:07:18.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Movies"
-    slug: "movies"
+  - Marvel
+  - Movies
 tags:
-  - name: "captain marvel"
-    slug: "captain-marvel"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "movie review"
-    slug: "movie-review"
-  - name: "movies"
-    slug: "movies"
-  - name: "pop culture"
-    slug: "pop-culture"
-  - name: "stan lee"
-    slug: "stan-lee"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - captain marvel
+  - jon kohlmeier
+  - life with a twist of lemon
+  - marvel
+  - movie review
+  - movies
+  - pop culture
+  - stan lee
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -44,8 +34,6 @@ Needless to say, we think you should watch this (or watch it again.) And we're e
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3"\]\[/audio\]
 
 ## Show Notes
 

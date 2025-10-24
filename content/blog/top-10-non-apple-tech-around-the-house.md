@@ -1,28 +1,22 @@
 ---
-title: "Top 10 Non-Apple Tech Around the House"
-date: "2021-04-08T14:02:06.000Z"
+title: Top 10 Non-Apple Tech Around the House
+slug: top-10-non-apple-tech-around-the-house
+episode: 129
+date: '2021-04-08T14:02:06.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Home Ownership
+  - Technology
 tags:
-  - name: "falcon and the winter soilder"
-    slug: "falcon-and-the-winter-soilder"
-  - name: "home tech"
-    slug: "home-tech"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "non-apple tech"
-    slug: "non-apple-tech"
-  - name: "technology"
-    slug: "technology"
+  - falcon and the winter soilder
+  - home tech
+  - marvel
+  - non-apple tech
+  - technology
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/129-lwatol-20210408.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/129-lwatol-20210408.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

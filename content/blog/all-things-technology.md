@@ -1,26 +1,21 @@
 ---
-title: "All Things Technology"
-date: "2020-11-19T13:53:51.000Z"
+title: All Things Technology
+slug: all-things-technology
+episode: 109
+date: '2020-11-19T13:53:51.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "Big Sur"
-    slug: "big-sur"
-  - name: "gaming"
-    slug: "gaming"
-  - name: "os"
-    slug: "os"
-  - name: "xbox"
-    slug: "xbox"
+  - apple
+  - Big Sur
+  - gaming
+  - os
+  - xbox
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/109-lwatol-20201119.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/109-lwatol-20201119.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

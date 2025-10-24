@@ -113,14 +113,8 @@ export const pageQuery = graphql`
           length
           type
         }
-        categories {
-          name
-          slug
-        }
-        tags {
-          name
-          slug
-        }
+        categories
+        tags
       }
     }
   }

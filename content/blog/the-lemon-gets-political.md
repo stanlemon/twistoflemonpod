@@ -1,26 +1,21 @@
 ---
-title: "The Lemon gets Political"
-date: "2020-10-08T13:52:25.000Z"
+title: The Lemon gets Political
+slug: the-lemon-gets-political
+episode: 103
+date: '2020-10-08T13:52:25.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "airpods"
-    slug: "airpods"
-  - name: "apple"
-    slug: "apple"
-  - name: "fenker"
-    slug: "fenker"
-  - name: "politics"
-    slug: "politics"
-  - name: "shoes"
-    slug: "shoes"
+  - airpods
+  - apple
+  - fenker
+  - politics
+  - shoes
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/103-lwatol-20201008.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/103-lwatol-20201008.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

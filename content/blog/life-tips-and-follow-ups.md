@@ -1,40 +1,28 @@
 ---
-title: "Life Tips and Follow Ups​"
-date: "2019-10-24T12:42:38.000Z"
+title: Life Tips and Follow Ups​
+slug: life-tips-and-follow-ups
+episode: 68
+date: '2019-10-24T12:42:38.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Movies"
-    slug: "movies"
-  - name: "Productivity"
-    slug: "productivity"
+  - Home Ownership
+  - Movies
+  - Productivity
 tags:
-  - name: "car maintence"
-    slug: "car-maintence"
-  - name: "followups"
-    slug: "followups"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "kansas"
-    slug: "kansas"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marie kondo"
-    slug: "marie-kondo"
-  - name: "meat rubs"
-    slug: "meat-rubs"
-  - name: "purge"
-    slug: "purge"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star wars"
-    slug: "star-wars"
+  - car maintence
+  - followups
+  - jon kohlmeier
+  - kansas
+  - life with a twist of lemon
+  - marie kondo
+  - meat rubs
+  - purge
+  - stan lemon
+  - star wars
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/068-lwatol-20191024.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/068-lwatol-20191024.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

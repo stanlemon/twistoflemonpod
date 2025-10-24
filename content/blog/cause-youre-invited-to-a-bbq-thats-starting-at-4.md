@@ -1,30 +1,23 @@
 ---
-title: "'Cause you're invited to a BBQ that's starting at 4"
-date: "2021-08-10T14:14:33.000Z"
+title: '''Cause you''re invited to a BBQ that''s starting at 4'
+slug: cause-youre-invited-to-a-bbq-thats-starting-at-4
+episode: 147
+date: '2021-08-10T14:14:33.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Food
+  - Home Ownership
 tags:
-  - name: "lawn care"
-    slug: "lawn-care"
-  - name: "lawn mowing"
-    slug: "lawn-mowing"
-  - name: "pork shoulder"
-    slug: "pork-shoulder"
-  - name: "smoking"
-    slug: "smoking"
-  - name: "summertime"
-    slug: "summertime"
-  - name: "treager"
-    slug: "treager"
+  - lawn care
+  - lawn mowing
+  - pork shoulder
+  - smoking
+  - summertime
+  - treager
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/147-lwatol-20210810.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/147-lwatol-20210810.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

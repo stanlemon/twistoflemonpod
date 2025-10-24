@@ -1,28 +1,22 @@
 ---
-title: "Episode 25 - The Budget Episode"
-date: "2019-01-03T12:31:14.000Z"
+title: Episode 25 - The Budget Episode
+slug: episode-25-the-budget-episode
+episode: 25
+date: '2019-01-03T12:31:14.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
+  - Finance
+  - Productivity
 tags:
-  - name: "budget"
-    slug: "budget"
-  - name: "budgeting"
-    slug: "budgeting"
-  - name: "financial"
-    slug: "financial"
-  - name: "lilac"
-    slug: "lilac"
-  - name: "twistoflemon"
-    slug: "twistoflemon"
+  - budget
+  - budgeting
+  - financial
+  - lilac
+  - twistoflemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/025-lwatol-20190103.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/025-lwatol-20190103.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -43,4 +37,3 @@ Happy New Year!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/025-lwatol-20190103.mp3"\]\[/audio\]

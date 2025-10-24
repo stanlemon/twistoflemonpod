@@ -1,28 +1,19 @@
 ---
-title: "Episode 14 - Milkshakes power our productivity"
-date: "2018-10-18T12:19:59.000Z"
-categories: 
-  - 
-    name: "General"
-    slug: "general"
-  - 
-    name: "Productivity"
-    slug: "productivity"
-tags: 
-  - 
-    name: "ideal week"
-    slug: "ideal-week"
-  - 
-    name: "Milkshake"
-    slug: "milkshake"
-  - 
-    name: "productivity"
-    slug: "productivity"
-enclosure: 
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/014-lwatol-20181018.mp3
-"
+title: Episode 14 - Milkshakes power our productivity
+slug: episode-14-milkshakes-power-our-productivity
+episode: 14
+date: '2018-10-18T12:19:59.000Z'
+categories:
+  - Productivity
+tags:
+  - ideal week
+  - Milkshake
+  - productivity
+enclosure:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/014-lwatol-20181018.mp3 
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -37,8 +28,6 @@ Thanks for listening, If you like what you hear - please leave us a 5-star revie
 
 \- Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
-\[audio mp3="https://twistoflemonpod.com/wp-content/uploads/2018/10/014-lwatol-20181018.mp3"\]\[/audio\]
-
 ## Show notes:
 
 Wyliepalooza - [http://wyliepalooza.com](http://wyliepalooza.com) Almost Famous Popcorn Company - [https://www.almostfamouspopcorn.com](https://www.almostfamouspopcorn.com) F'Real Milkshakes - [https://www.freal.com](https://www.freal.com) Michael Hyatt - Ideal Week - [https://michaelhyatt.com/ideal-week/](https://michaelhyatt.com/ideal-week/)

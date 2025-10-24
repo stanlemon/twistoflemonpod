@@ -1,34 +1,25 @@
 ---
-title: "This Episode Sparks Joy"
-date: "2019-10-17T14:32:56.000Z"
+title: This Episode Sparks Joy
+slug: this-episode-sparks-joy
+episode: 67
+date: '2019-10-17T14:32:56.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Productivity"
-    slug: "productivity"
+  - Home Ownership
+  - Productivity
 tags:
-  - name: "cleaning"
-    slug: "cleaning"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marie kondo"
-    slug: "marie-kondo"
-  - name: "minimalism"
-    slug: "minimalism"
-  - name: "purge"
-    slug: "purge"
-  - name: "spark joy"
-    slug: "spark-joy"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - cleaning
+  - jon kohlmeier
+  - life with a twist of lemon
+  - marie kondo
+  - minimalism
+  - purge
+  - spark joy
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/067-lwatol-20191017.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/067-lwatol-20191017.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -43,4 +34,3 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/067-lwatol-20191017.mp3"\]\[/audio\]

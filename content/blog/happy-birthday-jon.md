@@ -1,22 +1,19 @@
 ---
-title: "Happy birthday, Jon!"
-date: "2021-05-13T13:59:37.000Z"
+title: 'Happy birthday, Jon!'
+slug: happy-birthday-jon
+episode: 134
+date: '2021-05-13T13:59:37.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Home Ownership
 tags:
-  - name: "birthdays"
-    slug: "birthdays"
-  - name: "home ownership"
-    slug: "home-ownership"
-  - name: "life hacks"
-    slug: "life-hacks"
+  - birthdays
+  - home ownership
+  - life hacks
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/134-lwatol-20210513.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/134-lwatol-20210513.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

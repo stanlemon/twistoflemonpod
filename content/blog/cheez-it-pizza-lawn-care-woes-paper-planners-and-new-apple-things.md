@@ -1,38 +1,27 @@
 ---
-title: "Cheez-It Pizza, Lawn Care Woes, Paper Planners and new Apple Things"
-date: "2019-09-26T14:19:06.000Z"
+title: 'Cheez-It Pizza, Lawn Care Woes, Paper Planners and new Apple Things'
+slug: cheez-it-pizza-lawn-care-woes-paper-planners-and-new-apple-things
+episode: 64
+date: '2019-09-26T14:19:06.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Home Ownership
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "cheez it"
-    slug: "cheez-it"
-  - name: "ios"
-    slug: "ios"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "pizza"
-    slug: "pizza"
-  - name: "planners"
-    slug: "planners"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "watch"
-    slug: "watch"
+  - apple
+  - cheez it
+  - ios
+  - jon kohlmeier
+  - life with a twist of lemon
+  - pizza
+  - planners
+  - stan lemon
+  - watch
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -51,4 +40,3 @@ Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3"\]\[/audio\]

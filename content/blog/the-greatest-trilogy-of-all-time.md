@@ -1,26 +1,21 @@
 ---
-title: "The Greatest Trilogy of All Time"
-date: "2020-07-15T19:30:21.000Z"
+title: The Greatest Trilogy of All Time
+slug: the-greatest-trilogy-of-all-time
+episode: 92
+date: '2020-07-15T19:30:21.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
+  - Movies
 tags:
-  - name: "back to the future"
-    slug: "back-to-the-future"
-  - name: "disney+"
-    slug: "disney"
-  - name: "movies"
-    slug: "movies"
-  - name: "Nintendo"
-    slug: "nintendo"
-  - name: "trilogy"
-    slug: "trilogy"
+  - back to the future
+  - disney+
+  - movies
+  - Nintendo
+  - trilogy
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/092-lwatol-20200716.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/092-lwatol-20200716.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

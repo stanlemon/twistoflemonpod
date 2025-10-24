@@ -1,32 +1,24 @@
 ---
-title: "Rise of the Resistance Resists the Lemon"
-date: "2020-02-20T14:38:44.000Z"
+title: Rise of the Resistance Resists the Lemon
+slug: rise-of-the-resistance-resists-the-lemon
+episode: 84
+date: '2020-02-20T14:38:44.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Movies"
-    slug: "movies"
+  - Movies
 tags:
-  - name: "Disney world"
-    slug: "disney-world"
-  - name: "disney+"
-    slug: "disney"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star wars"
-    slug: "star-wars"
-  - name: "trip"
-    slug: "trip"
-  - name: "vacation"
-    slug: "vacation"
+  - Disney world
+  - disney+
+  - jon kohlmeier
+  - life with a twist of lemon
+  - stan lemon
+  - star wars
+  - trip
+  - vacation
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/084-lwatol-20200220.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/084-lwatol-20200220.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

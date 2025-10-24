@@ -1,44 +1,30 @@
 ---
-title: "An Episode for Elizabeth"
-date: "2019-09-05T14:03:27.000Z"
+title: An Episode for Elizabeth
+slug: an-episode-for-liz
+episode: 61
+date: '2019-09-05T14:03:27.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Productivity
+  - Technology
 tags:
-  - name: "backup"
-    slug: "backup"
-  - name: "cal newport"
-    slug: "cal-newport"
-  - name: "computer"
-    slug: "computer"
-  - name: "desk"
-    slug: "desk"
-  - name: "digital minimalism"
-    slug: "digital-minimalism"
-  - name: "elizabeth"
-    slug: "elizabeth"
-  - name: "family"
-    slug: "family"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "labor day"
-    slug: "labor-day"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "liz"
-    slug: "liz"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "workspace"
-    slug: "workspace"
+  - backup
+  - cal newport
+  - computer
+  - desk
+  - digital minimalism
+  - elizabeth
+  - family
+  - jon kohlmeier
+  - labor day
+  - life with a twist of lemon
+  - liz
+  - stan lemon
+  - workspace
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -56,8 +42,6 @@ Finally we clear the topic backlog by talking about our work station. Listen in 
 Thanks for Listening!
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3"\]\[/audio\]
 
 ![](images/jon-desk-1024x768.jpg)
 

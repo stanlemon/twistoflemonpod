@@ -1,32 +1,24 @@
 ---
-title: "Episode 32 - The Milkshake that Wasn't"
-date: "2019-02-21T12:26:22.000Z"
+title: Episode 32 - The Milkshake that Wasn't
+slug: episode-32-the-milkshake-that-wasnt
+episode: 32
+date: '2019-02-21T12:26:22.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Technology
 tags:
-  - name: "country"
-    slug: "country"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "music"
-    slug: "music"
-  - name: "snowblower"
-    slug: "snowblower"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - country
+  - jon kohlmeier
+  - life with a twist of lemon
+  - Milkshake
+  - music
+  - snowblower
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -47,4 +39,3 @@ Thanks,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3"\]\[/audio\]

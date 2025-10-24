@@ -1,38 +1,27 @@
 ---
-title: "What Makes a Good Meeting"
-date: "2019-06-13T13:15:39.000Z"
+title: What Makes a Good Meeting
+slug: what-makes-a-good-meeting
+episode: 49
+date: '2019-06-13T13:15:39.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Productivity
+  - Technology
 tags:
-  - name: "agenda"
-    slug: "agenda"
-  - name: "communication"
-    slug: "communication"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "meetings"
-    slug: "meetings"
-  - name: "productivity"
-    slug: "productivity"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "where you do your best work"
-    slug: "where-you-do-your-best-work"
-  - name: "work"
-    slug: "work"
-  - name: "writing"
-    slug: "writing"
+  - agenda
+  - communication
+  - jon kohlmeier
+  - life with a twist of lemon
+  - meetings
+  - productivity
+  - stan lemon
+  - where you do your best work
+  - work
+  - writing
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -52,8 +41,6 @@ Listen in as we take a not very organized approach to talking about meetings, wh
 That leads into a brief discussion on actual productivity vs. productivity theatre. In general we conclude that "productivity theatre" tries to address a symptom rather than the core problem.
 
 Thanks for listening!
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3"\]\[/audio\]
 
 ## Show Notes
 

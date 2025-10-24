@@ -1,44 +1,30 @@
 ---
-title: "How Does Jon Eat an Ice Cream Sunday?"
-date: "2019-06-27T11:29:27.000Z"
+title: How Does Jon Eat an Ice Cream Sunday?
+slug: how-does-jon-eat-an-ice-cream-sunday
+episode: 51
+date: '2019-06-27T11:29:27.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Finance
+  - Technology
 tags:
-  - name: "banking"
-    slug: "banking"
-  - name: "catalina"
-    slug: "catalina"
-  - name: "customer support"
-    slug: "customer-support"
-  - name: "finance"
-    slug: "finance"
-  - name: "food"
-    slug: "food"
-  - name: "ice cream"
-    slug: "ice-cream"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "mac"
-    slug: "mac"
-  - name: "macos"
-    slug: "macos"
-  - name: "spoons"
-    slug: "spoons"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "wifi"
-    slug: "wifi"
+  - banking
+  - catalina
+  - customer support
+  - finance
+  - food
+  - ice cream
+  - jon kohlmeier
+  - life with a twist of lemon
+  - mac
+  - macos
+  - spoons
+  - stan lemon
+  - wifi
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -57,4 +43,3 @@ Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3"\]\[/audio\]

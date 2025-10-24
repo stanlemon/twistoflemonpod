@@ -1,26 +1,21 @@
 ---
-title: "Wifi Woes and the iPhone 13 Pro Max"
-date: "2021-09-30T15:00:12.000Z"
+title: Wifi Woes and the iPhone 13 Pro Max
+slug: wifi-woes-and-the-iphone-13-pro-max
+episode: 154
+date: '2021-09-30T15:00:12.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "beer"
-    slug: "beer"
-  - name: "iPhone"
-    slug: "iphone"
-  - name: "router"
-    slug: "router"
-  - name: "wifi"
-    slug: "wifi"
+  - apple
+  - beer
+  - iPhone
+  - router
+  - wifi
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/154-lwatol-20210930.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/154-lwatol-20210930.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

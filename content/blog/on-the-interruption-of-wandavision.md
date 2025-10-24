@@ -1,24 +1,20 @@
 ---
-title: "On The Interruption of WandaVision"
-date: "2021-02-04T13:53:16.000Z"
+title: On The Interruption of WandaVision
+slug: on-the-interruption-of-wandavision
+episode: 120
+date: '2021-02-04T13:53:16.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Marvel
 tags:
-  - name: "halo"
-    slug: "halo"
-  - name: "overwatch"
-    slug: "overwatch"
-  - name: "wandavision"
-    slug: "wandavision"
-  - name: "xbox"
-    slug: "xbox"
+  - halo
+  - overwatch
+  - wandavision
+  - xbox
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/120-lwatol-20210204.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/120-lwatol-20210204.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

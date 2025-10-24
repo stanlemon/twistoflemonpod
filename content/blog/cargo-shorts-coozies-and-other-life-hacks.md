@@ -1,18 +1,18 @@
 ---
-title: "Cargo Shorts, Coozies, and Other Life Hacks"
-date: "2021-06-03T14:08:24.000Z"
+title: 'Cargo Shorts, Coozies, and Other Life Hacks'
+slug: cargo-shorts-coozies-and-other-life-hacks
+episode: 137
+date: '2021-06-03T14:08:24.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Lifestyle
 tags:
-  - name: "life hacks"
-    slug: "life-hacks"
-  - name: "pets"
-    slug: "pets"
+  - life hacks
+  - pets
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210603.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210603.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

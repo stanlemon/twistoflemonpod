@@ -1,32 +1,24 @@
 ---
-title: "Episode 13 -  Apple Money Grab... or security concerns?"
-date: "2018-10-11T11:32:45.000Z"
+title: Episode 13 -  Apple Money Grab... or security concerns?
+slug: episode-13-apple-money-grab-or-security-concerns
+episode: 13
+date: '2018-10-11T11:32:45.000Z'
 categories:
-  - name: "Finance"
-    slug: "finance"
-  - name: "General"
-    slug: "general"
-  - name: "House Hunting"
-    slug: "house-hunting"
-  - name: "Technology"
-    slug: "technology"
+  - Finance
+  - House Hunting
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "mortgage"
-    slug: "mortgage"
-  - name: "privacy"
-    slug: "privacy"
-  - name: "savings"
-    slug: "savings"
-  - name: "security"
-    slug: "security"
-  - name: "tech"
-    slug: "tech"
+  - apple
+  - mortgage
+  - privacy
+  - savings
+  - security
+  - tech
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -44,8 +36,6 @@ If you like what you hear, leave us a review on iTunes.
 Thanks!
 
 \- Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3"\]\[/audio\]
 
 ## Show notes:
 

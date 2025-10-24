@@ -1,26 +1,21 @@
 ---
-title: "Did we order new devices?"
-date: "2021-09-23T18:54:12.000Z"
+title: Did we order new devices?
+slug: did-we-order-new-devices
+episode: 153
+date: '2021-09-23T18:54:12.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "apple event"
-    slug: "apple-event"
-  - name: "apple watch"
-    slug: "apple-watch"
-  - name: "ipad"
-    slug: "ipad"
-  - name: "iPhone"
-    slug: "iphone"
+  - apple
+  - apple event
+  - apple watch
+  - ipad
+  - iPhone
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/153-lwatol-20210923.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/153-lwatol-20210923.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

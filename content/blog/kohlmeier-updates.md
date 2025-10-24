@@ -1,24 +1,20 @@
 ---
-title: "Kohlmeier Updates"
-date: "2020-10-22T13:41:17.000Z"
+title: Kohlmeier Updates
+slug: kohlmeier-updates
+episode: 105
+date: '2020-10-22T13:41:17.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Food
+  - Home Ownership
 tags:
-  - name: "Kohlmeier"
-    slug: "kohlmeier"
-  - name: "roof"
-    slug: "roof"
-  - name: "smoker"
-    slug: "smoker"
+  - Kohlmeier
+  - roof
+  - smoker
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/105-lwatol-20201022.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/105-lwatol-20201022.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

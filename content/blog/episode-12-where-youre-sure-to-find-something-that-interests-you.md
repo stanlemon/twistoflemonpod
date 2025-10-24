@@ -1,26 +1,21 @@
 ---
-title: "Episode 12 - Where you're sure to find something that interests you"
-date: "2018-10-04T07:00:36.000Z"
+title: Episode 12 - Where you're sure to find something that interests you
+slug: episode-12-where-youre-sure-to-find-something-that-interests-you
+episode: 12
+date: '2018-10-04T07:00:36.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "Apollo 8"
-    slug: "apollo-8"
-  - name: "apple"
-    slug: "apple"
-  - name: "food"
-    slug: "food"
-  - name: "recipes"
-    slug: "recipes"
-  - name: "tech"
-    slug: "tech"
+  - Apollo 8
+  - apple
+  - food
+  - recipes
+  - tech
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/012-lwatol-20181003.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/012-lwatol-20181003.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -43,4 +38,3 @@ Enjoy the show!
 
 Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/012-lwatol-20181003.mp3"\]\[/audio\]

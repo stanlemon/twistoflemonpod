@@ -1,20 +1,19 @@
 ---
-title: "About Page Updates"
-date: "2021-12-16T13:39:38.000Z"
+title: About Page Updates
+slug: about-page-updates
+episode: 165
+date: '2021-12-16T13:39:38.000Z'
 categories:
-  - name: "General"
-    slug: "general"
+  - Lifestyle
 tags:
-  - name: "about"
-    slug: "about"
-  - name: "life"
-    slug: "life"
-  - name: "updates"
-    slug: "updates"
+  - about
+  - life
+  - updates
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/165-lwatol-20211216.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/165-lwatol-20211216.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

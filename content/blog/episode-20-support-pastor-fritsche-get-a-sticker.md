@@ -1,28 +1,22 @@
 ---
-title: "Episode 20 - Support Pastor Fritsche, get a Sticker."
-date: "2018-11-29T08:00:56.000Z"
+title: 'Episode 20 - Support Pastor Fritsche, get a Sticker.'
+slug: episode-20-support-pastor-fritsche-get-a-sticker
+episode: 20
+date: '2018-11-29T08:00:56.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
-  - name: "Theology"
-    slug: "theology"
+  - Technology
+  - Theology
 tags:
-  - name: "advent"
-    slug: "advent"
-  - name: "cph"
-    slug: "cph"
-  - name: "Fritsche"
-    slug: "fritsche"
-  - name: "giving"
-    slug: "giving"
-  - name: "gmail"
-    slug: "gmail"
+  - advent
+  - cph
+  - Fritsche
+  - giving
+  - gmail
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -40,8 +34,6 @@ Finally we switch gears to Tech. Stan quit Gmail this week. We talk about Google
 Thanks for tuning in and we hope to be sending you a sticker soon!
 
 \- Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3"\]\[/audio\]
 
 ### Show notes
 

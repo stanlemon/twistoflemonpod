@@ -1,26 +1,21 @@
 ---
-title: "Stan Lemon, Inventor"
-date: "2020-07-30T12:03:00.000Z"
+title: 'Stan Lemon, Inventor'
+slug: stan-lemon-inventor
+episode: 94
+date: '2020-07-30T12:03:00.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "home ownership"
-    slug: "home-ownership"
-  - name: "inventor"
-    slug: "inventor"
-  - name: "patent"
-    slug: "patent"
-  - name: "power washer"
-    slug: "power-washer"
-  - name: "stan"
-    slug: "stan"
+  - home ownership
+  - inventor
+  - patent
+  - power washer
+  - stan
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/094-lwatol-20200730.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/094-lwatol-20200730.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

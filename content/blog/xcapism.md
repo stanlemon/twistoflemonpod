@@ -1,20 +1,18 @@
 ---
-title: "Xcapism"
-date: "2020-11-12T23:40:19.000Z"
+title: Xcapism
+slug: xcapism
+episode: 108
+date: '2020-11-12T23:40:19.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "election"
-    slug: "election"
-  - name: "xbox"
-    slug: "xbox"
+  - election
+  - xbox
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/108-lwatol-20201112.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/108-lwatol-20201112.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

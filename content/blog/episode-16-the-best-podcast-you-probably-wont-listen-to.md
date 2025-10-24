@@ -1,26 +1,21 @@
 ---
-title: "Episode 16 - The Best Podcast you Probably Won't Listen To"
-date: "2018-11-01T12:02:28.000Z"
+title: Episode 16 - The Best Podcast you Probably Won't Listen To
+slug: episode-16-the-best-podcast-you-probably-wont-listen-to
+episode: 16
+date: '2018-11-01T12:02:28.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Theology"
-    slug: "theology"
+  - Theology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "halloween"
-    slug: "halloween"
-  - name: "MacBooks"
-    slug: "macbooks"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "theology"
-    slug: "theology"
+  - apple
+  - halloween
+  - MacBooks
+  - Milkshake
+  - theology
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -38,8 +33,6 @@ Apple announced new hardware for the iPad Pro, Mac mini, and MacBook Air. Did St
 Listen in, rate us (5 stars) on iTunes, post any complaints on Reddit and we'll talk to you next week!
 
 \-Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3"\]\[/audio\]
 
 ## Show notes:
 

@@ -1,28 +1,22 @@
 ---
-title: "Thankful for Milkshakes and Xbox Arrivals"
-date: "2020-11-25T15:09:56.000Z"
+title: Thankful for Milkshakes and Xbox Arrivals
+slug: thankful-for-milkshakes-and-xbox-arrivals
+episode: 110
+date: '2020-11-25T15:09:56.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Technology
 tags:
-  - name: "apple"
-    slug: "apple"
-  - name: "home pod"
-    slug: "home-pod"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "thanksgiving"
-    slug: "thanksgiving"
-  - name: "xbox"
-    slug: "xbox"
+  - apple
+  - home pod
+  - Milkshake
+  - thanksgiving
+  - xbox
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/110-lwatol-20201125.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/110-lwatol-20201125.mp3
   length: 59574155
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,

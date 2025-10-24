@@ -1,40 +1,28 @@
 ---
-title: "Long Overdue Milkshake Reviews"
-date: "2020-03-12T13:05:31.000Z"
+title: Long Overdue Milkshake Reviews
+slug: long-overdue-milkshake-reviews
+episode: 87
+date: '2020-03-12T13:05:31.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Productivity
+  - Technology
 tags:
-  - name: "apps"
-    slug: "apps"
-  - name: "food"
-    slug: "food"
-  - name: "ios"
-    slug: "ios"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "macos"
-    slug: "macos"
-  - name: "Milkshake"
-    slug: "milkshake"
-  - name: "milkshakes"
-    slug: "milkshakes"
-  - name: "mint"
-    slug: "mint"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - apps
+  - food
+  - ios
+  - jon kohlmeier
+  - life with a twist of lemon
+  - macos
+  - Milkshake
+  - milkshakes
+  - mint
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/087-lwatol-20200312.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/087-lwatol-20200312.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

@@ -1,26 +1,21 @@
 ---
-title: "Internet Interruptions"
-date: "2021-10-07T14:24:27.000Z"
+title: Internet Interruptions
+slug: internet-interruptions
+episode: lost
+date: '2021-10-07T14:24:27.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Food
+  - Technology
 tags:
-  - name: "AirPods max"
-    slug: "airpods-max"
-  - name: "taco bell"
-    slug: "taco-bell"
-  - name: "tacos"
-    slug: "tacos"
-  - name: "ted lasso"
-    slug: "ted-lasso"
+  - airpods
+  - taco bell
+  - tacos
+  - ted lasso
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/156-lwatol-20211014.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/156-lwatol-20211014.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

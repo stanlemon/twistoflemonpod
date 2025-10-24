@@ -1,28 +1,22 @@
 ---
-title: "We're Probably Watching Endgame Right Now"
-date: "2019-04-25T13:27:29.000Z"
+title: We're Probably Watching Endgame Right Now
+slug: were-probably-watching-endgame-right-now
+episode: 42
+date: '2019-04-25T13:27:29.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Movies"
-    slug: "movies"
+  - Marvel
+  - Movies
 tags:
-  - name: "baseball"
-    slug: "baseball"
-  - name: "endgame"
-    slug: "endgame"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "marvel"
-    slug: "marvel"
+  - baseball
+  - endgame
+  - jon kohlmeier
+  - life with a twist of lemon
+  - marvel
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -37,4 +31,3 @@ We talk through how we would rank the movies in the Marvel Cinematic Universe.
 
 Listen in and stay tuned to our Endgame Episode guest starring the one, the only, Patrick Sturdivant.
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3"\]\[/audio\]

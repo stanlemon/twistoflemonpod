@@ -1,32 +1,24 @@
 ---
-title: "Listeners Speak Out: Fast Food Edition"
-date: "2021-06-29T12:35:19.000Z"
+title: 'Listeners Speak Out: Fast Food Edition'
+slug: listeners-speak-out-fast-food-edition
+episode: 141
+date: '2021-06-29T12:35:19.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
-  - name: "Recreation"
-    slug: "recreation"
+  - Food
+  - Marvel
+  - Recreation
 tags:
-  - name: "fast food"
-    slug: "fast-food"
-  - name: "loki"
-    slug: "loki"
-  - name: "marvel"
-    slug: "marvel"
-  - name: "mcdonalds"
-    slug: "mcdonalds"
-  - name: "post-pandemic"
-    slug: "post-pandemic"
-  - name: "vacation"
-    slug: "vacation"
+  - fast food
+  - loki
+  - marvel
+  - mcdonalds
+  - post-pandemic
+  - vacation
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/141-lwatol-20210629.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/141-lwatol-20210629.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

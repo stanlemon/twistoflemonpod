@@ -1,38 +1,27 @@
 ---
-title: "Episode 28 - Work When You Work, But Don't Overwork"
-date: "2019-01-24T12:38:34.000Z"
+title: 'Episode 28 - Work When You Work, But Don''t Overwork'
+slug: episode-28-work-when-you-work-but-dont-overwork
+episode: 28
+date: '2019-01-24T12:38:34.000Z'
 categories:
-  - name: "Career Advice"
-    slug: "career-advice"
-  - name: "General"
-    slug: "general"
-  - name: "Productivity"
-    slug: "productivity"
-  - name: "Technology"
-    slug: "technology"
+  - Career Advice
+  - Productivity
+  - Technology
 tags:
-  - name: "career advice"
-    slug: "career-advice"
-  - name: "careers"
-    slug: "careers"
-  - name: "jobs"
-    slug: "jobs"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "productivity"
-    slug: "productivity"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "time tracking"
-    slug: "time-tracking"
-  - name: "work-life balance"
-    slug: "work-life-balance"
+  - career advice
+  - careers
+  - jobs
+  - jon kohlmeier
+  - life with a twist of lemon
+  - productivity
+  - stan lemon
+  - time tracking
+  - work-life balance
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -51,4 +40,3 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3"\]\[/audio\]

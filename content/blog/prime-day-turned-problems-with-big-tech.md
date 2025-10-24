@@ -1,40 +1,28 @@
 ---
-title: "Prime Day Turned Problems with Big Tech"
-date: "2019-07-18T17:10:02.000Z"
+title: Prime Day Turned Problems with Big Tech
+slug: prime-day-turned-problems-with-big-tech
+episode: 54
+date: '2019-07-18T17:10:02.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Technology"
-    slug: "technology"
+  - Technology
 tags:
-  - name: "accessibility"
-    slug: "accessibility"
-  - name: "amazon"
-    slug: "amazon"
-  - name: "apple"
-    slug: "apple"
-  - name: "big tech"
-    slug: "big-tech"
-  - name: "internet"
-    slug: "internet"
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "macbook"
-    slug: "macbook"
-  - name: "politics"
-    slug: "politics"
-  - name: "prime day"
-    slug: "prime-day"
-  - name: "smart home"
-    slug: "smart-home"
-  - name: "stan lemon"
-    slug: "stan-lemon"
+  - accessibility
+  - amazon
+  - apple
+  - big tech
+  - internet
+  - jon kohlmeier
+  - life with a twist of lemon
+  - macbook
+  - politics
+  - prime day
+  - smart home
+  - stan lemon
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190718.mp3"
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190718.mp3
   length: 222
-  type: "audio/mpeg"
+  type: audio/mpeg
 ---
 
 Dear Listener,
@@ -50,8 +38,6 @@ This leads into a video that Jon sent over to Stan on Elizabeth Warren breaking 
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-
-\[audio mp3="https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190718.mp3"\]\[/audio\]
 
 ## Show Notes
 

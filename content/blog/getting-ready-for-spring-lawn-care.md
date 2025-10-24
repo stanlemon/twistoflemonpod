@@ -1,30 +1,23 @@
 ---
-title: "Getting Ready for Spring Lawn Care"
-date: "2020-02-27T13:58:17.000Z"
+title: Getting Ready for Spring Lawn Care
+slug: getting-ready-for-spring-lawn-care
+episode: 85
+date: '2020-02-27T13:58:17.000Z'
 categories:
-  - name: "General"
-    slug: "general"
-  - name: "Home Ownership"
-    slug: "home-ownership"
+  - Home Ownership
 tags:
-  - name: "jon kohlmeier"
-    slug: "jon-kohlmeier"
-  - name: "lawn care"
-    slug: "lawn-care"
-  - name: "life with a twist of lemon"
-    slug: "life-with-a-twist-of-lemon"
-  - name: "manhattans"
-    slug: "manhattans"
-  - name: "meat rubs by fenker"
-    slug: "meat-rubs-by-fenker"
-  - name: "stan lemon"
-    slug: "stan-lemon"
-  - name: "star trek"
-    slug: "star-trek"
+  - jon kohlmeier
+  - lawn care
+  - life with a twist of lemon
+  - manhattans
+  - meat rubs by fenker
+  - stan lemon
+  - star trek
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/085-lwatol-20200227mp3.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/085-lwatol-20200227mp3.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,

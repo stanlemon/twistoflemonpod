@@ -1,24 +1,20 @@
 ---
-title: "Grab Some Fun Dip and Listen In"
-date: "2021-02-25T14:48:18.000Z"
+title: Grab Some Fun Dip and Listen In
+slug: grab-some-fun-dip-and-listen-in
+episode: 123
+date: '2021-02-25T14:48:18.000Z'
 categories:
-  - name: "Food"
-    slug: "food"
-  - name: "General"
-    slug: "general"
-  - name: "Marvel"
-    slug: "marvel"
+  - Food
+  - Marvel
 tags:
-  - name: "tendershack"
-    slug: "tendershack"
-  - name: "valentines day"
-    slug: "valentines-day"
-  - name: "wandavision"
-    slug: "wandavision"
+  - tendershack
+  - valentines day
+  - wandavision
 enclosure:
-  url: "https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/123-lwatol-20210225.mp3"
-  length:
-  type:
+  url: >-
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/123-lwatol-20210225.mp3
+  length: null
+  type: null
 ---
 
 Dear Listener,
