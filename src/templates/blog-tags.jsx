@@ -4,7 +4,7 @@ import BlogIndex from "../components/BlogIndex";
 export default BlogIndex;
 
 export const query = graphql`
-  query($tag: String!, $skip: Int!, $limit: Int!) {
+  query ($tag: String!, $skip: Int!, $limit: Int!) {
     site {
       siteMetadata {
         title

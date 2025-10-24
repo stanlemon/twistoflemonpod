@@ -6,7 +6,7 @@ import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 import Tags from "../components/Tags";
 import { rhythm, scale } from "../utils/typography";
-import AudioPlayer from "../components/AudioPlayer"
+import AudioPlayer from "../components/AudioPlayer";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
@@ -15,8 +15,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   const { tags, categories } = data.markdownRemark.frontmatter;
 
-  const enclosureUrl = post.frontmatter.enclosure && post.frontmatter.enclosure.url;
-
+  const enclosureUrl =
+    post.frontmatter.enclosure && post.frontmatter.enclosure.url;
 
   return (
     <Layout location={location} title={siteTitle}>
