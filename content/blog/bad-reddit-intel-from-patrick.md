@@ -4,6 +4,7 @@ slug: bad-reddit-intel-from-patrick
 episode: 38
 date: '2019-03-28T12:51:27.000Z'
 categories:
+  - Food
   - Marvel
   - Movies
   - Technology
