@@ -5,7 +5,8 @@ episode: 95
 date: '2020-08-06T13:32:11.000Z'
 categories:
   - Food
-tags: null
+tags:
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/095-lwatol-20200806.mp3

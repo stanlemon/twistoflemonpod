@@ -5,7 +5,8 @@ episode: 132
 date: '2021-04-29T14:28:10.000Z'
 categories:
   - Home Ownership
-tags: null
+tags:
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/132-lwatol-20210429.mp3

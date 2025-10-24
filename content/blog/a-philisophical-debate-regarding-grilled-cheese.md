@@ -9,10 +9,7 @@ categories:
   - Movies
 tags:
   - grilled cheese
-  - jon kohlmeier
-  - life with a twist of lemon
   - milkshakes
-  - stan lemon
   - home improvement
 enclosure:
   url: >-

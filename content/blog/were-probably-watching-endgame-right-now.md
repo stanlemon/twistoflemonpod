@@ -9,9 +9,8 @@ categories:
 tags:
   - baseball
   - endgame
-  - jon kohlmeier
-  - life with a twist of lemon
   - patrick sturdivant
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3

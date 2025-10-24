@@ -10,6 +10,8 @@ categories:
 tags:
   - iPhone
   - disney+
+  - apple
+  - marvel
   - shang-chi
 enclosure:
   url: >-

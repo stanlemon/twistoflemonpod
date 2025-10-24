@@ -14,10 +14,8 @@ tags:
   - endgame
   - grilled cheese
   - ipad
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - patrick sturdivant
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/038-lwatol-20190328.mp3

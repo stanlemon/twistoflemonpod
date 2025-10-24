@@ -7,12 +7,11 @@ categories:
   - Marvel
   - Movies
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
   - router
   - star trek
   - endgame
   - milkshakes
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/056-lwatol-20190801.mp3

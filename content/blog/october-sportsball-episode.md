@@ -7,9 +7,6 @@ categories:
   - Lifestyle
 tags:
   - baseball
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/065-lwatol-20191003.mp3

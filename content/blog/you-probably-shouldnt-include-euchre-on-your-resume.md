@@ -9,8 +9,6 @@ categories:
   - Productivity
   - Movies
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
   - star trek
 enclosure:
   url: >-

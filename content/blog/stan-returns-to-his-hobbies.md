@@ -9,10 +9,7 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
   - mint
-  - stan lemon
   - tacos
   - milkshakes
   - meat rubs

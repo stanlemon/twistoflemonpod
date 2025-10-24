@@ -10,14 +10,12 @@ categories:
 tags:
   - apple
   - ice cream
-  - jon kohlmeier
-  - life with a twist of lemon
   - mac
   - macbook
   - milkshakes
   - router
   - spiderman
-  - stan lemon
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190711.mp3

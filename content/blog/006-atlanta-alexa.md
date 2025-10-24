@@ -5,7 +5,8 @@ episode: 6
 date: '2018-08-23T07:00:51.000Z'
 categories:
   - Technology
-tags: null
+tags:
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/006-lwatol-20180822.mp3

@@ -8,9 +8,6 @@ categories:
   - Technology
 tags:
   - apple
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - star trek
   - wwdc
   - milkshakes

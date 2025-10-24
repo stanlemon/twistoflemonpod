@@ -7,11 +7,8 @@ categories:
   - Home Ownership
   - Movies
 tags:
-  - jon kohlmeier
   - lawn care
-  - life with a twist of lemon
   - meat rubs by fenker
-  - stan lemon
   - star trek
 enclosure:
   url: >-

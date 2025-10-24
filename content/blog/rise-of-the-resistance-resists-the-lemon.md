@@ -7,9 +7,6 @@ categories:
   - Movies
 tags:
   - disney+
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - star wars
   - vacation
   - star trek

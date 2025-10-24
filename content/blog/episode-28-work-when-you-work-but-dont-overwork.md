@@ -8,9 +8,6 @@ categories:
   - Productivity
   - Technology
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - email
 enclosure:
   url: >-

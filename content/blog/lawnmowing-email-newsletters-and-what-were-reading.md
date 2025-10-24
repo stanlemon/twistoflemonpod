@@ -8,9 +8,6 @@ categories:
   - Technology
 tags:
   - email
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - lawn care
 enclosure:
   url: >-

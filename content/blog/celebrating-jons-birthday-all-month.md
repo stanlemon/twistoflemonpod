@@ -8,11 +8,9 @@ categories:
   - Technology
 tags:
   - email
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - macbook
   - home improvement
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3

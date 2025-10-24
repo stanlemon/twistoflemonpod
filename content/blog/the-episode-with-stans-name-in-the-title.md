@@ -11,9 +11,7 @@ tags:
   - apple
   - avengers
   - endgame
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/039-lwatol-20190404.mp3

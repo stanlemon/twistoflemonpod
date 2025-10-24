@@ -9,12 +9,10 @@ categories:
 tags:
   - amazon
   - goals
-  - jon kohlmeier
-  - life with a twist of lemon
   - mac
   - milkshakes
   - router
-  - stan lemon
+  - apple
   - mac mini
 enclosure:
   url: >-

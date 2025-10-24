@@ -7,10 +7,7 @@ categories:
   - Lifestyle
 tags:
   - goals
-  - jon kohlmeier
-  - life with a twist of lemon
   - new year
-  - stan lemon
   - mortgage
 enclosure:
   url: >-

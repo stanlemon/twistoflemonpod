@@ -8,9 +8,6 @@ categories:
   - Technology
 tags:
   - beer
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - vacation
   - milkshakes
 enclosure:

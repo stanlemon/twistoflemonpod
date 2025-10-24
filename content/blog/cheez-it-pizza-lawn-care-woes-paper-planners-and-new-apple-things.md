@@ -10,9 +10,6 @@ categories:
 tags:
   - apple
   - ios
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - milkshakes
   - lawn care
   - pizza

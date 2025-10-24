@@ -8,6 +8,7 @@ categories:
   - Movies
 tags:
   - wandavision
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/119-lwatol-20210128.mp3

@@ -8,11 +8,8 @@ categories:
   - Home Ownership
   - Music
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
   - meat rubs by fenker
   - music
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/086-lwatol-20200305.mp3

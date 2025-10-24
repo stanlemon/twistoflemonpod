@@ -7,13 +7,10 @@ categories:
   - Movies
   - Technology
 tags:
-  - jon kohlmeier
   - life tip
-  - life with a twist of lemon
   - minimalism
   - picard
   - shoes
-  - stan lemon
   - star trek
 enclosure:
   url: >-

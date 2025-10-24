@@ -7,10 +7,7 @@ categories:
   - Technology
 tags:
   - apps
-  - jon kohlmeier
-  - life with a twist of lemon
   - snowblower
-  - stan lemon
   - milkshakes
 enclosure:
   url: >-

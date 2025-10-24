@@ -5,7 +5,8 @@ episode: 165
 date: '2021-12-16T13:39:38.000Z'
 categories:
   - Lifestyle
-tags: null
+tags:
+  - vacation
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/165-lwatol-20211216.mp3

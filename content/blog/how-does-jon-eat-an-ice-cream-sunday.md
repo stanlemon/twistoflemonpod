@@ -8,10 +8,7 @@ categories:
   - Technology
 tags:
   - ice cream
-  - jon kohlmeier
-  - life with a twist of lemon
   - mac
-  - stan lemon
   - grilled cheese
 enclosure:
   url: >-

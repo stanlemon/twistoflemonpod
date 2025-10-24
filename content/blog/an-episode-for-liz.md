@@ -8,9 +8,6 @@ categories:
   - Technology
   - Movies
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - star wars
   - minimalism
 enclosure:

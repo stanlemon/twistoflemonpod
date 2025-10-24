@@ -10,12 +10,9 @@ categories:
 tags:
   - car maintence
   - disney+
-  - jon kohlmeier
-  - life with a twist of lemon
   - milkshakes
   - minimalism
   - nashville
-  - stan lemon
   - star wars
   - email
   - thanksgiving

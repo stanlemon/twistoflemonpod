@@ -8,10 +8,7 @@ categories:
   - Movies
   - Technology
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
   - snowblower
-  - stan lemon
   - star trek
   - football
 enclosure:

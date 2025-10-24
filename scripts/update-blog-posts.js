@@ -23,12 +23,14 @@ const CATEGORY_RULES = {
 
 // Tag detection rules - specific content-based tags
 const TAG_RULES = {
+  'apple': ['iphone', 'ipad', 'macbook', 'mac mini', 'apple watch', 'airpods', 'macintosh', 'tim cook', 'steve jobs', 'wwdc', 'apple tv', 'apple music'],
   'iphone': ['iphone 12', 'iphone 13', 'iphone 14', 'iphone 15'],
   'ipad': ['ipad', 'ipad pro', 'ipad mini'],
   'macbook': ['macbook', 'macbook pro', 'macbook air'],
   'mac mini': ['mac mini'],
   'apple watch': ['apple watch'],
   'airpods': ['airpods', 'airpods pro', 'airpods max'],
+  'marvel': ['wandavision', 'loki', 'hawkeye', 'black widow', 'shang-chi', 'spiderman', 'spider-man', 'endgame', 'avengers', 'infinity war', 'captain marvel', 'thor', 'iron man', 'hulk', 'ant-man', 'doctor strange', 'guardians'],
   'wandavision': ['wandavision', 'wanda maximoff', 'vision'],
   'falcon and the winter soldier': ['falcon', 'winter soldier', 'sam wilson', 'bucky barnes'],
   'loki': ['loki'],
@@ -48,8 +50,7 @@ const TAG_RULES = {
   'meat rubs': ['meat rub', 'smoking meat', 'treager', 'smoker'],
   'grilled cheese': ['grilled cheese'],
   'beer': ['beer'],
-  'home ownership': ['homeownership'],
-  'lawn care': ['lawn mowing', 'lawn care', 'mowing'],
+  'lawn care': ['lawn mowing', 'lawn care', 'mowing', 'lawn'],
   'home improvement': ['home improvement', 'renovation', 'repair'],
   'roof': ['roof', 'roofing'],
   'budgeting': ['budget', 'budgeting'],
@@ -62,14 +63,16 @@ const TAG_RULES = {
   'thanksgiving': ['thanksgiving'],
   'christmas': ['christmas'],
   'patrick sturdivant': ['patrick sturdivant'],
-  'music': ['apple music', 'spotify'],
+  'music': ['spotify', 'music streaming'],
   'baseball': ['baseball'],
   'football': ['football', 'nfl'],
   'politics': ['politics', 'voting', 'election', 'caucuses'],
+  'podcast': ['podcasting'],
 };
 
-// Tags to remove because they're too generic (match categories)
-const TAGS_TO_REMOVE = ['marvel', 'movies', 'food', 'technology', 'home ownership', 'finance', 
+// Tags to remove - hosts, podcast name, and overly generic category duplicates
+const TAGS_TO_REMOVE = ['stan lemon', 'jon kohlmeier', 'life with a twist of lemon', 
+                        'movies', 'food', 'technology', 'home ownership', 'finance', 
                         'books', 'productivity', 'career advice'];
 
 function shouldAddCategory(category, frontmatter, body, title) {
@@ -192,6 +195,8 @@ function updatePost(filepath, tagCounts, minTagUsage = 3) {
     'milkshake': 'milkshakes',
     'patrick sturdivant': 'patrick sturdivant',
     'falcon and the winter soilder': 'falcon and the winter soldier',
+    'lawn': 'lawn care',
+    'lawncare': 'lawn care',
   };
   
   newTags = newTags.map(tag => {
@@ -202,10 +207,48 @@ function updatePost(filepath, tagCounts, minTagUsage = 3) {
   // Remove duplicates while preserving order
   newTags = [...new Set(newTags)];
   
+  // Ensure we always have at least one tag - use category-based fallbacks if needed
+  if (newTags.length === 0) {
+    const categoryTagMap = {
+      'Technology': ['apple'],
+      'Food': ['milkshakes'],
+      'Marvel': ['marvel'],
+      'Movies': ['marvel'],
+      'Home Ownership': ['home improvement'],
+      'Productivity': ['productivity'],
+      'Finance': ['budgeting'],
+      'Lifestyle': ['vacation'],
+      'Books': ['books'],
+      'Music': ['music'],
+    };
+    
+    // Try to add a relevant tag based on the first category
+    for (const category of newCategories) {
+      if (categoryTagMap[category]) {
+        newTags.push(categoryTagMap[category][0]);
+        changes.added_tags.push(categoryTagMap[category][0]);
+        break;
+      }
+    }
+    
+    // If still no tags, analyze title/body for basic keywords
+    if (newTags.length === 0) {
+      const allText = (title + ' ' + body).toLowerCase();
+      if (allText.includes('apple')) newTags.push('apple');
+      else if (allText.includes('technology')) newTags.push('apple');
+      else if (allText.includes('podcast')) newTags.push('podcast');
+      else newTags.push('podcast'); // ultimate fallback
+      
+      if (newTags.length > 0) {
+        changes.added_tags.push(newTags[0]);
+      }
+    }
+  }
+  
   // Update frontmatter if changes were made
   if (changes.added_categories.length > 0 || changes.added_tags.length > 0 || changes.removed_tags.length > 0) {
     frontmatter.categories = newCategories.length > 0 ? newCategories : null;
-    frontmatter.tags = newTags.length > 0 ? newTags : null;
+    frontmatter.tags = newTags; // Always keep tags, never null
     
     // Use gray-matter to write back with preserved formatting
     const newContent = matter.stringify(body, frontmatter);

@@ -10,10 +10,7 @@ categories:
   - House Hunting
 tags:
   - budgeting
-  - jon kohlmeier
-  - life with a twist of lemon
   - mortgage
-  - stan lemon
   - tacos
   - football
 enclosure:

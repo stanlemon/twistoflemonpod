@@ -13,9 +13,6 @@ tags:
   - apple watch
   - baseball
   - iPhone
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - taco bell
   - ipad
   - christmas

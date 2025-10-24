@@ -6,10 +6,7 @@ date: '2020-01-23T12:51:56.000Z'
 categories:
   - Technology
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
   - shoes
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/080-lwatol-20200123.mp3

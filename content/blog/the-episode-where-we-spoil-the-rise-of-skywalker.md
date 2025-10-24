@@ -6,9 +6,6 @@ date: '2019-12-26T16:00:45.000Z'
 categories:
   - Movies
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - star wars
 enclosure:
   url: >-

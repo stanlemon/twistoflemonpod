@@ -8,11 +8,8 @@ categories:
 tags:
   - amazon
   - apple
-  - jon kohlmeier
-  - life with a twist of lemon
   - macbook
   - politics
-  - stan lemon
   - ipad
 enclosure:
   url: >-

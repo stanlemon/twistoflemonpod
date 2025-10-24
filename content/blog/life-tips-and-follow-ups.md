@@ -9,13 +9,11 @@ categories:
   - Productivity
 tags:
   - car maintence
-  - jon kohlmeier
-  - life with a twist of lemon
   - meat rubs
-  - stan lemon
   - star wars
   - macbook
   - milkshakes
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/068-lwatol-20191024.mp3

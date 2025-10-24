@@ -12,10 +12,7 @@ tags:
   - apple
   - beer
   - home improvement
-  - jon kohlmeier
-  - life with a twist of lemon
   - music
-  - stan lemon
   - ipad
 enclosure:
   url: >-

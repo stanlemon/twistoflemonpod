@@ -5,7 +5,8 @@ episode: bonus-3
 date: '2020-01-16T13:15:26.000Z'
 categories:
   - Bonus Round
-tags: null
+tags:
+  - podcast
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/079b-lwatol-20200116.mp3

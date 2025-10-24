@@ -6,9 +6,7 @@ date: '2019-11-20T02:54:54.000Z'
 categories:
   - Food
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/071b-lwatol-20191119.mp3

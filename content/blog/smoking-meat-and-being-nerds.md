@@ -10,11 +10,8 @@ categories:
   - Movies
 tags:
   - apple
-  - jon kohlmeier
-  - life with a twist of lemon
   - meat rubs
   - picard
-  - stan lemon
   - star trek
 enclosure:
   url: >-

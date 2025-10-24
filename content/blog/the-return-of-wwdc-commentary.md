@@ -9,11 +9,8 @@ tags:
   - airpods
   - apple
   - ipad
-  - jon kohlmeier
-  - life with a twist of lemon
   - mac
   - macbook
-  - stan lemon
   - wwdc
 enclosure:
   url: >-
