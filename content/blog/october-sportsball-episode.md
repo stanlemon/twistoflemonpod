@@ -4,7 +4,7 @@ slug: october-sportsball-episode
 episode: 65
 date: '2019-10-03T10:39:09.000Z'
 categories:
-  - sports
+  - Lifestyle
 tags:
   - baseball
   - cubs
