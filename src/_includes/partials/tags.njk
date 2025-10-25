@@ -1,0 +1,12 @@
+{% macro render(label, prefix, values) %}
+  {% if values and values.length > 0 %}
+    <section class="tags-section">
+      <p>
+        <strong>{{ label }}:</strong>
+        {% for value in values %}
+          <a href="/{{ prefix }}/{{ value | slugify }}/">{{ value }}</a>{% if not loop.last %} {% endif %}
+        {% endfor %}
+      </p>
+    </section>
+  {% endif %}
+{% endmacro %}

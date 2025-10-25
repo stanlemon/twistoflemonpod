@@ -1,0 +1,171 @@
+/* Typography CSS - converted from typography.js WordPress 2016 theme */
+
+/* Import fonts from Google Fonts (replacing typeface packages) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+
+html {
+  font-family: "Merriweather", "Georgia", serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Merriweather", "Georgia", serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  font-kerning: normal;
+  -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "calt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+  font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+  color: inherit;
+  line-height: 1.1;
+}
+
+h1 {
+  margin: 0 0 2.625rem 0;
+  padding: 0;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  font-size: 1.62671rem;
+}
+
+h3 {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  font-size: 1.38316rem;
+}
+
+h4 {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+h5 {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  font-size: 0.85028rem;
+}
+
+h6 {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  font-size: 0.78405rem;
+}
+
+/* Paragraphs and text */
+p {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+li {
+  margin-bottom: 0.875rem;
+}
+
+/* Code */
+code, kbd, samp {
+  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.85rem;
+  line-height: 1.75rem;
+}
+
+pre {
+  margin: 0 0 1.75rem 0;
+  font-size: 0.85rem;
+  line-height: 1.75rem;
+  overflow: auto;
+}
+
+pre code {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 0 1.75rem 1.75rem 1.75rem;
+  padding: 0 0 0 1.42188rem;
+  border-left: 0.32813rem solid #007acc;
+  color: hsla(0, 0%, 0%, 0.59);
+  font-style: italic;
+}
+
+/* Tables */
+table {
+  margin: 0 0 1.75rem 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
+  padding: 0.875rem 1.75rem 0.875rem 0;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* HR */
+hr {
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: hsla(0, 0%, 0%, 0.2);
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  margin: 0 0 1.75rem 0;
+  padding: 0;
+}
+
+/* Strong and emphasis */
+strong, b {
+  font-weight: 700;
+}
+
+em, i {
+  font-style: italic;
+}
+
+/* Small text */
+small {
+  font-size: 80%;
+}
