@@ -1,0 +1,62 @@
+---
+layout: layouts/base.njk
+---
+
+<article class="blog-post">
+  <header class="post-header">
+    <h1 class="post-title">{{ title }}</h1>
+    <p class="post-date">{{ date | readableDate }}</p>
+
+    {% if enclosure and enclosure.url %}
+      <div class="audio-player">
+        <audio id="player" controls>
+          <source src="{{ enclosure.url }}" type="{{ enclosure.type or 'audio/mpeg' }}">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    {% endif %}
+  </header>
+
+  <section class="post-content">
+    {{ content | safe }}
+  </section>
+
+  {% import "partials/tags.njk" as tagsHelper %}
+  {{ tagsHelper.render("tags", "tag", tags) }}
+  {{ tagsHelper.render("categories", "category", categories) }}
+
+  <hr>
+
+  <footer>
+    {% include "partials/bio.njk" %}
+  </footer>
+</article>
+
+<nav class="post-navigation">
+  <div>
+    {% if collections.blog %}
+      {% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+      {% if previousPost %}
+        <a href="{{ previousPost.url }}" rel="prev">← {{ previousPost.data.title }}</a>
+      {% endif %}
+    {% endif %}
+  </div>
+  <div>
+    {% if collections.blog %}
+      {% set nextPost = collections.blog | getNextCollectionItem(page) %}
+      {% if nextPost %}
+        <a href="{{ nextPost.url }}" rel="next">{{ nextPost.data.title }} →</a>
+      {% endif %}
+    {% endif %}
+  </div>
+</nav>
+
+{% if enclosure and enclosure.url %}
+<script src="/js/plyr.js"></script>
+<link rel="stylesheet" href="/css/plyr.css">
+<script>
+  const player = new Plyr('#player', {
+    controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
+  });
+</script>
+{% endif %}
