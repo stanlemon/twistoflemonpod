@@ -38,11 +38,11 @@ jobs:
 
       - name: Check build artifacts
         run: |
-          if [ ! -d "public" ]; then
-            echo "Build failed - public directory not found"
+          if [ ! -d "_site" ]; then
+            echo "Build failed - _site directory not found"
             exit 1
           fi
-          echo "Build successful - public directory created"
+          echo "Build successful - _site directory created"
 
       # NOTE: This deploy step is likely unnecessary since Cloudflare Pages
       # automatically deploys from the repository. This can be removed once
