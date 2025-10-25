@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   !Stan with Milkshake Poptarts Stan got a milkshake from Red Robin this week.
-  It went about how you'd expect it to go. We also hit on some other things a...
+  It went about how you'd expect it to go. We also hit on some other things
 ---
 
 ![Stan with Milkshake Poptarts](./stan-milkshake-poptarts-copy.jpg)

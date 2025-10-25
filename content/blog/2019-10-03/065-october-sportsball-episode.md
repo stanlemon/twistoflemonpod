@@ -13,7 +13,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We started recording to try to get ahead before Stan's upcoming travels. Turns
-  out the episode we recorded for next week was very time sensitive as we t...
+  out the episode we recorded for next week was very time sensitive as we talk
 ---
 
 Dear Listener,

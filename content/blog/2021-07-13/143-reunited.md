@@ -18,7 +18,7 @@ enclosure:
 summary: >-
   In this episode we review Jon's visit to Stan in Indianapolis. All core
   tenants of the podcast were observed: Meat, Milkshakes, Macs, and Mixology
-  (And ...
+  (And
 ---
 
 Dear Listener,

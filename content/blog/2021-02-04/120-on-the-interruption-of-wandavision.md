@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We kick off the episode talking about WandaVision episode 4 "We Interrupt this
-  Program." We speculate on everything that is going on and welcome back so...
+  Program." We speculate on everything that is going on and welcome back some
 ---
 
 Dear Listener,

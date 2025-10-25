@@ -18,7 +18,7 @@ enclosure:
 summary: >-
   Stan was late to recording for the first time ever. Turns out he was
   installing a Ring doorbell. He has some other home improvement projects in
-  store fo...
+  store for
 ---
 
 Dear Listener,

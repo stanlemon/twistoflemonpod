@@ -19,7 +19,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We're not sure if we'll keep posting on Tuesdays, but I guess we'll see. This
-  week we're realizing on Tuesday again so you can hear our first reactions ...
+  week we're realizing on Tuesday again so you can hear our first reactions on
 ---
 
 Dear Listener,

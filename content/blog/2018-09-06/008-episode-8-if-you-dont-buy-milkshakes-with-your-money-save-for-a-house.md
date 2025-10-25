@@ -17,7 +17,6 @@ enclosure:
 summary: >-
   Dear Financially Minded Listener, Thanks for tuning in for Episode 8! This
   week Jon met his mortgage savings goal so he seeks advice from the most
-  exper...
 ---
 
 Dear Financially Minded Listener,

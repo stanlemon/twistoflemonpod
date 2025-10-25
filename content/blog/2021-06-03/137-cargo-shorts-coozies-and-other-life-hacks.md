@@ -13,7 +13,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week, we talk life hacks and pets stories. The episode kicks off with a
-  life hack from a regular listener, keeping a Coozie inside a cargo short po...
+  life hack from a regular listener, keeping a Coozie inside a cargo short
 ---
 
 Dear Listener,

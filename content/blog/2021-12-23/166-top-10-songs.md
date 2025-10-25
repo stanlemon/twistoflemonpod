@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Merry Christmas! This week we talk about Christmas plans and cover a listener
-  submitted topic: Our Top 10 Songs (Subjectively, like you'd listen to thes...
+  submitted topic: Our Top 10 Songs (Subjectively, like you'd listen to these
 ---
 
 Dear Listener,

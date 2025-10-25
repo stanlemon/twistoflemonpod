@@ -13,7 +13,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Our about page hasn't been updated since we built the site originally, so we
-  bring up some of the things that have changed since our initial bios. One d...
+  bring up some of the things that have changed since our initial bios. One day
 ---
 
 Dear Listener,

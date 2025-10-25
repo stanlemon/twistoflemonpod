@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week Stan wants to discuss how he goes through life - setting and keeping
-  personal and household rules. Listen in to what types of rules he sets, h...
+  personal and household rules. Listen in to what types of rules he sets, how
 ---
 
 Dear Listener,

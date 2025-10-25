@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we are joined by regular guest Patrick "Marvel Expert" Sturdivant.
-  We take a look at the final episode of WandaVision and step back and talk a...
+  We take a look at the final episode of WandaVision and step back and talk
 ---
 
 Dear Listener,

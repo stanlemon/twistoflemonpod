@@ -19,7 +19,6 @@ enclosure:
 summary: >-
   Listeners Assemble! This is an exciting episode for Marvel and LWATOL fans
   alike. We're recording directly after not one but TWO showings of Avengers:
-  E...
 ---
 
 Listeners Assemble!

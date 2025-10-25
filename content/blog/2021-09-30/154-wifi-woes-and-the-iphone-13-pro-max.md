@@ -16,8 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan has had another round of Wifi woes and continues to avoid moving to a
-  mesh network. We talk about the iPhone 13 Pro Max and learn a little bit
-  more...
+  mesh network. We talk about the iPhone 13 Pro Max and learn a little bit more
 ---
 
 Dear Listener,

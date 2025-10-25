@@ -14,7 +14,6 @@ enclosure:
 summary: >-
   In episode 95 of Life with a Twist of Lemon we celebrate two years of doing
   the podcast by having Henry Lemon join. He talks about the new toy that
-  appe...
 ---
 
 Dear Listener,

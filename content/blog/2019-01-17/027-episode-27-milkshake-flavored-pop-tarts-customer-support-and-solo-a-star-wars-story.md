@@ -18,7 +18,6 @@ enclosure:
 summary: >-
   Stan did it. He purchased a box of Strawberry Milkshake flavored pop-tarts.
   Hear the take from his kids and his review. Does this count as a milkshake
-  r...
 ---
 
 Dear Listener,

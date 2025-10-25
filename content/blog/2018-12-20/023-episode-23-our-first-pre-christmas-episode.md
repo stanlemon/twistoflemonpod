@@ -20,7 +20,7 @@ enclosure:
 summary: >-
   We are just days away from Christmas, Stan and Jon kick off the episode
   talking about Christmas leading into a special Christmas themed milkshake
-  segmen...
+  segment -
 ---
 
 Dear Listener,

@@ -14,7 +14,7 @@ enclosure:
 summary: >-
   The inaugural episode of Life with a Twist of Lemon! Stan Lemon and Jon
   Kohlmeier talk about their favorite podcasts and why they thought that they
-  shou...
+  should
 ---
 
 The inaugural episode of Life with a Twist of Lemon! Stan Lemon and Jon Kohlmeier talk about their favorite podcasts and why they thought that they should move their phone conversations into a podcast format.

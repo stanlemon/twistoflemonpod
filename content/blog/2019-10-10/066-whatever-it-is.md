@@ -20,7 +20,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week you get the episode that we recorded fo last week… so there's some
-  weird stuff with October and Oktoberfest. Don't let it deter you, the episo...
+  weird stuff with October and Oktoberfest. Don't let it deter you, the episode
 ---
 
 Dear Listener,

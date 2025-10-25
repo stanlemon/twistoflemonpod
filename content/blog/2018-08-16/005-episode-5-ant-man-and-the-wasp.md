@@ -14,7 +14,7 @@ enclosure:
 summary: >-
   Dear Faithful Listener, This week we release episode 5 of the Life with a
   Twist of Lemon podcast. Stan and I recently saw Ant Man and the Wasp. So we
-  ta...
+  take
 ---
 
 Dear Faithful Listener,

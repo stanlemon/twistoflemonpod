@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We have a sweeter Lemon join us at the beginning of this episode. Lucy tells
-  us about her milkshake experience which leads into even more milkshake talk...
+  us about her milkshake experience which leads into even more milkshake talk.
 ---
 
 Dear Listener,

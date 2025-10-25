@@ -17,7 +17,7 @@ enclosure:
 summary: >-
   This week we are joined by long time listener and first time guest, Daniel
   Sanchez. Danchez talks about his long journey through Android phones and how
-  ...
+  he
 ---
 
 Dear Listener,

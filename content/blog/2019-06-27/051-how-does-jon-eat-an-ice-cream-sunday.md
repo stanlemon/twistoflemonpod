@@ -17,7 +17,7 @@ enclosure:
 summary: >-
   We kick off this week's episode with a philosophical discussion on how Jon
   eats an ice cream Sunday. It doesn't quite reach the level of the great
-  Grill...
+  Grilled
 ---
 
 Dear Listener,

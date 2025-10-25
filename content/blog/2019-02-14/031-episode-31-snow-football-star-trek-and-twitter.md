@@ -18,7 +18,7 @@ enclosure:
 summary: >-
   Winter is not over yet. Jon spent nearly 2 hours shoveling after the most
   recent snow storm. Stan asks Jon about snow removal tools and discovers that
-  h...
+  he
 ---
 
 Dear Listener,

@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we are joined by resident Marvel expert Patrick Sturdivant to review
-  the Black Widow movie (that we finally got to see!) Listen in to hear abo...
+  the Black Widow movie (that we finally got to see!) Listen in to hear about
 ---
 
 Dear Listener,

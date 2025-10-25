@@ -17,7 +17,6 @@ enclosure:
 summary: >-
   This week we remember the devastating derecho that swept through Iowa last
   year on August 10. Jon gives an update on where repairs are at and some next
-  ...
 ---
 
 Dear Listener,

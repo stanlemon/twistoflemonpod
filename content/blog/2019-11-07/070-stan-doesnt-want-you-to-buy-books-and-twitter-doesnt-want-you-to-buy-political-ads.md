@@ -21,7 +21,7 @@ enclosure:
 summary: >-
   This week we have feedback from a listener who lives in Montana. she paints
   the picture of a beautiful state which gets us talking about the most
-  beauti...
+  beautiful
 ---
 
 Dear Listener,

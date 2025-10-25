@@ -16,7 +16,7 @@ enclosure:
 summary: >-
   Danchez liked our last episode! Nothing to complain about. On that note we
   jump into a topic that we're sure he'll have strong opinions on. Star Wars:
-  T...
+  The
 ---
 
 Dear Listener,

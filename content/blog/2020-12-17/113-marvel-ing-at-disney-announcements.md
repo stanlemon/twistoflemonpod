@@ -17,7 +17,7 @@ enclosure:
 summary: >-
   This week we have a first in the history of the podcast. Three people
   recording from three different states. Last week's Disney announcements at
-  their v...
+  their
 ---
 
 Dear Listener,

@@ -18,7 +18,7 @@ enclosure:
 summary: >-
   We have an exciting campaign going on during the month of December. We're
   looking to support Pastor Joel Fritsche and his work in the Dominican
-  Republic...
+  Republic.
 ---
 
 Dear Listener,

@@ -16,7 +16,7 @@ enclosure:
 summary: >-
   We're back from holiday celebrations and ready to tackle the new year. Over
   the holiday, Jon got the comment "The purple thing is weird." in regards to
-  ...
+  our
 ---
 
 Dear Listener,

@@ -18,7 +18,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan is still on the grid, the rumors have been greatly exaggerated. Jon tries
-  to up listenership with a Milkshake review. Stan has been becoming a mast...
+  to up listenership with a Milkshake review. Stan has been becoming a master
 ---
 
 Dear Listener,

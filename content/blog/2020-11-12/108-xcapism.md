@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan got an Xbox, Jon is still waiting for his. Stan has been flying around in
-  a Tie Fighter in the meantime. Hopefully Jon will have his by the end of ...
+  a Tie Fighter in the meantime. Hopefully Jon will have his by the end of the
 ---
 
 Dear Listener,

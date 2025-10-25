@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   I'm not even really sure where to start for this episode. We cover a plethora
-  of topics from tech to food, to reading non-fiction. You're sure to find s...
+  of topics from tech to food, to reading non-fiction. You're sure to find
 ---
 
 Dear Listener,

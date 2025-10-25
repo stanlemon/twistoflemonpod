@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We celebrate our 100th episode today! We take a look back on 2 seasons of Life
-  with a Twist of Lemon, It's been a weird year for everyone and it was no ...
+  with a Twist of Lemon, It's been a weird year for everyone and it was no
 ---
 
 Dear Listener,

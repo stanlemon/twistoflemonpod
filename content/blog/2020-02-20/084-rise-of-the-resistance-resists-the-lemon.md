@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan isn't doing so hot, so we apologize for his coughing. He did survive his
-  week in Disney World, but by Thursday his feet were the least of his conce...
+  week in Disney World, but by Thursday his feet were the least of his concern.
 ---
 
 Dear Listener,

@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This turned out to be a sort of catch up in the life of Jon and Stan episode.
-  Stan is having some football woes which leads to a lament to kick off the ...
+  Stan is having some football woes which leads to a lament to kick off the
 ---
 
 Dear Listener,

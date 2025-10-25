@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   If you want to hear us talk about milkshakes for an abnormal amount of time,
-  you won't want to miss this episode! Stan kicks off the episode talking abo...
+  you won't want to miss this episode! Stan kicks off the episode talking about
 ---
 
 Dear Listener,

@@ -18,7 +18,7 @@ enclosure:
 summary: >-
   We're getting closer to our 1 year anniversary.. but not quite there yet.
   Which is a blessing in disguise because Stan isn't completely on board with
-  Jo...
+  Jon's
 ---
 
 Dear Listener,

@@ -13,7 +13,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Thanks for tuning in again week! In Episode 6 of Life with a Twist of Lemon,
-  Stan tells us about his trip to Atlanta for work. He has Jon salivating ove...
+  Stan tells us about his trip to Atlanta for work. He has Jon salivating over
 ---
 
 Dear Listener,

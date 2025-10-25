@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Thanks for tuning in again this week. We start off the episode talking about
-  Kansas. Stan doesn't back down from Kansas being "nowhere" as he shares his...
+  Kansas. Stan doesn't back down from Kansas being "nowhere" as he shares his
 ---
 
 Dear Listener,

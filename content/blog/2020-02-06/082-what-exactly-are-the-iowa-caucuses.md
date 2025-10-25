@@ -21,7 +21,7 @@ enclosure:
 summary: >-
   Stan has a lot of questions for the LWATOL resident Iowan following the
   fallout this week from the Caucuses. Now's your chance to get a nickel look
-  into...
+  into
 ---
 
 Dear Listener,

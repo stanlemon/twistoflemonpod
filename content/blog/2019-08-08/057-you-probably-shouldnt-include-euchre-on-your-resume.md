@@ -16,8 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we finally talk Euchre! Turns out Stan doesn't know how to play.
-  Jon's boss is out of the office this week, so Jon's in charge! That leads
-  int...
+  Jon's boss is out of the office this week, so Jon's in charge! That leads into
 ---
 
 Dear Listener,

@@ -14,7 +14,6 @@ enclosure:
 summary: >-
   We tackle some things that have been on our minds (and on the list) a lot
   recently. We talk about the how and the why our discovery and setting of Core
-  ...
 ---
 
 Dear Listener,

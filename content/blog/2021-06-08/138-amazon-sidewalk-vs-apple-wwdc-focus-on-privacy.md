@@ -20,7 +20,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   On Monday Apple kicked off it's WWDC event with the opening keynote and State
-  of the Union address. This was full of announcements on new technologies b...
+  of the Union address. This was full of announcements on new technologies
 ---
 
 Dear Listener,

@@ -13,7 +13,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we cover a listener requested topic and muse on the worst technology
-  that we've ever owned. This ranges from mobile devices, to operating syst...
+  that we've ever owned. This ranges from mobile devices, to operating systems
 ---
 
 Dear Listener,

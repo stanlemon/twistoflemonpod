@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   "Boneless" Thugs N Harmony is making a promo video for Buffalo Wild Wings. We
-  talk about Bone Thugs-N-Harmony Stan's history with BW's and why you can p...
+  talk about Bone Thugs-N-Harmony Stan's history with BW's and why you can
 ---
 
 Dear Listener,

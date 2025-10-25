@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   No… this episode wasn't recorded when Stan came to visit Jon because it didn't
-  happen. Stan was hit by the plague and is currently in recovery mode. In ...
+  happen. Stan was hit by the plague and is currently in recovery mode. In
 ---
 
 Dear Listener,

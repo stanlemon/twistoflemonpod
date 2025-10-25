@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week Stan took a field trip to try out It's Just Wings. Stan enjoys the
-  wings with Joe, listener to the show. He starts off with smoked buffalo win...
+  wings with Joe, listener to the show. He starts off with smoked buffalo wings
 ---
 
 Dear Listener,

@@ -18,7 +18,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Welcome to season 2 with a twist of Lemon. Stan starts off with a new season
-  resolution to find Jon a new router. Will this be the year that burger revi...
+  resolution to find Jon a new router. Will this be the year that burger reviews
 ---
 
 Dear Listener,

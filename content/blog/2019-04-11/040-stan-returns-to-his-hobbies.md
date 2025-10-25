@@ -20,7 +20,6 @@ enclosure:
 summary: >-
   Happy 40th episode! (Depending on how you count.) We're also celebrating 1
   year of Stan and the Lemon family in his house. Stan offers his advice for
-  so...
 ---
 
 Dear Listener,

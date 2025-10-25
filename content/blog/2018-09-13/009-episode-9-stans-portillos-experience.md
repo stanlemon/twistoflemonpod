@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   who may in fact be sick of hearing us talk about milkshakes, This week we talk
-  about Milkshakes! Stan's Portillo's milkshake to be exact. He had an inte...
+  about Milkshakes! Stan's Portillo's milkshake to be exact. He had an
 ---
 
 Dear Listener who may in fact be sick of hearing us talk about milkshakes,

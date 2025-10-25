@@ -19,7 +19,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan kicks off this episode asking for an update on the iPhone after having it
-  for 1 week. Then we jump into discussing Shang-Chi (Now that it hit Disne...
+  for 1 week. Then we jump into discussing Shang-Chi (Now that it hit Disney+
 ---
 
 Dear Listener,

@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We're back with a special bonus round episode of Life with a Twist of Lemon.
-  We cover one of the core tenants of the podcast (Milkshakes, Mac, Marvel, a...
+  We cover one of the core tenants of the podcast (Milkshakes, Mac, Marvel, and
 ---
 
 Dear Listener,

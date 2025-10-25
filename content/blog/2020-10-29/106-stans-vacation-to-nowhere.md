@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we recorded early because Stan was going on a vacation to nowhere to
-  do nothing. But at least he's taking some time off. Hopefully someone cam...
+  do nothing. But at least he's taking some time off. Hopefully someone camped
 ---
 
 Dear Listener,

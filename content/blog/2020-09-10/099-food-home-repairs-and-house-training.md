@@ -16,7 +16,7 @@ enclosure:
 summary: >-
   Apparently we have a listener in a position of power at Iowa State, they
   cancelled plans to have fans at their first home football game. Stan gives us
-  a...
+  an
 ---
 
 Dear Listener,

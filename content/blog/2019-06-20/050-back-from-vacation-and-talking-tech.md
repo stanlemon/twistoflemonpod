@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we talk about Stan's Vacation to Traverse City. He seems to have a
-  restful time and even has a review of a milkshake IPA. We're wondering if D...
+  restful time and even has a review of a milkshake IPA. We're wondering if
 ---
 
 Dear Listener,

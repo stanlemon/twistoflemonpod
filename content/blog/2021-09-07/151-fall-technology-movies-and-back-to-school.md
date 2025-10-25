@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We kick of this episode talking about iPhone and Apple Watch rumors and what
-  we'd like to see from these new devices. One of those things is for Stan's ...
+  we'd like to see from these new devices. One of those things is for Stan's
 ---
 
 Dear Listener,

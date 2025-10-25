@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we start off with yet another correction, this time Jon messed up.
-  We have a couple of new reviews first a listener reviewed us on iTunes, the...
+  We have a couple of new reviews first a listener reviewed us on iTunes, then
 ---
 
 Dear Listener,

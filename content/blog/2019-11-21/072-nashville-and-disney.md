@@ -22,7 +22,6 @@ enclosure:
 summary: >-
   Jon is back from Nashville, which prompted some follow up on roundabouts.
   Turns out they have a great patent idea too. Jon also talks about the food he
-  ...
 ---
 
 Dear Listener,

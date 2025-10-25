@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We had a hard time coming up with something interesting to talk about, so we
-  took to the internets and asked what you listeners wanted to hear! We had a...
+  took to the internets and asked what you listeners wanted to hear! We had a
 ---
 
 Dear Listener,

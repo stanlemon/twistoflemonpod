@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We kick off the episode touching base on life and video games. Then we Review
-  WandaVision Episode 5 in light of Stan going back and watching them all th...
+  WandaVision Episode 5 in light of Stan going back and watching them all
 ---
 
 Dear Listener,

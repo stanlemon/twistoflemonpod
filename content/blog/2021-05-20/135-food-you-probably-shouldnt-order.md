@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we talk about Jon's birthday dinner last week including a milkshake
-  review and kicks off our topic of regional foods you should probably only ...
+  review and kicks off our topic of regional foods you should probably only
 ---
 
 Dear Listener,

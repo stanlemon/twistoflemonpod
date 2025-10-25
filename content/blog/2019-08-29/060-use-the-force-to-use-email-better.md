@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan spent the week in Atlanta so Jon wasn't sure if they were going to have
-  anything to talk about. Jon planned a couple items of discussion but then a...
+  anything to talk about. Jon planned a couple items of discussion but then all
 ---
 
 Dear Listener,

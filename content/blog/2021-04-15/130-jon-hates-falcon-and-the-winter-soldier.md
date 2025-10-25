@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We have been covering Falcon and the Winter Soldier post credits for the last
-  couple of weeks. After this last episode Stan decided we need to discuss i...
+  couple of weeks. After this last episode Stan decided we need to discuss it
 ---
 
 Dear Listener,

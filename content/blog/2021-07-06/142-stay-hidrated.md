@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Jon is recording from Louisville and will be visiting Stan on the way back. We
-  do some research into what constitutes "Kentucky food" and settle on bour...
+  do some research into what constitutes "Kentucky food" and settle on
 ---
 
 Dear Listener,

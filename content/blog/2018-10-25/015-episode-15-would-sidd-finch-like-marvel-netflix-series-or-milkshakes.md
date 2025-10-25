@@ -17,8 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   If you're sick of milkshake talk skip the first 3.5 minutes. From there we
-  rejoice in our first iTunes written review AND the first great mystery of
-  Lif...
+  rejoice in our first iTunes written review AND the first great mystery of Life
 ---
 
 Dear Listener,

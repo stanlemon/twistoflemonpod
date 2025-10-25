@@ -19,7 +19,7 @@ enclosure:
 summary: >-
   We lost the first thirteen minutes of this week's episode due to Jon's
   internet going down, so we had to do a take two. This led into a discussion of
-  al...
+  all
 ---
 
 Dear Listener,

@@ -14,8 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan and Jon take a look at their current Apple products (specifically Mac)
-  and workflows, talk about their history using Apple products, and take a
-  loo...
+  and workflows, talk about their history using Apple products, and take a look
 ---
 
 Stan and Jon take a look at their current Apple products (specifically Mac) and workflows, talk about their history using Apple products, and take a look at the recently release MacBook Pro as they look toward purchasing updates.

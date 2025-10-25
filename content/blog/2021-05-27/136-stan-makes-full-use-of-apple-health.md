@@ -13,8 +13,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we speculate about the Apple WWDC invite and what announcements
-  might be coming at the June event. After that we find out that Stan uses
-  Apple...
+  might be coming at the June event. After that we find out that Stan uses Apple
 ---
 
 Dear Listener,

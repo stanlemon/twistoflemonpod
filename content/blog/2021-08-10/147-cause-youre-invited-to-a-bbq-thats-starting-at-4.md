@@ -15,7 +15,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Stan has dubbed this our "summertime episode". We start off talking all things
-  BBQ. Stan got a new smoker and Jon has been using his to smoke new and ex...
+  BBQ. Stan got a new smoker and Jon has been using his to smoke new and
 ---
 
 Dear Listener,

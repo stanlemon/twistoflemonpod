@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We're bummed that Jon's sister Liz is no longer a regular listener. We're not
-  sure when exactly she stopped listening. So this week no Star Wars, Marvel...
+  sure when exactly she stopped listening. So this week no Star Wars, Marvel or
 ---
 
 Dear Listener,

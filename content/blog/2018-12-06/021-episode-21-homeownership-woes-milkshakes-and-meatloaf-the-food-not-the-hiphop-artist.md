@@ -14,7 +14,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Dear Faithful Listener, Today Jon's audio quality is a little deteriorated due
-  to recording at home. Why is he at home and not in Studio? The joys of ho...
+  to recording at home. Why is he at home and not in Studio? The joys of home
 ---
 
 Dear Faithful Listener,

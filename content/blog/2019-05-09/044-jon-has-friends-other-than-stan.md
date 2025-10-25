@@ -19,7 +19,7 @@ enclosure:
 summary: >-
   We're back to our normal studios with the normal people. We kick off the
   episode with a throwback to the Grilled Cheese Episode and how it's still
-  causi...
+  causing
 ---
 
 Dear Listener,

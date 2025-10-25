@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we talk about our decision making process and if we ordered any new
-  Apple devices after last week's Apple event. Listen in to here if and what...
+  Apple devices after last week's Apple event. Listen in to here if and what
 ---
 
 Dear Listener,

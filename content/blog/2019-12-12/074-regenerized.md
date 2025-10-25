@@ -16,7 +16,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   We're back after our first week off since we first started Life with a Twist
-  of Lemon. Stan and Jon were hanging out, but not recording. You get a small...
+  of Lemon. Stan and Jon were hanging out, but not recording. You get a small
 ---
 
 Dear Listener,

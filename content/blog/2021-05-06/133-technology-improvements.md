@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   This week we discuss some of Stan's recent technology purchases for his home
-  including a smart garage door opener, a new monitor, security cameras and t...
+  including a smart garage door opener, a new monitor, security cameras and the
 ---
 
 Dear Listener,

@@ -17,7 +17,7 @@ enclosure:
   type: audio/mpeg
 summary: >-
   Good news - No bad reviews on Reddit yet! Why did we skip trick or treating to
-  go to a church service? We talk through some reasons in this episode. The...
+  go to a church service? We talk through some reasons in this episode. The
 ---
 
 Dear Listener,

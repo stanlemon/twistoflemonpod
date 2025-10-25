@@ -62,8 +62,18 @@ function extractSummary(content) {
   summary = summary.replace(/\s+/g, ' ').trim();
   
   // Truncate to a reasonable length (around 155 characters for meta description)
+  // Truncate at word boundary to avoid cutting words in half
   if (summary.length > 155) {
-    summary = summary.substring(0, 152) + '...';
+    // Find the last space before position 155
+    let truncatePos = summary.lastIndexOf(' ', 155);
+    
+    // If no space found or too close to beginning, just use position 155
+    if (truncatePos < 100) {
+      truncatePos = 155;
+    }
+    
+    // Truncate without ellipsis - let it end naturally at word boundary
+    summary = summary.substring(0, truncatePos).trim();
   }
   
   return summary;
