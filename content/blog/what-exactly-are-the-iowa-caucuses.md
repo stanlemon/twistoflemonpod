@@ -7,19 +7,13 @@ categories:
   - Food
   - Productivity
   - Technology
+  - Movies
 tags:
-  - facebook
-  - Iowa caucuses
-  - jon kohlmeier
   - life tip
-  - life with a twist of lemon
-  - meetings
   - minimalism
-  - paper
   - picard
   - politics
-  - stan lemon
-  - super bowl
+  - star trek
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/082-lwatol-20200206.mp3

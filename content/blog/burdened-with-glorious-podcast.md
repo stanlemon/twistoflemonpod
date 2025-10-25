@@ -6,12 +6,13 @@ date: '2021-06-15T15:06:49.000Z'
 categories:
   - Marvel
   - Technology
+  - Movies
 tags:
   - apple music
   - loki
-  - marvel
-  - recording schedule
   - wwdc
+  - apple
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/139-lwatol-20210615.mp3

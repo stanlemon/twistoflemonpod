@@ -8,12 +8,10 @@ categories:
   - Productivity
   - Technology
 tags:
-  - kanban
   - moving
   - politics
-  - reformation
-  - technology
-  - voting
+  - milkshakes
+  - music
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3 

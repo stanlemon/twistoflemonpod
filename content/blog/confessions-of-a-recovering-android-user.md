@@ -6,12 +6,10 @@ date: '2021-03-18T12:33:07.000Z'
 categories:
   - Technology
 tags:
-  - android
   - apple
-  - Daniel Sanchez
-  - google
   - iPhone
   - wandavision
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/126-lwatol-20210318.mp3

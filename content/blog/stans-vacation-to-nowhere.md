@@ -6,10 +6,8 @@ date: '2020-10-29T12:29:34.000Z'
 categories:
   - Productivity
 tags:
-  - camping
-  - Gotham
-  - smoker
   - vacation
+  - podcast
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/106-lwatol-20201029.mp3

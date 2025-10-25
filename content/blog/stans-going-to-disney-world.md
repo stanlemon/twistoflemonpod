@@ -7,12 +7,9 @@ categories:
   - Movies
 tags:
   - disney+
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - star wars
-  - trip
   - vacation
+  - disney
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/083-lwatol-20200213.mp3

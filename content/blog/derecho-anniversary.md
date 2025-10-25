@@ -7,8 +7,9 @@ categories:
   - Home Ownership
 tags:
   - derecho
-  - Milkshake
+  - milkshakes
   - vacation
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/148-lwatol-20210817.mp3

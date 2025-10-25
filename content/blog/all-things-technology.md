@@ -7,9 +7,6 @@ categories:
   - Technology
 tags:
   - apple
-  - Big Sur
-  - gaming
-  - os
   - xbox
 enclosure:
   url: >-

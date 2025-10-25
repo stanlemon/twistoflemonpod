@@ -9,14 +9,10 @@ categories:
   - Technology
 tags:
   - apple
-  - cheez it
   - ios
-  - jon kohlmeier
-  - life with a twist of lemon
+  - milkshakes
+  - lawn care
   - pizza
-  - planners
-  - stan lemon
-  - watch
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3

@@ -8,9 +8,6 @@ categories:
 tags:
   - apple
   - iPhone
-  - iPhone 12
-  - it's just wings
-  - wings
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/104-lwatol-20201015.mp3

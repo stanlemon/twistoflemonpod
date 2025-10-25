@@ -6,12 +6,12 @@ date: '2020-07-23T14:33:39.000Z'
 categories:
   - Home Ownership
   - Technology
+  - Movies
 tags:
   - airpods
   - apple
-  - lawn
-  - Milkshake
-  - wine
+  - milkshakes
+  - lawn care
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/093-lwatol-20200723.mp3

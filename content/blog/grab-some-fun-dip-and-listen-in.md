@@ -6,10 +6,10 @@ date: '2021-02-25T14:48:18.000Z'
 categories:
   - Food
   - Marvel
+  - Movies
 tags:
-  - tendershack
-  - valentines day
   - wandavision
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/123-lwatol-20210225.mp3

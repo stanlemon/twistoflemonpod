@@ -8,16 +8,9 @@ categories:
   - Technology
 tags:
   - apple
-  - iTunes
-  - jon kohlmeier
-  - life with a twist of lemon
-  - productivity
-  - review
-  - stan lemon
   - star trek
-  - where you do your best work
-  - work
   - wwdc
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/048-lwatol-20190606.mp3

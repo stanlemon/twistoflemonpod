@@ -6,7 +6,7 @@ date: '2018-07-30T23:20:55.000Z'
 categories:
   - Lifestyle
 tags:
-  - podcasting
+  - vacation
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180731.mp3

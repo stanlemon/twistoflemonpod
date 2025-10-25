@@ -6,10 +6,10 @@ date: '2018-09-06T07:00:48.000Z'
 categories:
   - Finance
 tags:
-  - finance
-  - money
   - mortgage
-  - mortgage rates
+  - milkshakes
+  - roof
+  - lawn care
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3

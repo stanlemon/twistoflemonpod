@@ -5,13 +5,10 @@ episode: 85
 date: '2020-02-27T13:58:17.000Z'
 categories:
   - Home Ownership
+  - Movies
 tags:
-  - jon kohlmeier
   - lawn care
-  - life with a twist of lemon
-  - manhattans
   - meat rubs by fenker
-  - stan lemon
   - star trek
 enclosure:
   url: >-

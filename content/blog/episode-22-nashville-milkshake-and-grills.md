@@ -8,12 +8,9 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - food
-  - homeownership
-  - Milkshake
+  - milkshakes
   - nashville
-  - wordcamp us
-  - WordPress
+  - christmas
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/022-lwatol-20181213.mp3 

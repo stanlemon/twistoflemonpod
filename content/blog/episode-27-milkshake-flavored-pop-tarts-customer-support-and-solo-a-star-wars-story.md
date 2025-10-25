@@ -11,13 +11,9 @@ categories:
   - Movies
   - Technology
 tags:
-  - agents of shield
-  - customer support
-  - marvel
-  - Milkshake
-  - netflix
-  - pop-tart
+  - milkshakes
   - twistoflemon
+  - star wars
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/027-lwatol-20190117.mp3

@@ -7,13 +7,9 @@ categories:
   - Food
   - Technology
 tags:
-  - country
-  - jon kohlmeier
-  - life with a twist of lemon
-  - Milkshake
+  - milkshakes
   - music
   - snowblower
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3

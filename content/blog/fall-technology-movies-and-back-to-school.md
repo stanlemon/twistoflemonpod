@@ -5,10 +5,12 @@ episode: 151
 date: '2021-09-07T15:15:40.000Z'
 categories:
   - Theology
+  - Movies
 tags:
-  - marvel
-  - school
   - spiderman
+  - apple watch
+  - apple
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/151-lwatol-20210907.mp3

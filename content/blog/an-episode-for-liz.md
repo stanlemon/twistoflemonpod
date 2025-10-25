@@ -6,20 +6,10 @@ date: '2019-09-05T14:03:27.000Z'
 categories:
   - Productivity
   - Technology
+  - Movies
 tags:
-  - backup
-  - cal newport
-  - computer
-  - desk
-  - digital minimalism
-  - elizabeth
-  - family
-  - jon kohlmeier
-  - labor day
-  - life with a twist of lemon
-  - liz
-  - stan lemon
-  - workspace
+  - star wars
+  - minimalism
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3

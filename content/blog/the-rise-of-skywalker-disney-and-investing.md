@@ -10,19 +10,8 @@ categories:
   - Theology
 tags:
   - disney+
-  - finance
-  - game of thrones
-  - holy week
-  - investing
-  - jon kohlmeier
-  - life with a twist of lemon
-  - media
-  - stan lemon
   - star wars
-  - streaming
-  - the rise of skywalker
-  - tv streaming
-  - wealthfront
+  - investing
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3

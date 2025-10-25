@@ -8,8 +8,8 @@ categories:
   - Technology
 tags:
   - apple music
-  - culvers
-  - MacBook pro
+  - macbook
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/157-lwatol-20211021.mp3

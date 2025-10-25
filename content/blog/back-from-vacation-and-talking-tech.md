@@ -8,16 +8,8 @@ categories:
   - Technology
 tags:
   - beer
-  - headphones
-  - jon kohlmeier
-  - life with a twist of lemon
-  - michigan
-  - milkshake beer
-  - networking
-  - orbi
-  - stan lemon
-  - task manager
   - vacation
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/050-lwatol-20190620.mp3

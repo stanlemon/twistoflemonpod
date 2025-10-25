@@ -7,14 +7,7 @@ categories:
   - Home Ownership
   - Productivity
 tags:
-  - cleaning
-  - jon kohlmeier
-  - life with a twist of lemon
-  - marie kondo
   - minimalism
-  - purge
-  - spark joy
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/067-lwatol-20191017.mp3

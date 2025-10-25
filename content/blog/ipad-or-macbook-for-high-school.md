@@ -7,11 +7,11 @@ categories:
   - Technology
 tags:
   - derecho
-  - football
   - home improvement
   - ipad
   - macbook
-  - school
+  - football
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/098-lwatol-20200903.mp3

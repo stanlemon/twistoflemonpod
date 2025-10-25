@@ -7,11 +7,7 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - falcon and the winter soilder
-  - home tech
-  - marvel
-  - non-apple tech
-  - technology
+  - falcon and the winter soldier
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/129-lwatol-20210408.mp3

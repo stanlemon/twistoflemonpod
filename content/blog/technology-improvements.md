@@ -7,12 +7,10 @@ categories:
   - Home Ownership
   - Marvel
   - Technology
+  - Movies
 tags:
-  - falcon and the winter soilder
-  - home ownership
-  - home tech
+  - falcon and the winter soldier
   - music
-  - technology
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/133-lwatol-20210506.mp3

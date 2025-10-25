@@ -7,10 +7,8 @@ categories:
   - Movies
   - Technology
 tags:
-  - lord of the rings
-  - nextdns
-  - pixar
-  - the bbq rev
+  - meat rubs
+  - christmas
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3

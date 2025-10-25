@@ -6,14 +6,11 @@ date: '2018-11-15T12:29:40.000Z'
 categories:
   - Movies
 tags:
-  - chicago
-  - comics
-  - food
-  - marvel
-  - movies
   - moving
   - politics
-  - stan lee
+  - avengers
+  - milkshakes
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/018-lwatol-20181115.mp3 

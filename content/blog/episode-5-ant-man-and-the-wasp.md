@@ -6,9 +6,7 @@ date: '2018-08-16T07:00:40.000Z'
 categories:
   - Movies
 tags:
-  - ant man
   - marvel
-  - movies
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/005-lwatol-20180816.mp3 

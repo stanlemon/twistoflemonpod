@@ -7,9 +7,7 @@ categories:
   - Home Ownership
 tags:
   - baseball
-  - falcon and the winter soilder
-  - job search
-  - marvel
+  - falcon and the winter soldier
   - roof
 enclosure:
   url: >-

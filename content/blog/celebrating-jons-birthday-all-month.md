@@ -7,17 +7,10 @@ categories:
   - Food
   - Technology
 tags:
-  - bacon
   - email
-  - food
-  - jon kohlmeier
-  - Jon turns 30
-  - life with a twist of lemon
-  - marketing
-  - stan lemon
-  - surprise
-  - website
-  - white house
+  - macbook
+  - home improvement
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/046-lwatol-20190523.mp3

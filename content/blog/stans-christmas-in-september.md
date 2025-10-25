@@ -8,20 +8,14 @@ categories:
   - Technology
 tags:
   - apple
-  - apple arcade
   - apple event
   - apple tv
   - apple watch
-  - backup
   - baseball
-  - computer
   - iPhone
-  - jon kohlmeier
-  - life with a twist of lemon
-  - little league
-  - stan lemon
   - taco bell
-  - wendys
+  - ipad
+  - christmas
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/062-lwatol-20190912.mp3

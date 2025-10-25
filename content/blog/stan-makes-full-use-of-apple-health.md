@@ -7,9 +7,6 @@ categories:
   - Technology
 tags:
   - apple
-  - apple health
-  - ecobee
-  - streaming
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210527.mp3

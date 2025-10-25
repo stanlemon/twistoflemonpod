@@ -9,18 +9,10 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - bicycle
-  - dark sky
-  - finance
-  - food
-  - google
-  - grill
-  - jon kohlmeier
-  - life with a twist of lemon
-  - milkshake beer
   - mint
-  - stan lemon
-  - weather
+  - tacos
+  - milkshakes
+  - meat rubs
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/040-lwatol-20190411.mp3

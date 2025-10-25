@@ -5,8 +5,10 @@ episode: 119
 date: '2021-01-28T14:24:32.000Z'
 categories:
   - Marvel
+  - Movies
 tags:
   - wandavision
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/119-lwatol-20210128.mp3

@@ -7,7 +7,6 @@ categories:
   - Technology
 tags:
   - apple
-  - food
   - ios
 enclosure:
   url: >-

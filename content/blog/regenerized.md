@@ -8,13 +8,8 @@ categories:
   - Productivity
   - Technology
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
-  - personal development
-  - productivity
-  - stan lemon
-  - taking a break
   - thanksgiving
+  - productivity
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/074-lwatol-20191212.mp3

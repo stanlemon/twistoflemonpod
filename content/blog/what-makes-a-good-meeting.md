@@ -7,16 +7,10 @@ categories:
   - Productivity
   - Technology
 tags:
-  - agenda
-  - communication
-  - jon kohlmeier
-  - life with a twist of lemon
-  - meetings
+  - vacation
+  - politics
+  - apple
   - productivity
-  - stan lemon
-  - where you do your best work
-  - work
-  - writing
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3

@@ -6,11 +6,10 @@ date: '2021-12-09T13:38:10.000Z'
 categories:
   - Marvel
   - Productivity
+  - Movies
 tags:
-  - hawkeye
-  - life
   - marvel
-  - rules
+  - hawkeye
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/164-lwatol-20211209.mp3

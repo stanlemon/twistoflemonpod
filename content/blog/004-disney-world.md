@@ -6,11 +6,8 @@ date: '2018-08-09T08:00:30.000Z'
 categories:
   - Lifestyle
 tags:
-  - backstreet boys
-  - beats
-  - Disney world
-  - mickey mouse
   - vacation
+  - disney
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/004-lwatol-20180809.mp3

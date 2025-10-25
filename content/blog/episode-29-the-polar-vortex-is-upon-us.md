@@ -7,14 +7,8 @@ categories:
   - Technology
 tags:
   - apps
-  - cold
-  - jon kohlmeier
-  - life with a twist of lemon
-  - snow
   - snowblower
-  - stan lemon
-  - weather
-  - weather apps
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/029-lwatol-20190131.mp3

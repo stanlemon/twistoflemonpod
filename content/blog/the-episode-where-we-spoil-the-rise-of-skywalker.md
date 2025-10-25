@@ -6,14 +6,7 @@ date: '2019-12-26T16:00:45.000Z'
 categories:
   - Movies
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
-  - movies
-  - spoilers
-  - stan lemon
   - star wars
-  - the rise of skywalker
-  - Warby parker
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/076-lwatol-20191236.mp3

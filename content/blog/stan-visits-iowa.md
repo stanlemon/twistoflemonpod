@@ -6,13 +6,7 @@ date: '2019-03-07T13:24:57.000Z'
 categories:
   - Food
 tags:
-  - cocktails
-  - jon kohlmeier
-  - life with a twist of lemon
-  - Mexican food
-  - Milkshake
-  - popcorn
-  - stan lemon
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/034-lwatol-20190307.mp3

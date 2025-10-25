@@ -9,9 +9,8 @@ categories:
 tags:
   - apple
   - apple watch
-  - food
-  - home ownership
-  - regional food
+  - milkshakes
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/135-lwatol-20210520.mp3

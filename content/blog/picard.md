@@ -7,14 +7,11 @@ categories:
   - Movies
   - Technology
 tags:
-  - jon kohlmeier
   - life tip
-  - life with a twist of lemon
   - minimalism
   - picard
-  - robovacuum
   - shoes
-  - stan lemon
+  - star trek
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/081-lwatol-20200130.mp3

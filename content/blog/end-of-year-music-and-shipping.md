@@ -6,9 +6,8 @@ date: '2020-12-10T14:42:34.000Z'
 categories:
   - Lifestyle
 tags:
+  - music
   - christmas
-  - shipping
-  - shopping
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/112-lwatol-20201210.mp3

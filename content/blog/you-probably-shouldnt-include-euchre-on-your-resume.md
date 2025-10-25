@@ -7,14 +7,9 @@ categories:
   - Career Advice
   - Food
   - Productivity
+  - Movies
 tags:
-  - ecommerce
-  - euchre
-  - five guys
-  - hamburgers
-  - jon kohlmeier
-  - life with a twist of lemon
-  - resume
+  - star trek
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/057-lwatol-20190808.mp3

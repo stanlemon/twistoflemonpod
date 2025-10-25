@@ -9,8 +9,7 @@ categories:
 tags:
   - baseball
   - endgame
-  - jon kohlmeier
-  - life with a twist of lemon
+  - patrick sturdivant
   - marvel
 enclosure:
   url: >-

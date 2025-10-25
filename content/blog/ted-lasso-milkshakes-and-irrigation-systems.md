@@ -8,13 +8,11 @@ categories:
   - Marvel
 tags:
   - apple tv
-  - irrigation
   - lawn care
   - loki
-  - marvel
-  - Milkshake
-  - taliesin
+  - milkshakes
   - ted lasso
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/145-lwatol-20210727.mp3

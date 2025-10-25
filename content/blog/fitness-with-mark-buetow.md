@@ -7,8 +7,6 @@ categories:
   - Technology
 tags:
   - apple
-  - buetow
-  - fitness+
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/116-lwatol-20210107.mp3

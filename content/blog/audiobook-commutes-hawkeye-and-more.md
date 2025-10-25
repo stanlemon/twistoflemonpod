@@ -6,13 +6,11 @@ date: '2021-12-02T13:16:02.000Z'
 categories:
   - Books
   - Marvel
+  - Movies
 tags:
-  - audiobooks
-  - commute
-  - hawkeye
-  - manson
+  - football
   - marvel
-  - obama
+  - hawkeye
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/163-lwatol-20211202.mp3

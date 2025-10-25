@@ -7,19 +7,9 @@ categories:
   - Finance
   - Technology
 tags:
-  - banking
-  - catalina
-  - customer support
-  - finance
-  - food
   - ice cream
-  - jon kohlmeier
-  - life with a twist of lemon
   - mac
-  - macos
-  - spoons
-  - stan lemon
-  - wifi
+  - grilled cheese
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3

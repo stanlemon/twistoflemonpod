@@ -6,8 +6,7 @@ date: '2018-09-13T17:00:25.000Z'
 categories:
   - Technology
 tags:
-  - css
-  - stan lemon
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3

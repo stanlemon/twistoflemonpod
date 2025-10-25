@@ -8,17 +8,8 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - apple card
   - baseball
-  - birthday
-  - buetow
-  - burger king
-  - impossible meat
-  - impossible whopper
-  - jon kohlmeier
-  - life with a twist of lemon
   - mortgage
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/058-lwatol-20190815.mp3

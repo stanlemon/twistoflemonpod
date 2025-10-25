@@ -9,23 +9,13 @@ categories:
   - Technology
 tags:
   - apple
-  - architecture
-  - far from home
-  - frank Lloyd wright
   - ice cream
-  - internet
-  - jon kohlmeier
-  - life with a twist of lemon
   - mac
-  - macbeth
   - macbook
   - milkshakes
-  - movie review
   - router
-  - shakespeare
   - spiderman
-  - stan lemon
-  - taliesin
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190711.mp3

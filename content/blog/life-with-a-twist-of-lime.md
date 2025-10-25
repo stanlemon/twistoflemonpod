@@ -7,9 +7,10 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - April fools
-  - falcon and the winter soilder
-  - marvel
+  - falcon and the winter soldier
+  - milkshakes
+  - roof
+  - email
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/128-lwatol-20210401.mp3

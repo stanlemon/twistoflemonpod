@@ -7,20 +7,12 @@ categories:
   - Food
   - Home Ownership
   - Technology
+  - Movies
 tags:
   - apple
-  - food
-  - home ownership
-  - jon kohlmeier
-  - ladder
-  - life with a twist of lemon
   - meat rubs
-  - meat smoking
   - picard
-  - stan lemon
   - star trek
-  - tv
-  - wwcd
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3

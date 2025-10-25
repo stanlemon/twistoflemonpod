@@ -10,16 +10,9 @@ categories:
   - Technology
 tags:
   - avengers
-  - banking
-  - finance
-  - jon kohlmeier
-  - life with a twist of lemon
+  - milkshakes
+  - endgame
   - marvel
-  - Milkshake
-  - patrick
-  - stan lemon
-  - wealfront
-  - web design
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/033-lwatol-20190228.mp3

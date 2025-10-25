@@ -6,11 +6,7 @@ date: '2020-07-30T12:03:00.000Z'
 categories:
   - Technology
 tags:
-  - home ownership
-  - inventor
-  - patent
-  - power washer
-  - stan
+  - baseball
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/094-lwatol-20200730.mp3

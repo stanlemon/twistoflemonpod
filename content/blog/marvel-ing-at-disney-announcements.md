@@ -7,10 +7,9 @@ categories:
   - Marvel
   - Movies
 tags:
-  - disney
-  - marvel
-  - Patrick sturdivant
+  - patrick sturdivant
   - star wars
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/113-lwatol-20201217.mp3

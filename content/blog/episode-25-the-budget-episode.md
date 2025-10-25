@@ -7,10 +7,7 @@ categories:
   - Finance
   - Productivity
 tags:
-  - budget
   - budgeting
-  - financial
-  - lilac
   - twistoflemon
 enclosure:
   url: >-

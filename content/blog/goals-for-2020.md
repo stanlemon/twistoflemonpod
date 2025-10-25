@@ -7,11 +7,8 @@ categories:
   - Lifestyle
 tags:
   - goals
-  - jon kohlmeier
-  - life with a twist of lemon
   - new year
-  - resolutions
-  - stan lemon
+  - mortgage
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/077-lwatol-20200102.mp3

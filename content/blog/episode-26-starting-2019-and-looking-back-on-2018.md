@@ -8,13 +8,8 @@ categories:
   - Technology
 tags:
   - ios
-  - marvel
-  - milkshake
-  - netflix
-  - pop-tart
-  - screentime
-  - top 5
   - twistoflemon
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/026-lwatol-20190110.mp3

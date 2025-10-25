@@ -7,10 +7,8 @@ categories:
   - Food
   - Home Ownership
 tags:
-  - dogs
-  - food
   - home improvement
-  - labor day
+  - football
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/099-lwatol-20200910.mp3

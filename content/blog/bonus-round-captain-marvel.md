@@ -7,15 +7,9 @@ categories:
   - Marvel
   - Movies
 tags:
-  - captain marvel
-  - jon kohlmeier
-  - life with a twist of lemon
+  - avengers
+  - milkshakes
   - marvel
-  - movie review
-  - movies
-  - pop culture
-  - stan lee
-  - stan lemon
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b02-lwatol-20190309.mp3

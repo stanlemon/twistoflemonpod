@@ -6,8 +6,8 @@ date: '2020-12-03T15:10:08.000Z'
 categories:
   - Lifestyle
 tags:
-  - christmas lights
   - xbox
+  - christmas
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/111-lwatol-20201203.mp3

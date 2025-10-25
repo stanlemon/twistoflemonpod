@@ -11,14 +11,9 @@ categories:
   - Technology
 tags:
   - apple tv
-  - books
-  - jon kohlmeier
   - life tip
-  - life with a twist of lemon
   - minimalism
-  - montana
-  - political ads
-  - stan lemon
+  - apple
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/070-lwatol-20191107.mp3

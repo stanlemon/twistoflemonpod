@@ -7,9 +7,6 @@ categories:
   - Movies
 tags:
   - disney+
-  - Hamilton
-  - history
-  - musicals
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/091-lwatol-20200709.mp3

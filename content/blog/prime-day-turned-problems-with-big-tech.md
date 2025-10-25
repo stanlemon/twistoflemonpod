@@ -6,18 +6,11 @@ date: '2019-07-18T17:10:02.000Z'
 categories:
   - Technology
 tags:
-  - accessibility
   - amazon
   - apple
-  - big tech
-  - internet
-  - jon kohlmeier
-  - life with a twist of lemon
   - macbook
   - politics
-  - prime day
-  - smart home
-  - stan lemon
+  - ipad
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/053-lwatol-20190718.mp3

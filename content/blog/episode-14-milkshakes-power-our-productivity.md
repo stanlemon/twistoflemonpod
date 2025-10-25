@@ -6,8 +6,7 @@ date: '2018-10-18T12:19:59.000Z'
 categories:
   - Productivity
 tags:
-  - ideal week
-  - Milkshake
+  - milkshakes
   - productivity
 enclosure:
   url: >-

@@ -6,9 +6,7 @@ date: '2021-11-11T13:00:57.000Z'
 categories:
   - Technology
 tags:
-  - bota box
   - iPhone
-  - technology
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/160-lwatol-20211111.mp3

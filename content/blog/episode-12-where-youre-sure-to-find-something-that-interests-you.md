@@ -6,11 +6,9 @@ date: '2018-10-04T07:00:36.000Z'
 categories:
   - Technology
 tags:
-  - Apollo 8
   - apple
-  - food
-  - recipes
-  - tech
+  - milkshakes
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/012-lwatol-20181003.mp3

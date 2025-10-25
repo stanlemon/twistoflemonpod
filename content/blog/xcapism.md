@@ -6,8 +6,8 @@ date: '2020-11-12T23:40:19.000Z'
 categories:
   - Technology
 tags:
-  - election
   - xbox
+  - politics
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/108-lwatol-20201112.mp3

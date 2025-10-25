@@ -12,15 +12,8 @@ tags:
   - apple
   - beer
   - home improvement
-  - jon kohlmeier
-  - life with a twist of lemon
   - music
-  - paint brushes
-  - painting
-  - stan lemon
-  - techcrawl
-  - wine
-  - zac brown
+  - ipad
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/066-lwatol-20191010.mp3

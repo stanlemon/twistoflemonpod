@@ -7,10 +7,8 @@ categories:
   - Food
   - Technology
 tags:
-  - disney
-  - epcot
-  - food
   - thanksgiving
+  - disney
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/162-lwatol-20211125.mp3

@@ -7,11 +7,6 @@ categories:
   - Finance
 tags:
   - budgeting
-  - finance
-  - firefox
-  - netscape
-  - office
-  - web browsers
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/003-lwatol-20180802.mp3 

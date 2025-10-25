@@ -10,7 +10,6 @@ tags:
   - beer
   - iPhone
   - router
-  - wifi
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/154-lwatol-20210930.mp3

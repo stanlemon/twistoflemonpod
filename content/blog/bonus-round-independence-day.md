@@ -6,8 +6,7 @@ date: '2020-07-04T18:36:36.000Z'
 categories:
   - Bonus Round
 tags:
-  - indpendence
-  - usa
+  - podcast
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/090b-lwatol-20200704.mp3

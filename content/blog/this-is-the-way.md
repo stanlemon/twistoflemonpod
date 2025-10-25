@@ -7,10 +7,10 @@ categories:
   - Movies
   - Technology
 tags:
-  - election
-  - mandalorian
   - star wars
   - xbox
+  - home improvement
+  - politics
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/107-lwatol-20201105.mp3

@@ -9,12 +9,9 @@ categories:
   - Movies
 tags:
   - endgame
-  - indianapolis
-  - jon kohlmeier
-  - life with a twist of lemon
-  - live recording
+  - avengers
+  - patrick sturdivant
   - marvel
-  - steak
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/043-lwatol-20190502.mp3

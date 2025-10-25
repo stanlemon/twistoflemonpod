@@ -8,17 +8,7 @@ categories:
   - Productivity
   - Technology
 tags:
-  - art of manliness
-  - bicycle
-  - books
-  - breaks
-  - ecobee
-  - jon kohlmeier
-  - life with a twist of lemon
-  - maintence
-  - reading
-  - stan lemon
-  - time warrior
+  - football
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3

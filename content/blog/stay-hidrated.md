@@ -6,9 +6,6 @@ date: '2021-07-06T12:53:51.000Z'
 categories:
   - Food
 tags:
-  - bourbon
-  - hidrate
-  - lg
   - vacation
   - visit
 enclosure:

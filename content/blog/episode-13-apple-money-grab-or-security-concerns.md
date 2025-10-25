@@ -10,10 +10,9 @@ categories:
 tags:
   - apple
   - mortgage
-  - privacy
-  - savings
-  - security
-  - tech
+  - macbook
+  - milkshakes
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3

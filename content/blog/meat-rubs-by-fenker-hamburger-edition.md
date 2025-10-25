@@ -9,6 +9,7 @@ categories:
 tags:
   - lawn care
   - meat rubs by fenker
+  - meat rubs
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/102-lwatol-20201001.mp3

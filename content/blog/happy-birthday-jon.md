@@ -6,9 +6,7 @@ date: '2021-05-13T13:59:37.000Z'
 categories:
   - Home Ownership
 tags:
-  - birthdays
-  - home ownership
-  - life hacks
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/134-lwatol-20210513.mp3

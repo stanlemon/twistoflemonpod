@@ -9,16 +9,10 @@ categories:
   - Home Ownership
   - House Hunting
 tags:
-  - beyond meat
   - budgeting
-  - food
-  - impossible meat
-  - jon kohlmeier
-  - life with a twist of lemon
   - mortgage
-  - refinance
-  - stan lemon
   - tacos
+  - football
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/059-lwatol-20190822.mp3

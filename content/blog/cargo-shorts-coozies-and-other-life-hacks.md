@@ -6,8 +6,7 @@ date: '2021-06-03T14:08:24.000Z'
 categories:
   - Lifestyle
 tags:
-  - life hacks
-  - pets
+  - vacation
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210603.mp3

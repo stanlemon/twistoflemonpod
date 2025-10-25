@@ -7,9 +7,7 @@ categories:
   - Food
   - Technology
 tags:
-  - milestone
   - apple
-  - food
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/100-lwatol-20200917.mp3

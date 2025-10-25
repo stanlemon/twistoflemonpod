@@ -9,12 +9,8 @@ categories:
   - Movies
 tags:
   - grilled cheese
-  - Hamburg inn
-  - jon kohlmeier
-  - life with a twist of lemon
-  - Milkshake
   - milkshakes
-  - stan lemon
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/036-lwatol-20190314.mp3

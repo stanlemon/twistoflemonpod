@@ -10,14 +10,12 @@ categories:
 tags:
   - car maintence
   - disney+
-  - jon kohlmeier
-  - life with a twist of lemon
-  - Milkshake
+  - milkshakes
   - minimalism
   - nashville
-  - oil
-  - stan lemon
   - star wars
+  - email
+  - thanksgiving
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/073-lwatol-20191128.mp3

@@ -7,12 +7,8 @@ categories:
   - Food
   - Technology
 tags:
-  - jon kohlmeier
-  - life with a twist of lemon
+  - football
   - pizza
-  - stan lemon
-  - superbowl
-  - weezer
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/030-lwatol-20190207.mp3

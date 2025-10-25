@@ -7,8 +7,7 @@ categories:
   - Technology
 tags:
   - apple
-  - MacBooks
-  - technology
+  - macbook
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/002-lwatol-20180801.mp3

@@ -8,9 +8,9 @@ categories:
 tags:
   - airpods
   - apple
-  - fenker
   - politics
   - shoes
+  - meat rubs
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/103-lwatol-20201008.mp3

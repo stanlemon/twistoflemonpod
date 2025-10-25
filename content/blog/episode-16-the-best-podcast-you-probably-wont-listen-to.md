@@ -7,10 +7,10 @@ categories:
   - Theology
 tags:
   - apple
-  - halloween
-  - MacBooks
-  - Milkshake
-  - theology
+  - milkshakes
+  - ipad
+  - macbook
+  - politics
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/016-lwatol-20181101.mp3

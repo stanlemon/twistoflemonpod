@@ -6,10 +6,13 @@ date: '2021-01-21T14:54:06.000Z'
 categories:
   - Finance
   - Marvel
+  - Movies
 tags:
   - budgeting
   - mint
   - wandavision
+  - disney+
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/118-lwatol-20210121.mp3

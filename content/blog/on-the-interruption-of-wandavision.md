@@ -5,11 +5,12 @@ episode: 120
 date: '2021-02-04T13:53:16.000Z'
 categories:
   - Marvel
+  - Movies
 tags:
-  - halo
-  - overwatch
   - wandavision
   - xbox
+  - star wars
+  - marvel
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/120-lwatol-20210204.mp3

@@ -8,11 +8,7 @@ categories:
   - Marvel
   - Technology
 tags:
-  - macs
-  - marvel
-  - meat
-  - Milkshake
-  - mixology
+  - milkshakes
   - vacation
   - visit
 enclosure:

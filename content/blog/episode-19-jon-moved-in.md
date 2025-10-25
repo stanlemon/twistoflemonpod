@@ -6,12 +6,9 @@ date: '2018-11-22T13:40:16.000Z'
 categories:
   - House Hunting
 tags:
-  - closing
-  - iTunes
   - moving
-  - reviews
-  - special announcement
   - thanksgiving
+  - milkshakes
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/019-lwatol-20181122.mp3 

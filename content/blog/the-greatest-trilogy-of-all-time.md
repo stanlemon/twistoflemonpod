@@ -6,11 +6,7 @@ date: '2020-07-15T19:30:21.000Z'
 categories:
   - Movies
 tags:
-  - back to the future
   - disney+
-  - movies
-  - Nintendo
-  - trilogy
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/092-lwatol-20200716.mp3

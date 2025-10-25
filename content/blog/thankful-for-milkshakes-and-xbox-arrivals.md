@@ -8,8 +8,7 @@ categories:
   - Technology
 tags:
   - apple
-  - home pod
-  - Milkshake
+  - milkshakes
   - thanksgiving
   - xbox
 enclosure:

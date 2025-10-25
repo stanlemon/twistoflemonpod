@@ -8,15 +8,7 @@ categories:
   - Productivity
   - Technology
 tags:
-  - career advice
-  - careers
-  - jobs
-  - jon kohlmeier
-  - life with a twist of lemon
-  - productivity
-  - stan lemon
-  - time tracking
-  - work-life balance
+  - email
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3

@@ -8,14 +8,8 @@ categories:
   - Productivity
   - Technology
 tags:
-  - d23
   - disney+
   - email
-  - jon kohlmeier
-  - life with a twist of lemon
-  - obi-wan
-  - rise of skywalker
-  - stan lemon
   - star wars
 enclosure:
   url: >-

@@ -7,11 +7,10 @@ categories:
   - Technology
   - Theology
 tags:
-  - advent
-  - cph
   - Fritsche
-  - giving
-  - gmail
+  - roof
+  - email
+  - baseball
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/020-lwatol-20181129.mp3

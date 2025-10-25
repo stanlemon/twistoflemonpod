@@ -7,10 +7,9 @@ categories:
   - Food
 tags:
   - beer
-  - food
-  - Milkshake
+  - milkshakes
   - visit
-  - yard work
+  - meat rubs
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/149-lwatol-20210824.mp3

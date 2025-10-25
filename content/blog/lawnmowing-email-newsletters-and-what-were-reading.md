@@ -7,21 +7,8 @@ categories:
   - Home Ownership
   - Technology
 tags:
-  - books
   - email
-  - jon kohlmeier
-  - Jon turns 30
-  - lawn mowing
-  - life with a twist of lemon
-  - lincoln
-  - mailchimp
-  - marketing
-  - mothers day
-  - reading devices
-  - stan lemon
-  - technology
-  - yard
-  - yardwork
+  - lawn care
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/045-lwatol-20190516.mp3

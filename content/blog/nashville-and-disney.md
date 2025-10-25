@@ -7,16 +7,13 @@ categories:
   - Food
   - Marvel
   - Technology
+  - Movies
 tags:
   - car maintence
   - disney+
-  - jon kohlmeier
-  - life with a twist of lemon
-  - Milkshake
+  - milkshakes
   - minimalism
   - nashville
-  - oil
-  - stan lemon
   - star wars
 enclosure:
   url: >-

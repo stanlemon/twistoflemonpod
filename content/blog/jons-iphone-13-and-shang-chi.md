@@ -9,9 +9,10 @@ categories:
   - Technology
 tags:
   - iPhone
+  - disney+
+  - apple
   - marvel
-  - Shang-chi
-  - social media
+  - shang-chi
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/161-lwatol-20211118.mp3

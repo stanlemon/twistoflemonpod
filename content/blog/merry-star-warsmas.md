@@ -8,10 +8,6 @@ categories:
   - Technology
 tags:
   - Christmas
-  - holiday
-  - jon kohlmeier
-  - life with a twist of lemon
-  - stan lemon
   - star wars
 enclosure:
   url: >-

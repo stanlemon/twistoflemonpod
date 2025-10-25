@@ -8,8 +8,9 @@ categories:
   - Technology
 tags:
   - apple
+  - milkshakes
+  - meat rubs
   - investing
-  - Milkshake
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/011-lwatol-20180927.mp3 

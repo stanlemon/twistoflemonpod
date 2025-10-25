@@ -6,13 +6,9 @@ date: '2020-08-20T13:17:18.000Z'
 categories:
   - Home Ownership
 tags:
-  - App Store
   - apple
-  - cherries
-  - damage
   - derecho
-  - Iowa
-  - storm
+  - home improvement
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/096-lwatol-20200820.mp3
