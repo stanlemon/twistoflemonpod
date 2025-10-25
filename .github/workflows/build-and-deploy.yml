@@ -26,4 +26,4 @@ jobs:
         with:
           CLEAN: true
           BRANCH: gh-pages
-          FOLDER: public
+          FOLDER: _site
