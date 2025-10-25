@@ -2,115 +2,63 @@
 
 A podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.
 
-## Technology Stack
+**Website:** https://twistoflemonpod.com/
+**Twitter:** [@twistoflemonpod](https://twitter.com/twistoflemonpod)
 
-This site is built with [Eleventy (11ty)](https://www.11ty.dev/), a simple and powerful static site generator.
-
-### Key Features
-
-- **Fast Build Times**: Complete site builds in under 0.5 seconds
-- **171 Episode Pages**: All podcast episodes with audio players
-- **Paginated Blog Index**: 10 episodes per page
-- **Category & Tag Pages**: Organized content with 15 categories and 88 tags
-- **RSS Feed**: Podcast-compatible RSS feed with enclosures at `/feed.xml`
-- **XML Sitemap**: Comprehensive sitemap at `/sitemap.xml`
-- **SEO Optimized**: Open Graph and Twitter Card meta tags
-- **Responsive Design**: Mobile-friendly grid layout
-- **Audio Player**: Plyr-based podcast audio player
-
-## Getting Started
+## Quick Start
 
 ### Prerequisites
-
-- Node.js 22.x or later (specified in `.nvmrc`)
+- Node.js 22.x or later (see `.nvmrc`)
 - npm
 
 ### Installation
-
 ```bash
-# Install dependencies
 npm install
 ```
 
 ### Development
-
 ```bash
-# Start development server with live reload
 npm run dev
-
-# Or use the alias
-npm start
 ```
+Site available at http://localhost:8080 with live reload.
 
-The site will be available at `http://localhost:8080`
-
-### Building
-
+### Build
 ```bash
-# Build the site
 npm run build
 ```
+Output in `_site/` directory.
 
-Output will be in the `_site` directory.
-
-### Testing
-
+### Test
 ```bash
-# Run validation tests
 npm test
 ```
+Runs build and content validation.
 
-This runs:
-- Build validation (checks for required files, correct page counts)
-- Content validation (validates frontmatter for all posts)
+## Technology
 
-## Project Structure
+Built with [Eleventy (11ty)](https://www.11ty.dev/) for fast builds and simple architecture.
 
-```
-.
-├── .eleventy.js          # 11ty configuration
-├── content/
-│   ├── blog/             # Blog posts (171 episodes)
-│   └── assets/           # Images and assets
-├── src/
-│   ├── _data/            # Global data files
-│   ├── _includes/        # Layouts and partials
-│   │   ├── layouts/      # Page layouts
-│   │   └── partials/     # Reusable components
-│   ├── css/              # Stylesheets
-│   ├── categories.njk    # Category pages template
-│   ├── tags.njk          # Tag pages template
-│   ├── feed.njk          # RSS feed template
-│   └── sitemap.njk       # XML sitemap template
-├── tests/                # Test files
-├── index.njk             # Homepage with pagination
-└── package.json
-```
+**Key Features:**
+- 172 podcast episodes with audio players
+- Podcast-compatible RSS feed at `/feed.xml`
+- Category and tag organization (15 categories, 88 tags)
+- Responsive design
+- SEO optimized with Open Graph and Twitter Cards
+- Fast builds (~0.4s for 283 pages)
 
 ## Content Structure
 
-Blog posts are stored in `content/blog/` with the following structure:
-
-```
-content/blog/YYYY-MM-DD/slug/post.md
-```
-
-### Frontmatter
-
-Each post requires the following frontmatter:
+Episodes are stored as Markdown files in `content/blog/YYYY-MM-DD/slug.md`:
 
 ```yaml
 ---
 title: Episode Title
-slug: custom-url-slug (optional)
 episode: 1
 date: '2018-07-30T23:20:55.000Z'
 categories:
   - Technology
-  - Lifestyle
 tags:
   - podcast
-  - apple
 enclosure:
   url: https://example.com/episode.mp3
   length: 12345678
@@ -120,45 +68,32 @@ enclosure:
 
 ## Deployment
 
-The site is configured for deployment to GitHub Pages or any static hosting service.
+Deploy to any static hosting service:
 
-### GitHub Pages
+**Build Command:** `npm run build`
+**Publish Directory:** `_site`
 
-Build command: `npm run build`
-Publish directory: `_site`
+Supports GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
 
-### Other Hosts
+## Development Guide
 
-This site can be deployed to any static hosting service:
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Cloudflare Pages](https://pages.cloudflare.com/)
+For detailed development workflows, architecture documentation, and best practices, see [CLAUDE.md](./CLAUDE.md).
+
+## Scripts
+
+Utility scripts in `scripts/` directory for maintenance tasks:
+- `update-enclosure-metadata.js` - Update podcast RSS metadata
+- `add-episode-numbers.js` - Add episode numbers
+- `add-slug-to-frontmatter.js` - Generate URL slugs
+
+Run with: `node scripts/script-name.js`
 
 ## Performance
 
-- **Build Time**: ~0.4 seconds
-- **Total Pages**: 283
-  - 171 episode pages
-  - 17 pagination pages
-  - 15 category pages
-  - 73 tag pages
-  - Plus index, feed, and sitemap
-
-## Migration Notes
-
-This site was migrated from Gatsby to 11ty in October 2025 to improve build performance and simplify the architecture. The migration maintained:
-- All 171 blog posts with full content
-- Audio player functionality for podcast episodes
-- Category and tag organization
-- RSS feed with podcast enclosures
-- SEO metadata and sitemap
-- Responsive design and styling
+- **Build Time:** ~0.4 seconds
+- **Total Pages:** 283
+- **Episodes:** 172
 
 ## License
 
 Content © Jon Kohlmeier & Stan Lemon
-
-## Links
-
-- Website: https://twistoflemonpod.com/
-- Twitter: [@twistoflemonpod](https://twitter.com/twistoflemonpod)

@@ -19,8 +19,8 @@ const requiredFiles = [
   'sitemap.xml',
   'css/plyr.css',
   'js/plyr.js',
-  'src/css/main.css',
-  'src/css/typography.css'
+  'css/main.css',
+  'css/typography.css'
 ];
 
 console.log('Checking required files...');
