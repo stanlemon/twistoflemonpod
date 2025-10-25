@@ -136,41 +136,57 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => b.date - a.date);
   });
 
-  // Category collections
+  // Category collections - normalized by slug to avoid duplicates
   eleventyConfig.addCollection("categories", function(collectionApi) {
     let categories = {};
+    const slugify = (str) => String(str).toLowerCase().trim()
+      .replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
+
     collectionApi.getFilteredByGlob("content/blog/**/*.md").forEach(item => {
       (item.data.categories || []).forEach(category => {
-        if (!categories[category]) {
-          categories[category] = [];
+        const slug = slugify(category);
+        if (!categories[slug]) {
+          categories[slug] = {
+            name: category, // Keep the first occurrence's capitalization
+            slug: slug,
+            posts: []
+          };
         }
-        categories[category].push(item);
+        categories[slug].posts.push(item);
       });
     });
 
     // Sort posts in each category by date
     Object.keys(categories).forEach(key => {
-      categories[key].sort((a, b) => b.date - a.date);
+      categories[key].posts.sort((a, b) => b.date - a.date);
     });
 
     return categories;
   });
 
-  // Tag collections
+  // Tag collections - normalized by slug to avoid duplicates
   eleventyConfig.addCollection("tags", function(collectionApi) {
     let tags = {};
+    const slugify = (str) => String(str).toLowerCase().trim()
+      .replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
+
     collectionApi.getFilteredByGlob("content/blog/**/*.md").forEach(item => {
       (item.data.tags || []).forEach(tag => {
-        if (!tags[tag]) {
-          tags[tag] = [];
+        const slug = slugify(tag);
+        if (!tags[slug]) {
+          tags[slug] = {
+            name: tag, // Keep the first occurrence's capitalization
+            slug: slug,
+            posts: []
+          };
         }
-        tags[tag].push(item);
+        tags[slug].posts.push(item);
       });
     });
 
     // Sort posts in each tag by date
     Object.keys(tags).forEach(key => {
-      tags[key].sort((a, b) => b.date - a.date);
+      tags[key].posts.sort((a, b) => b.date - a.date);
     });
 
     return tags;
