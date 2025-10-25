@@ -47,7 +47,6 @@ body {
 .logo {
   display: block;
   width: 60%;
-  max-width: 400px;
   height: auto;
   margin: 0 auto;
 }
