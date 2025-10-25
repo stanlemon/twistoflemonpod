@@ -1,9 +1,9 @@
-{% if include.values and include.values.size > 0 %}
+{% if values and values.size > 0 %}
   <section class="tags-section">
     <p>
-      <strong>{{ include.label }}:</strong>
-      {% for value in include.values %}
-        <a href="/{{ include.prefix }}/{{ value | slugify }}/">{{ value }}</a>{% unless forloop.last %} {% endunless %}
+      <strong>{{ label }}:</strong>
+      {% for value in values %}
+        <a href="/{{ prefix }}/{{ value | slugify }}/">{{ value }}</a>{% unless forloop.last %} {% endunless %}
       {% endfor %}
     </p>
   </section>
