@@ -1,5 +1,4 @@
 {
   "layout": "layouts/post.liquid",
-  "tags": "post",
   "permalink": "/{{ page.filePathStem | replace: 'content/blog/', '' }}/"
 }
