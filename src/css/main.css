@@ -46,8 +46,8 @@ body {
 
 .logo {
   width: 60%;
-  max-width: 400px;
   height: auto;
+  margin: auto;
 }
 
 /* Main content area */
@@ -110,11 +110,6 @@ body {
 
   .footer {
     grid-column: 1 / -1;
-  }
-
-  .logo {
-    width: 70%;
-    max-width: 300px;
   }
 }
 
