@@ -11,6 +11,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/158-lwatol-20211028.mp3'
   length: 39988973
   type: audio/mpeg
+summary: >-
+  We tackle some things that have been on our minds (and on the list) a lot
+  recently. We talk about the how and the why our discovery and setting of Core
+  ...
 ---
 
 Dear Listener,

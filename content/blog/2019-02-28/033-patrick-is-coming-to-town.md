@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/033-lwatol-20190228.mp3'
   length: 42105813
   type: audio/mpeg
+summary: >-
+  Today we have breaking news regarding Avengers 4: Endgame. We're excited and
+  we can't wait.
 ---
 
 Dear Listener,

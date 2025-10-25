@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/156-lwatol-20211014.mp3'
   length: 41328376
   type: audio/mpeg
+summary: >-
+  Are we getting closer to the fall of Facebook? Facebook was down for hours
+  this week and they've been getting some really bad press recently.
 ---
 
 Dear Listener,

@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/055-lwatol-20190725.mp3'
   length: 45103035
   type: audio/mpeg
+summary: >-
+  Rejoice with us as we celebrate our first year of podcasting as Life with a
+  Twist of Lemon!
 ---
 
 Dear Listener,

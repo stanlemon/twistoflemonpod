@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/098-lwatol-20200903.mp3'
   length: 43901953
   type: audio/mpeg
+summary: >-
+  This week we talk about football surprisingly. As well as Stan gives Jon some
+  flack for forgetting to edit last weeks episode.
 ---
 
 Dear Listener,

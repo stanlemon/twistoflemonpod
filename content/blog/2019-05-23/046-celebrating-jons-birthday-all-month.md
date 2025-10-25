@@ -15,6 +15,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/046-lwatol-20190523.mp3'
   length: 50968245
   type: audio/mpeg
+summary: >-
+  Stan was late to recording for the first time ever. Turns out he was
+  installing a Ring doorbell. He has some other home improvement projects in
+  store fo...
 ---
 
 Dear Listener,

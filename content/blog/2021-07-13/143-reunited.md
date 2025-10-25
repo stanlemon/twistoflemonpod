@@ -15,6 +15,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/143-lwatol-20210713.mp3'
   length: 78753770
   type: audio/mpeg
+summary: >-
+  In this episode we review Jon's visit to Stan in Indianapolis. All core
+  tenants of the podcast were observed: Meat, Milkshakes, Macs, and Mixology
+  (And ...
 ---
 
 Dear Listener,

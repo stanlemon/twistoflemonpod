@@ -13,6 +13,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/096-lwatol-20200820.mp3'
   length: 51609615
   type: audio/mpeg
+summary: >-
+  \[caption id="attachment530" align="aligncenter"
+  width="750"\]![](./tree-on-house.jpg) Iowa Twist of Lemon Bunker after tree
+  fell on it.\[/caption\]
 ---
 
 \[caption id="attachment_530" align="aligncenter" width="750"\]![](./tree-on-house.jpg) Iowa Twist of Lemon Bunker after tree fell on it.\[/caption\]

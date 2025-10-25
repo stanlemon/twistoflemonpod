@@ -20,6 +20,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/062-lwatol-20190912.mp3'
   length: 22474124
   type: audio/mpeg
+summary: >-
+  Today we celebrate Stan's Christmas in September. But first we get an update
+  on Little League and what it has done for the Lemon household's dinner.
 ---
 
 Dear Listener,

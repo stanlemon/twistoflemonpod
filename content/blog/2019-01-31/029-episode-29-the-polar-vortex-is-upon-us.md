@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/029-lwatol-20190131.mp3'
   length: 35857210
   type: audio/mpeg
+summary: >-
+  No… this episode wasn't recorded when Stan came to visit Jon because it didn't
+  happen. Stan was hit by the plague and is currently in recovery mode. In ...
 ---
 
 Dear Listener,

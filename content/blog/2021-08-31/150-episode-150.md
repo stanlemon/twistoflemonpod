@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/150-lwatol-20210831.mp3'
   length: 35233518
   type: audio/mpeg
+summary: >-
+  This is our 150th episode! We take a look back at how the podcast started,
+  what we set out to accomplish, and some fun moments along the way.
 ---
 
 Dear Listener,

@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com//2020/07/090-lwatol-20200702.mp3'
   length: 46053004
   type: audio/mpeg
+summary: >-
+  This week we're joined by a very special guest who shares the places to find
+  the best donuts in Indianapolis and weighs in on favorite Marvel Characters.
 ---
 
 Dear Listener,

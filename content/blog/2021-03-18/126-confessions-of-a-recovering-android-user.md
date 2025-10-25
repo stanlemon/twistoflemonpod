@@ -14,6 +14,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/126-lwatol-20210318.mp3'
   length: 118038922
   type: audio/mpeg
+summary: >-
+  This week we are joined by long time listener and first time guest, Daniel
+  Sanchez. Danchez talks about his long journey through Android phones and how
+  ...
 ---
 
 Dear Listener,

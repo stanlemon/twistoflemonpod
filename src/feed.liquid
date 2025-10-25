@@ -25,7 +25,7 @@ eleventyExcludeFromCollections: true
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-      <description>{{ post.data.description | default: post.templateContent | excerpt: 300 }}</description>
+      <description>{{ post.data.summary | default: post.data.description | default: post.templateContent | excerpt: 300 }}</description>
       <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
 
       {% if post.data.enclosure and post.data.enclosure.url %}

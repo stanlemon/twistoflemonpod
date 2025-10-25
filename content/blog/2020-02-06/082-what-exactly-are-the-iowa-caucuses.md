@@ -18,6 +18,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/082-lwatol-20200206.mp3'
   length: 37879300
   type: audio/mpeg
+summary: >-
+  Stan has a lot of questions for the LWATOL resident Iowan following the
+  fallout this week from the Caucuses. Now's your chance to get a nickel look
+  into...
 ---
 
 Dear Listener,

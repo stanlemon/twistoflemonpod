@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/041-lwatol-20190418.mp3'
   length: 49443559
   type: audio/mpeg
+summary: >-
+  This week we kick off the episode explaining why we were recording early
+  again. For both Game of Thrones and because it's Holy Week.
 ---
 
 Dear Listener,

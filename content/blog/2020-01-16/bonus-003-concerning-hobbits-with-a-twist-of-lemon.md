@@ -11,6 +11,7 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/079b-lwatol-20200116.mp3'
   length: 3232139
   type: audio/mpeg
+summary: Stan Lemon gives us the gift of him reading the first part of the Hobbit. Recorder Solo by Jon Kohlmeier
 ---
 
 Stan Lemon gives us the gift of him reading the first part of the Hobbit. Recorder Solo by Jon Kohlmeier

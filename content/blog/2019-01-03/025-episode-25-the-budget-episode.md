@@ -13,6 +13,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/025-lwatol-20190103.mp3'
   length: 36343750
   type: audio/mpeg
+summary: >-
+  We're back from holiday celebrations and ready to tackle the new year. Over
+  the holiday, Jon got the comment "The purple thing is weird." in regards to
+  ...
 ---
 
 Dear Listener,

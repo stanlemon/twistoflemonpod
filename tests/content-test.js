@@ -33,6 +33,11 @@ function checkPost(filePath) {
     warnings++;
   }
 
+  if (!data.summary) {
+    console.warn(`⚠️  ${relativePath}: Missing summary for SEO`);
+    warnings++;
+  }
+
   if (!data.categories || data.categories.length === 0) {
     console.warn(`⚠️  ${relativePath}: Missing categories`);
     warnings++;

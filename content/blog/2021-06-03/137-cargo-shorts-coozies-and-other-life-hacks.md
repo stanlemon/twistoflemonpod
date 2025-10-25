@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/136-lwatol-20210603.mp3'
   length: 30811788
   type: audio/mpeg
+summary: >-
+  This week, we talk life hacks and pets stories. The episode kicks off with a
+  life hack from a regular listener, keeping a Coozie inside a cargo short po...
 ---
 
 Dear Listener,

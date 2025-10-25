@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/159-lwatol-20211104.mp3'
   length: 51969400
   type: audio/mpeg
+summary: >-
+  This week we talk about Jon's life back in an office before jumping into our
+  top halloween candy complete with a live taste test with a surprise guest!
 ---
 
 Dear Listener

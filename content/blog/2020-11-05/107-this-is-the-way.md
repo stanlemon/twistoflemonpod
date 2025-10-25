@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/107-lwatol-20201105.mp3'
   length: 35665905
   type: audio/mpeg
+summary: >-
+  We're going to have to adjust next week's recording schedule so that Stan (and
+  hopefully Jon) can get some good gaming in.
 ---
 
 Dear Listener,

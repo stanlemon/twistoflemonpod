@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/091-lwatol-20200709.mp3'
   length: 53677443
   type: audio/mpeg
+summary: >-
+  This week we kick off the episode with some banter about iCloud Drive and
+  Jon's most recent self-reliance achievement.
 ---
 
 Dear Listener,

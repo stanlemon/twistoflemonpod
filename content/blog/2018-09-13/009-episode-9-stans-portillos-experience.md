@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/009-lwatol-20180913.mp3'
   length: 38534890
   type: audio/mpeg
+summary: >-
+  who may in fact be sick of hearing us talk about milkshakes, This week we talk
+  about Milkshakes! Stan's Portillo's milkshake to be exact. He had an inte...
 ---
 
 Dear Listener who may in fact be sick of hearing us talk about milkshakes,

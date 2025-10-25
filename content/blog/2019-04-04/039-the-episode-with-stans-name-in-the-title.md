@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/039-lwatol-20190404.mp3'
   length: 47105338
   type: audio/mpeg
+summary: >-
+  Today Stan kicks off the episode with another correction from last week's
+  episode.
 ---
 
 Dear Listener,

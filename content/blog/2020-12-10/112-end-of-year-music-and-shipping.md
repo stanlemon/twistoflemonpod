@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/112-lwatol-20201210.mp3'
   length: 44855808
   type: audio/mpeg
+summary: >-
+  This week we cover Spotify unwrapped for podcasts. Some listeners let us know
+  where they listen, so we cover some of those places.
 ---
 
 Dear Listener,

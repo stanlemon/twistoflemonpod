@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/059-lwatol-20190822.mp3'
   length: 35269700
   type: audio/mpeg
+summary: >-
+  Unfortunately, our meat alternative experiments aren't over yet. Stan bought
+  and grilled up some Beyond Beef. He has a report for us this week. It sound...
 ---
 
 Dear Listener,

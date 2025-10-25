@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/b02-lwatol-20190309.mp3'
   length: 47733249
   type: audio/mpeg
+summary: >-
+  We're back with a special bonus round episode of Life with a Twist of Lemon.
+  We cover one of the core tenants of the podcast (Milkshakes, Mac, Marvel, a...
 ---
 
 Dear Listener,

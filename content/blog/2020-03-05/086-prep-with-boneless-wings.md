@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/086-lwatol-20200305.mp3'
   length: 31950329
   type: audio/mpeg
+summary: >-
+  "Boneless" Thugs N Harmony is making a promo video for Buffalo Wild Wings. We
+  talk about Bone Thugs-N-Harmony Stan's history with BW's and why you can p...
 ---
 
 Dear Listener,

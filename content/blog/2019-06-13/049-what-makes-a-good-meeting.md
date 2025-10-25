@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/049-lwatol-20190613.mp3'
   length: 37937607
   type: audio/mpeg
+summary: >-
+  Last week, Jon had an idea for a discussion topic - What makes a good meeting.
+  So that's what we spend the majority of this episode talking about.
 ---
 
 Dear Listener,

@@ -16,6 +16,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/044-lwatol-20190509.mp3'
   length: 32201905
   type: audio/mpeg
+summary: >-
+  We're back to our normal studios with the normal people. We kick off the
+  episode with a throwback to the Grilled Cheese Episode and how it's still
+  causi...
 ---
 
 Dear Listener,

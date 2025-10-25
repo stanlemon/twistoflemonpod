@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/142-lwatol-20210706.mp3'
   length: 38379631
   type: audio/mpeg
+summary: >-
+  Jon is recording from Louisville and will be visiting Stan on the way back. We
+  do some research into what constitutes "Kentucky food" and settle on bour...
 ---
 
 Dear Listener,

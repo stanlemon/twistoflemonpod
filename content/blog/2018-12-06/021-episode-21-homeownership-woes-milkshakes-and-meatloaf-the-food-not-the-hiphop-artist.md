@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/021-lwatol-20181206.mp3 '
   length: 36959339
   type: audio/mpeg
+summary: >-
+  Dear Faithful Listener, Today Jon's audio quality is a little deteriorated due
+  to recording at home. Why is he at home and not in Studio? The joys of ho...
 ---
 
 Dear Faithful Listener,

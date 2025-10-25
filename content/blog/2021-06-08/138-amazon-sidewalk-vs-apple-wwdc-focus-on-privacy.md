@@ -18,6 +18,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/138-lwatol-20210608.mp3'
   length: 79546769
   type: audio/mpeg
+summary: >-
+  On Monday Apple kicked off it's WWDC event with the opening keynote and State
+  of the Union address. This was full of announcements on new technologies b...
 ---
 
 Dear Listener,

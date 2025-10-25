@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/140-lwatol-20210622.mp3'
   length: 69671794
   type: audio/mpeg
+summary: >-
+  We check in on how Stan's RV trip went as his first post-pandemic vacation.
+  Sounds like it went well for the most part.
 ---
 
 Dear Listener,

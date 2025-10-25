@@ -12,6 +12,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/167-lwatol-20211230.mp3'
   length: 37143923
   type: audio/mpeg
+summary: >-
+  We're headed into 2022 so we look back on 2021 goals and talk about what we
+  expect out of 2022. The goals are less specific this year, but here's
+  hoping...
 ---
 
 Dear Listener,

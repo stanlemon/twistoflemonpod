@@ -11,6 +11,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/010-lwatol-20180919.mp3 '
   length: 48281551
   type: audio/mpeg
+summary: >-
+  The story of this week's episode is that Jon had a simple question for Stan
+  that he texted on a Sunday evening after a google search failed him. The
+  que...
 ---
 
 Dear Listener,

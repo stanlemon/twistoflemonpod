@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/102-lwatol-20201001.mp3'
   length: 30921609
   type: audio/mpeg
+summary: >-
+  This week Stan wanted to record early so he wouldn't miss the presidential
+  debate.
 ---
 
 Dear Listener,

@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/064-lwatol-20190926.mp3'
   length: 44082835
   type: audio/mpeg
+summary: >-
+  Stan is trying to figure out what kind of headphones to buy. September is
+  turning out to be expensive for him due to the tech toy purchases.
 ---
 
 Dear Listener,

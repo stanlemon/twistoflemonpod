@@ -14,6 +14,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/154-lwatol-20210930.mp3'
   length: 37007237
   type: audio/mpeg
+summary: >-
+  Stan has had another round of Wifi woes and continues to avoid moving to a
+  mesh network. We talk about the iPhone 13 Pro Max and learn a little bit
+  more...
 ---
 
 Dear Listener,

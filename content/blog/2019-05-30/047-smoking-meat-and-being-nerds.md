@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/047-lwatol-20190530.mp3'
   length: 37186221
   type: audio/mpeg
+summary: >-
+  Today is Mrs. Lemon's birthday! Happy birthday Mrs. Lemon! Thanks for taking
+  care of Stan.
 ---
 
 Dear Listener,

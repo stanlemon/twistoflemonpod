@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/079-lwatol-20200116.mp3'
   length: 30432011
   type: audio/mpeg
+summary: >-
+  Stan did not pay any attention to the Jeopardy! Greatest of all Time
+  tournament, but Jon was very excited about it.
 ---
 
 Dear Listener,

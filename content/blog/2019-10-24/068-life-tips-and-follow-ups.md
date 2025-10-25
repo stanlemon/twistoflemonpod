@@ -18,6 +18,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/068-lwatol-20191024.mp3'
   length: 39596585
   type: audio/mpeg
+summary: >-
+  We're back in the recording studios after a couple weeks off with Stan
+  traveling. We kick off the episode talking about the World Series.
 ---
 
 Dear Listener,

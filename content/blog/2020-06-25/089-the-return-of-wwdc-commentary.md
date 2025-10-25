@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/089-lwatol-20200625.mp3'
   length: 54188587
   type: audio/mpeg
+summary: >-
+  Well.. we're back. If you couldn't tell from the last episode, we ran out of
+  things to talk about back in March.
 ---
 
 Dear Listener,

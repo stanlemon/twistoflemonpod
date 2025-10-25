@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/156-lwatol-20211014.mp3'
   length: 41328376
   type: audio/mpeg
+summary: >-
+  In this episode, we talk about a bunch of stuff we didn't have on the list of
+  things to talk about. To kick it off, Stan wants to know how you eat a taco.
 ---
 
 Dear Listener,

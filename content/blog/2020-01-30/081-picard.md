@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/081-lwatol-20200130.mp3'
   length: 42553220
   type: audio/mpeg
+summary: >-
+  Stan had a rough week. He returned all of his shoes, his trusty robovac broke
+  and he had a rough customer support experience.
 ---
 
 Dear Listener,

@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/164-lwatol-20211209.mp3'
   length: 33348227
   type: audio/mpeg
+summary: >-
+  This week Stan wants to discuss how he goes through life - setting and keeping
+  personal and household rules. Listen in to what types of rules he sets, h...
 ---
 
 Dear Listener,

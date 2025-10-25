@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/106-lwatol-20201029.mp3'
   length: 33406076
   type: audio/mpeg
+summary: >-
+  This week we recorded early because Stan was going on a vacation to nowhere to
+  do nothing. But at least he's taking some time off. Hopefully someone cam...
 ---
 
 Dear Listener,

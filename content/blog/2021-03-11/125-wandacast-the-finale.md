@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/125-lwatol-20210311.mp3'
   length: 78317178
   type: audio/mpeg
+summary: >-
+  This week we are joined by regular guest Patrick "Marvel Expert" Sturdivant.
+  We take a look at the final episode of WandaVision and step back and talk a...
 ---
 
 Dear Listener,

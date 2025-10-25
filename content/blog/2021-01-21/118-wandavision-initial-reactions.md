@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/118-lwatol-20210121.mp3'
   length: 48373249
   type: audio/mpeg
+summary: >-
+  This we we discussed the new Disney+ MCU series WandaVision. They released the
+  first two episodes last Friday and we provide our initial reactions.
 ---
 
 Dear Listener,

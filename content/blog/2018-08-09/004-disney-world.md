@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/004-lwatol-20180809.mp3'
   length: 34452024
   type: audio/mpeg
+summary: >-
+  This week Stan & Jon give their opinion on the New Backstreet Boys song, talk
+  Stan's new Beats headphones, and his family's trip to Disney World, hear a...
 ---
 
 This week Stan & Jon give their opinion on the New Backstreet Boys song, talk Stan's new Beats headphones, and his family's trip to Disney World, hear about Stan's favorite rides, food, and what he plans to do differently for next time.

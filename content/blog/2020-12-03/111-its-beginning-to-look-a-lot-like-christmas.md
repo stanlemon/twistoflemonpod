@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/111-lwatol-20201203.mp3'
   length: 34323086
   type: audio/mpeg
+summary: >-
+  We want to know where and when you listen to the podcast. This continues to
+  surprise us.
 ---
 
 Dear Listener,

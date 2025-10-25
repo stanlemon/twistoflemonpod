@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/012-lwatol-20181003.mp3'
   length: 30950522
   type: audio/mpeg
+summary: >-
+  I'm not even really sure where to start for this episode. We cover a plethora
+  of topics from tech to food, to reading non-fiction. You're sure to find s...
 ---
 
 Dear Listener,

@@ -18,6 +18,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/066-lwatol-20191010.mp3'
   length: 48965380
   type: audio/mpeg
+summary: >-
+  This week you get the episode that we recorded fo last week… so there's some
+  weird stuff with October and Oktoberfest. Don't let it deter you, the episo...
 ---
 
 Dear Listener,

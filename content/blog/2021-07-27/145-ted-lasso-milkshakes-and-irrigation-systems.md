@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/145-lwatol-20210727.mp3'
   length: 46911376
   type: audio/mpeg
+summary: >-
+  Taliesin went in for his big surgery, so we talk about his cone of shame and
+  that experience as a dog owner.
 ---
 
 Dear Listener,

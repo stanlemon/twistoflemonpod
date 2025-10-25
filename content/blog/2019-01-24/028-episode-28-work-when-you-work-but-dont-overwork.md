@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/028-lwatol-20190124.mp3'
   length: 43327983
   type: audio/mpeg
+summary: >-
+  Today's episode kicks off with some follow-up by Stan on what he found to
+  track his time when on his laptop. It seems promising so far.
 ---
 
 Dear Listener,

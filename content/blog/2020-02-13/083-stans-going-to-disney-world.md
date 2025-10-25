@@ -14,6 +14,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/083-lwatol-20200213.mp3'
   length: 37926426
   type: audio/mpeg
+summary: >-
+  This week we talk about Stan's upcoming trip to Disney world. Where's he
+  staying, what he's doing, where he's eating, and most importantly Galaxy's
+  Edge.
 ---
 
 Dear Listener,

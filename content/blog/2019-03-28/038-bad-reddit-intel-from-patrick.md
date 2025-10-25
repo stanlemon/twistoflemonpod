@@ -21,6 +21,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/038-lwatol-20190328.mp3'
   length: 45815236
   type: audio/mpeg
+summary: >-
+  Moving on - Stan's wifi woes are over thanks to plugin in his own router
+  (rather than the ISPs).
 ---
 
 Dear Listener,

@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/067-lwatol-20191017.mp3'
   length: 39134534
   type: audio/mpeg
+summary: >-
+  Stan has been on a purging spree. He's thinking about reading the Marie Kondo
+  book and taking this to a whole new level.
 ---
 
 Dear Listener,

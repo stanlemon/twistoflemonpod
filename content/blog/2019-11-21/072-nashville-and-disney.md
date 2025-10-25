@@ -19,6 +19,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/072-lwatol-20191121.mp3'
   length: 41200451
   type: audio/mpeg
+summary: >-
+  Jon is back from Nashville, which prompted some follow up on roundabouts.
+  Turns out they have a great patent idea too. Jon also talks about the food he
+  ...
 ---
 
 Dear Listener,

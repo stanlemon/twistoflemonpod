@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/157-lwatol-20211021.mp3'
   length: 60022645
   type: audio/mpeg
+summary: >-
+  This week we talk about our tasting of the Culvers Curderburger. (I think we
+  both were rather unimpressed). Then we jump into discussing this week's app...
 ---
 
 Dear Listener,

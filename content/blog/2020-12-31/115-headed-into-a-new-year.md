@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/115-lwatol-20201231.mp3'
   length: 29905821
   type: audio/mpeg
+summary: >-
+  This week we take a look back at 2020 and take a look at 2021 by setting goals
+  for ourselves and for the podcast.
 ---
 
 Dear Listener,

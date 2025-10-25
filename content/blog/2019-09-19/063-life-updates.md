@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/063-lwatol-20190919.mp3'
   length: 40849082
   type: audio/mpeg
+summary: >-
+  This turned out to be a sort of catch up in the life of Jon and Stan episode.
+  Stan is having some football woes which leads to a lament to kick off the ...
 ---
 
 Dear Listener,

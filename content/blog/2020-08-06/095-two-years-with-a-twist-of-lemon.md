@@ -11,6 +11,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/095-lwatol-20200806.mp3'
   length: 45805056
   type: audio/mpeg
+summary: >-
+  In episode 95 of Life with a Twist of Lemon we celebrate two years of doing
+  the podcast by having Henry Lemon join. He talks about the new toy that
+  appe...
 ---
 
 Dear Listener,

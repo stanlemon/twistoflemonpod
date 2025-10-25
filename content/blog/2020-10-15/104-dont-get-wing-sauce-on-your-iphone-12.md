@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/104-lwatol-20201015.mp3'
   length: 44526344
   type: audio/mpeg
+summary: >-
+  This week Stan took a field trip to try out It's Just Wings. Stan enjoys the
+  wings with Joe, listener to the show. He starts off with smoked buffalo win...
 ---
 
 Dear Listener,

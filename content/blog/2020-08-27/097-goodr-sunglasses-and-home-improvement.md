@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/097-lwatol-20200827.mp3'
   length: 34999668
   type: audio/mpeg
+summary: >-
+  Stan got some Goodr sunglasses. He talks about that, which leads into some
+  talk on Blues Brothers.
 ---
 
 Dear Listener,

@@ -11,6 +11,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/136-lwatol-20210527.mp3'
   length: 48867077
   type: audio/mpeg
+summary: >-
+  This week we speculate about the Apple WWDC invite and what announcements
+  might be coming at the June event. After that we find out that Stan uses
+  Apple...
 ---
 
 Dear Listener,

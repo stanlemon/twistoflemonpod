@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/152-lwatol-20210916.mp3'
   length: 42528374
   type: audio/mpeg
+summary: >-
+  This week we discuss everything from Apple's September 2021 event, "California
+  Streaming".
 ---
 
 Dear Listener,

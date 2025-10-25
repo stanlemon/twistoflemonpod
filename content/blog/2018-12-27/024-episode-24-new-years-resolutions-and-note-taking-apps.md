@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/024-lwatol-20181227.mp3 '
   length: 38197321
   type: audio/mpeg
+summary: >-
+  We're only $100 dollars away from reaching our goal in support of Pastor
+  Fritsche.
 ---
 
 Dear Listener,

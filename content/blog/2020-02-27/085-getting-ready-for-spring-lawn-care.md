@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/085-lwatol-20200227mp3.mp3'
   length: 33604611
   type: audio/mpeg
+summary: >-
+  Spring is in the air and Jon is itching to get out and start lawn work. Stan
+  asks about this years lawn strategy and how Jon will start off the spring.
 ---
 
 Dear Listener,

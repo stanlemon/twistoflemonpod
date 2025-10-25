@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/134-lwatol-20210513.mp3'
   length: 39509751
   type: audio/mpeg
+summary: >-
+  This week we celebrate Jon's 32nd birthday! Stan and Jon talk about birthday
+  traditions growing up and how Stan doesn't really remember May.
 ---
 
 Dear Listener,

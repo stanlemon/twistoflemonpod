@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/060-lwatol-20190829.mp3'
   length: 39980115
   type: audio/mpeg
+summary: >-
+  Stan spent the week in Atlanta so Jon wasn't sure if they were going to have
+  anything to talk about. Jon planned a couple items of discussion but then a...
 ---
 
 Dear Listener,

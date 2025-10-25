@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/114-lwatol-20201224.mp3'
   length: 24130946
   type: audio/mpeg
+summary: >-
+  Merry Christmas! This week we reflect on a 2 hour episode. And get an update
+  on Stan's Steelers.
 ---
 
 Dear Listener,

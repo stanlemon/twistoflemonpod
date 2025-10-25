@@ -15,6 +15,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/020-lwatol-20181129.mp3'
   length: 47167775
   type: audio/mpeg
+summary: >-
+  We have an exciting campaign going on during the month of December. We're
+  looking to support Pastor Joel Fritsche and his work in the Dominican
+  Republic...
 ---
 
 Dear Listener,

@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/050-lwatol-20190620.mp3'
   length: 41147474
   type: audio/mpeg
+summary: >-
+  This week we talk about Stan's Vacation to Traverse City. He seems to have a
+  restful time and even has a review of a milkshake IPA. We're wondering if D...
 ---
 
 Dear Listener,
