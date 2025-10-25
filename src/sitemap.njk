@@ -1,0 +1,44 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {# Homepage #}
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ collections.blog[0].date | htmlDateString }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  {# Blog posts #}
+  {% for post in collections.blog %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | htmlDateString }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+
+  {# Category pages #}
+  {% for slug, categoryData in collections.categories %}
+  <url>
+    <loc>{{ site.url }}/category/{{ slug }}/</loc>
+    <lastmod>{{ categoryData.posts[0].date | htmlDateString }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  {% endfor %}
+
+  {# Tag pages #}
+  {% for slug, tagData in collections.tags %}
+  <url>
+    <loc>{{ site.url }}/tag/{{ slug }}/</loc>
+    <lastmod>{{ tagData.posts[0].date | htmlDateString }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  {% endfor %}
+</urlset>

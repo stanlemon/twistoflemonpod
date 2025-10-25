@@ -74,6 +74,14 @@ module.exports = function(eleventyConfig) {
     return text.substring(0, length) + '...';
   });
 
+  // Head filter - limit array to first n items
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (n < 0) {
+      return array.slice(n);
+    }
+    return array.slice(0, n);
+  });
+
   // Custom markdown library with anchor support
   let markdownLib = markdownIt({
     html: true,

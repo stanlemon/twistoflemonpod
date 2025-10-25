@@ -1,0 +1,48 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ site.title }}</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.url }}/</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    <lastBuildDate>{{ collections.blog[0].date | dateToRfc822 }}</lastBuildDate>
+
+    {# Podcast-specific tags #}
+    <itunes:author>{{ site.author.name }}</itunes:author>
+    <itunes:summary>{{ site.description }}</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Society &amp; Culture"/>
+    <itunes:explicit>no</itunes:explicit>
+
+    {% for post in collections.blog | reverse | head(20) %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+      <description>{{ post.data.description or (post.templateContent | excerpt(300)) }}</description>
+      <content:encoded><![CDATA[{{ post.templateContent | safe }}]]></content:encoded>
+
+      {% if post.data.enclosure and post.data.enclosure.url %}
+      <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type or 'audio/mpeg' }}"/>
+      <itunes:duration>{{ post.data.enclosure.duration or '' }}</itunes:duration>
+      {% endif %}
+
+      {% if post.data.episode %}
+      <itunes:episode>{{ post.data.episode }}</itunes:episode>
+      {% endif %}
+
+      {% if post.data.categories %}
+      {% for category in post.data.categories %}
+      <category>{{ category }}</category>
+      {% endfor %}
+      {% endif %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
