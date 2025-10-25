@@ -9,8 +9,7 @@ categories:
 tags:
   - falcon and the winter soldier
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/129-lwatol-20210408.mp3
+  url: 'https://media.twistoflemonpod.com/129-lwatol-20210408.mp3'
   length: 45549320
   type: audio/mpeg
 ---

@@ -14,8 +14,7 @@ tags:
   - picard
   - star trek
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/047-lwatol-20190530.mp3
+  url: 'https://media.twistoflemonpod.com/047-lwatol-20190530.mp3'
   length: 37186221
   type: audio/mpeg
 ---

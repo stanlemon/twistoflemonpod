@@ -8,8 +8,7 @@ categories:
 tags:
   - star wars
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/076-lwatol-20191236.mp3
+  url: 'https://media.twistoflemonpod.com/076-lwatol-20191236.mp3'
   length: 48684000
   type: audio/mpeg
 ---

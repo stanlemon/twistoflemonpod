@@ -10,8 +10,7 @@ tags:
   - lawn care
   - meat rubs
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/147-lwatol-20210810.mp3
+  url: 'https://media.twistoflemonpod.com/147-lwatol-20210810.mp3'
   length: 35134868
   type: audio/mpeg
 ---

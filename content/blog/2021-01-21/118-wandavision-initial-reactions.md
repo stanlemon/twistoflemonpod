@@ -14,8 +14,7 @@ tags:
   - disney+
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/118-lwatol-20210121.mp3
+  url: 'https://media.twistoflemonpod.com/118-lwatol-20210121.mp3'
   length: 48373249
   type: audio/mpeg
 ---

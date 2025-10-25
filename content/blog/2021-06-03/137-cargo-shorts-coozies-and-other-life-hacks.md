@@ -8,8 +8,7 @@ categories:
 tags:
   - vacation
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/136-lwatol-20210603.mp3
+  url: 'https://media.twistoflemonpod.com/136-lwatol-20210603.mp3'
   length: 30811788
   type: audio/mpeg
 ---

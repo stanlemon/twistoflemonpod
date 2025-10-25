@@ -8,8 +8,7 @@ categories:
 tags:
   - disney+
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/091-lwatol-20200709.mp3
+  url: 'https://media.twistoflemonpod.com/091-lwatol-20200709.mp3'
   length: 53677443
   type: audio/mpeg
 ---

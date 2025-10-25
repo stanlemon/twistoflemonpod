@@ -11,8 +11,7 @@ tags:
   - meat rubs by fenker
   - star trek
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/085-lwatol-20200227mp3.mp3
+  url: 'https://media.twistoflemonpod.com/085-lwatol-20200227mp3.mp3'
   length: 33604611
   type: audio/mpeg
 ---

@@ -9,8 +9,7 @@ categories:
 tags:
   - milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/007-lwatol-20180830.mp3
+  url: 'https://media.twistoflemonpod.com/007-lwatol-20180830.mp3'
   length: 37771398
   type: audio/mpeg
 ---

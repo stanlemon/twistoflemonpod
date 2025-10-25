@@ -12,8 +12,7 @@ tags:
   - apple
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/151-lwatol-20210907.mp3
+  url: 'https://media.twistoflemonpod.com/151-lwatol-20210907.mp3'
   length: 39584268
   type: audio/mpeg
 ---

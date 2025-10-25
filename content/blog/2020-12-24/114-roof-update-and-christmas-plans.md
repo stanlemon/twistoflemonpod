@@ -9,8 +9,7 @@ tags:
   - Christmas
   - roof
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/114-lwatol-20201224.mp3
+  url: 'https://media.twistoflemonpod.com/114-lwatol-20201224.mp3'
   length: 24130946
   type: audio/mpeg
 ---

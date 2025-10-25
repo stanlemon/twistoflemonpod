@@ -8,8 +8,7 @@ categories:
 tags:
   - iPhone
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/160-lwatol-20211111.mp3
+  url: 'https://media.twistoflemonpod.com/160-lwatol-20211111.mp3'
   length: 49415421
   type: audio/mpeg
 ---

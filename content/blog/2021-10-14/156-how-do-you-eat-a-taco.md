@@ -12,8 +12,7 @@ tags:
   - tacos
   - ted lasso
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/156-lwatol-20211014.mp3
+  url: 'https://media.twistoflemonpod.com/156-lwatol-20211014.mp3'
   length: 41328376
   type: audio/mpeg
 ---

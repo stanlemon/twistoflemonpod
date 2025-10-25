@@ -12,8 +12,7 @@ tags:
   - apple
   - productivity
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/049-lwatol-20190613.mp3
+  url: 'https://media.twistoflemonpod.com/049-lwatol-20190613.mp3'
   length: 37937607
   type: audio/mpeg
 ---

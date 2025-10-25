@@ -10,8 +10,7 @@ tags:
   - falcon and the winter soldier
   - disney+
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/130-lwatol-20210415.mp3
+  url: 'https://media.twistoflemonpod.com/130-lwatol-20210415.mp3'
   length: 47356810
   type: audio/mpeg
 ---

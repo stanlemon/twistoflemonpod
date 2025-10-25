@@ -8,8 +8,7 @@ categories:
 tags:
   - apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/116-lwatol-20210107.mp3
+  url: 'https://media.twistoflemonpod.com/116-lwatol-20210107.mp3'
   length: 44954875
   type: audio/mpeg
 ---

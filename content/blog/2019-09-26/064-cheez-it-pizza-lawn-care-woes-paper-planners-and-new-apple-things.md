@@ -14,8 +14,7 @@ tags:
   - lawn care
   - pizza
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/064-lwatol-20190926.mp3
+  url: 'https://media.twistoflemonpod.com/064-lwatol-20190926.mp3'
   length: 44082835
   type: audio/mpeg
 ---

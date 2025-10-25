@@ -11,8 +11,7 @@ tags:
   - roof
   - lawn care
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/008-lwatol-20180906.mp3
+  url: 'https://media.twistoflemonpod.com/008-lwatol-20180906.mp3'
   length: 37942654
   type: audio/mpeg
 ---

@@ -14,8 +14,7 @@ tags:
   - tacos
   - football
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/059-lwatol-20190822.mp3
+  url: 'https://media.twistoflemonpod.com/059-lwatol-20190822.mp3'
   length: 35269700
   type: audio/mpeg
 ---

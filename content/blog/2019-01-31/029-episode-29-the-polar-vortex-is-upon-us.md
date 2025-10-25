@@ -10,8 +10,7 @@ tags:
   - snowblower
   - milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/029-lwatol-20190131.mp3
+  url: 'https://media.twistoflemonpod.com/029-lwatol-20190131.mp3'
   length: 35857210
   type: audio/mpeg
 ---

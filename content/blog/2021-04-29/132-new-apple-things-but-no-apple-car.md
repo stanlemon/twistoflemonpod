@@ -8,8 +8,7 @@ categories:
 tags:
   - home improvement
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/132-lwatol-20210429.mp3
+  url: 'https://media.twistoflemonpod.com/132-lwatol-20210429.mp3'
   length: 63507077
   type: audio/mpeg
 ---

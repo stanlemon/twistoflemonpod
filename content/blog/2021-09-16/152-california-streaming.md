@@ -13,8 +13,7 @@ tags:
   - iPhone
   - music
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/152-lwatol-20210916.mp3
+  url: 'https://media.twistoflemonpod.com/152-lwatol-20210916.mp3'
   length: 42528374
   type: audio/mpeg
 ---

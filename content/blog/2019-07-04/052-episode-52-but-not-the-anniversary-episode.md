@@ -18,8 +18,7 @@ tags:
   - spiderman
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/052-lwatol-20190704.mp3
+  url: 'https://media.twistoflemonpod.com/052-lwatol-20190704.mp3'
   length: 31162427
   type: audio/mpeg
 ---

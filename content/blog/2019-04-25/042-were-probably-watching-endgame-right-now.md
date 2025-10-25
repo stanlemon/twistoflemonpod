@@ -12,8 +12,7 @@ tags:
   - patrick sturdivant
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/042-lwatol-20190425.mp3
+  url: 'https://media.twistoflemonpod.com/042-lwatol-20190425.mp3'
   length: 34358842
   type: audio/mpeg
 ---

@@ -15,8 +15,7 @@ tags:
   - wwdc
   - budgeting
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/138-lwatol-20210608.mp3
+  url: 'https://media.twistoflemonpod.com/138-lwatol-20210608.mp3'
   length: 79546769
   type: audio/mpeg
 ---

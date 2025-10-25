@@ -11,8 +11,7 @@ tags:
   - iPhone
   - router
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/154-lwatol-20210930.mp3
+  url: 'https://media.twistoflemonpod.com/154-lwatol-20210930.mp3'
   length: 37007237
   type: audio/mpeg
 ---

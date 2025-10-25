@@ -10,8 +10,7 @@ categories:
 tags:
   - football
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/063-lwatol-20190919.mp3
+  url: 'https://media.twistoflemonpod.com/063-lwatol-20190919.mp3'
   length: 40849082
   type: audio/mpeg
 ---

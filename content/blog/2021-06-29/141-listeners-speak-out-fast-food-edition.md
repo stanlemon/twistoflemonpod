@@ -13,8 +13,7 @@ tags:
   - vacation
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/141-lwatol-20210629.mp3
+  url: 'https://media.twistoflemonpod.com/141-lwatol-20210629.mp3'
   length: 58366082
   type: audio/mpeg
 ---

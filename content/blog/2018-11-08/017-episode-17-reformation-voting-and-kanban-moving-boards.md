@@ -13,8 +13,7 @@ tags:
   - milkshakes
   - music
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/017-lwatol-20181108.mp3 
+  url: 'https://media.twistoflemonpod.com/017-lwatol-20181108.mp3 '
   length: 32295258
   type: audio/mpeg
 ---

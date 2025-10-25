@@ -15,8 +15,7 @@ tags:
   - music
   - ipad
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/066-lwatol-20191010.mp3
+  url: 'https://media.twistoflemonpod.com/066-lwatol-20191010.mp3'
   length: 48965380
   type: audio/mpeg
 ---

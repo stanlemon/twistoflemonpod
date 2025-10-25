@@ -8,8 +8,7 @@ categories:
 tags:
   - milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/095-lwatol-20200806.mp3
+  url: 'https://media.twistoflemonpod.com/095-lwatol-20200806.mp3'
   length: 45805056
   type: audio/mpeg
 ---

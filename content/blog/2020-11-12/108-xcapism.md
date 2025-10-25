@@ -9,8 +9,7 @@ tags:
   - xbox
   - politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/108-lwatol-20201112.mp3
+  url: 'https://media.twistoflemonpod.com/108-lwatol-20201112.mp3'
   length: 40787690
   type: audio/mpeg
 ---

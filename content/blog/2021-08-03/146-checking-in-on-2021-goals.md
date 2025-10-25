@@ -8,8 +8,7 @@ categories:
 tags:
   - goals
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/146-lwatol-20210803.mp3
+  url: 'https://media.twistoflemonpod.com/146-lwatol-20210803.mp3'
   length: 32401531
   type: audio/mpeg
 ---

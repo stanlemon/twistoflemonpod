@@ -9,8 +9,7 @@ tags:
   - vacation
   - disney
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/004-lwatol-20180809.mp3
+  url: 'https://media.twistoflemonpod.com/004-lwatol-20180809.mp3'
   length: 34452024
   type: audio/mpeg
 ---

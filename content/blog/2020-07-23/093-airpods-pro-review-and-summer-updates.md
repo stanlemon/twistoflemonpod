@@ -13,8 +13,7 @@ tags:
   - milkshakes
   - lawn care
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/093-lwatol-20200723.mp3
+  url: 'https://media.twistoflemonpod.com/093-lwatol-20200723.mp3'
   length: 37466502
   type: audio/mpeg
 ---

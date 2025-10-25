@@ -10,8 +10,7 @@ tags:
   - falcon and the winter soldier
   - roof
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/127-lwatol-20210325.mp3
+  url: 'https://media.twistoflemonpod.com/127-lwatol-20210325.mp3'
   length: 43463411
   type: audio/mpeg
 ---

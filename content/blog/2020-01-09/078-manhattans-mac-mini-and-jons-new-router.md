@@ -15,8 +15,7 @@ tags:
   - apple
   - mac mini
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/078-lwatol-20200109.mp3
+  url: 'https://media.twistoflemonpod.com/078-lwatol-20200109.mp3'
   length: 34131468
   type: audio/mpeg
 ---

@@ -9,8 +9,7 @@ tags:
   - xbox
   - christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/111-lwatol-20201203.mp3
+  url: 'https://media.twistoflemonpod.com/111-lwatol-20201203.mp3'
   length: 34323086
   type: audio/mpeg
 ---

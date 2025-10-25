@@ -11,8 +11,7 @@ tags:
   - twistoflemon
   - milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/026-lwatol-20190110.mp3
+  url: 'https://media.twistoflemonpod.com/026-lwatol-20190110.mp3'
   length: 34073174
   type: audio/mpeg
 ---

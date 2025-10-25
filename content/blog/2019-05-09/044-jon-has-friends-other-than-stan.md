@@ -13,8 +13,7 @@ tags:
   - endgame
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/044-lwatol-20190509.mp3
+  url: 'https://media.twistoflemonpod.com/044-lwatol-20190509.mp3'
   length: 32201905
   type: audio/mpeg
 ---

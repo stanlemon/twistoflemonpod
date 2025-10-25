@@ -10,8 +10,7 @@ tags:
   - music
   - apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/166-lwatol-20211223.mp3
+  url: 'https://media.twistoflemonpod.com/166-lwatol-20211223.mp3'
   length: 35395182
   type: audio/mpeg
 ---

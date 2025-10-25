@@ -9,8 +9,7 @@ tags:
   - goals
   - new year
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/167-lwatol-20211230.mp3
+  url: 'https://media.twistoflemonpod.com/167-lwatol-20211230.mp3'
   length: 37143923
   type: audio/mpeg
 ---

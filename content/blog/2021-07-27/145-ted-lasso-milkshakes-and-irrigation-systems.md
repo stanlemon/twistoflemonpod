@@ -14,8 +14,7 @@ tags:
   - ted lasso
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/145-lwatol-20210727.mp3
+  url: 'https://media.twistoflemonpod.com/145-lwatol-20210727.mp3'
   length: 46911376
   type: audio/mpeg
 ---

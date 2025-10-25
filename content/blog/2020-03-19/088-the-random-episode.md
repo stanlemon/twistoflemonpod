@@ -12,8 +12,7 @@ tags:
   - grilled cheese
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/088-lwatol-20200319.mp3
+  url: 'https://media.twistoflemonpod.com/088-lwatol-20200319.mp3'
   length: 31438451
   type: audio/mpeg
 ---

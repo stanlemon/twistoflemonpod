@@ -10,8 +10,7 @@ tags:
   - grilled cheese
   - podcast
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/055-lwatol-20190725.mp3
+  url: 'https://media.twistoflemonpod.com/055-lwatol-20190725.mp3'
   length: 45103035
   type: audio/mpeg
 ---

@@ -11,8 +11,7 @@ tags:
   - meat rubs by fenker
   - music
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/086-lwatol-20200305.mp3
+  url: 'https://media.twistoflemonpod.com/086-lwatol-20200305.mp3'
   length: 31950329
   type: audio/mpeg
 ---

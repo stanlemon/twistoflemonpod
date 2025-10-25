@@ -12,8 +12,7 @@ tags:
   - milkshakes
   - politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/015-lwatol-20181025.mp3
+  url: 'https://media.twistoflemonpod.com/015-lwatol-20181025.mp3'
   length: 39326683
   type: audio/mpeg
 ---

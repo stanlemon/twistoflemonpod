@@ -13,8 +13,7 @@ tags:
   - star wars
   - investing
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/041-lwatol-20190418.mp3
+  url: 'https://media.twistoflemonpod.com/041-lwatol-20190418.mp3'
   length: 49443559
   type: audio/mpeg
 ---

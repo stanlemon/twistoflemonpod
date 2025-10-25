@@ -12,8 +12,7 @@ tags:
   - star wars
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/120-lwatol-20210204.mp3
+  url: 'https://media.twistoflemonpod.com/120-lwatol-20210204.mp3'
   length: 39285508
   type: audio/mpeg
 ---

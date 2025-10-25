@@ -10,8 +10,7 @@ tags:
   - meat rubs
   - christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3
+  url: 'https://media.twistoflemonpod.com/117-lwatol-20210114.mp3'
   length: 45600373
   type: audio/mpeg
 ---

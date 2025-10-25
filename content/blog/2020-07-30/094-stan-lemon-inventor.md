@@ -8,8 +8,7 @@ categories:
 tags:
   - baseball
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/094-lwatol-20200730.mp3
+  url: 'https://media.twistoflemonpod.com/094-lwatol-20200730.mp3'
   length: 48158197
   type: audio/mpeg
 ---

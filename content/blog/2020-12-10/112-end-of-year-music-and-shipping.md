@@ -9,8 +9,7 @@ tags:
   - music
   - christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/112-lwatol-20201210.mp3
+  url: 'https://media.twistoflemonpod.com/112-lwatol-20201210.mp3'
   length: 44855808
   type: audio/mpeg
 ---

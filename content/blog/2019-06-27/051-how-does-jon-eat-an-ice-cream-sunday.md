@@ -11,8 +11,7 @@ tags:
   - mac
   - grilled cheese
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/051-lwatol-20190627.mp3
+  url: 'https://media.twistoflemonpod.com/051-lwatol-20190627.mp3'
   length: 35300408
   type: audio/mpeg
 ---

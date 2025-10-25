@@ -10,8 +10,7 @@ tags:
   - new year
   - mortgage
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/077-lwatol-20200102.mp3
+  url: 'https://media.twistoflemonpod.com/077-lwatol-20200102.mp3'
   length: 30749551
   type: audio/mpeg
 ---

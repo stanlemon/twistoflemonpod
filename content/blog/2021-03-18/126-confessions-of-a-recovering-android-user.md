@@ -11,8 +11,7 @@ tags:
   - wandavision
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/126-lwatol-20210318.mp3
+  url: 'https://media.twistoflemonpod.com/126-lwatol-20210318.mp3'
   length: 118038922
   type: audio/mpeg
 ---

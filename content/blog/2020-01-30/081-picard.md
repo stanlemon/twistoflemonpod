@@ -13,8 +13,7 @@ tags:
   - shoes
   - star trek
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/081-lwatol-20200130.mp3
+  url: 'https://media.twistoflemonpod.com/081-lwatol-20200130.mp3'
   length: 42553220
   type: audio/mpeg
 ---

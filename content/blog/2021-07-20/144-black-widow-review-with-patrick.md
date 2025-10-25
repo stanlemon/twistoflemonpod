@@ -11,8 +11,7 @@ tags:
   - marvel
   - black widow
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/144-lwatol-20210720.mp3
+  url: 'https://media.twistoflemonpod.com/144-lwatol-20210720.mp3'
   length: 78014209
   type: audio/mpeg
 ---

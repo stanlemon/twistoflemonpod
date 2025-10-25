@@ -10,8 +10,7 @@ tags:
   - thanksgiving
   - disney
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/162-lwatol-20211125.mp3
+  url: 'https://media.twistoflemonpod.com/162-lwatol-20211125.mp3'
   length: 49547918
   type: audio/mpeg
 ---

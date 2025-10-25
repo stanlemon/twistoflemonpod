@@ -11,8 +11,7 @@ tags:
   - macbook
   - apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/157-lwatol-20211021.mp3
+  url: 'https://media.twistoflemonpod.com/157-lwatol-20211021.mp3'
   length: 60022645
   type: audio/mpeg
 ---

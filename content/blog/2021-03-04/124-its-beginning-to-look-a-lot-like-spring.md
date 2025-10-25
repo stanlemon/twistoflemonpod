@@ -16,8 +16,7 @@ tags:
   - apple
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/124-lwatol-20210304.mp3
+  url: 'https://media.twistoflemonpod.com/124-lwatol-20210304.mp3'
   length: 46750474
   type: audio/mpeg
 ---

@@ -14,8 +14,7 @@ tags:
   - endgame
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/023-lwatol-20181220.mp3
+  url: 'https://media.twistoflemonpod.com/023-lwatol-20181220.mp3'
   length: 36117026
   type: audio/mpeg
 ---

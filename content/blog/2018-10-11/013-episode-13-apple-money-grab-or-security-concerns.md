@@ -14,8 +14,7 @@ tags:
   - milkshakes
   - home improvement
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/013-lwatol-20181011.mp3
+  url: 'https://media.twistoflemonpod.com/013-lwatol-20181011.mp3'
   length: 43798383
   type: audio/mpeg
 ---

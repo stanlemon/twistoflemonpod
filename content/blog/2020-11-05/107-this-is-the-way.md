@@ -12,8 +12,7 @@ tags:
   - home improvement
   - politics
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/107-lwatol-20201105.mp3
+  url: 'https://media.twistoflemonpod.com/107-lwatol-20201105.mp3'
   length: 35665905
   type: audio/mpeg
 ---

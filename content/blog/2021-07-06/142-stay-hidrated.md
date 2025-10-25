@@ -9,8 +9,7 @@ tags:
   - vacation
   - visit
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/142-lwatol-20210706.mp3
+  url: 'https://media.twistoflemonpod.com/142-lwatol-20210706.mp3'
   length: 38379631
   type: audio/mpeg
 ---

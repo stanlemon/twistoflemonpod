@@ -11,8 +11,7 @@ tags:
   - baseball
   - mortgage
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/058-lwatol-20190815.mp3
+  url: 'https://media.twistoflemonpod.com/058-lwatol-20190815.mp3'
   length: 36478503
   type: audio/mpeg
 ---

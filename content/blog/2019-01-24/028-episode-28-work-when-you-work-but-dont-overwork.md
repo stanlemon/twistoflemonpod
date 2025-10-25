@@ -10,8 +10,7 @@ categories:
 tags:
   - email
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/028-lwatol-20190124.mp3
+  url: 'https://media.twistoflemonpod.com/028-lwatol-20190124.mp3'
   length: 43327983
   type: audio/mpeg
 ---

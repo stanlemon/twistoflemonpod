@@ -8,8 +8,7 @@ categories:
 tags:
   - shoes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/080-lwatol-20200123.mp3
+  url: 'https://media.twistoflemonpod.com/080-lwatol-20200123.mp3'
   length: 37350529
   type: audio/mpeg
 ---

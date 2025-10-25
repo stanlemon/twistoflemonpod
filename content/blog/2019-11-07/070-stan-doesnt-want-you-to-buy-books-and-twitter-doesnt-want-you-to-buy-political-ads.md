@@ -15,8 +15,7 @@ tags:
   - minimalism
   - apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/070-lwatol-20191107.mp3
+  url: 'https://media.twistoflemonpod.com/070-lwatol-20191107.mp3'
   length: 40102658
   type: audio/mpeg
 ---

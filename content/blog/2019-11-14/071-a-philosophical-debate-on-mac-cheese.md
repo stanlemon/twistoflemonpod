@@ -10,8 +10,7 @@ tags:
   - minimalism
   - grilled cheese
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/071-lwatol-20191114.mp3
+  url: 'https://media.twistoflemonpod.com/071-lwatol-20191114.mp3'
   length: 31543735
   type: audio/mpeg
 ---

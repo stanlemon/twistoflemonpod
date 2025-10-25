@@ -12,8 +12,7 @@ tags:
   - email
   - star wars
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/060-lwatol-20190829.mp3
+  url: 'https://media.twistoflemonpod.com/060-lwatol-20190829.mp3'
   length: 39980115
   type: audio/mpeg
 ---

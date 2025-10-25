@@ -12,8 +12,7 @@ tags:
   - shoes
   - meat rubs
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/103-lwatol-20201008.mp3
+  url: 'https://media.twistoflemonpod.com/103-lwatol-20201008.mp3'
   length: 36976122
   type: audio/mpeg
 ---

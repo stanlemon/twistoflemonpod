@@ -8,8 +8,7 @@ categories:
 tags:
   - apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/b01-lwatol-20180913.mp3
+  url: 'https://media.twistoflemonpod.com/b01-lwatol-20180913.mp3'
   length: 13834458
   type: audio/mpeg
 ---

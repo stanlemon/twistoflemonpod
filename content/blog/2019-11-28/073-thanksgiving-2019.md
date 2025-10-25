@@ -17,8 +17,7 @@ tags:
   - email
   - thanksgiving
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/073-lwatol-20191128.mp3
+  url: 'https://media.twistoflemonpod.com/073-lwatol-20191128.mp3'
   length: 36271522
   type: audio/mpeg
 ---

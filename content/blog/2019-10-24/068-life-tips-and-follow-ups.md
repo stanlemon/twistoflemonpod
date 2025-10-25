@@ -15,8 +15,7 @@ tags:
   - milkshakes
   - apple
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/068-lwatol-20191024.mp3
+  url: 'https://media.twistoflemonpod.com/068-lwatol-20191024.mp3'
   length: 39596585
   type: audio/mpeg
 ---

@@ -8,8 +8,7 @@ categories:
 tags:
   - podcast
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/090b-lwatol-20200704.mp3
+  url: 'https://media.twistoflemonpod.com/090b-lwatol-20200704.mp3'
   length: 10506622
   type: audio/mpeg
 ---

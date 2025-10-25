@@ -11,8 +11,7 @@ tags:
   - marvel
   - hawkeye
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/164-lwatol-20211209.mp3
+  url: 'https://media.twistoflemonpod.com/164-lwatol-20211209.mp3'
   length: 33348227
   type: audio/mpeg
 ---

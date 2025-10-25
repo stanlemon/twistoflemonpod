@@ -9,8 +9,7 @@ tags:
   - vacation
   - podcast
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/106-lwatol-20201029.mp3
+  url: 'https://media.twistoflemonpod.com/106-lwatol-20201029.mp3'
   length: 33406076
   type: audio/mpeg
 ---

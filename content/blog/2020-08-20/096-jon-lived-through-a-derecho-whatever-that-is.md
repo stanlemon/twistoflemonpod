@@ -10,8 +10,7 @@ tags:
   - derecho
   - home improvement
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/096-lwatol-20200820.mp3
+  url: 'https://media.twistoflemonpod.com/096-lwatol-20200820.mp3'
   length: 51609615
   type: audio/mpeg
 ---

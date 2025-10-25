@@ -17,8 +17,7 @@ tags:
   - ipad
   - christmas
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/062-lwatol-20190912.mp3
+  url: 'https://media.twistoflemonpod.com/062-lwatol-20190912.mp3'
   length: 22474124
   type: audio/mpeg
 ---

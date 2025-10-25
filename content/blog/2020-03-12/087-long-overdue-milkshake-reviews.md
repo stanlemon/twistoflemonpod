@@ -14,8 +14,7 @@ tags:
   - milkshakes
   - mint
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/087-lwatol-20200312.mp3
+  url: 'https://media.twistoflemonpod.com/087-lwatol-20200312.mp3'
   length: 39373340
   type: audio/mpeg
 ---

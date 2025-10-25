@@ -10,8 +10,7 @@ tags:
   - budgeting
   - twistoflemon
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/025-lwatol-20190103.mp3
+  url: 'https://media.twistoflemonpod.com/025-lwatol-20190103.mp3'
   length: 36343750
   type: audio/mpeg
 ---

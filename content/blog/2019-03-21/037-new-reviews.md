@@ -14,8 +14,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/037-lwatol-20190321.mp3
+  url: 'https://media.twistoflemonpod.com/037-lwatol-20190321.mp3'
   length: 35261611
   type: audio/mpeg
 ---

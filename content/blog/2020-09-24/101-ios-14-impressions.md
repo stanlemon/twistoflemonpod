@@ -9,8 +9,7 @@ tags:
   - apple
   - ios
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/101-lwatol-20200924.mp3
+  url: 'https://media.twistoflemonpod.com/101-lwatol-20200924.mp3'
   length: 41461236
   type: audio/mpeg
 ---

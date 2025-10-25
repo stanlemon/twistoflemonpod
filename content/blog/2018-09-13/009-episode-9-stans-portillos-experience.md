@@ -9,8 +9,7 @@ tags:
   - apple
   - milkshakes
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/009-lwatol-20180913.mp3
+  url: 'https://media.twistoflemonpod.com/009-lwatol-20180913.mp3'
   length: 38534890
   type: audio/mpeg
 ---

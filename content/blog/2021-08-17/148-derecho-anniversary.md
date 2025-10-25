@@ -11,8 +11,7 @@ tags:
   - vacation
   - home improvement
 enclosure:
-  url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/148-lwatol-20210817.mp3
+  url: 'https://media.twistoflemonpod.com/148-lwatol-20210817.mp3'
   length: 34660981
   type: audio/mpeg
 ---
