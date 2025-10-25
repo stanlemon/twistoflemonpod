@@ -28,8 +28,8 @@ layout: layouts/base.liquid
         <p>{{ post.data.description | default: post.templateContent | excerpt: 200 }}</p>
       </section>
 
-      {% include "partials/tags.liquid" label="tags" prefix="tag" values=post.data.tags %}
-      {% include "partials/tags.liquid" label="categories" prefix="category" values=post.data.categories %}
+      {% include "partials/tags.liquid", label: "tags", prefix: "tag", values: post.data.tags %}
+      {% include "partials/tags.liquid", label: "categories", prefix: "category", values: post.data.categories %}
     </article>
   {% endfor %}
 </div>

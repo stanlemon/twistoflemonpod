@@ -25,19 +25,27 @@ module.exports = function(eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat("MMMM dd, yyyy");
+    if (!dateObj) return '';
+    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
+    return dt.isValid ? dt.toFormat("MMMM dd, yyyy") : '';
   });
 
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-MM-dd');
+    if (!dateObj) return '';
+    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
+    return dt.isValid ? dt.toFormat('yyyy-MM-dd') : '';
   });
 
   eleventyConfig.addFilter("dateToRfc3339", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toISO();
+    if (!dateObj) return '';
+    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
+    return dt.isValid ? dt.toISO() : '';
   });
 
   eleventyConfig.addFilter("dateToRfc822", (dateObj) => {
-    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toRFC2822();
+    if (!dateObj) return '';
+    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
+    return dt.isValid ? dt.toRFC2822() : '';
   });
 
   // Slugify filter for categories and tags

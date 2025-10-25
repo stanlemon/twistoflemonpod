@@ -21,8 +21,8 @@ layout: layouts/base.liquid
     {{ content }}
   </section>
 
-  {% include "partials/tags.liquid" label="tags" prefix="tag" values=tags %}
-  {% include "partials/tags.liquid" label="categories" prefix="category" values=categories %}
+  {% include "partials/tags.liquid", label: "tags", prefix: "tag", values: tags %}
+  {% include "partials/tags.liquid", label: "categories", prefix: "category", values: categories %}
 
   <hr>
 
