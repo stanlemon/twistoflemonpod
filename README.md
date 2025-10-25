@@ -1,99 +1,164 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's blog starter
-</h1>
+# Life with a Twist of Lemon
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+A podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+## Technology Stack
 
-## 🚀 Quick start
+This site is built with [Eleventy (11ty)](https://www.11ty.dev/), a simple and powerful static site generator.
 
-1.  **Create a Gatsby site.**
+### Key Features
 
-    Use the Gatsby CLI to create a new site, specifying the blog starter.
+- **Fast Build Times**: Complete site builds in under 0.5 seconds
+- **171 Episode Pages**: All podcast episodes with audio players
+- **Paginated Blog Index**: 10 episodes per page
+- **Category & Tag Pages**: Organized content with 15 categories and 88 tags
+- **RSS Feed**: Podcast-compatible RSS feed with enclosures at `/feed.xml`
+- **XML Sitemap**: Comprehensive sitemap at `/sitemap.xml`
+- **SEO Optimized**: Open Graph and Twitter Card meta tags
+- **Responsive Design**: Mobile-friendly grid layout
+- **Audio Player**: Plyr-based podcast audio player
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+## Getting Started
 
-1.  **Start developing.**
+### Prerequisites
 
-    Navigate into your new site’s directory and start it up.
+- Node.js 22.x or later (specified in `.nvmrc`)
+- npm
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+### Installation
 
-1.  **Open the source code and start editing!**
+```bash
+# Install dependencies
+npm install
+```
 
-    Your site is now running at `http://localhost:8000`!
+### Development
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+```bash
+# Start development server with live reload
+npm run dev
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+# Or use the alias
+npm start
+```
 
-## 🧐 What's inside?
+The site will be available at `http://localhost:8080`
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+### Building
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+```bash
+# Build the site
+npm run build
+```
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Output will be in the `_site` directory.
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+### Testing
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+```bash
+# Run validation tests
+npm test
+```
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+This runs:
+- Build validation (checks for required files, correct page counts)
+- Content validation (validates frontmatter for all posts)
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+## Project Structure
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+```
+.
+├── .eleventy.js          # 11ty configuration
+├── content/
+│   ├── blog/             # Blog posts (171 episodes)
+│   └── assets/           # Images and assets
+├── src/
+│   ├── _data/            # Global data files
+│   ├── _includes/        # Layouts and partials
+│   │   ├── layouts/      # Page layouts
+│   │   └── partials/     # Reusable components
+│   ├── css/              # Stylesheets
+│   ├── categories.njk    # Category pages template
+│   ├── tags.njk          # Tag pages template
+│   ├── feed.njk          # RSS feed template
+│   └── sitemap.njk       # XML sitemap template
+├── tests/                # Test files
+├── index.njk             # Homepage with pagination
+└── package.json
+```
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+## Content Structure
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+Blog posts are stored in `content/blog/` with the following structure:
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+```
+content/blog/YYYY-MM-DD/slug/post.md
+```
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+### Frontmatter
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+Each post requires the following frontmatter:
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+```yaml
+---
+title: Episode Title
+slug: custom-url-slug (optional)
+episode: 1
+date: '2018-07-30T23:20:55.000Z'
+categories:
+  - Technology
+  - Lifestyle
+tags:
+  - podcast
+  - apple
+enclosure:
+  url: https://example.com/episode.mp3
+  length: 12345678
+  type: audio/mpeg
+---
+```
 
-## 🎓 Learning Gatsby
+## Deployment
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+The site is configured for deployment to GitHub Pages or any static hosting service.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+### GitHub Pages
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+Build command: `npm run build`
+Publish directory: `_site`
 
-## 💫 Deploy
+### Other Hosts
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
+This site can be deployed to any static hosting service:
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-blog)
+## Performance
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+- **Build Time**: ~0.4 seconds
+- **Total Pages**: 283
+  - 171 episode pages
+  - 17 pagination pages
+  - 15 category pages
+  - 73 tag pages
+  - Plus index, feed, and sitemap
+
+## Migration Notes
+
+This site was migrated from Gatsby to 11ty in October 2025 to improve build performance and simplify the architecture. The migration maintained:
+- All 171 blog posts with full content
+- Audio player functionality for podcast episodes
+- Category and tag organization
+- RSS feed with podcast enclosures
+- SEO metadata and sitemap
+- Responsive design and styling
+
+## License
+
+Content © Jon Kohlmeier & Stan Lemon
+
+## Links
+
+- Website: https://twistoflemonpod.com/
+- Twitter: [@twistoflemonpod](https://twitter.com/twistoflemonpod)
