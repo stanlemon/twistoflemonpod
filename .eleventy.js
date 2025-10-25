@@ -1,9 +1,10 @@
-const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const Image = require("@11ty/eleventy-img");
+const filters = require("./lib/filters");
+const collections = require("./lib/collections");
 
 module.exports = function(eleventyConfig) {
   // Plugins
@@ -24,72 +25,15 @@ module.exports = function(eleventyConfig) {
   });
 
   // Filters
-  eleventyConfig.addFilter("readableDate", dateObj => {
-    if (!dateObj) return '';
-    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
-    return dt.isValid ? dt.toFormat("MMMM dd, yyyy") : '';
-  });
-
-  eleventyConfig.addFilter("htmlDateString", (dateObj) => {
-    if (!dateObj) return '';
-    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
-    return dt.isValid ? dt.toFormat('yyyy-MM-dd') : '';
-  });
-
-  eleventyConfig.addFilter("dateToRfc3339", (dateObj) => {
-    if (!dateObj) return '';
-    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
-    return dt.isValid ? dt.toISO() : '';
-  });
-
-  eleventyConfig.addFilter("dateToRfc822", (dateObj) => {
-    if (!dateObj) return '';
-    const dt = dateObj instanceof Date ? DateTime.fromJSDate(dateObj, {zone: 'utc'}) : DateTime.fromISO(dateObj, {zone: 'utc'});
-    return dt.isValid ? dt.toRFC2822() : '';
-  });
-
-  // Slugify filter for categories and tags
-  eleventyConfig.addFilter("slugify", (str) => {
-    return String(str)
-      .toLowerCase()
-      .trim()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/[\s_-]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-  });
-
-  // Get all unique categories
-  eleventyConfig.addFilter("getAllCategories", collection => {
-    let categories = new Set();
-    collection.forEach(item => {
-      (item.data.categories || []).forEach(cat => categories.add(cat));
-    });
-    return Array.from(categories).sort();
-  });
-
-  // Get all unique tags
-  eleventyConfig.addFilter("getAllTags", collection => {
-    let tags = new Set();
-    collection.forEach(item => {
-      (item.data.tags || []).forEach(tag => tags.add(tag));
-    });
-    return Array.from(tags).sort();
-  });
-
-  // Excerpt filter
-  eleventyConfig.addFilter("excerpt", (content, length = 200) => {
-    const text = content.replace(/<[^>]+>/g, '');
-    if (text.length <= length) return text;
-    return text.substring(0, length) + '...';
-  });
-
-  // Head filter - limit array to first n items
-  eleventyConfig.addFilter("head", (array, n) => {
-    if (n < 0) {
-      return array.slice(n);
-    }
-    return array.slice(0, n);
-  });
+  eleventyConfig.addFilter("readableDate", filters.readableDate);
+  eleventyConfig.addFilter("htmlDateString", filters.htmlDateString);
+  eleventyConfig.addFilter("dateToRfc3339", filters.dateToRfc3339);
+  eleventyConfig.addFilter("dateToRfc822", filters.dateToRfc822);
+  eleventyConfig.addFilter("slugify", filters.slugify);
+  eleventyConfig.addFilter("getAllCategories", filters.getAllCategories);
+  eleventyConfig.addFilter("getAllTags", filters.getAllTags);
+  eleventyConfig.addFilter("excerpt", filters.excerpt);
+  eleventyConfig.addFilter("head", filters.head);
 
   // Custom markdown library with anchor support
   let markdownLib = markdownIt({
@@ -148,66 +92,9 @@ module.exports = function(eleventyConfig) {
   });
 
   // Collections
-  eleventyConfig.addCollection("blog", function(collectionApi) {
-    return collectionApi.getFilteredByGlob("content/blog/**/*.md")
-      .sort((a, b) => b.date - a.date);
-  });
-
-  // Category collections - normalized by slug to avoid duplicates
-  eleventyConfig.addCollection("categories", function(collectionApi) {
-    let categories = {};
-    const slugify = (str) => String(str).toLowerCase().trim()
-      .replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
-
-    collectionApi.getFilteredByGlob("content/blog/**/*.md").forEach(item => {
-      (item.data.categories || []).forEach(category => {
-        const slug = slugify(category);
-        if (!categories[slug]) {
-          categories[slug] = {
-            name: category, // Keep the first occurrence's capitalization
-            slug: slug,
-            posts: []
-          };
-        }
-        categories[slug].posts.push(item);
-      });
-    });
-
-    // Sort posts in each category by date
-    Object.keys(categories).forEach(key => {
-      categories[key].posts.sort((a, b) => b.date - a.date);
-    });
-
-    return categories;
-  });
-
-  // Tag collections - normalized by slug to avoid duplicates
-  eleventyConfig.addCollection("tags", function(collectionApi) {
-    let tags = {};
-    const slugify = (str) => String(str).toLowerCase().trim()
-      .replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '-').replace(/^-+|-+$/g, '');
-
-    collectionApi.getFilteredByGlob("content/blog/**/*.md").forEach(item => {
-      (item.data.tags || []).forEach(tag => {
-        const slug = slugify(tag);
-        if (!tags[slug]) {
-          tags[slug] = {
-            name: tag, // Keep the first occurrence's capitalization
-            slug: slug,
-            posts: []
-          };
-        }
-        tags[slug].posts.push(item);
-      });
-    });
-
-    // Sort posts in each tag by date
-    Object.keys(tags).forEach(key => {
-      tags[key].posts.sort((a, b) => b.date - a.date);
-    });
-
-    return tags;
-  });
+  eleventyConfig.addCollection("blog", collections.buildBlogCollection);
+  eleventyConfig.addCollection("categories", collections.buildCategoriesCollection);
+  eleventyConfig.addCollection("tags", collections.buildTagsCollection);
 
   return {
     dir: {
