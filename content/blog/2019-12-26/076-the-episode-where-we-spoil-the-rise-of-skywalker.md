@@ -10,8 +10,8 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/076-lwatol-20191236.mp3
-  length: null
-  type: null
+  length: 48684000
+  type: audio/mpeg
 ---
 
 Dear listener,

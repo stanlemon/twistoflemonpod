@@ -10,7 +10,7 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/034-lwatol-20190307.mp3
-  length: 222
+  length: 55095202
   type: audio/mpeg
 ---
 

@@ -11,7 +11,7 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/002-lwatol-20180801.mp3
-  length: 221
+  length: 34180071
   type: audio/mpeg
 ---
 

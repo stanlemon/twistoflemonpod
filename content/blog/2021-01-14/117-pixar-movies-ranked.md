@@ -12,8 +12,8 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/117-lwatol-20210114.mp3
-  length: null
-  type: null
+  length: 45600373
+  type: audio/mpeg
 ---
 
 Dear Listener,

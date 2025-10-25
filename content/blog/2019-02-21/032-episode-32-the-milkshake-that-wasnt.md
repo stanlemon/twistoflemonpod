@@ -13,7 +13,7 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/032-lwatol-20190221.mp3
-  length: 222
+  length: 34823863
   type: audio/mpeg
 ---
 

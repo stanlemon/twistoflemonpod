@@ -13,7 +13,7 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/061-lwatol-20190905.mp3
-  length: 222
+  length: 39219782
   type: audio/mpeg
 ---
 

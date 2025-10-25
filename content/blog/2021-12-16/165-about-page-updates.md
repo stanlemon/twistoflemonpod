@@ -10,8 +10,8 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/165-lwatol-20211216.mp3
-  length: null
-  type: null
+  length: 39634164
+  type: audio/mpeg
 ---
 
 Dear Listener,

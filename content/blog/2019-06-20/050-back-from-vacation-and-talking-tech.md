@@ -13,7 +13,7 @@ tags:
 enclosure:
   url: >-
     https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/050-lwatol-20190620.mp3
-  length: 222
+  length: 41147474
   type: audio/mpeg
 ---
 
