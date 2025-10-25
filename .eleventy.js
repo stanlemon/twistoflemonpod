@@ -208,9 +208,9 @@ module.exports = function(eleventyConfig) {
       data: "src/_data",
       output: "_site"
     },
-    templateFormats: ["md", "njk", "html", "liquid"],
-    markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk"
+    templateFormats: ["md", "html", "liquid"],
+    markdownTemplateEngine: "liquid",
+    htmlTemplateEngine: "liquid",
+    dataTemplateEngine: "liquid"
   };
 };

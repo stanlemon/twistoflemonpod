@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/base.liquid
 ---
 
 <article class="blog-post">
@@ -10,7 +10,7 @@ layout: layouts/base.njk
     {% if enclosure and enclosure.url %}
       <div class="audio-player">
         <audio id="player" controls>
-          <source src="{{ enclosure.url }}" type="{{ enclosure.type or 'audio/mpeg' }}">
+          <source src="{{ enclosure.url }}" type="{{ enclosure.type | default: 'audio/mpeg' }}">
           Your browser does not support the audio element.
         </audio>
       </div>
@@ -18,24 +18,23 @@ layout: layouts/base.njk
   </header>
 
   <section class="post-content">
-    {{ content | safe }}
+    {{ content }}
   </section>
 
-  {% import "partials/tags.njk" as tagsHelper %}
-  {{ tagsHelper.render("tags", "tag", tags) }}
-  {{ tagsHelper.render("categories", "category", categories) }}
+  {% include "partials/tags.liquid" label="tags" prefix="tag" values=tags %}
+  {% include "partials/tags.liquid" label="categories" prefix="category" values=categories %}
 
   <hr>
 
   <footer>
-    {% include "partials/bio.njk" %}
+    {% include "partials/bio.liquid" %}
   </footer>
 </article>
 
 <nav class="post-navigation">
   <div>
     {% if collections.blog %}
-      {% set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+      {% assign previousPost = collections.blog | getPreviousCollectionItem: page %}
       {% if previousPost %}
         <a href="{{ previousPost.url }}" rel="prev">← {{ previousPost.data.title }}</a>
       {% endif %}
@@ -43,7 +42,7 @@ layout: layouts/base.njk
   </div>
   <div>
     {% if collections.blog %}
-      {% set nextPost = collections.blog | getNextCollectionItem(page) %}
+      {% assign nextPost = collections.blog | getNextCollectionItem: page %}
       {% if nextPost %}
         <a href="{{ nextPost.url }}" rel="next">{{ nextPost.data.title }} →</a>
       {% endif %}

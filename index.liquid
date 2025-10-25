@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/base.liquid
 title: All Posts
 pagination:
   data: collections.blog
@@ -18,12 +18,11 @@ pagination:
         <small>{{ post.date | readableDate }}</small>
       </header>
       <section>
-        <p>{{ post.data.description or (post.templateContent | excerpt(200)) }}</p>
+        <p>{{ post.data.description | default: post.templateContent | excerpt: 200 }}</p>
       </section>
 
-      {% import "partials/tags.njk" as tagsHelper %}
-      {{ tagsHelper.render("tags", "tag", post.data.tags) }}
-      {{ tagsHelper.render("categories", "category", post.data.categories) }}
+      {% include "partials/tags.liquid" label="tags" prefix="tag" values=post.data.tags %}
+      {% include "partials/tags.liquid" label="categories" prefix="category" values=post.data.categories %}
     </article>
   {% endfor %}
 </div>

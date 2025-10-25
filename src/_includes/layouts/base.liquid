@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {% include "partials/seo.njk" %}
+  {% include "partials/seo.liquid" %}
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/typography.css">
@@ -12,10 +12,10 @@
 </head>
 <body>
   <div class="container">
-    {% include "partials/nav.njk" %}
+    {% include "partials/nav.liquid" %}
 
     <main class="main">
-      {{ content | safe }}
+      {{ content }}
     </main>
   </div>
 </body>

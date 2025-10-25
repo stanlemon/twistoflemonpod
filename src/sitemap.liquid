@@ -23,20 +23,20 @@ eleventyExcludeFromCollections: true
   {% endfor %}
 
   {# Category pages #}
-  {% for slug, categoryData in collections.categories %}
+  {% for category in collections.categories %}
   <url>
-    <loc>{{ site.url }}/category/{{ slug }}/</loc>
-    <lastmod>{{ categoryData.posts[0].date | htmlDateString }}</lastmod>
+    <loc>{{ site.url }}/category/{{ category[0] }}/</loc>
+    <lastmod>{{ category[1].posts[0].date | htmlDateString }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   {% endfor %}
 
   {# Tag pages #}
-  {% for slug, tagData in collections.tags %}
+  {% for tag in collections.tags %}
   <url>
-    <loc>{{ site.url }}/tag/{{ slug }}/</loc>
-    <lastmod>{{ tagData.posts[0].date | htmlDateString }}</lastmod>
+    <loc>{{ site.url }}/tag/{{ tag[0] }}/</loc>
+    <lastmod>{{ tag[1].posts[0].date | htmlDateString }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

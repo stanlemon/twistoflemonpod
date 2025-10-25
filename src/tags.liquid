@@ -1,0 +1,37 @@
+---
+pagination:
+  data: collections.tags
+  size: 1
+  alias: tagSlug
+permalink: /tag/{{ tagSlug }}/
+layout: layouts/base.liquid
+---
+
+{% assign tagData = collections.tags[tagSlug] %}
+{% assign posts = tagData.posts %}
+{% assign tagName = tagData.name %}
+{% assign title = "Tag: " | append: tagName %}
+
+<h1>Tag: {{ tagName }}</h1>
+<p>{{ posts | size }} post{% if posts.size != 1 %}s{% endif %}</p>
+
+<div class="blog-grid">
+  {% for post in posts %}
+    <article class="blog-post-card">
+      <header>
+        <h3>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <small>{{ post.date | readableDate }}</small>
+      </header>
+      <section>
+        <p>{{ post.data.description | default: post.templateContent | excerpt: 200 }}</p>
+      </section>
+
+      {% include "partials/tags.liquid" label="tags" prefix="tag" values=post.data.tags %}
+      {% include "partials/tags.liquid" label="categories" prefix="category" values=post.data.categories %}
+    </article>
+  {% endfor %}
+</div>
+
+<p><a href="/">← Back to home</a></p>

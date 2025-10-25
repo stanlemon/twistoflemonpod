@@ -19,18 +19,18 @@ eleventyExcludeFromCollections: true
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>no</itunes:explicit>
 
-    {% for post in collections.blog | reverse | head(20) %}
+    {% for post in collections.blog | reverse | head: 20 %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-      <description>{{ post.data.description or (post.templateContent | excerpt(300)) }}</description>
-      <content:encoded><![CDATA[{{ post.templateContent | safe }}]]></content:encoded>
+      <description>{{ post.data.description | default: post.templateContent | excerpt: 300 }}</description>
+      <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
 
       {% if post.data.enclosure and post.data.enclosure.url %}
-      <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type or 'audio/mpeg' }}"/>
-      <itunes:duration>{{ post.data.enclosure.duration or '' }}</itunes:duration>
+      <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type | default: 'audio/mpeg' }}"/>
+      <itunes:duration>{{ post.data.enclosure.duration | default: '' }}</itunes:duration>
       {% endif %}
 
       {% if post.data.episode %}
