@@ -1,6 +1,9 @@
-name: Build Validation
+name: Build, Test, and Deploy
 
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
@@ -24,6 +27,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Run tests
+        run: npm test
+
       - name: Run Prettier check
         run: npm run format -- --check
 
@@ -37,3 +43,14 @@ jobs:
             exit 1
           fi
           echo "Build successful - public directory created"
+
+      # NOTE: This deploy step is likely unnecessary since Cloudflare Pages
+      # automatically deploys from the repository. This can be removed once
+      # we're confident Cloudflare Pages is handling all deployments.
+      - name: Deploy 🚀
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          CLEAN: true
+          BRANCH: gh-pages
+          FOLDER: _site
