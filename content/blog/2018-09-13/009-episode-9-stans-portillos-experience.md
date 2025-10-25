@@ -1,6 +1,6 @@
 ---
-title: Episode 9 - Stan's Portillo's Experience
-slug: episode-9-stans-portillos-experience
+title: Stan's Portillo's Experience
+slug: stans-portillos-experience
 episode: 9
 date: '2018-09-13T07:00:51.000Z'
 categories:

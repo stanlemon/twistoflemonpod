@@ -1,6 +1,6 @@
 ---
-title: Episode 14 - Milkshakes power our productivity
-slug: episode-14-milkshakes-power-our-productivity
+title: Milkshakes power our productivity
+slug: milkshakes-power-our-productivity
 episode: 14
 date: '2018-10-18T12:19:59.000Z'
 categories:

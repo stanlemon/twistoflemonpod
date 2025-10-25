@@ -1,6 +1,6 @@
 ---
-title: Episode 12 - Where you're sure to find something that interests you
-slug: episode-12-where-youre-sure-to-find-something-that-interests-you
+title: Where you're sure to find something that interests you
+slug: where-youre-sure-to-find-something-that-interests-you
 episode: 12
 date: '2018-10-04T07:00:36.000Z'
 categories:

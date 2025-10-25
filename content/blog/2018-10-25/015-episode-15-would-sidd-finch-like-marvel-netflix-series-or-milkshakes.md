@@ -1,6 +1,6 @@
 ---
-title: Episode 15 - Would Sidd Finch like Marvel Netflix Series (or milkshakes)?
-slug: episode-15-would-sidd-finch-like-marvel-netflix-series-or-milkshakes
+title: Would Sidd Finch like Marvel Netflix Series (or milkshakes)?
+slug: would-sidd-finch-like-marvel-netflix-series-or-milkshakes
 episode: 15
 date: '2018-10-25T11:59:12.000Z'
 categories:

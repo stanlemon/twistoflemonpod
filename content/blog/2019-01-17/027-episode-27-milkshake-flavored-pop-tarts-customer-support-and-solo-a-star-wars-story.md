@@ -1,9 +1,6 @@
 ---
-title: >-
-  Episode 27 - Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star
-  Wars Story
-slug: >-
-  episode-27-milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story
+title: 'Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story'
+slug: milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story
 episode: 27
 date: '2019-01-17T13:39:48.000Z'
 categories:

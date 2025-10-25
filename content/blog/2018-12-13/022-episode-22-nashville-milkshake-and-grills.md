@@ -1,6 +1,6 @@
 ---
-title: Episode 22 - Nashville Milkshake and Grills
-slug: episode-22-nashville-milkshake-and-grills
+title: Nashville Milkshake and Grills
+slug: nashville-milkshake-and-grills
 episode: 22
 date: '2018-12-13T13:12:47.000Z'
 categories:

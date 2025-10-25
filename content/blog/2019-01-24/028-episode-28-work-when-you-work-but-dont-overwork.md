@@ -1,6 +1,6 @@
 ---
-title: 'Episode 28 - Work When You Work, But Don''t Overwork'
-slug: episode-28-work-when-you-work-but-dont-overwork
+title: 'Work When You Work, But Don''t Overwork'
+slug: work-when-you-work-but-dont-overwork
 episode: 28
 date: '2019-01-24T12:38:34.000Z'
 categories:

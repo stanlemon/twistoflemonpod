@@ -1,6 +1,6 @@
 ---
-title: Episode 6 - Atlanta and Alexa
-slug: 006-atlanta-alexa
+title: Atlanta and Alexa
+slug: atlanta-alexa
 episode: 6
 date: '2018-08-23T07:00:51.000Z'
 categories:

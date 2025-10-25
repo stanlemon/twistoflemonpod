@@ -1,6 +1,6 @@
 ---
-title: 'Episode 20 - Support Pastor Fritsche, get a Sticker.'
-slug: episode-20-support-pastor-fritsche-get-a-sticker
+title: 'Support Pastor Fritsche, get a Sticker.'
+slug: support-pastor-fritsche-get-a-sticker
 episode: 20
 date: '2018-11-29T08:00:56.000Z'
 categories:

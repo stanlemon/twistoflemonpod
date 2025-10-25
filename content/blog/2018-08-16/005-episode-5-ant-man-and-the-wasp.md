@@ -1,6 +1,6 @@
 ---
-title: Episode 5 - Ant Man and the Wasp
-slug: episode-5-ant-man-and-the-wasp
+title: Ant Man and the Wasp
+slug: ant-man-and-the-wasp
 episode: 5
 date: '2018-08-16T07:00:40.000Z'
 categories:

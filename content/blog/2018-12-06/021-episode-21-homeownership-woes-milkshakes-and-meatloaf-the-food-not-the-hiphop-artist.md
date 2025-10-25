@@ -1,9 +1,6 @@
 ---
-title: >-
-  Episode 21 - Homeownership Woes, Milkshakes and Meatloaf (The food, not the
-  hiphop artist)
-slug: >-
-  episode-21-homeownership-woes-milkshakes-and-meatloaf-the-food-not-the-hiphop-artist
+title: 'Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)'
+slug: homeownership-woes-milkshakes-and-meatloaf-the-food-not-the-hiphop-artist
 episode: 21
 date: '2018-12-06T12:29:47.000Z'
 categories:

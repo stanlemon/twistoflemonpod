@@ -1,6 +1,6 @@
 ---
-title: Episode 24 - New Year's Resolutions and Note-Taking Apps.
-slug: episode-24-new-years-resolutions-and-note-taking-apps
+title: New Year's Resolutions and Note-Taking Apps.
+slug: new-years-resolutions-and-note-taking-apps
 episode: 24
 date: '2018-12-27T16:19:26.000Z'
 categories:

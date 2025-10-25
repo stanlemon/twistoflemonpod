@@ -1,6 +1,6 @@
 ---
-title: 'Episode 3 - Web Browsers, Word Processors, and Budgeting'
-slug: 003-web-browsers-word-processors-budgeting
+title: 'Web Browsers, Word Processors, and Budgeting'
+slug: web-browsers-word-processors-budgeting
 episode: 3
 date: '2018-08-02T03:24:08.000Z'
 categories:

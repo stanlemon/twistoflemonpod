@@ -1,6 +1,6 @@
 ---
-title: Episode 25 - The Budget Episode
-slug: episode-25-the-budget-episode
+title: The Budget Episode
+slug: the-budget-episode
 episode: 25
 date: '2019-01-03T12:31:14.000Z'
 categories:

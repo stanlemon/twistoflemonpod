@@ -1,6 +1,6 @@
 ---
-title: Episode 52 But Not the Anniversary Episode.
-slug: episode-52-but-not-the-anniversary-episode
+title: But Not the Anniversary Episode.
+slug: but-not-the-anniversary-episode
 episode: 52
 date: '2019-07-04T15:17:11.000Z'
 categories:

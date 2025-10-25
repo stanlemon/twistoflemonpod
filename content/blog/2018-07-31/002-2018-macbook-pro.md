@@ -1,6 +1,6 @@
 ---
-title: Episode 2 - The 2018 MacBook Pro
-slug: 002-2018-macbook-pro
+title: The 2018 MacBook Pro
+slug: 2018-macbook-pro
 episode: 2
 date: '2018-08-01T02:18:22.000Z'
 categories:

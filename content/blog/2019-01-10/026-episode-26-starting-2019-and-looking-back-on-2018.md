@@ -1,6 +1,6 @@
 ---
-title: Episode 26 - Starting 2019 and Looking Back on 2018
-slug: episode-26-starting-2019-and-looking-back-on-2018
+title: Starting 2019 and Looking Back on 2018
+slug: starting-2019-and-looking-back-on-2018
 episode: 26
 date: '2019-01-10T12:49:42.000Z'
 categories:

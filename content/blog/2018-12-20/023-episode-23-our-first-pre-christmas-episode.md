@@ -1,6 +1,6 @@
 ---
-title: Episode 23 - Our First Pre-Christmas Episode
-slug: episode-23-our-first-pre-christmas-episode
+title: Our First Pre-Christmas Episode
+slug: our-first-pre-christmas-episode
 episode: 23
 date: '2018-12-20T12:37:29.000Z'
 categories:

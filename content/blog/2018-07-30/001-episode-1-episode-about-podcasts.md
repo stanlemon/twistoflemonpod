@@ -1,6 +1,6 @@
 ---
-title: Episode 1 - A Podcast Episode About Podcasts?
-slug: episode-1-episode-about-podcasts
+title: A Podcast Episode About Podcasts?
+slug: episode-about-podcasts
 episode: 1
 date: '2018-07-30T23:20:55.000Z'
 categories:

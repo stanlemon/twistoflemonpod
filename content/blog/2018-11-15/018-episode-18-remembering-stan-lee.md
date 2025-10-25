@@ -1,6 +1,6 @@
 ---
-title: Episode 18 - Remembering Stan Lee
-slug: episode-18-remembering-stan-lee
+title: Remembering Stan Lee
+slug: remembering-stan-lee
 episode: 18
 date: '2018-11-15T12:29:40.000Z'
 categories:

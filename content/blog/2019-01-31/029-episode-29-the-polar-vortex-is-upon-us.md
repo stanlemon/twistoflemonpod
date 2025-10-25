@@ -1,6 +1,6 @@
 ---
-title: Episode 29 - The Polar Vortex is Upon Us!
-slug: episode-29-the-polar-vortex-is-upon-us
+title: The Polar Vortex is Upon Us!
+slug: the-polar-vortex-is-upon-us
 episode: 29
 date: '2019-01-31T13:41:28.000Z'
 categories:

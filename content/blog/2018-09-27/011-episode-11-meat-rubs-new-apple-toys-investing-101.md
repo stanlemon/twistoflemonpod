@@ -1,6 +1,6 @@
 ---
-title: 'Episode 11 - Meat Rubs, New Apple Toys, Investing 101'
-slug: episode-11-meat-rubs-new-apple-toys-investing-101
+title: 'Meat Rubs, New Apple Toys, Investing 101'
+slug: meat-rubs-new-apple-toys-investing-101
 episode: 11
 date: '2018-09-27T10:38:53.000Z'
 categories:

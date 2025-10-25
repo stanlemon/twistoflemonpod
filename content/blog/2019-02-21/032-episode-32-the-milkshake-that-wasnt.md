@@ -1,6 +1,6 @@
 ---
-title: Episode 32 - The Milkshake that Wasn't
-slug: episode-32-the-milkshake-that-wasnt
+title: The Milkshake that Wasn't
+slug: the-milkshake-that-wasnt
 episode: 32
 date: '2019-02-21T12:26:22.000Z'
 categories:

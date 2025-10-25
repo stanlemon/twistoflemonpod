@@ -1,6 +1,6 @@
 ---
-title: Episode 10 - What to look for when looking at Houses (Top 10!)
-slug: episode-10-what-to-look-for-when-looking-at-houses-top-10
+title: What to look for when looking at Houses (Top 10!)
+slug: what-to-look-for-when-looking-at-houses-top-10
 episode: 10
 date: '2018-09-20T07:00:24.000Z'
 categories:

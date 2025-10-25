@@ -1,6 +1,6 @@
 ---
-title: 'Episode 7 - Fort Wayne, Milkshakes, and The Death of Twitter'
-slug: 007-fort-wayne-milkshakes-twitter
+title: 'Fort Wayne, Milkshakes, and The Death of Twitter'
+slug: fort-wayne-milkshakes-twitter
 episode: 7
 date: '2018-08-30T07:00:54.000Z'
 categories:

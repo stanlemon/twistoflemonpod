@@ -1,6 +1,6 @@
 ---
-title: Episode 30 - Maybe Weezer Should have Performed  the Super Bowl Halftime Show
-slug: episode-30-maybe-weezer-should-have-performed-the-super-bowl-halftime-show
+title: Maybe Weezer Should have Performed  the Super Bowl Halftime Show
+slug: maybe-weezer-should-have-performed-the-super-bowl-halftime-show
 episode: 30
 date: '2019-02-07T12:58:41.000Z'
 categories:

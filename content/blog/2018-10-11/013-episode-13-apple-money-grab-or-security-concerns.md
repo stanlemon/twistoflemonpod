@@ -1,6 +1,6 @@
 ---
-title: Episode 13 -  Apple Money Grab... or security concerns?
-slug: episode-13-apple-money-grab-or-security-concerns
+title: Apple Money Grab... or security concerns?
+slug: apple-money-grab-or-security-concerns
 episode: 13
 date: '2018-10-11T11:32:45.000Z'
 categories:

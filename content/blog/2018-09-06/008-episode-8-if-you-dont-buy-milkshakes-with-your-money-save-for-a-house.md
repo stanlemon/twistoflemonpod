@@ -1,6 +1,6 @@
 ---
-title: 'Episode 8 - If you don''t buy milkshakes with your money, save for a house!'
-slug: episode-8-if-you-dont-buy-milkshakes-with-your-money-save-for-a-house
+title: 'If you don''t buy milkshakes with your money, save for a house!'
+slug: if-you-dont-buy-milkshakes-with-your-money-save-for-a-house
 episode: 8
 date: '2018-09-06T07:00:48.000Z'
 categories:

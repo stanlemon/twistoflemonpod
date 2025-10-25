@@ -1,6 +1,6 @@
 ---
-title: Episode 4 - Stan's back from Disney World!
-slug: 004-disney-world
+title: Stan's back from Disney World!
+slug: disney-world
 episode: 4
 date: '2018-08-09T08:00:30.000Z'
 categories:

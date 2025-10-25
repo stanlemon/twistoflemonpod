@@ -1,6 +1,6 @@
 ---
-title: 'Episode 31 - Snow, Football, Star Trek and Twitter'
-slug: episode-31-snow-football-star-trek-and-twitter
+title: 'Snow, Football, Star Trek and Twitter'
+slug: snow-football-star-trek-and-twitter
 episode: 31
 date: '2019-02-14T13:11:53.000Z'
 categories:

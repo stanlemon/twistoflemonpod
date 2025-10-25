@@ -1,6 +1,6 @@
 ---
-title: Episode 19 - Jon Moved In!
-slug: episode-19-jon-moved-in
+title: Jon Moved In!
+slug: jon-moved-in
 episode: 19
 date: '2018-11-22T13:40:16.000Z'
 categories:

@@ -1,6 +1,6 @@
 ---
-title: Episode 16 - The Best Podcast you Probably Won't Listen To
-slug: episode-16-the-best-podcast-you-probably-wont-listen-to
+title: The Best Podcast you Probably Won't Listen To
+slug: the-best-podcast-you-probably-wont-listen-to
 episode: 16
 date: '2018-11-01T12:02:28.000Z'
 categories:

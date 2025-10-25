@@ -1,6 +1,6 @@
 ---
-title: 'Episode 17 - Reformation, Voting, and Kanban Moving Boards'
-slug: episode-17-reformation-voting-and-kanban-moving-boards
+title: 'Reformation, Voting, and Kanban Moving Boards'
+slug: reformation-voting-and-kanban-moving-boards
 episode: 17
 date: '2018-11-08T13:00:16.000Z'
 categories:
