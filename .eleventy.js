@@ -11,10 +11,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   // Copy static assets
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy("static");
-  eleventyConfig.addPassthroughCopy("content/assets");
+  eleventyConfig.addPassthroughCopy({
+    "src/css": "css",
+    "src/images": "images",
+    "static": "."
+  });
 
   // Copy Plyr CSS and JS
   eleventyConfig.addPassthroughCopy({
