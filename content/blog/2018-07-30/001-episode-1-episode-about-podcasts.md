@@ -9,7 +9,7 @@ tags:
   - vacation
 enclosure:
   url: >-
-    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180731.mp3
+    https://twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/001-lwatol-20180802.mp3
   length: 221
   type: audio/mpeg
 ---
