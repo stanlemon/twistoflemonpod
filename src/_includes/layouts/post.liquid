@@ -17,6 +17,15 @@ layout: layouts/base.liquid
         </audio>
       </div>
     {% endif %}
+
+    {% if episode %}
+      {% assign transcript = collections | findTranscript: episode %}
+      {% if transcript %}
+        <p class="transcript-link">
+          📄 <a href="{{ transcript.url }}">View Transcript</a>
+        </p>
+      {% endif %}
+    {% endif %}
   </header>
 
   <section class="post-content" itemprop="articleBody">

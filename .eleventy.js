@@ -35,6 +35,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("getAllTags", filters.getAllTags);
   eleventyConfig.addFilter("excerpt", filters.excerpt);
   eleventyConfig.addFilter("head", filters.head);
+  eleventyConfig.addFilter("findTranscript", filters.findTranscript);
 
   // Custom markdown library with anchor support
   let markdownLib = markdownIt({
@@ -96,6 +97,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addCollection("blog", collections.buildBlogCollection);
   eleventyConfig.addCollection("categories", collections.buildCategoriesCollection);
   eleventyConfig.addCollection("tags", collections.buildTagsCollection);
+  eleventyConfig.addCollection("transcripts", collections.buildTranscriptsCollection);
 
   // Dev server configuration
   // Note: Using port 8081 instead of 8080 due to macOS Sonoma (14.x+) reserving port 8080
