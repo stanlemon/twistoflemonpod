@@ -148,6 +148,89 @@ tests/               # Test suite
 <span class="token function">npm</span> <span class="token builtin class-name">test</span>
 <span class="token function">npm</span> run build</code></pre>
 <h2 id="recent-work-%26-learnings" tabindex="-1">Recent Work &amp; Learnings</h2>
+<h3 id="seo-improvements-(2025-10-26)" tabindex="-1">SEO Improvements (2025-10-26)</h3>
+<p><strong>Goal:</strong> Comprehensive SEO analysis and improvements for better search visibility and podcast discovery.</p>
+<p><strong>Implemented Changes:</strong></p>
+<ol>
+<li>
+<p><strong>Structured Data (JSON-LD)</strong></p>
+<ul>
+<li>Created <code>src/_includes/partials/structured-data.liquid</code></li>
+<li>PodcastEpisode schema for all episodes</li>
+<li>BlogPosting schema for SEO</li>
+<li>WebSite schema for homepage</li>
+<li>Organization schema for brand identity</li>
+</ul>
+</li>
+<li>
+<p><strong>Enhanced Meta Tags</strong></p>
+<ul>
+<li>Added Open Graph images (og:image with dimensions)</li>
+<li>Added og:audio tags for podcast episodes</li>
+<li>Upgraded Twitter Card to summary_large_image</li>
+<li>Added meta keywords and author tags</li>
+<li>Improved title tag strategy (no site name on posts to avoid truncation)</li>
+</ul>
+</li>
+<li>
+<p><strong>Semantic HTML</strong></p>
+<ul>
+<li>Added ARIA roles (main, navigation, contentinfo)</li>
+<li>Added microdata to blog posts (itemscope, itemprop)</li>
+<li>Proper time elements with datetime attributes</li>
+<li>Enhanced accessibility with aria-labels</li>
+</ul>
+</li>
+<li>
+<p><strong>Breadcrumb Navigation</strong></p>
+<ul>
+<li>Created <code>src/_includes/partials/breadcrumb.liquid</code></li>
+<li><a href="http://Schema.org">Schema.org</a> BreadcrumbList markup</li>
+<li>Applied to category and tag archive pages</li>
+</ul>
+</li>
+<li>
+<p><strong>Improved robots.txt</strong></p>
+<ul>
+<li>Added sitemap reference</li>
+<li>Explicitly allowed feed.xml for podcast aggregators</li>
+</ul>
+</li>
+<li>
+<p><strong>RSS Feed Auto-Discovery</strong></p>
+<ul>
+<li>Added link tag to all pages for browser/app discovery</li>
+</ul>
+</li>
+<li>
+<p><strong>Enhanced Archive Pages</strong></p>
+<ul>
+<li>Dynamic meta descriptions for categories and tags</li>
+<li>Better titles for SEO</li>
+</ul>
+</li>
+</ol>
+<p><strong>Documentation Created:</strong></p>
+<ul>
+<li><code>SEO-GUIDE.md</code> - Comprehensive SEO implementation guide</li>
+<li><code>SECURITY-HEADERS.md</code> - HTTP security headers recommendations</li>
+</ul>
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Podcast episodes will appear in Google Podcasts search</li>
+<li>Rich snippets in Google search results (articles, breadcrumbs)</li>
+<li>Better social media sharing with images</li>
+<li>Improved accessibility scores</li>
+<li>Enhanced podcast app discovery (Apple Podcasts, Spotify)</li>
+</ul>
+<p><strong>Key Learning:</strong> Modern SEO requires multiple layers:</p>
+<ol>
+<li>Structured data for search engine understanding</li>
+<li>Meta tags for social media</li>
+<li>Semantic HTML for accessibility</li>
+<li>Clear site hierarchy with breadcrumbs</li>
+<li>Proper robots.txt and sitemap</li>
+</ol>
 <h3 id="podcast-feed-enclosure-metadata-(2025-10-25)" tabindex="-1">Podcast Feed Enclosure Metadata (2025-10-25)</h3>
 <p><strong>Problem:</strong> The RSS feed's <code>&lt;enclosure&gt;</code> tags were missing or had incorrect metadata:</p>
 <ul>

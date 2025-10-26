@@ -3,25 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
 
-  <title>All Posts | Life with a Twist of Lemon</title>
-<meta name="description" content="A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.">
+  <title>Life with a Twist of Lemon - A Podcast about Technology, Finance, Life, and More</title>
+<meta name="description" content="Listen to Jon Kohlmeier & Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.">
+<meta name="author" content="Jon Kohlmeier & Stan Lemon">
+<meta name="keywords" content="podcast, technology, finance, life, craftsmanship, theology">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://twistoflemonpod.com/6/">
-<meta property="og:title" content="All Posts | Life with a Twist of Lemon">
-<meta property="og:description" content="A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.">
+<meta property="og:title" content="Life with a Twist of Lemon - A Podcast about Technology, Finance, Life, and More">
+<meta property="og:description" content="Listen to Jon Kohlmeier & Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.">
+<meta property="og:image" content="https://twistoflemonpod.com/images/logo.png">
+<meta property="og:image:alt" content="Life with a Twist of Lemon Logo">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:site_name" content="Life with a Twist of Lemon">
+<meta property="og:locale" content="en_US">
+
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@twistoflemonpod">
 <meta name="twitter:creator" content="@twistoflemonpod">
 <meta name="twitter:url" content="https://twistoflemonpod.com/6/">
-<meta name="twitter:title" content="All Posts | Life with a Twist of Lemon">
-<meta name="twitter:description" content="A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.">
+<meta name="twitter:title" content="Life with a Twist of Lemon - A Podcast about Technology, Finance, Life, and More">
+<meta name="twitter:description" content="Listen to Jon Kohlmeier & Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.">
+<meta name="twitter:image" content="https://twistoflemonpod.com/images/logo.png">
+<meta name="twitter:image:alt" content="Life with a Twist of Lemon Logo">
 
 <!-- Canonical URL -->
 <link rel="canonical" href="https://twistoflemonpod.com/6/">
+
+<!-- RSS Feed Auto-Discovery -->
+<link rel="alternate" type="application/rss+xml" title="Life with a Twist of Lemon RSS Feed" href="https://twistoflemonpod.com/feed.xml">
+
+
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Life with a Twist of Lemon",
+  "url": "https://twistoflemonpod.com",
+  "description": "A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://twistoflemonpod.com/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Life with a Twist of Lemon",
+  "url": "https://twistoflemonpod.com",
+  "logo": "https://twistoflemonpod.com/images/logo.png",
+  "sameAs": [
+    "https://twitter.com/twistoflemonpod"
+  ]
+}
+</script>
+
 
 
   <link rel="stylesheet" href="/css/main.css">
@@ -30,8 +83,8 @@
 </head>
 <body>
   <div class="container">
-    <nav class="nav">
-  <a href="/">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+  <a href="/" aria-label="Home">
     <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
   </a>
   <h1>
@@ -40,7 +93,7 @@
 </nav>
 
 
-    <main class="main">
+    <main class="main" role="main">
       
 <div class="blog-grid">
   
@@ -467,17 +520,17 @@ A brief update on Jon's house condition and the argument f...</p>
 
 <nav class="pagination" aria-label="Pagination">
   
-    <a href="/5/">← Previous</a>
+    <a href="/5/" rel="prev">← Previous</a>
   
 
   
-    <a href="/7/">Next →</a>
+    <a href="/7/" rel="next">Next →</a>
   
 </nav>
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <p>Copyright &copy; 2025 by <a href="https://stanlemon.com">Stan Lemon</a> &amp; <a href="https://jonkohlmeier.com">Jon Kohlmeier</a></p>
     </footer>
   </div>
