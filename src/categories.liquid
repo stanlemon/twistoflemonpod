@@ -5,13 +5,14 @@ pagination:
   alias: categorySlug
 permalink: /category/{{ categorySlug }}/
 layout: layouts/base.liquid
+eleventyComputed:
+  title: "Category: {{ collections.categories[categorySlug].name }} - Life with a Twist of Lemon"
+  description: "Browse {{ collections.categories[categorySlug].posts.size }} posts in the {{ collections.categories[categorySlug].name }} category."
 ---
 
 {% assign categoryData = collections.categories[categorySlug] %}
 {% assign posts = categoryData.posts %}
 {% assign categoryName = categoryData.name %}
-{% assign title = "Category: " | append: categoryName %}
-{% assign description = "Browse " | append: posts.size | append: " posts in the " | append: categoryName | append: " category." %}
 
 {% include "partials/breadcrumb.liquid" %}
 

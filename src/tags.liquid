@@ -5,13 +5,14 @@ pagination:
   alias: tagSlug
 permalink: /tag/{{ tagSlug }}/
 layout: layouts/base.liquid
+eleventyComputed:
+  title: "Tag: {{ collections.tags[tagSlug].name }} - Life with a Twist of Lemon"
+  description: "Browse {{ collections.tags[tagSlug].posts.size }} posts tagged with {{ collections.tags[tagSlug].name }}."
 ---
 
 {% assign tagData = collections.tags[tagSlug] %}
 {% assign posts = tagData.posts %}
 {% assign tagName = tagData.name %}
-{% assign title = "Tag: " | append: tagName %}
-{% assign description = "Browse " | append: posts.size | append: " posts tagged with " | append: tagName | append: "." %}
 
 {% include "partials/breadcrumb.liquid" %}
 
