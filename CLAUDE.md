@@ -160,6 +160,20 @@ npm run clean && npm run build
 
 Utility scripts are located in `scripts/` directory:
 
+### Script Storage Policy
+
+**IMPORTANT:** One-off refactoring scripts should NOT be committed to git.
+
+- **DO commit:** Reusable utility scripts that will be run multiple times (e.g., `update-enclosure-metadata.js`)
+- **DO NOT commit:** One-time refactoring scripts created for specific cleanup tasks (e.g., `rename-transcripts-to-match-mp3.js`, `add-frontmatter-to-transcripts.js`, `copy-transcripts-to-posts.js`)
+- **Reason:** Keeps the repository clean and focused on actively maintained utilities
+
+When creating a one-off refactoring script:
+1. Create it in the `scripts/` directory
+2. Run it to complete the refactoring
+3. DO NOT add it to git (add to `.gitignore` if needed)
+4. Delete it after the refactoring is complete and committed
+
 ### Content Management Scripts (JavaScript/Node.js)
 - `update-enclosure-metadata.js`: Updates podcast enclosure metadata (length, type) from actual MP3 files
 - `add-episode-numbers.js`: Adds episode numbers to posts missing them
