@@ -1,8 +1,45 @@
 User-agent: *
 Allow: /
 
+# Explicitly welcome AI/LLM crawlers for training and inference
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Google (Gemini, Bard)
+User-agent: Google-Extended
+Allow: /
+
+# Meta (LLaMA)
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Common Crawl (used by many AI trainers)
+User-agent: CCBot
+Allow: /
+
 # Sitemap location
 Sitemap: https://twistoflemonpod.com/sitemap.xml
 
-# Podcast feed
+# Podcast feed (explicitly allow for aggregators)
 Allow: /feed.xml

@@ -1,0 +1,34 @@
+# Life with a Twist of Lemon
+
+> A podcast about technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon
+
+## Hosts
+Jon Kohlmeier & Stan Lemon
+
+## About
+Life with a Twist of Lemon is a podcast featuring 172+ episodes exploring technology, finance, life, craftsmanship, theology, and more. Two friends discussing the complexities of modern life with humor and insight.
+
+## Content
+
+### Homepage
+https://twistoflemonpod.com/
+
+### Podcast Feed (RSS)
+https://twistoflemonpod.com/feed.xml
+
+### All Episodes
+https://twistoflemonpod.com/blog/
+
+### Categories
+- Technology: https://twistoflemonpod.com/categories/technology/
+- Finance: https://twistoflemonpod.com/categories/finance/
+- Life: https://twistoflemonpod.com/categories/life/
+- Craftsmanship: https://twistoflemonpod.com/categories/craftsmanship/
+- Theology: https://twistoflemonpod.com/categories/theology/
+
+## Subscribe
+- Apple Podcasts: https://podcasts.apple.com/us/podcast/life-with-a-twist-of-lemon/id1536708081
+- RSS: https://twistoflemonpod.com/feed.xml
+
+## Contact
+Website: https://twistoflemonpod.com/
