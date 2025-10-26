@@ -2,14 +2,16 @@
 layout: layouts/base.liquid
 ---
 
-<article class="blog-post">
+<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
-    <h1 class="post-title">{{ title }}</h1>
-    <p class="post-date">{{ date | readableDate }}</p>
+    <h1 class="post-title" itemprop="headline">{{ title }}</h1>
+    <p class="post-date">
+      <time datetime="{{ date | htmlDateString }}" itemprop="datePublished">{{ date | readableDate }}</time>
+    </p>
 
     {% if enclosure and enclosure.url %}
       <div class="audio-player">
-        <audio id="player" controls>
+        <audio id="player" controls itemprop="audio">
           <source src="{{ enclosure.url }}" type="{{ enclosure.type | default: 'audio/mpeg' }}">
           Your browser does not support the audio element.
         </audio>
@@ -17,15 +19,17 @@ layout: layouts/base.liquid
     {% endif %}
   </header>
 
-  <section class="post-content">
+  <section class="post-content" itemprop="articleBody">
     {{ content }}
   </section>
+
+  <meta itemprop="author" content="{{ site.author.name }}">
 
   {% include "partials/tags.liquid", label: "tags", prefix: "tag", values: tags %}
   {% include "partials/tags.liquid", label: "categories", prefix: "category", values: categories %}
 </article>
 
-<nav class="post-navigation">
+<nav class="post-navigation" aria-label="Post navigation">
   <div>
     {% if collections.blog %}
       {% assign previousPost = collections.blog | getPreviousCollectionItem: page %}

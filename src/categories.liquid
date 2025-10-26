@@ -11,6 +11,9 @@ layout: layouts/base.liquid
 {% assign posts = categoryData.posts %}
 {% assign categoryName = categoryData.name %}
 {% assign title = "Category: " | append: categoryName %}
+{% assign description = "Browse " | append: posts.size | append: " posts in the " | append: categoryName | append: " category." %}
+
+{% include "partials/breadcrumb.liquid" %}
 
 <h1>Category: {{ categoryName }}</h1>
 <p>{{ posts | size }} post{% if posts.size != 1 %}s{% endif %}</p>

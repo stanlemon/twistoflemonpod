@@ -1,0 +1,25 @@
+{% comment %} Breadcrumb Navigation for Archive Pages {% endcomment %}
+{% if categoryName or tagName %}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ site.url }}/">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    {% if categoryName %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ categoryName }}</span>
+      <meta itemprop="position" content="2" />
+    </li>
+    {% endif %}
+    {% if tagName %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ tagName }}</span>
+      <meta itemprop="position" content="2" />
+    </li>
+    {% endif %}
+  </ol>
+</nav>
+{% endif %}
