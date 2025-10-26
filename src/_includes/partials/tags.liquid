@@ -3,7 +3,7 @@
     <p>
       <strong>{{ label }}:</strong>
       {% for value in values %}
-        <a href="/{{ prefix }}/{{ value | slugify }}/">{{ value }}</a>{% unless forloop.last %} {% endunless %}
+        <a href="/{{ prefix }}/{{ value | slugify }}/">{{ value }}</a>{% unless forloop.last %}, {% endunless %}
       {% endfor %}
     </p>
   </section>

@@ -1,9 +1,24 @@
 <nav class="nav" role="navigation" aria-label="Main navigation">
-  <a href="/" aria-label="Home">
-    <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
-  </a>
-  <h1>
-    <a href="/">{{ site.title }}</a>
-  </h1>
+  <div class="nav__header">
+    <a href="/" aria-label="Home">
+      <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
+    </a>
+    <h1>
+      <a href="/">{{ site.title }}</a>
+    </h1>
+  </div>
+
+  <ul class="nav__links">
+    <li>
+      <a href="/" {% if page.url == "/" %}class="nav__link--active" aria-current="page"{% endif %}>Home</a>
+    </li>
+    <li>
+      <a href="/about/" {% if page.url == "/about/" %}class="nav__link--active" aria-current="page"{% endif %}>About</a>
+    </li>
+    <li>
+      <a href="/contact/" {% if page.url == "/contact/" %}class="nav__link--active" aria-current="page"{% endif %}>Contact</a>
+    </li>
+  </ul>
+
   {% include "partials/theme-toggle.liquid" %}
 </nav>
