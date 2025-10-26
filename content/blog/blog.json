@@ -1,4 +1,4 @@
 {
   "layout": "layouts/post.liquid",
-  "permalink": "/{{ page.filePathStem | replace: 'content/blog/', '' }}/"
+  "permalink": "/{{ date | date: '%Y/%m' }}/{{ slug }}/"
 }
