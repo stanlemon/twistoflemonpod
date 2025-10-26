@@ -134,12 +134,38 @@ tests/               # Test suite
 <pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> run clean <span class="token operator">&amp;&amp;</span> <span class="token function">npm</span> run build</code></pre>
 <h2 id="scripts" tabindex="-1">Scripts</h2>
 <p>Utility scripts are located in <code>scripts/</code> directory:</p>
+<h3 id="script-storage-policy" tabindex="-1">Script Storage Policy</h3>
+<p><strong>IMPORTANT:</strong> One-off refactoring scripts should NOT be committed to git.</p>
+<ul>
+<li><strong>DO commit:</strong> Reusable utility scripts that will be run multiple times (e.g., <code>update-enclosure-metadata.js</code>)</li>
+<li><strong>DO NOT commit:</strong> One-time refactoring scripts created for specific cleanup tasks (e.g., <code>rename-transcripts-to-match-mp3.js</code>, <code>add-frontmatter-to-transcripts.js</code>, <code>copy-transcripts-to-posts.js</code>)</li>
+<li><strong>Reason:</strong> Keeps the repository clean and focused on actively maintained utilities</li>
+</ul>
+<p>When creating a one-off refactoring script:</p>
+<ol>
+<li>Create it in the <code>scripts/</code> directory</li>
+<li>Run it to complete the refactoring</li>
+<li>DO NOT add it to git (add to <code>.gitignore</code> if needed)</li>
+<li>Delete it after the refactoring is complete and committed</li>
+</ol>
+<h3 id="content-management-scripts-(javascript%2Fnode.js)" tabindex="-1">Content Management Scripts (JavaScript/Node.js)</h3>
 <ul>
 <li><code>update-enclosure-metadata.js</code>: Updates podcast enclosure metadata (length, type) from actual MP3 files</li>
 <li><code>add-episode-numbers.js</code>: Adds episode numbers to posts missing them</li>
 <li><code>add-slug-to-frontmatter.js</code>: Generates URL slugs from titles</li>
 <li>Various other maintenance scripts</li>
 </ul>
+<h3 id="transcription-scripts-(javascript%2Fnode.js)" tabindex="-1">Transcription Scripts (JavaScript/Node.js)</h3>
+<ul>
+<li><code>transcribe-with-deepgram.js</code>: Transcribe a single episode using Deepgram API with speaker diarization</li>
+<li><code>batch-transcribe-deepgram.js</code>: Batch transcribe all episodes with progress tracking and resume capability</li>
+</ul>
+<p><strong>Requirements:</strong></p>
+<ul>
+<li>Deepgram API key set in <code>.env</code> file as <code>DEEPGRAM_API_KEY</code></li>
+<li><code>dotenv</code> package for environment variable management</li>
+</ul>
+<p><strong>Status:</strong> All 170 episodes have been transcribed (episodes 1-172 plus b01, b02 bonus episodes)</p>
 <h3 id="running-scripts" tabindex="-1">Running Scripts</h3>
 <p>Scripts can be run directly:</p>
 <pre class="language-bash"><code class="language-bash"><span class="token function">node</span> scripts/update-enclosure-metadata.js</code></pre>
@@ -148,6 +174,85 @@ tests/               # Test suite
 <span class="token function">npm</span> <span class="token builtin class-name">test</span>
 <span class="token function">npm</span> run build</code></pre>
 <h2 id="recent-work-%26-learnings" tabindex="-1">Recent Work &amp; Learnings</h2>
+<h3 id="deepgram-transcription-system-(2025-10-26)" tabindex="-1">Deepgram Transcription System (2025-10-26)</h3>
+<p><strong>Goal:</strong> Transcribe all 172 podcast episodes with accurate speaker identification using a fast, cloud-based solution.</p>
+<p><strong>Solution Implemented:</strong></p>
+<p><strong>Technology Stack:</strong></p>
+<ul>
+<li><strong>Deepgram API</strong>: Cloud-based transcription with built-in speaker diarization</li>
+<li><strong>Node.js</strong>: JavaScript runtime (same as project)</li>
+<li><strong>@deepgram/sdk</strong>: Official Deepgram SDK for Node.js</li>
+<li><strong>dotenv</strong>: Environment variable management for API keys</li>
+</ul>
+<p><strong>Scripts Created:</strong></p>
+<ol>
+<li>
+<p><strong><code>transcribe-with-deepgram.js</code></strong></p>
+<ul>
+<li>Single episode transcription</li>
+<li>Speaker diarization (automatically detects 2-3 speakers)</li>
+<li>Outputs markdown with timestamps and speaker labels</li>
+<li>Fast processing (~30-60 seconds per episode)</li>
+<li>Usage: <code>node scripts/transcribe-with-deepgram.js &lt;path-to-mp3&gt;</code></li>
+</ul>
+</li>
+<li>
+<p><strong><code>batch-transcribe-deepgram.js</code></strong></p>
+<ul>
+<li>Batch processing with progress tracking</li>
+<li>Resume capability (skips already-transcribed episodes)</li>
+<li>Statistics and error reporting</li>
+<li>Automatic credit limit detection</li>
+<li>Usage: <code>node scripts/batch-transcribe-deepgram.js [start-episode]</code></li>
+</ul>
+</li>
+</ol>
+<p><strong>Output Format:</strong></p>
+<ul>
+<li>Markdown files saved alongside MP3 files</li>
+<li>Format: <code>**SPEAKER_0** [HH:MM:SS]\n\n[text]\n\n</code></li>
+<li>Speaker labels: <code>SPEAKER_0</code>, <code>SPEAKER_1</code>, etc.</li>
+<li>Clean, readable format with paragraph breaks</li>
+</ul>
+<p><strong>Setup Requirements:</strong></p>
+<ol>
+<li>Deepgram account (free trial available)</li>
+<li>API key stored in <code>.env</code> file as <code>DEEPGRAM_API_KEY</code></li>
+<li><code>.env</code> file excluded from git via <code>.gitignore</code></li>
+</ol>
+<p><strong>Performance:</strong></p>
+<ul>
+<li>Cloud-based processing (no local GPU needed)</li>
+<li>~30-60 seconds per episode</li>
+<li>Completed all 170 episodes in ~40 minutes</li>
+<li>Cost-effective (pay-as-you-go pricing)</li>
+</ul>
+<p><strong>Results:</strong></p>
+<ul>
+<li>✅ All 170 episodes transcribed successfully
+<ul>
+<li>Episodes 1-172 (numbering gaps exist)</li>
+<li>Bonus episodes b01, b02</li>
+</ul>
+</li>
+<li>100% success rate</li>
+<li>Consistent 2-speaker detection (with occasional 3-speaker episodes for guests)</li>
+</ul>
+<p><strong>Key Decisions:</strong></p>
+<ul>
+<li>Switched from local Python/WhisperX to cloud-based Deepgram for speed</li>
+<li>Removed old Python scripts and documentation</li>
+<li>Used environment variables for API key security</li>
+<li>Kept scripts in version control (API key separate in .env)</li>
+</ul>
+<p><strong>Future Enhancements:</strong></p>
+<ol>
+<li>Website integration (display transcripts on episode pages)</li>
+<li>Full-text search across all transcripts</li>
+<li>Manual speaker identification (map SPEAKER_0/SPEAKER_1 to Jon/Stan)</li>
+<li>SEO improvements with transcript content</li>
+</ol>
+<p><strong>Key Learning:</strong> Deepgram provides production-quality transcription with speaker diarization via a simple API, processing episodes in seconds rather than minutes. Cloud-based solutions can be more practical than local ML models for one-time bulk processing tasks.</p>
 <h3 id="seo-improvements-(2025-10-26)" tabindex="-1">SEO Improvements (2025-10-26)</h3>
 <p><strong>Goal:</strong> Comprehensive SEO analysis and improvements for better search visibility and podcast discovery.</p>
 <p><strong>Implemented Changes:</strong></p>

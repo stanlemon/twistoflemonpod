@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  margin: 0 0 2.625rem 0;
+  margin: 0;
   padding: 0;
   font-size: 2.5rem;
 }
@@ -39,7 +39,18 @@ h1 {
 h2 {
   margin: 0 0 1.75rem 0;
   padding: 0;
-  font-size: 1.62671rem;
+  font-size: 2rem;
+}
+
+/* Responsive heading sizes for mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 h3 {
@@ -86,8 +97,8 @@ a:active {
 /* Lists */
 ul, ol {
   margin: 0 0 1.75rem 0;
-  padding: 0;
-  list-style-position: outside;
+  padding: 0 0 0 1.5rem;
+  list-style-position: inside;
   list-style-image: none;
 }
 
