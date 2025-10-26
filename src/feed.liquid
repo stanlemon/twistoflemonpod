@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>no</itunes:explicit>
 
-    {% for post in collections.blog | reverse | head: 20 %}
+    {% for post in collections.blog | reverse %}
     <item>
       <title>{{ post.data.title }}</title>
       <link>{{ site.url }}{{ post.url }}</link>

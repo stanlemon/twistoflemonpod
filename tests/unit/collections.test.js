@@ -1,11 +1,11 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert');
-const {
+import { describe, it } from 'node:test';
+import assert from 'node:assert';
+import {
   buildNormalizedCollection,
   buildCategoriesCollection,
   buildTagsCollection,
   buildBlogCollection
-} = require('../../lib/collections');
+} from '../../lib/collections.js';
 
 describe('Collections: buildNormalizedCollection', () => {
   it('normalizes items by slug', () => {

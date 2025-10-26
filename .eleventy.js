@@ -1,12 +1,12 @@
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const Image = require("@11ty/eleventy-img");
-const filters = require("./lib/filters");
-const collections = require("./lib/collections");
+import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+import Image from "@11ty/eleventy-img";
+import * as filters from "./lib/filters.js";
+import * as collections from "./lib/collections.js";
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);

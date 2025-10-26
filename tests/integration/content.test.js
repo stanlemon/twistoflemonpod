@@ -1,8 +1,12 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert');
-const fs = require('fs');
-const path = require('path');
-const matter = require('gray-matter');
+import { describe, it } from 'node:test';
+import assert from 'node:assert';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import matter from 'gray-matter';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const blogDir = path.join(__dirname, '..', '..', 'content', 'blog');
 

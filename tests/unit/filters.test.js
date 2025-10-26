@@ -1,6 +1,6 @@
-const { describe, it } = require('node:test');
-const assert = require('node:assert');
-const {
+import { describe, it } from 'node:test';
+import assert from 'node:assert';
+import {
   readableDate,
   htmlDateString,
   dateToRfc3339,
@@ -10,7 +10,7 @@ const {
   getAllTags,
   excerpt,
   head
-} = require('../../lib/filters');
+} from '../../lib/filters.js';
 
 describe('Filter: readableDate', () => {
   it('formats Date object correctly', () => {
