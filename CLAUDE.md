@@ -181,6 +181,66 @@ npm run build
 
 ## Recent Work & Learnings
 
+### SEO Improvements (2025-10-26)
+
+**Goal:** Comprehensive SEO analysis and improvements for better search visibility and podcast discovery.
+
+**Implemented Changes:**
+
+1. **Structured Data (JSON-LD)**
+   - Created `src/_includes/partials/structured-data.liquid`
+   - PodcastEpisode schema for all episodes
+   - BlogPosting schema for SEO
+   - WebSite schema for homepage
+   - Organization schema for brand identity
+
+2. **Enhanced Meta Tags**
+   - Added Open Graph images (og:image with dimensions)
+   - Added og:audio tags for podcast episodes
+   - Upgraded Twitter Card to summary_large_image
+   - Added meta keywords and author tags
+   - Improved title tag strategy (no site name on posts to avoid truncation)
+
+3. **Semantic HTML**
+   - Added ARIA roles (main, navigation, contentinfo)
+   - Added microdata to blog posts (itemscope, itemprop)
+   - Proper time elements with datetime attributes
+   - Enhanced accessibility with aria-labels
+
+4. **Breadcrumb Navigation**
+   - Created `src/_includes/partials/breadcrumb.liquid`
+   - Schema.org BreadcrumbList markup
+   - Applied to category and tag archive pages
+
+5. **Improved robots.txt**
+   - Added sitemap reference
+   - Explicitly allowed feed.xml for podcast aggregators
+
+6. **RSS Feed Auto-Discovery**
+   - Added link tag to all pages for browser/app discovery
+
+7. **Enhanced Archive Pages**
+   - Dynamic meta descriptions for categories and tags
+   - Better titles for SEO
+
+**Documentation Created:**
+- `SEO-GUIDE.md` - Comprehensive SEO implementation guide
+- `SECURITY-HEADERS.md` - HTTP security headers recommendations
+
+**Benefits:**
+- Podcast episodes will appear in Google Podcasts search
+- Rich snippets in Google search results (articles, breadcrumbs)
+- Better social media sharing with images
+- Improved accessibility scores
+- Enhanced podcast app discovery (Apple Podcasts, Spotify)
+
+**Key Learning:** Modern SEO requires multiple layers:
+1. Structured data for search engine understanding
+2. Meta tags for social media
+3. Semantic HTML for accessibility
+4. Clear site hierarchy with breadcrumbs
+5. Proper robots.txt and sitemap
+
 ### Podcast Feed Enclosure Metadata (2025-10-25)
 
 **Problem:** The RSS feed's `<enclosure>` tags were missing or had incorrect metadata:

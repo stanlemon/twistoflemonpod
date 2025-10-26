@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.liquid
-title: All Posts
+title: Life with a Twist of Lemon - A Podcast about Technology, Finance, Life, and More
+description: Listen to Jon Kohlmeier & Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.
 pagination:
   data: collections.blog
   size: 10
@@ -29,10 +30,10 @@ pagination:
 
 <nav class="pagination" aria-label="Pagination">
   {% if pagination.href.previous %}
-    <a href="{{ pagination.href.previous }}">← Previous</a>
+    <a href="{{ pagination.href.previous }}" rel="prev">← Previous</a>
   {% endif %}
 
   {% if pagination.href.next %}
-    <a href="{{ pagination.href.next }}">Next →</a>
+    <a href="{{ pagination.href.next }}" rel="next">Next →</a>
   {% endif %}
 </nav>

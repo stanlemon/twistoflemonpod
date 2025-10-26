@@ -1,0 +1,88 @@
+{% if layout == "layouts/post.liquid" %}
+{% comment %} Podcast Episode Schema {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastEpisode",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": "{{ title }}",
+  "datePublished": "{{ date | dateToRfc3339 }}",
+  "description": "{{ summary | default: description | default: content | excerpt: 300 | escape }}",
+  {% if episode %}"episodeNumber": {{ episode }},{% endif %}
+  {% if enclosure and enclosure.url %}
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "contentUrl": "{{ enclosure.url }}"{% if enclosure.length %},
+    "contentSize": "{{ enclosure.length }}"{% endif %}{% if enclosure.duration %},
+    "duration": "{{ enclosure.duration }}"{% endif %}
+  },
+  {% endif %}
+  "partOfSeries": {
+    "@type": "PodcastSeries",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  }
+}
+</script>
+
+{% comment %} Article Schema for Blog Post {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "datePublished": "{{ date | dateToRfc3339 }}",
+  "dateModified": "{{ date | dateToRfc3339 }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/logo.png"
+    }
+  },
+  "description": "{{ summary | default: description | default: content | excerpt: 300 | escape }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+}
+</script>
+{% else %}
+{% comment %} Website Schema for Homepage and Other Pages {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ site.url }}/?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+{% comment %} Organization Schema {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "logo": "{{ site.url }}/images/logo.png",
+  "sameAs": [
+    "https://twitter.com/{{ site.social.twitter }}"
+  ]
+}
+</script>
+{% endif %}

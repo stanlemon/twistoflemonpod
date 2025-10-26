@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
 
   {% include "partials/seo.liquid" %}
+
+  {% include "partials/structured-data.liquid" %}
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/typography.css">
@@ -14,11 +17,11 @@
   <div class="container">
     {% include "partials/nav.liquid" %}
 
-    <main class="main">
+    <main class="main" role="main">
       {{ content }}
     </main>
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <p>Copyright &copy; 2025 by <a href="https://stanlemon.com">Stan Lemon</a> &amp; <a href="https://jonkohlmeier.com">Jon Kohlmeier</a></p>
     </footer>
   </div>

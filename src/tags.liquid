@@ -11,6 +11,9 @@ layout: layouts/base.liquid
 {% assign posts = tagData.posts %}
 {% assign tagName = tagData.name %}
 {% assign title = "Tag: " | append: tagName %}
+{% assign description = "Browse " | append: posts.size | append: " posts tagged with " | append: tagName | append: "." %}
+
+{% include "partials/breadcrumb.liquid" %}
 
 <h1>Tag: {{ tagName }}</h1>
 <p>{{ posts | size }} post{% if posts.size != 1 %}s{% endif %}</p>
