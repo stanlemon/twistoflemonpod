@@ -97,6 +97,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("categories", collections.buildCategoriesCollection);
   eleventyConfig.addCollection("tags", collections.buildTagsCollection);
 
+  // Dev server configuration
+  // Note: Using port 8081 instead of 8080 due to macOS Sonoma (14.x+) reserving port 8080
+  // This fixes "Invalid WebSocket frame: RSV1 must be clear" errors
+  eleventyConfig.setServerOptions({
+    port: 8081,
+    liveReload: true,
+    domDiff: false,
+  });
+
   return {
     dir: {
       input: ".",
