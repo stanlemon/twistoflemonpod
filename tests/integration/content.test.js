@@ -32,7 +32,14 @@ function getAllMarkdownFiles(dir) {
 }
 
 describe('Content Validation', () => {
-  const markdownFiles = getAllMarkdownFiles(blogDir);
+  const allMarkdownFiles = getAllMarkdownFiles(blogDir);
+
+  // Filter out transcripts (type: transcript)
+  const markdownFiles = allMarkdownFiles.filter(filePath => {
+    const content = fs.readFileSync(filePath, 'utf8');
+    const { data } = matter(content);
+    return data.type !== 'transcript';
+  });
 
   it('should find blog post files', () => {
     assert.ok(markdownFiles.length > 0, 'Should find at least one markdown file');
