@@ -160,10 +160,21 @@ npm run clean && npm run build
 
 Utility scripts are located in `scripts/` directory:
 
+### Content Management Scripts (JavaScript/Node.js)
 - `update-enclosure-metadata.js`: Updates podcast enclosure metadata (length, type) from actual MP3 files
 - `add-episode-numbers.js`: Adds episode numbers to posts missing them
 - `add-slug-to-frontmatter.js`: Generates URL slugs from titles
 - Various other maintenance scripts
+
+### Transcription Scripts (JavaScript/Node.js)
+- `transcribe-with-deepgram.js`: Transcribe a single episode using Deepgram API with speaker diarization
+- `batch-transcribe-deepgram.js`: Batch transcribe all episodes with progress tracking and resume capability
+
+**Requirements:**
+- Deepgram API key set in `.env` file as `DEEPGRAM_API_KEY`
+- `dotenv` package for environment variable management
+
+**Status:** All 170 episodes have been transcribed (episodes 1-172 plus b01, b02 bonus episodes)
 
 ### Running Scripts
 
@@ -180,6 +191,72 @@ npm run build
 ```
 
 ## Recent Work & Learnings
+
+### Deepgram Transcription System (2025-10-26)
+
+**Goal:** Transcribe all 172 podcast episodes with accurate speaker identification using a fast, cloud-based solution.
+
+**Solution Implemented:**
+
+**Technology Stack:**
+- **Deepgram API**: Cloud-based transcription with built-in speaker diarization
+- **Node.js**: JavaScript runtime (same as project)
+- **@deepgram/sdk**: Official Deepgram SDK for Node.js
+- **dotenv**: Environment variable management for API keys
+
+**Scripts Created:**
+
+1. **`transcribe-with-deepgram.js`**
+   - Single episode transcription
+   - Speaker diarization (automatically detects 2-3 speakers)
+   - Outputs markdown with timestamps and speaker labels
+   - Fast processing (~30-60 seconds per episode)
+   - Usage: `node scripts/transcribe-with-deepgram.js <path-to-mp3>`
+
+2. **`batch-transcribe-deepgram.js`**
+   - Batch processing with progress tracking
+   - Resume capability (skips already-transcribed episodes)
+   - Statistics and error reporting
+   - Automatic credit limit detection
+   - Usage: `node scripts/batch-transcribe-deepgram.js [start-episode]`
+
+**Output Format:**
+- Markdown files saved alongside MP3 files
+- Format: `**SPEAKER_0** [HH:MM:SS]\n\n[text]\n\n`
+- Speaker labels: `SPEAKER_0`, `SPEAKER_1`, etc.
+- Clean, readable format with paragraph breaks
+
+**Setup Requirements:**
+1. Deepgram account (free trial available)
+2. API key stored in `.env` file as `DEEPGRAM_API_KEY`
+3. `.env` file excluded from git via `.gitignore`
+
+**Performance:**
+- Cloud-based processing (no local GPU needed)
+- ~30-60 seconds per episode
+- Completed all 170 episodes in ~40 minutes
+- Cost-effective (pay-as-you-go pricing)
+
+**Results:**
+- ✅ All 170 episodes transcribed successfully
+  - Episodes 1-172 (numbering gaps exist)
+  - Bonus episodes b01, b02
+- 100% success rate
+- Consistent 2-speaker detection (with occasional 3-speaker episodes for guests)
+
+**Key Decisions:**
+- Switched from local Python/WhisperX to cloud-based Deepgram for speed
+- Removed old Python scripts and documentation
+- Used environment variables for API key security
+- Kept scripts in version control (API key separate in .env)
+
+**Future Enhancements:**
+1. Website integration (display transcripts on episode pages)
+2. Full-text search across all transcripts
+3. Manual speaker identification (map SPEAKER_0/SPEAKER_1 to Jon/Stan)
+4. SEO improvements with transcript content
+
+**Key Learning:** Deepgram provides production-quality transcription with speaker diarization via a simple API, processing episodes in seconds rather than minutes. Cloud-based solutions can be more practical than local ML models for one-time bulk processing tasks.
 
 ### SEO Improvements (2025-10-26)
 

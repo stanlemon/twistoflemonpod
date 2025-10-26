@@ -1,7 +1,8 @@
 {
   "name": "twistoflemonpod",
   "private": true,
-  "description": "A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon. We’ve moved what we’d normally talk about on the phone, here for your listening enjoyment.",
+  "type": "module",
+  "description": "A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon. We've moved what we'd normally talk about on the phone, here for your listening enjoyment.",
   "version": "2.0.0",
   "contributors": [
     "Jon Kohlmeier <jonkohlmeier@users.noreply.github.com",
@@ -16,6 +17,8 @@
     "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@deepgram/sdk": "^4.11.2",
+    "dotenv": "^17.2.3",
     "lucide-static": "^0.548.0",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
