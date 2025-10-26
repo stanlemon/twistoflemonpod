@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/008-lwatol-20180906.mp3'
   length: 37942654
   type: audio/mpeg
+summary: >-
+  Dear Financially Minded Listener, Thanks for tuning in for Episode 8! This
+  week Jon met his mortgage savings goal so he seeks advice from the most
 ---
 
 Dear Financially Minded Listener,

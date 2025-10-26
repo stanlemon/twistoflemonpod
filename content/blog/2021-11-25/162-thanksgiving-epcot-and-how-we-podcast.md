@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/162-lwatol-20211125.mp3'
   length: 49547918
   type: audio/mpeg
+summary: >-
+  Happy Thanksgiving! On this episode we discuss our favorite Thanksgiving menu
+  items and plans for this year. Stan tries to convince Jon that it's a good
 ---
 
 Dear Listener,

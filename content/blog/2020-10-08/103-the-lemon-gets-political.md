@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/103-lwatol-20201008.mp3'
   length: 36976122
   type: audio/mpeg
+summary: >-
+  This week Stan gives us an update on his shoe adventure. And get his initial
+  reaction on Air Pod Pros.
 ---
 
 Dear Listener,

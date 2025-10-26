@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/030-lwatol-20190207.mp3'
   length: 39451769
   type: audio/mpeg
+summary: >-
+  Stan and Jon reflect on the Super Bowl that Jon didn't watch. Jon is happy
+  that now everyone thinks that football is as boring as he thought for years.
 ---
 
 Dear Listener,

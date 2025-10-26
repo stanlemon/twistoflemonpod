@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/123-lwatol-20210225.mp3'
   length: 41329153
   type: audio/mpeg
+summary: >-
+  We kick off the episode talking about Fun Dip and flashing back to Valentine's
+  Day (perks of being the spouse of an elementary school teacher).
 ---
 
 Dear Listener,

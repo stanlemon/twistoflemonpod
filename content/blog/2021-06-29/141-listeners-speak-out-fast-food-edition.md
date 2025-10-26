@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/141-lwatol-20210629.mp3'
   length: 58366082
   type: audio/mpeg
+summary: >-
+  Jon and Mrs. Kohlmeier are headed to visit LemonLand this week, tune in for
+  more on those adventures.
 ---
 
 Dear Listener,

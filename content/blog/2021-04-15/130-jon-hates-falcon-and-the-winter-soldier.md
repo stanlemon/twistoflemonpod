@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/130-lwatol-20210415.mp3'
   length: 47356810
   type: audio/mpeg
+summary: >-
+  We have been covering Falcon and the Winter Soldier post credits for the last
+  couple of weeks. After this last episode Stan decided we need to discuss it
 ---
 
 Dear Listener,

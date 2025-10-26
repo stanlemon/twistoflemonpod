@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/034-lwatol-20190307.mp3'
   length: 55095202
   type: audio/mpeg
+summary: >-
+  This week Stan and Jon are recording from the same room for the first time
+  ever. Stan made it to Cedar Rapids for the weekend.
 ---
 
 Dear Listener,

@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/076-lwatol-20191236.mp3'
   length: 48684000
   type: audio/mpeg
+summary: >-
+  Stan is liking Jon's new look - shaped beard, new glasses and all. Jon tells
+  about his experience getting new glasses from Warby Parker.
 ---
 
 Dear listener,

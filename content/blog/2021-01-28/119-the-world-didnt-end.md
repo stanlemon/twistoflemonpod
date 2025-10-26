@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/119-lwatol-20210128.mp3'
   length: 29437046
   type: audio/mpeg
+summary: >-
+  The world didn't end as we speculated it might while recording last week. We
+  touch on the inauguration before jumping into WandaVision Episode 3.
 ---
 
 Dear Listener,

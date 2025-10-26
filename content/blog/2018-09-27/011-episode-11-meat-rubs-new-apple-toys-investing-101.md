@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/011-lwatol-20180927.mp3 '
   length: 36161005
   type: audio/mpeg
+summary: >-
+  In this episode, Stan Lemon reviews Meat Rubs by Fenker (or.. Meat, Rubbed,
+  and Salutary - branding pending.) Stan gives a good review but the only way to
 ---
 
 Dear Listener,

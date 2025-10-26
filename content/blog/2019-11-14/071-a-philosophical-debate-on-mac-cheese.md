@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/071-lwatol-20191114.mp3'
   length: 31543735
   type: audio/mpeg
+summary: >-
+  Stan is experimenting with Catalina again, he's running it on a separate
+  partition. Not ready to commit to a full update yet.
 ---
 
 Dear Listener,

@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/163-lwatol-20211202.mp3'
   length: 40398727
   type: audio/mpeg
+summary: >-
+  This week Stan asks Jon about how he has been spending his commuting time.
+  Turns out it has been with Audiobooks. We also talk about the football season,
 ---
 
 Dear Listener,

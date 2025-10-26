@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/133-lwatol-20210506.mp3'
   length: 35289593
   type: audio/mpeg
+summary: >-
+  This week we discuss some of Stan's recent technology purchases for his home
+  including a smart garage door opener, a new monitor, security cameras and the
 ---
 
 Dear Listener,

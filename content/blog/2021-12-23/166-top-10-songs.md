@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/166-lwatol-20211223.mp3'
   length: 35395182
   type: audio/mpeg
+summary: >-
+  Merry Christmas! This week we talk about Christmas plans and cover a listener
+  submitted topic: Our Top 10 Songs (Subjectively, like you'd listen to these
 ---
 
 Dear Listener,

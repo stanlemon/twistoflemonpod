@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/093-lwatol-20200723.mp3'
   length: 37466502
   type: audio/mpeg
+summary: >-
+  Stan is still on the grid, the rumors have been greatly exaggerated. Jon tries
+  to up listenership with a Milkshake review. Stan has been becoming a master
 ---
 
 Dear Listener,

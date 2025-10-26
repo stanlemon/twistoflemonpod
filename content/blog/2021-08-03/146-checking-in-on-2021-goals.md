@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/146-lwatol-20210803.mp3'
   length: 32401531
   type: audio/mpeg
+summary: >-
+  Today we do a mid-year-ish check in on our goals for 2021 that we set back in
+  Episode 115: Headed into a New Year.
 ---
 
 Dear Listener,

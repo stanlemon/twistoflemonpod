@@ -20,6 +20,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/073-lwatol-20191128.mp3'
   length: 36271522
   type: audio/mpeg
+summary: >-
+  Stan's kids have been introduced to Boy Meets World. We have a practical life
+  tip for everyone living in cooler climates.
 ---
 
 Dear Listener,

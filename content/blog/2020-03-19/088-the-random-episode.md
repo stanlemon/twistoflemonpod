@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/088-lwatol-20200319.mp3'
   length: 31438451
   type: audio/mpeg
+summary: >-
+  Stan thinks we're scraping the bottom of the barrel for this episode. The
+  first item on the list was current favorite song.
 ---
 
 Dear Listener,

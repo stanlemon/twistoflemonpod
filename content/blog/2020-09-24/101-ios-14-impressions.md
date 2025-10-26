@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/101-lwatol-20200924.mp3'
   length: 41461236
   type: audio/mpeg
+summary: >-
+  Turns out our friend Joe doesn't like wings, but Aaron Fenker has shipped his
+  hamburger seasoning to us!
 ---
 
 Dear Listener,

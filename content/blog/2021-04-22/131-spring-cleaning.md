@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/131-lwatol-20210422.mp3'
   length: 35056119
   type: audio/mpeg
+summary: >-
+  This week, we cover another listener submitted topic on spring cleaning and
+  prep (and some indoor stuff too!)
 ---
 
 Dear Listener,

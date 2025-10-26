@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/120-lwatol-20210204.mp3'
   length: 39285508
   type: audio/mpeg
+summary: >-
+  We kick off the episode talking about WandaVision episode 4 "We Interrupt this
+  Program." We speculate on everything that is going on and welcome back some
 ---
 
 Dear Listener,

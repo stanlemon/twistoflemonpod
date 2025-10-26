@@ -6,6 +6,9 @@ categories:
   - Lifestyle
 tags:
   - milkshakes
+summary: >-
+  1. Not having hit $1000 for Fritsche yet (Fix this. Yes - you. convenient link
+  to donation page).
 ---
 
 1. Not having hit $1000 for Fritsche yet (Fix this. Yes - you. [convenient link to donation page](https://twistoflemonpod.com/fritsche/)).

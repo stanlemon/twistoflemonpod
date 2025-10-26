@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/037-lwatol-20190321.mp3'
   length: 35261611
   type: audio/mpeg
+summary: >-
+  Stan is very upset and very opinionated on Grilled Cheese. So we spend some
+  time following up.
 ---
 
 Dear Listener,

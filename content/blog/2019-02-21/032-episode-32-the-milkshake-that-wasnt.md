@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/032-lwatol-20190221.mp3'
   length: 34823863
   type: audio/mpeg
+summary: >-
+  Stan had 2 milkshakes this week. Bringing our total milkshake reviews up to 3
+  in 2019. Listen in to hear what he thought about Potbelly's and Oberweis's
 ---
 
 Dear Listener,

@@ -20,6 +20,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/053-lwatol-20190711.mp3'
   length: 55580452
   type: audio/mpeg
+summary: >-
+  We have a jam-packed episode today. All the potential of a great anniversary
+  episode but we are still not at one year of Life with a Twist of Lemon.
 ---
 
 Dear Listener,

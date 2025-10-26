@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/077-lwatol-20200102.mp3'
   length: 30749551
   type: audio/mpeg
+summary: >-
+  Happy 2020! We kick of this episode recapping what our 2019 goals/resolutions
+  were. Stan went back to listen to what we talked about a year ago.
 ---
 
 Dear Listener,

@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/018-lwatol-20181115.mp3 '
   length: 32866130
   type: audio/mpeg
+summary: >-
+  You can measure short distances on Google Maps! That tip alone is worth
+  listening to this episode.
 ---
 
 Dear Listener,

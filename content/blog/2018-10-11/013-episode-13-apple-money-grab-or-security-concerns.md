@@ -17,6 +17,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/013-lwatol-20181011.mp3'
   length: 43798383
   type: audio/mpeg
+summary: >-
+  Today we kick off the episode arguing semantics. Stan has yet another
+  milkshake story. He attends a place with "Shake" in the name and is
+  underwhelmed.
 ---
 
 Dear Listener,

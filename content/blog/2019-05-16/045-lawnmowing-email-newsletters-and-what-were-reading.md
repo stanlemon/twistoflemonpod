@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/045-lwatol-20190516.mp3'
   length: 47306930
   type: audio/mpeg
+summary: >-
+  Jon turned 30! Hear about his 30th birthday and Stan feeling old. You can
+  still give him the gift of a 5 star review on iTunes.
 ---
 
 Dear Listener,

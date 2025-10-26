@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/048-lwatol-20190606.mp3'
   length: 44004635
   type: audio/mpeg
+summary: >-
+  This week we start off with yet another correction, this time Jon messed up.
+  We have a couple of new reviews first a listener reviewed us on iTunes, then
 ---
 
 Dear Listener,

@@ -16,6 +16,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/122-lwatol-20210218.mp3'
   length: 43459582
   type: audio/mpeg
+summary: >-
+  We lost the first thirteen minutes of this week's episode due to Jon's
+  internet going down, so we had to do a take two. This led into a discussion of
+  all
 ---
 
 Dear Listener,

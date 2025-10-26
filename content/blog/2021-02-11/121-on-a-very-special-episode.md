@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/121-lwatol-20210211.mp3'
   length: 48163579
   type: audio/mpeg
+summary: >-
+  We kick off the episode touching base on life and video games. Then we Review
+  WandaVision Episode 5 in light of Stan going back and watching them all
 ---
 
 Dear Listener,

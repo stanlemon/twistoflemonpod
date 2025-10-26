@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/042-lwatol-20190425.mp3'
   length: 34358842
   type: audio/mpeg
+summary: >-
+  We have another review on iTunes! Then Stan yells at Jon for his terrible
+  audio quality last week.
 ---
 
 Dear Listener,

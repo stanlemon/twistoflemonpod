@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/148-lwatol-20210817.mp3'
   length: 34660981
   type: audio/mpeg
+summary: >-
+  This week we remember the devastating derecho that swept through Iowa last
+  year on August 10. Jon gives an update on where repairs are at and some next
 ---
 
 Dear Listener,

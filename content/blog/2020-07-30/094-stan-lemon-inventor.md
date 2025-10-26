@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/094-lwatol-20200730.mp3'
   length: 48158197
   type: audio/mpeg
+summary: >-
+  This week Stan's patents have been approved! We talk about what he actually
+  invented and some of the process.
 ---
 
 Dear Listener,

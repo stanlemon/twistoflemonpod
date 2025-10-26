@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/128-lwatol-20210401.mp3'
   length: 55281787
   type: audio/mpeg
+summary: >-
+  This week we experiment with our first episode including advertisers. Listen
+  in to hear about some of the products that we know and love like LemonCoin,
 ---
 
 Dear Listener,

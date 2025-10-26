@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/036-lwatol-20190314.mp3'
   length: 42951489
   type: audio/mpeg
+summary: >-
+  This week we talk about movie theaters, and follow up on the remainder of
+  Stan's Iowa trip.
 ---
 
 Dear Listener,

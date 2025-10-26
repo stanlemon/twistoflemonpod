@@ -21,6 +21,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/052-lwatol-20190704.mp3'
   length: 31162427
   type: audio/mpeg
+summary: >-
+  Stan ran into some interesting people in Indianapolis, at Wylipalooza of all
+  places. But he didn't get a milkshake.
 ---
 
 Dear Listener,

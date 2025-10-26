@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/160-lwatol-20211111.mp3'
   length: 49415421
   type: audio/mpeg
+summary: >-
+  This week we cover a listener requested topic and muse on the worst technology
+  that we've ever owned. This ranges from mobile devices, to operating systems
 ---
 
 Dear Listener,

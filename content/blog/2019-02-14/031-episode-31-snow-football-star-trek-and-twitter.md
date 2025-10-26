@@ -15,6 +15,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/031-lwatol-20190214.mp3'
   length: 40080334
   type: audio/mpeg
+summary: >-
+  Winter is not over yet. Jon spent nearly 2 hours shoveling after the most
+  recent snow storm. Stan asks Jon about snow removal tools and discovers that
+  he
 ---
 
 Dear Listener,

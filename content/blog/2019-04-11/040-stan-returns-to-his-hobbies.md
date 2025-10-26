@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/040-lwatol-20190411.mp3'
   length: 47304001
   type: audio/mpeg
+summary: >-
+  Happy 40th episode! (Depending on how you count.) We're also celebrating 1
+  year of Stan and the Lemon family in his house. Stan offers his advice for
 ---
 
 Dear Listener,

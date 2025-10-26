@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/149-lwatol-20210824.mp3'
   length: 38819716
   type: audio/mpeg
+summary: >-
+  Jon made another trip to Indianapolis for a couple of days with the primary
+  objective of kegging the beer that was brewed over the 4th of July weekend.
 ---
 
 Dear Listener,

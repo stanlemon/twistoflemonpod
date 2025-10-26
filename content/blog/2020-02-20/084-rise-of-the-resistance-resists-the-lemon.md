@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/084-lwatol-20200220.mp3'
   length: 32321289
   type: audio/mpeg
+summary: >-
+  Stan isn't doing so hot, so we apologize for his coughing. He did survive his
+  week in Disney World, but by Thursday his feet were the least of his concern.
 ---
 
 Dear Listener,

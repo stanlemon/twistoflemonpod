@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/117-lwatol-20210114.mp3'
   length: 45600373
   type: audio/mpeg
+summary: >-
+  This week we're getting back to normal by talking about pretty much whatever
+  comes to our minds. We reflect on the events of last week, both on the podcast
 ---
 
 Dear Listener,

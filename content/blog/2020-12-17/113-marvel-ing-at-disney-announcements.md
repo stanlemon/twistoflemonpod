@@ -14,6 +14,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/113-lwatol-20201217.mp3'
   length: 119735449
   type: audio/mpeg
+summary: >-
+  This week we have a first in the history of the podcast. Three people
+  recording from three different states. Last week's Disney announcements at
+  their
 ---
 
 Dear Listener,

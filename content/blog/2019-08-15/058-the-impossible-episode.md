@@ -14,6 +14,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/058-lwatol-20190815.mp3'
   length: 36478503
   type: audio/mpeg
+summary: >-
+  Happy 47th birthday to Jon's father-in-law, Rev. Mark Buetow! Stan got
+  notified about the Apple Card, he seems so excited about it that he thought
+  Jon was
 ---
 
 Dear Listener,

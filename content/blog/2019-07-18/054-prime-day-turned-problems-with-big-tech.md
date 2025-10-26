@@ -15,6 +15,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/053-lwatol-20190718.mp3'
   length: 46259955
   type: audio/mpeg
+summary: >-
+  We're getting closer to our 1 year anniversary.. but not quite there yet.
+  Which is a blessing in disguise because Stan isn't completely on board with
+  Jon's
 ---
 
 Dear Listener,

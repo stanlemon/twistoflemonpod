@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/061-lwatol-20190905.mp3'
   length: 39219782
   type: audio/mpeg
+summary: >-
+  We're bummed that Jon's sister Liz is no longer a regular listener. We're not
+  sure when exactly she stopped listening. So this week no Star Wars, Marvel or
 ---
 
 Dear Listener,

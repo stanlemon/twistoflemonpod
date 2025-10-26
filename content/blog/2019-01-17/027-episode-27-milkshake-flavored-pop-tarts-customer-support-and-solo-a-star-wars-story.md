@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/027-lwatol-20190117.mp3'
   length: 33990651
   type: audio/mpeg
+summary: >-
+  Stan did it. He purchased a box of Strawberry Milkshake flavored pop-tarts.
+  Hear the take from his kids and his review. Does this count as a milkshake
 ---
 
 Dear Listener,

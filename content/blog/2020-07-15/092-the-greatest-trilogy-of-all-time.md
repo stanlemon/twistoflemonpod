@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/092-lwatol-20200716.mp3'
   length: 61214593
   type: audio/mpeg
+summary: >-
+  This week we talk about the Lemon family's new gaming console the best trilogy
+  of all time and several movies we watched over the past weeks.
 ---
 
 Dear Listener,

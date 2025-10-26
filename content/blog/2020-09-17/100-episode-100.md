@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/100-lwatol-20200917.mp3'
   length: 47802221
   type: audio/mpeg
+summary: >-
+  We celebrate our 100th episode today! We take a look back on 2 seasons of Life
+  with a Twist of Lemon, It's been a weird year for everyone and it was no
 ---
 
 Dear Listener,

@@ -18,6 +18,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/078-lwatol-20200109.mp3'
   length: 34131468
   type: audio/mpeg
+summary: >-
+  We kick off the episode talking about Manhattans which turns into a Milkshake
+  check-in.
 ---
 
 Dear Listener,

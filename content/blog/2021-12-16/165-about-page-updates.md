@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/165-lwatol-20211216.mp3'
   length: 39634164
   type: audio/mpeg
+summary: >-
+  Our about page hasn't been updated since we built the site originally, so we
+  bring up some of the things that have changed since our initial bios. One day
 ---
 
 Dear Listener,

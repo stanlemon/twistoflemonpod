@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/022-lwatol-20181213.mp3 '
   length: 52792662
   type: audio/mpeg
+summary: >-
+  This week Stan kicks off the episode by asking Jon if he's started listening
+  to Christmas music yet.
 ---
 
 Dear Listener,

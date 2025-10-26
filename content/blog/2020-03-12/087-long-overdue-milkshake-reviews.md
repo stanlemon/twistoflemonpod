@@ -17,6 +17,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/087-lwatol-20200312.mp3'
   length: 39373340
   type: audio/mpeg
+summary: >-
+  Milkshakes return! Stan visited a gourmet Milkshake shop and Jon got a
+  Shamrock shake. Stan gives Jon a hard time about not liking mint.
 ---
 
 Dear Listener,

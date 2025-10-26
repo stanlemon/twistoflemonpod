@@ -122,5 +122,16 @@ describe('Content Validation', () => {
       const percentage = (postsWithTags.length / markdownFiles.length) * 100;
       assert.ok(percentage > 90, `At least 90% of posts should have tags (found ${percentage.toFixed(1)}%)`);
     });
+
+    it('most posts should have summary for SEO', () => {
+      const postsWithSummary = markdownFiles.filter(filePath => {
+        const content = fs.readFileSync(filePath, 'utf8');
+        const { data } = matter(content);
+        return data.summary && data.summary.trim().length > 0;
+      });
+
+      const percentage = (postsWithSummary.length / markdownFiles.length) * 100;
+      assert.ok(percentage > 90, `At least 90% of posts should have summary (found ${percentage.toFixed(1)}%)`);
+    });
   });
 });

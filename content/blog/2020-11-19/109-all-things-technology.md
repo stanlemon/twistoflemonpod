@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/109-lwatol-20201119.mp3'
   length: 37506807
   type: audio/mpeg
+summary: >-
+  This week we talk about all things Technology, from the ongoing gaming console
+  adventures, to the new macOS, to super fast apple silicon numbers.
 ---
 
 Dear Listener,

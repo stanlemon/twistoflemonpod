@@ -13,6 +13,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/099-lwatol-20200910.mp3'
   length: 31820552
   type: audio/mpeg
+summary: >-
+  Apparently we have a listener in a position of power at Iowa State, they
+  cancelled plans to have fans at their first home football game. Stan gives us
+  an
 ---
 
 Dear Listener,

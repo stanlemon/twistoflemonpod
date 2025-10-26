@@ -17,6 +17,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/023-lwatol-20181220.mp3'
   length: 36117026
   type: audio/mpeg
+summary: >-
+  We are just days away from Christmas, Stan and Jon kick off the episode
+  talking about Christmas leading into a special Christmas themed milkshake
+  segment -
 ---
 
 Dear Listener,

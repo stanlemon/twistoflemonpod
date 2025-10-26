@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/127-lwatol-20210325.mp3'
   length: 43463411
   type: audio/mpeg
+summary: >-
+  We're back to the familiar and comforting format. Shorter episode with just
+  Stan and Jon talking about random things. We talk about the shingles in Jon's
 ---
 
 Dear Listener,

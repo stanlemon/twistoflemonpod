@@ -13,6 +13,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/147-lwatol-20210810.mp3'
   length: 35134868
   type: audio/mpeg
+summary: >-
+  Stan has dubbed this our "summertime episode". We start off talking all things
+  BBQ. Stan got a new smoker and Jon has been using his to smoke new and
 ---
 
 Dear Listener,

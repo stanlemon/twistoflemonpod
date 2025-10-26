@@ -19,6 +19,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/124-lwatol-20210304.mp3'
   length: 46750474
   type: audio/mpeg
+summary: >-
+  Good news! Stan isn't as worried about going to jain for tax fraud anymore.
+  Stan gives an update on the M1 MacBook Air.
 ---
 
 Dear Listener,

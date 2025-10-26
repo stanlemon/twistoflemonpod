@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/116-lwatol-20210107.mp3'
   length: 44954875
   type: audio/mpeg
+summary: >-
+  Today we are joined by Jon's father in law, because Jon didn't do enough
+  research to talk about Fitness+ enough for Stan's liking.
 ---
 
 Dear Listener,

@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/144-lwatol-20210720.mp3'
   length: 78014209
   type: audio/mpeg
+summary: >-
+  This week we are joined by resident Marvel expert Patrick Sturdivant to review
+  the Black Widow movie (that we finally got to see!) Listen in to hear about
 ---
 
 Dear Listener,

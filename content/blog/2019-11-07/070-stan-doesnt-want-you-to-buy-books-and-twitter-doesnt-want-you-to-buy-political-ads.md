@@ -18,6 +18,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/070-lwatol-20191107.mp3'
   length: 40102658
   type: audio/mpeg
+summary: >-
+  This week we have feedback from a listener who lives in Montana. she paints
+  the picture of a beautiful state which gets us talking about the most
+  beautiful
 ---
 
 Dear Listener,

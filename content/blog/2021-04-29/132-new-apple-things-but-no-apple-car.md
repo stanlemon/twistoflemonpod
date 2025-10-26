@@ -11,6 +11,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/132-lwatol-20210429.mp3'
   length: 63507077
   type: audio/mpeg
+summary: >-
+  This week we cover listener suggested topic of vehicles. Neither Stan nor Jon
+  enjoy buying vehicles but we talk about what comes to mind.
 ---
 
 Dear Listener,

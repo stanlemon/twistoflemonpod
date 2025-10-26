@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/057-lwatol-20190808.mp3'
   length: 45814006
   type: audio/mpeg
+summary: >-
+  This week we finally talk Euchre! Turns out Stan doesn't know how to play.
+  Jon's boss is out of the office this week, so Jon's in charge! That leads into
 ---
 
 Dear Listener,

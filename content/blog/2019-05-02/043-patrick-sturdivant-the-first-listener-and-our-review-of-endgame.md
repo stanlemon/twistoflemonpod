@@ -16,6 +16,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/043-lwatol-20190502.mp3'
   length: 54244674
   type: audio/mpeg
+summary: >-
+  Listeners Assemble! This is an exciting episode for Marvel and LWATOL fans
+  alike. We're recording directly after not one but TWO showings of Avengers:
 ---
 
 Listeners Assemble!

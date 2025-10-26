@@ -14,6 +14,10 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/051-lwatol-20190627.mp3'
   length: 35300408
   type: audio/mpeg
+summary: >-
+  We kick off this week's episode with a philosophical discussion on how Jon
+  eats an ice cream Sunday. It doesn't quite reach the level of the great
+  Grilled
 ---
 
 Dear Listener,

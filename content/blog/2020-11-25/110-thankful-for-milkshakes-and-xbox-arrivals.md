@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/110-lwatol-20201125.mp3'
   length: 59574155
   type: audio/mpeg
+summary: >-
+  Jon brings some normalcy back to 2020 with a milkshake tasting! Then we talk
+  about customer support, and Jon's Xbox Saga.
 ---
 
 Dear Listener,

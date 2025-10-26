@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/014-lwatol-20181018.mp3 '
   length: 44465663
   type: audio/mpeg
+summary: >-
+  We have a sweeter Lemon join us at the beginning of this episode. Lucy tells
+  us about her milkshake experience which leads into even more milkshake talk.
 ---
 
 Dear Listener,

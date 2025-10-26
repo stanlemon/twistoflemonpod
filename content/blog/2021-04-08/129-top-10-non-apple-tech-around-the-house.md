@@ -12,6 +12,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/129-lwatol-20210408.mp3'
   length: 45549320
   type: audio/mpeg
+summary: >-
+  We had a hard time coming up with something interesting to talk about, so we
+  took to the internets and asked what you listeners wanted to hear! We had a
 ---
 
 Dear Listener,

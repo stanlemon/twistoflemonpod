@@ -14,6 +14,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/105-lwatol-20201022.mp3'
   length: 36694259
   type: audio/mpeg
+summary: >-
+  This week is full of updates about Jon's life. We kick off the episode by
+  actually saying who we are and asking you to share the episode if you like it!
 ---
 
 Dear Listener,

@@ -15,6 +15,9 @@ enclosure:
   url: 'https://media.twistoflemonpod.com/153-lwatol-20210923.mp3'
   length: 44792060
   type: audio/mpeg
+summary: >-
+  This week we talk about our decision making process and if we ordered any new
+  Apple devices after last week's Apple event. Listen in to here if and what
 ---
 
 Dear Listener,
