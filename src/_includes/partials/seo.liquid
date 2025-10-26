@@ -1,22 +1,30 @@
-<title>{% if title %}{{ title }} | {% endif %}{{ site.title }}</title>
+<title>{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ summary | default: description | default: site.description }}">
+<meta name="author" content="{{ site.author.name }}">
+<meta name="keywords" content="podcast, technology, finance, life, craftsmanship, theology{% if tags %}, {{ tags | join: ', ' }}{% endif %}">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="{% if layout == 'layouts/post.liquid' %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
+<meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:description" content="{{ summary | default: description | default: site.description }}">
 <meta property="og:image" content="{{ site.url }}/images/logo.png">
 <meta property="og:image:alt" content="{{ site.title }} Logo">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:locale" content="en_US">
+{% if layout == 'layouts/post.liquid' and enclosure and enclosure.url %}
+<meta property="og:audio" content="{{ enclosure.url }}">
+<meta property="og:audio:type" content="{{ enclosure.type | default: 'audio/mpeg' }}">
+{% endif %}
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@{{ site.social.twitter }}">
 <meta name="twitter:creator" content="@{{ site.social.twitter }}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-<meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
+<meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
 <meta name="twitter:description" content="{{ summary | default: description | default: site.description }}">
 <meta name="twitter:image" content="{{ site.url }}/images/logo.png">
 <meta name="twitter:image:alt" content="{{ site.title }} Logo">
@@ -27,5 +35,6 @@
 <!-- RSS Feed Auto-Discovery -->
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ site.url }}/feed.xml">
 
-<!-- Language -->
-<meta property="og:locale" content="en_US">
+<!-- Apple Podcast -->
+<meta name="apple-itunes-app" content="app-id=PODCAST_ID">
+
