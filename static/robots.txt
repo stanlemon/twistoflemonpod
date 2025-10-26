@@ -1,2 +1,8 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://twistoflemonpod.com/sitemap.xml
+
+# Podcast feed
+Allow: /feed.xml

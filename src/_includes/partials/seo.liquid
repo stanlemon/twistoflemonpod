@@ -2,17 +2,30 @@
 <meta name="description" content="{{ summary | default: description | default: site.description }}">
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
+<meta property="og:type" content="{% if layout == 'layouts/post.liquid' %}article{% else %}website{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 <meta property="og:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
 <meta property="og:description" content="{{ summary | default: description | default: site.description }}">
+<meta property="og:image" content="{{ site.url }}/images/logo.png">
+<meta property="og:image:alt" content="{{ site.title }} Logo">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="en_US">
 
 <!-- Twitter -->
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@{{ site.social.twitter }}">
 <meta name="twitter:creator" content="@{{ site.social.twitter }}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 <meta name="twitter:title" content="{% if title %}{{ title }} | {% endif %}{{ site.title }}">
 <meta name="twitter:description" content="{{ summary | default: description | default: site.description }}">
+<meta name="twitter:image" content="{{ site.url }}/images/logo.png">
+<meta name="twitter:image:alt" content="{{ site.title }} Logo">
 
 <!-- Canonical URL -->
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+<!-- RSS Feed Auto-Discovery -->
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ site.url }}/feed.xml">
+
+<!-- Language -->
+<meta property="og:locale" content="en_US">
