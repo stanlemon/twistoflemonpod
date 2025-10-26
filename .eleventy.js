@@ -22,6 +22,13 @@ export default function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
 
+  // Ignore documentation files
+  eleventyConfig.ignores.add("CLAUDE.md");
+  eleventyConfig.ignores.add("README.md");
+  eleventyConfig.ignores.add("AGENTS.md");
+  eleventyConfig.ignores.add("SEO-GUIDE.md");
+  eleventyConfig.ignores.add("SECURITY-HEADERS.md");
+
   // Copy static assets
   eleventyConfig.addPassthroughCopy({
     "src/css": "css",
