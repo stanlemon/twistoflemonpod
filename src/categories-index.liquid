@@ -1,0 +1,19 @@
+---
+layout: layouts/base.liquid
+title: All Categories - Life with a Twist of Lemon
+description: Browse all podcast categories
+permalink: /categories/
+---
+
+<h2>All Categories</h2>
+
+<p>Browse all podcast episodes by category.</p>
+
+<ul class="archive-list">
+{% assign allCategories = collections.blog | getAllCategories %}
+{% for category in allCategories %}
+  <li>
+    <a href="/category/{{ category | slugify }}/">{{ category }}</a>
+  </li>
+{% endfor %}
+</ul>

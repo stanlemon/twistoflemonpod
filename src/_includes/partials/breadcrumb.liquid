@@ -10,14 +10,26 @@
     </li>
     {% if categoryName %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">{{ categoryName }}</span>
+      <a itemprop="item" href="{{ site.url }}/categories/">
+        <span itemprop="name">Category</span>
+      </a>
       <meta itemprop="position" content="2" />
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ categoryName }}</span>
+      <meta itemprop="position" content="3" />
     </li>
     {% endif %}
     {% if tagName %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <span itemprop="name">{{ tagName }}</span>
+      <a itemprop="item" href="{{ site.url }}/tags/">
+        <span itemprop="name">Tag</span>
+      </a>
       <meta itemprop="position" content="2" />
+    </li>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ tagName }}</span>
+      <meta itemprop="position" content="3" />
     </li>
     {% endif %}
   </ol>

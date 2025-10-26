@@ -1,0 +1,19 @@
+---
+layout: layouts/base.liquid
+title: All Tags - Life with a Twist of Lemon
+description: Browse all podcast tags
+permalink: /tags/
+---
+
+<h2>All Tags</h2>
+
+<p>Browse all podcast episodes by tag.</p>
+
+<ul class="archive-list">
+{% assign allTags = collections.blog | getAllTags %}
+{% for tag in allTags %}
+  <li>
+    <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>
+  </li>
+{% endfor %}
+</ul>
