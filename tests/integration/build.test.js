@@ -35,11 +35,29 @@ describe('Build Validation', () => {
 
   describe('Blog posts', () => {
     it('should generate at least 170 blog post directories', () => {
-      const blogPosts = fs.readdirSync(siteDir, { withFileTypes: true })
-        .filter(dirent => dirent.isDirectory() && /^\d{4}-\d{2}-\d{2}$/.test(dirent.name))
-        .length;
+      // Count blog posts in new /YYYY/mm/slug structure
+      let blogPostCount = 0;
 
-      assert.ok(blogPosts >= 170, `Expected at least 170 blog posts, found ${blogPosts}`);
+      // Find all year directories (YYYY format)
+      const yearDirs = fs.readdirSync(siteDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory() && /^\d{4}$/.test(dirent.name));
+
+      // For each year, find all month directories
+      yearDirs.forEach(yearDir => {
+        const yearPath = path.join(siteDir, yearDir.name);
+        const monthDirs = fs.readdirSync(yearPath, { withFileTypes: true })
+          .filter(dirent => dirent.isDirectory() && /^\d{2}$/.test(dirent.name));
+
+        // For each month, count slug directories
+        monthDirs.forEach(monthDir => {
+          const monthPath = path.join(yearPath, monthDir.name);
+          const slugDirs = fs.readdirSync(monthPath, { withFileTypes: true })
+            .filter(dirent => dirent.isDirectory() && dirent.name !== 'transcript');
+          blogPostCount += slugDirs.length;
+        });
+      });
+
+      assert.ok(blogPostCount >= 170, `Expected at least 170 blog posts, found ${blogPostCount}`);
     });
   });
 
