@@ -8,7 +8,7 @@ categories:
   - Movies
 tags:
   - avengers
-  - Christmas
+  - christmas
   - Fritsche
   - milkshakes
   - endgame

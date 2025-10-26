@@ -7,7 +7,7 @@ categories:
   - Movies
   - Technology
 tags:
-  - Christmas
+  - christmas
   - star wars
 enclosure:
   url: 'https://media.twistoflemonpod.com/075-lwatol-20191219.mp3'

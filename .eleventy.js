@@ -1,3 +1,4 @@
+import dotenv from "dotenv";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import markdownIt from "markdown-it";
@@ -5,8 +6,18 @@ import markdownItAnchor from "markdown-it-anchor";
 import Image from "@11ty/eleventy-img";
 import * as filters from "./lib/filters.js";
 import * as collections from "./lib/collections.js";
+import siteData from "./src/_data/site.json" with { type: "json" };
+
+// Load environment variables
+dotenv.config();
 
 export default function(eleventyConfig) {
+  // Override site URL with environment variable if set
+  // Use empty string for local dev, production URL otherwise
+  eleventyConfig.addGlobalData("site", {
+    ...siteData,
+    url: process.env.SITE_URL !== undefined ? process.env.SITE_URL : siteData.url
+  });
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);
