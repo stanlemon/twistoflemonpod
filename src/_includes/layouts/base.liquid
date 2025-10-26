@@ -15,7 +15,7 @@
 
   <script src="/js/theme-toggle.js"></script>
 </head>
-<body>
+<body{% if page.url == "/" %} class="homepage"{% endif %}>
   <div class="container">
     {% include "partials/nav.liquid" %}
 
@@ -27,5 +27,7 @@
       <p>Copyright &copy; 2025 by <a href="https://stanlemon.com">Stan Lemon</a> &amp; <a href="https://jonkohlmeier.com">Jon Kohlmeier</a></p>
     </footer>
   </div>
+
+  <script src="/js/shrink-header.js"></script>
 </body>
 </html>

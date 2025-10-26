@@ -59,6 +59,22 @@ body {
   padding: 2rem 0;
 }
 
+/* Make entire nav sticky on non-homepage pages */
+body:not(.homepage) .nav {
+  position: sticky;
+  top: 0;
+  background: var(--color-background);
+  z-index: 100;
+  transition: padding 0.3s ease-in-out, align-items 0.3s ease-in-out;
+  padding: 2rem 0;
+}
+
+/* Shrink nav padding on scroll and align to left */
+body:not(.homepage) .nav.shrink {
+  padding: 1rem 0;
+  align-items: flex-start;
+}
+
 .nav a {
   text-decoration: none;
   color: inherit;
@@ -69,6 +85,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
+  width: 100%;
 }
 
 .logo {
@@ -471,4 +488,52 @@ body {
 [data-theme="dark"] .theme-toggle__icon--moon {
   opacity: 1;
   transform: rotate(0deg);
+}
+
+/* Scrolling Header Behavior (non-homepage pages only) */
+
+/* Logo shrink behavior - faster expand, slower shrink */
+body:not(.homepage) .logo {
+  max-width: 60%;
+  width: 60%;
+  transition: max-width 0.15s ease-out, width 0.15s ease-out;
+}
+
+body:not(.homepage) .logo.shrink {
+  max-width: 15%;
+  width: 15%;
+  margin: 0;
+  transition: max-width 0.3s ease-in, width 0.3s ease-in;
+}
+
+/* Add transitions to nav__header for smooth layout changes */
+body:not(.homepage) .nav__header {
+  transition: flex-direction 0.3s ease-in-out, gap 0.3s ease-in-out, width 0.3s ease-in-out, align-items 0.3s ease-in-out;
+}
+
+/* Add transitions to h1 */
+body:not(.homepage) .nav__header h1 {
+  transition: font-size 0.3s ease-in-out;
+}
+
+/* Change layout to horizontal and align left when shrunk */
+body:not(.homepage) .nav.shrink .nav__header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+/* Remove centering from logo link when shrunk */
+body:not(.homepage) .nav.shrink .nav__header a {
+  display: block;
+  margin: 0;
+}
+
+/* Make h1 smaller and adjust for horizontal layout */
+body:not(.homepage) .nav.shrink .nav__header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+  white-space: nowrap;
+  text-align: left;
 }
