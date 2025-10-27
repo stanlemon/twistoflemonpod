@@ -28,45 +28,52 @@ Usage:
   {%- endif -%}
 
   <div class="pagination-numbers">
-    {%- comment -%} Calculate sliding window boundaries {%- endcomment -%}
+    {%- comment -%} Always show first page {%- endcomment -%}
+    {%- if currentPage == 1 -%}
+      <span class="pagination-number pagination-current" aria-current="page">1</span>
+    {%- else -%}
+      <a href="/1/" class="pagination-number" aria-label="Go to page 1">1</a>
+    {%- endif -%}
+
+    {%- comment -%} Calculate sliding window boundaries (excluding first and last) {%- endcomment -%}
     {%- assign startWindow = currentPage | minus: 2 -%}
-    {%- if startWindow < 1 -%}
-      {%- assign startWindow = 1 -%}
+    {%- if startWindow < 2 -%}
+      {%- assign startWindow = 2 -%}
     {%- endif -%}
 
     {%- assign endWindow = currentPage | plus: 2 -%}
-    {%- if endWindow > totalPages -%}
-      {%- assign endWindow = totalPages -%}
+    {%- assign lastPageMinus1 = totalPages | minus: 1 -%}
+    {%- if endWindow > lastPageMinus1 -%}
+      {%- assign endWindow = lastPageMinus1 -%}
     {%- endif -%}
 
-    {%- comment -%} Show all pages in the window {%- endcomment -%}
-    {%- for pageNum in (startWindow..endWindow) -%}
-      {%- comment -%} Show ellipsis before current page range if gap from start {%- endcomment -%}
-      {%- if pageNum == startWindow and startWindow > 1 -%}
-        {%- if startWindow > 2 -%}
-          <span class="pagination-ellipsis" aria-hidden="true">…</span>
-        {%- endif -%}
-      {%- endif -%}
+    {%- comment -%} Show ellipsis after first page if needed {%- endcomment -%}
+    {%- if startWindow > 2 -%}
+      <span class="pagination-ellipsis" aria-hidden="true">…</span>
+    {%- endif -%}
 
-      {%- comment -%} Show page number {%- endcomment -%}
+    {%- comment -%} Show sliding window (middle pages) {%- endcomment -%}
+    {%- for pageNum in (startWindow..endWindow) -%}
       {%- if pageNum == currentPage -%}
         <span class="pagination-number pagination-current" aria-current="page">{{ pageNum }}</span>
       {%- else -%}
-        {%- if pageNum == 1 -%}
-          <a href="/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
-        {%- else -%}
-          <a href="/{{ pageNum }}/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
-        {%- endif -%}
-      {%- endif -%}
-
-      {%- comment -%} Show ellipsis after current page range if gap to end {%- endcomment -%}
-      {%- if pageNum == endWindow and endWindow < totalPages -%}
-        {%- assign nextPage = endWindow | plus: 1 -%}
-        {%- if nextPage < totalPages -%}
-          <span class="pagination-ellipsis" aria-hidden="true">…</span>
-        {%- endif -%}
+        <a href="/{{ pageNum }}/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
       {%- endif -%}
     {%- endfor -%}
+
+    {%- comment -%} Show ellipsis before last page if needed {%- endcomment -%}
+    {%- if endWindow < lastPageMinus1 -%}
+      <span class="pagination-ellipsis" aria-hidden="true">…</span>
+    {%- endif -%}
+
+    {%- comment -%} Always show last page (if more than 1 page) {%- endcomment -%}
+    {%- if totalPages > 1 -%}
+      {%- if currentPage == totalPages -%}
+        <span class="pagination-number pagination-current" aria-current="page">{{ totalPages }}</span>
+      {%- else -%}
+        <a href="/{{ totalPages }}/" class="pagination-number" aria-label="Go to page {{ totalPages }}">{{ totalPages }}</a>
+      {%- endif -%}
+    {%- endif -%}
   </div>
 
   {%- comment -%} Next button {%- endcomment -%}
