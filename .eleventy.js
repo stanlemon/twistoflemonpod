@@ -6,7 +6,7 @@ import markdownItAnchor from "markdown-it-anchor";
 import Image from "@11ty/eleventy-img";
 import * as filters from "./lib/filters.js";
 import * as collections from "./lib/collections.js";
-import siteData from "./src/_data/site.json" with { type: "json" };
+import siteData from "./src/_data/site.js";
 
 // Load environment variables
 dotenv.config();

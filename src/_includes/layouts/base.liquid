@@ -14,6 +14,17 @@
   <link rel="icon" href="/favicon.ico">
 
   <script src="/js/theme-toggle.js"></script>
+
+  {% if site.analytics.googleAnalyticsId %}
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.googleAnalyticsId }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.analytics.googleAnalyticsId }}');
+  </script>
+  {% endif %}
 </head>
 <body>
   <div class="container">
