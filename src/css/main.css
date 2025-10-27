@@ -296,7 +296,7 @@ body {
   color: var(--color-text-secondary);
 }
 
-.blog-post-card section {
+.blog-post-card section:not(.tags-section) {
   margin-bottom: 0.125rem;
 }
 
