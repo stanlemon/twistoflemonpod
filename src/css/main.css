@@ -296,17 +296,17 @@ body {
   color: var(--color-text-secondary);
 }
 
-.blog-post-card section {
-  margin-bottom: 0.5rem;
+.blog-post-card section:not(.tags-section) {
+  margin-bottom: 0.125rem;
 }
 
 /* Tags section */
 .tags-section {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 .tags-section p {
-  margin: 0.25rem 0;
+  margin: 0;
   font-size: 0.9rem;
 }
 
