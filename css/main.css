@@ -1,13 +1,15 @@
-/* Color scheme variables */
+/* Color scheme variables - inspired by logo colors */
 :root {
   --color-background: #ffffff;
   --color-text: #000000;
   --color-text-secondary: #666666;
   --color-border: #dddddd;
   --color-footer-bg: #f5f5f5;
-  --color-link: #0066cc;
-  --color-link-hover: #0066cc;
-  --color-hover-bg: #f5f5f5;
+  /* Logo-inspired colors: deep magenta and golden amber */
+  --color-link: #A01080;
+  --color-link-hover: #8B0870;
+  --color-accent: #C89600;
+  --color-hover-bg: #faf0ff;
 }
 
 [data-theme="dark"] {
@@ -16,9 +18,11 @@
   --color-text-secondary: #a0a0a0;
   --color-border: #404040;
   --color-footer-bg: #242424;
-  --color-link: #4da6ff;
-  --color-link-hover: #66b3ff;
-  --color-hover-bg: #2a2a2a;
+  /* Logo-inspired colors: bright orchid and lemon yellow */
+  --color-link: #E896E8;
+  --color-link-hover: #FF9EFF;
+  --color-accent: #FFE600;
+  --color-hover-bg: #2a1a2a;
 }
 
 /* Reset and base styles */
