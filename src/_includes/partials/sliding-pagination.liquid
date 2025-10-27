@@ -52,11 +52,10 @@ Usage:
       {%- if pageNum == currentPage -%}
         <span class="pagination-number pagination-current" aria-current="page">{{ pageNum }}</span>
       {%- else -%}
-        {%- assign pageIndex = pageNum | minus: 1 -%}
         {%- if pageNum == 1 -%}
           <a href="/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
         {%- else -%}
-          <a href="/{{ pageIndex }}/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
+          <a href="/{{ pageNum }}/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
         {%- endif -%}
       {%- endif -%}
 

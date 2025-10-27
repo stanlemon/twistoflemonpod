@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.liquid
 description: Listen to Jon Kohlmeier & Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.
+permalink: "{% if pagination.pageNumber == 0 %}/{% else %}/{{ pagination.pageNumber | plus: 1 }}/{% endif %}index.html"
 pagination:
   data: collections.blog
   size: 10
