@@ -29,12 +29,4 @@ eleventyComputed:
   {% endfor %}
 </div>
 
-<nav class="pagination" aria-label="Pagination">
-  {% if pagination.href.previous %}
-    <a href="{{ pagination.href.previous }}" rel="prev">← Previous</a>
-  {% endif %}
-
-  {% if pagination.href.next %}
-    <a href="{{ pagination.href.next }}" rel="next">Next →</a>
-  {% endif %}
-</nav>
+{% include "partials/sliding-pagination.liquid", pagination: pagination %}

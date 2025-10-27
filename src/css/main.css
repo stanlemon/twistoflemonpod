@@ -324,23 +324,115 @@ body {
 }
 
 /* Pagination */
-.pagination {
+.sliding-pagination {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
   margin: 2rem 0;
   padding: 1rem 0;
 }
 
-.pagination a {
-  text-decoration: none;
-  color: var(--color-link);
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--color-border);
-  border-radius: 4px;
+.pagination-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
 }
 
-.pagination a:hover {
+.pagination-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--color-link);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.pagination-number:hover {
   background-color: var(--color-hover-bg);
+  border-color: var(--color-link);
+}
+
+.pagination-current {
+  background-color: var(--color-link);
+  color: white;
+  border-color: var(--color-link);
+  font-weight: 600;
+}
+
+.pagination-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  color: var(--color-text);
+  user-select: none;
+}
+
+.pagination-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: var(--color-link);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.pagination-arrow:hover {
+  background-color: var(--color-hover-bg);
+  border-color: var(--color-link);
+}
+
+.pagination-arrow-disabled {
+  color: var(--color-text);
+  opacity: 0.3;
+  cursor: not-allowed;
+  border-color: var(--color-border);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Responsive pagination */
+@media (max-width: 640px) {
+  .pagination-number,
+  .pagination-arrow,
+  .pagination-ellipsis {
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0.25rem;
+    font-size: 0.875rem;
+  }
+
+  .pagination-numbers {
+    gap: 0.125rem;
+  }
+
+  .sliding-pagination {
+    gap: 0.25rem;
+  }
 }
 
 /* Bio */
