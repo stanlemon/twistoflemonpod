@@ -9,6 +9,6 @@ export default {
     twitter: "twistoflemonpod"
   },
   analytics: {
-    googleAnalyticsId: "G-Q1HBC8Z5KT"
+    googleAnalyticsId: "G-VXBJCB4RZ2"
   }
 };
