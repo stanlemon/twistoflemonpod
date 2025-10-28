@@ -1,0 +1,89 @@
+{%- comment -%}
+Sliding Pagination Component
+
+Parameters (from pagination object):
+- pagination.pageNumber: Current page (0-indexed)
+- pagination.href.previous: URL to previous page
+- pagination.href.next: URL to next page
+- pagination.href.first: URL to first page
+- pagination.pages: Array of all page data
+
+Usage:
+{% include "partials/sliding-pagination.liquid", pagination: pagination %}
+{%- endcomment -%}
+
+{%- assign currentPage = pagination.pageNumber | plus: 1 -%}
+{%- assign totalPages = pagination.pages.size -%}
+
+{%- if totalPages > 1 -%}
+<nav class="sliding-pagination" aria-label="Pagination" role="navigation">
+  {%- comment -%} Previous button {%- endcomment -%}
+  {%- if pagination.href.previous -%}
+    <a href="{{ pagination.href.previous }}" class="pagination-arrow" rel="prev" aria-label="Go to previous page">
+      <span aria-hidden="true">←</span>
+      <span class="sr-only">Previous</span>
+    </a>
+  {%- else -%}
+    <span class="pagination-arrow pagination-arrow-disabled" aria-hidden="true">←</span>
+  {%- endif -%}
+
+  <div class="pagination-numbers">
+    {%- comment -%} Always show first page {%- endcomment -%}
+    {%- if currentPage == 1 -%}
+      <span class="pagination-number pagination-current" aria-current="page">1</span>
+    {%- else -%}
+      <a href="/1/" class="pagination-number" aria-label="Go to page 1">1</a>
+    {%- endif -%}
+
+    {%- comment -%} Calculate sliding window boundaries (excluding first and last) {%- endcomment -%}
+    {%- assign startWindow = currentPage | minus: 2 -%}
+    {%- if startWindow < 2 -%}
+      {%- assign startWindow = 2 -%}
+    {%- endif -%}
+
+    {%- assign endWindow = currentPage | plus: 2 -%}
+    {%- assign lastPageMinus1 = totalPages | minus: 1 -%}
+    {%- if endWindow > lastPageMinus1 -%}
+      {%- assign endWindow = lastPageMinus1 -%}
+    {%- endif -%}
+
+    {%- comment -%} Show ellipsis after first page if needed {%- endcomment -%}
+    {%- if startWindow > 2 -%}
+      <span class="pagination-ellipsis" aria-hidden="true">…</span>
+    {%- endif -%}
+
+    {%- comment -%} Show sliding window (middle pages) {%- endcomment -%}
+    {%- for pageNum in (startWindow..endWindow) -%}
+      {%- if pageNum == currentPage -%}
+        <span class="pagination-number pagination-current" aria-current="page">{{ pageNum }}</span>
+      {%- else -%}
+        <a href="/{{ pageNum }}/" class="pagination-number" aria-label="Go to page {{ pageNum }}">{{ pageNum }}</a>
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- comment -%} Show ellipsis before last page if needed {%- endcomment -%}
+    {%- if endWindow < lastPageMinus1 -%}
+      <span class="pagination-ellipsis" aria-hidden="true">…</span>
+    {%- endif -%}
+
+    {%- comment -%} Always show last page (if more than 1 page) {%- endcomment -%}
+    {%- if totalPages > 1 -%}
+      {%- if currentPage == totalPages -%}
+        <span class="pagination-number pagination-current" aria-current="page">{{ totalPages }}</span>
+      {%- else -%}
+        <a href="/{{ totalPages }}/" class="pagination-number" aria-label="Go to page {{ totalPages }}">{{ totalPages }}</a>
+      {%- endif -%}
+    {%- endif -%}
+  </div>
+
+  {%- comment -%} Next button {%- endcomment -%}
+  {%- if pagination.href.next -%}
+    <a href="{{ pagination.href.next }}" class="pagination-arrow" rel="next" aria-label="Go to next page">
+      <span aria-hidden="true">→</span>
+      <span class="sr-only">Next</span>
+    </a>
+  {%- else -%}
+    <span class="pagination-arrow pagination-arrow-disabled" aria-hidden="true">→</span>
+  {%- endif -%}
+</nav>
+{%- endif -%}

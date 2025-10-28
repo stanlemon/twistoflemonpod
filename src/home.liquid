@@ -1,0 +1,42 @@
+---
+layout: layouts/base.liquid
+description: Listen to Jon Kohlmeier & Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.
+permalink: /index.html
+title: Life with a Twist of Lemon - A Podcast about Technology, Finance, Life, and More
+canonicalUrl: /1/
+eleventyExcludeFromCollections: true
+---
+
+<div class="blog-grid">
+  {% for post in collections.blog limit: 10 %}
+    <article class="blog-post-card">
+      <header>
+        <h3>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <small>{{ post.date | readableDate }}</small>
+      </header>
+      <section>
+        <p>{{ post.data.description | default: post.templateContent | excerpt: 200 }}</p>
+      </section>
+
+      {% include "partials/tags.liquid", label: "tags", prefix: "tag", values: post.data.tags %}
+      {% include "partials/tags.liquid", label: "categories", prefix: "category", values: post.data.categories %}
+    </article>
+  {% endfor %}
+</div>
+
+<nav class="sliding-pagination" aria-label="Pagination" role="navigation">
+  <span class="pagination-arrow pagination-arrow-disabled" aria-hidden="true">←</span>
+  <div class="pagination-numbers">
+    <span class="pagination-number pagination-current" aria-current="page">1</span>
+    <a href="/2/" class="pagination-number" aria-label="Go to page 2">2</a>
+    <a href="/3/" class="pagination-number" aria-label="Go to page 3">3</a>
+    <span class="pagination-ellipsis" aria-hidden="true">…</span>
+    <a href="/18/" class="pagination-number" aria-label="Go to page 18">18</a>
+  </div>
+  <a href="/2/" class="pagination-arrow" rel="next" aria-label="Go to next page">
+    <span aria-hidden="true">→</span>
+    <span class="sr-only">Next</span>
+  </a>
+</nav>
