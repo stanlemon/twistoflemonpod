@@ -17,6 +17,7 @@ eleventyExcludeFromCollections: true
     <itunes:category text="Technology"/>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="{{ site.url }}{% podcastArtwork site.image %}"/>
 
     {% for post in collections.blog | reverse %}
     <item>

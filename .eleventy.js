@@ -89,6 +89,23 @@ export default function(eleventyConfig) {
     return Image.generateHTML(metadata, imageAttributes);
   });
 
+  // Shortcode for podcast artwork - generates optimized podcast art at recommended sizes
+  eleventyConfig.addAsyncShortcode("podcastArtwork", async function(src) {
+    if (!src) {
+      return "";
+    }
+
+    let metadata = await Image(src, {
+      widths: [1400, 3000],
+      formats: ["jpeg"],
+      outputDir: "./_site/img/",
+      urlPath: "/img/"
+    });
+
+    // Return the URL of the largest image (3000px for podcast feed)
+    return metadata.jpeg[metadata.jpeg.length - 1].url;
+  });
+
   // Transform caption shortcodes to figure/figcaption
   eleventyConfig.addTransform("transformCaptions", function(content, outputPath) {
     if (outputPath && outputPath.endsWith(".html")) {
