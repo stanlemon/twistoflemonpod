@@ -1,7 +1,7 @@
 <title>{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ summary | default: description | default: site.description }}">
 <meta name="author" content="{{ site.author.name }}">
-<meta name="keywords" content="podcast, technology, finance, life, craftsmanship, theology{% if tags %}, {{ tags | join: ', ' }}{% endif %}">
+<meta name="keywords" content="podcast, technology, finance, life, craftsmanship, theology{% if keywords and keywords.size > 0 %}, {{ keywords | join: ', ' }}{% elsif tags %}, {{ tags | join: ', ' }}{% endif %}">
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="{% if layout == 'layouts/post.liquid' %}article{% else %}website{% endif %}">
@@ -17,6 +17,11 @@
 {% if layout == 'layouts/post.liquid' and enclosure and enclosure.url %}
 <meta property="og:audio" content="{{ enclosure.url }}">
 <meta property="og:audio:type" content="{{ enclosure.type | default: 'audio/mpeg' }}">
+{% endif %}
+{% if layout == 'layouts/post.liquid' and keywords and keywords.size > 0 %}
+{% for keyword in keywords %}
+<meta property="article:tag" content="{{ keyword }}">
+{% endfor %}
 {% endif %}
 
 <!-- Twitter -->

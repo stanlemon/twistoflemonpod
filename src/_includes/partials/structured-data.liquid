@@ -46,7 +46,16 @@
     }
   },
   "description": "{{ summary | default: description | default: content | excerpt: 300 | escape }}",
-  "mainEntityOfPage": {
+  {% if keywords and keywords.size > 0 %}"keywords": "{{ keywords | join: ', ' }}",
+  "about": [
+    {% for keyword in keywords %}
+    {
+      "@type": "Thing",
+      "name": "{{ keyword }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  {% endif %}"mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ site.url }}{{ page.url }}"
   }

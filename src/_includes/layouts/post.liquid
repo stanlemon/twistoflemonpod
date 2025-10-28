@@ -28,6 +28,26 @@ layout: layouts/base.liquid
     {% endif %}
   </header>
 
+  {% if type == 'transcript' and summary %}
+    <div class="transcript-meta">
+      <div class="transcript-summary">
+        <h3>Episode Summary</h3>
+        <p>{{ summary }}</p>
+      </div>
+
+      {% if keywords and keywords.size > 0 %}
+        <div class="transcript-keywords">
+          <h4>Topics Covered</h4>
+          <ul class="keywords-list">
+            {% for keyword in keywords %}
+              <li>{{ keyword }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
   <section class="post-content" itemprop="articleBody">
     {{ content }}
   </section>
