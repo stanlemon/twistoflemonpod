@@ -502,6 +502,62 @@ body {
   margin: 2rem 0;
 }
 
+/* Transcript meta section */
+.transcript-meta {
+  background: var(--color-footer-bg);
+  border-left: 4px solid var(--color-accent);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+}
+
+.transcript-summary h3 {
+  margin-top: 0;
+  color: var(--color-text);
+  font-size: 1.3rem;
+}
+
+.transcript-summary p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+.transcript-keywords {
+  margin-top: 1.5rem;
+}
+
+.transcript-keywords h4 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+  font-size: 1.1rem;
+}
+
+.keywords-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.keywords-list li {
+  background: var(--color-accent);
+  color: var(--color-text);
+  padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+[data-theme="dark"] .keywords-list li {
+  background: var(--color-link);
+  color: var(--color-background);
+}
+
 /* Navigation between posts */
 .post-navigation {
   display: flex;
