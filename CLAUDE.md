@@ -272,6 +272,28 @@ npm run build
 
 **Key Learning:** Deepgram provides production-quality transcription with speaker diarization via a simple API, processing episodes in seconds rather than minutes. Cloud-based solutions can be more practical than local ML models for one-time bulk processing tasks.
 
+### AI-Generated Summaries and Keywords (2025-10-28)
+
+**Problem:** Transcripts needed summaries and keywords for better content discovery and SEO.
+
+**Solution:** Created `scripts/add-ai-summaries.js` to:
+1. Use Ollama + llama3.2:3b model for local, free ML processing
+2. Generate 2-3 sentence summaries for each transcript
+3. Extract 5-10 relevant keywords per episode
+4. Add `summary` and `keywords` fields to frontmatter
+
+**Setup:**
+```bash
+brew install ollama
+brew services start ollama
+ollama pull llama3.2:3b
+node scripts/add-ai-summaries.js [--test]
+```
+
+**Result:** All 167 transcripts now have AI-generated summaries and keywords (~7 seconds per episode, ~20 minutes total, 100% local processing).
+
+**Key Learning:** Ollama with Apple Silicon provides fast, free, local ML processing without API costs or cloud dependencies.
+
 ### SEO Improvements (2025-10-26)
 
 **Goal:** Comprehensive SEO analysis and improvements for better search visibility and podcast discovery.
