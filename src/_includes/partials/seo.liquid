@@ -30,7 +30,7 @@
 <meta name="twitter:image:alt" content="{{ site.title }} Logo">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<link rel="canonical" href="{{ site.url }}{% if canonicalUrl %}{{ canonicalUrl }}{% else %}{{ page.url }}{% endif %}">
 
 <!-- RSS Feed Auto-Discovery -->
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ site.url }}/feed.xml">

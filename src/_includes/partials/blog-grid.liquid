@@ -1,0 +1,28 @@
+{%- comment -%}
+Blog Grid Partial
+
+Parameters:
+- posts: Array of blog post items to display
+
+Usage:
+{% include "partials/blog-grid.liquid", posts: posts %}
+{%- endcomment -%}
+
+<div class="blog-grid">
+  {% for post in posts %}
+    <article class="blog-post-card">
+      <header>
+        <h3>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+        <small>{{ post.date | readableDate }}</small>
+      </header>
+      <section>
+        <p>{{ post.data.description | default: post.templateContent | excerpt: 200 }}</p>
+      </section>
+
+      {% include "partials/tags.liquid", label: "tags", prefix: "tag", values: post.data.tags %}
+      {% include "partials/tags.liquid", label: "categories", prefix: "category", values: post.data.categories %}
+    </article>
+  {% endfor %}
+</div>
