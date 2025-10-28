@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {# Homepage #}
+  <!-- Homepage -->
   <url>
     <loc>{{ site.url }}/</loc>
     <lastmod>{{ collections.blog[0].date | htmlDateString }}</lastmod>
@@ -12,7 +12,7 @@ eleventyExcludeFromCollections: true
     <priority>1.0</priority>
   </url>
 
-  {# Blog posts #}
+  <!-- Blog posts -->
   {% for post in collections.blog %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
@@ -22,7 +22,7 @@ eleventyExcludeFromCollections: true
   </url>
   {% endfor %}
 
-  {# Transcript posts #}
+  <!-- Transcript posts -->
   {% for post in collections.transcripts %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
@@ -32,7 +32,7 @@ eleventyExcludeFromCollections: true
   </url>
   {% endfor %}
 
-  {# Category pages #}
+  <!-- Category pages -->
   {% for category in collections.categories %}
   <url>
     <loc>{{ site.url }}/category/{{ category[0] }}/</loc>
@@ -42,7 +42,7 @@ eleventyExcludeFromCollections: true
   </url>
   {% endfor %}
 
-  {# Tag pages #}
+  <!-- Tag pages -->
   {% for tag in collections.tags %}
   <url>
     <loc>{{ site.url }}/tag/{{ tag[0] }}/</loc>
