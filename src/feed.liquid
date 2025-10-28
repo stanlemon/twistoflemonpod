@@ -5,26 +5,26 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description }}</description>
+    <title>{{ site.title | escape }}</title>
+    <description>{{ site.description | escape }}</description>
     <link>{{ site.url }}/</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
     <lastBuildDate>{{ collections.blog[0].date | dateToRfc822 }}</lastBuildDate>
 
-    <itunes:author>{{ site.author.name }}</itunes:author>
-    <itunes:summary>{{ site.description }}</itunes:summary>
+    <itunes:author>{{ site.author.name | escape }}</itunes:author>
+    <itunes:summary>{{ site.description | escape }}</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:category text="Society &amp; Culture"/>
     <itunes:explicit>no</itunes:explicit>
 
     {% for post in collections.blog | reverse %}
     <item>
-      <title>{{ post.data.title }}</title>
+      <title>{{ post.data.title | escape }}</title>
       <link>{{ site.url }}{{ post.url }}</link>
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
-      <description>{{ post.data.summary | default: post.data.description | default: post.templateContent | excerpt: 300 }}</description>
+      <description>{{ post.data.summary | default: post.data.description | default: post.templateContent | excerpt: 300 | escape }}</description>
       <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
 
       {% if post.data.enclosure and post.data.enclosure.url %}
@@ -38,7 +38,7 @@ eleventyExcludeFromCollections: true
 
       {% if post.data.categories %}
       {% for category in post.data.categories %}
-      <category>{{ category }}</category>
+      <category>{{ category | escape }}</category>
       {% endfor %}
       {% endif %}
     </item>
