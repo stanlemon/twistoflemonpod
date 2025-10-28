@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  {# Homepage #}
+  <!-- Homepage -->
   <url>
     <loc>https://twistoflemonpod.com/</loc>
     <lastmod>2021-12-30</lastmod>
@@ -8,7 +8,7 @@
     <priority>1.0</priority>
   </url>
 
-  {# Blog posts #}
+  <!-- Blog posts -->
   
   <url>
     <loc>https://twistoflemonpod.com/2021/12/heading-into-2022/</loc>
@@ -1215,7 +1215,7 @@
   </url>
   
 
-  {# Transcript posts #}
+  <!-- Transcript posts -->
   
   <url>
     <loc>https://twistoflemonpod.com/2018/07/episode-about-podcasts/transcript/</loc>
@@ -2387,7 +2387,7 @@
   </url>
   
 
-  {# Category pages #}
+  <!-- Category pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/category/lifestyle/</loc>
@@ -2495,7 +2495,7 @@
   </url>
   
 
-  {# Tag pages #}
+  <!-- Tag pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/tag/vacation/</loc>
