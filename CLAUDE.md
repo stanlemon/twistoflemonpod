@@ -206,6 +206,81 @@ npm run build
 
 ## Recent Work & Learnings
 
+### Scrolling Header Implementation (2025-10-26)
+
+**Goal:** Implement a smooth, sticky header with scroll-based shrinking animation similar to stanlemon.github.com.
+
+**Solution Implemented:**
+
+**Feature Overview:**
+- Sticky header that stays visible while scrolling on non-homepage pages
+- Logo shrinks from 60% to 30% width when scrolling past 50px
+- Smooth CSS transitions (0.3s ease-in-out)
+- Uses `requestAnimationFrame` for optimal scroll performance
+- Gradient fade effect at bottom of sticky header
+- Dark mode compatible
+- Homepage excluded from sticky behavior
+
+**Files Created/Modified:**
+
+1. **`src/js/shrink-header.js`** (new file)
+   - Detects scroll position using passive event listener
+   - Uses `requestAnimationFrame` for performance
+   - Adds/removes `shrink` class based on scroll threshold
+   - Only runs on non-homepage pages
+   - Scroll threshold: 50px
+
+2. **`src/css/main.css`** (modified)
+   - Added sticky header wrapper styles
+   - Logo shrink transitions
+   - Gradient fade effect for light and dark themes
+   - Separate styles for homepage vs non-homepage pages
+
+3. **`src/_includes/partials/nav.liquid`** (modified)
+   - Wrapped logo in `.header-wrapper` div
+   - Maintains existing navigation structure
+
+4. **`src/_includes/layouts/base.liquid`** (modified)
+   - Added conditional `homepage` class to `<body>` tag
+   - Added `shrink-header.js` script tag
+
+**CSS Implementation:**
+```css
+/* Sticky positioning with gradient fade */
+body:not(.homepage) .header-wrapper {
+  position: sticky;
+  top: 0;
+  background: linear-gradient with fade
+  z-index: 100;
+  transition: padding 0.3s ease-in-out;
+}
+
+/* Logo shrink on scroll */
+body:not(.homepage) .logo.shrink {
+  max-width: 30%;
+  width: 30%;
+}
+```
+
+**JavaScript Pattern:**
+- Uses IIFE to avoid global scope pollution
+- Early return for homepage to prevent unnecessary processing
+- Debouncing via `requestAnimationFrame` to prevent layout thrashing
+- Passive event listener for better scroll performance
+
+**Performance Considerations:**
+- No layout calculations on every scroll event
+- `requestAnimationFrame` ensures smooth 60fps animation
+- Passive scroll listener allows browser optimization
+- CSS transitions handled by GPU
+
+**Browser Compatibility:**
+- Modern browsers with `requestAnimationFrame` support
+- Graceful degradation (no sticky header on older browsers)
+- Works with dark mode theme toggle
+
+**Key Learning:** The sticky header pattern from stanlemon.github.com translates well to different site architectures. Using `requestAnimationFrame` and passive scroll listeners ensures smooth performance even on mobile devices. CSS Grid layout requires careful z-index management for sticky elements.
+
 ### Deepgram Transcription System (2025-10-26)
 
 **Goal:** Transcribe all 172 podcast episodes with accurate speaker identification using a fast, cloud-based solution.
