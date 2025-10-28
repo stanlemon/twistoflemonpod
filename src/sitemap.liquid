@@ -22,6 +22,16 @@ eleventyExcludeFromCollections: true
   </url>
   {% endfor %}
 
+  {# Transcript posts #}
+  {% for post in collections.transcripts %}
+  <url>
+    <loc>{{ site.url }}{{ post.url }}</loc>
+    <lastmod>{{ post.date | htmlDateString }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  {% endfor %}
+
   {# Category pages #}
   {% for category in collections.categories %}
   <url>
