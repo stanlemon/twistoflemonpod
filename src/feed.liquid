@@ -22,8 +22,8 @@ eleventyExcludeFromCollections: true
     {% for post in collections.blog | reverse %}
     <item>
       <title>{{ post.data.title | escape }}</title>
-      <link>{{ site.url }}{{ post.url }}</link>
-      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <link>{{ site.url }}{{ post.url }}?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <description>{{ post.data.summary | default: post.data.description | default: post.templateContent | excerpt: 300 | escape }}</description>
       <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
