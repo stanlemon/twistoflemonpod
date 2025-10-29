@@ -1,7 +1,6 @@
 ---
 title: BONUS ROUND - Stan needs a CSS Refresher
 slug: bonus-round-stan-needs-a-css-refresher
-episode: bonus-1
 date: '2018-09-13T17:00:25.000Z'
 categories:
   - Technology

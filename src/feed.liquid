@@ -16,7 +16,11 @@ eleventyExcludeFromCollections: true
     <itunes:summary>{{ site.description | escape }}</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:category text="Society &amp; Culture"/>
-    <itunes:explicit>no</itunes:explicit>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:owner>
+      <itunes:email>podcast@twistoflemonpod.com</itunes:email>
+      <itunes:name>{{ site.author.name | escape }}</itunes:name>
+    </itunes:owner>
     <itunes:image href="{{ site.url }}{% podcastArtwork site.image %}"/>
 
     {% for post in collections.blog | reverse %}
@@ -26,22 +30,20 @@ eleventyExcludeFromCollections: true
       <guid isPermaLink="true">{{ site.url }}{{ post.url }}?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
       <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
       <description>{{ post.data.summary | default: post.data.description | default: post.templateContent | excerpt: 300 | escape }}</description>
-      <content:encoded><![CDATA[{{ post.templateContent }}]]></content:encoded>
-
-      {% if post.data.enclosure and post.data.enclosure.url %}
+      <content:encoded><![CDATA[{{ post.templateContent | excludeFromFeed | absoluteUrls: site.url }}]]></content:encoded>
+      {%- if post.data.enclosure and post.data.enclosure.url %}
       <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type | default: 'audio/mpeg' }}"/>
-      {% if post.data.enclosure.duration %}<itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>{% endif %}
-      {% endif %}
-
-      {% if post.data.episode %}
+      {%- if post.data.enclosure.duration %}<itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>{% endif -%}
+      {%- endif %}
+      {%- assign episodeNum = post.data.episode | floor -%}
+      {%- if episodeNum and episodeNum > 0 and episodeNum == post.data.episode %}
       <itunes:episode>{{ post.data.episode }}</itunes:episode>
-      {% endif %}
-
-      {% if post.data.categories %}
-      {% for category in post.data.categories %}
+      {%- endif -%}
+      {%- if post.data.categories -%}
+      {%- for category in post.data.categories %}
       <category>{{ category | escape }}</category>
-      {% endfor %}
-      {% endif %}
+      {%- endfor -%}
+      {%- endif %}
     </item>
     {% endfor %}
   </channel>

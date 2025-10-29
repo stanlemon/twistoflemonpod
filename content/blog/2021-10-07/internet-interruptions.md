@@ -1,7 +1,6 @@
 ---
 title: Internet Interruptions
 slug: internet-interruptions
-episode: lost
 date: '2021-10-07T14:24:27.000Z'
 categories:
   - Food

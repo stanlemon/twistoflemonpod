@@ -1,7 +1,6 @@
 ---
 title: 'Bonus Round: Concerning Hobbits with a Twist of Lemon'
 slug: bonus-round-concerning-hobbits-with-a-twist-of-lemon
-episode: bonus-3
 date: '2020-01-16T13:15:26.000Z'
 categories:
   - Bonus Round

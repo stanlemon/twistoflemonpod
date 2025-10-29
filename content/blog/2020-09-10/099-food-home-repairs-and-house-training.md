@@ -29,4 +29,4 @@ Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
 
-\[caption id="attachment_541" align="aligncenter" width="682"\]![](./taliesin-small.jpg) Taliesin Kohlmeier slaying a dragon.\[/caption\]
+![Taliesin Kohlmeier slaying a dragon](/content/blog/2020-09-10/taliesin-small.jpg)

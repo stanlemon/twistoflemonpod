@@ -13,15 +13,16 @@ tags:
   - milkshakes
   - music
 enclosure:
-  url: 'https://media.twistoflemonpod.com/017-lwatol-20181108.mp3 '
+  url: 'https://media.twistoflemonpod.com/017-lwatol-20181108.mp3'
   length: 32295258
   type: audio/mpeg
 summary: >-
-  ![](./453276603360458469450942409562380603228160n.jpg)Dear Listener, As of
-  this episode you may be listening on Spotify!
+  Dear Listener, As of this episode you may be listening on Spotify!
 ---
 
-![](./45327660_336045846945094_2409562380603228160_n.jpg)Dear Listener,
+![Spotify announcement](/content/blog/2018-11-08/45327660_336045846945094_2409562380603228160_n.jpg)
+
+Dear Listener,
 
 As of this episode you may be listening on Spotify!
 

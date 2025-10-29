@@ -12,7 +12,7 @@ tags:
   - nashville
   - christmas
 enclosure:
-  url: 'https://media.twistoflemonpod.com/022-lwatol-20181213.mp3 '
+  url: 'https://media.twistoflemonpod.com/022-lwatol-20181213.mp3'
   length: 52792662
   type: audio/mpeg
 summary: >-
@@ -52,12 +52,12 @@ Stan Lemon & Jon Kohlmeier
 - [Classic Webber Grill](https://amzn.to/2Ld99Td)
 - [Weber Genesis E-330](https://amzn.to/2UKdf9R)
 
-\[caption id="attachment_184" align="aligncenter" width="225"\]![Hattie B's Hot Chicken](./hattie-bs.jpg) Hattie B's Hot Chicken\[/caption\]
+![Hattie B's Hot Chicken](/content/blog/2018-12-13/hattie-bs.jpg)
 
-\[caption id="attachment_185" align="aligncenter" width="225"\]![Elliston Place Soda Shop](./elliston-place.jpg) Elliston Place Soda Shop\[/caption\]
+![Elliston Place Soda Shop](/content/blog/2018-12-13/elliston-place.jpg)
 
-\[caption id="attachment_186" align="aligncenter" width="225"\]![Elliston Place Soda Shop](./elliston-place-milkshake.jpg) Elliston Place Soda Shop Menu and Milkshake\[/caption\]
+![Elliston Place Soda Shop Menu and Milkshake](/content/blog/2018-12-13/elliston-place-milkshake.jpg)
 
-\[caption id="attachment_187" align="aligncenter" width="225"\]![Elliston Place Milkshake](./milkshake.jpg) Elliston Place Milkshake\[/caption\]
+![Elliston Place Milkshake](/content/blog/2018-12-13/milkshake.jpg)
 
-\[caption id="attachment_188" align="aligncenter" width="300"\]![Matt Mullenweg delivers State of the Word address](./wordcamp.jpg) Matt Mullenweg delivers State of the Word address\[/caption\]
+![Matt Mullenweg delivers State of the Word address](/content/blog/2018-12-13/wordcamp.jpg)

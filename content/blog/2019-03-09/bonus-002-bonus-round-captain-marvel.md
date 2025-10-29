@@ -1,7 +1,6 @@
 ---
 title: 'Bonus Round: Captain Marvel'
 slug: bonus-round-captain-marvel
-episode: bonus-2
 date: '2019-03-09T20:07:18.000Z'
 categories:
   - Marvel

@@ -14,12 +14,10 @@ enclosure:
   length: 51609615
   type: audio/mpeg
 summary: >-
-  \[caption id="attachment530" align="aligncenter"
-  width="750"\]![](./tree-on-house.jpg) Iowa Twist of Lemon Bunker after tree
-  fell on it.\[/caption\]
+  Iowa Twist of Lemon Bunker after tree fell on it during the derecho storm.
 ---
 
-\[caption id="attachment_530" align="aligncenter" width="750"\]![](./tree-on-house.jpg) Iowa Twist of Lemon Bunker after tree fell on it.\[/caption\]
+![Iowa Twist of Lemon Bunker after tree fell on it](/content/blog/2020-08-20/tree-on-house.jpg)
 
 Dear Listener,
 

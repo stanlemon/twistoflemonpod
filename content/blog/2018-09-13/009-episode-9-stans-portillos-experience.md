@@ -21,7 +21,7 @@ Dear Listener who may in fact be sick of hearing us talk about milkshakes,
 
 This week we talk about Milkshakes! Stan's Portillo's milkshake to be exact. He had an interesting experience. He tells it better than I do. But this picture is referenced...
 
-![Stan's portillo's milkshake](./IMG_6447.jpg)
+![Stan's portillo's milkshake](/content/blog/2018-09-13/IMG_6447.jpg)
 
 Other topics covered - Apple event, Cocktails, and other deliciously crafted items.
 

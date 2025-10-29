@@ -35,10 +35,10 @@ Thanks for Listening!
 
 Stan Lemon & Jon Kohlmeier
 
-![](./jon-desk.jpg)
+![Jon's Workspace](/content/blog/2019-09-05/jon-desk.jpg)
 
 Jon's Workspace
 
-![](./stan-desk.jpg)
+![Stan's Workspace](/content/blog/2019-09-05/stan-desk.jpg)
 
 Stan's Workspace

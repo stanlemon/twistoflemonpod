@@ -14,7 +14,7 @@ tags:
   - christmas
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/024-lwatol-20181227.mp3 '
+  url: 'https://media.twistoflemonpod.com/024-lwatol-20181227.mp3'
   length: 38197321
   type: audio/mpeg
 summary: >-

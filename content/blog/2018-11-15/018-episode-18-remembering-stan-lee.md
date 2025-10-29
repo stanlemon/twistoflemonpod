@@ -12,7 +12,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/018-lwatol-20181115.mp3 '
+  url: 'https://media.twistoflemonpod.com/018-lwatol-20181115.mp3'
   length: 32866130
   type: audio/mpeg
 summary: >-

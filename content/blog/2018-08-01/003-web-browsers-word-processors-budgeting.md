@@ -8,7 +8,7 @@ categories:
 tags:
   - budgeting
 enclosure:
-  url: 'https://media.twistoflemonpod.com/003-lwatol-20180802.mp3 '
+  url: 'https://media.twistoflemonpod.com/003-lwatol-20180802.mp3'
   length: 32474777
   type: audio/mpeg
 summary: >-

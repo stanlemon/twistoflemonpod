@@ -8,7 +8,7 @@ categories:
 tags:
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/005-lwatol-20180816.mp3 '
+  url: 'https://media.twistoflemonpod.com/005-lwatol-20180816.mp3'
   length: 33459973
   type: audio/mpeg
 summary: >-

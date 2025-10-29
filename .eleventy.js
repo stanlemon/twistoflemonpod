@@ -43,6 +43,9 @@ export default function(eleventyConfig) {
     "node_modules/plyr/dist/plyr.js": "js/plyr.js"
   });
 
+  // Copy images from blog posts
+  eleventyConfig.addPassthroughCopy("content/blog/**/*.{jpg,jpeg,png,gif}");
+
   // Filters
   eleventyConfig.addFilter("readableDate", filters.readableDate);
   eleventyConfig.addFilter("htmlDateString", filters.htmlDateString);
@@ -54,6 +57,8 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("excerpt", filters.excerpt);
   eleventyConfig.addFilter("head", filters.head);
   eleventyConfig.addFilter("findTranscript", filters.findTranscript);
+  eleventyConfig.addFilter("absoluteUrls", filters.absoluteUrls);
+  eleventyConfig.addFilter("excludeFromFeed", filters.excludeFromFeed);
 
   // Custom markdown library with anchor support
   let markdownLib = markdownIt({

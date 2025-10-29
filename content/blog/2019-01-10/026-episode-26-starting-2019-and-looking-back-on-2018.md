@@ -19,7 +19,7 @@ summary: >-
   It went about how you'd expect it to go. We also hit on some other things
 ---
 
-![Stan with Milkshake Poptarts](./stan-milkshake-poptarts-copy.jpg)
+![Stan with Milkshake Poptarts](/content/blog/2019-01-10/stan-milkshake-poptarts-copy.jpg)
 
 Dear Listener,
 

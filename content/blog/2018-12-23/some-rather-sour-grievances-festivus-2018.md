@@ -31,4 +31,4 @@ summary: >-
 
 10. Milkshakes with cheap chocolate syrup (looking at you, Arby’s).
 
-![](./lemon-angry.png) ![](./kohlmeier-angry.jpg "Stan didn't like my selfie because it didn't look angry enough. I thought it was good enough to add here.")
+![Angry Lemon](/content/blog/2018-12-23/lemon-angry.png) ![Angry Kohlmeier](/content/blog/2018-12-23/kohlmeier-angry.jpg "Stan didn't like my selfie because it didn't look angry enough. I thought it was good enough to add here.")

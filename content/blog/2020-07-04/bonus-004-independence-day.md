@@ -1,7 +1,6 @@
 ---
 title: 'BONUS ROUND: Independence Day'
 slug: bonus-round-independence-day
-episode: bonus-4
 date: '2020-07-04T18:36:36.000Z'
 categories:
   - Bonus Round
