@@ -14,8 +14,16 @@ eleventyExcludeFromCollections: true
 
     <itunes:author>{{ site.author.name | escape }}</itunes:author>
     <itunes:summary>{{ site.description | escape }}</itunes:summary>
+    <itunes:category text="Business">
+      <itunes:category text="Careers"/>
+    </itunes:category>
+    <itunes:category text="Leisure">
+      <itunes:category text="Hobbies"/>
+    </itunes:category>
     <itunes:category text="Technology"/>
-    <itunes:category text="Society &amp; Culture"/>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Philosophy"/>
+    </itunes:category>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
       <itunes:email>podcast@twistoflemonpod.com</itunes:email>
