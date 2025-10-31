@@ -24,3 +24,5 @@ We're headed into 2022 so we look back on 2021 goals and talk about what we expe
 Thanks for listening and we'll talk to you soon,
 
 Stan Lemon & Jon Kohlmeier
+
+__This is our last episode, for awhile... but don't unsubscribe! You never know when we might pop back in.__
