@@ -1,0 +1,36 @@
+{% comment %}
+  Reusable icon component
+
+  Usage:
+    {% include "partials/icon.liquid", category: "brands", name: "spotify" %}
+    {% include "partials/icon.liquid", category: "ui", name: "share", class: "custom-class" %}
+
+  Parameters:
+    - category: "brands" or "ui" (required)
+    - name: icon name from icons.js (required)
+    - class: additional CSS classes (optional)
+{% endcomment %}
+
+{% assign icon = icons[category][name] %}
+
+{% if icon.stroke %}
+  {%- comment -%} Lucide-style stroke icon {%- endcomment -%}
+  <svg class="icon {{ class }}"
+       viewBox="{{ icon.viewBox }}"
+       fill="{{ icon.fill }}"
+       stroke="{{ icon.stroke }}"
+       stroke-width="{{ icon.strokeWidth }}"
+       stroke-linecap="{{ icon.strokeLinecap }}"
+       stroke-linejoin="{{ icon.strokeLinejoin }}"
+       aria-hidden="true">
+    <path d="{{ icon.path }}"/>
+  </svg>
+{% else %}
+  {%- comment -%} Simple Icons-style filled icon {%- endcomment -%}
+  <svg class="icon {{ class }}"
+       viewBox="{{ icon.viewBox }}"
+       fill="currentColor"
+       aria-hidden="true">
+    <path d="{{ icon.path }}"/>
+  </svg>
+{% endif %}

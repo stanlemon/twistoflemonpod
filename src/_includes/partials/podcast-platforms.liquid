@@ -1,0 +1,87 @@
+<div class="podcast-platforms">
+  <p class="podcast-platforms__label">Listen on:</p>
+  <div class="podcast-platforms__links">
+    <a href="{{ site.podcast.spotify }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.spotify.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.spotify.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.spotify.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.spotify.name }}</span>
+    </a>
+
+    <a href="{{ site.podcast.apple }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.apple.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.apple.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.apple.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.apple.name }}</span>
+    </a>
+
+    {% if site.podcast.youtubeMusic != "" %}
+    <a href="{{ site.podcast.youtubeMusic }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.youtubeMusic.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.youtubeMusic.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.youtubeMusic.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.youtubeMusic.name }}</span>
+    </a>
+    {% endif %}
+
+    <a href="{{ site.podcast.iheart }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.iheart.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.iheart.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.iheart.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.iheart.name }}</span>
+    </a>
+
+    <a href="{{ site.podcast.tunein }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.tunein.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.tunein.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.tunein.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.tunein.name }}</span>
+    </a>
+
+    {% if site.podcast.overcast != "" %}
+    <a href="{{ site.podcast.overcast }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.overcast.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.overcast.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.overcast.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.overcast.name }}</span>
+    </a>
+    {% endif %}
+
+    {% if site.podcast.amazonMusic != "" %}
+    <a href="{{ site.podcast.amazonMusic }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.amazonMusic.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.amazonMusic.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.amazonMusic.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.amazonMusic.name }}</span>
+    </a>
+    {% endif %}
+  </div>
+</div>
