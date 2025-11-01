@@ -7,7 +7,7 @@
  * All icons use 24x24 viewBox unless noted otherwise.
  */
 
-import { siSpotify, siApplepodcasts, siYoutubemusic, siIheartradio, siTunein } from 'simple-icons';
+import { siSpotify, siApplepodcasts, siYoutubemusic, siIheartradio, siTunein, siOvercast } from 'simple-icons';
 
 /**
  * Helper to convert Simple Icons format to our format
@@ -29,7 +29,8 @@ export default {
     apple: brandIcon(siApplepodcasts),
     youtubeMusic: brandIcon(siYoutubemusic),
     iheart: brandIcon(siIheartradio),
-    tunein: brandIcon(siTunein)
+    tunein: brandIcon(siTunein),
+    overcast: brandIcon(siOvercast)
   },
 
   ui: {

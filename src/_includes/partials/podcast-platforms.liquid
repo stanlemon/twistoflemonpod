@@ -57,5 +57,18 @@
       </svg>
       <span class="podcast-platform-text">{{ icons.brands.tunein.name }}</span>
     </a>
+
+    {% if site.podcast.overcast != "" %}
+    <a href="{{ site.podcast.overcast }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.overcast.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.overcast.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.overcast.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.overcast.name }}</span>
+    </a>
+    {% endif %}
   </div>
 </div>
