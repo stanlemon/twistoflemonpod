@@ -1,12 +1,14 @@
 # Icon System
 
-This project uses a manual SVG icon system for maximum performance and tree-shaking.
+This project uses an npm-based SVG icon system for maximum performance with automatic updates.
 
 ## Philosophy
 
 - **Zero runtime JavaScript** - All icons are static SVGs
-- **Only what you need** - Add icons as needed to `src/_data/icons.js`
-- **Two categories**: Brand logos and UI icons
+- **Imported from npm** - Brand icons imported from `simple-icons` package
+- **Automatic updates** - Run `npm update` to get latest icon designs
+- **Tree-shakeable** - Only icons you import are included in the build
+- **Two categories**: Brand logos (from npm) and UI icons (manual from Lucide)
 - **Consistent sources**: Brand icons from [Simple Icons](https://simpleicons.org/), UI icons from [Lucide](https://lucide.dev/)
 
 ## How to Use Icons
@@ -52,23 +54,30 @@ For more control, access the icon data directly:
 
 ## Adding New Icons
 
-### Adding a Brand Icon
+### Adding a Brand Icon (from npm)
 
-1. Find the icon at [Simple Icons](https://simpleicons.org/)
-2. Copy the SVG path
-3. Add to `src/_data/icons.js`:
+Brand icons are automatically imported from the `simple-icons` npm package:
+
+1. Find your brand at [Simple Icons](https://simpleicons.org/)
+2. Note the icon name (e.g., "Google Podcasts" = `siGooglepodcasts`)
+3. Add import and register in `src/_data/icons.js`:
 
 ```javascript
+// Add to imports at top
+import { siSpotify, siApplepodcasts, siGooglepodcasts } from 'simple-icons';
+
 export default {
   brands: {
-    yourBrand: {
-      path: 'M12 0C5.4 0...', // SVG path
-      viewBox: '0 0 24 24',
-      name: 'Your Brand Name'
-    }
+    spotify: brandIcon(siSpotify),
+    apple: brandIcon(siApplepodcasts),
+    googlePodcasts: brandIcon(siGooglepodcasts) // Your new icon
   }
 };
 ```
+
+**Find icon names:** [Simple Icons slugs list](https://github.com/simple-icons/simple-icons/blob/master/slugs.md)
+
+All icons are automatically updated when you run `npm update simple-icons`!
 
 ### Adding a UI Icon
 
