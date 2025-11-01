@@ -10,7 +10,7 @@ export default {
     twitter: "twistoflemonpod"
   },
   podcast: {
-    spotify: "https://open.spotify.com/show/011CUhBdT1xJHo7DYX3Th1y2",
+    spotify: "https://open.spotify.com/show/6SVkogELygR53ixQ2T5ECI",
     apple: "https://podcasts.apple.com/us/podcast/life-with-a-twist-of-lemon/id1419902908",
     youtubeMusic: "", // TODO: Add YouTube Music URL
     iheart: "https://www.iheart.com/podcast/256-life-with-a-twist-of-lemon-31050671/",
