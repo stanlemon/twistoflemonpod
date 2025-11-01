@@ -70,5 +70,18 @@
       <span class="podcast-platform-text">{{ icons.brands.overcast.name }}</span>
     </a>
     {% endif %}
+
+    {% if site.podcast.amazonMusic != "" %}
+    <a href="{{ site.podcast.amazonMusic }}"
+       class="podcast-platform-link"
+       aria-label="Listen on {{ icons.brands.amazonMusic.name }}"
+       target="_blank"
+       rel="noopener noreferrer">
+      <svg class="podcast-platform-icon" viewBox="{{ icons.brands.amazonMusic.viewBox }}" fill="currentColor" aria-hidden="true">
+        <path d="{{ icons.brands.amazonMusic.path }}"/>
+      </svg>
+      <span class="podcast-platform-text">{{ icons.brands.amazonMusic.name }}</span>
+    </a>
+    {% endif %}
   </div>
 </div>

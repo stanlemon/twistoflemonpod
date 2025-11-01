@@ -25,13 +25,20 @@ export default {
     // Brand icons automatically imported from Simple Icons npm package
     // Add new brands by importing from 'simple-icons' and adding here
     // Find icon names at: https://github.com/simple-icons/simple-icons/blob/master/slugs.md
-    // Note: Amazon Music not available in Simple Icons - placeholder left in site.js for future
     spotify: brandIcon(siSpotify),
     apple: brandIcon(siApplepodcasts),
     youtubeMusic: brandIcon(siYoutubemusic),
     iheart: brandIcon(siIheartradio),
     tunein: brandIcon(siTunein),
-    overcast: brandIcon(siOvercast)
+    overcast: brandIcon(siOvercast),
+
+    // Custom Amazon Music icon (not available in Simple Icons)
+    // Features the iconic Amazon smile/arrow logo
+    amazonMusic: {
+      path: 'M 4 13 Q 12 16 20 13 L 20 15 Q 12 18 4 15 Z M 19 11.5 L 21.5 14 L 19 16.5 Z',
+      viewBox: '0 0 24 24',
+      name: 'Amazon Music'
+    }
   },
 
   ui: {
