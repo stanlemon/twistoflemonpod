@@ -9,6 +9,10 @@ export default {
   social: {
     twitter: "twistoflemonpod"
   },
+  podcast: {
+    spotify: "https://open.spotify.com/show/011CUhBdT1xJHo7DYX3Th1y2",
+    apple: "https://podcasts.apple.com/us/podcast/life-with-a-twist-of-lemon/id1419902908"
+  },
   analytics: {
     googleAnalyticsId: "G-VXBJCB4RZ2"
   }
