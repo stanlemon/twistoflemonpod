@@ -25,6 +25,7 @@ export default {
     // Brand icons automatically imported from Simple Icons npm package
     // Add new brands by importing from 'simple-icons' and adding here
     // Find icon names at: https://github.com/simple-icons/simple-icons/blob/master/slugs.md
+    // Note: Amazon Music not available in Simple Icons - placeholder left in site.js for future
     spotify: brandIcon(siSpotify),
     apple: brandIcon(siApplepodcasts),
     youtubeMusic: brandIcon(siYoutubemusic),
