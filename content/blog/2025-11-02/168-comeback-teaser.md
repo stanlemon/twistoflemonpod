@@ -10,9 +10,10 @@ tags:
   - podcast
   - announcement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/168-comeback-teaser.m4a'
-  length: 7039467
-  type: audio/x-m4a
+  url: 'https://media.twistoflemonpod.com/168-comeback-teaser.mp3'
+  length: 640147
+  type: audio/mpeg
+  duration: '00:00:26'
 ---
 
 Dear Listener,
