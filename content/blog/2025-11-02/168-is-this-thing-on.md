@@ -1,6 +1,6 @@
 ---
-title: Comeback Teaser
-slug: comeback-teaser
+title: Is this thing on?
+slug: is-this-thing-on
 episode: 168
 date: '2025-11-02T20:49:00.000Z'
 categories:
