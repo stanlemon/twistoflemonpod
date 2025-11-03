@@ -1,27 +1,28 @@
 ---
 title: Comeback Teaser
-slug: comeback-teaser
 episode: 168
 date: '2025-11-02T20:49:00.000Z'
-categories:
-  - Announcements
-tags:
-  - comeback
-  - podcast
-  - announcement
-enclosure:
-  url: 'https://media.twistoflemonpod.com/168-comeback-teaser.mp3'
-  length: 640147
-  type: audio/mpeg
-  duration: '00:00:26'
+slug: is-this-thing-on/transcript
+type: transcript
+summary: >-
+  In this episode of "Life with a Twist of Lemon," hosts Jon Kohlmeier and Stan
+  Lemon kick off their comeback teaser, discussing various topics such as
+  technology, finance, and life. They also touch on craftsmanship and theology,
+  setting the stage for an engaging conversation about personal growth and
+  resilience.
+keywords:
+  - Technology
+  - Finance
+  - Craftsmanship
+  - Theology
+  - Personal Growth
+  - Resilience
 ---
+**SPEAKER_0** [00:00:07]
 
-Dear Listener,
+Is this thing on?
 
-Guess who's back? Guess who's back? Guess who's back?
+**SPEAKER_0** [00:00:09]
 
-Well, almost... Stay tuned as we dust off our microphones.
+Yes, Stan. It's on.
 
-Thanks for sticking with us,
-
-Stan Lemon & Jon Kohlmeier
