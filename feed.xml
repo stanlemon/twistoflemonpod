@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Dec 2021 13:33:18 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Nov 2025 20:49:00 +0000</lastBuildDate>
 
     <itunes:author>Jon Kohlmeier &amp; Stan Lemon</itunes:author>
     <itunes:summary>A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.</itunes:summary>
@@ -27,6 +27,28 @@
     </itunes:owner>
     <itunes:image href="https://twistoflemonpod.com/img/kTbLUM1jKI-2048.jpeg"/>
 
+    
+    <item>
+      <title>Is this thing on?</title>
+      <link>https://twistoflemonpod.com/2025/11/is-this-thing-on/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/11/is-this-thing-on/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Sun, 02 Nov 2025 20:49:00 +0000</pubDate>
+      <description>Dear Listener,
+Guess who&#39;s back? Guess who&#39;s back? Guess who&#39;s back?
+Well, almost... Stay tuned as we dust off our microphones.
+Thanks for sticking with us,
+Stan Lemon &amp;amp; Jon Kohlmeier
+</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Guess who's back? Guess who's back? Guess who's back?</p>
+<p>Well, almost... Stay tuned as we dust off our microphones.</p>
+<p>Thanks for sticking with us,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/168-comeback-teaser.mp3" length="640147" type="audio/mpeg"/><itunes:duration>00:00:26</itunes:duration>
+      <itunes:episode>168</itunes:episode>
+      <category>Announcements</category>
+    </item>
     
     <item>
       <title>Heading into 2022</title>
