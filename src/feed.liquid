@@ -10,8 +10,10 @@ eleventyExcludeFromCollections: true
     <link>{{ site.url }}/</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>{{ collections.blog[0].date | dateToRfc822 }}</lastBuildDate>
+    <lastBuildDate>{{ build.timestamp | dateToRfc822 }}</lastBuildDate>
+    <copyright>© {{ build.timestamp | date: "%Y" }} {{ site.author.name | escape }}</copyright>
 
+    <itunes:type>episodic</itunes:type>
     <itunes:author>{{ site.author.name | escape }}</itunes:author>
     <itunes:summary>{{ site.description | escape }}</itunes:summary>
     <itunes:category text="Business">
@@ -43,9 +45,11 @@ eleventyExcludeFromCollections: true
       <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type | default: 'audio/mpeg' }}"/>
       {%- if post.data.enclosure.duration %}<itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>{% endif -%}
       {%- endif %}
+      <itunes:title>{{ post.data.title | escape }}</itunes:title>
       {%- assign episodeNum = post.data.episode | floor -%}
       {%- if episodeNum and episodeNum > 0 and episodeNum == post.data.episode %}
       <itunes:episode>{{ post.data.episode }}</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
       {%- endif -%}
       {%- if post.data.categories -%}
       {%- for category in post.data.categories %}
