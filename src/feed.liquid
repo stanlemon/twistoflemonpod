@@ -49,6 +49,7 @@ eleventyExcludeFromCollections: true
       {%- if post.data.enclosure.duration %}<itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>{% endif -%}
       {%- endif %}
       <itunes:title>{{ post.data.title | escape }}</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
       {%- assign episodeNum = post.data.episode | floor -%}
       {%- if episodeNum and episodeNum > 0 and episodeNum == post.data.episode %}
       <itunes:episode>{{ post.data.episode }}</itunes:episode>
