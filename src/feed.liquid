@@ -3,15 +3,17 @@ permalink: /feed.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>{{ site.title | escape }}</title>
     <description>{{ site.description | escape }}</description>
     <link>{{ site.url }}/</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>{{ collections.blog[0].date | dateToRfc822 }}</lastBuildDate>
+    <lastBuildDate>{{ build.timestamp | dateToRfc822 }}</lastBuildDate>
+    <copyright>© {{ build.timestamp | date: "%Y" }} {{ site.author.name | escape }}</copyright>
 
+    <itunes:type>episodic</itunes:type>
     <itunes:author>{{ site.author.name | escape }}</itunes:author>
     <itunes:summary>{{ site.description | escape }}</itunes:summary>
     <itunes:category text="Business">
@@ -31,6 +33,9 @@ eleventyExcludeFromCollections: true
     </itunes:owner>
     <itunes:image href="{{ site.url }}{% podcastArtwork site.image %}"/>
 
+    <podcast:guid>{{ site.url }}</podcast:guid>
+    <podcast:locked>yes</podcast:locked>
+
     {% for post in collections.blog | reverse %}
     <item>
       <title>{{ post.data.title | escape }}</title>
@@ -43,14 +48,21 @@ eleventyExcludeFromCollections: true
       <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type | default: 'audio/mpeg' }}"/>
       {%- if post.data.enclosure.duration %}<itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>{% endif -%}
       {%- endif %}
+      <itunes:title>{{ post.data.title | escape }}</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
       {%- assign episodeNum = post.data.episode | floor -%}
       {%- if episodeNum and episodeNum > 0 and episodeNum == post.data.episode %}
       <itunes:episode>{{ post.data.episode }}</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
       {%- endif -%}
       {%- if post.data.categories -%}
       {%- for category in post.data.categories %}
       <category>{{ category | escape }}</category>
       {%- endfor -%}
+      {%- endif %}
+      {%- assign transcript = collections | findTranscript: post.data.episode -%}
+      {%- if transcript %}
+      <podcast:transcript url="{{ site.url }}{{ transcript.url }}" type="text/html"/>
       {%- endif %}
     </item>
     {% endfor %}
