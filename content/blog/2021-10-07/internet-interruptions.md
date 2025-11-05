@@ -1,6 +1,7 @@
 ---
 title: Internet Interruptions
 slug: internet-interruptions
+episode: 155
 date: '2021-10-07T14:24:27.000Z'
 categories:
   - Food
@@ -11,7 +12,7 @@ tags:
   - tacos
   - ted lasso
 enclosure:
-  url: 'https://media.twistoflemonpod.com/156-lwatol-20211014.mp3'
+  url: 'https://media.twistoflemonpod.com/155-lwatol-20211007.mp3'
   length: 41328376
   type: audio/mpeg
 summary: >-
