@@ -1,26 +1,43 @@
-<nav class="nav" role="navigation" aria-label="Main navigation">
-  <div class="nav__header">
-    <a href="/" aria-label="Home">
-      <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
-    </a>
-    <h1>
-      <a href="/">{{ site.title }}</a>
-    </h1>
+<nav class="nav{% unless page.url == '/' %} nav--compact{% endunless %}" role="navigation" aria-label="Main navigation">
+  <div class="nav__inner">
+    <div class="nav__brand">
+      <a href="/" class="nav__logo" aria-label="Home">
+        <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
+      </a>
+      <div class="nav__brand-text">
+        <p class="nav__eyebrow">Podcast</p>
+        <h1 class="nav__title">
+          <a href="/">{{ site.title }}</a>
+        </h1>
+      </div>
+    </div>
   </div>
 
-  <ul class="nav__links">
-    <li>
-      <a href="/" {% if page.url == "/" %}class="nav__link--active" aria-current="page"{% endif %}>Home</a>
-    </li>
-    <li>
-      <a href="/about/" {% if page.url == "/about/" %}class="nav__link--active" aria-current="page"{% endif %}>About</a>
-    </li>
-    <li>
-      <a href="/contact/" {% if page.url == "/contact/" %}class="nav__link--active" aria-current="page"{% endif %}>Contact</a>
-    </li>
-  </ul>
+  <div class="nav__menu">
+    <ul class="nav__links" role="menubar">
+      <li role="none">
+        <a role="menuitem" href="/" {% if page.url == "/" %}class="nav__link--active" aria-current="page"{% endif %}>Home</a>
+      </li>
+      <li role="none">
+        <a role="menuitem" href="/about/" {% if page.url == "/about/" %}class="nav__link--active" aria-current="page"{% endif %}>About</a>
+      </li>
+      <li role="none">
+        <a role="menuitem" href="/contact/" {% if page.url == "/contact/" %}class="nav__link--active" aria-current="page"{% endif %}>Contact</a>
+      </li>
+    </ul>
+    <div class="nav__actions" aria-label="Theme and platform controls">
+      {% include "partials/theme-toggle.liquid" %}
+      <button
+        class="nav__platform-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="platform-drawer">
+        <span class="nav__platform-toggle-label">Listen</span>
+      </button>
+    </div>
+  </div>
 
-  {% include "partials/podcast-platforms.liquid" %}
-
-  {% include "partials/theme-toggle.liquid" %}
+  <div class="nav__platforms" id="platform-drawer">
+    {% include "partials/podcast-platforms.liquid" %}
+  </div>
 </nav>

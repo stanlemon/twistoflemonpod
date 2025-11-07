@@ -1,10 +1,12 @@
 {% if values and values.size > 0 %}
-  <section class="tags-section">
-    <p>
-      <strong>{{ label }}:</strong>
+  <section class="tags-section" aria-label="{{ label }}">
+    <span class="tags-section__label">{{ label }}</span>
+    <ul class="tags-list" role="list">
       {% for value in values %}
-        <a href="/{{ prefix }}/{{ value | slugify }}/">{{ value }}</a>{% unless forloop.last %}, {% endunless %}
+        <li>
+          <a class="tag-pill" href="/{{ prefix }}/{{ value | slugify }}/">{{ value }}</a>
+        </li>
       {% endfor %}
-    </p>
+    </ul>
   </section>
 {% endif %}

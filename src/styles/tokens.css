@@ -1,0 +1,82 @@
+:root {
+  /* Brand palette */
+  --color-background: #f9fafb;
+  --color-surface-1: #ffffff;
+  --color-surface-2: #f4f0ff;
+  --color-surface-3: #fff8e1;
+  --color-text: #151515;
+  --color-text-secondary: #5f6379;
+  --color-border: #e3e8ef;
+  --color-footer-bg: #f6f8fb;
+  --color-link: #a01080;
+  --color-link-hover: #860c6a;
+  --color-accent: #ffbf3c;
+  --color-accent-strong: #ff9d00;
+  --color-hover-bg: rgba(160, 16, 128, 0.08);
+
+  /* Brand-specific swatches for podcast buttons */
+  --brand-spotify: #1db954;
+  --brand-apple: #f1f1f1;
+  --brand-youtubemusic: #ff0000;
+  --brand-iheart: #c6002b;
+  --brand-tunein: #27c2a0;
+  --brand-overcast: #f26522;
+  --brand-amazonmusic: #00a8e1;
+
+  /* Typography */
+  --font-heading: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+  --font-body: "Merriweather", "Georgia", serif;
+  --font-mono: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono", "Liberation Mono", Menlo, Courier, monospace;
+
+  /* Spacing scale (t-shirt sizing) */
+  --space-4xs: 0.125rem;
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.375rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* Radii & shadows */
+  --radius-sm: 0.4rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --shadow-soft: 0 10px 30px rgba(20, 19, 31, 0.08);
+  --shadow-strong: 0 20px 45px rgba(20, 19, 31, 0.15);
+
+  /* Motion */
+  --transition-base: 200ms ease;
+
+  /* Decorative gradients */
+  --gradient-hero: linear-gradient(135deg, rgba(160, 16, 128, 0.09), rgba(255, 191, 60, 0.25));
+  --gradient-card: linear-gradient(145deg, rgba(255, 255, 255, 0.45), rgba(244, 240, 255, 0.8));
+}
+
+[data-theme="dark"] {
+  --color-background: #0f1216;
+  --color-surface-1: #161b22;
+  --color-surface-2: #202735;
+  --color-surface-3: #2b1f17;
+  --color-text: #f2f4ff;
+  --color-text-secondary: #a6b1c6;
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-footer-bg: #11151c;
+  --color-link: #f29fff;
+  --color-link-hover: #ffc2ff;
+  --color-accent: #ffd24e;
+  --color-accent-strong: #ffea99;
+  --color-hover-bg: rgba(242, 159, 255, 0.14);
+  --shadow-soft: 0 15px 35px rgba(3, 5, 9, 0.75);
+  --shadow-strong: 0 25px 60px rgba(3, 5, 9, 0.85);
+  --gradient-hero: linear-gradient(135deg, rgba(46, 9, 41, 0.7), rgba(255, 191, 60, 0.2));
+  --gradient-card: linear-gradient(145deg, rgba(32, 39, 53, 0.9), rgba(24, 16, 35, 0.8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-base: 0ms;
+  }
+}

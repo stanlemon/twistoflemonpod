@@ -34,6 +34,7 @@ export default function(eleventyConfig) {
     "src/css": "css",
     "src/js": "js",
     "src/images": "images",
+    "src/styles": "styles",
     "static": "."
   });
 
