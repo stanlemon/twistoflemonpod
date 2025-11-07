@@ -11,9 +11,33 @@
         </h1>
       </div>
     </div>
+
+    <div class="nav__actions" aria-label="Theme, listen, and menu controls">
+      <button
+        class="nav__platform-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="platform-drawer">
+        <span class="sr-only">Listen on your favorite platform</span>
+        <svg class="nav__platform-toggle-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+        </svg>
+      </button>
+      {% include "partials/theme-toggle.liquid" %}
+      <button
+        class="nav__menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation menu</span>
+        <span class="nav__menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+    </div>
   </div>
 
-  <div class="nav__menu">
+  <div class="nav__menu" id="primary-navigation">
     <ul class="nav__links" role="menubar">
       <li role="none">
         <a role="menuitem" href="/" {% if page.url == "/" %}class="nav__link--active" aria-current="page"{% endif %}>Home</a>
@@ -25,16 +49,6 @@
         <a role="menuitem" href="/contact/" {% if page.url == "/contact/" %}class="nav__link--active" aria-current="page"{% endif %}>Contact</a>
       </li>
     </ul>
-    <div class="nav__actions" aria-label="Theme and platform controls">
-      {% include "partials/theme-toggle.liquid" %}
-      <button
-        class="nav__platform-toggle"
-        type="button"
-        aria-expanded="false"
-        aria-controls="platform-drawer">
-        <span class="nav__platform-toggle-label">Listen</span>
-      </button>
-    </div>
   </div>
 
   <div class="nav__platforms" id="platform-drawer">

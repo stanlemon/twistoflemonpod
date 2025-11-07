@@ -182,8 +182,10 @@ a:focus {
 .nav__inner {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: var(--space-lg);
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .nav__brand {
@@ -246,10 +248,11 @@ a:focus {
 
 .nav__menu {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  flex-wrap: wrap;
   gap: var(--space-sm);
   width: 100%;
+  margin-top: var(--space-sm);
 }
 
 .nav__links {
@@ -261,6 +264,7 @@ a:focus {
   flex-wrap: wrap;
   justify-content: center;
   flex: 1 1 auto;
+  width: 100%;
 }
 
 .nav__links li {
@@ -297,26 +301,104 @@ a:focus {
   justify-content: flex-end;
   flex: 0 0 auto;
   margin-left: auto;
+  flex-wrap: nowrap;
   gap: var(--space-xs);
 }
 
-.nav__platform-toggle {
+.nav__menu-toggle {
   display: none;
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: var(--color-surface-1);
   color: var(--color-text);
-  font-weight: 600;
-  font-family: var(--font-heading);
-  padding: var(--space-2xs) var(--space-md);
+  width: 48px;
+  height: 48px;
+  padding: var(--space-xs);
+  box-shadow: var(--shadow-soft);
   cursor: pointer;
-  transition: background-color var(--transition-base), border-color var(--transition-base), color var(--transition-base);
+  transition: background-color var(--transition-base), border-color var(--transition-base), color var(--transition-base), transform var(--transition-base);
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__menu-toggle:focus-visible,
+.nav__menu-toggle:hover {
+  border-color: var(--color-link);
+  color: var(--color-link);
+  transform: translateY(-2px);
+}
+
+.nav__menu-toggle-icon {
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  display: inline-block;
+  transition: transform var(--transition-base), opacity var(--transition-base);
+}
+
+.nav__menu-toggle-icon::before,
+.nav__menu-toggle-icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  transition: transform var(--transition-base);
+}
+
+.nav__menu-toggle-icon::before {
+  top: -6px;
+}
+
+.nav__menu-toggle-icon::after {
+  top: 6px;
+}
+
+.nav--menu-open .nav__menu-toggle-icon {
+  background: transparent;
+}
+
+.nav--menu-open .nav__menu-toggle-icon::before {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.nav--menu-open .nav__menu-toggle-icon::after {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.nav__platform-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface-1);
+  color: var(--color-text);
+  width: 48px;
+  height: 48px;
+  padding: var(--space-xs);
+  box-shadow: var(--shadow-soft);
+  cursor: pointer;
+  transition: background-color var(--transition-base), border-color var(--transition-base), color var(--transition-base), transform var(--transition-base);
+}
+
+.nav--compact .nav__platform-toggle {
+  display: inline-flex;
 }
 
 .nav__platform-toggle:hover,
 .nav__platform-toggle:focus-visible {
   border-color: var(--color-link);
   color: var(--color-link);
+  transform: translateY(-2px);
+}
+
+.nav__platform-toggle-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
 }
 
 .nav__platforms {
@@ -328,9 +410,8 @@ a:focus {
   padding: var(--space-md) var(--space-lg);
   gap: var(--space-sm);
   box-shadow: var(--shadow-soft);
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .nav--compact .nav__logo {
@@ -344,8 +425,11 @@ a:focus {
 }
 
 .nav--compact .nav__inner {
-  gap: var(--space-sm);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: nowrap;
+  gap: var(--space-sm);
 }
 
 .nav--compact .nav__brand {
@@ -353,14 +437,18 @@ a:focus {
 }
 
 .nav--compact .nav__menu {
-  justify-content: flex-end;
-  margin-left: auto;
-  width: auto;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 0;
+  margin-top: var(--space-xs);
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .nav--compact .nav__links {
-  justify-content: flex-end;
+  width: 100%;
+  justify-content: flex-start;
   gap: var(--space-2xs);
 }
 
@@ -370,15 +458,12 @@ a:focus {
 }
 
 .nav--compact .nav__actions {
-  margin-left: var(--space-sm);
+  margin-left: auto;
   gap: var(--space-2xs);
+  align-self: auto;
 }
 
-.nav--compact .nav__platform-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-3xs);
-}
+/* display handled by modifier */
 
 .nav__platforms {
   transition: max-height 0.3s ease, opacity 0.2s ease, transform 0.2s ease;
@@ -553,56 +638,100 @@ a:focus {
   }
 
   .nav {
-    position: static;
-    padding: var(--space-lg);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: var(--space-md);
+    border-radius: 0;
+    z-index: 20;
     flex-direction: column;
   }
 
   .nav__inner {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
+    flex-wrap: nowrap;
+    gap: var(--space-md);
+    align-items: center;
+  }
+
+  .nav__brand {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .nav__logo {
+    width: 110px;
+    height: 110px;
+  }
+
+  .nav__title {
+    font-size: 1.4rem;
   }
 
   .nav__menu {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: var(--space-sm);
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .nav--menu-open .nav__menu {
+    margin-top: var(--space-sm);
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--color-border);
   }
 
   .nav__links {
+    display: none;
+    flex-direction: column;
     width: 100%;
     justify-content: flex-start;
+    gap: var(--space-2xs);
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav__links li {
+    width: 100%;
+  }
+
+  .nav__links a {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .nav--menu-open .nav__links {
+    display: flex;
   }
 
   .nav__actions {
-    margin-left: 0;
-    width: 100%;
-    justify-content: flex-start;
-    position: static;
+    margin-left: auto;
+    width: auto;
+    justify-content: flex-end;
+    gap: var(--space-3xs);
+  }
+
+  .nav__menu-toggle {
+    display: inline-flex;
+  }
+
+  .nav--compact {
+    gap: var(--space-xs);
   }
 
   .nav--compact .nav__inner {
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-wrap: nowrap;
   }
 
   .nav--compact .nav__menu {
     width: 100%;
-    margin-left: 0;
-    flex-wrap: wrap;
   }
 
   .nav--compact .nav__links {
-    justify-content: flex-start;
     width: 100%;
   }
 
   .nav--compact .nav__actions {
-    margin-left: 0;
-    width: 100%;
-    justify-content: flex-start;
+    margin-left: auto;
   }
 
   .hero {
