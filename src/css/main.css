@@ -660,8 +660,9 @@ a:focus {
   }
 
   .nav__logo {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
+    padding: var(--space-3xs);
   }
 
   .nav__title {
@@ -718,8 +719,13 @@ a:focus {
     gap: var(--space-xs);
   }
 
+  .nav--compact {
+    gap: var(--space-xs);
+  }
+
   .nav--compact .nav__inner {
     flex-wrap: nowrap;
+    align-items: center;
   }
 
   .nav--compact .nav__menu {
@@ -732,6 +738,10 @@ a:focus {
 
   .nav--compact .nav__actions {
     margin-left: auto;
+  }
+
+  .nav--compact .nav__brand-text {
+    display: none;
   }
 
   .hero {
