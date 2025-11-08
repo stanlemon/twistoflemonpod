@@ -1,26 +1,57 @@
-<nav class="nav" role="navigation" aria-label="Main navigation">
-  <div class="nav__header">
-    <a href="/" aria-label="Home">
-      <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
-    </a>
-    <h1>
-      <a href="/">{{ site.title }}</a>
-    </h1>
+<nav class="nav{% unless page.url == '/' %} nav--compact{% endunless %}" role="navigation" aria-label="Main navigation">
+  <div class="nav__inner">
+    <div class="nav__brand">
+      <a href="/" class="nav__logo" aria-label="Home">
+        <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
+      </a>
+      <div class="nav__brand-text">
+        <p class="nav__eyebrow">Podcast</p>
+        <h1 class="nav__title">
+          <a href="/">{{ site.title }}</a>
+        </h1>
+      </div>
+    </div>
+
+    <div class="nav__actions" aria-label="Theme, listen, and menu controls">
+      <button
+        class="nav__platform-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="platform-drawer">
+        <span class="sr-only">Listen on your favorite platform</span>
+        <svg class="nav__platform-toggle-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+        </svg>
+      </button>
+      {% include "partials/theme-toggle.liquid" %}
+      <button
+        class="nav__menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation">
+        <span class="sr-only">Toggle navigation menu</span>
+        <span class="nav__menu-toggle-icon" aria-hidden="true"></span>
+      </button>
+    </div>
   </div>
 
-  <ul class="nav__links">
-    <li>
-      <a href="/" {% if page.url == "/" %}class="nav__link--active" aria-current="page"{% endif %}>Home</a>
-    </li>
-    <li>
-      <a href="/about/" {% if page.url == "/about/" %}class="nav__link--active" aria-current="page"{% endif %}>About</a>
-    </li>
-    <li>
-      <a href="/contact/" {% if page.url == "/contact/" %}class="nav__link--active" aria-current="page"{% endif %}>Contact</a>
-    </li>
-  </ul>
+  <div class="nav__menu" id="primary-navigation">
+    <ul class="nav__links" role="menubar">
+      <li role="none">
+        <a role="menuitem" href="/" {% if page.url == "/" %}class="nav__link--active" aria-current="page"{% endif %}>Home</a>
+      </li>
+      <li role="none">
+        <a role="menuitem" href="/about/" {% if page.url == "/about/" %}class="nav__link--active" aria-current="page"{% endif %}>About</a>
+      </li>
+      <li role="none">
+        <a role="menuitem" href="/contact/" {% if page.url == "/contact/" %}class="nav__link--active" aria-current="page"{% endif %}>Contact</a>
+      </li>
+    </ul>
+  </div>
 
-  {% include "partials/podcast-platforms.liquid" %}
-
-  {% include "partials/theme-toggle.liquid" %}
+  <div class="nav__platforms" id="platform-drawer">
+    {% include "partials/podcast-platforms.liquid" %}
+  </div>
 </nav>

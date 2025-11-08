@@ -1,8 +1,10 @@
 <div class="podcast-platforms">
   <p class="podcast-platforms__label">Listen on:</p>
-  <div class="podcast-platforms__links">
+  <div class="podcast-platforms__links" role="list">
     <a href="{{ site.podcast.spotify }}"
        class="podcast-platform-link"
+       data-platform="spotify"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.spotify.name }}"
        target="_blank"
        rel="noopener noreferrer">
@@ -14,6 +16,8 @@
 
     <a href="{{ site.podcast.apple }}"
        class="podcast-platform-link"
+       data-platform="apple"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.apple.name }}"
        target="_blank"
        rel="noopener noreferrer">
@@ -26,6 +30,8 @@
     {% if site.podcast.youtubeMusic != "" %}
     <a href="{{ site.podcast.youtubeMusic }}"
        class="podcast-platform-link"
+       data-platform="youtubemusic"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.youtubeMusic.name }}"
        target="_blank"
        rel="noopener noreferrer">
@@ -38,6 +44,8 @@
 
     <a href="{{ site.podcast.iheart }}"
        class="podcast-platform-link"
+       data-platform="iheart"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.iheart.name }}"
        target="_blank"
        rel="noopener noreferrer">
@@ -49,6 +57,8 @@
 
     <a href="{{ site.podcast.tunein }}"
        class="podcast-platform-link"
+       data-platform="tunein"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.tunein.name }}"
        target="_blank"
        rel="noopener noreferrer">
@@ -61,6 +71,8 @@
     {% if site.podcast.overcast != "" %}
     <a href="{{ site.podcast.overcast }}"
        class="podcast-platform-link"
+       data-platform="overcast"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.overcast.name }}"
        target="_blank"
        rel="noopener noreferrer">
@@ -74,6 +86,8 @@
     {% if site.podcast.amazonMusic != "" %}
     <a href="{{ site.podcast.amazonMusic }}"
        class="podcast-platform-link"
+       data-platform="amazonmusic"
+       role="listitem"
        aria-label="Listen on {{ icons.brands.amazonMusic.name }}"
        target="_blank"
        rel="noopener noreferrer">

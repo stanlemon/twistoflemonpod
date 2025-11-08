@@ -9,11 +9,13 @@
 
   {% include "partials/structured-data.liquid" %}
 
+  <link rel="stylesheet" href="/styles/tokens.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/typography.css">
   <link rel="icon" href="/favicon.ico">
 
   <script src="/js/theme-toggle.js"></script>
+  <script src="/js/nav.js" defer></script>
 
   {% if site.analytics.googleAnalyticsId %}
   <!-- Google Analytics -->
@@ -26,11 +28,12 @@
   </script>
   {% endif %}
 </head>
-<body>
-  <div class="container">
+<body class="site-body {% if page.url == '/' %}page-home{% else %}page-internal{% endif %}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
     {% include "partials/nav.liquid" %}
 
-    <main class="main" role="main">
+    <main id="main-content" class="main" role="main">
       {{ content }}
     </main>
 
