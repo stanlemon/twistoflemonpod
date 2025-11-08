@@ -219,7 +219,8 @@ a:focus {
 
 .logo {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: contain;
 }
 
 .nav__brand-text {
@@ -417,7 +418,14 @@ a:focus {
 .nav--compact .nav__logo {
   width: 58px;
   height: 58px;
-  padding: var(--space-3xs);
+  padding: var(--space-4xs);
+  border-width: 2px;
+  box-shadow: none;
+}
+
+[data-theme="dark"] .nav--compact .nav__logo {
+  box-shadow: none;
+  border-color: var(--color-border);
 }
 
 .nav--compact .nav__title {
@@ -660,9 +668,16 @@ a:focus {
   }
 
   .nav__logo {
-    width: 130px;
-    height: 130px;
-    padding: var(--space-3xs);
+    width: 140px;
+    height: 140px;
+    padding: var(--space-4xs);
+    border-width: 2px;
+    box-shadow: none;
+  }
+
+  [data-theme="dark"] .nav__logo {
+    box-shadow: none;
+    border-color: var(--color-border);
   }
 
   .nav__title {
