@@ -10,35 +10,22 @@ eleventyExcludeFromCollections: true
 {% assign featuredPost = collections.blog | first %}
 {% assign remainingPosts = collections.blog | slice: 1, 9 %}
 
-<section class="hero" aria-labelledby="hero-title">
+<section class="hero hero--centered" aria-labelledby="hero-title">
   <div class="hero__content">
     <p class="hero__eyebrow">Podcast</p>
     <h2 id="hero-title" class="hero__title">{{ site.title }}</h2>
-    <p class="hero__description">{{ description }}</p>
+    <p class="hero__tagline">
+      Two friends. Countless conversations. Tech, family, craftsmanship, and the everyday stuff that makes life interesting.
+    </p>
 
     <div class="hero__actions">
-      {% if featuredPost %}
-      <a class="button button--primary" href="{{ featuredPost.url }}">Listen now</a>
-      {% endif %}
-      <a class="button button--ghost" href="{{ site.podcast.spotify }}" target="_blank" rel="noopener noreferrer">
-        Listen on Spotify
-      </a>
+      <a class="button button--primary" href="/about/#hosts">Meet Jon &amp; Stan</a>
+      <a class="button button--ghost" href="/about/#origin">How it started</a>
     </div>
 
-    <dl class="hero__stats">
-      <div class="hero__stat">
-        <dt>Episodes</dt>
-        <dd>{{ collections.blog | size }}</dd>
-      </div>
-      <div class="hero__stat">
-        <dt>Hosts</dt>
-        <dd>{{ site.author.name }}</dd>
-      </div>
-    </dl>
   </div>
-
   {% if featuredPost %}
-  <article class="hero-card" aria-label="Featured episode">
+  <article class="hero-card" aria-label="Latest episode">
     <p class="hero-card__label">Latest episode</p>
     <h3 class="hero-card__title">
       <a href="{{ featuredPost.url }}">{{ featuredPost.data.title }}</a>

@@ -1,26 +1,113 @@
+{% assign podcast_same_as = '' | split: '' %}
+{% assign podcast_listen_targets = '' | split: '' %}
+{% assign podcast_image = site.url | append: "/images/logo.png" %}
+{% assign canonical_path = canonicalUrl | default: page.url %}
+{% assign canonical_url = site.url | append: canonical_path %}
+{% if site.social.twitter %}
+  {% assign social_url = "https://twitter.com/" | append: site.social.twitter %}
+  {% assign podcast_same_as = podcast_same_as | concat: [social_url] %}
+{% endif %}
+{% for platform in site.podcast %}
+  {% assign platformUrl = platform[1] %}
+  {% if platformUrl and platformUrl != "" %}
+    {% assign podcast_same_as = podcast_same_as | concat: [platformUrl] %}
+    {% assign podcast_listen_targets = podcast_listen_targets | concat: [platformUrl] %}
+  {% endif %}
+{% endfor %}
+{% assign podcast_same_as_count = podcast_same_as | size %}
+{% assign podcast_listen_targets_count = podcast_listen_targets | size %}
+{% if podcast_same_as_count == 0 %}
+  {% assign podcast_same_as = podcast_same_as | concat: [site.url] %}
+{% endif %}
+{% if podcast_listen_targets_count == 0 %}
+  {% assign podcast_listen_targets = podcast_listen_targets | concat: [site.url] %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "@id": "{{ site.url }}/#podcast",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description }}",
+  "image": "{{ podcast_image }}",
+  "inLanguage": "en-US",
+  "isFamilyFriendly": true,
+  "isAccessibleForFree": true,
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ podcast_image }}"
+    }
+  },
+  "productionCompany": {
+    "@type": "Organization",
+    "name": "{{ site.title }}"
+  },
+  "genre": ["Technology", "Productivity", "Lifestyle", "Podcast"],
+  "sameAs": [
+    {% for url in podcast_same_as %}
+    "{{ url }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "potentialAction": {
+    "@type": "ListenAction",
+    "target": [
+      {% for url in podcast_listen_targets %}
+      {
+        "@type": "EntryPoint",
+        "urlTemplate": "{{ url }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+}
+</script>
+
 {% if layout == "layouts/post.liquid" %}
 {% comment %} Podcast Episode Schema {% endcomment %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "PodcastEpisode",
-  "url": "{{ site.url }}{{ page.url }}",
+  "@id": "{{ canonical_url }}",
+  "url": "{{ canonical_url }}",
   "name": "{{ title }}",
   "datePublished": "{{ date | dateToRfc3339 }}",
   "description": "{{ summary | default: description | default: content | excerpt: 300 | escape }}",
+  "thumbnailUrl": "{{ podcast_image }}",
+  "isPartOf": {
+    "@id": "{{ site.url }}/#podcast"
+  },
+  "partOfSeries": {
+    "@id": "{{ site.url }}/#podcast"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ podcast_image }}"
+    }
+  },
+  "inLanguage": "en-US",
+  "isFamilyFriendly": true,
   {% if episode %}"episodeNumber": {{ episode }},{% endif %}
   {% if enclosure and enclosure.url %}
-  "associatedMedia": {
-    "@type": "MediaObject",
-    "contentUrl": "{{ enclosure.url }}"{% if enclosure.length %},
+  "audio": {
+    "@type": "AudioObject",
+    "contentUrl": "{{ enclosure.url }}",
+    "encodingFormat": "{{ enclosure.type | default: 'audio/mpeg' }}"{% if enclosure.length %},
     "contentSize": "{{ enclosure.length }}"{% endif %}{% if enclosure.duration %},
     "duration": "{{ enclosure.duration }}"{% endif %}
   },
   {% endif %}
-  "partOfSeries": {
-    "@type": "PodcastSeries",
-    "name": "{{ site.title }}",
-    "url": "{{ site.url }}"
+  "producer": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
   }
 }
 </script>
