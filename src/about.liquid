@@ -1,29 +1,154 @@
 ---
 layout: layouts/base.liquid
-title: About - Life with a Twist of Lemon
-description: Learn about Jon Kohlmeier and Stan Lemon, the hosts of Life with a Twist of Lemon podcast.
+title: About the Podcast - Life with a Twist of Lemon
+description: The story of Life with a Twist of Lemon. Two friends, one long conversation about life, tech, and everything in between.
 permalink: /about/
 ---
 
-<h2>About the Podcast</h2>
+{% assign latestEpisode = collections.blog | first %}
 
-<p>Life with a Twist of Lemon is a podcast where Jon Kohlmeier and Stan Lemon discuss technology, finance, life, craftsmanship, theology, and everything else with a twist of lemon.</p>
+<div class="about-page">
+  <section class="hero about-hero hero--centered" aria-labelledby="about-title">
+    <div class="about-hero__content hero__content">
+      <p class="hero__eyebrow">Podcast</p>
+      <h1 id="about-title">Life with a Twist of Lemon</h1>
+      <p class="about-hero__tagline hero__tagline">
+        Two friends. Countless conversations.<br>
+        Tech, family, craftsmanship, and the everyday stuff that makes life interesting.
+      </p>
 
-<h3>The Hosts</h3>
+      <div class="hero__actions about-hero__actions">
+        <a href="{% if latestEpisode %}{{ latestEpisode.url }}{% else %}/episodes/latest{% endif %}" class="button button--primary">Listen to the latest</a>
+        <a href="#start" class="button button--ghost">Start here</a>
+      </div>
+    </div>
 
-<h4>Jon Kohlmeier</h4>
-<p>Jon brings his unique perspective on technology, craftsmanship, and life to every episode.</p>
+    <div class="about-hero__avatars hero__avatars" aria-label="Hosts">
+      <img src="/images/avatar-jon.png" alt="Illustration of Jon Kohlmeier" width="200" height="200" loading="lazy" class="about-hero__avatar hero__avatar">
+      <img src="/images/avatar-stan.png" alt="Illustration of Stan Lemon" width="200" height="200" loading="lazy" class="about-hero__avatar hero__avatar">
+    </div>
+  </section>
 
-<h4>Stan Lemon</h4>
-<p>Stan shares his insights on software development, finance, and the intersection of faith and technology.</p>
+  <section id="origin" class="about-section about-podcast" aria-labelledby="about-podcast-title">
+    <div class="section-header">
+      <p class="section-eyebrow">Origin story</p>
+      <h2 id="about-podcast-title">About the podcast</h2>
+    </div>
+    <div class="about-podcast__content">
+      <p>Life with a Twist of Lemon started the same way a lot of good things do: two friends on the phone talking about the latest MacBook news and thinking other people might enjoy the conversation.</p>
+      <p>Jon and Stan first connected in 2005. Stan says Jon cyber-stalked him. Jon started volunteering for an organization Stan worked with, then took on more responsibility and eventually reported to him. Along the way, Stan showed Jon the ropes of web development, productivity, and how to be a good employee.</p>
+      <p>They have been friends ever since. The show is their standing catch-up with microphones. Technology, productivity, personal finance, milkshakes, Marvel movies, and whatever else is top of mind. After a four-year hiatus, they are back in 2025. A lot has changed and a lot has stayed the same. AI is part of life now. They both own Apple Vision Pros. Stan describes Jon’s work simply: he makes people successful.</p>
+    </div>
+  </section>
 
-<h3>Subscribe</h3>
+  <section id="hosts" class="about-section hosts" aria-labelledby="hosts-title">
+    <div class="section-header">
+      <p class="section-eyebrow">Jon &amp; Stan</p>
+      <h2 id="hosts-title">Meet the hosts</h2>
+    </div>
+    <div class="about-hosts host-grid">
+      <article class="about-host-card host">
+        <img src="/images/avatar-jon.png" alt="Illustration of Jon Kohlmeier" width="160" height="160" loading="lazy">
+        <div>
+          <h3>Jon Kohlmeier</h3>
+          <p>Jon Kohlmeier is a husband, father, and Revenue Operations leader with a craftsman mindset. He loves building systems that reduce friction and help people do their best work. When not recording with Stan, he is usually on a mission to find the perfect taco recipe, reading, watching movies, or caring too much about his lawn. He spends a lot of time identifying ways to use technology to free people to be more human.</p>
+          <p><a href="https://jonkohlmeier.com" target="_blank" rel="noopener noreferrer">jonkohlmeier.com</a> • <a href="https://linkedin.com/in/jonkohlmeier" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="https://github.com/jonkohlmeier" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </div>
+      </article>
 
-<p>You can find Life with a Twist of Lemon on your favorite podcast platform:</p>
+      <article class="about-host-card host">
+        <img src="/images/avatar-stan.png" alt="Illustration of Stan Lemon" width="160" height="160" loading="lazy">
+        <div>
+          <h3>Stan Lemon</h3>
+          <p>Stan Lemon is a software-focused technology leader who builds products that deliver real value to customers. He has led cross-functional teams, shipped software across platforms, and excels at bridging technical complexity with business goals so teams stay aligned and deliver results that matter. He lives in Indianapolis with his family, loves the Steelers, and built Dollar &amp; Sense for iOS, watchOS, and macOS to help his kids track chores and savings.</p>
+          <p><a href="https://stanlemon.com" target="_blank" rel="noopener noreferrer">stanlemon.com</a> • <a href="https://linkedin.com/in/stanlemon" target="_blank" rel="noopener noreferrer">LinkedIn</a> • <a href="https://github.com/stanlemon" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<ul>
-  <li>Apple Podcasts</li>
-  <li>Spotify</li>
-  <li>Google Podcasts</li>
-  <li>RSS Feed: <a href="/feed.xml">/feed.xml</a></li>
-</ul>
+  <section id="start" class="about-section start-here" aria-labelledby="start-title">
+    <div class="section-header">
+      <p class="section-eyebrow">New to the Podcast?</p>
+      <h2 id="start-title">Start here</h2>
+      <p>Five staple episodes if you are new to the conversation.</p>
+    </div>
+    <ol class="start-here__list">
+      <li><a href="https://twistoflemonpod.com/2021/10/core-values/">Core Values</a></li>
+      <li><a href="https://twistoflemonpod.com/2019/01/the-budget-episode/">The Budget Episode</a></li>
+      <li><a href="https://twistoflemonpod.com/2018/07/episode-about-podcasts/">Episode About Podcasts</a></li>
+      <li><a href="https://twistoflemonpod.com/2021/04/top-10-non-apple-tech-around-the-house/">Top 10 Non-Apple Tech Around the House</a></li>
+      <li><a href="https://twistoflemonpod.com/2018/09/if-you-dont-buy-milkshakes-with-your-money-save-for-a-house/">If You Don’t Buy Milkshakes with Your Money, Save for a House</a></li>
+    </ol>
+  </section>
+
+  <section class="about-section faq" aria-labelledby="faq-title">
+    <div class="section-header">
+      <p class="section-eyebrow">Let’s clear a few things up</p>
+      <h2 id="faq-title">Frequently asked questions</h2>
+    </div>
+    <dl class="faq__list">
+      <div>
+        <dt>What is Life with a Twist of Lemon</dt>
+        <dd>A weekly podcast where Jon Kohlmeier and Stan Lemon talk about tech, family, craftsmanship, and the random stuff that makes life interesting.</dd>
+      </div>
+      <div>
+        <dt>When do new episodes drop</dt>
+        <dd>Thursday mornings.</dd>
+      </div>
+      <div>
+        <dt>Who is the show for</dt>
+        <dd>Coworkers, fathers, Lutherans, tech enthusiasts, and anyone who wants genuine human conversation.</dd>
+      </div>
+      <div>
+        <dt>Do you talk about faith</dt>
+        <dd>It is part of who we are, but not always the topic. Think of it as the lens, not the headline.</dd>
+      </div>
+      <div>
+        <dt>How can I connect with you</dt>
+        <dd>Find us on LinkedIn or GitHub, or visit our personal sites.</dd>
+      </div>
+    </dl>
+  </section>
+</div>
+
+{% comment %}
+  JSON-LD in-page for AboutPage and FAQPage
+{% endcomment %}
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "AboutPage",
+ "name": "About Life with a Twist of Lemon",
+ "url": "{{ site.url }}{{ page.url }}",
+ "primaryImageOfPage": {
+   "@type": "ImageObject",
+   "url": "{{ site.url }}/social-card.png"
+ },
+ "breadcrumb": "About",
+ "description": "Two friends. Countless conversations. Tech, family, craftsmanship, and the everyday stuff that makes life interesting.",
+ "isPartOf": {
+   "@type": "PodcastSeries",
+   "name": "Life with a Twist of Lemon",
+   "url": "{{ site.url }}"
+ },
+ "about": [
+   {"@type": "Person", "name": "Jon Kohlmeier", "url": "https://jonkohlmeier.com"},
+   {"@type": "Person", "name": "Stan Lemon", "url": "https://stanlemon.com"}
+ ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {"@type":"Question","name":"What is Life with a Twist of Lemon","acceptedAnswer":{"@type":"Answer","text":"A weekly podcast where Jon Kohlmeier and Stan Lemon talk about tech, family, craftsmanship, and the random stuff that makes life interesting."}},
+  {"@type":"Question","name":"When do new episodes drop","acceptedAnswer":{"@type":"Answer","text":"Thursday mornings."}},
+  {"@type":"Question","name":"Who is the show for","acceptedAnswer":{"@type":"Answer","text":"Coworkers, fathers, Lutherans, tech enthusiasts, and anyone who wants genuine human conversation."}},
+  {"@type":"Question","name":"Do you talk about faith","acceptedAnswer":{"@type":"Answer","text":"It is part of who we are, but not always the topic. Think of it as the lens, not the headline."}},
+  {"@type":"Question","name":"How can I connect with you","acceptedAnswer":{"@type":"Answer","text":"Find us on LinkedIn or GitHub, or visit our personal sites."}}
+ ]
+}
+</script>
