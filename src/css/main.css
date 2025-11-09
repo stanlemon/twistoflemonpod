@@ -669,16 +669,23 @@ a:focus {
   }
 
   .nav__logo {
-    width: 140px;
-    height: 140px;
-    padding: var(--space-4xs);
-    border-width: 2px;
+    width: clamp(160px, 40vw, 220px);
+    height: auto;
+    padding: 0;
+    border: none;
+    background: transparent;
     box-shadow: none;
+  }
+
+  .nav__logo img {
+    width: 100%;
+    height: auto;
   }
 
   [data-theme="dark"] .nav__logo {
     box-shadow: none;
-    border-color: var(--color-border);
+    border: none;
+    background: transparent;
   }
 
   .nav__title {
@@ -1522,5 +1529,18 @@ a:focus {
 
   .about-hero__avatars {
     gap: var(--space-md);
+  }
+
+  .about-hero__avatar,
+  .hero__avatar,
+  .about-host-card img {
+    padding: var(--space-4xs);
+    border-width: 2px;
+  }
+
+  .about-hero__avatar,
+  .hero__avatar {
+    width: 160px;
+    height: 160px;
   }
 }
