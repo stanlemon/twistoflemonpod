@@ -24,20 +24,20 @@ jobs:
             exit 1
           fi
 
-          payload=$(cat <<PAYLOAD
-{
-  "deployment_trigger": {
-    "type": "ad_hoc"
-  },
-  "metadata": {
-    "branch": "${CLOUDFLARE_BRANCH}",
-    "commit_hash": "manual-trigger-${GITHUB_RUN_ID}",
-    "commit_message": "Scheduled redeploy from GitHub Actions"
-  },
-  "environment": "production"
-}
-PAYLOAD
-)
+          payload=$(cat <<'PAYLOAD'
+          {
+            "deployment_trigger": {
+              "type": "ad_hoc"
+            },
+            "metadata": {
+              "branch": "${CLOUDFLARE_BRANCH}",
+              "commit_hash": "manual-trigger-${GITHUB_RUN_ID}",
+              "commit_message": "Scheduled redeploy from GitHub Actions"
+            },
+            "environment": "production"
+          }
+          PAYLOAD
+          )
 
           echo "Triggering Cloudflare Pages deployment for project ${CLOUDFLARE_PROJECT_NAME} (branch ${CLOUDFLARE_BRANCH})."
 
