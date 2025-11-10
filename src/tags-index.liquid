@@ -1,19 +1,51 @@
 ---
 layout: layouts/base.liquid
-title: All Tags - Life with a Twist of Lemon
-description: Browse all podcast tags
+title: Podcast Tags - Life with a Twist of Lemon
+description: Discover every Life with a Twist of Lemon podcast tag to jump directly into conversations about the topics you care about most.
 permalink: /tags/
 ---
 
-<h1>All Tags</h1>
+{% assign tagEntries = collections.tags | sortTagsByName %}
+{% assign totalTags = tagEntries | size %}
+{% assign totalEpisodes = collections.blog | size %}
 
-<p>Browse all podcast episodes by tag.</p>
+<section class="page-intro" aria-labelledby="tags-title">
+  <p class="page-intro__eyebrow">Browse by Theme</p>
+  <h1 id="tags-title">Podcast Tags</h1>
+  <p class="page-intro__lede">Scan the full tag index to uncover episodes about specific tools, trends, guests, and rabbit holes covered across Life with a Twist of Lemon.</p>
+  <ul class="page-intro__stats" aria-label="Tag summary">
+    <li class="page-intro__stat">
+      <span class="page-intro__stat-label">Unique tags</span>
+      <span class="page-intro__stat-value">{{ totalTags }}</span>
+    </li>
+    <li class="page-intro__stat">
+      <span class="page-intro__stat-label">Episodes indexed</span>
+      <span class="page-intro__stat-value">{{ totalEpisodes }}</span>
+    </li>
+  </ul>
+</section>
 
-<ul class="archive-list">
-{% assign allTags = collections.blog | getAllTags %}
-{% for tag in allTags %}
+<div class="page-section-header">
+  <h2 id="tag-list-heading">Available tags</h2>
+  <p>Each tag includes its episode count so you know where deep archives live.</p>
+</div>
+
+<ul class="archive-list" aria-labelledby="tag-list-heading">
+{% for tag in tagEntries %}
+  {% assign episodeCount = tag.posts | size %}
+  {% assign latestPost = tag.posts[0] %}
   <li>
-    <a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>
+    <a href="/tag/{{ tag.slug }}/" aria-label="{{ tag.name | escape }} tag ({{ episodeCount }} {% if episodeCount == 1 %}episode{% else %}episodes{% endif %})">
+      <span class="archive-list__heading">
+        <span class="archive-list__name">{{ tag.name | escape }}</span>
+        <span class="archive-list__count">({{ episodeCount }})</span>
+      </span>
+      {% if latestPost %}
+      <span class="archive-list__meta">
+        Latest: {{ latestPost.data.title | escape }}
+      </span>
+      {% endif %}
+    </a>
   </li>
 {% endfor %}
 </ul>
