@@ -10,84 +10,14 @@
  * Requires: DEEPGRAM_API_KEY environment variable
  */
 
-import { createClient } from '@deepgram/sdk';
-import { readFileSync, writeFileSync } from 'fs';
 import { resolve, dirname, basename, extname } from 'path';
-import dotenv from 'dotenv';
-
-dotenv.config();
-
-const DEEPGRAM_API_KEY = process.env.DEEPGRAM_API_KEY;
-
-if (!DEEPGRAM_API_KEY) {
-  console.error('Error: DEEPGRAM_API_KEY environment variable is not set');
-  console.error('Please set it in your .env file or export it in your shell');
-  process.exit(1);
-}
-
-/**
- * Format seconds to HH:MM:SS
- */
-function formatTimestamp(seconds) {
-  const hours = Math.floor(seconds / 3600);
-  const minutes = Math.floor((seconds % 3600) / 60);
-  const secs = Math.floor(seconds % 60);
-
-  return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-}
-
-/**
- * Format Deepgram result as markdown with speaker labels
- */
-function formatTranscript(result) {
-  const utterances = result.results?.utterances || [];
-
-  if (utterances.length === 0) {
-    return 'No transcript available.';
-  }
-
-  let markdown = '';
-
-  for (const utterance of utterances) {
-    const speaker = `SPEAKER_${utterance.speaker}`;
-    const startTime = formatTimestamp(utterance.start);
-    const text = utterance.transcript;
-
-    markdown += `**${speaker}** [${startTime}]\n\n${text}\n\n`;
-  }
-
-  return markdown;
-}
-
-/**
- * Transcribe audio file using Deepgram
- */
-async function transcribeFile(filePath) {
-  console.log(`Reading file: ${filePath}`);
-
-  const audioBuffer = readFileSync(filePath);
-  const deepgram = createClient(DEEPGRAM_API_KEY);
-
-  console.log('Sending to Deepgram for transcription...');
-
-  const { result, error } = await deepgram.listen.prerecorded.transcribeFile(
-    audioBuffer,
-    {
-      model: 'nova-3',
-      language: 'en',
-      smart_format: true,
-      paragraphs: true,
-      utterances: true,
-      diarize: true,
-    },
-  );
-
-  if (error) {
-    throw new Error(`Deepgram error: ${error.message}`);
-  }
-
-  return result;
-}
+import { writeFileSync } from 'fs';
+import {
+  DEEPGRAM_API_KEY,
+  transcribeFile,
+  formatTranscript,
+  formatTimestamp,
+} from './lib/utils.js';
 
 /**
  * Main function
@@ -96,6 +26,12 @@ async function main() {
   // Check command line arguments
   if (process.argv.length < 3) {
     console.error('Usage: node scripts/transcribe-with-deepgram.js <path-to-mp3-file>');
+    process.exit(1);
+  }
+
+  if (!DEEPGRAM_API_KEY) {
+    console.error('Error: DEEPGRAM_API_KEY environment variable is not set');
+    console.error('Please set it in your .env file or export it in your shell');
     process.exit(1);
   }
 
@@ -112,6 +48,7 @@ async function main() {
 
   try {
     // Transcribe
+    console.log('Reading file and sending to Deepgram...');
     const result = await transcribeFile(inputPath);
 
     // Format as markdown

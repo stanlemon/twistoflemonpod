@@ -231,15 +231,56 @@ When creating a one-off refactoring script:
 - `add-slug-to-frontmatter.js`: Generates URL slugs from titles
 - Various other maintenance scripts
 
-### Transcription Scripts (JavaScript/Node.js)
-- `transcribe-with-deepgram.js`: Transcribe a single episode using Deepgram API with speaker diarization
-- `batch-transcribe-deepgram.js`: Batch transcribe all episodes with progress tracking and resume capability
+### Transcription and AI Summary Scripts (JavaScript/Node.js)
+
+**Shared Utilities:**
+- `scripts/lib/utils.js`: Shared functions for all episode processing scripts
+  - Deepgram transcription helpers
+  - Ollama AI processing
+  - Date/time formatting
+  - File operations
+  - User input prompts
+
+**Primary Script (Recommended for new episodes):**
+- `create-new-episode.js`: **Complete automated workflow** for creating new episodes
+  - Interactive prompts for episode details (title, number, date)
+  - Transcribes audio with Deepgram (speaker diarization)
+  - Generates AI summary and keywords with Ollama
+  - Creates BOTH episode post AND transcript files with complete frontmatter
+  - Sets up proper directory structure automatically
+  - Prints next steps for publishing
+
+**Usage:**
+```bash
+node scripts/create-new-episode.js <mp3-file>
+
+# Example:
+node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3
+
+# The script will prompt you for:
+# - Episode number
+# - Episode title
+# - Publish date (defaults to today)
+```
+
+**Individual Scripts (for specific tasks):**
+- `transcribe-with-deepgram.js`: Transcribe a single episode only (outputs markdown file)
+- `batch-transcribe-deepgram.js`: Batch transcribe all episodes
+- `add-ai-summaries.js`: Add AI summaries to existing transcripts
 
 **Requirements:**
 - Deepgram API key set in `.env` file as `DEEPGRAM_API_KEY`
-- `dotenv` package for environment variable management
+- Ollama installed and running: `brew install ollama && brew services start ollama`
+- Model downloaded: `ollama pull llama3.2:3b`
 
-**Status:** All 170 episodes have been transcribed (episodes 1-172 plus b01, b02 bonus episodes)
+**Status:** All 170 episodes have been transcribed and summarized (episodes 1-172 plus b01, b02 bonus episodes)
+
+**Key Features:**
+- All scripts now share common code via `scripts/lib/utils.js`
+- `create-new-episode.js` creates complete episode structure in one command
+- Interactive prompts make it easy to add new episodes
+- Automatic directory creation based on publish date
+- Generates proper slugs, frontmatter, and file structure
 
 ### Running Scripts
 
