@@ -8,6 +8,8 @@ import {
   slugify,
   getAllCategories,
   getAllTags,
+  sortCategoriesByName,
+  sortTagsByName,
   excerpt,
   head,
   canonicalUrl
@@ -235,6 +237,64 @@ describe('Filter: getAllTags', () => {
     ];
     const result = getAllTags(collection);
     assert.deepStrictEqual(result, ['alpha', 'bravo', 'zulu']);
+  });
+});
+
+describe('Filter: sortCategoriesByName', () => {
+  it('converts object map to sorted array with slugs', () => {
+    const input = {
+      tech: { name: 'Tech', posts: [1, 2] },
+      life: { name: 'Life', posts: [3] },
+      art: { name: 'Art', posts: [] }
+    };
+
+    const result = sortCategoriesByName(input);
+    assert.deepStrictEqual(
+      result.map(cat => ({ slug: cat.slug, name: cat.name })),
+      [
+        { slug: 'art', name: 'Art' },
+        { slug: 'life', name: 'Life' },
+        { slug: 'tech', name: 'Tech' }
+      ]
+    );
+  });
+
+  it('handles array input', () => {
+    const input = [
+      { slug: 'tech', name: 'Tech' },
+      { slug: 'life', name: 'Life' }
+    ];
+    const result = sortCategoriesByName(input);
+    assert.deepStrictEqual(result.map(cat => cat.slug), ['life', 'tech']);
+  });
+
+  it('returns empty array for falsy input', () => {
+    assert.deepStrictEqual(sortCategoriesByName(null), []);
+    assert.deepStrictEqual(sortCategoriesByName(undefined), []);
+  });
+});
+
+describe('Filter: sortTagsByName', () => {
+  it('sorts tag map by name', () => {
+    const input = {
+      dev: { name: 'Development', posts: [1] },
+      life: { name: 'Life', posts: [2] },
+      art: { name: 'Art', posts: [] }
+    };
+
+    const result = sortTagsByName(input);
+    assert.deepStrictEqual(
+      result.map(tag => ({ slug: tag.slug, name: tag.name })),
+      [
+        { slug: 'art', name: 'Art' },
+        { slug: 'dev', name: 'Development' },
+        { slug: 'life', name: 'Life' }
+      ]
+    );
+  });
+
+  it('handles empty input', () => {
+    assert.deepStrictEqual(sortTagsByName(null), []);
   });
 });
 

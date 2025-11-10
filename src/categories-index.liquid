@@ -1,19 +1,51 @@
 ---
 layout: layouts/base.liquid
-title: All Categories - Life with a Twist of Lemon
-description: Browse all podcast categories
+title: Podcast Categories - Life with a Twist of Lemon
+description: Discover every Life with a Twist of Lemon podcast category to jump into conversations about technology, finance, craftsmanship, theology, and more.
 permalink: /categories/
 ---
 
-<h1>All Categories</h1>
+{% assign categoryEntries = collections.categories | sortCategoriesByName %}
+{% assign totalCategories = categoryEntries | size %}
+{% assign totalEpisodes = collections.blog | size %}
 
-<p>Browse all podcast episodes by category.</p>
+<section class="page-intro" aria-labelledby="categories-title">
+  <p class="page-intro__eyebrow">Browse by Topic</p>
+  <h1 id="categories-title">Podcast Categories</h1>
+  <p class="page-intro__lede">Quickly find Life with a Twist of Lemon episodes that dig into technology, finance, craftsmanship, theology, and everyday life insights from Jon Kohlmeier &amp; Stan Lemon.</p>
+  <ul class="page-intro__stats" aria-label="Category summary">
+    <li class="page-intro__stat">
+      <span class="page-intro__stat-label">Active categories</span>
+      <span class="page-intro__stat-value">{{ totalCategories }}</span>
+    </li>
+    <li class="page-intro__stat">
+      <span class="page-intro__stat-label">Episodes indexed</span>
+      <span class="page-intro__stat-value">{{ totalEpisodes }}</span>
+    </li>
+  </ul>
+</section>
 
-<ul class="archive-list">
-{% assign allCategories = collections.blog | getAllCategories %}
-{% for category in allCategories %}
+<div class="page-section-header" aria-live="off">
+  <h2 id="category-list-heading">Available categories</h2>
+  <p>Each category shows how many podcast episodes are ready to explore.</p>
+</div>
+
+<ul class="archive-list" aria-labelledby="category-list-heading">
+{% for category in categoryEntries %}
+  {% assign episodeCount = category.posts | size %}
+  {% assign latestPost = category.posts[0] %}
   <li>
-    <a href="/category/{{ category | slugify }}/">{{ category }}</a>
+    <a href="/category/{{ category.slug }}/" aria-label="{{ category.name | escape }} category ({{ episodeCount }} {% if episodeCount == 1 %}episode{% else %}episodes{% endif %})">
+      <span class="archive-list__heading">
+        <span class="archive-list__name">{{ category.name | escape }}</span>
+        <span class="archive-list__count">({{ episodeCount }})</span>
+      </span>
+      {% if latestPost %}
+      <span class="archive-list__meta">
+        Latest: {{ latestPost.data.title | escape }}
+      </span>
+      {% endif %}
+    </a>
   </li>
 {% endfor %}
 </ul>
