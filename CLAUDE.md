@@ -588,6 +588,11 @@ Also keep `README.md` updated with user-facing changes like:
 
 The site is static and can be deployed to any static hosting:
 
+**Scheduled Cloudflare Pages redeploys:**
+- Workflow `.github/workflows/cloudflare-pages-redeploy.yml` runs every Thursday at 04:00 EST (09:00 UTC) and can be triggered manually with `workflow_dispatch`.
+- The job hits the Cloudflare Pages deployments API so future-dated posts publish without requiring a new commit.
+- Requires repository secrets `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_PROJECT_NAME`, and `CLOUDFLARE_API_TOKEN` (token needs “Pages - Edit” scope).
+
 **GitHub Pages:**
 - Build command: `npm run build`
 - Publish directory: `_site`

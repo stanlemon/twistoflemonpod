@@ -1,0 +1,48 @@
+name: Cloudflare Pages Redeploy
+
+on:
+  schedule:
+    - cron: '0 9 * * 4' # Thursdays at 04:00 EST / 09:00 UTC
+  workflow_dispatch:
+
+jobs:
+  trigger-cloudflare-deploy:
+    name: Trigger Cloudflare Pages deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger deployment via Cloudflare API
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_BRANCH: master
+        run: |
+          set -euo pipefail
+
+          if [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ] || [ -z "${CLOUDFLARE_PROJECT_NAME:-}" ] || [ -z "${CLOUDFLARE_API_TOKEN:-}" ]; then
+            echo "Missing one or more Cloudflare secrets (CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_PROJECT_NAME, CLOUDFLARE_API_TOKEN)."
+            exit 1
+          fi
+
+          payload=$(cat <<PAYLOAD
+{
+  "deployment_trigger": {
+    "type": "ad_hoc"
+  },
+  "metadata": {
+    "branch": "${CLOUDFLARE_BRANCH}",
+    "commit_hash": "manual-trigger-${GITHUB_RUN_ID}",
+    "commit_message": "Scheduled redeploy from GitHub Actions"
+  },
+  "environment": "production"
+}
+PAYLOAD
+)
+
+          echo "Triggering Cloudflare Pages deployment for project ${CLOUDFLARE_PROJECT_NAME} (branch ${CLOUDFLARE_BRANCH})."
+
+          curl --fail-with-body -X POST \
+            "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT_NAME}/deployments" \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data "${payload}"
