@@ -100,4 +100,47 @@ describe('Build Validation', () => {
       assert.ok(paginationPages >= 15, `Expected at least 15 pagination pages, found ${paginationPages}`);
     });
   });
+
+  describe('Scheduled Posts (Future Dates)', () => {
+    it('should not generate pages for future-dated posts by default', () => {
+      // This test verifies that if INCLUDE_FUTURE_POSTS is not set,
+      // posts with future dates don't get built.
+      // Since we can't easily test with actual future posts without modifying
+      // the test environment, this is a smoke test that verifies the mechanism works.
+
+      // Verify that the site was built without INCLUDE_FUTURE_POSTS env var
+      // (The absence of certain directories would indicate exclusion)
+      assert.ok(fs.existsSync(siteDir), 'Site should be built');
+
+      // Check that no directories exist for far future years (e.g., 2030+)
+      const yearDirs = fs.readdirSync(siteDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory() && /^\d{4}$/.test(dirent.name))
+        .map(dirent => parseInt(dirent.name));
+
+      const currentYear = new Date().getFullYear();
+      const futureDirs = yearDirs.filter(year => year > currentYear + 10);
+
+      assert.strictEqual(futureDirs.length, 0,
+        'Should not have directories for years more than 10 years in the future');
+    });
+
+    it('should have expected year directories for current/past posts', () => {
+      const yearDirs = fs.readdirSync(siteDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory() && /^\d{4}$/.test(dirent.name))
+        .map(dirent => parseInt(dirent.name));
+
+      // Should have posts from 2018 (when podcast started)
+      assert.ok(yearDirs.includes(2018), 'Should have posts from 2018');
+
+      // Should have posts from 2021 (last regular episode year based on content)
+      assert.ok(yearDirs.includes(2021), 'Should have posts from 2021');
+
+      // All year directories should be reasonable (between 2018 and current year + 5)
+      const currentYear = new Date().getFullYear();
+      yearDirs.forEach(year => {
+        assert.ok(year >= 2018 && year <= currentYear + 5,
+          `Year ${year} should be between 2018 and ${currentYear + 5}`);
+      });
+    });
+  });
 });

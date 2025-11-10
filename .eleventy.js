@@ -18,6 +18,33 @@ export default function(eleventyConfig) {
     ...siteData,
     url: process.env.SITE_URL !== undefined ? process.env.SITE_URL : siteData.url
   });
+
+  // Add computed permalink for blog posts to exclude future-dated posts
+  eleventyConfig.addGlobalData("eleventyComputed", {
+    permalink: (data) => {
+      // Only apply to blog posts
+      if (!data.page.inputPath || !data.page.inputPath.includes('/content/blog/')) {
+        return data.permalink;
+      }
+
+      // Check if we should include future posts
+      const includeFuturePosts = process.env.INCLUDE_FUTURE_POSTS === 'true';
+
+      if (!includeFuturePosts && data.date) {
+        const now = new Date();
+        const postDate = new Date(data.date);
+
+        // Exclude future-dated posts by setting permalink to false
+        if (postDate > now) {
+          return false;
+        }
+      }
+
+      // Return the original permalink
+      return data.permalink;
+    }
+  });
+
   // Plugins
   eleventyConfig.addPlugin(syntaxHighlight);
   eleventyConfig.addPlugin(pluginRss);

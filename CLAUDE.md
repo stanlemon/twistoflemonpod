@@ -77,6 +77,57 @@ tests/               # Test suite
   - 88 tag pages
   - Feed, sitemap, and index
 
+### Scheduled Posts (Future-Dated Content)
+
+The site supports scheduled publishing of posts. Posts with dates in the future are automatically excluded from:
+- Page generation (no HTML files created)
+- Collections (won't appear in blog listing, categories, or tags)
+- RSS feed (not included in feed.xml)
+- Homepage and pagination
+
+**How It Works:**
+
+Posts are filtered based on their `date` field in frontmatter. If the date is in the future (compared to build time), the post is excluded.
+
+**Environment Variable Override:**
+
+For preview builds, staging environments, or local development where you want to see future posts, set the environment variable:
+
+```bash
+INCLUDE_FUTURE_POSTS=true npm run build
+```
+
+This is useful for:
+- **Local development**: Preview posts before they go live
+- **Cloudflare branch builds**: See future posts in staging/preview environments
+- **Content review**: Check posts before their scheduled publication date
+
+**Implementation Details:**
+
+- Collection filtering in `lib/collections.js` via `shouldIncludePost()` function
+- Permalink suppression in `.eleventy.js` via global computed data
+- Respects `INCLUDE_FUTURE_POSTS` environment variable
+
+**Example Usage:**
+
+```bash
+# Normal build (excludes future posts)
+npm run build
+
+# Preview build (includes future posts)
+INCLUDE_FUTURE_POSTS=true npm run build
+
+# Local development with future posts
+INCLUDE_FUTURE_POSTS=true npm run dev
+```
+
+**Cloudflare Setup:**
+
+In Cloudflare Pages settings, add environment variable for branch deployments:
+- Variable: `INCLUDE_FUTURE_POSTS`
+- Value: `true`
+- Apply to: Preview branches only
+
 ## Development Workflow
 
 ### Best Practices
