@@ -9,6 +9,7 @@ pagination:
   reverse: false
 eleventyComputed:
   title: "{% if pagination.pageNumber == 0 %}Life with a Twist of Lemon - A Podcast about Technology, Finance, Life, and More{% else %}Page {{ pagination.pageNumber | plus: 1 }} - Life with a Twist of Lemon{% endif %}"
+  canonicalUrl: "{% if pagination.pageNumber == 0 %}/{% else %}{{ page.url }}{% endif %}"
 ---
 
 {% include "partials/blog-grid.liquid", posts: posts %}
