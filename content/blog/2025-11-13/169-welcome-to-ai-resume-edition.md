@@ -2,7 +2,7 @@
 title: "Welcome to AI, Resume Edition"
 slug: welcome-to-ai-resume-edition
 episode: 169
-date: "2025-11-13T12:00:00.000Z"
+date: "2025-11-13T06:00:00.000Z"
 categories:
   - Technology
 tags:
