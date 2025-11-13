@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Nov 2025 03:23:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Nov 2025 11:56:33 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,26 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Welcome to AI, Resume Edition</title>
+      <link>https://twistoflemonpod.com/2025/11/welcome-to-ai-resume-edition/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/11/welcome-to-ai-resume-edition/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 13 Nov 2025 06:00:00 +0000</pubDate>
+      <description>In this first episode back after our hiatus, we dive into software subscriptions, AI-powered tools, and the ever-quickening pace of the tech world. Stan shares his experience juggling services like Claude, ChatGPT, and Grammarly, and what it’s like trying to manage so many overlapping tools. Jon tal...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>In this first episode back after our hiatus, we dive into software subscriptions, AI-powered tools, and the ever-quickening pace of the tech world. Stan shares his experience juggling services like Claude, ChatGPT, and Grammarly, and what it’s like trying to manage so many overlapping tools. Jon talks about his AI workflows, including how he uses them for his annual resume refresh and building a master version that ties everything together. We’re both excited about how modern platforms make it easier than ever to experiment, iterate fast, and bring creative ideas to life.</p>
+<p>Thanks for listening and we'll talk to you soon,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/169-lwatol-20251102.mp3" length="70096267" type="audio/mpeg"/><itunes:duration>00:47:48</itunes:duration>
+      <itunes:title>Welcome to AI, Resume Edition</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>169</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Technology</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/11/welcome-to-ai-resume-edition/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Is this thing on?</title>
