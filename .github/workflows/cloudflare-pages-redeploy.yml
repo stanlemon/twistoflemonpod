@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger deployment via Cloudflare API
+        id: trigger_deployment
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
@@ -24,25 +25,120 @@ jobs:
             exit 1
           fi
 
-          payload=$(cat <<'PAYLOAD'
-          {
-            "deployment_trigger": {
-              "type": "ad_hoc"
-            },
-            "metadata": {
-              "branch": "${CLOUDFLARE_BRANCH}",
-              "commit_hash": "manual-trigger-${GITHUB_RUN_ID}",
-              "commit_message": "Scheduled redeploy from GitHub Actions"
-            },
-            "environment": "production"
-          }
-          PAYLOAD
+          if ! command -v jq >/dev/null 2>&1; then
+            echo "jq is required but not installed on the runner."
+            exit 1
+          fi
+
+          payload=$(jq -n \
+            --arg branch "${CLOUDFLARE_BRANCH}" \
+            --arg commit_hash "manual-trigger-${GITHUB_RUN_ID}" \
+            --arg commit_message "Scheduled redeploy from GitHub Actions" \
+            '{
+              deployment_trigger: { type: "ad_hoc" },
+              metadata: {
+                branch: $branch,
+                commit_hash: $commit_hash,
+                commit_message: $commit_message
+              },
+              environment: "production"
+            }'
           )
 
           echo "Triggering Cloudflare Pages deployment for project ${CLOUDFLARE_PROJECT_NAME} (branch ${CLOUDFLARE_BRANCH})."
 
-          curl --fail-with-body -X POST \
+          response=$(curl --fail-with-body -sS -X POST \
             "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT_NAME}/deployments" \
             -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
             -H "Content-Type: application/json" \
-            --data "${payload}"
+            --data "${payload}")
+
+          deployment_id=$(echo "${response}" | jq -r '.result.id // empty')
+
+          if [ -z "${deployment_id}" ]; then
+            echo "Unable to determine deployment id from Cloudflare API response"
+            echo "Full response: ${response}"
+            exit 1
+          fi
+
+          echo "Triggered deployment ${deployment_id}. Waiting for completion before purging cache."
+          echo "deployment_id=${deployment_id}" >> "${GITHUB_OUTPUT}"
+
+      - name: Wait for deployment completion
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          DEPLOYMENT_ID: ${{ steps.trigger_deployment.outputs.deployment_id }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ] || [ -z "${CLOUDFLARE_PROJECT_NAME:-}" ] || [ -z "${CLOUDFLARE_API_TOKEN:-}" ] || [ -z "${DEPLOYMENT_ID:-}" ]; then
+            echo "Missing one or more inputs required to check deployment status."
+            exit 1
+          fi
+
+          if ! command -v jq >/dev/null 2>&1; then
+            echo "jq is required but not installed on the runner."
+            exit 1
+          fi
+
+          max_attempts=60
+          sleep_seconds=15
+
+          for attempt in $(seq 1 ${max_attempts}); do
+            echo "Checking deployment status (attempt ${attempt}/${max_attempts})."
+
+            deployment=$(curl --fail-with-body -sS \
+              "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT_NAME}/deployments/${DEPLOYMENT_ID}" \
+              -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+              -H "Content-Type: application/json")
+
+            latest_stage_name=$(echo "${deployment}" | jq -r '.result.latest_stage.name // "unknown"')
+            latest_stage_status=$(echo "${deployment}" | jq -r '.result.latest_stage.status // empty')
+            overall_status=$(echo "${deployment}" | jq -r '.result.status // empty')
+
+            if [ "${latest_stage_status}" = "success" ]; then
+              echo "Cloudflare deployment ${DEPLOYMENT_ID} completed successfully (stage: ${latest_stage_name})."
+              exit 0
+            fi
+
+            case "${latest_stage_status}" in
+              failure|failed|error|"canceled"|"cancelled")
+                echo "Cloudflare deployment ${DEPLOYMENT_ID} failed with status '${latest_stage_status}' (stage: ${latest_stage_name})."
+                exit 1
+                ;;
+            esac
+
+            if [ "${overall_status}" = "failed" ] || [ "${overall_status}" = "failure" ]; then
+              echo "Cloudflare deployment ${DEPLOYMENT_ID} failed with overall status '${overall_status}'."
+              exit 1
+            fi
+
+            echo "Current stage '${latest_stage_name}' status '${latest_stage_status:-unknown}'. Waiting ${sleep_seconds}s before retrying."
+            sleep "${sleep_seconds}"
+          done
+
+          echo "Deployment ${DEPLOYMENT_ID} did not reach completion after $((max_attempts * sleep_seconds)) seconds."
+          exit 1
+
+      - name: Purge Cloudflare cache
+        env:
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_DOMAIN: twistoflemonpod.com
+        run: |
+          set -euo pipefail
+
+          if [ -z "${CLOUDFLARE_ZONE_ID:-}" ] || [ -z "${CLOUDFLARE_API_TOKEN:-}" ]; then
+            echo "Missing one or more Cloudflare secrets (CLOUDFLARE_ZONE_ID, CLOUDFLARE_API_TOKEN)."
+            exit 1
+          fi
+
+          echo "Purging Cloudflare cache for ${CLOUDFLARE_DOMAIN}."
+
+          curl --fail-with-body -X POST \
+            "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache" \
+            -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}'
