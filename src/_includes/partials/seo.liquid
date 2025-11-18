@@ -1,18 +1,4 @@
-{% assign canonical_path = canonicalUrl | default: page.url %}
-{% if canonical_path contains '?' %}
-{% assign canonical_path = canonical_path | split: '?' | first %}
-{% endif %}
-{% if canonical_path contains '#' %}
-{% assign canonical_path = canonical_path | split: '#' | first %}
-{% endif %}
-{% if canonical_path == '' %}
-{% assign canonical_path = '/' %}
-{% endif %}
-{% if canonical_path contains '://' %}
-{% assign canonical_url = canonical_path %}
-{% else %}
-{% assign canonical_url = site.url | append: canonical_path %}
-{% endif %}
+{% assign canonical_url = canonicalUrl | default: page.url | canonicalUrl: site.url %}
 {% assign meta_title = title | default: site.title %}
 {% assign meta_description = summary | default: description | default: site.description %}
 
