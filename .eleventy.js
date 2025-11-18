@@ -87,6 +87,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addFilter("findTranscript", filters.findTranscript);
   eleventyConfig.addFilter("absoluteUrls", filters.absoluteUrls);
   eleventyConfig.addFilter("excludeFromFeed", filters.excludeFromFeed);
+  eleventyConfig.addFilter("canonicalUrl", filters.canonicalUrl);
 
   // Custom markdown library with anchor support
   let markdownLib = markdownIt({
