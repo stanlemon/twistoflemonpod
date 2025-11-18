@@ -15,18 +15,7 @@ eleventyExcludeFromCollections: true
   <!-- Blog posts -->
   {% for post in collections.blog %}
   {% if post.url and post.data.permalink != false and post.data.excludeFromSitemap != true %}
-  {% assign canonical_path = post.data.canonicalUrl | default: post.url %}
-  {% if canonical_path contains '?' %}
-  {% assign canonical_path = canonical_path | split: '?' | first %}
-  {% endif %}
-  {% if canonical_path contains '#' %}
-  {% assign canonical_path = canonical_path | split: '#' | first %}
-  {% endif %}
-  {% if canonical_path contains '://' %}
-  {% assign sitemap_loc = canonical_path %}
-  {% else %}
-  {% assign sitemap_loc = site.url | append: canonical_path %}
-  {% endif %}
+  {% assign sitemap_loc = post.data.canonicalUrl | default: post.url | canonicalUrl: site.url %}
   <url>
     <loc>{{ sitemap_loc }}</loc>
     <lastmod>{{ post.date | htmlDateString }}</lastmod>
@@ -39,18 +28,7 @@ eleventyExcludeFromCollections: true
   <!-- Transcript posts -->
   {% for post in collections.transcripts %}
   {% if post.url and post.data.permalink != false and post.data.excludeFromSitemap != true %}
-  {% assign canonical_path = post.data.canonicalUrl | default: post.url %}
-  {% if canonical_path contains '?' %}
-  {% assign canonical_path = canonical_path | split: '?' | first %}
-  {% endif %}
-  {% if canonical_path contains '#' %}
-  {% assign canonical_path = canonical_path | split: '#' | first %}
-  {% endif %}
-  {% if canonical_path contains '://' %}
-  {% assign sitemap_loc = canonical_path %}
-  {% else %}
-  {% assign sitemap_loc = site.url | append: canonical_path %}
-  {% endif %}
+  {% assign sitemap_loc = post.data.canonicalUrl | default: post.url | canonicalUrl: site.url %}
   <url>
     <loc>{{ sitemap_loc }}</loc>
     <lastmod>{{ post.date | htmlDateString }}</lastmod>
