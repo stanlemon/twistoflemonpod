@@ -2,7 +2,20 @@
 {% assign podcast_listen_targets = '' | split: '' %}
 {% assign podcast_image = site.url | append: "/images/logo.png" %}
 {% assign canonical_path = canonicalUrl | default: page.url %}
+{% if canonical_path contains '?' %}
+{% assign canonical_path = canonical_path | split: '?' | first %}
+{% endif %}
+{% if canonical_path contains '#' %}
+{% assign canonical_path = canonical_path | split: '#' | first %}
+{% endif %}
+{% if canonical_path == '' %}
+{% assign canonical_path = '/' %}
+{% endif %}
+{% if canonical_path contains '://' %}
+{% assign canonical_url = canonical_path %}
+{% else %}
 {% assign canonical_url = site.url | append: canonical_path %}
+{% endif %}
 {% if site.social.twitter %}
   {% assign social_url = "https://twitter.com/" | append: site.social.twitter %}
   {% assign podcast_same_as = podcast_same_as | concat: [social_url] %}
