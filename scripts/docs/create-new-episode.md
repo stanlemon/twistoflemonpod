@@ -48,6 +48,26 @@ node scripts/create-new-episode.js <path-to-mp3-file>
 node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3
 ```
 
+### Optional Flags
+
+| Flag | Description |
+| --- | --- |
+| `--skip-transcription` | Skips the Deepgram transcription and AI summarization steps. Transcript and episode stubs are still generated with placeholder text so you can fill them in later. |
+| `--upload` | Uploads the provided MP3 to Cloudflare R2 (S3-compatible) after the files are generated. Requires the `aws` CLI to be configured for your R2 bucket. |
+
+When using `--upload`, you can configure the destination via environment variables:
+
+```bash
+export R2_BUCKET="s3://twistoflemonpod/episodes"
+export R2_ENDPOINT_URL="https://<account-id>.r2.cloudflarestorage.com"
+```
+
+If you skip transcription now but want an AI summary later, run the dedicated script once you have the transcript ready:
+
+```bash
+node scripts/add-ai-summaries.js --file=content/blog/2025-11-15/173-lwatol-20251115.md
+```
+
 ### Interactive Prompts
 
 The script will prompt you for:
@@ -98,10 +118,12 @@ The script will print next steps:
    - Update categories if needed
    - Review tags (generated from keywords)
 
-2. **Upload MP3 to S3**
+2. **Upload MP3 to Cloudflare R2 (or S3)**
+   - Run this manually if you skipped the `--upload` flag
    ```bash
    aws s3 cp ~/path/to/episode.mp3 s3://twistoflemonpod/episodes/
    ```
+   - When `--upload` is used the script runs this step for you
 
 3. **Test and build**
    ```bash

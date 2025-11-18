@@ -4,11 +4,12 @@
  * Add AI-generated summaries and keywords to transcript posts using Ollama (llama3.2:3b)
  *
  * Usage:
- *   node scripts/add-ai-summaries.js [--test] [--model=llama3.2:3b]
+ *   node scripts/add-ai-summaries.js [--test] [--model=llama3.2:3b] [--file=path/to/transcript.md]
  *
  * Options:
  *   --test    Process only one file for testing
  *   --model   Specify Ollama model (default: llama3.2:3b)
+ *   --file    Process only the specified transcript file
  *
  * Requirements:
  *   - Ollama must be installed and running (brew install ollama && ollama serve)
@@ -16,6 +17,7 @@
  */
 
 import { glob } from 'glob';
+import { existsSync } from 'fs';
 import { resolve } from 'path';
 import {
   OLLAMA_MODEL,
@@ -82,13 +84,18 @@ async function main() {
   const args = process.argv.slice(2);
   const testMode = args.includes('--test');
   const modelArg = args.find(arg => arg.startsWith('--model='));
+  const fileArg = args.find(arg => arg.startsWith('--file='));
   const model = modelArg ? modelArg.split('=')[1] : OLLAMA_MODEL;
+  const explicitFile = fileArg ? resolve(fileArg.split('=')[1]) : null;
 
   console.log('='.repeat(70));
   console.log('Add AI Summaries and Keywords to Transcripts');
   console.log('='.repeat(70));
   console.log(`Model: ${model}`);
   console.log(`Test mode: ${testMode ? 'YES (processing 1 file only)' : 'NO'}`);
+  if (explicitFile) {
+    console.log(`Target file: ${explicitFile}`);
+  }
   console.log('='.repeat(70));
 
   // Check if Ollama is running
@@ -101,13 +108,21 @@ async function main() {
   }
   console.log('✓ Ollama is running');
 
-  // Find all transcript files
-  const pattern = resolve(CONTENT_DIR, '**/*.md');
-  const files = glob.sync(pattern);
-  console.log(`Found ${files.length} markdown files\n`);
+  let files = [];
+  if (explicitFile) {
+    if (!existsSync(explicitFile)) {
+      console.error(`✗ Error: File not found - ${explicitFile}`);
+      process.exit(1);
+    }
+    files = [explicitFile];
+  } else {
+    const pattern = resolve(CONTENT_DIR, '**/*.md');
+    files = glob.sync(pattern);
+    console.log(`Found ${files.length} markdown files\n`);
+  }
 
   // Filter for transcripts and limit in test mode
-  const filesToProcess = testMode ? files.slice(0, 1) : files;
+  const filesToProcess = explicitFile ? files : testMode ? files.slice(0, 1) : files;
 
   // Process files
   const stats = {

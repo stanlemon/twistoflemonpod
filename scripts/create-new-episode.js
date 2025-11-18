@@ -10,7 +10,7 @@
  * 4. Creates both episode post and transcript files with complete frontmatter
  * 5. Prints next steps for publishing
  *
- * Usage: node scripts/create-new-episode.js <mp3-file>
+ * Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription] [--upload]
  *
  * Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3
  *
@@ -20,6 +20,7 @@
  *   - Model pulled (ollama pull llama3.2:3b)
  */
 
+import { spawnSync } from 'child_process';
 import { resolve, basename, extname } from 'path';
 import {
   DEEPGRAM_API_KEY,
@@ -37,6 +38,11 @@ import {
   transcribeFile,
   writeMarkdownFile,
 } from './lib/utils.js';
+
+const DEFAULT_TRANSCRIPT_PLACEHOLDER = 'Transcript will be available soon.';
+const DEFAULT_SUMMARY_PLACEHOLDER = 'Summary will be added soon.';
+const R2_BUCKET = process.env.R2_BUCKET || 's3://twistoflemonpod/episodes';
+const R2_ENDPOINT_URL = process.env.R2_ENDPOINT_URL;
 
 /**
  * Validate date string (YYYY-MM-DD)
@@ -110,30 +116,45 @@ async function promptEpisodeDetails() {
 /**
  * Create episode post file
  */
-function createEpisodeFile(blogDir, episodeNumber, title, date, mp3Basename, fileSize, duration, summary, keywords) {
+function createEpisodeFile(
+  blogDir,
+  episodeNumber,
+  title,
+  date,
+  mp3Basename,
+  fileSize,
+  duration,
+  summary,
+  keywords,
+) {
   const slug = slugify(title);
   const filename = `${episodeNumber}-${slug}.md`;
   const filePath = resolve(blogDir, filename);
 
+  const tags = Array.isArray(keywords) && keywords.length > 0 ? keywords.slice(0, 5) : [];
   const frontmatter = {
     title: title,
     slug: slug,
     episode: episodeNumber,
     date: date.toISOString(),
     categories: ['Technology'], // Default category, can be edited
-    tags: keywords.slice(0, 5), // Use first 5 keywords as tags
+    tags,
     enclosure: {
       url: `${MEDIA_BASE_URL}/${mp3Basename}.mp3`,
       length: fileSize,
       type: 'audio/mpeg',
       duration: duration,
     },
-    summary: summary,
   };
 
+  if (summary) {
+    frontmatter.summary = summary;
+  }
+
+  const contentSummary = summary || DEFAULT_SUMMARY_PLACEHOLDER;
   const content = `Dear Listener,
 
-${summary}
+${contentSummary}
 
 Thanks for listening and we'll talk to you soon,
 
@@ -148,7 +169,16 @@ Stan Lemon & Jon Kohlmeier
 /**
  * Create transcript file
  */
-function createTranscriptFile(blogDir, episodeNumber, title, date, slug, transcriptText, summary, keywords) {
+function createTranscriptFile(
+  blogDir,
+  episodeNumber,
+  title,
+  date,
+  slug,
+  transcriptText,
+  summary,
+  keywords,
+) {
   const dateStr = formatDateForDir(date).replace(/-/g, '');
   const filename = `${episodeNumber}-lwatol-${dateStr}.md`;
   const filePath = resolve(blogDir, filename);
@@ -159,34 +189,65 @@ function createTranscriptFile(blogDir, episodeNumber, title, date, slug, transcr
     date: date.toISOString(),
     slug: `${slug}/transcript`,
     type: 'transcript',
-    summary: summary,
-    keywords: keywords,
   };
+
+  if (summary) {
+    frontmatter.summary = summary;
+  }
+
+  if (Array.isArray(keywords) && keywords.length > 0) {
+    frontmatter.keywords = keywords;
+  }
 
   writeMarkdownFile(filePath, frontmatter, transcriptText);
 
   return filePath;
 }
 
+function uploadToR2(localPath, destinationKey) {
+  const normalizedBucket = R2_BUCKET.endsWith('/') ? R2_BUCKET.slice(0, -1) : R2_BUCKET;
+  const destination = `${normalizedBucket}/${destinationKey}`;
+  const args = ['s3', 'cp', localPath, destination];
+
+  if (R2_ENDPOINT_URL) {
+    args.push('--endpoint-url', R2_ENDPOINT_URL);
+  }
+
+  console.log(`  Uploading ${localPath} → ${destination}`);
+  const result = spawnSync('aws', args, { stdio: 'inherit' });
+
+  if (result.status !== 0) {
+    throw new Error('MP3 upload to Cloudflare R2 failed');
+  }
+
+  console.log('  ✓ Upload complete');
+}
+
 /**
  * Main function
  */
 async function main() {
-  // Check command line arguments
-  if (process.argv.length < 3) {
-    console.error('Usage: node scripts/create-new-episode.js <mp3-file>');
+  const rawArgs = process.argv.slice(2);
+  const positionalArgs = rawArgs.filter(arg => !arg.startsWith('--'));
+  const options = {
+    skipTranscription: rawArgs.includes('--skip-transcription'),
+    upload: rawArgs.includes('--upload'),
+  };
+
+  if (positionalArgs.length !== 1) {
+    console.error('Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription] [--upload]');
     console.error('');
-    console.error('Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3');
+    console.error('Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3 --upload');
     process.exit(1);
   }
 
-  if (!DEEPGRAM_API_KEY) {
+  if (!options.skipTranscription && !DEEPGRAM_API_KEY) {
     console.error('Error: DEEPGRAM_API_KEY environment variable is not set');
-    console.error('Please set it in your .env file');
+    console.error('Please set it in your .env file or use --skip-transcription');
     process.exit(1);
   }
 
-  const inputPath = resolve(process.argv[2]);
+  const inputPath = resolve(positionalArgs[0]);
   const mp3Basename = basename(inputPath, extname(inputPath));
 
   console.log('');
@@ -203,43 +264,60 @@ async function main() {
     const dateStr = formatDateForDir(date);
     const blogDir = resolve('content/blog', dateStr);
 
-    // Check if Ollama is running
-    console.log('Step 1: Checking Ollama...');
-    const ollamaRunning = await checkOllama();
-    if (!ollamaRunning) {
-      throw new Error('Ollama is not running. Start it with: brew services start ollama');
+    // Step 1: Transcribe audio (unless skipped)
+    let transcriptText = '';
+    let durationFormatted = '00:00:00';
+    let summary = '';
+    let keywords = [];
+    let hasTranscript = false;
+
+    if (options.skipTranscription) {
+      console.log('Step 1: Skipping transcription (--skip-transcription flag)');
+      transcriptText = DEFAULT_TRANSCRIPT_PLACEHOLDER;
+    } else {
+      console.log('Step 1: Transcribing audio...');
+      console.log('  Reading audio file...');
+      console.log('  Sending to Deepgram for transcription...');
+      const result = await transcribeFile(inputPath);
+      transcriptText = formatTranscript(result);
+      hasTranscript = true;
+
+      const utterances = result.results?.utterances || [];
+      const speakers = new Set(utterances.map(u => u.speaker));
+      const duration = result.metadata?.duration || 0;
+      durationFormatted = formatTimestamp(duration);
+
+      console.log('  ✓ Transcription complete!');
+      console.log(`    Duration: ${durationFormatted}`);
+      console.log(`    Speakers: ${speakers.size}`);
+      console.log(`    Utterances: ${utterances.length}`);
+      console.log('');
     }
-    console.log('  ✓ Ollama is running');
-    console.log('');
 
-    // Step 2: Transcribe audio
-    console.log('Step 2: Transcribing audio...');
-    console.log('  Reading audio file...');
-    console.log('  Sending to Deepgram for transcription...');
-    const result = await transcribeFile(inputPath);
-    const transcriptText = formatTranscript(result);
+    // Step 2: Generate AI summary when transcript text exists
+    const shouldSummarize = hasTranscript && transcriptText.trim().length > 0;
+    if (shouldSummarize) {
+      console.log('Step 2: Generating AI summary and keywords...');
+      const ollamaRunning = await checkOllama();
+      if (!ollamaRunning) {
+        throw new Error('Ollama is not running. Start it with: brew services start ollama');
+      }
+      const summaryResult = await generateSummary(title, transcriptText);
+      summary = summaryResult.summary;
+      keywords = summaryResult.keywords;
+      console.log('  ✓ Generated successfully');
+      console.log(`    Summary: ${summary.substring(0, 80)}${summary.length > 80 ? '...' : ''}`);
+      console.log(
+        `    Keywords: ${keywords.slice(0, 5).join(', ')}${keywords.length > 5 ? '...' : ''}`,
+      );
+      console.log('');
+    } else {
+      console.log('Step 2: Skipping AI summary (no transcript available)');
+      console.log('');
+    }
 
-    const utterances = result.results?.utterances || [];
-    const speakers = new Set(utterances.map(u => u.speaker));
-    const duration = result.metadata?.duration || 0;
-    const durationFormatted = formatTimestamp(duration);
-
-    console.log('  ✓ Transcription complete!');
-    console.log(`    Duration: ${durationFormatted}`);
-    console.log(`    Speakers: ${speakers.size}`);
-    console.log(`    Utterances: ${utterances.length}`);
-    console.log('');
-
-    // Step 3: Generate AI summary
-    console.log('Step 3: Generating AI summary and keywords...');
-    const { summary, keywords } = await generateSummary(title, transcriptText);
-    console.log('  ✓ Generated successfully');
-    console.log(`    Summary: ${summary.substring(0, 80)}...`);
-    console.log(`    Keywords: ${keywords.slice(0, 5).join(', ')}...`);
-    console.log('');
-
-    // Step 4: Create files
-    console.log('Step 4: Creating episode files...');
+    // Step 3: Create files
+    console.log('Step 3: Creating episode files...');
 
     // Ensure directory exists
     ensureDir(blogDir);
@@ -275,6 +353,13 @@ async function main() {
     console.log(`  ✓ Transcript: ${transcriptFilePath}`);
     console.log('');
 
+    // Optional upload
+    if (options.upload) {
+      console.log('Step 4: Uploading MP3 to Cloudflare R2...');
+      uploadToR2(inputPath, `${mp3Basename}.mp3`);
+      console.log('');
+    }
+
     // Step 5: Print next steps
     console.log('═══════════════════════════════════════════════════════');
     console.log('Success! Next steps:');
@@ -286,8 +371,13 @@ async function main() {
     console.log('');
     console.log('2. Update categories and tags in episode post as needed');
     console.log('');
-    console.log('3. Upload MP3 to S3:');
-    console.log(`   aws s3 cp ${inputPath} s3://twistoflemonpod/episodes/${mp3Basename}.mp3`);
+    if (options.upload) {
+      console.log('3. Upload MP3 to R2:');
+      console.log('   ✓ Already uploaded via --upload');
+    } else {
+      console.log('3. Upload MP3 to storage:');
+      console.log(`   aws s3 cp ${inputPath} ${R2_BUCKET}/${mp3Basename}.mp3`);
+    }
     console.log('');
     console.log('4. Test and build:');
     console.log('   npm test && npm run build');
