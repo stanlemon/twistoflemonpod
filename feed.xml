@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 14:33:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Nov 2025 00:22:51 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -50,6 +50,7 @@
       <itunes:episode>169</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <category>Technology</category>
+      <category>Productivity</category>
       <podcast:transcript url="https://twistoflemonpod.com/2025/11/welcome-to-ai-resume-edition/transcript/" type="text/html"/>
     </item>
     

@@ -37,6 +37,30 @@ ollama pull llama3.2:3b</code></pre>
 <pre class="language-bash"><code class="language-bash"><span class="token function">node</span> scripts/create-new-episode.js <span class="token operator">&lt;</span>path-to-mp3-file<span class="token operator">></span></code></pre>
 <h3 id="example" tabindex="-1">Example</h3>
 <pre class="language-bash"><code class="language-bash"><span class="token function">node</span> scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3</code></pre>
+<h3 id="optional-flags" tabindex="-1">Optional Flags</h3>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>--skip-transcription</code></td>
+<td>Skips the Deepgram transcription and AI summarization steps. Transcript and episode stubs are still generated with placeholder text so you can fill them in later.</td>
+</tr>
+<tr>
+<td><code>--upload</code></td>
+<td>Uploads the provided MP3 to Cloudflare R2 (S3-compatible) after the files are generated. Requires the <code>aws</code> CLI to be configured for your R2 bucket.</td>
+</tr>
+</tbody>
+</table>
+<p>When using <code>--upload</code>, you can configure the destination via environment variables:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">export</span> <span class="token assign-left variable">R2_BUCKET</span><span class="token operator">=</span><span class="token string">"s3://twistoflemonpod/episodes"</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">R2_ENDPOINT_URL</span><span class="token operator">=</span><span class="token string">"https://&lt;account-id>.r2.cloudflarestorage.com"</span></code></pre>
+<p>If you skip transcription now but want an AI summary later, run the dedicated script once you have the transcript ready:</p>
+<pre class="language-bash"><code class="language-bash"><span class="token function">node</span> scripts/add-ai-summaries.js <span class="token parameter variable">--file</span><span class="token operator">=</span>content/blog/2025-11-15/173-lwatol-20251115.md</code></pre>
 <h3 id="interactive-prompts" tabindex="-1">Interactive Prompts</h3>
 <p>The script will prompt you for:</p>
 <ol>
@@ -83,8 +107,14 @@ Publish date (YYYY-MM-DD) [today]: 2025-11-15
 </ul>
 </li>
 <li>
-<p><strong>Upload MP3 to S3</strong></p>
+<p><strong>Upload MP3 to Cloudflare R2 (or S3)</strong></p>
+<ul>
+<li>Run this manually if you skipped the <code>--upload</code> flag</li>
+</ul>
 <pre class="language-bash"><code class="language-bash">aws s3 <span class="token function">cp</span> ~/path/to/episode.mp3 s3://twistoflemonpod/episodes/</code></pre>
+<ul>
+<li>When <code>--upload</code> is used the script runs this step for you</li>
+</ul>
 </li>
 <li>
 <p><strong>Test and build</strong></p>
