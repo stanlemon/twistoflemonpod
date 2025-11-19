@@ -5,11 +5,12 @@ episode: 169
 date: "2025-11-13T06:00:00.000Z"
 categories:
   - Technology
+  - Productivity
 tags:
-  - Software Subscriptions
-  - AI-Powered Tools
-  - Experimentation
-  - Rapid Iteration
+  - ai
+  - claude
+  - chatgpt
+  - resume
 enclosure:
   url: "https://media.twistoflemonpod.com/169-lwatol-20251102.mp3"
   length: 70096267
