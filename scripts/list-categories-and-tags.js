@@ -1,9 +1,33 @@
-const fs = require('fs');
-const path = require('path');
-const matter = require('gray-matter');
+#!/usr/bin/env node
+
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import matter from 'gray-matter';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const blogDir = path.join(__dirname, '../content/blog');
-const files = fs.readdirSync(blogDir).filter(file => file.endsWith('.md'));
+
+// Recursively find all .md files in nested directories
+function findMarkdownFiles(dir) {
+  const files = [];
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      files.push(...findMarkdownFiles(fullPath));
+    } else if (entry.isFile() && entry.name.endsWith('.md')) {
+      files.push(fullPath);
+    }
+  }
+
+  return files;
+}
+
+const files = findMarkdownFiles(blogDir);
 
 const categoryCount = new Map();
 const tagCount = new Map();
@@ -11,8 +35,7 @@ const tagCount = new Map();
 console.log(`Analyzing ${files.length} markdown files...\n`);
 
 // Process each file
-files.forEach(file => {
-  const filePath = path.join(blogDir, file);
+files.forEach(filePath => {
   const content = fs.readFileSync(filePath, 'utf8');
   const { data } = matter(content);
 
@@ -50,15 +73,3 @@ console.log('═'.repeat(50));
 sortedTags.forEach(([tag, count]) => {
   console.log(`${tag.padEnd(30)} (${count} posts)`);
 });
-
-// Output to JSON if --json flag is present
-if (process.argv.includes('--json')) {
-  const output = {
-    categories: sortedCategories.map(([name, count]) => ({ name, count })),
-    tags: sortedTags.map(([name, count]) => ({ name, count }))
-  };
-
-  const outputPath = path.join(__dirname, '../categories-and-tags.json');
-  fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
-  console.log(`\n✅ JSON output written to: ${outputPath}`);
-}
