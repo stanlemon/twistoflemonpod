@@ -10,7 +10,7 @@
  * 4. Creates both episode post and transcript files with complete frontmatter
  * 5. Prints next steps for publishing
  *
- * Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription] [--upload]
+ * Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription]
  *
  * Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3
  *
@@ -20,7 +20,6 @@
  *   - Model pulled (ollama pull llama3.2:3b)
  */
 
-import { spawnSync } from 'child_process';
 import { resolve, basename, extname } from 'path';
 import {
   DEEPGRAM_API_KEY,
@@ -41,8 +40,6 @@ import {
 
 const DEFAULT_TRANSCRIPT_PLACEHOLDER = 'Transcript will be available soon.';
 const DEFAULT_SUMMARY_PLACEHOLDER = 'Summary will be added soon.';
-const R2_BUCKET = process.env.R2_BUCKET || 's3://twistoflemonpod/episodes';
-const R2_ENDPOINT_URL = process.env.R2_ENDPOINT_URL;
 
 /**
  * Validate date string (YYYY-MM-DD)
@@ -204,25 +201,6 @@ function createTranscriptFile(
   return filePath;
 }
 
-function uploadToR2(localPath, destinationKey) {
-  const normalizedBucket = R2_BUCKET.endsWith('/') ? R2_BUCKET.slice(0, -1) : R2_BUCKET;
-  const destination = `${normalizedBucket}/${destinationKey}`;
-  const args = ['s3', 'cp', localPath, destination];
-
-  if (R2_ENDPOINT_URL) {
-    args.push('--endpoint-url', R2_ENDPOINT_URL);
-  }
-
-  console.log(`  Uploading ${localPath} → ${destination}`);
-  const result = spawnSync('aws', args, { stdio: 'inherit' });
-
-  if (result.status !== 0) {
-    throw new Error('MP3 upload to Cloudflare R2 failed');
-  }
-
-  console.log('  ✓ Upload complete');
-}
-
 /**
  * Main function
  */
@@ -231,13 +209,12 @@ async function main() {
   const positionalArgs = rawArgs.filter(arg => !arg.startsWith('--'));
   const options = {
     skipTranscription: rawArgs.includes('--skip-transcription'),
-    upload: rawArgs.includes('--upload'),
   };
 
   if (positionalArgs.length !== 1) {
-    console.error('Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription] [--upload]');
+    console.error('Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription]');
     console.error('');
-    console.error('Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3 --upload');
+    console.error('Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3');
     process.exit(1);
   }
 
@@ -353,14 +330,7 @@ async function main() {
     console.log(`  ✓ Transcript: ${transcriptFilePath}`);
     console.log('');
 
-    // Optional upload
-    if (options.upload) {
-      console.log('Step 4: Uploading MP3 to Cloudflare R2...');
-      uploadToR2(inputPath, `${mp3Basename}.mp3`);
-      console.log('');
-    }
-
-    // Step 5: Print next steps
+    // Step 4: Print next steps
     console.log('═══════════════════════════════════════════════════════');
     console.log('Success! Next steps:');
     console.log('═══════════════════════════════════════════════════════');
@@ -371,18 +341,10 @@ async function main() {
     console.log('');
     console.log('2. Update categories and tags in episode post as needed');
     console.log('');
-    if (options.upload) {
-      console.log('3. Upload MP3 to R2:');
-      console.log('   ✓ Already uploaded via --upload');
-    } else {
-      console.log('3. Upload MP3 to storage:');
-      console.log(`   aws s3 cp ${inputPath} ${R2_BUCKET}/${mp3Basename}.mp3`);
-    }
-    console.log('');
-    console.log('4. Test and build:');
+    console.log('3. Test and build:');
     console.log('   npm test && npm run build');
     console.log('');
-    console.log('5. Commit and deploy:');
+    console.log('4. Commit and deploy:');
     console.log('   git add .');
     console.log(`   git commit -m "Add episode ${episodeNumber}: ${title}"`);
     console.log('   git push');
