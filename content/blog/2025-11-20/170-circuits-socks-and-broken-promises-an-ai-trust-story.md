@@ -1,8 +1,8 @@
 ---
-title: 'Circuits, Socks, and Broken Promises: An AI Trust Story'
+title: "Circuits, Socks, and Broken Promises: An AI Trust Story"
 slug: circuits-socks-and-broken-promises-an-ai-trust-story
 episode: 170
-date: '2025-11-20T12:00:00.000Z'
+date: "2025-11-20T12:00:00.000Z"
 categories:
   - Technology
   - Lifestyle
@@ -16,10 +16,10 @@ tags:
   - star trek
   - football
 enclosure:
-  url: 'https://media.twistoflemonpod.com/170-lwatol-20251120.mp3'
+  url: "https://media.twistoflemonpod.com/170-lwatol-20251120.mp3"
   length: 90285740
   type: audio/mpeg
-  duration: '00:62:41'
+  duration: "00:62:41"
 ---
 
 Dear Listener,
@@ -33,3 +33,8 @@ Lastly, we discuss community decline, Star Trek as the basis for all philosophy,
 Thanks for listening and we'll talk to you soon,
 
 Stan Lemon & Jon Kohlmeier
+
+### Show Notes
+
+- [Decoder interview with Tim Berners-Lee](https://www.youtube.com/watch?v=78w61I62N_0)
+- [Apple iPhone Pocket announcement](https://www.apple.com/newsroom/2025/11/introducing-iphone-pocket-a-beautiful-way-to-wear-and-carry-iphone/)
