@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "Life with a Twist of Lemon",
+  "short_name": "Twist of Lemon",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
