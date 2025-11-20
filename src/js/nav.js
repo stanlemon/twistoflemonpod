@@ -1,14 +1,15 @@
 // Handles header compaction and podcast platform drawer behavior
 (function () {
+  const win = window;
   const nav = document.querySelector('.nav');
   const body = document.body;
-  if (!nav || !body) return;
+  if (!nav || !body || !win) return;
 
   const isHome = body.classList.contains('page-home');
-  const mobileQuery = window.matchMedia('(max-width: 768px)');
+  const mobileQuery = win.matchMedia('(max-width: 768px)');
   const getThreshold = (isMobile) => (isMobile ? 220 : 80);
   let threshold = getThreshold(mobileQuery.matches);
-  let lastScrollY = window.scrollY;
+  let isCompact = nav.classList.contains('nav--compact');
   let ticking = false;
   const platformToggle = nav.querySelector('.nav__platform-toggle');
   const menuToggle = nav.querySelector('.nav__menu-toggle');
@@ -28,13 +29,24 @@
     }
   };
 
-  const applyCompactState = () => {
-    const shouldCompact = !isHome || lastScrollY > threshold;
-    nav.classList.toggle('nav--compact', shouldCompact);
+  const applyCompactState = (scrollY) => {
+    const shouldCompact = !isHome || scrollY > threshold;
+    if (shouldCompact !== isCompact) {
+      nav.classList.toggle('nav--compact', shouldCompact);
+      isCompact = shouldCompact;
+    }
     if (!shouldCompact) {
       closePlatforms();
     }
-    ticking = false;
+  };
+
+  const scheduleCompactUpdate = () => {
+    if (ticking) return;
+    ticking = true;
+    win.requestAnimationFrame(() => {
+      applyCompactState(win.scrollY || win.pageYOffset || 0);
+      ticking = false;
+    });
   };
 
   if (platformToggle) {
@@ -69,10 +81,7 @@
 
   const onScroll = () => {
     if (!isHome) return;
-    lastScrollY = window.scrollY;
-    if (ticking) return;
-    window.requestAnimationFrame(applyCompactState);
-    ticking = true;
+    scheduleCompactUpdate();
   };
 
   const onViewportChange = () => {
@@ -81,13 +90,13 @@
       closeMenu();
     }
     if (isHome) {
-      applyCompactState();
+      scheduleCompactUpdate();
     }
   };
 
-  applyCompactState();
+  scheduleCompactUpdate();
   if (isHome) {
-    window.addEventListener('scroll', onScroll, { passive: true });
+    win.addEventListener('scroll', onScroll, { passive: true });
   }
 
   if (mobileQuery.addEventListener) {
@@ -96,7 +105,5 @@
     mobileQuery.addListener(onViewportChange);
   }
 
-  window.addEventListener('resize', () => {
-    window.requestAnimationFrame(onViewportChange);
-  });
+  win.addEventListener('resize', onViewportChange);
 })();
