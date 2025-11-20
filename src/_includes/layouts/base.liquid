@@ -9,6 +9,31 @@
 
   {% include "partials/structured-data.liquid" %}
 
+  <script>
+    (function() {
+      try {
+        const stored = localStorage.getItem('theme-preference');
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = stored || (prefersDark ? 'dark' : 'light');
+        if (theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      } catch (e) {
+        // Fail silently to avoid blocking render
+      }
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap">
+  </noscript>
+
   <link rel="stylesheet" href="/styles/tokens.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/typography.css">
@@ -18,8 +43,8 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="manifest" href="/site.webmanifest">
 
-  <script src="/js/utm-canonical.js"></script>
-  <script src="/js/theme-toggle.js"></script>
+  <script src="/js/utm-canonical.js" defer></script>
+  <script src="/js/theme-toggle.js" defer></script>
   <script src="/js/nav.js" defer></script>
 
   {% if site.analytics.googleAnalyticsId %}

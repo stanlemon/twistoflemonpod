@@ -1,7 +1,5 @@
 /* Typography CSS - converted from typography.js WordPress 2016 theme */
-
-/* Import fonts from Google Fonts (replacing typeface packages) */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+/* Fonts are loaded via <link> tags in the base layout to avoid @import blocking */
 
 html {
   font-family: "Merriweather", "Georgia", serif;
