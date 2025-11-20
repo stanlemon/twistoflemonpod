@@ -109,11 +109,10 @@
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap">
   </noscript>
-  <link rel="preload" as="image" href="/images/logo-nav-256.png" imagesrcset="/images/logo-nav-256.png 1x, /images/logo-nav-512.png 2x" imagesizes="(max-width: 768px) 220px, 300px">
+  <link rel="preload" as="image" href="/images/generated/logo-nav-256.avif" imagesrcset="/images/generated/logo-nav-256.avif 1x, /images/generated/logo-nav-512.avif 2x" imagesizes="(max-width: 768px) 220px, 300px" type="image/avif">
 
-  <link rel="stylesheet" href="/styles/tokens.css">
+  <link rel="preload" as="style" href="/css/main.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/typography.css">
 
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -132,14 +131,24 @@
   <script src="/js/theme-toggle.js" defer></script>
   <script src="/js/nav.js" defer></script>
 
-  {% if site.analytics.googleAnalyticsId %}
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.googleAnalyticsId }}"></script>
+  {% if site.analytics.googleAnalyticsId and site.url contains 'twistoflemonpod.com' %}
+  <!-- Google Analytics (deferred) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '{{ site.analytics.googleAnalyticsId }}');
+    function loadGA() {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.analytics.googleAnalyticsId }}';
+      s.async = true;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', '{{ site.analytics.googleAnalyticsId }}');
+    }
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadGA, { timeout: 2000 });
+    } else {
+      window.addEventListener('load', loadGA);
+    }
   </script>
   {% endif %}
 </head>
