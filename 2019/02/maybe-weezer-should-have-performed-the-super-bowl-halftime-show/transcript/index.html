@@ -385,11 +385,10 @@
   <noscript>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap">
   </noscript>
-  <link rel="preload" as="image" href="/images/logo-nav-256.png" imagesrcset="/images/logo-nav-256.png 1x, /images/logo-nav-512.png 2x" imagesizes="(max-width: 768px) 220px, 300px">
+  <link rel="preload" as="image" href="/images/generated/logo-nav-256.avif" imagesrcset="/images/generated/logo-nav-256.avif 1x, /images/generated/logo-nav-512.avif 2x" imagesizes="(max-width: 768px) 220px, 300px" type="image/avif">
 
-  <link rel="stylesheet" href="/styles/tokens.css">
+  <link rel="preload" as="style" href="/css/main.css">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/typography.css">
 
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -409,13 +408,23 @@
   <script src="/js/nav.js" defer></script>
 
   
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VXBJCB4RZ2"></script>
+  <!-- Google Analytics (deferred) -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-VXBJCB4RZ2');
+    function loadGA() {
+      var s = document.createElement('script');
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-VXBJCB4RZ2';
+      s.async = true;
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', 'G-VXBJCB4RZ2');
+    }
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(loadGA, { timeout: 2000 });
+    } else {
+      window.addEventListener('load', loadGA);
+    }
   </script>
   
 </head>
@@ -426,15 +435,20 @@
   <div class="nav__inner">
     <div class="nav__brand">
       <a href="/" class="nav__logo" aria-label="Home">
-        <img
-          src="/images/logo-nav-256.png"
-          srcset="/images/logo-nav-256.png 1x, /images/logo-nav-512.png 2x"
-          width="256"
-          height="256"
-          alt="Life with a Twist of Lemon Logo"
-          class="logo"
-          decoding="async"
-          fetchpriority="high">
+        <picture>
+          <source type="image/avif" srcset="/images/generated/logo-nav-256.avif 1x, /images/generated/logo-nav-512.avif 2x" sizes="(max-width: 768px) 220px, 260px">
+          <source type="image/webp" srcset="/images/generated/logo-nav-256.webp 1x, /images/generated/logo-nav-512.webp 2x" sizes="(max-width: 768px) 220px, 260px">
+          <img
+            src="/images/generated/logo-nav-256.png"
+            srcset="/images/generated/logo-nav-256.png 1x, /images/generated/logo-nav-512.png 2x"
+            sizes="(max-width: 768px) 220px, 260px"
+            width="256"
+            height="256"
+            alt="Life with a Twist of Lemon Logo"
+            class="logo"
+            decoding="async"
+            fetchpriority="high">
+        </picture>
       </a>
       <div class="nav__brand-text">
         <p class="nav__eyebrow">Podcast</p>
