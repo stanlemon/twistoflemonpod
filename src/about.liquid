@@ -24,8 +24,8 @@ permalink: /about/
     </div>
 
     <div class="about-hero__avatars hero__avatars" aria-label="Hosts">
-      <img src="/images/avatar-jon.png" alt="Illustration of Jon Kohlmeier" width="200" height="200" loading="lazy" class="about-hero__avatar hero__avatar">
-      <img src="/images/avatar-stan.png" alt="Illustration of Stan Lemon" width="200" height="200" loading="lazy" class="about-hero__avatar hero__avatar">
+      {% image "src/images/avatar-jon.png", "Illustration of Jon Kohlmeier", "(max-width: 600px) 140px, 200px", "about-hero__avatar hero__avatar" %}
+      {% image "src/images/avatar-stan.png", "Illustration of Stan Lemon", "(max-width: 600px) 140px, 200px", "about-hero__avatar hero__avatar" %}
     </div>
   </section>
 
@@ -48,7 +48,7 @@ permalink: /about/
     </div>
     <div class="about-hosts host-grid">
       <article class="about-host-card host">
-        <img src="/images/avatar-jon.png" alt="Illustration of Jon Kohlmeier" width="160" height="160" loading="lazy">
+        {% image "src/images/avatar-jon.png", "Illustration of Jon Kohlmeier", "(max-width: 640px) 120px, 160px", "about-hero__avatar hero__avatar" %}
         <div>
           <h3>Jon Kohlmeier</h3>
           <p>Jon Kohlmeier is a husband, father, and Revenue Operations leader with a craftsman mindset. He loves building systems that reduce friction and help people do their best work. When not recording with Stan, he is usually on a mission to find the perfect taco recipe, reading, watching movies, or caring too much about his lawn. He spends a lot of time identifying ways to use technology to free people to be more human.</p>
@@ -57,7 +57,7 @@ permalink: /about/
       </article>
 
       <article class="about-host-card host">
-        <img src="/images/avatar-stan.png" alt="Illustration of Stan Lemon" width="160" height="160" loading="lazy">
+        {% image "src/images/avatar-stan.png", "Illustration of Stan Lemon", "(max-width: 640px) 120px, 160px", "about-hero__avatar hero__avatar" %}
         <div>
           <h3>Stan Lemon</h3>
           <p>Stan Lemon is a software-focused technology leader who builds products that deliver real value to customers. He has led cross-functional teams, shipped software across platforms, and excels at bridging technical complexity with business goals so teams stay aligned and deliver results that matter. He lives in Indianapolis with his family, loves the Steelers, and built Dollar &amp; Sense for iOS, watchOS, and macOS to help his kids track chores and savings.</p>

@@ -101,7 +101,7 @@ export default function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLib);
 
   // Shortcode for responsive images
-  eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw") {
+  eleventyConfig.addAsyncShortcode("image", async function(src, alt, sizes = "100vw", className = "") {
     if (!src) {
       return "";
     }
@@ -118,6 +118,7 @@ export default function(eleventyConfig) {
       sizes,
       loading: "lazy",
       decoding: "async",
+      class: className || undefined,
     };
 
     return Image.generateHTML(metadata, imageAttributes);
