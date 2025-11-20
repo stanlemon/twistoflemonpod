@@ -5,8 +5,11 @@
   if (!nav || !body) return;
 
   const isHome = body.classList.contains('page-home');
-  const getThreshold = () => (window.innerWidth < 768 ? 220 : 80);
-  let threshold = getThreshold();
+  const mobileQuery = window.matchMedia('(max-width: 768px)');
+  const getThreshold = (isMobile) => (isMobile ? 220 : 80);
+  let threshold = getThreshold(mobileQuery.matches);
+  let lastScrollY = window.scrollY;
+  let ticking = false;
   const platformToggle = nav.querySelector('.nav__platform-toggle');
   const menuToggle = nav.querySelector('.nav__menu-toggle');
   const navLinks = nav.querySelector('.nav__links');
@@ -25,13 +28,13 @@
     }
   };
 
-  const toggleCompact = () => {
-    if (!isHome || window.scrollY > threshold) {
-      nav.classList.add('nav--compact');
-    } else {
-      nav.classList.remove('nav--compact');
+  const applyCompactState = () => {
+    const shouldCompact = !isHome || lastScrollY > threshold;
+    nav.classList.toggle('nav--compact', shouldCompact);
+    if (!shouldCompact) {
       closePlatforms();
     }
+    ticking = false;
   };
 
   if (platformToggle) {
@@ -57,25 +60,43 @@
 
     navLinks.querySelectorAll('a').forEach((link) => {
       link.addEventListener('click', () => {
-        if (window.matchMedia('(max-width: 768px)').matches) {
+        if (mobileQuery.matches) {
           closeMenu();
         }
       });
     });
   }
 
-  toggleCompact();
-  if (isHome) {
-    window.addEventListener('scroll', toggleCompact, { passive: true });
-  }
+  const onScroll = () => {
+    if (!isHome) return;
+    lastScrollY = window.scrollY;
+    if (ticking) return;
+    window.requestAnimationFrame(applyCompactState);
+    ticking = true;
+  };
 
-  window.addEventListener('resize', () => {
-    threshold = getThreshold();
-    if (window.innerWidth > 768) {
+  const onViewportChange = () => {
+    threshold = getThreshold(mobileQuery.matches);
+    if (!mobileQuery.matches) {
       closeMenu();
     }
     if (isHome) {
-      toggleCompact();
+      applyCompactState();
     }
+  };
+
+  applyCompactState();
+  if (isHome) {
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+
+  if (mobileQuery.addEventListener) {
+    mobileQuery.addEventListener('change', onViewportChange);
+  } else if (mobileQuery.addListener) {
+    mobileQuery.addListener(onViewportChange);
+  }
+
+  window.addEventListener('resize', () => {
+    window.requestAnimationFrame(onViewportChange);
   });
 })();

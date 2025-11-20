@@ -244,6 +244,108 @@
 
 
 
+  <script>
+    (function() {
+      try {
+        const stored = localStorage.getItem('theme-preference');
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = stored || (prefersDark ? 'dark' : 'light');
+        if (theme === 'dark') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+      } catch (e) {
+        // Fail silently to avoid blocking render
+      }
+    })();
+  </script>
+  <style>
+    html { height: 100%; }
+    body {
+      margin: 0;
+      min-height: 100%;
+      font-family: "Merriweather", "Georgia", serif;
+      background: #f9fafb;
+      color: #151515;
+      line-height: 1.7;
+    }
+    .site-shell {
+      max-width: 1200px;
+      margin: 0 auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      padding: 3rem clamp(1rem, 4vw, 3rem);
+    }
+    .nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 3rem;
+      border: 1px solid #e3e8ef;
+      border-radius: 1.25rem;
+      background: #fff;
+      box-shadow: 0 10px 30px rgba(20, 19, 31, 0.08);
+      position: sticky;
+      top: 1.5rem;
+      z-index: 5;
+      backdrop-filter: blur(12px);
+    }
+    .nav__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .nav__brand { display: flex; align-items: center; gap: 1rem; }
+    .nav__logo {
+      display: inline-flex;
+      width: clamp(200px, 22vw, 300px);
+      height: clamp(200px, 22vw, 300px);
+      border-radius: 0.75rem;
+      background: #fff;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      border: 1px solid #e3e8ef;
+    }
+    .nav__brand-text { display: flex; flex-direction: column; gap: 0.25rem; }
+    .nav__title {
+      margin: 0;
+      font-size: clamp(1.5rem, 2vw, 2.25rem);
+      font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
+      font-weight: 700;
+    }
+    .nav__eyebrow {
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 0.75rem;
+      color: #5f6379;
+    }
+    @media (max-width: 768px) {
+      .site-shell { padding: 2rem 1rem; }
+      .nav { top: 0; left: 0; right: 0; padding: 1rem; border-radius: 0; }
+      .nav__inner { flex-wrap: nowrap; gap: 1rem; align-items: center; }
+      .nav__brand { flex: 1 1 auto; min-width: 0; }
+      .nav__logo { width: clamp(160px, 40vw, 220px); height: auto; padding: 0; border: none; background: transparent; box-shadow: none; }
+      .nav__logo img { width: 100%; height: auto; }
+    }
+  </style>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+  </noscript>
+  <link rel="preload" as="image" href="/images/logo-nav-256.png" imagesrcset="/images/logo-nav-256.png 1x, /images/logo-nav-512.png 2x" imagesizes="(max-width: 768px) 220px, 300px">
+
   <link rel="stylesheet" href="/styles/tokens.css">
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/typography.css">
@@ -253,8 +355,16 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="manifest" href="/site.webmanifest">
 
-  <script src="/js/utm-canonical.js"></script>
-  <script src="/js/theme-toggle.js"></script>
+  <script>
+    (function() {
+      if (!location.search || location.search.toLowerCase().indexOf('utm_') === -1) return;
+      const s = document.createElement('script');
+      s.src = '/js/utm-canonical.js';
+      s.defer = true;
+      document.head.appendChild(s);
+    })();
+  </script>
+  <script src="/js/theme-toggle.js" defer></script>
   <script src="/js/nav.js" defer></script>
 
   
@@ -275,7 +385,15 @@
   <div class="nav__inner">
     <div class="nav__brand">
       <a href="/" class="nav__logo" aria-label="Home">
-        <img src="/images/logo.png" alt="Life with a Twist of Lemon Logo" class="logo">
+        <img
+          src="/images/logo-nav-256.png"
+          srcset="/images/logo-nav-256.png 1x, /images/logo-nav-512.png 2x"
+          width="256"
+          height="256"
+          alt="Life with a Twist of Lemon Logo"
+          class="logo"
+          decoding="async"
+          fetchpriority="high">
       </a>
       <div class="nav__brand-text">
         <p class="nav__eyebrow">Podcast</p>
