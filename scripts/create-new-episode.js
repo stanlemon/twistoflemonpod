@@ -90,7 +90,9 @@ async function promptEpisodeDetails() {
   while (true) {
     const input = await prompt('Publish date (YYYY-MM-DD) [today]: ');
     if (input === '') {
-      date = new Date();
+      // Create date for today at 6am UTC
+      const now = new Date();
+      date = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0));
       break;
     }
     if (isValidDate(input)) {

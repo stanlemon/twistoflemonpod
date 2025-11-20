@@ -46,11 +46,11 @@ export function formatDateForDir(date) {
 }
 
 /**
- * Parse date string (YYYY-MM-DD) to Date object at noon UTC
+ * Parse date string (YYYY-MM-DD) to Date object at 6am UTC
  */
 export function parseDate(dateStr) {
   const [year, month, day] = dateStr.split('-').map(Number);
-  return new Date(Date.UTC(year, month - 1, day, 12, 0, 0));
+  return new Date(Date.UTC(year, month - 1, day, 6, 0, 0));
 }
 
 /**
