@@ -1,4 +1,5 @@
-{% assign canonical_url = canonicalUrl | default: page.url | canonicalUrl: site.url %}
+{% assign canonical_input = canonicalUrl | default: page.url %}
+{% assign canonical_url = canonical_input | canonicalUrl: site.url %}
 {% assign meta_title = title | default: site.title %}
 {% assign meta_description = summary | default: description | default: site.description %}
 

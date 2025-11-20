@@ -9,7 +9,8 @@ import {
   getAllCategories,
   getAllTags,
   excerpt,
-  head
+  head,
+  canonicalUrl
 } from '../../lib/filters.js';
 
 describe('Filter: readableDate', () => {
@@ -305,5 +306,37 @@ describe('Filter: head', () => {
   it('handles negative n larger than array length', () => {
     const arr = [1, 2, 3];
     assert.deepStrictEqual(head(arr, -10), [1, 2, 3]);
+  });
+});
+
+describe('Filter: canonicalUrl', () => {
+  it('prepends base to relative path without leading slash', () => {
+    const result = canonicalUrl('foo/bar', 'https://example.com/');
+    assert.strictEqual(result, 'https://example.com/foo/bar');
+  });
+
+  it('prepends base to relative path with leading slash', () => {
+    const result = canonicalUrl('/foo/bar', 'https://example.com/');
+    assert.strictEqual(result, 'https://example.com/foo/bar');
+  });
+
+  it('returns absolute URL as-is', () => {
+    const result = canonicalUrl('https://example.com/foo?utm=1#hash', 'https://ignored.com');
+    assert.strictEqual(result, 'https://example.com/foo');
+  });
+
+  it('strips query and hash from relative path', () => {
+    const result = canonicalUrl('/foo?utm=1#hash', 'https://example.com/');
+    assert.strictEqual(result, 'https://example.com/foo');
+  });
+
+  it('falls back to site root when url is empty with base', () => {
+    const result = canonicalUrl('', 'https://example.com/');
+    assert.strictEqual(result, 'https://example.com/');
+  });
+
+  it('returns slash when url and base are missing', () => {
+    const result = canonicalUrl();
+    assert.strictEqual(result, '/');
   });
 });
