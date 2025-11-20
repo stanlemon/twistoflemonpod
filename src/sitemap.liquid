@@ -15,7 +15,8 @@ eleventyExcludeFromCollections: true
   <!-- Blog posts -->
   {% for post in collections.blog %}
   {% if post.url and post.data.permalink != false and post.data.excludeFromSitemap != true %}
-  {% assign sitemap_loc = post.data.canonicalUrl | default: post.url | canonicalUrl: site.url %}
+  {% assign sitemap_input = post.data.canonicalUrl | default: post.url %}
+  {% assign sitemap_loc = sitemap_input | canonicalUrl: site.url %}
   <url>
     <loc>{{ sitemap_loc }}</loc>
     <lastmod>{{ post.date | htmlDateString }}</lastmod>
@@ -28,7 +29,8 @@ eleventyExcludeFromCollections: true
   <!-- Transcript posts -->
   {% for post in collections.transcripts %}
   {% if post.url and post.data.permalink != false and post.data.excludeFromSitemap != true %}
-  {% assign sitemap_loc = post.data.canonicalUrl | default: post.url | canonicalUrl: site.url %}
+  {% assign sitemap_input = post.data.canonicalUrl | default: post.url %}
+  {% assign sitemap_loc = sitemap_input | canonicalUrl: site.url %}
   <url>
     <loc>{{ sitemap_loc }}</loc>
     <lastmod>{{ post.date | htmlDateString }}</lastmod>
