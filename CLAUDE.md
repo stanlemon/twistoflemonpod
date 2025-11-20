@@ -318,6 +318,16 @@ npm run build
 
 **Why:** Reduce blocking bytes and unused JS to improve PageSpeed (LCP/FCP), image weight, and overall initial render performance without losing analytics fidelity.
 
+### Heading Hierarchy Cleanup (2025-11-30)
+
+**What changed:**
+- Removed the global `h1` from the nav brand; kept styling by wrapping the site title in a neutral element.
+- Added page-scoped `h1` elements to home, index pagination, post layout, contact, categories/tags indexes, and category/tag detail pages; ensured post titles are the sole `h1` on post pages.
+- Normalized supporting headings (hero feature cards, transcript meta) to avoid level skips (`h2`/`h3` flow).
+- Ran `npm test` to confirm templates still build correctly.
+
+**Key learning:** Keep the navigation brand non-semantic and give every layout a single, page-meaningful `h1`, then let subsections descend without skipping levels to keep screen readers and SEO happy.
+
 ### Deepgram Transcription System (2025-10-26)
 
 **Goal:** Transcribe all 172 podcast episodes with accurate speaker identification using a fast, cloud-based solution.

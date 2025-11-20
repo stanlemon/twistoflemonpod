@@ -4,7 +4,7 @@ layout: layouts/base.liquid
 
 <article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
-    <h2 class="post-title" itemprop="headline">{{ title }}</h2>
+    <h1 class="post-title" itemprop="headline">{{ title }}</h1>
     <p class="post-date">
       <time datetime="{{ date | htmlDateString }}" itemprop="datePublished">{{ date | readableDate }}</time>
     </p>
@@ -31,13 +31,13 @@ layout: layouts/base.liquid
   {% if type == 'transcript' and summary %}
     <div class="transcript-meta">
       <div class="transcript-summary">
-        <h3>Episode Summary</h3>
+        <h2>Episode Summary</h2>
         <p>{{ summary }}</p>
       </div>
 
       {% if keywords and keywords.size > 0 %}
         <div class="transcript-keywords">
-          <h4>Topics Covered</h4>
+          <h3>Topics Covered</h3>
           <ul class="keywords-list">
             {% for keyword in keywords %}
               <li>{{ keyword }}</li>

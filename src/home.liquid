@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 <section class="hero hero--centered" aria-labelledby="hero-title">
   <div class="hero__content">
     <p class="hero__eyebrow">Podcast</p>
-    <h2 id="hero-title" class="hero__title">{{ site.title }}</h2>
+    <h1 id="hero-title" class="hero__title">{{ site.title }}</h1>
     <p class="hero__tagline">
       Two friends. Countless conversations. Tech, family, craftsmanship, and the everyday stuff that makes life interesting.
     </p>
@@ -27,9 +27,9 @@ eleventyExcludeFromCollections: true
   {% if featuredPost %}
   <article class="hero-card" aria-label="Latest episode">
     <p class="hero-card__label">Latest episode</p>
-    <h3 class="hero-card__title">
+    <h2 class="hero-card__title">
       <a href="{{ featuredPost.url }}">{{ featuredPost.data.title }}</a>
-    </h3>
+    </h2>
     <p class="hero-card__date">{{ featuredPost.date | readableDate }}</p>
     <p class="hero-card__excerpt">
       {{ featuredPost.data.description | default: featuredPost.templateContent | excerpt: 200 }}
@@ -46,9 +46,9 @@ eleventyExcludeFromCollections: true
         <span class="blog-post-card__date">{{ post.date | readableDate }}</span>
       </div>
 
-      <h3 class="blog-post-card__title">
+      <h2 class="blog-post-card__title">
         <a href="{{ post.url }}">{{ post.data.title }}</a>
-      </h3>
+      </h2>
 
       <p class="blog-post-card__excerpt">
         {{ post.data.description | default: post.templateContent | excerpt: 200 }}
