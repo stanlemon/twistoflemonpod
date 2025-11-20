@@ -12,6 +12,16 @@ eleventyComputed:
   canonicalUrl: "{% if pagination.pageNumber == 0 %}/{% else %}{{ page.url }}{% endif %}"
 ---
 
+<header class="page-header">
+  <h1 class="page-title">
+    {% if pagination.pageNumber == 0 %}
+      All Episodes
+    {% else %}
+      Episodes - Page {{ pagination.pageNumber | plus: 1 }}
+    {% endif %}
+  </h1>
+</header>
+
 {% include "partials/blog-grid.liquid", posts: posts %}
 
 {% include "partials/sliding-pagination.liquid", pagination: pagination %}
