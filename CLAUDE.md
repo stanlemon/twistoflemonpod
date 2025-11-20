@@ -142,6 +142,15 @@ In Cloudflare Pages settings, add environment variable for branch deployments:
 6. **Commit**: Create a git commit for each working phase
 7. **Repeat**: Move to the next phase
 
+### Performance Guardrails (apply on new features)
+
+- Keep third-party scripts off the critical path: defer/async, load on interaction when possible, or remove.
+- Prefer a single preloaded stylesheet; inline only minimal critical styles.
+- Ship modern images (AVIF/WEBP) with explicit width/height and lazy-load below-the-fold media.
+- Avoid unused JS/CSS by pruning dead code and gating feature bundles behind user action.
+- Re-run Lighthouse/PageSpeed on key pages when adding blocking assets to watch LCP/FCP.
+- Add regression tests when touching nav/layout/UTM behaviors that affect render or canonical logic.
+
 ### Commit Guidelines
 
 Each commit should:
@@ -297,6 +306,17 @@ npm run build
 ```
 
 ## Recent Work & Learnings
+
+### Performance Pass (2025-11-27)
+
+**What changed:**
+- Inlined critical nav/shell CSS in `base.liquid` to shorten render-blocking work while keeping the rest in `css/main.css`.
+- Collapsed the CSS chain into a single main stylesheet to reduce HTTP requests and simplify preloading.
+- Swapped the nav logo to AVIF/WEBP with PNG fallback and `fetchpriority="high"` to shrink bytes and stabilize layout.
+- Defer Google Analytics: only inject `gtag.js` after first interaction to avoid unused JS during LCP/FCP while keeping `dataLayer/gtag` available.
+- Added tests for compact nav behavior and UTM canonical loader to guard regressions.
+
+**Why:** Reduce blocking bytes and unused JS to improve PageSpeed (LCP/FCP), image weight, and overall initial render performance without losing analytics fidelity.
 
 ### Deepgram Transcription System (2025-10-26)
 

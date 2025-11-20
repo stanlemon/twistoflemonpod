@@ -132,23 +132,29 @@
   <script src="/js/nav.js" defer></script>
 
   {% if site.analytics.googleAnalyticsId and site.url contains 'twistoflemonpod.com' %}
-  <!-- Google Analytics (deferred) -->
+  <!-- Google Analytics (load after first interaction to avoid unused JS at first paint) -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    function loadGA() {
-      var s = document.createElement('script');
-      s.src = 'https://www.googletagmanager.com/gtag/js?id={{ site.analytics.googleAnalyticsId }}';
-      s.async = true;
-      document.head.appendChild(s);
-      gtag('js', new Date());
-      gtag('config', '{{ site.analytics.googleAnalyticsId }}');
-    }
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(loadGA, { timeout: 2000 });
-    } else {
-      window.addEventListener('load', loadGA);
-    }
+    (function() {
+      var gaId = '{{ site.analytics.googleAnalyticsId }}';
+      var loaded = false;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){ dataLayer.push(arguments); };
+      function loadGA() {
+        if (loaded) return;
+        loaded = true;
+        var s = document.createElement('script');
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + gaId;
+        s.async = true;
+        s.onload = function() {
+          gtag('js', new Date());
+          gtag('config', gaId);
+        };
+        document.head.appendChild(s);
+      }
+      ['scroll', 'pointerdown', 'keydown', 'touchstart'].forEach(function(evt) {
+        window.addEventListener(evt, loadGA, { once: true, passive: true });
+      });
+    })();
   </script>
   {% endif %}
 </head>
