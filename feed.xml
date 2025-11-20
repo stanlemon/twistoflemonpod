@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Nov 2025 02:57:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Nov 2025 12:15:12 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,37 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Circuits, Socks, and Broken Promises: An AI Trust Story</title>
+      <link>https://twistoflemonpod.com/2025/11/circuits-socks-and-broken-promises-an-ai-trust-story/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/11/circuits-socks-and-broken-promises-an-ai-trust-story/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 20 Nov 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+This week we discuss Stan&#39;s frustration with Claude Code&#39;s sudden degradation, which sparks a conversation about trust in AI services.
+Jon and Stan then dive into a Decoder interview with web inventor Tim Berners-Lee, exploring his surprisingly optimistic take on AI, personal data pri...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>This week we discuss Stan's frustration with Claude Code's sudden degradation, which sparks a conversation about trust in AI services.</p>
+<p>Jon and Stan then dive into a Decoder interview with web inventor Tim Berners-Lee, exploring his surprisingly optimistic take on AI, personal data privacy, and the open web.</p>
+<p>Lastly, we discuss community decline, Star Trek as the basis for all philosophy, and Apple's $229 knitted iPhone sock.</p>
+<p>Thanks for listening and we'll talk to you soon,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+<h3 id="show-notes" tabindex="-1">Show Notes</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=78w61I62N_0">Decoder interview with Tim Berners-Lee</a></li>
+<li><a href="https://www.apple.com/newsroom/2025/11/introducing-iphone-pocket-a-beautiful-way-to-wear-and-carry-iphone/">Apple iPhone Pocket announcement</a></li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/170-lwatol-20251120.mp3" length="90285740" type="audio/mpeg"/><itunes:duration>00:62:41</itunes:duration>
+      <itunes:title>Circuits, Socks, and Broken Promises: An AI Trust Story</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>170</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Technology</category>
+      <category>Lifestyle</category>
+      <category>AI</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/11/circuits-socks-and-broken-promises-an-ai-trust-story/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Welcome to AI, Resume Edition</title>
