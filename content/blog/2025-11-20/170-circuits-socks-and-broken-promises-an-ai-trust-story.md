@@ -2,7 +2,7 @@
 title: "Circuits, Socks, and Broken Promises: An AI Trust Story"
 slug: circuits-socks-and-broken-promises-an-ai-trust-story
 episode: 170
-date: "2025-11-20T12:00:00.000Z"
+date: "2025-11-20T06:00:00.000Z"
 categories:
   - Technology
   - Lifestyle
