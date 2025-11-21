@@ -2,60 +2,127 @@
 layout: layouts/base.liquid
 ---
 
-<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title" itemprop="headline">{{ title }}</h1>
-    <p class="post-date">
-      <time datetime="{{ date | htmlDateString }}" itemprop="datePublished">{{ date | readableDate }}</time>
-    </p>
+{% if episode %}
+  {% assign transcript = collections | findTranscript: episode %}
+{% endif %}
+{% if type == 'transcript' and episode %}
+  {% assign parentEpisode = collections.blog | where: "data.episode", episode | first %}
+{% endif %}
+{% assign heroDescription = description | default: summary | default: content | excerpt: 200 %}
+{% assign audioEnclosure = enclosure %}
+{% if not audioEnclosure and parentEpisode and parentEpisode.data.enclosure %}
+  {% assign audioEnclosure = parentEpisode.data.enclosure %}
+{% endif %}
 
-    {% if enclosure and enclosure.url %}
-      <div class="audio-player">
-        <audio id="player" controls itemprop="audio">
-          <source src="{{ enclosure.url }}" type="{{ enclosure.type | default: 'audio/mpeg' }}">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    {% endif %}
-
-    {% if episode %}
-      {% assign transcript = collections | findTranscript: episode %}
-      {% if transcript %}
-        <p class="transcript-link">
-          📄 <a href="{{ transcript.url }}">View Transcript</a>
+<article class="episode-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="episode-hero hero">
+    <div class="episode-hero__surface">
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          {% if type == 'transcript' %}
+            Episode transcript
+          {% elsif episode %}
+            Podcast episode
+          {% else %}
+            Podcast episode
+          {% endif %}
         </p>
-      {% endif %}
-    {% endif %}
-  </header>
+        <h1 class="hero__title" itemprop="headline">{{ title }}</h1>
+        {% if heroDescription %}
+          <p class="hero__tagline">{{ heroDescription }}</p>
+        {% endif %}
 
-  {% if type == 'transcript' and summary %}
-    <div class="transcript-meta">
-      <div class="transcript-summary">
-        <h2>Episode Summary</h2>
-        <p>{{ summary }}</p>
-      </div>
+        {% if audioEnclosure and audioEnclosure.url %}
+          <div class="episode-card episode-card--audio episode-hero__player">
+            <p class="episode-card__eyebrow">Listen now</p>
+            <div class="audio-player">
+              <audio id="audio-player" controls itemprop="audio">
+                <source src="{{ audioEnclosure.url }}" type="{{ audioEnclosure.type | default: 'audio/mpeg' }}">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div class="hero__actions">
+              <a class="button button--primary js-play-episode" href="#audio-player">
+                {% if type == 'transcript' %}Listen while you read{% else %}Play episode{% endif %}
+              </a>
+              {% if type != 'transcript' and transcript %}
+                <a class="button button--ghost" href="{{ transcript.url }}">Read transcript</a>
+              {% elsif type == 'transcript' and parentEpisode %}
+                <a class="button button--primary" href="{{ parentEpisode.url }}">Back to episode</a>
+              {% endif %}
+            </div>
+          </div>
+        {% else %}
+          <div class="hero__actions">
+            {% if type != 'transcript' and transcript %}
+              <a class="button button--ghost" href="{{ transcript.url }}">Read transcript</a>
+            {% elsif type == 'transcript' and parentEpisode %}
+              <a class="button button--ghost" href="{{ parentEpisode.url }}">Back to episode</a>
+            {% endif %}
+          </div>
+        {% endif %}
 
-      {% if keywords and keywords.size > 0 %}
-        <div class="transcript-keywords">
-          <h3>Topics Covered</h3>
-          <ul class="keywords-list">
-            {% for keyword in keywords %}
-              <li>{{ keyword }}</li>
-            {% endfor %}
-          </ul>
+        <div class="episode-hero__meta" aria-label="Episode details">
+          {% if episode %}
+            <span class="meta-chip">
+              <span class="meta-chip__label">Ep</span>
+              {{ episode }}
+            </span>
+          {% endif %}
+          {% if audioEnclosure and audioEnclosure.duration %}
+            <span class="meta-chip">
+              <span class="meta-chip__label">Time</span>
+              {{ audioEnclosure.duration }}
+            </span>
+          {% endif %}
+          <span class="meta-chip">
+            <span class="meta-chip__label">Date</span>
+            <time datetime="{{ date | htmlDateString }}" itemprop="datePublished">
+              {{ date | readableDate }}
+            </time>
+          </span>
         </div>
-      {% endif %}
+      </div>
     </div>
+  </section>
+
+  {% if type == 'transcript' %}
+    {% if summary or keywords %}
+    <section class="transcript-highlights" aria-label="Transcript highlights">
+      {% if summary %}
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Episode summary</p>
+        <p class="transcript-highlight__body">{{ summary }}</p>
+      </div>
+      {% endif %}
+      {% if keywords and keywords.size > 0 %}
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Key topics</p>
+        <ul class="keywords-list" role="list">
+          {% for keyword in keywords %}
+            <li class="keyword-chip">{{ keyword }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
   {% endif %}
 
-  <section class="post-content" itemprop="articleBody">
-    {{ content }}
+  <section class="episode-content-card">
+    <div class="post-content" id="transcript" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    {% if categories or tags %}
+    <div class="content-meta" aria-label="Topics for this episode">
+      {% include "partials/tags.liquid", label: "Tags", prefix: "tag", values: tags %}
+      {% include "partials/tags.liquid", label: "Categories", prefix: "category", values: categories %}
+    </div>
+    {% endif %}
   </section>
 
   <meta itemprop="author" content="{{ site.author.name }}">
-
-  {% include "partials/tags.liquid", label: "tags", prefix: "tag", values: tags %}
-  {% include "partials/tags.liquid", label: "categories", prefix: "category", values: categories %}
 </article>
 
 <nav class="post-navigation" aria-label="Post navigation">
@@ -77,12 +144,27 @@ layout: layouts/base.liquid
   </div>
 </nav>
 
-{% if enclosure and enclosure.url %}
+{% if audioEnclosure and audioEnclosure.url %}
 <script src="/js/plyr.js"></script>
 <link rel="stylesheet" href="/css/plyr.css">
 <script>
-  const player = new Plyr('#player', {
+  const player = new Plyr('#audio-player', {
     controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
   });
+  const playButtons = document.querySelectorAll('.js-play-episode');
+  const audioEl = document.querySelector('#audio-player');
+  if (player && playButtons.length) {
+    playButtons.forEach((btn) => {
+      btn.addEventListener('click', (event) => {
+        event.preventDefault();
+        player.play();
+        if (audioEl) {
+          audioEl.closest('.audio-player')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          audioEl.focus({ preventScroll: true });
+        }
+      });
+    });
+  }
+
 </script>
 {% endif %}
