@@ -3,14 +3,14 @@
 <nav aria-label="Breadcrumb" class="breadcrumb">
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.url }}/">
+      <a itemprop="item" href="/">
         <span itemprop="name">Home</span>
       </a>
       <meta itemprop="position" content="1" />
     </li>
     {% if categoryName %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.url }}/categories/">
+      <a itemprop="item" href="/categories/">
         <span itemprop="name">Category</span>
       </a>
       <meta itemprop="position" content="2" />
@@ -22,7 +22,7 @@
     {% endif %}
     {% if tagName %}
     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a itemprop="item" href="{{ site.url }}/tags/">
+      <a itemprop="item" href="/tags/">
         <span itemprop="name">Tag</span>
       </a>
       <meta itemprop="position" content="2" />

@@ -328,6 +328,17 @@ npm run build
 
 **Key learning:** Keep the navigation brand non-semantic and give every layout a single, page-meaningful `h1`, then let subsections descend without skipping levels to keep screen readers and SEO happy.
 
+### Episode & Transcript Layout Polish (2025-11-20)
+
+**What changed:**
+- Simplified episode hero to a single-column focus on title/summary/audio; removed the floating mini “now playing” bar and duplicates of episode number, tags, and categories.
+- Made all Play/Listen CTAs (including transcript pages) trigger the Plyr instance via `.js-play-episode`, smooth-scroll to the player, and focus the audio element; transcript pages fall back to the parent episode’s enclosure if their own is missing so CTAs always work.
+- Moved tags/categories into the content card footer to align with body width; tightened vertical spacing to match the about page feel.
+- Updated meta chips for better contrast in light/dark modes; transcript “Back to episode”/“Listen while you read” buttons use primary styling for visibility.
+- Restyled transcript key topics/highlights to match the site (card shadow + outlined chips) and removed the extra transcript CTA beneath the hero.
+
+**Key learning:** Keep one obvious CTA per page and feed it a reliable audio source (inherit from the parent episode when needed); avoid duplicating meta blocks and keep content-aligned chip lists for a cleaner, modern layout.
+
 ### Deepgram Transcription System (2025-10-26)
 
 **Goal:** Transcribe all 172 podcast episodes with accurate speaker identification using a fast, cloud-based solution.
