@@ -34,7 +34,9 @@ layout: layouts/base.liquid
 
         {% if audioEnclosure and audioEnclosure.url %}
           <div class="episode-card episode-card--audio episode-hero__player">
-            <p class="episode-card__eyebrow">Listen now</p>
+            <h2 class="episode-card__eyebrow">
+              {% if type == 'transcript' %}Listen while you read{% else %}Listen to this episode{% endif %}
+            </h2>
             <div class="audio-player">
               <audio id="audio-player" controls itemprop="audio">
                 <source src="{{ audioEnclosure.url }}" type="{{ audioEnclosure.type | default: 'audio/mpeg' }}">
@@ -42,9 +44,6 @@ layout: layouts/base.liquid
               </audio>
             </div>
             <div class="hero__actions">
-              <a class="button button--primary js-play-episode" href="#audio-player">
-                {% if type == 'transcript' %}Listen while you read{% else %}Play episode{% endif %}
-              </a>
               {% if type != 'transcript' and transcript %}
                 <a class="button button--ghost" href="{{ transcript.url }}">Read transcript</a>
               {% elsif type == 'transcript' and parentEpisode %}
@@ -151,20 +150,5 @@ layout: layouts/base.liquid
   const player = new Plyr('#audio-player', {
     controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
   });
-  const playButtons = document.querySelectorAll('.js-play-episode');
-  const audioEl = document.querySelector('#audio-player');
-  if (player && playButtons.length) {
-    playButtons.forEach((btn) => {
-      btn.addEventListener('click', (event) => {
-        event.preventDefault();
-        player.play();
-        if (audioEl) {
-          audioEl.closest('.audio-player')?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          audioEl.focus({ preventScroll: true });
-        }
-      });
-    });
-  }
-
 </script>
 {% endif %}
