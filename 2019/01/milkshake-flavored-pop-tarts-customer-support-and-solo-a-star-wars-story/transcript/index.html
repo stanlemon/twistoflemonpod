@@ -626,61 +626,110 @@
 
     <main id="main-content" class="main" role="main">
       
-<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title" itemprop="headline">Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story</h1>
-    <p class="post-date">
-      <time datetime="2019-01-17" itemprop="datePublished">January 17, 2019</time>
-    </p>
 
-    
+  
 
-    
-      
-      
-        <p class="transcript-link">
-          📄 <a href="/2019/01/milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story/transcript/">View Transcript</a>
+
+  
+
+
+
+
+  
+
+
+<article class="episode-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="episode-hero hero">
+    <div class="episode-hero__surface">
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          
+            Episode transcript
+          
         </p>
-      
-    
-  </header>
+        <h1 class="hero__title" itemprop="headline">Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story</h1>
+        
+          <p class="hero__tagline">The conversation revolves around a discussion about the movie Solo: A Star Wars Story, its portrayal of Han Solo's backstory, and the potential for Disney+ to offer live-action shows and content relat...</p>
+        
 
-  
-    <div class="transcript-meta">
-      <div class="transcript-summary">
-        <h2>Episode Summary</h2>
-        <p>The conversation revolves around a discussion about the movie Solo: A Star Wars Story, its portrayal of Han Solo's backstory, and the potential for Disney+ to offer live-action shows and content related to Star Wars characters. John mentions his interest in a possible Loki series on Disney+, while also revealing that he has Taylor Swift as a Facebook friend, which is seen as an attempt to prove his supposed lack of time spent on social media. The conversation ends with John mentioning the need to continue their discussion next week.</p>
-      </div>
+        
+          <div class="episode-card episode-card--audio episode-hero__player">
+            <h2 class="episode-card__eyebrow">
+              Listen while you read
+            </h2>
+            <div class="audio-player">
+              <audio id="audio-player" controls itemprop="audio">
+                <source src="https://media.twistoflemonpod.com/027-lwatol-20190117.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div class="hero__actions">
+              
+                <a class="button button--primary" href="/2019/01/milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story/">Back to episode</a>
+              
+            </div>
+          </div>
+        
 
-      
-        <div class="transcript-keywords">
-          <h3>Topics Covered</h3>
-          <ul class="keywords-list">
-            
-              <li>Solo A Star Wars Story</li>
-            
-              <li>Disney+</li>
-            
-              <li>Han Solo</li>
-            
-              <li>Star Wars characters</li>
-            
-              <li>Loki series</li>
-            
-              <li>Disney+</li>
-            
-              <li>Taylor Swift</li>
-            
-              <li>Facebook</li>
-            
-          </ul>
+        <div class="episode-hero__meta" aria-label="Episode details">
+          
+            <span class="meta-chip">
+              <span class="meta-chip__label">Ep</span>
+              27
+            </span>
+          
+          
+          <span class="meta-chip">
+            <span class="meta-chip__label">Date</span>
+            <time datetime="2019-01-17" itemprop="datePublished">
+              January 17, 2019
+            </time>
+          </span>
         </div>
-      
+      </div>
     </div>
+  </section>
+
+  
+    
+    <section class="transcript-highlights" aria-label="Transcript highlights">
+      
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Episode summary</p>
+        <p class="transcript-highlight__body">The conversation revolves around a discussion about the movie Solo: A Star Wars Story, its portrayal of Han Solo's backstory, and the potential for Disney+ to offer live-action shows and content related to Star Wars characters. John mentions his interest in a possible Loki series on Disney+, while also revealing that he has Taylor Swift as a Facebook friend, which is seen as an attempt to prove his supposed lack of time spent on social media. The conversation ends with John mentioning the need to continue their discussion next week.</p>
+      </div>
+      
+      
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Key topics</p>
+        <ul class="keywords-list" role="list">
+          
+            <li class="keyword-chip">Solo A Star Wars Story</li>
+          
+            <li class="keyword-chip">Disney+</li>
+          
+            <li class="keyword-chip">Han Solo</li>
+          
+            <li class="keyword-chip">Star Wars characters</li>
+          
+            <li class="keyword-chip">Loki series</li>
+          
+            <li class="keyword-chip">Disney+</li>
+          
+            <li class="keyword-chip">Taylor Swift</li>
+          
+            <li class="keyword-chip">Facebook</li>
+          
+        </ul>
+      </div>
+      
+    </section>
+    
   
 
-  <section class="post-content" itemprop="articleBody">
-    <p><strong>SPEAKER_0</strong> [00:00:00]</p>
+  <section class="episode-content-card">
+    <div class="post-content" id="transcript" itemprop="articleBody">
+      <p><strong>SPEAKER_0</strong> [00:00:00]</p>
 <p>Dramas, please.</p>
 <p><strong>SPEAKER_0</strong> [00:00:13]</p>
 <p>Yeah.</p>
@@ -1657,14 +1706,12 @@
 <p><strong>SPEAKER_0</strong> [00:34:04]</p>
 <p>Hey.</p>
 
+    </div>
+
+    
   </section>
 
   <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
-
-  
-
-  
-
 </article>
 
 <nav class="post-navigation" aria-label="Post navigation">
@@ -1682,6 +1729,14 @@
   </div>
 </nav>
 
+
+<script src="/js/plyr.js"></script>
+<link rel="stylesheet" href="/css/plyr.css">
+<script>
+  const player = new Plyr('#audio-player', {
+    controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
+  });
+</script>
 
 
     </main>

@@ -619,59 +619,108 @@
 
     <main id="main-content" class="main" role="main">
       
-<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title" itemprop="headline">Whatever It Is</h1>
-    <p class="post-date">
-      <time datetime="2019-10-10" itemprop="datePublished">October 10, 2019</time>
-    </p>
 
-    
+  
 
-    
-      
-      
-        <p class="transcript-link">
-          📄 <a href="/2019/10/whatever-it-is/transcript/">View Transcript</a>
+
+  
+
+
+
+
+  
+
+
+<article class="episode-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="episode-hero hero">
+    <div class="episode-hero__surface">
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          
+            Episode transcript
+          
         </p>
-      
-    
-  </header>
+        <h1 class="hero__title" itemprop="headline">Whatever It Is</h1>
+        
+          <p class="hero__tagline">The conversation between John and a mystery guest discusses Zach Brown Band's latest album, "God Given", with mixed opinions on its quality. They dissect various tracks, including "The Woods" and "OMW...</p>
+        
 
-  
-    <div class="transcript-meta">
-      <div class="transcript-summary">
-        <h2>Episode Summary</h2>
-        <p>The conversation between John and a mystery guest discusses Zach Brown Band's latest album, "God Given", with mixed opinions on its quality. They dissect various tracks, including "The Woods" and "OMW", criticizing their lack of harmonization and auto-tuned vocals. They also touch on the band's history, notable features like Jimmy Buffett and Alan Jackson collaborations, and individual favorite albums.</p>
-      </div>
+        
+          <div class="episode-card episode-card--audio episode-hero__player">
+            <h2 class="episode-card__eyebrow">
+              Listen while you read
+            </h2>
+            <div class="audio-player">
+              <audio id="audio-player" controls itemprop="audio">
+                <source src="https://media.twistoflemonpod.com/066-lwatol-20191010.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div class="hero__actions">
+              
+                <a class="button button--primary" href="/2019/10/whatever-it-is/">Back to episode</a>
+              
+            </div>
+          </div>
+        
 
-      
-        <div class="transcript-keywords">
-          <h3>Topics Covered</h3>
-          <ul class="keywords-list">
-            
-              <li>Zach Brown Band</li>
-            
-              <li>God Given album</li>
-            
-              <li>The Woods</li>
-            
-              <li>OMW</li>
-            
-              <li>Auto-tuned vocals</li>
-            
-              <li>Harmonization</li>
-            
-              <li>Jimmy Buffett collaboration</li>
-            
-          </ul>
+        <div class="episode-hero__meta" aria-label="Episode details">
+          
+            <span class="meta-chip">
+              <span class="meta-chip__label">Ep</span>
+              66
+            </span>
+          
+          
+          <span class="meta-chip">
+            <span class="meta-chip__label">Date</span>
+            <time datetime="2019-10-10" itemprop="datePublished">
+              October 10, 2019
+            </time>
+          </span>
         </div>
-      
+      </div>
     </div>
+  </section>
+
+  
+    
+    <section class="transcript-highlights" aria-label="Transcript highlights">
+      
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Episode summary</p>
+        <p class="transcript-highlight__body">The conversation between John and a mystery guest discusses Zach Brown Band's latest album, "God Given", with mixed opinions on its quality. They dissect various tracks, including "The Woods" and "OMW", criticizing their lack of harmonization and auto-tuned vocals. They also touch on the band's history, notable features like Jimmy Buffett and Alan Jackson collaborations, and individual favorite albums.</p>
+      </div>
+      
+      
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Key topics</p>
+        <ul class="keywords-list" role="list">
+          
+            <li class="keyword-chip">Zach Brown Band</li>
+          
+            <li class="keyword-chip">God Given album</li>
+          
+            <li class="keyword-chip">The Woods</li>
+          
+            <li class="keyword-chip">OMW</li>
+          
+            <li class="keyword-chip">Auto-tuned vocals</li>
+          
+            <li class="keyword-chip">Harmonization</li>
+          
+            <li class="keyword-chip">Jimmy Buffett collaboration</li>
+          
+        </ul>
+      </div>
+      
+    </section>
+    
   
 
-  <section class="post-content" itemprop="articleBody">
-    <p><strong>SPEAKER_0</strong> [00:00:00]</p>
+  <section class="episode-content-card">
+    <div class="post-content" id="transcript" itemprop="articleBody">
+      <p><strong>SPEAKER_0</strong> [00:00:00]</p>
 <p>Dramas, please.</p>
 <p><strong>SPEAKER_0</strong> [00:00:13]</p>
 <p>Yeah.</p>
@@ -2002,14 +2051,12 @@
 <p><strong>SPEAKER_0</strong> [00:49:25]</p>
 <p>Later, John. Later.</p>
 
+    </div>
+
+    
   </section>
 
   <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
-
-  
-
-  
-
 </article>
 
 <nav class="post-navigation" aria-label="Post navigation">
@@ -2027,6 +2074,14 @@
   </div>
 </nav>
 
+
+<script src="/js/plyr.js"></script>
+<link rel="stylesheet" href="/css/plyr.css">
+<script>
+  const player = new Plyr('#audio-player', {
+    controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
+  });
+</script>
 
 
     </main>

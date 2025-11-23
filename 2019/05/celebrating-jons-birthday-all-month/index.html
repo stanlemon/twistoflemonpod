@@ -574,36 +574,71 @@
 
     <main id="main-content" class="main" role="main">
       
-<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title" itemprop="headline">Celebrating Jon's Birthday All Month</h1>
-    <p class="post-date">
-      <time datetime="2019-05-23" itemprop="datePublished">May 23, 2019</time>
-    </p>
-
-    
-      <div class="audio-player">
-        <audio id="player" controls itemprop="audio">
-          <source src="https://media.twistoflemonpod.com/046-lwatol-20190523.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    
-
-    
-      
-      
-        <p class="transcript-link">
-          📄 <a href="/2019/05/celebrating-jons-birthday-all-month/transcript/">View Transcript</a>
-        </p>
-      
-    
-  </header>
 
   
 
-  <section class="post-content" itemprop="articleBody">
-    <p>Dear Listener,</p>
+
+
+
+
+
+<article class="episode-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="episode-hero hero">
+    <div class="episode-hero__surface">
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          
+            Podcast episode
+          
+        </p>
+        <h1 class="hero__title" itemprop="headline">Celebrating Jon's Birthday All Month</h1>
+        
+          <p class="hero__tagline">Stan was late to recording for the first time ever. Turns out he was installing a Ring doorbell. He has some other home improvement projects in store for</p>
+        
+
+        
+          <div class="episode-card episode-card--audio episode-hero__player">
+            <h2 class="episode-card__eyebrow">
+              Listen to this episode
+            </h2>
+            <div class="audio-player">
+              <audio id="audio-player" controls itemprop="audio">
+                <source src="https://media.twistoflemonpod.com/046-lwatol-20190523.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div class="hero__actions">
+              
+                <a class="button button--ghost" href="/2019/05/celebrating-jons-birthday-all-month/transcript/">Read transcript</a>
+              
+            </div>
+          </div>
+        
+
+        <div class="episode-hero__meta" aria-label="Episode details">
+          
+            <span class="meta-chip">
+              <span class="meta-chip__label">Ep</span>
+              46
+            </span>
+          
+          
+          <span class="meta-chip">
+            <span class="meta-chip__label">Date</span>
+            <time datetime="2019-05-23" itemprop="datePublished">
+              May 23, 2019
+            </time>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="episode-content-card">
+    <div class="post-content" id="transcript" itemprop="articleBody">
+      <p>Dear Listener,</p>
 <p>Stan was late to recording for the first time ever. Turns out he was installing a Ring doorbell. He has some other home improvement projects in store for this week.</p>
 <p>We talked about Jon's 30th birthday last week but it turns out the festivities weren't over yet. Jon's wife Anna was sneaky and pulled off yet another surprise party for which Stan made it back to Iowa. Stan said that the whole thing confirmed what he already knew - that I have really good taste in friends.</p>
 <p>Jon's good friend Andrew flew all the way in from Irvine, CA. But more importantly - he changed Stan's life by introducing him to the best way to make bacon - the Makin' Bacon Microwave Bacon Rack. Needless to say, Stan is pretty excited about this thing.</p>
@@ -617,13 +652,13 @@
 <p><a href="https://amzn.to/2Mfnna2">The Original Makin' Bacon Microwave Bacon Rack</a></p>
 <p><a href="https://www.theverge.com/2019/5/15/18626785/white-house-trump-censorsip-tool-twitter-instagram-facebook-conservative-bias-social-media">White House Reporting &quot;Tool&quot;</a></p>
 
-  </section>
+    </div>
 
-  <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
-
-  
-  <section class="tags-section" aria-label="tags">
-    <span class="tags-section__label">tags</span>
+    
+    <div class="content-meta" aria-label="Topics for this episode">
+      
+  <section class="tags-section" aria-label="Tags">
+    <span class="tags-section__label">Tags</span>
     <ul class="tags-list" role="list">
       
         <li>
@@ -646,9 +681,9 @@
   </section>
 
 
-  
-  <section class="tags-section" aria-label="categories">
-    <span class="tags-section__label">categories</span>
+      
+  <section class="tags-section" aria-label="Categories">
+    <span class="tags-section__label">Categories</span>
     <ul class="tags-list" role="list">
       
         <li>
@@ -663,6 +698,11 @@
   </section>
 
 
+    </div>
+    
+  </section>
+
+  <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
 </article>
 
 <nav class="post-navigation" aria-label="Post navigation">
@@ -688,7 +728,7 @@
 <script src="/js/plyr.js"></script>
 <link rel="stylesheet" href="/css/plyr.css">
 <script>
-  const player = new Plyr('#player', {
+  const player = new Plyr('#audio-player', {
     controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
   });
 </script>

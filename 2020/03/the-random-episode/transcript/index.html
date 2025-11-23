@@ -605,55 +605,104 @@
 
     <main id="main-content" class="main" role="main">
       
-<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title" itemprop="headline">The Random Episode</h1>
-    <p class="post-date">
-      <time datetime="2020-03-19" itemprop="datePublished">March 19, 2020</time>
-    </p>
 
-    
+  
 
-    
-      
-      
-        <p class="transcript-link">
-          📄 <a href="/2020/03/the-random-episode/transcript/">View Transcript</a>
+
+  
+
+
+
+
+  
+
+
+<article class="episode-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="episode-hero hero">
+    <div class="episode-hero__surface">
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          
+            Episode transcript
+          
         </p>
-      
-    
-  </header>
+        <h1 class="hero__title" itemprop="headline">The Random Episode</h1>
+        
+          <p class="hero__tagline">The conversation is a wrap-up of Stan's book reading progress, with discussions on various books, including "Turn the Ship Around", "Destiny of the Republic", and "The Godfather". John shares his own ...</p>
+        
 
-  
-    <div class="transcript-meta">
-      <div class="transcript-summary">
-        <h2>Episode Summary</h2>
-        <p>The conversation is a wrap-up of Stan's book reading progress, with discussions on various books, including "Turn the Ship Around", "Destiny of the Republic", and "The Godfather". John shares his own reading plans and vacation schedule. The episode concludes with a reminder to leave an Apple Podcast review.</p>
-      </div>
+        
+          <div class="episode-card episode-card--audio episode-hero__player">
+            <h2 class="episode-card__eyebrow">
+              Listen while you read
+            </h2>
+            <div class="audio-player">
+              <audio id="audio-player" controls itemprop="audio">
+                <source src="https://media.twistoflemonpod.com/088-lwatol-20200319.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div class="hero__actions">
+              
+                <a class="button button--primary" href="/2020/03/the-random-episode/">Back to episode</a>
+              
+            </div>
+          </div>
+        
 
-      
-        <div class="transcript-keywords">
-          <h3>Topics Covered</h3>
-          <ul class="keywords-list">
-            
-              <li>Book reviews</li>
-            
-              <li>Reading list</li>
-            
-              <li>Presidential biographies</li>
-            
-              <li>True crime stories</li>
-            
-              <li>Grilled cheese sandwiches</li>
-            
-          </ul>
+        <div class="episode-hero__meta" aria-label="Episode details">
+          
+            <span class="meta-chip">
+              <span class="meta-chip__label">Ep</span>
+              88
+            </span>
+          
+          
+          <span class="meta-chip">
+            <span class="meta-chip__label">Date</span>
+            <time datetime="2020-03-19" itemprop="datePublished">
+              March 19, 2020
+            </time>
+          </span>
         </div>
-      
+      </div>
     </div>
+  </section>
+
+  
+    
+    <section class="transcript-highlights" aria-label="Transcript highlights">
+      
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Episode summary</p>
+        <p class="transcript-highlight__body">The conversation is a wrap-up of Stan's book reading progress, with discussions on various books, including "Turn the Ship Around", "Destiny of the Republic", and "The Godfather". John shares his own reading plans and vacation schedule. The episode concludes with a reminder to leave an Apple Podcast review.</p>
+      </div>
+      
+      
+      <div class="transcript-highlight">
+        <p class="section-eyebrow">Key topics</p>
+        <ul class="keywords-list" role="list">
+          
+            <li class="keyword-chip">Book reviews</li>
+          
+            <li class="keyword-chip">Reading list</li>
+          
+            <li class="keyword-chip">Presidential biographies</li>
+          
+            <li class="keyword-chip">True crime stories</li>
+          
+            <li class="keyword-chip">Grilled cheese sandwiches</li>
+          
+        </ul>
+      </div>
+      
+    </section>
+    
   
 
-  <section class="post-content" itemprop="articleBody">
-    <p><strong>SPEAKER_0</strong> [00:00:00]</p>
+  <section class="episode-content-card">
+    <div class="post-content" id="transcript" itemprop="articleBody">
+      <p><strong>SPEAKER_0</strong> [00:00:00]</p>
 <p>Dramas, please.</p>
 <p><strong>SPEAKER_1</strong> [00:00:13]</p>
 <p>Yeah.</p>
@@ -1526,14 +1575,12 @@
 <p><strong>SPEAKER_1</strong> [00:31:10]</p>
 <p>and write something if you want.</p>
 
+    </div>
+
+    
   </section>
 
   <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
-
-  
-
-  
-
 </article>
 
 <nav class="post-navigation" aria-label="Post navigation">
@@ -1551,6 +1598,14 @@
   </div>
 </nav>
 
+
+<script src="/js/plyr.js"></script>
+<link rel="stylesheet" href="/css/plyr.css">
+<script>
+  const player = new Plyr('#audio-player', {
+    controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
+  });
+</script>
 
 
     </main>

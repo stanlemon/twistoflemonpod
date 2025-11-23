@@ -574,36 +574,71 @@
 
     <main id="main-content" class="main" role="main">
       
-<article class="blog-post" itemscope itemtype="https://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title" itemprop="headline">Goals for 2020</h1>
-    <p class="post-date">
-      <time datetime="2020-01-02" itemprop="datePublished">January 02, 2020</time>
-    </p>
-
-    
-      <div class="audio-player">
-        <audio id="player" controls itemprop="audio">
-          <source src="https://media.twistoflemonpod.com/077-lwatol-20200102.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-      </div>
-    
-
-    
-      
-      
-        <p class="transcript-link">
-          📄 <a href="/2020/01/goals-for-2020/transcript/">View Transcript</a>
-        </p>
-      
-    
-  </header>
 
   
 
-  <section class="post-content" itemprop="articleBody">
-    <p>Dear Listener,</p>
+
+
+
+
+
+<article class="episode-page" itemscope itemtype="https://schema.org/BlogPosting">
+  <section class="episode-hero hero">
+    <div class="episode-hero__surface">
+      <div class="hero__content">
+        <p class="hero__eyebrow">
+          
+            Podcast episode
+          
+        </p>
+        <h1 class="hero__title" itemprop="headline">Goals for 2020</h1>
+        
+          <p class="hero__tagline">Happy 2020! We kick of this episode recapping what our 2019 goals/resolutions were. Stan went back to listen to what we talked about a year ago.</p>
+        
+
+        
+          <div class="episode-card episode-card--audio episode-hero__player">
+            <h2 class="episode-card__eyebrow">
+              Listen to this episode
+            </h2>
+            <div class="audio-player">
+              <audio id="audio-player" controls itemprop="audio">
+                <source src="https://media.twistoflemonpod.com/077-lwatol-20200102.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <div class="hero__actions">
+              
+                <a class="button button--ghost" href="/2020/01/goals-for-2020/transcript/">Read transcript</a>
+              
+            </div>
+          </div>
+        
+
+        <div class="episode-hero__meta" aria-label="Episode details">
+          
+            <span class="meta-chip">
+              <span class="meta-chip__label">Ep</span>
+              77
+            </span>
+          
+          
+          <span class="meta-chip">
+            <span class="meta-chip__label">Date</span>
+            <time datetime="2020-01-02" itemprop="datePublished">
+              January 02, 2020
+            </time>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="episode-content-card">
+    <div class="post-content" id="transcript" itemprop="articleBody">
+      <p>Dear Listener,</p>
 <p>Happy 2020! We kick of this episode recapping what our 2019 goals/resolutions were. Stan went back to listen to what we talked about a year ago.</p>
 <p>Jon appears to have crushed his goals while Stan was non-committal in setting any. He did read 40 books this year and he paid off his mortgage.</p>
 <p>For 2020 -</p>
@@ -613,13 +648,13 @@
 <p>Thanks for listening,</p>
 <p>Stan Lemon &amp; Jon Kohlmeier</p>
 
-  </section>
+    </div>
 
-  <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
-
-  
-  <section class="tags-section" aria-label="tags">
-    <span class="tags-section__label">tags</span>
+    
+    <div class="content-meta" aria-label="Topics for this episode">
+      
+  <section class="tags-section" aria-label="Tags">
+    <span class="tags-section__label">Tags</span>
     <ul class="tags-list" role="list">
       
         <li>
@@ -638,9 +673,9 @@
   </section>
 
 
-  
-  <section class="tags-section" aria-label="categories">
-    <span class="tags-section__label">categories</span>
+      
+  <section class="tags-section" aria-label="Categories">
+    <span class="tags-section__label">Categories</span>
     <ul class="tags-list" role="list">
       
         <li>
@@ -651,6 +686,11 @@
   </section>
 
 
+    </div>
+    
+  </section>
+
+  <meta itemprop="author" content="Jon Kohlmeier & Stan Lemon">
 </article>
 
 <nav class="post-navigation" aria-label="Post navigation">
@@ -676,7 +716,7 @@
 <script src="/js/plyr.js"></script>
 <link rel="stylesheet" href="/css/plyr.css">
 <script>
-  const player = new Plyr('#player', {
+  const player = new Plyr('#audio-player', {
     controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
   });
 </script>
