@@ -238,10 +238,10 @@ aws s3 <span class="token function">cp</span> ~/Sites/twistoflemonpod-mp3s/episo
   generateSummary<span class="token punctuation">,</span>
   writeMarkdownFile<span class="token punctuation">,</span>
   slugify<span class="token punctuation">,</span>
-  formatTimestamp
-<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./lib/utils.js'</span><span class="token punctuation">;</span>
+  formatTimestamp<span class="token punctuation">,</span>
+<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"./lib/utils.js"</span><span class="token punctuation">;</span>
 
 <span class="token comment">// Use the functions in your script</span>
-<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">transcribeFile</span><span class="token punctuation">(</span><span class="token string">'path/to/audio.mp3'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">transcribeFile</span><span class="token punctuation">(</span><span class="token string">"path/to/audio.mp3"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> <span class="token punctuation">{</span> summary<span class="token punctuation">,</span> keywords <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">generateSummary</span><span class="token punctuation">(</span>title<span class="token punctuation">,</span> transcript<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>This ensures consistency across all episode processing scripts.</p>
