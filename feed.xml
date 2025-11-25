@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Nov 2025 14:20:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 15:14:56 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -1958,7 +1958,7 @@ Stan Lemon &amp;amp; Jon Kohlmeier
 <p>Stan has watched a lot of movies in the last couple of months, here he talks about his favorites and tells us about his COVID-19 testing experience.</p>
 <p>Stan Lemon &amp; Jon Kohlmeier</p>
 ]]></content:encoded>
-      <enclosure url="https://media.twistoflemonpod.com//2020/07/090-lwatol-20200702.mp3" length="46053004" type="audio/mpeg"/>
+      <enclosure url="https://media.twistoflemonpod.com/090-lwatol-20200702.mp3" length="46053004" type="audio/mpeg"/>
       <itunes:title>Movies During the Pandemic</itunes:title>
       <itunes:explicit>false</itunes:explicit>
       <itunes:episode>90</itunes:episode>
