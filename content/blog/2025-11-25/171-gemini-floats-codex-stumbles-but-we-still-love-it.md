@@ -6,6 +6,7 @@ date: '2025-11-25T06:00:00.000Z'
 categories:
   - Technology
   - Productivity
+  - AI
 tags:
   - Antigravity
   - Google AI
