@@ -8,21 +8,15 @@ categories:
 tags:
   - Thanksgiving
   - pie
-  - rhubarb pie
-  - pumpkin pie
-  - pecan pie
-  - apple pie
   - cheesecake
-  - lattice crust
-  - crumble crust
-  - food debate
-  - holiday cooking
+  - food
+  - holidays
   - dessert
 enclosure:
   url: 'https://media.twistoflemonpod.com/172-lwatol-20251127.mp3'
   length: 17321516
   type: audio/mpeg
-  duration: '00:00:00'
+  duration: '00:12:00'
 ---
 Dear Listener,
 
