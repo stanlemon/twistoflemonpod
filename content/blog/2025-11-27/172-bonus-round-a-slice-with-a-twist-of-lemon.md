@@ -5,6 +5,9 @@ episode: 172
 date: '2025-11-27T06:00:00.000Z'
 categories:
   - Food
+  - AI
+  - Bonus Round
+  - Lifestyle
 tags:
   - Thanksgiving
   - pie
