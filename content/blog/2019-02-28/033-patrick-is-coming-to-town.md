@@ -2,7 +2,7 @@
 title: Patrick is Coming to Town!
 slug: patrick-is-coming-to-town
 episode: 33
-date: '2019-02-28T13:12:39.000Z'
+date: "2019-02-28T13:12:39.000Z"
 categories:
   - Finance
   - Food
@@ -14,7 +14,7 @@ tags:
   - endgame
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/033-lwatol-20190228.mp3'
+  url: "https://media.twistoflemonpod.com/033-lwatol-20190228.mp3"
   length: 42105813
   type: audio/mpeg
 summary: >-
@@ -37,4 +37,3 @@ If you're interested in Wealthfront use this link: [http://wlth.fr/1eAorix](http
 Thanks for Listening!
 
 Stan Lemon & Jon Kohlmeier
-

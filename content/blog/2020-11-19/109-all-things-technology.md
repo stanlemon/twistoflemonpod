@@ -2,14 +2,14 @@
 title: All Things Technology
 slug: all-things-technology
 episode: 109
-date: '2020-11-19T13:53:51.000Z'
+date: "2020-11-19T13:53:51.000Z"
 categories:
   - Technology
 tags:
   - apple
   - xbox
 enclosure:
-  url: 'https://media.twistoflemonpod.com/109-lwatol-20201119.mp3'
+  url: "https://media.twistoflemonpod.com/109-lwatol-20201119.mp3"
   length: 37506807
   type: audio/mpeg
 summary: >-

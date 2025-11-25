@@ -2,7 +2,7 @@
 title: Remembering Stan Lee
 slug: remembering-stan-lee
 episode: 18
-date: '2018-11-15T12:29:40.000Z'
+date: "2018-11-15T12:29:40.000Z"
 categories:
   - Movies
 tags:
@@ -12,7 +12,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/018-lwatol-20181115.mp3'
+  url: "https://media.twistoflemonpod.com/018-lwatol-20181115.mp3"
   length: 32866130
   type: audio/mpeg
 summary: >-
@@ -36,6 +36,7 @@ Talk to you later,
 
 Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+
 ## Show notes:
 
 [The 3am recording of HT Radio on The Avengers (5/11/2012)](https://media.higherthings.org/podcasts/legacy-cast/episode-186-may-11th-2012/)

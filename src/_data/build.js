@@ -7,5 +7,5 @@ export default {
   timestamp: new Date(),
 
   // Environment info
-  env: process.env.NODE_ENV || 'development'
+  env: process.env.NODE_ENV || "development",
 };

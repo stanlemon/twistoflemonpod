@@ -2,13 +2,13 @@
 title: Lemilton - Our Review of Hamilton
 slug: lemilton-our-review-of-hamilton
 episode: 91
-date: '2020-07-09T13:28:13.000Z'
+date: "2020-07-09T13:28:13.000Z"
 categories:
   - Movies
 tags:
   - disney+
 enclosure:
-  url: 'https://media.twistoflemonpod.com/091-lwatol-20200709.mp3'
+  url: "https://media.twistoflemonpod.com/091-lwatol-20200709.mp3"
   length: 53677443
   type: audio/mpeg
 summary: >-

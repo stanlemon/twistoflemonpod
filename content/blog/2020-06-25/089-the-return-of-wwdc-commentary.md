@@ -2,7 +2,7 @@
 title: The Return of... WWDC Commentary
 slug: the-return-of-wwdc-commentary
 episode: 89
-date: '2020-06-25T11:25:48.000Z'
+date: "2020-06-25T11:25:48.000Z"
 categories:
   - Technology
 tags:
@@ -13,7 +13,7 @@ tags:
   - macbook
   - wwdc
 enclosure:
-  url: 'https://media.twistoflemonpod.com/089-lwatol-20200625.mp3'
+  url: "https://media.twistoflemonpod.com/089-lwatol-20200625.mp3"
   length: 54188587
   type: audio/mpeg
 summary: >-

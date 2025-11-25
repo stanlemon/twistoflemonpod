@@ -2,7 +2,7 @@
 title: Celebrating Jon's Birthday All Month
 slug: celebrating-jons-birthday-all-month
 episode: 46
-date: '2019-05-23T13:07:28.000Z'
+date: "2019-05-23T13:07:28.000Z"
 categories:
   - Food
   - Technology
@@ -12,7 +12,7 @@ tags:
   - home improvement
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/046-lwatol-20190523.mp3'
+  url: "https://media.twistoflemonpod.com/046-lwatol-20190523.mp3"
   length: 50968245
   type: audio/mpeg
 summary: >-

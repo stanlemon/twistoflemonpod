@@ -2,7 +2,7 @@
 title: Is this thing on?
 slug: is-this-thing-on
 episode: 168
-date: '2025-11-02T20:49:00.000Z'
+date: "2025-11-02T20:49:00.000Z"
 categories:
   - Announcements
 tags:
@@ -10,10 +10,10 @@ tags:
   - podcast
   - announcement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/168-comeback-teaser.mp3'
+  url: "https://media.twistoflemonpod.com/168-comeback-teaser.mp3"
   length: 640147
   type: audio/mpeg
-  duration: '00:00:26'
+  duration: "00:00:26"
 ---
 
 Dear Listener,

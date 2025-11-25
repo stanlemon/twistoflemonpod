@@ -20,7 +20,7 @@
  *   - Model pulled (ollama pull llama3.2:3b)
  */
 
-import { resolve, basename, extname } from 'path';
+import { resolve, basename, extname } from "path";
 import {
   DEEPGRAM_API_KEY,
   MEDIA_BASE_URL,
@@ -36,10 +36,10 @@ import {
   slugify,
   transcribeFile,
   writeMarkdownFile,
-} from './lib/utils.js';
+} from "./lib/utils.js";
 
-const DEFAULT_TRANSCRIPT_PLACEHOLDER = 'Transcript will be available soon.';
-const DEFAULT_SUMMARY_PLACEHOLDER = 'Summary will be added soon.';
+const DEFAULT_TRANSCRIPT_PLACEHOLDER = "Transcript will be available soon.";
+const DEFAULT_SUMMARY_PLACEHOLDER = "Summary will be added soon.";
 
 /**
  * Validate date string (YYYY-MM-DD)
@@ -62,52 +62,54 @@ function isValidDate(dateStr) {
  * Prompt for episode details
  */
 async function promptEpisodeDetails() {
-  console.log('');
-  console.log('═══════════════════════════════════════════════════════');
-  console.log('Episode Details');
-  console.log('═══════════════════════════════════════════════════════');
-  console.log('');
+  console.log("");
+  console.log("═══════════════════════════════════════════════════════");
+  console.log("Episode Details");
+  console.log("═══════════════════════════════════════════════════════");
+  console.log("");
 
   // Episode number
   let episodeNumber;
   while (true) {
-    const input = await prompt('Episode number: ');
+    const input = await prompt("Episode number: ");
     episodeNumber = parseInt(input);
     if (episodeNumber > 0) break;
-    console.log('Please enter a valid episode number');
+    console.log("Please enter a valid episode number");
   }
 
   // Title
   let title;
   while (true) {
-    title = await prompt('Episode title: ');
+    title = await prompt("Episode title: ");
     if (title.length > 0) break;
-    console.log('Please enter a title');
+    console.log("Please enter a title");
   }
 
   // Date
   let date;
   while (true) {
-    const input = await prompt('Publish date (YYYY-MM-DD) [today]: ');
-    if (input === '') {
+    const input = await prompt("Publish date (YYYY-MM-DD) [today]: ");
+    if (input === "") {
       // Create date for today at 6am UTC
       const now = new Date();
-      date = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0));
+      date = new Date(
+        Date.UTC(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0),
+      );
       break;
     }
     if (isValidDate(input)) {
       date = parseDate(input);
       break;
     }
-    console.log('Please enter a valid date in YYYY-MM-DD format');
+    console.log("Please enter a valid date in YYYY-MM-DD format");
   }
 
-  console.log('');
-  console.log('Confirmed:');
+  console.log("");
+  console.log("Confirmed:");
   console.log(`  Episode: ${episodeNumber}`);
   console.log(`  Title: ${title}`);
   console.log(`  Date: ${formatDateForDir(date)}`);
-  console.log('');
+  console.log("");
 
   return { episodeNumber, title, date };
 }
@@ -130,18 +132,19 @@ function createEpisodeFile(
   const filename = `${episodeNumber}-${slug}.md`;
   const filePath = resolve(blogDir, filename);
 
-  const tags = Array.isArray(keywords) && keywords.length > 0 ? keywords.slice(0, 5) : [];
+  const tags =
+    Array.isArray(keywords) && keywords.length > 0 ? keywords.slice(0, 5) : [];
   const frontmatter = {
     title: title,
     slug: slug,
     episode: episodeNumber,
     date: date.toISOString(),
-    categories: ['Technology'], // Default category, can be edited
+    categories: ["Technology"], // Default category, can be edited
     tags,
     enclosure: {
       url: `${MEDIA_BASE_URL}/${mp3Basename}.mp3`,
       length: fileSize,
-      type: 'audio/mpeg',
+      type: "audio/mpeg",
       duration: duration,
     },
   };
@@ -178,7 +181,7 @@ function createTranscriptFile(
   summary,
   keywords,
 ) {
-  const dateStr = formatDateForDir(date).replace(/-/g, '');
+  const dateStr = formatDateForDir(date).replace(/-/g, "");
   const filename = `${episodeNumber}-lwatol-${dateStr}.md`;
   const filePath = resolve(blogDir, filename);
 
@@ -187,7 +190,7 @@ function createTranscriptFile(
     episode: episodeNumber,
     date: date.toISOString(),
     slug: `${slug}/transcript`,
-    type: 'transcript',
+    type: "transcript",
   };
 
   if (summary) {
@@ -208,31 +211,37 @@ function createTranscriptFile(
  */
 async function main() {
   const rawArgs = process.argv.slice(2);
-  const positionalArgs = rawArgs.filter(arg => !arg.startsWith('--'));
+  const positionalArgs = rawArgs.filter((arg) => !arg.startsWith("--"));
   const options = {
-    skipTranscription: rawArgs.includes('--skip-transcription'),
+    skipTranscription: rawArgs.includes("--skip-transcription"),
   };
 
   if (positionalArgs.length !== 1) {
-    console.error('Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription]');
-    console.error('');
-    console.error('Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3');
+    console.error(
+      "Usage: node scripts/create-new-episode.js <mp3-file> [--skip-transcription]",
+    );
+    console.error("");
+    console.error(
+      "Example: node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new-episode.mp3",
+    );
     process.exit(1);
   }
 
   if (!options.skipTranscription && !DEEPGRAM_API_KEY) {
-    console.error('Error: DEEPGRAM_API_KEY environment variable is not set');
-    console.error('Please set it in your .env file or use --skip-transcription');
+    console.error("Error: DEEPGRAM_API_KEY environment variable is not set");
+    console.error(
+      "Please set it in your .env file or use --skip-transcription",
+    );
     process.exit(1);
   }
 
   const inputPath = resolve(positionalArgs[0]);
   const mp3Basename = basename(inputPath, extname(inputPath));
 
-  console.log('');
-  console.log('═══════════════════════════════════════════════════════');
-  console.log('Create New Podcast Episode');
-  console.log('═══════════════════════════════════════════════════════');
+  console.log("");
+  console.log("═══════════════════════════════════════════════════════");
+  console.log("Create New Podcast Episode");
+  console.log("═══════════════════════════════════════════════════════");
   console.log(`MP3 File: ${inputPath}`);
 
   try {
@@ -241,62 +250,66 @@ async function main() {
 
     // Setup paths
     const dateStr = formatDateForDir(date);
-    const blogDir = resolve('content/blog', dateStr);
+    const blogDir = resolve("content/blog", dateStr);
 
     // Step 1: Transcribe audio (unless skipped)
-    let transcriptText = '';
-    let durationFormatted = '00:00:00';
-    let summary = '';
+    let transcriptText = "";
+    let durationFormatted = "00:00:00";
+    let summary = "";
     let keywords = [];
     let hasTranscript = false;
 
     if (options.skipTranscription) {
-      console.log('Step 1: Skipping transcription (--skip-transcription flag)');
+      console.log("Step 1: Skipping transcription (--skip-transcription flag)");
       transcriptText = DEFAULT_TRANSCRIPT_PLACEHOLDER;
     } else {
-      console.log('Step 1: Transcribing audio...');
-      console.log('  Reading audio file...');
-      console.log('  Sending to Deepgram for transcription...');
+      console.log("Step 1: Transcribing audio...");
+      console.log("  Reading audio file...");
+      console.log("  Sending to Deepgram for transcription...");
       const result = await transcribeFile(inputPath);
       transcriptText = formatTranscript(result);
       hasTranscript = true;
 
       const utterances = result.results?.utterances || [];
-      const speakers = new Set(utterances.map(u => u.speaker));
+      const speakers = new Set(utterances.map((u) => u.speaker));
       const duration = result.metadata?.duration || 0;
       durationFormatted = formatTimestamp(duration);
 
-      console.log('  ✓ Transcription complete!');
+      console.log("  ✓ Transcription complete!");
       console.log(`    Duration: ${durationFormatted}`);
       console.log(`    Speakers: ${speakers.size}`);
       console.log(`    Utterances: ${utterances.length}`);
-      console.log('');
+      console.log("");
     }
 
     // Step 2: Generate AI summary when transcript text exists
     const shouldSummarize = hasTranscript && transcriptText.trim().length > 0;
     if (shouldSummarize) {
-      console.log('Step 2: Generating AI summary and keywords...');
+      console.log("Step 2: Generating AI summary and keywords...");
       const ollamaRunning = await checkOllama();
       if (!ollamaRunning) {
-        throw new Error('Ollama is not running. Start it with: brew services start ollama');
+        throw new Error(
+          "Ollama is not running. Start it with: brew services start ollama",
+        );
       }
       const summaryResult = await generateSummary(title, transcriptText);
       summary = summaryResult.summary;
       keywords = summaryResult.keywords;
-      console.log('  ✓ Generated successfully');
-      console.log(`    Summary: ${summary.substring(0, 80)}${summary.length > 80 ? '...' : ''}`);
+      console.log("  ✓ Generated successfully");
       console.log(
-        `    Keywords: ${keywords.slice(0, 5).join(', ')}${keywords.length > 5 ? '...' : ''}`,
+        `    Summary: ${summary.substring(0, 80)}${summary.length > 80 ? "..." : ""}`,
       );
-      console.log('');
+      console.log(
+        `    Keywords: ${keywords.slice(0, 5).join(", ")}${keywords.length > 5 ? "..." : ""}`,
+      );
+      console.log("");
     } else {
-      console.log('Step 2: Skipping AI summary (no transcript available)');
-      console.log('');
+      console.log("Step 2: Skipping AI summary (no transcript available)");
+      console.log("");
     }
 
     // Step 3: Create files
-    console.log('Step 3: Creating episode files...');
+    console.log("Step 3: Creating episode files...");
 
     // Ensure directory exists
     ensureDir(blogDir);
@@ -314,7 +327,7 @@ async function main() {
       fileSize,
       durationFormatted,
       summary,
-      keywords
+      keywords,
     );
     console.log(`  ✓ Episode post: ${episodeFilePath}`);
 
@@ -327,35 +340,34 @@ async function main() {
       slug,
       transcriptText,
       summary,
-      keywords
+      keywords,
     );
     console.log(`  ✓ Transcript: ${transcriptFilePath}`);
-    console.log('');
+    console.log("");
 
     // Step 4: Print next steps
-    console.log('═══════════════════════════════════════════════════════');
-    console.log('Success! Next steps:');
-    console.log('═══════════════════════════════════════════════════════');
-    console.log('');
-    console.log('1. Review and edit the episode files:');
+    console.log("═══════════════════════════════════════════════════════");
+    console.log("Success! Next steps:");
+    console.log("═══════════════════════════════════════════════════════");
+    console.log("");
+    console.log("1. Review and edit the episode files:");
     console.log(`   ${episodeFilePath}`);
     console.log(`   ${transcriptFilePath}`);
-    console.log('');
-    console.log('2. Update categories and tags in episode post as needed');
-    console.log('');
-    console.log('3. Test and build:');
-    console.log('   npm test && npm run build');
-    console.log('');
-    console.log('4. Commit and deploy:');
-    console.log('   git add .');
+    console.log("");
+    console.log("2. Update categories and tags in episode post as needed");
+    console.log("");
+    console.log("3. Test and build:");
+    console.log("   npm test && npm run build");
+    console.log("");
+    console.log("4. Commit and deploy:");
+    console.log("   git add .");
     console.log(`   git commit -m "Add episode ${episodeNumber}: ${title}"`);
-    console.log('   git push');
-    console.log('');
-
+    console.log("   git push");
+    console.log("");
   } catch (error) {
-    console.error('');
-    console.error('Error:', error.message);
-    console.error('');
+    console.error("");
+    console.error("Error:", error.message);
+    console.error("");
     process.exit(1);
   }
 }

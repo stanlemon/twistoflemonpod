@@ -5,6 +5,7 @@ This document outlines all SEO improvements implemented for the Life with a Twis
 ## Overview
 
 The site has been optimized for:
+
 - Search engine discovery and ranking
 - Podcast aggregator compatibility (Apple Podcasts, Spotify, etc.)
 - Social media sharing
@@ -18,26 +19,31 @@ The site has been optimized for:
 **Location:** `src/_includes/partials/structured-data.liquid`
 
 #### Podcast Episode Schema
+
 - Applied to all blog posts with audio
 - Includes episode number, publication date, audio URL
 - Links to PodcastSeries for better discovery
 
 #### BlogPosting Schema
+
 - Applied to all blog posts
 - Includes headline, author, publisher, dates
 - Helps with article rich snippets in Google
 
 #### WebSite Schema
+
 - Applied to homepage and archive pages
 - Includes site search functionality
 - Improves site-wide search presence
 
 #### Organization Schema
+
 - Applied to all pages
 - Establishes brand identity
 - Links to social media profiles
 
 **Benefits:**
+
 - Podcast episodes appear in Google Podcasts search
 - Rich snippets in Google search results
 - Better visibility in Apple Podcasts and Spotify
@@ -48,20 +54,24 @@ The site has been optimized for:
 **Location:** `src/_includes/partials/seo.liquid`
 
 #### Title Tags
+
 - Homepage: Full descriptive title
 - Blog posts: Post title only (no site name to avoid truncation)
 - Archive pages: Category/Tag name with site name
 
 #### Meta Description
+
 - Homepage: Enhanced description with call-to-action
 - Blog posts: Uses summary or first 300 characters
 - Archive pages: Dynamic descriptions based on content
 
 #### Meta Keywords
+
 - Core keywords: podcast, technology, finance, life, craftsmanship, theology
 - Post-specific keywords: Tags from each post
 
 #### Author Tag
+
 - All pages include author meta tag
 - Helps with content attribution
 
@@ -83,6 +93,7 @@ Implemented Open Graph tags for optimal social media sharing:
 - `og:audio:type` - MIME type for audio files
 
 **Benefits:**
+
 - Beautiful previews when shared on Facebook
 - Podcast audio directly playable from Facebook posts
 - Consistent branding across social platforms
@@ -102,6 +113,7 @@ Twitter Card implementation for optimal Twitter sharing:
 - `twitter:image:alt` - Image alt text for accessibility
 
 **Benefits:**
+
 - Eye-catching cards in Twitter feed
 - Higher click-through rates from Twitter
 - Professional appearance
@@ -111,6 +123,7 @@ Twitter Card implementation for optimal Twitter sharing:
 **Locations:** Multiple layout files
 
 #### ARIA Labels and Roles
+
 - `role="main"` on main content area
 - `role="navigation"` on nav elements
 - `role="contentinfo"` on footer
@@ -118,6 +131,7 @@ Twitter Card implementation for optimal Twitter sharing:
 - `aria-label="Breadcrumb"` on breadcrumb navigation
 
 #### Microdata (Schema.org)
+
 - `itemscope` and `itemtype` on article elements
 - `itemprop="headline"` on post titles
 - `itemprop="datePublished"` on dates
@@ -125,10 +139,12 @@ Twitter Card implementation for optimal Twitter sharing:
 - `itemprop="author"` for attribution
 
 #### Time Elements
+
 - Proper `<time>` elements with `datetime` attributes
 - ISO 8601 format for machine readability
 
 **Benefits:**
+
 - Better accessibility scores
 - Improved screen reader experience
 - Enhanced semantic understanding by search engines
@@ -149,6 +165,7 @@ Home > Tag Name
 - Applied to category and tag archive pages
 
 **Benefits:**
+
 - Breadcrumb rich snippets in Google search results
 - Improved user navigation
 - Better site structure understanding
@@ -171,6 +188,7 @@ Allow: /feed.xml
 ```
 
 **Benefits:**
+
 - Explicit permission for all content
 - Direct sitemap reference
 - Podcast feed highlighted for aggregators
@@ -180,12 +198,16 @@ Allow: /feed.xml
 **Location:** `src/_includes/partials/seo.liquid`
 
 ```html
-<link rel="alternate" type="application/rss+xml" 
-      title="Life with a Twist of Lemon RSS Feed" 
-      href="https://twistoflemonpod.com/feed.xml">
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title="Life with a Twist of Lemon RSS Feed"
+  href="https://twistoflemonpod.com/feed.xml"
+/>
 ```
 
 **Benefits:**
+
 - Browsers can auto-discover RSS feed
 - Podcast apps can find the feed
 - One-click subscription in compatible browsers
@@ -195,6 +217,7 @@ Allow: /feed.xml
 **Location:** `src/sitemap.liquid`
 
 XML sitemap with:
+
 - Homepage (priority 1.0, daily changes)
 - All blog posts (priority 0.8, monthly changes)
 - Category pages (priority 0.6, weekly changes)
@@ -203,6 +226,7 @@ XML sitemap with:
 - Change frequencies
 
 **Benefits:**
+
 - Efficient search engine crawling
 - Prioritization of important pages
 - Faster indexing of new content
@@ -210,19 +234,23 @@ XML sitemap with:
 ### 10. Additional Enhancements
 
 #### Theme Color
+
 ```html
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#ffffff" />
 ```
+
 Improves mobile browser integration.
 
 #### Pagination Links
+
 ```html
-<a href="..." rel="prev">← Previous</a>
-<a href="..." rel="next">Next →</a>
+<a href="..." rel="prev">← Previous</a> <a href="..." rel="next">Next →</a>
 ```
+
 Helps search engines understand pagination.
 
 #### Canonical URLs
+
 All pages include canonical URL to prevent duplicate content issues.
 
 ## Testing Your SEO
@@ -258,6 +286,7 @@ All pages include canonical URL to prevent duplicate content issues.
 ### Expected Scores
 
 With these implementations:
+
 - **Lighthouse SEO**: 95-100
 - **Lighthouse Accessibility**: 90+
 - **Lighthouse Performance**: 90+

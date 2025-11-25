@@ -16,18 +16,18 @@
  *   - Model must be pulled (ollama pull llama3.2:3b)
  */
 
-import { glob } from 'glob';
-import { existsSync } from 'fs';
-import { resolve } from 'path';
+import { glob } from "glob";
+import { existsSync } from "fs";
+import { resolve } from "path";
 import {
   OLLAMA_MODEL,
   checkOllama,
   generateSummary,
   readMarkdownFile,
   writeMarkdownFile,
-} from './lib/utils.js';
+} from "./lib/utils.js";
 
-const CONTENT_DIR = 'content/blog';
+const CONTENT_DIR = "content/blog";
 
 /**
  * Process a single transcript file
@@ -39,28 +39,33 @@ async function processTranscriptFile(filePath, model) {
   const { data: frontmatter, content } = readMarkdownFile(filePath);
 
   // Skip if not a transcript
-  if (frontmatter.type !== 'transcript') {
-    console.log('  ⊘ Skipping (not a transcript)');
-    return { status: 'skipped', reason: 'not_transcript' };
+  if (frontmatter.type !== "transcript") {
+    console.log("  ⊘ Skipping (not a transcript)");
+    return { status: "skipped", reason: "not_transcript" };
   }
 
   // Skip if already has summary and keywords
   if (frontmatter.summary && frontmatter.keywords) {
-    console.log('  ✓ Already has summary and keywords');
-    return { status: 'skipped', reason: 'already_processed' };
+    console.log("  ✓ Already has summary and keywords");
+    return { status: "skipped", reason: "already_processed" };
   }
 
   // Generate summary and keywords
-  console.log('  → Calling Ollama...');
+  console.log("  → Calling Ollama...");
   const startTime = Date.now();
 
   try {
-    const { summary, keywords } = await generateSummary(frontmatter.title, content);
+    const { summary, keywords } = await generateSummary(
+      frontmatter.title,
+      content,
+    );
 
     const duration = ((Date.now() - startTime) / 1000).toFixed(1);
     console.log(`  ✓ Generated in ${duration}s`);
     console.log(`    Summary: ${summary.substring(0, 80)}...`);
-    console.log(`    Keywords: ${keywords.slice(0, 5).join(', ')}${keywords.length > 5 ? '...' : ''}`);
+    console.log(
+      `    Keywords: ${keywords.slice(0, 5).join(", ")}${keywords.length > 5 ? "..." : ""}`,
+    );
 
     // Update frontmatter
     frontmatter.summary = summary;
@@ -68,12 +73,12 @@ async function processTranscriptFile(filePath, model) {
 
     // Write back to file
     writeMarkdownFile(filePath, frontmatter, content);
-    console.log('  ✓ File updated');
+    console.log("  ✓ File updated");
 
-    return { status: 'success', duration, summary, keywords };
+    return { status: "success", duration, summary, keywords };
   } catch (error) {
     console.error(`  ✗ Error: ${error.message}`);
-    return { status: 'error', error: error.message };
+    return { status: "error", error: error.message };
   }
 }
 
@@ -82,31 +87,31 @@ async function processTranscriptFile(filePath, model) {
  */
 async function main() {
   const args = process.argv.slice(2);
-  const testMode = args.includes('--test');
-  const modelArg = args.find(arg => arg.startsWith('--model='));
-  const fileArg = args.find(arg => arg.startsWith('--file='));
-  const model = modelArg ? modelArg.split('=')[1] : OLLAMA_MODEL;
-  const explicitFile = fileArg ? resolve(fileArg.split('=')[1]) : null;
+  const testMode = args.includes("--test");
+  const modelArg = args.find((arg) => arg.startsWith("--model="));
+  const fileArg = args.find((arg) => arg.startsWith("--file="));
+  const model = modelArg ? modelArg.split("=")[1] : OLLAMA_MODEL;
+  const explicitFile = fileArg ? resolve(fileArg.split("=")[1]) : null;
 
-  console.log('='.repeat(70));
-  console.log('Add AI Summaries and Keywords to Transcripts');
-  console.log('='.repeat(70));
+  console.log("=".repeat(70));
+  console.log("Add AI Summaries and Keywords to Transcripts");
+  console.log("=".repeat(70));
   console.log(`Model: ${model}`);
-  console.log(`Test mode: ${testMode ? 'YES (processing 1 file only)' : 'NO'}`);
+  console.log(`Test mode: ${testMode ? "YES (processing 1 file only)" : "NO"}`);
   if (explicitFile) {
     console.log(`Target file: ${explicitFile}`);
   }
-  console.log('='.repeat(70));
+  console.log("=".repeat(70));
 
   // Check if Ollama is running
   const ollamaRunning = await checkOllama();
   if (!ollamaRunning) {
-    console.error('✗ Error: Ollama is not running');
-    console.error('  Please start it with: brew services start ollama');
-    console.error('  Or run: ollama serve');
+    console.error("✗ Error: Ollama is not running");
+    console.error("  Please start it with: brew services start ollama");
+    console.error("  Or run: ollama serve");
     process.exit(1);
   }
-  console.log('✓ Ollama is running');
+  console.log("✓ Ollama is running");
 
   let files = [];
   if (explicitFile) {
@@ -116,13 +121,17 @@ async function main() {
     }
     files = [explicitFile];
   } else {
-    const pattern = resolve(CONTENT_DIR, '**/*.md');
+    const pattern = resolve(CONTENT_DIR, "**/*.md");
     files = glob.sync(pattern);
     console.log(`Found ${files.length} markdown files\n`);
   }
 
   // Filter for transcripts and limit in test mode
-  const filesToProcess = explicitFile ? files : testMode ? files.slice(0, 1) : files;
+  const filesToProcess = explicitFile
+    ? files
+    : testMode
+      ? files.slice(0, 1)
+      : files;
 
   // Process files
   const stats = {
@@ -135,33 +144,33 @@ async function main() {
   for (const file of filesToProcess) {
     const result = await processTranscriptFile(file, model);
 
-    if (result.status === 'success') {
+    if (result.status === "success") {
       stats.processed++;
-    } else if (result.status === 'skipped') {
+    } else if (result.status === "skipped") {
       stats.skipped++;
-    } else if (result.status === 'error') {
+    } else if (result.status === "error") {
       stats.errors++;
     }
   }
 
   // Print summary
-  console.log('\n' + '='.repeat(70));
-  console.log('Summary');
-  console.log('='.repeat(70));
+  console.log("\n" + "=".repeat(70));
+  console.log("Summary");
+  console.log("=".repeat(70));
   console.log(`Total files:     ${stats.total}`);
   console.log(`Processed:       ${stats.processed}`);
   console.log(`Skipped:         ${stats.skipped}`);
   console.log(`Errors:          ${stats.errors}`);
-  console.log('='.repeat(70));
+  console.log("=".repeat(70));
 
   if (testMode && stats.processed > 0) {
-    console.log('\n✓ Test completed successfully!');
-    console.log('  Remove --test flag to process all files');
+    console.log("\n✓ Test completed successfully!");
+    console.log("  Remove --test flag to process all files");
   }
 }
 
 // Run main function
-main().catch(error => {
-  console.error('Fatal error:', error);
+main().catch((error) => {
+  console.error("Fatal error:", error);
   process.exit(1);
 });

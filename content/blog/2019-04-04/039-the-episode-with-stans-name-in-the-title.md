@@ -2,7 +2,7 @@
 title: The Episode with Stan's Name in the Title
 slug: the-episode-with-stans-name-in-the-title
 episode: 39
-date: '2019-04-04T12:30:12.000Z'
+date: "2019-04-04T12:30:12.000Z"
 categories:
   - Marvel
   - Movies
@@ -13,7 +13,7 @@ tags:
   - endgame
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/039-lwatol-20190404.mp3'
+  url: "https://media.twistoflemonpod.com/039-lwatol-20190404.mp3"
   length: 47105338
   type: audio/mpeg
 summary: >-
@@ -32,4 +32,3 @@ This week Patrick had good Marvel Intel! We have Avengers Endgame tickets. The s
 Thanks for listening and leaving reviews!
 
 Stan Lemon & Jon Kohlmeier
-

@@ -2,7 +2,7 @@
 title: This is the Way
 slug: this-is-the-way
 episode: 107
-date: '2020-11-05T15:22:21.000Z'
+date: "2020-11-05T15:22:21.000Z"
 categories:
   - Movies
   - Technology
@@ -12,7 +12,7 @@ tags:
   - home improvement
   - politics
 enclosure:
-  url: 'https://media.twistoflemonpod.com/107-lwatol-20201105.mp3'
+  url: "https://media.twistoflemonpod.com/107-lwatol-20201105.mp3"
   length: 35665905
   type: audio/mpeg
 summary: >-

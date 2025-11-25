@@ -2,7 +2,7 @@
 title: All the makings of a great anniversary episode
 slug: all-the-makings-of-a-great-anniversary-episode
 episode: 53
-date: '2019-07-11T12:15:31.000Z'
+date: "2019-07-11T12:15:31.000Z"
 categories:
   - Marvel
   - Movies
@@ -17,7 +17,7 @@ tags:
   - spiderman
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/053-lwatol-20190711.mp3'
+  url: "https://media.twistoflemonpod.com/053-lwatol-20190711.mp3"
   length: 55580452
   type: audio/mpeg
 summary: >-

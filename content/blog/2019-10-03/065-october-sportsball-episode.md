@@ -2,13 +2,13 @@
 title: October Sportsball Episode
 slug: october-sportsball-episode
 episode: 65
-date: '2019-10-03T10:39:09.000Z'
+date: "2019-10-03T10:39:09.000Z"
 categories:
   - Lifestyle
 tags:
   - baseball
 enclosure:
-  url: 'https://media.twistoflemonpod.com/065-lwatol-20191003.mp3'
+  url: "https://media.twistoflemonpod.com/065-lwatol-20191003.mp3"
   length: 33122731
   type: audio/mpeg
 summary: >-
@@ -27,4 +27,3 @@ Definitely a sportsball focused episode but we'll be back next week with our nor
 Thanks for listening and we hope you'll leave a review.
 
 Stan Lemon & Jon Kohlmeier
-

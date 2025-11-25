@@ -2,7 +2,7 @@
 title: New Year's Resolutions and Note-Taking Apps.
 slug: new-years-resolutions-and-note-taking-apps
 episode: 24
-date: '2018-12-27T16:19:26.000Z'
+date: "2018-12-27T16:19:26.000Z"
 categories:
   - Productivity
   - Technology
@@ -14,7 +14,7 @@ tags:
   - christmas
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/024-lwatol-20181227.mp3'
+  url: "https://media.twistoflemonpod.com/024-lwatol-20181227.mp3"
   length: 38197321
   type: audio/mpeg
 summary: >-

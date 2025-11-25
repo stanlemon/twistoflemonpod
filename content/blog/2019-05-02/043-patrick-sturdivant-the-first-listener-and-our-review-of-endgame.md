@@ -1,8 +1,8 @@
 ---
-title: 'Patrick Sturdivant: The First Listener (and our review of Endgame)'
+title: "Patrick Sturdivant: The First Listener (and our review of Endgame)"
 slug: patrick-sturdivant-the-first-listener-and-our-review-of-endgame
 episode: 43
-date: '2019-05-02T12:36:18.000Z'
+date: "2019-05-02T12:36:18.000Z"
 categories:
   - Food
   - Marvel
@@ -13,7 +13,7 @@ tags:
   - patrick sturdivant
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/043-lwatol-20190502.mp3'
+  url: "https://media.twistoflemonpod.com/043-lwatol-20190502.mp3"
   length: 54244674
   type: audio/mpeg
 summary: >-
@@ -34,4 +34,3 @@ But it's been a week.. so what are you waiting for?
 Thanks for listening,
 
 Stan Lemon, Jon Kohlmeier and Patrick Sturdivant (The First Listener).
-

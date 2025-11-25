@@ -2,7 +2,7 @@
 title: How Does Jon Eat an Ice Cream Sunday?
 slug: how-does-jon-eat-an-ice-cream-sunday
 episode: 51
-date: '2019-06-27T11:29:27.000Z'
+date: "2019-06-27T11:29:27.000Z"
 categories:
   - Finance
   - Technology
@@ -11,7 +11,7 @@ tags:
   - mac
   - grilled cheese
 enclosure:
-  url: 'https://media.twistoflemonpod.com/051-lwatol-20190627.mp3'
+  url: "https://media.twistoflemonpod.com/051-lwatol-20190627.mp3"
   length: 35300408
   type: audio/mpeg
 summary: >-
@@ -35,4 +35,3 @@ Stan installed the Catalina beta, hear some of his initial reactions.
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-

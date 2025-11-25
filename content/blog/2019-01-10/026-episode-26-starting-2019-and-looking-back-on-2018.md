@@ -2,7 +2,7 @@
 title: Starting 2019 and Looking Back on 2018
 slug: starting-2019-and-looking-back-on-2018
 episode: 26
-date: '2019-01-10T12:49:42.000Z'
+date: "2019-01-10T12:49:42.000Z"
 categories:
   - Movies
   - Technology
@@ -11,7 +11,7 @@ tags:
   - twistoflemon
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/026-lwatol-20190110.mp3'
+  url: "https://media.twistoflemonpod.com/026-lwatol-20190110.mp3"
   length: 34073174
   type: audio/mpeg
 summary: >-
@@ -34,4 +34,3 @@ Finally we each go through our Top 5 of 2018. Some items include buying houses, 
 Thanks for listening in. We're still waiting for our first written iTunes review of 2019!
 
 Stan Lemon & Jon Kohlmeier
-

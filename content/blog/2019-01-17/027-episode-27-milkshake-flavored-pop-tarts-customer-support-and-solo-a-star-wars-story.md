@@ -1,8 +1,8 @@
 ---
-title: 'Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story'
+title: "Milkshake Flavored Pop-Tarts, Customer Support, and Solo: A Star Wars Story"
 slug: milkshake-flavored-pop-tarts-customer-support-and-solo-a-star-wars-story
 episode: 27
-date: '2019-01-17T13:39:48.000Z'
+date: "2019-01-17T13:39:48.000Z"
 categories:
   - Food
   - Movies
@@ -12,7 +12,7 @@ tags:
   - twistoflemon
   - star wars
 enclosure:
-  url: 'https://media.twistoflemonpod.com/027-lwatol-20190117.mp3'
+  url: "https://media.twistoflemonpod.com/027-lwatol-20190117.mp3"
   length: 33990651
   type: audio/mpeg
 summary: >-
@@ -35,4 +35,3 @@ To round it all out Stan gives Jon a hard time about Facebook and his superior t
 Thanks for listening. If you like what you hear leave us a review on iTunes!
 
 Stan Lemon & Jon Kohlmeier
-

@@ -2,7 +2,7 @@
 title: On The Interruption of WandaVision
 slug: on-the-interruption-of-wandavision
 episode: 120
-date: '2021-02-04T13:53:16.000Z'
+date: "2021-02-04T13:53:16.000Z"
 categories:
   - Marvel
   - Movies
@@ -12,7 +12,7 @@ tags:
   - star wars
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/120-lwatol-20210204.mp3'
+  url: "https://media.twistoflemonpod.com/120-lwatol-20210204.mp3"
   length: 39285508
   type: audio/mpeg
 summary: >-

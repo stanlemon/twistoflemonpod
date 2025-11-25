@@ -2,7 +2,7 @@
 title: How Do You Eat a Taco?
 slug: how-do-you-eat-a-taco
 episode: 156
-date: '2021-10-14T14:09:03.000Z'
+date: "2021-10-14T14:09:03.000Z"
 categories:
   - Food
   - Technology
@@ -12,7 +12,7 @@ tags:
   - tacos
   - ted lasso
 enclosure:
-  url: 'https://media.twistoflemonpod.com/156-lwatol-20211014.mp3'
+  url: "https://media.twistoflemonpod.com/156-lwatol-20211014.mp3"
   length: 41328376
   type: audio/mpeg
 summary: >-

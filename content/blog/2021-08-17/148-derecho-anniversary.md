@@ -2,7 +2,7 @@
 title: Derecho Anniversary
 slug: derecho-anniversary
 episode: 148
-date: '2021-08-17T14:25:43.000Z'
+date: "2021-08-17T14:25:43.000Z"
 categories:
   - Home Ownership
 tags:
@@ -11,7 +11,7 @@ tags:
   - vacation
   - home improvement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/148-lwatol-20210817.mp3'
+  url: "https://media.twistoflemonpod.com/148-lwatol-20210817.mp3"
   length: 34660981
   type: audio/mpeg
 summary: >-

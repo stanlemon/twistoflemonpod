@@ -1,14 +1,14 @@
 ---
-title: 'Stan Lemon, Inventor'
+title: "Stan Lemon, Inventor"
 slug: stan-lemon-inventor
 episode: 94
-date: '2020-07-30T12:03:00.000Z'
+date: "2020-07-30T12:03:00.000Z"
 categories:
   - Technology
 tags:
   - baseball
 enclosure:
-  url: 'https://media.twistoflemonpod.com/094-lwatol-20200730.mp3'
+  url: "https://media.twistoflemonpod.com/094-lwatol-20200730.mp3"
   length: 48158197
   type: audio/mpeg
 summary: >-

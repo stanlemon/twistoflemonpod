@@ -2,14 +2,14 @@
 title: Stan's Portillo's Experience
 slug: stans-portillos-experience
 episode: 9
-date: '2018-09-13T07:00:51.000Z'
+date: "2018-09-13T07:00:51.000Z"
 categories:
   - Food
 tags:
   - apple
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/009-lwatol-20180913.mp3'
+  url: "https://media.twistoflemonpod.com/009-lwatol-20180913.mp3"
   length: 38534890
   type: audio/mpeg
 summary: >-
@@ -30,4 +30,3 @@ We hope you enjoy!
 Sincerely,
 
 Jon Kohlmeier & Stan Lemon
-

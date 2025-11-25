@@ -2,14 +2,14 @@
 title: The 2018 MacBook Pro
 slug: 2018-macbook-pro
 episode: 2
-date: '2018-08-01T02:18:22.000Z'
+date: "2018-08-01T02:18:22.000Z"
 categories:
   - Technology
 tags:
   - apple
   - macbook
 enclosure:
-  url: 'https://media.twistoflemonpod.com/002-lwatol-20180801.mp3'
+  url: "https://media.twistoflemonpod.com/002-lwatol-20180801.mp3"
   length: 34180071
   type: audio/mpeg
 summary: >-

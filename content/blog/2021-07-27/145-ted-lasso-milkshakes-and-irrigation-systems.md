@@ -1,8 +1,8 @@
 ---
-title: 'Ted Lasso, Milkshakes, and Irrigation Systems'
+title: "Ted Lasso, Milkshakes, and Irrigation Systems"
 slug: ted-lasso-milkshakes-and-irrigation-systems
 episode: 145
-date: '2021-07-27T13:43:51.000Z'
+date: "2021-07-27T13:43:51.000Z"
 categories:
   - Home Ownership
   - Marvel
@@ -14,7 +14,7 @@ tags:
   - ted lasso
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/145-lwatol-20210727.mp3'
+  url: "https://media.twistoflemonpod.com/145-lwatol-20210727.mp3"
   length: 46911376
   type: audio/mpeg
 summary: >-

@@ -1,7 +1,7 @@
 ---
-title: 'Bonus Round: Captain Marvel'
+title: "Bonus Round: Captain Marvel"
 slug: bonus-round-captain-marvel
-date: '2019-03-09T20:07:18.000Z'
+date: "2019-03-09T20:07:18.000Z"
 categories:
   - Marvel
   - Movies
@@ -10,7 +10,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/b02-lwatol-20190309.mp3'
+  url: "https://media.twistoflemonpod.com/b02-lwatol-20190309.mp3"
   length: 47733249
   type: audio/mpeg
 summary: >-

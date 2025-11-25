@@ -2,7 +2,7 @@
 title: Where you're sure to find something that interests you
 slug: where-youre-sure-to-find-something-that-interests-you
 episode: 12
-date: '2018-10-04T07:00:36.000Z'
+date: "2018-10-04T07:00:36.000Z"
 categories:
   - Technology
 tags:
@@ -10,7 +10,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/012-lwatol-20181003.mp3'
+  url: "https://media.twistoflemonpod.com/012-lwatol-20181003.mp3"
   length: 30950522
   type: audio/mpeg
 summary: >-
@@ -37,4 +37,3 @@ I'm not even really sure where to start for this episode. We cover a plethora of
 Enjoy the show!
 
 Jon Kohlmeier
-

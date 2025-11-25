@@ -2,7 +2,7 @@
 title: Nashville Milkshake and Grills
 slug: nashville-milkshake-and-grills
 episode: 22
-date: '2018-12-13T13:12:47.000Z'
+date: "2018-12-13T13:12:47.000Z"
 categories:
   - Food
   - Home Ownership
@@ -12,7 +12,7 @@ tags:
   - nashville
   - christmas
 enclosure:
-  url: 'https://media.twistoflemonpod.com/022-lwatol-20181213.mp3'
+  url: "https://media.twistoflemonpod.com/022-lwatol-20181213.mp3"
   length: 52792662
   type: audio/mpeg
 summary: >-
@@ -40,6 +40,7 @@ Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+
 ### Show notes
 
 - [WordCamp US](https://2018.us.wordcamp.org)

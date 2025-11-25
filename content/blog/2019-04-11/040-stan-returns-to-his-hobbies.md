@@ -2,7 +2,7 @@
 title: Stan Returns to His Hobbies
 slug: stan-returns-to-his-hobbies
 episode: 40
-date: '2019-04-11T12:37:32.000Z'
+date: "2019-04-11T12:37:32.000Z"
 categories:
   - Finance
   - Food
@@ -14,7 +14,7 @@ tags:
   - milkshakes
   - meat rubs
 enclosure:
-  url: 'https://media.twistoflemonpod.com/040-lwatol-20190411.mp3'
+  url: "https://media.twistoflemonpod.com/040-lwatol-20190411.mp3"
   length: 47304001
   type: audio/mpeg
 summary: >-
@@ -39,4 +39,3 @@ Stan talks a little bit about Google and why he actively avoids using Google pro
 Thanks for Listening,
 
 Stan Lemon & Jon Kohlmeier
-

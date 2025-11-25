@@ -1,8 +1,8 @@
 ---
-title: 'The Rise of Skywalker, Disney+, and Investing'
+title: "The Rise of Skywalker, Disney+, and Investing"
 slug: the-rise-of-skywalker-disney-and-investing
 episode: 41
-date: '2019-04-18T11:57:56.000Z'
+date: "2019-04-18T11:57:56.000Z"
 categories:
   - Finance
   - Marvel
@@ -13,7 +13,7 @@ tags:
   - star wars
   - investing
 enclosure:
-  url: 'https://media.twistoflemonpod.com/041-lwatol-20190418.mp3'
+  url: "https://media.twistoflemonpod.com/041-lwatol-20190418.mp3"
   length: 49443559
   type: audio/mpeg
 summary: >-

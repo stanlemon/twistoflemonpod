@@ -2,7 +2,7 @@
 title: An Episode for Elizabeth
 slug: an-episode-for-liz
 episode: 61
-date: '2019-09-05T14:03:27.000Z'
+date: "2019-09-05T14:03:27.000Z"
 categories:
   - Productivity
   - Technology
@@ -11,7 +11,7 @@ tags:
   - star wars
   - minimalism
 enclosure:
-  url: 'https://media.twistoflemonpod.com/061-lwatol-20190905.mp3'
+  url: "https://media.twistoflemonpod.com/061-lwatol-20190905.mp3"
   length: 39219782
   type: audio/mpeg
 summary: >-

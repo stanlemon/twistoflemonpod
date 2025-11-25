@@ -2,13 +2,13 @@
 title: What to look for when looking at Houses (Top 10!)
 slug: what-to-look-for-when-looking-at-houses-top-10
 episode: 10
-date: '2018-09-20T07:00:24.000Z'
+date: "2018-09-20T07:00:24.000Z"
 categories:
   - House Hunting
 tags:
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/010-lwatol-20180919.mp3'
+  url: "https://media.twistoflemonpod.com/010-lwatol-20180919.mp3"
   length: 48281551
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: The Inklings of Stan and Jon
 slug: the-inklings-of-stan-and-jon
 episode: 122
-date: '2021-02-18T14:57:31.000Z'
+date: "2021-02-18T14:57:31.000Z"
 categories:
   - Books
   - Marvel
@@ -13,7 +13,7 @@ tags:
   - apple
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/122-lwatol-20210218.mp3'
+  url: "https://media.twistoflemonpod.com/122-lwatol-20210218.mp3"
   length: 43459582
   type: audio/mpeg
 summary: >-

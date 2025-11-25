@@ -2,14 +2,14 @@
 title: Headed into a New Year
 slug: headed-into-a-new-year
 episode: 115
-date: '2020-12-31T13:28:22.000Z'
+date: "2020-12-31T13:28:22.000Z"
 categories:
   - Lifestyle
 tags:
   - goals
   - new year
 enclosure:
-  url: 'https://media.twistoflemonpod.com/115-lwatol-20201231.mp3'
+  url: "https://media.twistoflemonpod.com/115-lwatol-20201231.mp3"
   length: 29905821
   type: audio/mpeg
 summary: >-

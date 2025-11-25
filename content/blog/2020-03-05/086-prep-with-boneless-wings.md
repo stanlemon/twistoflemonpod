@@ -2,7 +2,7 @@
 title: Prep with Boneless Wings
 slug: prep-with-boneless-wings
 episode: 86
-date: '2020-03-05T12:53:13.000Z'
+date: "2020-03-05T12:53:13.000Z"
 categories:
   - Food
   - Home Ownership
@@ -11,7 +11,7 @@ tags:
   - meat rubs by fenker
   - music
 enclosure:
-  url: 'https://media.twistoflemonpod.com/086-lwatol-20200305.mp3'
+  url: "https://media.twistoflemonpod.com/086-lwatol-20200305.mp3"
   length: 31950329
   type: audio/mpeg
 summary: >-

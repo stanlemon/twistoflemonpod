@@ -2,7 +2,7 @@
 title: Prime Day Turned Problems with Big Tech
 slug: prime-day-turned-problems-with-big-tech
 episode: 54
-date: '2019-07-18T17:10:02.000Z'
+date: "2019-07-18T17:10:02.000Z"
 categories:
   - Technology
 tags:
@@ -12,7 +12,7 @@ tags:
   - politics
   - ipad
 enclosure:
-  url: 'https://media.twistoflemonpod.com/053-lwatol-20190718.mp3'
+  url: "https://media.twistoflemonpod.com/053-lwatol-20190718.mp3"
   length: 46259955
   type: audio/mpeg
 summary: >-

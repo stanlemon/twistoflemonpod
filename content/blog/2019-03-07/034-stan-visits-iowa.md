@@ -2,13 +2,13 @@
 title: Stan Visits Iowa
 slug: stan-visits-iowa
 episode: 34
-date: '2019-03-07T13:24:57.000Z'
+date: "2019-03-07T13:24:57.000Z"
 categories:
   - Food
 tags:
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/034-lwatol-20190307.mp3'
+  url: "https://media.twistoflemonpod.com/034-lwatol-20190307.mp3"
   length: 55095202
   type: audio/mpeg
 summary: >-
@@ -33,4 +33,3 @@ We'll talk more about Stan's Iowa visit next week. Until then - stay sour!
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

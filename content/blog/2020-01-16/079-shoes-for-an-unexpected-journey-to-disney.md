@@ -2,13 +2,13 @@
 title: Shoes for An Unexpected Journey to Disney
 slug: shoes-for-an-unexpected-journey-to-disney
 episode: 79
-date: '2020-01-16T13:13:41.000Z'
+date: "2020-01-16T13:13:41.000Z"
 categories:
   - Books
 tags:
   - shoes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/079-lwatol-20200116.mp3'
+  url: "https://media.twistoflemonpod.com/079-lwatol-20200116.mp3"
   length: 30432011
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: Stan's Christmas in September
 slug: stans-christmas-in-september
 episode: 62
-date: '2019-09-12T21:01:49.000Z'
+date: "2019-09-12T21:01:49.000Z"
 categories:
   - Food
   - Technology
@@ -17,7 +17,7 @@ tags:
   - ipad
   - christmas
 enclosure:
-  url: 'https://media.twistoflemonpod.com/062-lwatol-20190912.mp3'
+  url: "https://media.twistoflemonpod.com/062-lwatol-20190912.mp3"
   length: 22474124
   type: audio/mpeg
 summary: >-
@@ -36,4 +36,3 @@ Finally we get to the news of the day, Stan's Christmas in September, the apple 
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-

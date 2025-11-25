@@ -2,7 +2,7 @@
 title: But Not the Anniversary Episode.
 slug: but-not-the-anniversary-episode
 episode: 52
-date: '2019-07-04T15:17:11.000Z'
+date: "2019-07-04T15:17:11.000Z"
 categories:
   - Finance
   - Food
@@ -18,7 +18,7 @@ tags:
   - spiderman
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/052-lwatol-20190704.mp3'
+  url: "https://media.twistoflemonpod.com/052-lwatol-20190704.mp3"
   length: 31162427
   type: audio/mpeg
 summary: >-
@@ -41,4 +41,3 @@ Another core tennant of the podcast is Marvel. So we talk about going to see Spi
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-

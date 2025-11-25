@@ -2,7 +2,7 @@
 title: Life Tips and Follow Ups​
 slug: life-tips-and-follow-ups
 episode: 68
-date: '2019-10-24T12:42:38.000Z'
+date: "2019-10-24T12:42:38.000Z"
 categories:
   - Home Ownership
   - Movies
@@ -15,7 +15,7 @@ tags:
   - milkshakes
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/068-lwatol-20191024.mp3'
+  url: "https://media.twistoflemonpod.com/068-lwatol-20191024.mp3"
   length: 39596585
   type: audio/mpeg
 summary: >-

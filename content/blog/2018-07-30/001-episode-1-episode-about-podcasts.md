@@ -2,13 +2,13 @@
 title: A Podcast Episode About Podcasts?
 slug: episode-about-podcasts
 episode: 1
-date: '2018-07-30T23:20:55.000Z'
+date: "2018-07-30T23:20:55.000Z"
 categories:
   - Lifestyle
 tags:
   - vacation
 enclosure:
-  url: 'https://media.twistoflemonpod.com/001-lwatol-20180802.mp3'
+  url: "https://media.twistoflemonpod.com/001-lwatol-20180802.mp3"
   length: 63070209
   type: audio/mpeg
 summary: >-

@@ -1,7 +1,7 @@
 ---
 title: Some Rather Sour Grievances - Festivus 2018
 slug: some-rather-sour-grievances-festivus-2018
-date: '2018-12-23T19:24:36.000Z'
+date: "2018-12-23T19:24:36.000Z"
 categories:
   - Lifestyle
 tags:

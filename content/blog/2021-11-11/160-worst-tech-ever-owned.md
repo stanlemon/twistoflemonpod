@@ -2,13 +2,13 @@
 title: Worst Tech Ever Owned
 slug: worst-tech-ever-owned
 episode: 160
-date: '2021-11-11T13:00:57.000Z'
+date: "2021-11-11T13:00:57.000Z"
 categories:
   - Technology
 tags:
   - iPhone
 enclosure:
-  url: 'https://media.twistoflemonpod.com/160-lwatol-20211111.mp3'
+  url: "https://media.twistoflemonpod.com/160-lwatol-20211111.mp3"
   length: 49415421
   type: audio/mpeg
 summary: >-

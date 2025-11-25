@@ -5,6 +5,7 @@ This document outlines recommended HTTP headers for the Life with a Twist of Lem
 ## Security Headers
 
 ### Content Security Policy (CSP)
+
 Prevents XSS attacks and unauthorized resource loading.
 
 ```
@@ -12,12 +13,14 @@ Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; 
 ```
 
 **Explanation:**
+
 - `default-src 'self'` - Only allow resources from same origin
 - `script-src 'self' 'unsafe-inline'` - Allow inline scripts (needed for Plyr player)
 - `media-src https://media.twistoflemonpod.com` - Allow audio from S3 bucket
 - `frame-ancestors 'none'` - Prevent clickjacking
 
 ### X-Content-Type-Options
+
 Prevents MIME type sniffing.
 
 ```
@@ -25,6 +28,7 @@ X-Content-Type-Options: nosniff
 ```
 
 ### X-Frame-Options
+
 Prevents clickjacking attacks.
 
 ```
@@ -32,6 +36,7 @@ X-Frame-Options: DENY
 ```
 
 ### X-XSS-Protection
+
 Enables browser XSS protection.
 
 ```
@@ -39,6 +44,7 @@ X-XSS-Protection: 1; mode=block
 ```
 
 ### Referrer-Policy
+
 Controls referrer information sent with requests.
 
 ```
@@ -46,6 +52,7 @@ Referrer-Policy: strict-origin-when-cross-origin
 ```
 
 ### Permissions-Policy
+
 Controls browser features and APIs.
 
 ```
@@ -55,35 +62,43 @@ Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=()
 ## Performance Headers
 
 ### Cache-Control
+
 Optimize caching for static assets.
 
 **For HTML files:**
+
 ```
 Cache-Control: public, max-age=0, must-revalidate
 ```
 
 **For CSS/JS files:**
+
 ```
 Cache-Control: public, max-age=31536000, immutable
 ```
 
 **For images:**
+
 ```
 Cache-Control: public, max-age=31536000, immutable
 ```
 
 **For audio files (on S3):**
+
 ```
 Cache-Control: public, max-age=31536000
 ```
 
 ### Compression
+
 Enable compression for text-based resources.
 
 ```
 Content-Encoding: gzip
 ```
+
 or
+
 ```
 Content-Encoding: br
 ```
@@ -130,7 +145,7 @@ To enable this, add to `.eleventy.js`:
 
 ```javascript
 eleventyConfig.addPassthroughCopy({
-  "static/_headers": "_headers"
+  "static/_headers": "_headers",
 });
 ```
 

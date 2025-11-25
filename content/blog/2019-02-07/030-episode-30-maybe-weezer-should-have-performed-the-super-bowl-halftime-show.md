@@ -2,7 +2,7 @@
 title: Maybe Weezer Should have Performed  the Super Bowl Halftime Show
 slug: maybe-weezer-should-have-performed-the-super-bowl-halftime-show
 episode: 30
-date: '2019-02-07T12:58:41.000Z'
+date: "2019-02-07T12:58:41.000Z"
 categories:
   - Food
   - Technology
@@ -10,7 +10,7 @@ tags:
   - football
   - pizza
 enclosure:
-  url: 'https://media.twistoflemonpod.com/030-lwatol-20190207.mp3'
+  url: "https://media.twistoflemonpod.com/030-lwatol-20190207.mp3"
   length: 39451769
   type: audio/mpeg
 summary: >-
@@ -33,4 +33,3 @@ Stan Lemon & Jon Kohlmeier
 P.S. - Jon's audio quality is terrible. We'll get it fixed.
 
 "You don't have to listen to the show to leave a review. You don't have to listen to the show to give it 5 stars. In fact, if you don't listen you're more likely to give it 5 stars!" - Stanley C. Lemon.
-

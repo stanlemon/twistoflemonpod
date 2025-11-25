@@ -2,7 +2,7 @@
 title: Kohlmeier Updates
 slug: kohlmeier-updates
 episode: 105
-date: '2020-10-22T13:41:17.000Z'
+date: "2020-10-22T13:41:17.000Z"
 categories:
   - Food
   - Home Ownership
@@ -11,7 +11,7 @@ tags:
   - meat rubs
   - lawn care
 enclosure:
-  url: 'https://media.twistoflemonpod.com/105-lwatol-20201022.mp3'
+  url: "https://media.twistoflemonpod.com/105-lwatol-20201022.mp3"
   length: 36694259
   type: audio/mpeg
 summary: >-

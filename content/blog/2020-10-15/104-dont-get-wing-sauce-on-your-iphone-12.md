@@ -2,14 +2,14 @@
 title: Don't Get Wing Sauce on your iPhone 12
 slug: dont-get-wing-sauce-on-your-iphone-12
 episode: 104
-date: '2020-10-15T12:48:22.000Z'
+date: "2020-10-15T12:48:22.000Z"
 categories:
   - Technology
 tags:
   - apple
   - iPhone
 enclosure:
-  url: 'https://media.twistoflemonpod.com/104-lwatol-20201015.mp3'
+  url: "https://media.twistoflemonpod.com/104-lwatol-20201015.mp3"
   length: 44526344
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: Smoking Meat and Being Nerds
 slug: smoking-meat-and-being-nerds
 episode: 47
-date: '2019-05-30T13:17:00.000Z'
+date: "2019-05-30T13:17:00.000Z"
 categories:
   - Food
   - Home Ownership
@@ -14,7 +14,7 @@ tags:
   - picard
   - star trek
 enclosure:
-  url: 'https://media.twistoflemonpod.com/047-lwatol-20190530.mp3'
+  url: "https://media.twistoflemonpod.com/047-lwatol-20190530.mp3"
   length: 37186221
   type: audio/mpeg
 summary: >-

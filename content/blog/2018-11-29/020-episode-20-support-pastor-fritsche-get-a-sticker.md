@@ -1,8 +1,8 @@
 ---
-title: 'Support Pastor Fritsche, get a Sticker.'
+title: "Support Pastor Fritsche, get a Sticker."
 slug: support-pastor-fritsche-get-a-sticker
 episode: 20
-date: '2018-11-29T08:00:56.000Z'
+date: "2018-11-29T08:00:56.000Z"
 categories:
   - Technology
   - Theology
@@ -12,7 +12,7 @@ tags:
   - email
   - baseball
 enclosure:
-  url: 'https://media.twistoflemonpod.com/020-lwatol-20181129.mp3'
+  url: "https://media.twistoflemonpod.com/020-lwatol-20181129.mp3"
   length: 47167775
   type: audio/mpeg
 summary: >-

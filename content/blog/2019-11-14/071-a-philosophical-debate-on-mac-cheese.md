@@ -2,7 +2,7 @@
 title: A Philosophical Debate on Mac & Cheese
 slug: a-philosophical-debate-on-mac-cheese
 episode: 71
-date: '2019-11-14T13:10:51.000Z'
+date: "2019-11-14T13:10:51.000Z"
 categories:
   - Food
 tags:
@@ -10,7 +10,7 @@ tags:
   - minimalism
   - grilled cheese
 enclosure:
-  url: 'https://media.twistoflemonpod.com/071-lwatol-20191114.mp3'
+  url: "https://media.twistoflemonpod.com/071-lwatol-20191114.mp3"
   length: 31543735
   type: audio/mpeg
 summary: >-

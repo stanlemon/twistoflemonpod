@@ -2,7 +2,7 @@
 title: The Milkshake that Wasn't
 slug: the-milkshake-that-wasnt
 episode: 32
-date: '2019-02-21T12:26:22.000Z'
+date: "2019-02-21T12:26:22.000Z"
 categories:
   - Food
   - Technology
@@ -11,7 +11,7 @@ tags:
   - music
   - snowblower
 enclosure:
-  url: 'https://media.twistoflemonpod.com/032-lwatol-20190221.mp3'
+  url: "https://media.twistoflemonpod.com/032-lwatol-20190221.mp3"
   length: 34823863
   type: audio/mpeg
 summary: >-
@@ -36,4 +36,3 @@ Grab a milkshake and listen in!
 Thanks,
 
 Stan Lemon & Jon Kohlmeier
-

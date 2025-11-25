@@ -2,7 +2,7 @@
 title: Jon has friends other than Stan!
 slug: jon-has-friends-other-than-stan
 episode: 44
-date: '2019-05-09T12:42:46.000Z'
+date: "2019-05-09T12:42:46.000Z"
 categories:
   - Food
   - Marvel
@@ -13,7 +13,7 @@ tags:
   - endgame
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/044-lwatol-20190509.mp3'
+  url: "https://media.twistoflemonpod.com/044-lwatol-20190509.mp3"
   length: 32201905
   type: audio/mpeg
 summary: >-
@@ -33,4 +33,3 @@ Because we've been on a Marvel kick we briefly touch on the new Spider-Man: Far 
 Thanks for listening. If you leave a review we'll read it on air. And send stickers!
 
 Stan Lemon & Jon Kohlmeier
-

@@ -2,7 +2,7 @@
 title: Rise of the Resistance Resists the Lemon
 slug: rise-of-the-resistance-resists-the-lemon
 episode: 84
-date: '2020-02-20T14:38:44.000Z'
+date: "2020-02-20T14:38:44.000Z"
 categories:
   - Movies
 tags:
@@ -12,7 +12,7 @@ tags:
   - star trek
   - disney
 enclosure:
-  url: 'https://media.twistoflemonpod.com/084-lwatol-20200220.mp3'
+  url: "https://media.twistoflemonpod.com/084-lwatol-20200220.mp3"
   length: 32321289
   type: audio/mpeg
 summary: >-

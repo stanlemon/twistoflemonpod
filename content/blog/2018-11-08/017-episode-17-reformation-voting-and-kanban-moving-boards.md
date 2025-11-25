@@ -1,8 +1,8 @@
 ---
-title: 'Reformation, Voting, and Kanban Moving Boards'
+title: "Reformation, Voting, and Kanban Moving Boards"
 slug: reformation-voting-and-kanban-moving-boards
 episode: 17
-date: '2018-11-08T13:00:16.000Z'
+date: "2018-11-08T13:00:16.000Z"
 categories:
   - House Hunting
   - Productivity
@@ -13,7 +13,7 @@ tags:
   - milkshakes
   - music
 enclosure:
-  url: 'https://media.twistoflemonpod.com/017-lwatol-20181108.mp3'
+  url: "https://media.twistoflemonpod.com/017-lwatol-20181108.mp3"
   length: 32295258
   type: audio/mpeg
 summary: >-
@@ -40,6 +40,7 @@ Sincerely,
 
 Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+
 ## Show notes:
 
 Uh... Tweet [@twistoflemonpod](https://twitter.com/twistoflemonpod) if there was something I should have linked here.

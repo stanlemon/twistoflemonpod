@@ -2,7 +2,7 @@
 title: One Year with a Twist of Lemon
 slug: one-year-with-a-twist-of-lemon
 episode: 55
-date: '2019-07-25T14:42:49.000Z'
+date: "2019-07-25T14:42:49.000Z"
 categories:
   - Marvel
 tags:
@@ -10,7 +10,7 @@ tags:
   - grilled cheese
   - podcast
 enclosure:
-  url: 'https://media.twistoflemonpod.com/055-lwatol-20190725.mp3'
+  url: "https://media.twistoflemonpod.com/055-lwatol-20190725.mp3"
   length: 45103035
   type: audio/mpeg
 summary: >-
@@ -33,4 +33,3 @@ Thanks for wasting spending the last year with us. If you feel so inclined pleas
 Stay Sour, friends,
 
 Stan Lemon & Jon Kohlmeier
-

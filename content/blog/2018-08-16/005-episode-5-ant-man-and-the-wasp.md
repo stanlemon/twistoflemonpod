@@ -2,13 +2,13 @@
 title: Ant Man and the Wasp
 slug: ant-man-and-the-wasp
 episode: 5
-date: '2018-08-16T07:00:40.000Z'
+date: "2018-08-16T07:00:40.000Z"
 categories:
   - Movies
 tags:
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/005-lwatol-20180816.mp3'
+  url: "https://media.twistoflemonpod.com/005-lwatol-20180816.mp3"
   length: 33459973
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: The Lemon gets Political
 slug: the-lemon-gets-political
 episode: 103
-date: '2020-10-08T13:52:25.000Z'
+date: "2020-10-08T13:52:25.000Z"
 categories:
   - Technology
 tags:
@@ -12,7 +12,7 @@ tags:
   - shoes
   - meat rubs
 enclosure:
-  url: 'https://media.twistoflemonpod.com/103-lwatol-20201008.mp3'
+  url: "https://media.twistoflemonpod.com/103-lwatol-20201008.mp3"
   length: 36976122
   type: audio/mpeg
 summary: >-

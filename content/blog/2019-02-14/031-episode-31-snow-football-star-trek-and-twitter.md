@@ -1,8 +1,8 @@
 ---
-title: 'Snow, Football, Star Trek and Twitter'
+title: "Snow, Football, Star Trek and Twitter"
 slug: snow-football-star-trek-and-twitter
 episode: 31
-date: '2019-02-14T13:11:53.000Z'
+date: "2019-02-14T13:11:53.000Z"
 categories:
   - Home Ownership
   - Movies
@@ -12,7 +12,7 @@ tags:
   - star trek
   - football
 enclosure:
-  url: 'https://media.twistoflemonpod.com/031-lwatol-20190214.mp3'
+  url: "https://media.twistoflemonpod.com/031-lwatol-20190214.mp3"
   length: 40080334
   type: audio/mpeg
 summary: >-
@@ -34,4 +34,3 @@ Leave a review on iTunes. We'll read it on air and if you send Stan your address
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

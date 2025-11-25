@@ -2,7 +2,7 @@
 title: WandaVision - Initial Reactions
 slug: wandavision-initial-reactions
 episode: 118
-date: '2021-01-21T14:54:06.000Z'
+date: "2021-01-21T14:54:06.000Z"
 categories:
   - Finance
   - Marvel
@@ -14,7 +14,7 @@ tags:
   - disney+
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/118-lwatol-20210121.mp3'
+  url: "https://media.twistoflemonpod.com/118-lwatol-20210121.mp3"
   length: 48373249
   type: audio/mpeg
 summary: >-

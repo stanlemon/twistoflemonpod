@@ -1,8 +1,8 @@
 ---
-title: 'Lawnmowing, email newsletters, and what we''re reading.'
+title: "Lawnmowing, email newsletters, and what we're reading."
 slug: lawnmowing-email-newsletters-and-what-were-reading
 episode: 45
-date: '2019-05-16T11:28:51.000Z'
+date: "2019-05-16T11:28:51.000Z"
 categories:
   - Home Ownership
   - Technology
@@ -10,7 +10,7 @@ tags:
   - email
   - lawn care
 enclosure:
-  url: 'https://media.twistoflemonpod.com/045-lwatol-20190516.mp3'
+  url: "https://media.twistoflemonpod.com/045-lwatol-20190516.mp3"
   length: 47306930
   type: audio/mpeg
 summary: >-
@@ -35,4 +35,3 @@ That leads into the current book that Stan is reading: Team of Rivals. Stan high
 Thanks for listening!
 
 Stan Lemon & Jon Kohlmeier
-

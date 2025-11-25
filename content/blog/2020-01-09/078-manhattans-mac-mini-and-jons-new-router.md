@@ -1,8 +1,8 @@
 ---
-title: 'Manhattans, Mac mini, and Jon''s new Router'
+title: "Manhattans, Mac mini, and Jon's new Router"
 slug: manhattans-mac-mini-and-jons-new-router
 episode: 78
-date: '2020-01-09T15:16:55.000Z'
+date: "2020-01-09T15:16:55.000Z"
 categories:
   - Food
   - Technology
@@ -15,7 +15,7 @@ tags:
   - apple
   - mac mini
 enclosure:
-  url: 'https://media.twistoflemonpod.com/078-lwatol-20200109.mp3'
+  url: "https://media.twistoflemonpod.com/078-lwatol-20200109.mp3"
   length: 34131468
   type: audio/mpeg
 summary: >-

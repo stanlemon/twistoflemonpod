@@ -2,7 +2,7 @@
 title: Jon Moved In!
 slug: jon-moved-in
 episode: 19
-date: '2018-11-22T13:40:16.000Z'
+date: "2018-11-22T13:40:16.000Z"
 categories:
   - House Hunting
 tags:
@@ -10,7 +10,7 @@ tags:
   - thanksgiving
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/019-lwatol-20181122.mp3'
+  url: "https://media.twistoflemonpod.com/019-lwatol-20181122.mp3"
   length: 38320539
   type: audio/mpeg
 summary: >-

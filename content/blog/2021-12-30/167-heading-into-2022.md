@@ -2,14 +2,14 @@
 title: Heading into 2022
 slug: heading-into-2022
 episode: 167
-date: '2021-12-30T13:33:18.000Z'
+date: "2021-12-30T13:33:18.000Z"
 categories:
   - Lifestyle
 tags:
   - goals
   - new year
 enclosure:
-  url: 'https://media.twistoflemonpod.com/167-lwatol-20211230.mp3'
+  url: "https://media.twistoflemonpod.com/167-lwatol-20211230.mp3"
   length: 37143923
   type: audio/mpeg
 summary: >-
@@ -25,4 +25,4 @@ Thanks for listening and we'll talk to you soon,
 
 Stan Lemon & Jon Kohlmeier
 
-__This is our last episode, for awhile... but don't unsubscribe! You never know when we might pop back in.__
+**This is our last episode, for awhile... but don't unsubscribe! You never know when we might pop back in.**

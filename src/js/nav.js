@@ -1,38 +1,38 @@
 // Handles header compaction and podcast platform drawer behavior
 (function () {
   const win = window;
-  const nav = document.querySelector('.nav');
+  const nav = document.querySelector(".nav");
   const body = document.body;
   if (!nav || !body || !win) return;
 
-  const isHome = body.classList.contains('page-home');
-  const mobileQuery = win.matchMedia('(max-width: 768px)');
+  const isHome = body.classList.contains("page-home");
+  const mobileQuery = win.matchMedia("(max-width: 768px)");
   const getThreshold = (isMobile) => (isMobile ? 220 : 80);
   let threshold = getThreshold(mobileQuery.matches);
-  let isCompact = nav.classList.contains('nav--compact');
+  let isCompact = nav.classList.contains("nav--compact");
   let ticking = false;
-  const platformToggle = nav.querySelector('.nav__platform-toggle');
-  const menuToggle = nav.querySelector('.nav__menu-toggle');
-  const navLinks = nav.querySelector('.nav__links');
+  const platformToggle = nav.querySelector(".nav__platform-toggle");
+  const menuToggle = nav.querySelector(".nav__menu-toggle");
+  const navLinks = nav.querySelector(".nav__links");
 
   const closePlatforms = () => {
-    nav.classList.remove('nav--platforms-open');
+    nav.classList.remove("nav--platforms-open");
     if (platformToggle) {
-      platformToggle.setAttribute('aria-expanded', 'false');
+      platformToggle.setAttribute("aria-expanded", "false");
     }
   };
 
   const closeMenu = () => {
-    nav.classList.remove('nav--menu-open');
+    nav.classList.remove("nav--menu-open");
     if (menuToggle) {
-      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute("aria-expanded", "false");
     }
   };
 
   const applyCompactState = (scrollY) => {
     const shouldCompact = !isHome || scrollY > threshold;
     if (shouldCompact !== isCompact) {
-      nav.classList.toggle('nav--compact', shouldCompact);
+      nav.classList.toggle("nav--compact", shouldCompact);
       isCompact = shouldCompact;
     }
     if (!shouldCompact) {
@@ -50,28 +50,28 @@
   };
 
   if (platformToggle) {
-    platformToggle.addEventListener('click', () => {
+    platformToggle.addEventListener("click", () => {
       closeMenu();
-      const expanded = platformToggle.getAttribute('aria-expanded') === 'true';
+      const expanded = platformToggle.getAttribute("aria-expanded") === "true";
       const next = !expanded;
-      platformToggle.setAttribute('aria-expanded', String(next));
-      nav.classList.toggle('nav--platforms-open', next);
+      platformToggle.setAttribute("aria-expanded", String(next));
+      nav.classList.toggle("nav--platforms-open", next);
     });
   }
 
   if (menuToggle && navLinks) {
-    menuToggle.addEventListener('click', () => {
-      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+    menuToggle.addEventListener("click", () => {
+      const expanded = menuToggle.getAttribute("aria-expanded") === "true";
       const next = !expanded;
-      menuToggle.setAttribute('aria-expanded', String(next));
+      menuToggle.setAttribute("aria-expanded", String(next));
       if (next) {
         closePlatforms();
       }
-      nav.classList.toggle('nav--menu-open', next);
+      nav.classList.toggle("nav--menu-open", next);
     });
 
-    navLinks.querySelectorAll('a').forEach((link) => {
-      link.addEventListener('click', () => {
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
         if (mobileQuery.matches) {
           closeMenu();
         }
@@ -96,14 +96,14 @@
 
   scheduleCompactUpdate();
   if (isHome) {
-    win.addEventListener('scroll', onScroll, { passive: true });
+    win.addEventListener("scroll", onScroll, { passive: true });
   }
 
   if (mobileQuery.addEventListener) {
-    mobileQuery.addEventListener('change', onViewportChange);
+    mobileQuery.addEventListener("change", onViewportChange);
   } else if (mobileQuery.addListener) {
     mobileQuery.addListener(onViewportChange);
   }
 
-  win.addEventListener('resize', onViewportChange);
+  win.addEventListener("resize", onViewportChange);
 })();

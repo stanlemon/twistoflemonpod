@@ -2,7 +2,7 @@
 title: Meat Rubs by Fenker - Hamburger Edition
 slug: meat-rubs-by-fenker-hamburger-edition
 episode: 102
-date: '2020-10-01T13:14:47.000Z'
+date: "2020-10-01T13:14:47.000Z"
 categories:
   - Food
   - Home Ownership
@@ -11,7 +11,7 @@ tags:
   - meat rubs by fenker
   - meat rubs
 enclosure:
-  url: 'https://media.twistoflemonpod.com/102-lwatol-20201001.mp3'
+  url: "https://media.twistoflemonpod.com/102-lwatol-20201001.mp3"
   length: 30921609
   type: audio/mpeg
 summary: >-

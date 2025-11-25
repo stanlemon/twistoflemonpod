@@ -1,8 +1,8 @@
 ---
-title: 'Work When You Work, But Don''t Overwork'
+title: "Work When You Work, But Don't Overwork"
 slug: work-when-you-work-but-dont-overwork
 episode: 28
-date: '2019-01-24T12:38:34.000Z'
+date: "2019-01-24T12:38:34.000Z"
 categories:
   - Career Advice
   - Productivity
@@ -10,7 +10,7 @@ categories:
 tags:
   - email
 enclosure:
-  url: 'https://media.twistoflemonpod.com/028-lwatol-20190124.mp3'
+  url: "https://media.twistoflemonpod.com/028-lwatol-20190124.mp3"
   length: 43327983
   type: audio/mpeg
 summary: >-
@@ -33,4 +33,3 @@ Listen in, let us know what you think!
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

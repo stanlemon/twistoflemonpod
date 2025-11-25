@@ -2,7 +2,7 @@
 title: M1 Pro MacBook Pros
 slug: m1-pro-macbook-pros
 episode: 157
-date: '2021-10-21T14:42:37.000Z'
+date: "2021-10-21T14:42:37.000Z"
 categories:
   - Food
   - Technology
@@ -11,7 +11,7 @@ tags:
   - macbook
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/157-lwatol-20211021.mp3'
+  url: "https://media.twistoflemonpod.com/157-lwatol-20211021.mp3"
   length: 60022645
   type: audio/mpeg
 summary: >-

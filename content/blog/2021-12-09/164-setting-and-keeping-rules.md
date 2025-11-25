@@ -2,7 +2,7 @@
 title: Setting and Keeping Rules
 slug: setting-and-keeping-rules
 episode: 164
-date: '2021-12-09T13:38:10.000Z'
+date: "2021-12-09T13:38:10.000Z"
 categories:
   - Marvel
   - Productivity
@@ -11,7 +11,7 @@ tags:
   - marvel
   - hawkeye
 enclosure:
-  url: 'https://media.twistoflemonpod.com/164-lwatol-20211209.mp3'
+  url: "https://media.twistoflemonpod.com/164-lwatol-20211209.mp3"
   length: 33348227
   type: audio/mpeg
 summary: >-

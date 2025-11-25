@@ -2,7 +2,7 @@
 title: The Budget Episode
 slug: the-budget-episode
 episode: 25
-date: '2019-01-03T12:31:14.000Z'
+date: "2019-01-03T12:31:14.000Z"
 categories:
   - Finance
   - Productivity
@@ -10,7 +10,7 @@ tags:
   - budgeting
   - twistoflemon
 enclosure:
-  url: 'https://media.twistoflemonpod.com/025-lwatol-20190103.mp3'
+  url: "https://media.twistoflemonpod.com/025-lwatol-20190103.mp3"
   length: 36343750
   type: audio/mpeg
 summary: >-
@@ -36,4 +36,3 @@ Listen in and feel free to [send us questions](https://twistoflemonpod.com/conta
 Happy New Year!
 
 Stan Lemon & Jon Kohlmeier
-

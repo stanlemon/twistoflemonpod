@@ -2,13 +2,13 @@
 title: The Episode Where We Spoil The Rise of Skywalker
 slug: the-episode-where-we-spoil-the-rise-of-skywalker
 episode: 76
-date: '2019-12-26T16:00:45.000Z'
+date: "2019-12-26T16:00:45.000Z"
 categories:
   - Movies
 tags:
   - star wars
 enclosure:
-  url: 'https://media.twistoflemonpod.com/076-lwatol-20191236.mp3'
+  url: "https://media.twistoflemonpod.com/076-lwatol-20191236.mp3"
   length: 48684000
   type: audio/mpeg
 summary: >-

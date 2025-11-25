@@ -2,7 +2,7 @@
 title: Goals for 2020
 slug: goals-for-2020
 episode: 77
-date: '2020-01-02T14:10:01.000Z'
+date: "2020-01-02T14:10:01.000Z"
 categories:
   - Lifestyle
 tags:
@@ -10,7 +10,7 @@ tags:
   - new year
   - mortgage
 enclosure:
-  url: 'https://media.twistoflemonpod.com/077-lwatol-20200102.mp3'
+  url: "https://media.twistoflemonpod.com/077-lwatol-20200102.mp3"
   length: 30749551
   type: audio/mpeg
 summary: >-

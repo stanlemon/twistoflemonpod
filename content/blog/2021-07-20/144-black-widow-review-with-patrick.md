@@ -2,7 +2,7 @@
 title: Black Widow Review with Patrick
 slug: black-widow-review-with-patrick
 episode: 144
-date: '2021-07-20T14:58:52.000Z'
+date: "2021-07-20T14:58:52.000Z"
 categories:
   - Marvel
   - Movies
@@ -11,7 +11,7 @@ tags:
   - marvel
   - black widow
 enclosure:
-  url: 'https://media.twistoflemonpod.com/144-lwatol-20210720.mp3'
+  url: "https://media.twistoflemonpod.com/144-lwatol-20210720.mp3"
   length: 78014209
   type: audio/mpeg
 summary: >-

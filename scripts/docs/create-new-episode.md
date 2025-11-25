@@ -18,12 +18,14 @@ The `create-new-episode.js` script is a complete, automated workflow that:
 Before running the script, ensure you have:
 
 1. **Deepgram API Key**
+
    ```bash
    # Add to .env file:
    DEEPGRAM_API_KEY=your_api_key_here
    ```
 
 2. **Ollama Installed and Running**
+
    ```bash
    brew install ollama
    brew services start ollama
@@ -50,10 +52,10 @@ node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new
 
 ### Optional Flags
 
-| Flag | Description |
-| --- | --- |
+| Flag                   | Description                                                                                                                                                        |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `--skip-transcription` | Skips the Deepgram transcription and AI summarization steps. Transcript and episode stubs are still generated with placeholder text so you can fill them in later. |
-| `--upload` | Uploads the provided MP3 to Cloudflare R2 (S3-compatible) after the files are generated. Requires the `aws` CLI to be configured for your R2 bucket. |
+| `--upload`             | Uploads the provided MP3 to Cloudflare R2 (S3-compatible) after the files are generated. Requires the `aws` CLI to be configured for your R2 bucket.               |
 
 When using `--upload`, you can configure the destination via environment variables:
 
@@ -77,6 +79,7 @@ The script will prompt you for:
 3. **Publish date** (format: `YYYY-MM-DD`, or press Enter for today)
 
 Example interaction:
+
 ```
 Episode number: 173
 Episode title: New Adventures in Podcasting
@@ -90,6 +93,7 @@ The script creates the following files in `content/blog/YYYY-MM-DD/`:
 ### 1. Episode Post (`NNN-slug.md`)
 
 Main episode file with:
+
 - Title, slug, episode number
 - Categories (defaults to "Technology")
 - Tags (from AI keywords)
@@ -102,6 +106,7 @@ Example: `content/blog/2025-11-15/173-new-adventures-in-podcasting.md`
 ### 2. Transcript File (`NNN-lwatol-YYYYMMDD.md`)
 
 Transcript file with:
+
 - Complete transcription with speaker labels and timestamps
 - Episode metadata
 - AI-generated summary and keywords
@@ -120,12 +125,15 @@ The script will print next steps:
 
 2. **Upload MP3 to Cloudflare R2 (or S3)**
    - Run this manually if you skipped the `--upload` flag
+
    ```bash
    aws s3 cp ~/path/to/episode.mp3 s3://twistoflemonpod/episodes/
    ```
+
    - When `--upload` is used the script runs this step for you
 
 3. **Test and build**
+
    ```bash
    npm test && npm run build
    ```
@@ -192,6 +200,7 @@ Error: Ollama is not running
 ```
 
 **Solution:**
+
 ```bash
 brew services start ollama
 # or
@@ -205,6 +214,7 @@ Error: Model not found
 ```
 
 **Solution:**
+
 ```bash
 ollama pull llama3.2:3b
 ```
@@ -267,11 +277,11 @@ import {
   generateSummary,
   writeMarkdownFile,
   slugify,
-  formatTimestamp
-} from './lib/utils.js';
+  formatTimestamp,
+} from "./lib/utils.js";
 
 // Use the functions in your script
-const result = await transcribeFile('path/to/audio.mp3');
+const result = await transcribeFile("path/to/audio.mp3");
 const { summary, keywords } = await generateSummary(title, transcript);
 ```
 
