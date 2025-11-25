@@ -101,7 +101,16 @@ const createNavDom = ({ isHome = true, mobileMatches = false } = {}) => {
     },
   };
 
-  return { nav, platformToggle, menuToggle, navLinks, links, mobileQuery, window, document };
+  return {
+    nav,
+    platformToggle,
+    menuToggle,
+    navLinks,
+    links,
+    mobileQuery,
+    window,
+    document,
+  };
 };
 
 const importNavScript = async () => {

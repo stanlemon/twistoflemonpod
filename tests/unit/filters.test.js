@@ -1,5 +1,5 @@
-import { describe, it } from 'node:test';
-import assert from 'node:assert';
+import { describe, it } from "node:test";
+import assert from "node:assert";
 import {
   readableDate,
   htmlDateString,
@@ -12,391 +12,387 @@ import {
   sortTagsByName,
   excerpt,
   head,
-  canonicalUrl
-} from '../../lib/filters.js';
+  canonicalUrl,
+} from "../../lib/filters.js";
 
-describe('Filter: readableDate', () => {
-  it('formats Date object correctly', () => {
-    const date = new Date('2024-01-15T12:00:00Z');
-    assert.strictEqual(readableDate(date), 'January 15, 2024');
+describe("Filter: readableDate", () => {
+  it("formats Date object correctly", () => {
+    const date = new Date("2024-01-15T12:00:00Z");
+    assert.strictEqual(readableDate(date), "January 15, 2024");
   });
 
-  it('formats ISO string correctly', () => {
-    assert.strictEqual(readableDate('2024-01-15'), 'January 15, 2024');
+  it("formats ISO string correctly", () => {
+    assert.strictEqual(readableDate("2024-01-15"), "January 15, 2024");
   });
 
-  it('handles null date', () => {
-    assert.strictEqual(readableDate(null), '');
+  it("handles null date", () => {
+    assert.strictEqual(readableDate(null), "");
   });
 
-  it('handles undefined date', () => {
-    assert.strictEqual(readableDate(undefined), '');
+  it("handles undefined date", () => {
+    assert.strictEqual(readableDate(undefined), "");
   });
 
-  it('handles invalid date string', () => {
-    assert.strictEqual(readableDate('not a date'), '');
+  it("handles invalid date string", () => {
+    assert.strictEqual(readableDate("not a date"), "");
   });
 
-  it('formats edge of epoch', () => {
-    const epoch = new Date('1970-01-01T00:00:00Z');
-    assert.strictEqual(readableDate(epoch), 'January 01, 1970');
-  });
-});
-
-describe('Filter: htmlDateString', () => {
-  it('formats Date object correctly', () => {
-    const date = new Date('2024-01-15T12:00:00Z');
-    assert.strictEqual(htmlDateString(date), '2024-01-15');
-  });
-
-  it('formats ISO string correctly', () => {
-    assert.strictEqual(htmlDateString('2024-01-15'), '2024-01-15');
-  });
-
-  it('handles null date', () => {
-    assert.strictEqual(htmlDateString(null), '');
-  });
-
-  it('handles undefined date', () => {
-    assert.strictEqual(htmlDateString(undefined), '');
-  });
-
-  it('handles invalid date string', () => {
-    assert.strictEqual(htmlDateString('invalid'), '');
+  it("formats edge of epoch", () => {
+    const epoch = new Date("1970-01-01T00:00:00Z");
+    assert.strictEqual(readableDate(epoch), "January 01, 1970");
   });
 });
 
-describe('Filter: dateToRfc3339', () => {
-  it('formats Date object to RFC3339', () => {
-    const date = new Date('2024-01-15T12:00:00Z');
+describe("Filter: htmlDateString", () => {
+  it("formats Date object correctly", () => {
+    const date = new Date("2024-01-15T12:00:00Z");
+    assert.strictEqual(htmlDateString(date), "2024-01-15");
+  });
+
+  it("formats ISO string correctly", () => {
+    assert.strictEqual(htmlDateString("2024-01-15"), "2024-01-15");
+  });
+
+  it("handles null date", () => {
+    assert.strictEqual(htmlDateString(null), "");
+  });
+
+  it("handles undefined date", () => {
+    assert.strictEqual(htmlDateString(undefined), "");
+  });
+
+  it("handles invalid date string", () => {
+    assert.strictEqual(htmlDateString("invalid"), "");
+  });
+});
+
+describe("Filter: dateToRfc3339", () => {
+  it("formats Date object to RFC3339", () => {
+    const date = new Date("2024-01-15T12:00:00Z");
     const result = dateToRfc3339(date);
-    assert.ok(result.includes('2024-01-15'));
-    assert.ok(result.includes('T'));
+    assert.ok(result.includes("2024-01-15"));
+    assert.ok(result.includes("T"));
   });
 
-  it('formats ISO string to RFC3339', () => {
-    const result = dateToRfc3339('2024-01-15T12:00:00Z');
-    assert.ok(result.includes('2024-01-15'));
+  it("formats ISO string to RFC3339", () => {
+    const result = dateToRfc3339("2024-01-15T12:00:00Z");
+    assert.ok(result.includes("2024-01-15"));
   });
 
-  it('handles null date', () => {
-    assert.strictEqual(dateToRfc3339(null), '');
+  it("handles null date", () => {
+    assert.strictEqual(dateToRfc3339(null), "");
   });
 
-  it('handles undefined date', () => {
-    assert.strictEqual(dateToRfc3339(undefined), '');
+  it("handles undefined date", () => {
+    assert.strictEqual(dateToRfc3339(undefined), "");
   });
 
-  it('handles invalid date', () => {
-    assert.strictEqual(dateToRfc3339('bad date'), '');
+  it("handles invalid date", () => {
+    assert.strictEqual(dateToRfc3339("bad date"), "");
   });
 });
 
-describe('Filter: dateToRfc822', () => {
-  it('formats Date object to RFC2822', () => {
-    const date = new Date('2024-01-15T12:00:00Z');
+describe("Filter: dateToRfc822", () => {
+  it("formats Date object to RFC2822", () => {
+    const date = new Date("2024-01-15T12:00:00Z");
     const result = dateToRfc822(date);
-    assert.ok(result.includes('15 Jan 2024'));
+    assert.ok(result.includes("15 Jan 2024"));
   });
 
-  it('handles null date', () => {
-    assert.strictEqual(dateToRfc822(null), '');
+  it("handles null date", () => {
+    assert.strictEqual(dateToRfc822(null), "");
   });
 
-  it('handles undefined date', () => {
-    assert.strictEqual(dateToRfc822(undefined), '');
+  it("handles undefined date", () => {
+    assert.strictEqual(dateToRfc822(undefined), "");
   });
 
-  it('handles invalid date', () => {
-    assert.strictEqual(dateToRfc822('not valid'), '');
-  });
-});
-
-describe('Filter: slugify', () => {
-  it('converts to lowercase', () => {
-    assert.strictEqual(slugify('Hello World'), 'hello-world');
-  });
-
-  it('trims whitespace', () => {
-    assert.strictEqual(slugify('  hello  '), 'hello');
-  });
-
-  it('removes special characters', () => {
-    assert.strictEqual(slugify('hello@world!'), 'helloworld');
-  });
-
-  it('replaces spaces with dashes', () => {
-    assert.strictEqual(slugify('hello world test'), 'hello-world-test');
-  });
-
-  it('replaces multiple spaces with single dash', () => {
-    assert.strictEqual(slugify('hello    world'), 'hello-world');
-  });
-
-  it('replaces underscores with dashes', () => {
-    assert.strictEqual(slugify('hello_world'), 'hello-world');
-  });
-
-  it('normalizes multiple dashes', () => {
-    assert.strictEqual(slugify('hello---world'), 'hello-world');
-  });
-
-  it('removes leading dashes', () => {
-    assert.strictEqual(slugify('---hello'), 'hello');
-  });
-
-  it('removes trailing dashes', () => {
-    assert.strictEqual(slugify('hello---'), 'hello');
-  });
-
-  it('handles empty string', () => {
-    assert.strictEqual(slugify(''), '');
-  });
-
-  it('handles numbers', () => {
-    assert.strictEqual(slugify('episode-123'), 'episode-123');
-  });
-
-  it('handles mixed case duplicates', () => {
-    assert.strictEqual(slugify('Test'), slugify('test'));
-    assert.strictEqual(slugify('Test'), slugify('TEST'));
-  });
-
-  it('handles special characters and spaces together', () => {
-    assert.strictEqual(slugify('Hello & World!'), 'hello-world');
+  it("handles invalid date", () => {
+    assert.strictEqual(dateToRfc822("not valid"), "");
   });
 });
 
-describe('Filter: getAllCategories', () => {
-  it('extracts unique categories from collection', () => {
+describe("Filter: slugify", () => {
+  it("converts to lowercase", () => {
+    assert.strictEqual(slugify("Hello World"), "hello-world");
+  });
+
+  it("trims whitespace", () => {
+    assert.strictEqual(slugify("  hello  "), "hello");
+  });
+
+  it("removes special characters", () => {
+    assert.strictEqual(slugify("hello@world!"), "helloworld");
+  });
+
+  it("replaces spaces with dashes", () => {
+    assert.strictEqual(slugify("hello world test"), "hello-world-test");
+  });
+
+  it("replaces multiple spaces with single dash", () => {
+    assert.strictEqual(slugify("hello    world"), "hello-world");
+  });
+
+  it("replaces underscores with dashes", () => {
+    assert.strictEqual(slugify("hello_world"), "hello-world");
+  });
+
+  it("normalizes multiple dashes", () => {
+    assert.strictEqual(slugify("hello---world"), "hello-world");
+  });
+
+  it("removes leading dashes", () => {
+    assert.strictEqual(slugify("---hello"), "hello");
+  });
+
+  it("removes trailing dashes", () => {
+    assert.strictEqual(slugify("hello---"), "hello");
+  });
+
+  it("handles empty string", () => {
+    assert.strictEqual(slugify(""), "");
+  });
+
+  it("handles numbers", () => {
+    assert.strictEqual(slugify("episode-123"), "episode-123");
+  });
+
+  it("handles mixed case duplicates", () => {
+    assert.strictEqual(slugify("Test"), slugify("test"));
+    assert.strictEqual(slugify("Test"), slugify("TEST"));
+  });
+
+  it("handles special characters and spaces together", () => {
+    assert.strictEqual(slugify("Hello & World!"), "hello-world");
+  });
+});
+
+describe("Filter: getAllCategories", () => {
+  it("extracts unique categories from collection", () => {
     const collection = [
-      { data: { categories: ['Tech', 'Life'] } },
-      { data: { categories: ['Tech', 'Podcast'] } }
+      { data: { categories: ["Tech", "Life"] } },
+      { data: { categories: ["Tech", "Podcast"] } },
     ];
     const result = getAllCategories(collection);
-    assert.deepStrictEqual(result, ['Life', 'Podcast', 'Tech']);
+    assert.deepStrictEqual(result, ["Life", "Podcast", "Tech"]);
   });
 
-  it('handles empty collection', () => {
+  it("handles empty collection", () => {
     assert.deepStrictEqual(getAllCategories([]), []);
   });
 
-  it('handles items without categories', () => {
-    const collection = [
-      { data: {} },
-      { data: { categories: ['Tech'] } }
-    ];
+  it("handles items without categories", () => {
+    const collection = [{ data: {} }, { data: { categories: ["Tech"] } }];
     const result = getAllCategories(collection);
-    assert.deepStrictEqual(result, ['Tech']);
+    assert.deepStrictEqual(result, ["Tech"]);
   });
 
-  it('sorts categories alphabetically', () => {
-    const collection = [
-      { data: { categories: ['Zebra', 'Alpha', 'Mike'] } }
-    ];
+  it("sorts categories alphabetically", () => {
+    const collection = [{ data: { categories: ["Zebra", "Alpha", "Mike"] } }];
     const result = getAllCategories(collection);
-    assert.deepStrictEqual(result, ['Alpha', 'Mike', 'Zebra']);
+    assert.deepStrictEqual(result, ["Alpha", "Mike", "Zebra"]);
   });
 
-  it('deduplicates categories', () => {
+  it("deduplicates categories", () => {
     const collection = [
-      { data: { categories: ['Tech', 'Tech'] } },
-      { data: { categories: ['Tech'] } }
+      { data: { categories: ["Tech", "Tech"] } },
+      { data: { categories: ["Tech"] } },
     ];
     const result = getAllCategories(collection);
-    assert.deepStrictEqual(result, ['Tech']);
+    assert.deepStrictEqual(result, ["Tech"]);
   });
 });
 
-describe('Filter: getAllTags', () => {
-  it('extracts unique tags from collection', () => {
+describe("Filter: getAllTags", () => {
+  it("extracts unique tags from collection", () => {
     const collection = [
-      { data: { tags: ['javascript', 'nodejs'] } },
-      { data: { tags: ['javascript', 'web'] } }
+      { data: { tags: ["javascript", "nodejs"] } },
+      { data: { tags: ["javascript", "web"] } },
     ];
     const result = getAllTags(collection);
-    assert.deepStrictEqual(result, ['javascript', 'nodejs', 'web']);
+    assert.deepStrictEqual(result, ["javascript", "nodejs", "web"]);
   });
 
-  it('handles empty collection', () => {
+  it("handles empty collection", () => {
     assert.deepStrictEqual(getAllTags([]), []);
   });
 
-  it('handles items without tags', () => {
-    const collection = [
-      { data: {} },
-      { data: { tags: ['test'] } }
-    ];
+  it("handles items without tags", () => {
+    const collection = [{ data: {} }, { data: { tags: ["test"] } }];
     const result = getAllTags(collection);
-    assert.deepStrictEqual(result, ['test']);
+    assert.deepStrictEqual(result, ["test"]);
   });
 
-  it('sorts tags alphabetically', () => {
-    const collection = [
-      { data: { tags: ['zulu', 'alpha', 'bravo'] } }
-    ];
+  it("sorts tags alphabetically", () => {
+    const collection = [{ data: { tags: ["zulu", "alpha", "bravo"] } }];
     const result = getAllTags(collection);
-    assert.deepStrictEqual(result, ['alpha', 'bravo', 'zulu']);
+    assert.deepStrictEqual(result, ["alpha", "bravo", "zulu"]);
   });
 });
 
-describe('Filter: sortCategoriesByName', () => {
-  it('converts object map to sorted array with slugs', () => {
+describe("Filter: sortCategoriesByName", () => {
+  it("converts object map to sorted array with slugs", () => {
     const input = {
-      tech: { name: 'Tech', posts: [1, 2] },
-      life: { name: 'Life', posts: [3] },
-      art: { name: 'Art', posts: [] }
+      tech: { name: "Tech", posts: [1, 2] },
+      life: { name: "Life", posts: [3] },
+      art: { name: "Art", posts: [] },
     };
 
     const result = sortCategoriesByName(input);
     assert.deepStrictEqual(
-      result.map(cat => ({ slug: cat.slug, name: cat.name })),
+      result.map((cat) => ({ slug: cat.slug, name: cat.name })),
       [
-        { slug: 'art', name: 'Art' },
-        { slug: 'life', name: 'Life' },
-        { slug: 'tech', name: 'Tech' }
-      ]
+        { slug: "art", name: "Art" },
+        { slug: "life", name: "Life" },
+        { slug: "tech", name: "Tech" },
+      ],
     );
   });
 
-  it('handles array input', () => {
+  it("handles array input", () => {
     const input = [
-      { slug: 'tech', name: 'Tech' },
-      { slug: 'life', name: 'Life' }
+      { slug: "tech", name: "Tech" },
+      { slug: "life", name: "Life" },
     ];
     const result = sortCategoriesByName(input);
-    assert.deepStrictEqual(result.map(cat => cat.slug), ['life', 'tech']);
+    assert.deepStrictEqual(
+      result.map((cat) => cat.slug),
+      ["life", "tech"],
+    );
   });
 
-  it('returns empty array for falsy input', () => {
+  it("returns empty array for falsy input", () => {
     assert.deepStrictEqual(sortCategoriesByName(null), []);
     assert.deepStrictEqual(sortCategoriesByName(undefined), []);
   });
 });
 
-describe('Filter: sortTagsByName', () => {
-  it('sorts tag map by name', () => {
+describe("Filter: sortTagsByName", () => {
+  it("sorts tag map by name", () => {
     const input = {
-      dev: { name: 'Development', posts: [1] },
-      life: { name: 'Life', posts: [2] },
-      art: { name: 'Art', posts: [] }
+      dev: { name: "Development", posts: [1] },
+      life: { name: "Life", posts: [2] },
+      art: { name: "Art", posts: [] },
     };
 
     const result = sortTagsByName(input);
     assert.deepStrictEqual(
-      result.map(tag => ({ slug: tag.slug, name: tag.name })),
+      result.map((tag) => ({ slug: tag.slug, name: tag.name })),
       [
-        { slug: 'art', name: 'Art' },
-        { slug: 'dev', name: 'Development' },
-        { slug: 'life', name: 'Life' }
-      ]
+        { slug: "art", name: "Art" },
+        { slug: "dev", name: "Development" },
+        { slug: "life", name: "Life" },
+      ],
     );
   });
 
-  it('handles empty input', () => {
+  it("handles empty input", () => {
     assert.deepStrictEqual(sortTagsByName(null), []);
   });
 });
 
-describe('Filter: excerpt', () => {
-  it('strips HTML tags', () => {
-    const html = '<p>Hello <strong>world</strong></p>';
-    assert.strictEqual(excerpt(html), 'Hello world');
+describe("Filter: excerpt", () => {
+  it("strips HTML tags", () => {
+    const html = "<p>Hello <strong>world</strong></p>";
+    assert.strictEqual(excerpt(html), "Hello world");
   });
 
-  it('truncates to default length', () => {
-    const longText = 'a'.repeat(300);
+  it("truncates to default length", () => {
+    const longText = "a".repeat(300);
     const result = excerpt(longText);
     assert.strictEqual(result.length, 203); // 200 + '...'
-    assert.ok(result.endsWith('...'));
+    assert.ok(result.endsWith("..."));
   });
 
-  it('truncates to custom length', () => {
-    const text = 'a'.repeat(100);
+  it("truncates to custom length", () => {
+    const text = "a".repeat(100);
     const result = excerpt(text, 50);
     assert.strictEqual(result.length, 53); // 50 + '...'
   });
 
-  it('does not truncate short content', () => {
-    const text = 'Short text';
-    assert.strictEqual(excerpt(text), 'Short text');
+  it("does not truncate short content", () => {
+    const text = "Short text";
+    assert.strictEqual(excerpt(text), "Short text");
   });
 
-  it('does not add ellipsis to exact length', () => {
-    const text = 'a'.repeat(200);
+  it("does not add ellipsis to exact length", () => {
+    const text = "a".repeat(200);
     const result = excerpt(text, 200);
     assert.strictEqual(result, text);
   });
 
-  it('handles empty content', () => {
-    assert.strictEqual(excerpt(''), '');
+  it("handles empty content", () => {
+    assert.strictEqual(excerpt(""), "");
   });
 
-  it('strips complex HTML', () => {
-    const html = '<div><p>Test</p><ul><li>Item</li></ul></div>';
-    assert.strictEqual(excerpt(html), 'TestItem');
+  it("strips complex HTML", () => {
+    const html = "<div><p>Test</p><ul><li>Item</li></ul></div>";
+    assert.strictEqual(excerpt(html), "TestItem");
   });
 });
 
-describe('Filter: head', () => {
-  it('returns first n items', () => {
+describe("Filter: head", () => {
+  it("returns first n items", () => {
     const arr = [1, 2, 3, 4, 5];
     assert.deepStrictEqual(head(arr, 3), [1, 2, 3]);
   });
 
-  it('returns last n items with negative number', () => {
+  it("returns last n items with negative number", () => {
     const arr = [1, 2, 3, 4, 5];
     assert.deepStrictEqual(head(arr, -2), [4, 5]);
   });
 
-  it('handles n larger than array length', () => {
+  it("handles n larger than array length", () => {
     const arr = [1, 2, 3];
     assert.deepStrictEqual(head(arr, 10), [1, 2, 3]);
   });
 
-  it('handles zero', () => {
+  it("handles zero", () => {
     const arr = [1, 2, 3];
     assert.deepStrictEqual(head(arr, 0), []);
   });
 
-  it('handles empty array', () => {
+  it("handles empty array", () => {
     assert.deepStrictEqual(head([], 5), []);
   });
 
-  it('handles negative n larger than array length', () => {
+  it("handles negative n larger than array length", () => {
     const arr = [1, 2, 3];
     assert.deepStrictEqual(head(arr, -10), [1, 2, 3]);
   });
 });
 
-describe('Filter: canonicalUrl', () => {
-  it('prepends base to relative path without leading slash', () => {
-    const result = canonicalUrl('foo/bar', 'https://example.com/');
-    assert.strictEqual(result, 'https://example.com/foo/bar');
+describe("Filter: canonicalUrl", () => {
+  it("prepends base to relative path without leading slash", () => {
+    const result = canonicalUrl("foo/bar", "https://example.com/");
+    assert.strictEqual(result, "https://example.com/foo/bar");
   });
 
-  it('prepends base to relative path with leading slash', () => {
-    const result = canonicalUrl('/foo/bar', 'https://example.com/');
-    assert.strictEqual(result, 'https://example.com/foo/bar');
+  it("prepends base to relative path with leading slash", () => {
+    const result = canonicalUrl("/foo/bar", "https://example.com/");
+    assert.strictEqual(result, "https://example.com/foo/bar");
   });
 
-  it('returns absolute URL as-is', () => {
-    const result = canonicalUrl('https://example.com/foo?utm=1#hash', 'https://ignored.com');
-    assert.strictEqual(result, 'https://example.com/foo');
+  it("returns absolute URL as-is", () => {
+    const result = canonicalUrl(
+      "https://example.com/foo?utm=1#hash",
+      "https://ignored.com",
+    );
+    assert.strictEqual(result, "https://example.com/foo");
   });
 
-  it('strips query and hash from relative path', () => {
-    const result = canonicalUrl('/foo?utm=1#hash', 'https://example.com/');
-    assert.strictEqual(result, 'https://example.com/foo');
+  it("strips query and hash from relative path", () => {
+    const result = canonicalUrl("/foo?utm=1#hash", "https://example.com/");
+    assert.strictEqual(result, "https://example.com/foo");
   });
 
-  it('falls back to site root when url is empty with base', () => {
-    const result = canonicalUrl('', 'https://example.com/');
-    assert.strictEqual(result, 'https://example.com/');
+  it("falls back to site root when url is empty with base", () => {
+    const result = canonicalUrl("", "https://example.com/");
+    assert.strictEqual(result, "https://example.com/");
   });
 
-  it('returns slash when url and base are missing', () => {
+  it("returns slash when url and base are missing", () => {
     const result = canonicalUrl();
-    assert.strictEqual(result, '/');
+    assert.strictEqual(result, "/");
   });
 });

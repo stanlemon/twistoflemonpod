@@ -8,20 +8,20 @@
  * - File operations
  */
 
-import { createClient } from '@deepgram/sdk';
-import { readFileSync, writeFileSync, statSync, mkdirSync } from 'fs';
-import { createInterface } from 'readline';
-import matter from 'gray-matter';
-import dotenv from 'dotenv';
+import { createClient } from "@deepgram/sdk";
+import { readFileSync, writeFileSync, statSync, mkdirSync } from "fs";
+import { createInterface } from "readline";
+import matter from "gray-matter";
+import dotenv from "dotenv";
 
 dotenv.config();
 
 // Configuration
 export const DEEPGRAM_API_KEY = process.env.DEEPGRAM_API_KEY;
-export const OLLAMA_BASE_URL = 'http://localhost:11434';
-export const OLLAMA_MODEL = 'llama3.2:3b';
+export const OLLAMA_BASE_URL = "http://localhost:11434";
+export const OLLAMA_MODEL = "llama3.2:3b";
 export const MAX_TRANSCRIPT_LENGTH = 8000; // words
-export const MEDIA_BASE_URL = 'https://media.twistoflemonpod.com';
+export const MEDIA_BASE_URL = "https://media.twistoflemonpod.com";
 
 /**
  * Format seconds to HH:MM:SS
@@ -31,7 +31,7 @@ export function formatTimestamp(seconds) {
   const minutes = Math.floor((seconds % 3600) / 60);
   const secs = Math.floor(seconds % 60);
 
-  return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+  return `${String(hours).padStart(2, "0")}:${String(minutes).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
 }
 
 /**
@@ -39,8 +39,8 @@ export function formatTimestamp(seconds) {
  */
 export function formatDateForDir(date) {
   const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, '0');
-  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
 
   return `${year}-${month}-${day}`;
 }
@@ -49,7 +49,7 @@ export function formatDateForDir(date) {
  * Parse date string (YYYY-MM-DD) to Date object at 6am UTC
  */
 export function parseDate(dateStr) {
-  const [year, month, day] = dateStr.split('-').map(Number);
+  const [year, month, day] = dateStr.split("-").map(Number);
   return new Date(Date.UTC(year, month - 1, day, 6, 0, 0));
 }
 
@@ -59,9 +59,9 @@ export function parseDate(dateStr) {
 export function slugify(text) {
   return text
     .toLowerCase()
-    .replace(/[^\w\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
     .trim();
 }
 
@@ -74,8 +74,8 @@ export function prompt(question) {
     output: process.stdout,
   });
 
-  return new Promise(resolve => {
-    rl.question(question, answer => {
+  return new Promise((resolve) => {
+    rl.question(question, (answer) => {
       rl.close();
       resolve(answer.trim());
     });
@@ -89,10 +89,10 @@ export function formatTranscript(result) {
   const utterances = result.results?.utterances || [];
 
   if (utterances.length === 0) {
-    return 'No transcript available.';
+    return "No transcript available.";
   }
 
-  let markdown = '';
+  let markdown = "";
 
   for (const utterance of utterances) {
     const speaker = `SPEAKER_${utterance.speaker}`;
@@ -110,7 +110,7 @@ export function formatTranscript(result) {
  */
 export async function transcribeFile(filePath) {
   if (!DEEPGRAM_API_KEY) {
-    throw new Error('DEEPGRAM_API_KEY environment variable is not set');
+    throw new Error("DEEPGRAM_API_KEY environment variable is not set");
   }
 
   const audioBuffer = readFileSync(filePath);
@@ -119,8 +119,8 @@ export async function transcribeFile(filePath) {
   const { result, error } = await deepgram.listen.prerecorded.transcribeFile(
     audioBuffer,
     {
-      model: 'nova-3',
-      language: 'en',
+      model: "nova-3",
+      language: "en",
       smart_format: true,
       paragraphs: true,
       utterances: true,
@@ -142,7 +142,7 @@ export async function checkOllama() {
   try {
     const response = await fetch(`${OLLAMA_BASE_URL}/api/tags`);
     if (!response.ok) {
-      throw new Error('Ollama not responding');
+      throw new Error("Ollama not responding");
     }
     return true;
   } catch (error) {
@@ -155,9 +155,9 @@ export async function checkOllama() {
  */
 export async function callOllama(prompt, model = OLLAMA_MODEL) {
   const response = await fetch(`${OLLAMA_BASE_URL}/api/generate`, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json',
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({
       model: model,
@@ -167,7 +167,9 @@ export async function callOllama(prompt, model = OLLAMA_MODEL) {
   });
 
   if (!response.ok) {
-    throw new Error(`Ollama API error: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `Ollama API error: ${response.status} ${response.statusText}`,
+    );
   }
 
   const data = await response.json();
@@ -182,7 +184,10 @@ export function truncateTranscript(content) {
   if (words.length <= MAX_TRANSCRIPT_LENGTH) {
     return content;
   }
-  return words.slice(0, MAX_TRANSCRIPT_LENGTH).join(' ') + '\n\n[Transcript truncated for analysis...]';
+  return (
+    words.slice(0, MAX_TRANSCRIPT_LENGTH).join(" ") +
+    "\n\n[Transcript truncated for analysis...]"
+  );
 }
 
 /**
@@ -216,14 +221,14 @@ export function parseAIResponse(response) {
   const keywordsMatch = response.match(/KEYWORDS:\s*(.+?)$/s);
 
   if (!summaryMatch || !keywordsMatch) {
-    throw new Error('Failed to parse AI response');
+    throw new Error("Failed to parse AI response");
   }
 
   const summary = summaryMatch[1].trim();
   const keywords = keywordsMatch[1]
-    .split(',')
-    .map(k => k.trim())
-    .filter(k => k.length > 0);
+    .split(",")
+    .map((k) => k.trim())
+    .filter((k) => k.length > 0);
 
   return { summary, keywords };
 }
@@ -257,13 +262,13 @@ export function ensureDir(dirPath) {
  */
 export function writeMarkdownFile(filePath, frontmatter, content) {
   const file = matter.stringify(content, frontmatter);
-  writeFileSync(filePath, file, 'utf-8');
+  writeFileSync(filePath, file, "utf-8");
 }
 
 /**
  * Read markdown file with frontmatter
  */
 export function readMarkdownFile(filePath) {
-  const fileContent = readFileSync(filePath, 'utf8');
+  const fileContent = readFileSync(filePath, "utf8");
   return matter(fileContent);
 }

@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "github>stanlemon/javascript:renovate.json5"
-  ]
+  "extends": ["github>stanlemon/javascript:renovate.json5"]
 }
