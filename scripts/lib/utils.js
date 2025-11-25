@@ -12,9 +12,32 @@ import { createClient } from "@deepgram/sdk";
 import { readFileSync, writeFileSync, statSync, mkdirSync } from "fs";
 import { createInterface } from "readline";
 import matter from "gray-matter";
+import yaml from "js-yaml";
 import dotenv from "dotenv";
 
 dotenv.config();
+
+// Configure gray-matter to minimize unnecessary quotes
+// This ensures dates, URLs, and simple titles are not quoted
+const MATTER_OPTIONS = {
+  engines: {
+    yaml: {
+      parse: (str) => yaml.load(str),
+      stringify: (obj) =>
+        yaml.dump(obj, {
+          indent: 2,
+          lineWidth: -1, // Don't wrap long lines
+          quotingType: '"', // Use double quotes when needed
+          forceQuotes: false, // Don't force quotes on all strings
+          flowLevel: -1, // Use block style, not flow style
+          noRefs: true, // Don't use references
+          sortKeys: false, // Preserve key order
+          // Use SAFE_SCHEMA to avoid unnecessary quoting
+          schema: yaml.SAFE_SCHEMA,
+        }),
+    },
+  },
+};
 
 // Configuration
 export const DEEPGRAM_API_KEY = process.env.DEEPGRAM_API_KEY;
@@ -261,7 +284,7 @@ export function ensureDir(dirPath) {
  * Write markdown file with frontmatter
  */
 export function writeMarkdownFile(filePath, frontmatter, content) {
-  const file = matter.stringify(content, frontmatter);
+  const file = matter.stringify(content, frontmatter, MATTER_OPTIONS);
   writeFileSync(filePath, file, "utf-8");
 }
 
