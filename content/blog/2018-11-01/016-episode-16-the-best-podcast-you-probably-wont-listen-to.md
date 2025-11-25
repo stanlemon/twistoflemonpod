@@ -2,7 +2,7 @@
 title: The Best Podcast you Probably Won't Listen To
 slug: the-best-podcast-you-probably-wont-listen-to
 episode: 16
-date: '2018-11-01T12:02:28.000Z'
+date: 2018-11-01T12:02:28.000Z
 categories:
   - Theology
 tags:
@@ -12,7 +12,7 @@ tags:
   - macbook
   - politics
 enclosure:
-  url: 'https://media.twistoflemonpod.com/016-lwatol-20181101.mp3'
+  url: https://media.twistoflemonpod.com/016-lwatol-20181101.mp3
   length: 39741164
   type: audio/mpeg
 summary: >-

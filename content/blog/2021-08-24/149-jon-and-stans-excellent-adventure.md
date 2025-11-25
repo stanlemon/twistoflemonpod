@@ -2,7 +2,7 @@
 title: Jon and Stan's Excellent Adventure
 slug: jon-and-stans-excellent-adventure
 episode: 149
-date: '2021-08-24T14:23:54.000Z'
+date: 2021-08-24T14:23:54.000Z
 categories:
   - Food
 tags:
@@ -11,7 +11,7 @@ tags:
   - visit
   - meat rubs
 enclosure:
-  url: 'https://media.twistoflemonpod.com/149-lwatol-20210824.mp3'
+  url: https://media.twistoflemonpod.com/149-lwatol-20210824.mp3
   length: 38819716
   type: audio/mpeg
 summary: >-

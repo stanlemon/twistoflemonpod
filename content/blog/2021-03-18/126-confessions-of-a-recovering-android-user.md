@@ -2,7 +2,7 @@
 title: Confessions of a Recovering Android User
 slug: confessions-of-a-recovering-android-user
 episode: 126
-date: '2021-03-18T12:33:07.000Z'
+date: 2021-03-18T12:33:07.000Z
 categories:
   - Technology
 tags:
@@ -11,7 +11,7 @@ tags:
   - wandavision
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/126-lwatol-20210318.mp3'
+  url: https://media.twistoflemonpod.com/126-lwatol-20210318.mp3
   length: 118038922
   type: audio/mpeg
 summary: >-

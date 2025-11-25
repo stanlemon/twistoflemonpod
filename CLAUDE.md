@@ -11,11 +11,13 @@ This is the source code for the "Life with a Twist of Lemon" podcast website, ho
 ## Technology Stack
 
 ### Core Framework
+
 - **Eleventy (11ty) 3.x**: Static site generator chosen for simplicity and performance
 - **Node.js 22.x**: Runtime environment (see `.nvmrc`)
 - **Liquid Templates**: Primary templating engine for layouts and includes
 
 ### Key Dependencies
+
 - `@11ty/eleventy-plugin-rss`: RSS feed generation with podcast support
 - `@11ty/eleventy-plugin-syntaxhighlight`: Code syntax highlighting
 - `@11ty/eleventy-img`: Image optimization
@@ -25,17 +27,20 @@ This is the source code for the "Life with a Twist of Lemon" podcast website, ho
 - `gray-matter`: YAML frontmatter parsing (for scripts)
 
 ### Development Tools
+
 - `prettier`: Code formatting
 - Custom test suite: Build validation and content validation
 
 ## Architecture
 
 ### Content Structure
+
 ```
 content/blog/YYYY-MM-DD/slug.md
 ```
 
 Each episode is a Markdown file with YAML frontmatter containing:
+
 - `title`: Episode title
 - `slug`: URL slug (optional, auto-generated from title)
 - `episode`: Episode number
@@ -48,6 +53,7 @@ Each episode is a Markdown file with YAML frontmatter containing:
   - `type`: MIME type (audio/mpeg)
 
 ### Site Structure
+
 ```
 src/
 ├── _data/           # Global site data
@@ -68,6 +74,7 @@ tests/               # Test suite
 ```
 
 ### Build Output
+
 - Output directory: `_site/`
 - Build time: ~0.4 seconds for 283 pages
 - Pages generated:
@@ -80,6 +87,7 @@ tests/               # Test suite
 ### Scheduled Posts (Future-Dated Content)
 
 The site supports scheduled publishing of posts. Posts with dates in the future are automatically excluded from:
+
 - Page generation (no HTML files created)
 - Collections (won't appear in blog listing, categories, or tags)
 - RSS feed (not included in feed.xml)
@@ -98,6 +106,7 @@ INCLUDE_FUTURE_POSTS=true npm run build
 ```
 
 This is useful for:
+
 - **Local development**: Preview posts before they go live
 - **Cloudflare branch builds**: See future posts in staging/preview environments
 - **Content review**: Check posts before their scheduled publication date
@@ -124,6 +133,7 @@ INCLUDE_FUTURE_POSTS=true npm run dev
 **Cloudflare Setup:**
 
 In Cloudflare Pages settings, add environment variable for branch deployments:
+
 - Variable: `INCLUDE_FUTURE_POSTS`
 - Value: `true`
 - Apply to: Preview branches only
@@ -154,12 +164,14 @@ In Cloudflare Pages settings, add environment variable for branch deployments:
 ### Commit Guidelines
 
 Each commit should:
+
 - Represent a complete, working unit of change
 - Pass all tests (`npm test`)
 - Build successfully (`npm run build`)
 - Have a clear, descriptive commit message
 
 Example workflow:
+
 ```bash
 # Make a small change
 npm test                  # Verify tests pass
@@ -177,11 +189,13 @@ git commit -m "Update enclosure metadata script to include duration"
 ### Testing Strategy
 
 Run the test suite frequently:
+
 ```bash
 npm test
 ```
 
 Tests verify:
+
 - Build succeeds and generates expected files
 - Required pages are created (feed.xml, sitemap.xml)
 - Correct number of pages generated
@@ -191,27 +205,32 @@ Tests verify:
 ### Common Tasks
 
 **Start Development Server:**
+
 ```bash
 npm run dev
 # Site available at http://localhost:8080
 ```
 
 **Run Tests:**
+
 ```bash
 npm test
 ```
 
 **Build Site:**
+
 ```bash
 npm run build
 ```
 
 **Format Code:**
+
 ```bash
 npm run format
 ```
 
 **Clean Build:**
+
 ```bash
 npm run clean && npm run build
 ```
@@ -229,12 +248,14 @@ Utility scripts are located in `scripts/` directory:
 - **Reason:** Keeps the repository clean and focused on actively maintained utilities
 
 When creating a one-off refactoring script:
+
 1. Create it in the `scripts/` directory
 2. Run it to complete the refactoring
 3. DO NOT add it to git (add to `.gitignore` if needed)
 4. Delete it after the refactoring is complete and committed
 
 ### Content Management Scripts (JavaScript/Node.js)
+
 - `update-enclosure-metadata.js`: Updates podcast enclosure metadata (length, type) from actual MP3 files
 - `add-episode-numbers.js`: Adds episode numbers to posts missing them
 - `add-slug-to-frontmatter.js`: Generates URL slugs from titles
@@ -243,6 +264,7 @@ When creating a one-off refactoring script:
 ### Transcription and AI Summary Scripts (JavaScript/Node.js)
 
 **Shared Utilities:**
+
 - `scripts/lib/utils.js`: Shared functions for all episode processing scripts
   - Deepgram transcription helpers
   - Ollama AI processing
@@ -251,6 +273,7 @@ When creating a one-off refactoring script:
   - User input prompts
 
 **Primary Script (Recommended for new episodes):**
+
 - `create-new-episode.js`: **Complete automated workflow** for creating new episodes
   - Interactive prompts for episode details (title, number, date)
   - Transcribes audio with Deepgram (speaker diarization)
@@ -260,6 +283,7 @@ When creating a one-off refactoring script:
   - Prints next steps for publishing
 
 **Usage:**
+
 ```bash
 node scripts/create-new-episode.js <mp3-file>
 
@@ -273,11 +297,13 @@ node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new
 ```
 
 **Individual Scripts (for specific tasks):**
+
 - `transcribe-with-deepgram.js`: Transcribe a single episode only (outputs markdown file)
 - `batch-transcribe-deepgram.js`: Batch transcribe all episodes
 - `add-ai-summaries.js`: Add AI summaries to existing transcripts
 
 **Requirements:**
+
 - Deepgram API key set in `.env` file as `DEEPGRAM_API_KEY`
 - Ollama installed and running: `brew install ollama && brew services start ollama`
 - Model downloaded: `ollama pull llama3.2:3b`
@@ -285,6 +311,7 @@ node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new
 **Status:** All 170 episodes have been transcribed and summarized (episodes 1-172 plus b01, b02 bonus episodes)
 
 **Key Features:**
+
 - All scripts now share common code via `scripts/lib/utils.js`
 - `create-new-episode.js` creates complete episode structure in one command
 - Interactive prompts make it easy to add new episodes
@@ -294,11 +321,13 @@ node scripts/create-new-episode.js ~/Sites/twistoflemonpod-mp3s/episodes/173-new
 ### Running Scripts
 
 Scripts can be run directly:
+
 ```bash
 node scripts/update-enclosure-metadata.js
 ```
 
 Always test and build after running scripts:
+
 ```bash
 node scripts/some-script.js
 npm test
@@ -310,6 +339,7 @@ npm run build
 ### Performance Pass (2025-11-27)
 
 **What changed:**
+
 - Inlined critical nav/shell CSS in `base.liquid` to shorten render-blocking work while keeping the rest in `css/main.css`.
 - Collapsed the CSS chain into a single main stylesheet to reduce HTTP requests and simplify preloading.
 - Swapped the nav logo to AVIF/WEBP with PNG fallback and `fetchpriority="high"` to shrink bytes and stabilize layout.
@@ -321,6 +351,7 @@ npm run build
 ### Heading Hierarchy Cleanup (2025-11-30)
 
 **What changed:**
+
 - Removed the global `h1` from the nav brand; kept styling by wrapping the site title in a neutral element.
 - Added page-scoped `h1` elements to home, index pagination, post layout, contact, categories/tags indexes, and category/tag detail pages; ensured post titles are the sole `h1` on post pages.
 - Normalized supporting headings (hero feature cards, transcript meta) to avoid level skips (`h2`/`h3` flow).
@@ -331,6 +362,7 @@ npm run build
 ### Episode & Transcript Layout Polish (2025-11-20)
 
 **What changed:**
+
 - Simplified episode hero to a single-column focus on title/summary/audio; removed the floating mini “now playing” bar and duplicates of episode number, tags, and categories.
 - Made all Play/Listen CTAs (including transcript pages) trigger the Plyr instance via `.js-play-episode`, smooth-scroll to the player, and focus the audio element; transcript pages fall back to the parent episode’s enclosure if their own is missing so CTAs always work.
 - Moved tags/categories into the content card footer to align with body width; tightened vertical spacing to match the about page feel.
@@ -346,6 +378,7 @@ npm run build
 **Solution Implemented:**
 
 **Technology Stack:**
+
 - **Deepgram API**: Cloud-based transcription with built-in speaker diarization
 - **Node.js**: JavaScript runtime (same as project)
 - **@deepgram/sdk**: Official Deepgram SDK for Node.js
@@ -368,23 +401,27 @@ npm run build
    - Usage: `node scripts/batch-transcribe-deepgram.js [start-episode]`
 
 **Output Format:**
+
 - Markdown files saved alongside MP3 files
 - Format: `**SPEAKER_0** [HH:MM:SS]\n\n[text]\n\n`
 - Speaker labels: `SPEAKER_0`, `SPEAKER_1`, etc.
 - Clean, readable format with paragraph breaks
 
 **Setup Requirements:**
+
 1. Deepgram account (free trial available)
 2. API key stored in `.env` file as `DEEPGRAM_API_KEY`
 3. `.env` file excluded from git via `.gitignore`
 
 **Performance:**
+
 - Cloud-based processing (no local GPU needed)
 - ~30-60 seconds per episode
 - Completed all 170 episodes in ~40 minutes
 - Cost-effective (pay-as-you-go pricing)
 
 **Results:**
+
 - ✅ All 170 episodes transcribed successfully
   - Episodes 1-172 (numbering gaps exist)
   - Bonus episodes b01, b02
@@ -392,12 +429,14 @@ npm run build
 - Consistent 2-speaker detection (with occasional 3-speaker episodes for guests)
 
 **Key Decisions:**
+
 - Switched from local Python/WhisperX to cloud-based Deepgram for speed
 - Removed old Python scripts and documentation
 - Used environment variables for API key security
 - Kept scripts in version control (API key separate in .env)
 
 **Future Enhancements:**
+
 1. Website integration (display transcripts on episode pages)
 2. Full-text search across all transcripts
 3. Manual speaker identification (map SPEAKER_0/SPEAKER_1 to Jon/Stan)
@@ -410,12 +449,14 @@ npm run build
 **Problem:** Transcripts needed summaries and keywords for better content discovery and SEO.
 
 **Solution:** Created `scripts/add-ai-summaries.js` to:
+
 1. Use Ollama + llama3.2:3b model for local, free ML processing
 2. Generate 2-3 sentence summaries for each transcript
 3. Extract 5-10 relevant keywords per episode
 4. Add `summary` and `keywords` fields to frontmatter
 
 **Setup:**
+
 ```bash
 brew install ollama
 brew services start ollama
@@ -470,10 +511,12 @@ node scripts/add-ai-summaries.js [--test]
    - Better titles for SEO
 
 **Documentation Created:**
+
 - `SEO-GUIDE.md` - Comprehensive SEO implementation guide
 - `SECURITY-HEADERS.md` - HTTP security headers recommendations
 
 **Benefits:**
+
 - Podcast episodes will appear in Google Podcasts search
 - Rich snippets in Google search results (articles, breadcrumbs)
 - Better social media sharing with images
@@ -481,6 +524,7 @@ node scripts/add-ai-summaries.js [--test]
 - Enhanced podcast app discovery (Apple Podcasts, Spotify)
 
 **Key Learning:** Modern SEO requires multiple layers:
+
 1. Structured data for search engine understanding
 2. Meta tags for social media
 3. Semantic HTML for accessibility
@@ -490,11 +534,13 @@ node scripts/add-ai-summaries.js [--test]
 ### Podcast Feed Enclosure Metadata (2025-10-25)
 
 **Problem:** The RSS feed's `<enclosure>` tags were missing or had incorrect metadata:
+
 - 99 posts had `length: null` and `type: null`
 - 68 posts had placeholder values like `length: 221`
 - Only 4 posts had correct metadata
 
 **Solution:** Created `scripts/update-enclosure-metadata.js` to:
+
 1. Read all blog post markdown files
 2. Extract MP3 filename from S3 URL
 3. Get actual file size from local MP3 files in `~/Sites/twistoflemonpod-mp3s/episodes/`
@@ -502,6 +548,7 @@ node scripts/add-ai-summaries.js [--test]
 5. Write back to files
 
 **Result:** All 172 posts now have:
+
 - Accurate `length` in bytes
 - Correct `type: audio/mpeg`
 - Podcast feed fully compliant with Apple Podcasts, Spotify requirements
@@ -511,6 +558,7 @@ node scripts/add-ai-summaries.js [--test]
 ### Migration from Gatsby (2025-10)
 
 Successfully migrated from Gatsby to Eleventy for:
+
 - Faster build times (from minutes to <0.5 seconds)
 - Simpler architecture and easier maintenance
 - Better developer experience
@@ -527,6 +575,7 @@ The RSS feed (`/feed.xml`) is generated from `src/feed.liquid` and includes:
 - Full episode descriptions
 
 The feed is podcast-compatible and can be submitted to:
+
 - Apple Podcasts
 - Spotify
 - Google Podcasts
@@ -537,6 +586,7 @@ The feed is podcast-compatible and can be submitted to:
 **CRITICAL:** Always validate the RSS feed after making changes to ensure it remains compliant with RSS 2.0, iTunes podcast, and W3C standards.
 
 **Validation Tools:**
+
 - [W3C Feed Validator](https://validator.w3.org/feed/): Check for RSS 2.0 compliance
 - [Podbase Validator](https://podbase.org/validate): Check for podcast-specific issues
 - [Cast Feed Validator](https://castfeedvalidator.com/): Additional podcast validation
@@ -547,6 +597,7 @@ The feed is podcast-compatible and can be submitted to:
    - Empty tags like `<itunes:duration></itunes:duration>` cause validation errors
    - Only include optional tags when they have actual values
    - Use conditional logic in Liquid templates:
+
    ```liquid
    {% if post.data.enclosure.duration %}
    <itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>
@@ -576,6 +627,7 @@ The feed is podcast-compatible and can be submitted to:
 **Testing Workflow:**
 
 After modifying `src/feed.liquid`:
+
 ```bash
 # Build the site
 npm run build
@@ -597,6 +649,7 @@ cat _site/feed.xml | head -n 100
 6. **Invalid enclosure attributes**: Ensure `length` is file size in bytes, `type` is correct MIME type
 
 **Recent Fixes (2025-10-29):**
+
 - Fixed empty `<itunes:duration>` tags by adding conditional check in feed template
 - Changed from always outputting tag to only outputting when duration exists
 
@@ -613,6 +666,7 @@ cat _site/feed.xml | head -n 100
 5. **Best practices**: Add any new patterns or approaches discovered
 
 Also keep `README.md` updated with user-facing changes like:
+
 - New features
 - Updated installation steps
 - Performance improvements
@@ -630,22 +684,26 @@ Also keep `README.md` updated with user-facing changes like:
 The site is static and can be deployed to any static hosting:
 
 **Scheduled Cloudflare Pages redeploys:**
+
 - Workflow `.github/workflows/cloudflare-pages-redeploy.yml` runs every Thursday at 04:00 EST (09:00 UTC) and can be triggered manually with `workflow_dispatch`.
 - The job hits the Cloudflare Pages deployments API so future-dated posts publish without requiring a new commit, waits for the production deployment to finish, then purges the Cloudflare cache for `twistoflemonpod.com` to ensure the latest content is served.
 - Requires repository secrets `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_PROJECT_NAME`, `CLOUDFLARE_ZONE_ID`, and `CLOUDFLARE_API_TOKEN` (token needs “Pages - Edit” and “Zone.Cache Purge” scopes).
 
 **GitHub Pages:**
+
 - Build command: `npm run build`
 - Publish directory: `_site`
 - Branch: Configure in GitHub Pages settings
 
 **Other Hosts:**
+
 - Netlify, Vercel, Cloudflare Pages all supported
 - Same build command and output directory
 
 ## Audio Files
 
 Audio files are hosted on AWS S3:
+
 - Bucket: `twistoflemonpod`
 - Region: `us-east-2`
 - Path: `episodes/NNN-lwatol-YYYYMMDD.mp3`
@@ -655,18 +713,21 @@ Local copies are maintained in: `~/Sites/twistoflemonpod-mp3s/episodes/`
 ## Troubleshooting
 
 ### Build Fails
+
 1. Check `npm test` for validation errors
 2. Verify all post frontmatter is valid YAML
 3. Ensure all required fields are present
 4. Check for syntax errors in templates
 
 ### Feed Not Valid
+
 1. Verify all enclosure URLs are accessible
 2. Ensure `length` values are accurate file sizes in bytes
 3. Confirm `type` is set to `audio/mpeg` for MP3 files
 4. Test with [Podbase Validator](https://podbase.org/validate)
 
 ### Missing Pages
+
 1. Check `.eleventy.js` configuration
 2. Verify passthrough copy settings
 3. Ensure pagination is configured correctly
@@ -699,6 +760,7 @@ Create pull requests for review before merging to main branches.
 ## Performance Metrics
 
 Current performance (as of 2025-10-25):
+
 - Build time: ~0.4 seconds
 - Total pages: 283
 - Total posts: 172

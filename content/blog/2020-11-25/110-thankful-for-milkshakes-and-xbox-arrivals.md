@@ -2,7 +2,7 @@
 title: Thankful for Milkshakes and Xbox Arrivals
 slug: thankful-for-milkshakes-and-xbox-arrivals
 episode: 110
-date: '2020-11-25T15:09:56.000Z'
+date: 2020-11-25T15:09:56.000Z
 categories:
   - Food
   - Technology
@@ -12,7 +12,7 @@ tags:
   - thanksgiving
   - xbox
 enclosure:
-  url: 'https://media.twistoflemonpod.com/110-lwatol-20201125.mp3'
+  url: https://media.twistoflemonpod.com/110-lwatol-20201125.mp3
   length: 59574155
   type: audio/mpeg
 summary: >-

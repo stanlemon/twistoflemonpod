@@ -1,8 +1,8 @@
 ---
-title: 'Beyond Meat, Budgeting the NFL way, and Refinancing'
+title: Beyond Meat, Budgeting the NFL way, and Refinancing
 slug: beyond-meat-budgeting-the-nfl-way-and-refinancing
 episode: 59
-date: '2019-08-22T11:34:12.000Z'
+date: 2019-08-22T11:34:12.000Z
 categories:
   - Finance
   - Food
@@ -14,7 +14,7 @@ tags:
   - tacos
   - football
 enclosure:
-  url: 'https://media.twistoflemonpod.com/059-lwatol-20190822.mp3'
+  url: https://media.twistoflemonpod.com/059-lwatol-20190822.mp3
   length: 35269700
   type: audio/mpeg
 summary: >-

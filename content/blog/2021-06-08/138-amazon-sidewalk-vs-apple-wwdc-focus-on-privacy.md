@@ -2,7 +2,7 @@
 title: Amazon Sidewalk Vs. Apple WWDC Focus on Privacy
 slug: amazon-sidewalk-vs-apple-wwdc-focus-on-privacy
 episode: 138
-date: '2021-06-08T13:50:29.000Z'
+date: 2021-06-08T13:50:29.000Z
 categories:
   - Technology
 tags:
@@ -15,7 +15,7 @@ tags:
   - wwdc
   - budgeting
 enclosure:
-  url: 'https://media.twistoflemonpod.com/138-lwatol-20210608.mp3'
+  url: https://media.twistoflemonpod.com/138-lwatol-20210608.mp3
   length: 79546769
   type: audio/mpeg
 summary: >-

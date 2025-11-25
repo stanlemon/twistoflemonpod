@@ -1,15 +1,15 @@
 ---
-title: 'Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)'
+title: Homeownership Woes, Milkshakes and Meatloaf (The food, not the hiphop artist)
 slug: homeownership-woes-milkshakes-and-meatloaf-the-food-not-the-hiphop-artist
 episode: 21
-date: '2018-12-06T12:29:47.000Z'
+date: 2018-12-06T12:29:47.000Z
 categories:
   - Food
   - Home Ownership
 tags:
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/021-lwatol-20181206.mp3'
+  url: https://media.twistoflemonpod.com/021-lwatol-20181206.mp3
   length: 36959339
   type: audio/mpeg
 summary: >-
@@ -39,6 +39,7 @@ Talk next week,
 
 \-Jon Kohlmeier & Stan Lemon
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+
 ### Show notes
 
 - [Grindhouse Killer Burgers](http://www.grindhouseburgers.com)

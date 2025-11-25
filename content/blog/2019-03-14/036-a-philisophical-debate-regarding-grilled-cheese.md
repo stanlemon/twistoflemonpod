@@ -2,7 +2,7 @@
 title: A Philosophical​ Debate regarding Grilled Cheese
 slug: a-philisophical-debate-regarding-grilled-cheese
 episode: 36
-date: '2019-03-14T12:22:06.000Z'
+date: 2019-03-14T12:22:06.000Z
 categories:
   - Food
   - Home Ownership
@@ -12,7 +12,7 @@ tags:
   - milkshakes
   - home improvement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/036-lwatol-20190314.mp3'
+  url: https://media.twistoflemonpod.com/036-lwatol-20190314.mp3
   length: 42951489
   type: audio/mpeg
 summary: >-
@@ -35,4 +35,3 @@ Only time will tell.
 Finally the recap some other things from Stan's trip including home improvement, and cocktails.
 
 Stan Lemon & Jon Kohlmeier
-

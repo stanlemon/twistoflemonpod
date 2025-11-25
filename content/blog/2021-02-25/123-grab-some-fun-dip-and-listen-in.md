@@ -2,7 +2,7 @@
 title: Grab Some Fun Dip and Listen In
 slug: grab-some-fun-dip-and-listen-in
 episode: 123
-date: '2021-02-25T14:48:18.000Z'
+date: 2021-02-25T14:48:18.000Z
 categories:
   - Food
   - Marvel
@@ -11,7 +11,7 @@ tags:
   - wandavision
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/123-lwatol-20210225.mp3'
+  url: https://media.twistoflemonpod.com/123-lwatol-20210225.mp3
   length: 41329153
   type: audio/mpeg
 summary: >-

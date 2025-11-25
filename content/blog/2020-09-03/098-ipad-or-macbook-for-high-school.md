@@ -2,7 +2,7 @@
 title: iPad or MacBook for High School?
 slug: ipad-or-macbook-for-high-school
 episode: 98
-date: '2020-09-03T12:04:03.000Z'
+date: 2020-09-03T12:04:03.000Z
 categories:
   - Technology
 tags:
@@ -13,7 +13,7 @@ tags:
   - football
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/098-lwatol-20200903.mp3'
+  url: https://media.twistoflemonpod.com/098-lwatol-20200903.mp3
   length: 43901953
   type: audio/mpeg
 summary: >-

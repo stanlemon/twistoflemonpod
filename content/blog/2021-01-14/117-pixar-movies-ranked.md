@@ -2,7 +2,7 @@
 title: Pixar Movies Ranked
 slug: pixar-movies-ranked
 episode: 117
-date: '2021-01-14T14:07:07.000Z'
+date: 2021-01-14T14:07:07.000Z
 categories:
   - Movies
   - Technology
@@ -10,7 +10,7 @@ tags:
   - meat rubs
   - christmas
 enclosure:
-  url: 'https://media.twistoflemonpod.com/117-lwatol-20210114.mp3'
+  url: https://media.twistoflemonpod.com/117-lwatol-20210114.mp3
   length: 45600373
   type: audio/mpeg
 summary: >-

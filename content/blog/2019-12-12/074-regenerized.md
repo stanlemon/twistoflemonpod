@@ -2,7 +2,7 @@
 title: Regenerized
 slug: regenerized
 episode: 74
-date: '2019-12-12T15:32:25.000Z'
+date: 2019-12-12T15:32:25.000Z
 categories:
   - Career Advice
   - Productivity
@@ -11,7 +11,7 @@ tags:
   - thanksgiving
   - productivity
 enclosure:
-  url: 'https://media.twistoflemonpod.com/074-lwatol-20191212.mp3'
+  url: https://media.twistoflemonpod.com/074-lwatol-20191212.mp3
   length: 31375004
   type: audio/mpeg
 summary: >-

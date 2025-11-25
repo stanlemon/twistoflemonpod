@@ -2,7 +2,7 @@
 title: Stan's Going to Disney World
 slug: stans-going-to-disney-world
 episode: 83
-date: '2020-02-13T14:00:37.000Z'
+date: 2020-02-13T14:00:37.000Z
 categories:
   - Movies
 tags:
@@ -11,7 +11,7 @@ tags:
   - vacation
   - disney
 enclosure:
-  url: 'https://media.twistoflemonpod.com/083-lwatol-20200213.mp3'
+  url: https://media.twistoflemonpod.com/083-lwatol-20200213.mp3
   length: 37926426
   type: audio/mpeg
 summary: >-

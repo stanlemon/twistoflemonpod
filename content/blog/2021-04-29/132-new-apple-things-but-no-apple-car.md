@@ -2,13 +2,13 @@
 title: New Apple Things (but no Apple car)
 slug: new-apple-things-but-no-apple-car
 episode: 132
-date: '2021-04-29T14:28:10.000Z'
+date: 2021-04-29T14:28:10.000Z
 categories:
   - Home Ownership
 tags:
   - home improvement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/132-lwatol-20210429.mp3'
+  url: https://media.twistoflemonpod.com/132-lwatol-20210429.mp3
   length: 63507077
   type: audio/mpeg
 summary: >-

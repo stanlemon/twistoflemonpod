@@ -2,7 +2,7 @@
 title: To Boldly Go.... to Season 2
 slug: to-boldly-go-to-season-2
 episode: 56
-date: '2019-08-01T13:24:46.000Z'
+date: 2019-08-01T13:24:46.000Z
 categories:
   - Marvel
   - Movies
@@ -13,7 +13,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/056-lwatol-20190801.mp3'
+  url: https://media.twistoflemonpod.com/056-lwatol-20190801.mp3
   length: 41733451
   type: audio/mpeg
 summary: >-
@@ -38,4 +38,3 @@ Finally, Endgame is out! Stan has been working his way through the rewatch.
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

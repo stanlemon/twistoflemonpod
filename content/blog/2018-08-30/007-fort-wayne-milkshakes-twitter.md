@@ -1,15 +1,15 @@
 ---
-title: 'Fort Wayne, Milkshakes, and The Death of Twitter'
+title: Fort Wayne, Milkshakes, and The Death of Twitter
 slug: fort-wayne-milkshakes-twitter
 episode: 7
-date: '2018-08-30T07:00:54.000Z'
+date: 2018-08-30T07:00:54.000Z
 categories:
   - Food
   - Movies
 tags:
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/007-lwatol-20180830.mp3'
+  url: https://media.twistoflemonpod.com/007-lwatol-20180830.mp3
   length: 37771398
   type: audio/mpeg
 summary: >-

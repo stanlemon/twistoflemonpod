@@ -2,7 +2,7 @@
 title: Fast Food Ranked
 slug: fast-food-ranked
 episode: 140
-date: '2021-06-22T14:08:58.000Z'
+date: 2021-06-22T14:08:58.000Z
 categories:
   - Food
   - Marvel
@@ -13,7 +13,7 @@ tags:
   - vacation
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/140-lwatol-20210622.mp3'
+  url: https://media.twistoflemonpod.com/140-lwatol-20210622.mp3
   length: 69671794
   type: audio/mpeg
 summary: >-

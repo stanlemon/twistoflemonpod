@@ -2,7 +2,7 @@
 title: The Polar Vortex is Upon Us!
 slug: the-polar-vortex-is-upon-us
 episode: 29
-date: '2019-01-31T13:41:28.000Z'
+date: 2019-01-31T13:41:28.000Z
 categories:
   - Technology
 tags:
@@ -10,7 +10,7 @@ tags:
   - snowblower
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/029-lwatol-20190131.mp3'
+  url: https://media.twistoflemonpod.com/029-lwatol-20190131.mp3
   length: 35857210
   type: audio/mpeg
 summary: >-
@@ -31,4 +31,3 @@ Listen in. Stay Warm. And we'll be back with another Twist of Lemon next week.
 Thanks for listening. Review us on iTunes and we'll read your review on air!
 
 Stan Lemon and Jon Kohlmeier
-

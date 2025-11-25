@@ -2,7 +2,7 @@
 title: Nashville and Disney+
 slug: nashville-and-disney
 episode: 72
-date: '2019-11-21T14:21:20.000Z'
+date: 2019-11-21T14:21:20.000Z
 categories:
   - Food
   - Marvel
@@ -16,7 +16,7 @@ tags:
   - nashville
   - star wars
 enclosure:
-  url: 'https://media.twistoflemonpod.com/072-lwatol-20191121.mp3'
+  url: https://media.twistoflemonpod.com/072-lwatol-20191121.mp3
   length: 41200451
   type: audio/mpeg
 summary: >-

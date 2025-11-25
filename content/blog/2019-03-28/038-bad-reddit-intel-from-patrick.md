@@ -2,7 +2,7 @@
 title: Bad Reddit Intel From Patrick
 slug: bad-reddit-intel-from-patrick
 episode: 38
-date: '2019-03-28T12:51:27.000Z'
+date: 2019-03-28T12:51:27.000Z
 categories:
   - Food
   - Marvel
@@ -18,7 +18,7 @@ tags:
   - patrick sturdivant
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/038-lwatol-20190328.mp3'
+  url: https://media.twistoflemonpod.com/038-lwatol-20190328.mp3
   length: 45815236
   type: audio/mpeg
 summary: >-
@@ -43,4 +43,3 @@ Finally we leave you with a PSA to make sure that your data is backed up.
 Thanks for listening and leaving reviews!
 
 Stan Lemon & Jon Kohlmeier
-

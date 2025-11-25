@@ -2,7 +2,7 @@
 title: Getting Ready for Spring Lawn Care
 slug: getting-ready-for-spring-lawn-care
 episode: 85
-date: '2020-02-27T13:58:17.000Z'
+date: 2020-02-27T13:58:17.000Z
 categories:
   - Home Ownership
   - Movies
@@ -11,7 +11,7 @@ tags:
   - meat rubs by fenker
   - star trek
 enclosure:
-  url: 'https://media.twistoflemonpod.com/085-lwatol-20200227mp3.mp3'
+  url: https://media.twistoflemonpod.com/085-lwatol-20200227mp3.mp3
   length: 33604611
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: What Makes a Good Meeting
 slug: what-makes-a-good-meeting
 episode: 49
-date: '2019-06-13T13:15:39.000Z'
+date: 2019-06-13T13:15:39.000Z
 categories:
   - Productivity
   - Technology
@@ -12,7 +12,7 @@ tags:
   - apple
   - productivity
 enclosure:
-  url: 'https://media.twistoflemonpod.com/049-lwatol-20190613.mp3'
+  url: https://media.twistoflemonpod.com/049-lwatol-20190613.mp3
   length: 37937607
   type: audio/mpeg
 summary: >-

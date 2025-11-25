@@ -1,8 +1,8 @@
 ---
-title: '''Cause you''re invited to a BBQ that''s starting at 4'
+title: "'Cause you're invited to a BBQ that's starting at 4"
 slug: cause-youre-invited-to-a-bbq-thats-starting-at-4
 episode: 147
-date: '2021-08-10T14:14:33.000Z'
+date: 2021-08-10T14:14:33.000Z
 categories:
   - Food
   - Home Ownership
@@ -10,7 +10,7 @@ tags:
   - lawn care
   - meat rubs
 enclosure:
-  url: 'https://media.twistoflemonpod.com/147-lwatol-20210810.mp3'
+  url: https://media.twistoflemonpod.com/147-lwatol-20210810.mp3
   length: 35134868
   type: audio/mpeg
 summary: >-

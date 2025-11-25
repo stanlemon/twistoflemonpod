@@ -2,7 +2,7 @@
 title: Thanksgiving 2019
 slug: thanksgiving-2019
 episode: 73
-date: '2019-11-28T13:14:34.000Z'
+date: 2019-11-28T13:14:34.000Z
 categories:
   - Food
   - Marvel
@@ -17,7 +17,7 @@ tags:
   - email
   - thanksgiving
 enclosure:
-  url: 'https://media.twistoflemonpod.com/073-lwatol-20191128.mp3'
+  url: https://media.twistoflemonpod.com/073-lwatol-20191128.mp3
   length: 36271522
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: Food You Probably Shouldn't Order
 slug: food-you-probably-shouldnt-order
 episode: 135
-date: '2021-05-20T13:42:38.000Z'
+date: 2021-05-20T13:42:38.000Z
 categories:
   - Food
   - Home Ownership
@@ -12,7 +12,7 @@ tags:
   - milkshakes
   - home improvement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/135-lwatol-20210520.mp3'
+  url: https://media.twistoflemonpod.com/135-lwatol-20210520.mp3
   length: 43734916
   type: audio/mpeg
 summary: >-

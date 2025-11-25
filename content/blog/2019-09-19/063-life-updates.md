@@ -2,7 +2,7 @@
 title: Life Updates
 slug: life-updates
 episode: 63
-date: '2019-09-19T13:51:54.000Z'
+date: 2019-09-19T13:51:54.000Z
 categories:
   - Food
   - Productivity
@@ -10,7 +10,7 @@ categories:
 tags:
   - football
 enclosure:
-  url: 'https://media.twistoflemonpod.com/063-lwatol-20190919.mp3'
+  url: https://media.twistoflemonpod.com/063-lwatol-20190919.mp3
   length: 40849082
   type: audio/mpeg
 summary: >-

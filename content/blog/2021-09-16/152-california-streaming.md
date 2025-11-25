@@ -2,7 +2,7 @@
 title: California Streaming
 slug: california-streaming
 episode: 152
-date: '2021-09-16T14:25:44.000Z'
+date: 2021-09-16T14:25:44.000Z
 categories:
   - Technology
 tags:
@@ -13,7 +13,7 @@ tags:
   - iPhone
   - music
 enclosure:
-  url: 'https://media.twistoflemonpod.com/152-lwatol-20210916.mp3'
+  url: https://media.twistoflemonpod.com/152-lwatol-20210916.mp3
   length: 42528374
   type: audio/mpeg
 summary: >-

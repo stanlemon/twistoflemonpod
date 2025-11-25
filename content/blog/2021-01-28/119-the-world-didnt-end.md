@@ -2,7 +2,7 @@
 title: The World Didn't End
 slug: the-world-didnt-end
 episode: 119
-date: '2021-01-28T14:24:32.000Z'
+date: 2021-01-28T14:24:32.000Z
 categories:
   - Marvel
   - Movies
@@ -10,7 +10,7 @@ tags:
   - wandavision
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/119-lwatol-20210128.mp3'
+  url: https://media.twistoflemonpod.com/119-lwatol-20210128.mp3
   length: 29437046
   type: audio/mpeg
 summary: >-

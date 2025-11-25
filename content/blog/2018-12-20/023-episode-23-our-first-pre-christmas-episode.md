@@ -2,7 +2,7 @@
 title: Our First Pre-Christmas Episode
 slug: our-first-pre-christmas-episode
 episode: 23
-date: '2018-12-20T12:37:29.000Z'
+date: 2018-12-20T12:37:29.000Z
 categories:
   - Food
   - Movies
@@ -14,7 +14,7 @@ tags:
   - endgame
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/023-lwatol-20181220.mp3'
+  url: https://media.twistoflemonpod.com/023-lwatol-20181220.mp3
   length: 36117026
   type: audio/mpeg
 summary: >-

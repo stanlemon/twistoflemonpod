@@ -2,7 +2,7 @@
 title: Merry Star Warsmas
 slug: merry-star-warsmas
 episode: 75
-date: '2019-12-19T13:49:58.000Z'
+date: 2019-12-19T13:49:58.000Z
 categories:
   - Movies
   - Technology
@@ -10,7 +10,7 @@ tags:
   - christmas
   - star wars
 enclosure:
-  url: 'https://media.twistoflemonpod.com/075-lwatol-20191219.mp3'
+  url: https://media.twistoflemonpod.com/075-lwatol-20191219.mp3
   length: 39028416
   type: audio/mpeg
 summary: >-

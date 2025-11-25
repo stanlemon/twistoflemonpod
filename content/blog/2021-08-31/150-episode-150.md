@@ -2,14 +2,14 @@
 title: Episode 150!
 slug: episode-150
 episode: 150
-date: '2021-08-31T14:26:55.000Z'
+date: 2021-08-31T14:26:55.000Z
 categories:
   - Food
 tags:
   - meat rubs
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/150-lwatol-20210831.mp3'
+  url: https://media.twistoflemonpod.com/150-lwatol-20210831.mp3
   length: 35233518
   type: audio/mpeg
 summary: >-

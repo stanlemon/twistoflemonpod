@@ -2,7 +2,7 @@
 title: Long Overdue Milkshake Reviews
 slug: long-overdue-milkshake-reviews
 episode: 87
-date: '2020-03-12T13:05:31.000Z'
+date: 2020-03-12T13:05:31.000Z
 categories:
   - Food
   - Productivity
@@ -14,7 +14,7 @@ tags:
   - milkshakes
   - mint
 enclosure:
-  url: 'https://media.twistoflemonpod.com/087-lwatol-20200312.mp3'
+  url: https://media.twistoflemonpod.com/087-lwatol-20200312.mp3
   length: 39373340
   type: audio/mpeg
 summary: >-

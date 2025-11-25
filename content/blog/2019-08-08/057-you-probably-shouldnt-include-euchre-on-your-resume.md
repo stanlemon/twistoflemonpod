@@ -2,7 +2,7 @@
 title: You probably shouldn't include Euchre on your resume
 slug: you-probably-shouldnt-include-euchre-on-your-resume
 episode: 57
-date: '2019-08-08T14:33:16.000Z'
+date: 2019-08-08T14:33:16.000Z
 categories:
   - Career Advice
   - Food
@@ -11,7 +11,7 @@ categories:
 tags:
   - star trek
 enclosure:
-  url: 'https://media.twistoflemonpod.com/057-lwatol-20190808.mp3'
+  url: https://media.twistoflemonpod.com/057-lwatol-20190808.mp3
   length: 45814006
   type: audio/mpeg
 summary: >-
@@ -36,4 +36,3 @@ This turns into one of those practical advice episodes that everyone likes so mu
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

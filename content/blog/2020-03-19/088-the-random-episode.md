@@ -2,7 +2,7 @@
 title: The Random Episode
 slug: the-random-episode
 episode: 88
-date: '2020-03-19T14:49:34.000Z'
+date: 2020-03-19T14:49:34.000Z
 categories:
   - House Hunting
   - Productivity
@@ -12,7 +12,7 @@ tags:
   - grilled cheese
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/088-lwatol-20200319.mp3'
+  url: https://media.twistoflemonpod.com/088-lwatol-20200319.mp3
   length: 31438451
   type: audio/mpeg
 summary: >-

@@ -2,13 +2,13 @@
 title: Movies During the Pandemic
 slug: movies-during-the-pandemic
 episode: 90
-date: '2020-07-02T11:42:07.000Z'
+date: 2020-07-02T11:42:07.000Z
 categories:
   - Movies
 tags:
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/090-lwatol-20200702.mp3'
+  url: https://media.twistoflemonpod.com/090-lwatol-20200702.mp3
   length: 46053004
   type: audio/mpeg
 summary: >-

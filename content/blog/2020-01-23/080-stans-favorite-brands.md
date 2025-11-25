@@ -2,13 +2,13 @@
 title: Stan's Favorite Brands
 slug: stans-favorite-brands
 episode: 80
-date: '2020-01-23T12:51:56.000Z'
+date: 2020-01-23T12:51:56.000Z
 categories:
   - Technology
 tags:
   - shoes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/080-lwatol-20200123.mp3'
+  url: https://media.twistoflemonpod.com/080-lwatol-20200123.mp3
   length: 37350529
   type: audio/mpeg
 summary: >-

@@ -2,13 +2,13 @@
 title: About Page Updates
 slug: about-page-updates
 episode: 165
-date: '2021-12-16T13:39:38.000Z'
+date: 2021-12-16T13:39:38.000Z
 categories:
   - Lifestyle
 tags:
   - vacation
 enclosure:
-  url: 'https://media.twistoflemonpod.com/165-lwatol-20211216.mp3'
+  url: https://media.twistoflemonpod.com/165-lwatol-20211216.mp3
   length: 39634164
   type: audio/mpeg
 summary: >-

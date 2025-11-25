@@ -2,7 +2,7 @@
 title: Technology Improvements
 slug: technology-improvements
 episode: 133
-date: '2021-05-06T14:17:07.000Z'
+date: 2021-05-06T14:17:07.000Z
 categories:
   - Home Ownership
   - Marvel
@@ -12,7 +12,7 @@ tags:
   - falcon and the winter soldier
   - music
 enclosure:
-  url: 'https://media.twistoflemonpod.com/133-lwatol-20210506.mp3'
+  url: https://media.twistoflemonpod.com/133-lwatol-20210506.mp3
   length: 35289593
   type: audio/mpeg
 summary: >-

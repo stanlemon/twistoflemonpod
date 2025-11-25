@@ -8,30 +8,38 @@ A podcast about technology, finance, life, craftsmanship, theology, and a little
 ## Quick Start
 
 ### Prerequisites
+
 - Node.js 22.x or later (see `.nvmrc`)
 - npm
 
 ### Installation
+
 ```bash
 npm install
 ```
 
 ### Development
+
 ```bash
 npm run dev
 ```
+
 Site available at http://localhost:8080 with live reload.
 
 ### Build
+
 ```bash
 npm run build
 ```
+
 Output in `_site/` directory.
 
 ### Test
+
 ```bash
 npm test
 ```
+
 Runs build and content validation.
 
 ## Technology
@@ -39,6 +47,7 @@ Runs build and content validation.
 Built with [Eleventy (11ty)](https://www.11ty.dev/) for fast builds and simple architecture.
 
 **Key Features:**
+
 - 172 podcast episodes with audio players
 - Podcast-compatible RSS feed at `/feed.xml`
 - Category and tag organization (15 categories, 88 tags)
@@ -54,7 +63,7 @@ Episodes are stored as Markdown files in `content/blog/YYYY-MM-DD/slug.md`:
 ---
 title: Episode Title
 episode: 1
-date: '2018-07-30T23:20:55.000Z'
+date: "2018-07-30T23:20:55.000Z"
 categories:
   - Technology
 tags:
@@ -82,6 +91,7 @@ For detailed development workflows, architecture documentation, and best practic
 ## Scripts
 
 Utility scripts in `scripts/` directory for maintenance tasks:
+
 - `update-enclosure-metadata.js` - Update podcast RSS metadata
 - `add-episode-numbers.js` - Add episode numbers
 - `add-slug-to-frontmatter.js` - Generate URL slugs

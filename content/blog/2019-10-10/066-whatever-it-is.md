@@ -2,7 +2,7 @@
 title: Whatever It Is
 slug: whatever-it-is
 episode: 66
-date: '2019-10-10T12:28:19.000Z'
+date: 2019-10-10T12:28:19.000Z
 categories:
   - Food
   - Home Ownership
@@ -15,7 +15,7 @@ tags:
   - music
   - ipad
 enclosure:
-  url: 'https://media.twistoflemonpod.com/066-lwatol-20191010.mp3'
+  url: https://media.twistoflemonpod.com/066-lwatol-20191010.mp3
   length: 48965380
   type: audio/mpeg
 summary: >-
@@ -42,4 +42,3 @@ Finally we talk about the new Zac Brown Album - The Owl. We aren't really fans. 
 Kind of all over the place this week, but we think it's a good time. Thanks for sticking with us!
 
 Stan Lemon & Jon Kohlmeier
-

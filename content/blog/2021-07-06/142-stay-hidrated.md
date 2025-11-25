@@ -2,14 +2,14 @@
 title: Stay Hidrated
 slug: stay-hidrated
 episode: 142
-date: '2021-07-06T12:53:51.000Z'
+date: 2021-07-06T12:53:51.000Z
 categories:
   - Food
 tags:
   - vacation
   - visit
 enclosure:
-  url: 'https://media.twistoflemonpod.com/142-lwatol-20210706.mp3'
+  url: https://media.twistoflemonpod.com/142-lwatol-20210706.mp3
   length: 38379631
   type: audio/mpeg
 summary: >-

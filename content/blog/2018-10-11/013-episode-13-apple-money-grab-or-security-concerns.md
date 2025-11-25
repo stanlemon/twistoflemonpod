@@ -2,7 +2,7 @@
 title: Apple Money Grab... or security concerns?
 slug: apple-money-grab-or-security-concerns
 episode: 13
-date: '2018-10-11T11:32:45.000Z'
+date: 2018-10-11T11:32:45.000Z
 categories:
   - Finance
   - House Hunting
@@ -14,7 +14,7 @@ tags:
   - milkshakes
   - home improvement
 enclosure:
-  url: 'https://media.twistoflemonpod.com/013-lwatol-20181011.mp3'
+  url: https://media.twistoflemonpod.com/013-lwatol-20181011.mp3
   length: 43798383
   type: audio/mpeg
 summary: >-

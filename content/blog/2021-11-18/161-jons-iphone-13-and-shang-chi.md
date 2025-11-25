@@ -2,7 +2,7 @@
 title: Jon's iPhone 13 and Shang-Chi
 slug: jons-iphone-13-and-shang-chi
 episode: 161
-date: '2021-11-18T13:34:07.000Z'
+date: 2021-11-18T13:34:07.000Z
 categories:
   - Marvel
   - Movies
@@ -14,7 +14,7 @@ tags:
   - marvel
   - shang-chi
 enclosure:
-  url: 'https://media.twistoflemonpod.com/161-lwatol-20211118.mp3'
+  url: https://media.twistoflemonpod.com/161-lwatol-20211118.mp3
   length: 56022140
   type: audio/mpeg
 summary: >-

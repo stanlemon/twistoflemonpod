@@ -2,13 +2,13 @@
 title: Fitness+ with Mark Buetow
 slug: fitness-with-mark-buetow
 episode: 116
-date: '2021-01-07T13:56:15.000Z'
+date: 2021-01-07T13:56:15.000Z
 categories:
   - Technology
 tags:
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/116-lwatol-20210107.mp3'
+  url: https://media.twistoflemonpod.com/116-lwatol-20210107.mp3
   length: 44954875
   type: audio/mpeg
 summary: >-

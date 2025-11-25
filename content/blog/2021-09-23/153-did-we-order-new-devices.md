@@ -2,7 +2,7 @@
 title: Did we order new devices?
 slug: did-we-order-new-devices
 episode: 153
-date: '2021-09-23T18:54:12.000Z'
+date: 2021-09-23T18:54:12.000Z
 categories:
   - Technology
 tags:
@@ -12,7 +12,7 @@ tags:
   - ipad
   - iPhone
 enclosure:
-  url: 'https://media.twistoflemonpod.com/153-lwatol-20210923.mp3'
+  url: https://media.twistoflemonpod.com/153-lwatol-20210923.mp3
   length: 44792060
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: Top 10 Songs
 slug: top-10-songs
 episode: 166
-date: '2021-12-23T13:30:13.000Z'
+date: 2021-12-23T13:30:13.000Z
 categories:
   - Music
 tags:
@@ -10,7 +10,7 @@ tags:
   - music
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/166-lwatol-20211223.mp3'
+  url: https://media.twistoflemonpod.com/166-lwatol-20211223.mp3
   length: 35395182
   type: audio/mpeg
 summary: >-

@@ -2,13 +2,13 @@
 title: Two Years with a Twist of Lemon
 slug: two-years-with-a-twist-of-lemon
 episode: 95
-date: '2020-08-06T13:32:11.000Z'
+date: 2020-08-06T13:32:11.000Z
 categories:
   - Food
 tags:
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/095-lwatol-20200806.mp3'
+  url: https://media.twistoflemonpod.com/095-lwatol-20200806.mp3
   length: 45805056
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: Don't Stop at Roundabouts
 slug: dont-stop-at-roundabouts
 episode: 69
-date: '2019-10-31T12:11:52.000Z'
+date: 2019-10-31T12:11:52.000Z
 categories:
   - Lifestyle
 tags:
@@ -10,7 +10,7 @@ tags:
   - life tip
   - minimalism
 enclosure:
-  url: 'https://media.twistoflemonpod.com/069-lwatol-20191031.mp3'
+  url: https://media.twistoflemonpod.com/069-lwatol-20191031.mp3
   length: 36217770
   type: audio/mpeg
 summary: >-

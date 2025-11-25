@@ -2,7 +2,7 @@
 title: It's Beginning To Look A Lot Like Spring
 slug: its-beginning-to-look-a-lot-like-spring
 episode: 124
-date: '2021-03-04T13:54:11.000Z'
+date: 2021-03-04T13:54:11.000Z
 categories:
   - Home Ownership
   - Marvel
@@ -16,7 +16,7 @@ tags:
   - apple
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/124-lwatol-20210304.mp3'
+  url: https://media.twistoflemonpod.com/124-lwatol-20210304.mp3
   length: 46750474
   type: audio/mpeg
 summary: >-

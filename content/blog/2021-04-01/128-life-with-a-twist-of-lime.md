@@ -2,7 +2,7 @@
 title: Life with a Twist of Lime
 slug: life-with-a-twist-of-lime
 episode: 128
-date: '2021-04-01T14:33:38.000Z'
+date: 2021-04-01T14:33:38.000Z
 categories:
   - Home Ownership
   - Technology
@@ -12,7 +12,7 @@ tags:
   - roof
   - email
 enclosure:
-  url: 'https://media.twistoflemonpod.com/128-lwatol-20210401.mp3'
+  url: https://media.twistoflemonpod.com/128-lwatol-20210401.mp3
   length: 55281787
   type: audio/mpeg
 summary: >-

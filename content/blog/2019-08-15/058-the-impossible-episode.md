@@ -2,7 +2,7 @@
 title: The Impossible Episode
 slug: the-impossible-episode
 episode: 58
-date: '2019-08-15T14:49:57.000Z'
+date: 2019-08-15T14:49:57.000Z
 categories:
   - Food
   - Home Ownership
@@ -11,7 +11,7 @@ tags:
   - baseball
   - mortgage
 enclosure:
-  url: 'https://media.twistoflemonpod.com/058-lwatol-20190815.mp3'
+  url: https://media.twistoflemonpod.com/058-lwatol-20190815.mp3
   length: 36478503
   type: audio/mpeg
 summary: >-
@@ -39,4 +39,3 @@ If you like what you hear or have other food challenges for us, let us know onli
 Thanks for Listening!
 
 Stan Lemon & Jon Kohlmeier
-

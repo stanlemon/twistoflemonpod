@@ -2,14 +2,14 @@
 title: It's Beginning To Look A Lot Like Christmas
 slug: its-beginning-to-look-a-lot-like-christmas
 episode: 111
-date: '2020-12-03T15:10:08.000Z'
+date: 2020-12-03T15:10:08.000Z
 categories:
   - Lifestyle
 tags:
   - xbox
   - christmas
 enclosure:
-  url: 'https://media.twistoflemonpod.com/111-lwatol-20201203.mp3'
+  url: https://media.twistoflemonpod.com/111-lwatol-20201203.mp3
   length: 34323086
   type: audio/mpeg
 summary: >-

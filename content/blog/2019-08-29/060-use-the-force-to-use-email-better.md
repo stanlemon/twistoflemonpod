@@ -2,7 +2,7 @@
 title: Use the Force... to Use Email Better
 slug: use-the-force-to-use-email-better
 episode: 60
-date: '2019-08-29T11:24:37.000Z'
+date: 2019-08-29T11:24:37.000Z
 categories:
   - Movies
   - Productivity
@@ -12,7 +12,7 @@ tags:
   - email
   - star wars
 enclosure:
-  url: 'https://media.twistoflemonpod.com/060-lwatol-20190829.mp3'
+  url: https://media.twistoflemonpod.com/060-lwatol-20190829.mp3
   length: 39980115
   type: audio/mpeg
 summary: >-
@@ -42,4 +42,3 @@ Listen in and share some of your email tips!
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

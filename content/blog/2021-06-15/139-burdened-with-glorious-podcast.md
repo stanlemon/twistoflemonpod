@@ -2,7 +2,7 @@
 title: Burdened with Glorious Podcast
 slug: burdened-with-glorious-podcast
 episode: 139
-date: '2021-06-15T15:06:49.000Z'
+date: 2021-06-15T15:06:49.000Z
 categories:
   - Marvel
   - Technology
@@ -14,7 +14,7 @@ tags:
   - apple
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/139-lwatol-20210615.mp3'
+  url: https://media.twistoflemonpod.com/139-lwatol-20210615.mp3
   length: 38759808
   type: audio/mpeg
 summary: >-

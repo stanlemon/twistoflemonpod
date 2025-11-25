@@ -2,14 +2,14 @@
 title: This Episode Sparks Joy
 slug: this-episode-sparks-joy
 episode: 67
-date: '2019-10-17T14:32:56.000Z'
+date: 2019-10-17T14:32:56.000Z
 categories:
   - Home Ownership
   - Productivity
 tags:
   - minimalism
 enclosure:
-  url: 'https://media.twistoflemonpod.com/067-lwatol-20191017.mp3'
+  url: https://media.twistoflemonpod.com/067-lwatol-20191017.mp3
   length: 39134534
   type: audio/mpeg
 summary: >-
@@ -28,4 +28,3 @@ Ultimately this is a long talk about minimalism and cutting waste.
 Thanks for listening,
 
 Stan Lemon & Jon Kohlmeier
-

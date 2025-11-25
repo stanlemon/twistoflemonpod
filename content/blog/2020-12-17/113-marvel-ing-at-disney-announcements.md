@@ -2,7 +2,7 @@
 title: Marvel-ing at Disney Announcements
 slug: marvel-ing-at-disney-announcements
 episode: 113
-date: '2020-12-17T13:20:10.000Z'
+date: 2020-12-17T13:20:10.000Z
 categories:
   - Marvel
   - Movies
@@ -11,7 +11,7 @@ tags:
   - star wars
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/113-lwatol-20201217.mp3'
+  url: https://media.twistoflemonpod.com/113-lwatol-20201217.mp3
   length: 119735449
   type: audio/mpeg
 summary: >-

@@ -1,8 +1,8 @@
 ---
-title: 'Food, Home Repairs, and House Training'
+title: Food, Home Repairs, and House Training
 slug: food-home-repairs-and-house-training
 episode: 99
-date: '2020-09-10T13:56:18.000Z'
+date: 2020-09-10T13:56:18.000Z
 categories:
   - Food
   - Home Ownership
@@ -10,7 +10,7 @@ tags:
   - home improvement
   - football
 enclosure:
-  url: 'https://media.twistoflemonpod.com/099-lwatol-20200910.mp3'
+  url: https://media.twistoflemonpod.com/099-lwatol-20200910.mp3
   length: 31820552
   type: audio/mpeg
 summary: >-

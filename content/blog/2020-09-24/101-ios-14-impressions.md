@@ -2,14 +2,14 @@
 title: iOS 14 Impressions
 slug: ios-14-impressions
 episode: 101
-date: '2020-09-24T14:12:58.000Z'
+date: 2020-09-24T14:12:58.000Z
 categories:
   - Technology
 tags:
   - apple
   - ios
 enclosure:
-  url: 'https://media.twistoflemonpod.com/101-lwatol-20200924.mp3'
+  url: https://media.twistoflemonpod.com/101-lwatol-20200924.mp3
   length: 41461236
   type: audio/mpeg
 summary: >-

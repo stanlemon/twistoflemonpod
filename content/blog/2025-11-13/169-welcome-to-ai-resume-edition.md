@@ -1,8 +1,8 @@
 ---
-title: "Welcome to AI, Resume Edition"
+title: Welcome to AI, Resume Edition
 slug: welcome-to-ai-resume-edition
 episode: 169
-date: "2025-11-13T06:00:00.000Z"
+date: 2025-11-13T06:00:00.000Z
 categories:
   - Technology
   - Productivity
@@ -12,7 +12,7 @@ tags:
   - chatgpt
   - resume
 enclosure:
-  url: "https://media.twistoflemonpod.com/169-lwatol-20251102.mp3"
+  url: https://media.twistoflemonpod.com/169-lwatol-20251102.mp3
   length: 70096267
   type: audio/mpeg
   duration: "00:47:48"

@@ -2,7 +2,7 @@
 title: Picard
 slug: picard
 episode: 81
-date: '2020-01-30T14:59:15.000Z'
+date: 2020-01-30T14:59:15.000Z
 categories:
   - Movies
   - Technology
@@ -13,7 +13,7 @@ tags:
   - shoes
   - star trek
 enclosure:
-  url: 'https://media.twistoflemonpod.com/081-lwatol-20200130.mp3'
+  url: https://media.twistoflemonpod.com/081-lwatol-20200130.mp3
   length: 42553220
   type: audio/mpeg
 summary: >-

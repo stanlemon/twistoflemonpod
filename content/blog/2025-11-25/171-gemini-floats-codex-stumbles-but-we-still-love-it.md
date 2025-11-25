@@ -1,8 +1,8 @@
 ---
-title: 'Gemini Floats, Codex Stumbles (But We Still Love It)'
+title: Gemini Floats, Codex Stumbles (But We Still Love It)
 slug: gemini-floats-codex-stumbles-but-we-still-love-it
 episode: 171
-date: '2025-11-25T06:00:00.000Z'
+date: 2025-11-25T06:00:00.000Z
 categories:
   - Technology
   - Productivity
@@ -19,11 +19,12 @@ tags:
   - tools
   - VS Code
 enclosure:
-  url: 'https://media.twistoflemonpod.com/171-lwatol-20251125.mp3'
+  url: https://media.twistoflemonpod.com/171-lwatol-20251125.mp3
   length: 114452396
   type: audio/mpeg
-  duration: '01:19:26'
+  duration: "01:19:26"
 ---
+
 Dear Listener,
 
 This week we dive deep into the AI wars with Google's new Antigravity IDE hitting the scene. Stan walks through his experience testing this VS Code-based editor with built-in agent capabilities that can actually resize browser windows, detect UI issues, and iterate on fixes autonomously.

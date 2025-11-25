@@ -1,8 +1,8 @@
 ---
-title: 'Listeners Speak Out: Fast Food Edition'
+title: "Listeners Speak Out: Fast Food Edition"
 slug: listeners-speak-out-fast-food-edition
 episode: 141
-date: '2021-06-29T12:35:19.000Z'
+date: 2021-06-29T12:35:19.000Z
 categories:
   - Food
   - Marvel
@@ -13,7 +13,7 @@ tags:
   - vacation
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/141-lwatol-20210629.mp3'
+  url: https://media.twistoflemonpod.com/141-lwatol-20210629.mp3
   length: 58366082
   type: audio/mpeg
 summary: >-

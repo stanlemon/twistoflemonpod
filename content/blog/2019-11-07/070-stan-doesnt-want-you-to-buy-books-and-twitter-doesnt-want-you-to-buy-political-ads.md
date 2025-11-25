@@ -5,7 +5,7 @@ title: >-
 slug: >-
   stan-doesnt-want-you-to-buy-books-and-twitter-doesnt-want-you-to-buy-political-ads
 episode: 70
-date: '2019-11-07T13:46:36.000Z'
+date: 2019-11-07T13:46:36.000Z
 categories:
   - Movies
   - Technology
@@ -15,7 +15,7 @@ tags:
   - minimalism
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/070-lwatol-20191107.mp3'
+  url: https://media.twistoflemonpod.com/070-lwatol-20191107.mp3
   length: 40102658
   type: audio/mpeg
 summary: >-

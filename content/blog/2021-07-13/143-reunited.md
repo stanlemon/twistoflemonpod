@@ -2,7 +2,7 @@
 title: Reunited
 slug: reunited
 episode: 143
-date: '2021-07-13T13:39:23.000Z'
+date: 2021-07-13T13:39:23.000Z
 categories:
   - Food
   - Marvel
@@ -12,7 +12,7 @@ tags:
   - vacation
   - visit
 enclosure:
-  url: 'https://media.twistoflemonpod.com/143-lwatol-20210713.mp3'
+  url: https://media.twistoflemonpod.com/143-lwatol-20210713.mp3
   length: 78753770
   type: audio/mpeg
 summary: >-

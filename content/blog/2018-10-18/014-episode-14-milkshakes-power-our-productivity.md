@@ -2,14 +2,14 @@
 title: Milkshakes power our productivity
 slug: milkshakes-power-our-productivity
 episode: 14
-date: '2018-10-18T12:19:59.000Z'
+date: 2018-10-18T12:19:59.000Z
 categories:
   - Productivity
 tags:
   - milkshakes
   - productivity
 enclosure:
-  url: 'https://media.twistoflemonpod.com/014-lwatol-20181018.mp3'
+  url: https://media.twistoflemonpod.com/014-lwatol-20181018.mp3
   length: 44465663
   type: audio/mpeg
 summary: >-
@@ -29,6 +29,7 @@ Thanks for listening, If you like what you hear - please leave us a 5-star revie
 
 \- Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+
 ## Show notes:
 
 Wyliepalooza - [http://wyliepalooza.com](http://wyliepalooza.com) Almost Famous Popcorn Company - [https://www.almostfamouspopcorn.com](https://www.almostfamouspopcorn.com) F'Real Milkshakes - [https://www.freal.com](https://www.freal.com) Michael Hyatt - Ideal Week - [https://michaelhyatt.com/ideal-week/](https://michaelhyatt.com/ideal-week/)

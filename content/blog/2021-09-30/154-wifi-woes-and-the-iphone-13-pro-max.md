@@ -2,7 +2,7 @@
 title: Wifi Woes and the iPhone 13 Pro Max
 slug: wifi-woes-and-the-iphone-13-pro-max
 episode: 154
-date: '2021-09-30T15:00:12.000Z'
+date: 2021-09-30T15:00:12.000Z
 categories:
   - Technology
 tags:
@@ -11,7 +11,7 @@ tags:
   - iPhone
   - router
 enclosure:
-  url: 'https://media.twistoflemonpod.com/154-lwatol-20210930.mp3'
+  url: https://media.twistoflemonpod.com/154-lwatol-20210930.mp3
   length: 37007237
   type: audio/mpeg
 summary: >-

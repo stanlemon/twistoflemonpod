@@ -2,14 +2,14 @@
 title: Xcapism
 slug: xcapism
 episode: 108
-date: '2020-11-12T23:40:19.000Z'
+date: 2020-11-12T23:40:19.000Z
 categories:
   - Technology
 tags:
   - xbox
   - politics
 enclosure:
-  url: 'https://media.twistoflemonpod.com/108-lwatol-20201112.mp3'
+  url: https://media.twistoflemonpod.com/108-lwatol-20201112.mp3
   length: 40787690
   type: audio/mpeg
 summary: >-

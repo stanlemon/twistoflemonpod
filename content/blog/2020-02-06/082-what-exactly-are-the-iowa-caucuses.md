@@ -2,7 +2,7 @@
 title: What exactly are the Iowa Caucuses?
 slug: what-exactly-are-the-iowa-caucuses
 episode: 82
-date: '2020-02-06T14:08:24.000Z'
+date: 2020-02-06T14:08:24.000Z
 categories:
   - Food
   - Productivity
@@ -15,7 +15,7 @@ tags:
   - politics
   - star trek
 enclosure:
-  url: 'https://media.twistoflemonpod.com/082-lwatol-20200206.mp3'
+  url: https://media.twistoflemonpod.com/082-lwatol-20200206.mp3
   length: 37879300
   type: audio/mpeg
 summary: >-

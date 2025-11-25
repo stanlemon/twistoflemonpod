@@ -2,7 +2,7 @@
 title: Would Sidd Finch like Marvel Netflix Series (or milkshakes)?
 slug: would-sidd-finch-like-marvel-netflix-series-or-milkshakes
 episode: 15
-date: '2018-10-25T11:59:12.000Z'
+date: 2018-10-25T11:59:12.000Z
 categories:
   - House Hunting
   - Movies
@@ -12,7 +12,7 @@ tags:
   - milkshakes
   - politics
 enclosure:
-  url: 'https://media.twistoflemonpod.com/015-lwatol-20181025.mp3'
+  url: https://media.twistoflemonpod.com/015-lwatol-20181025.mp3
   length: 39326683
   type: audio/mpeg
 summary: >-
@@ -36,6 +36,7 @@ Thanks for listening - leave a review and we just might talk about you too!
 
 \- Jon Kohlmeier
 .mp3/twistoflemonpod.s3.us-east-2.amazonaws.com/episodes/
+
 ## Show notes:
 
 - [The Catechism Prayer Book](https://amzn.to/2CGrci7) - by Jon's Father in Law

@@ -2,7 +2,7 @@
 title: New Reviews!
 slug: new-reviews
 episode: 37
-date: '2019-03-21T11:57:21.000Z'
+date: 2019-03-21T11:57:21.000Z
 categories:
   - Food
   - Marvel
@@ -14,7 +14,7 @@ tags:
   - milkshakes
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/037-lwatol-20190321.mp3'
+  url: https://media.twistoflemonpod.com/037-lwatol-20190321.mp3
   length: 35261611
   type: audio/mpeg
 summary: >-
@@ -41,4 +41,3 @@ Listen at your own risk. Leave a review.
 Thanks!
 
 Stan Lemon & Jon Kohlmeier
-

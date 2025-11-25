@@ -2,7 +2,7 @@
 title: On a Very Special Episode
 slug: on-a-very-special-episode
 episode: 121
-date: '2021-02-11T14:27:00.000Z'
+date: 2021-02-11T14:27:00.000Z
 categories:
   - Marvel
   - Movies
@@ -10,7 +10,7 @@ tags:
   - wandavision
   - marvel
 enclosure:
-  url: 'https://media.twistoflemonpod.com/121-lwatol-20210211.mp3'
+  url: https://media.twistoflemonpod.com/121-lwatol-20210211.mp3
   length: 48163579
   type: audio/mpeg
 summary: >-

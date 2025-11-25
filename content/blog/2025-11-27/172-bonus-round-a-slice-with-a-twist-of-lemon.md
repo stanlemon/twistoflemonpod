@@ -1,8 +1,8 @@
 ---
-title: 'Bonus Round: A Slice with a Twist of Lemon'
+title: "Bonus Round: A Slice with a Twist of Lemon"
 slug: bonus-round-a-slice-with-a-twist-of-lemon
 episode: 172
-date: '2025-11-27T06:00:00.000Z'
+date: 2025-11-27T06:00:00.000Z
 categories:
   - Food
   - AI
@@ -16,11 +16,12 @@ tags:
   - holidays
   - dessert
 enclosure:
-  url: 'https://media.twistoflemonpod.com/172-lwatol-20251127.mp3'
+  url: https://media.twistoflemonpod.com/172-lwatol-20251127.mp3
   length: 17321516
   type: audio/mpeg
-  duration: '00:12:00'
+  duration: "00:12:00"
 ---
+
 Dear Listener,
 
 In this special Thanksgiving bonus episode, we tackle the most important question of the holiday season: what makes Thanksgiving truly Thanksgiving?

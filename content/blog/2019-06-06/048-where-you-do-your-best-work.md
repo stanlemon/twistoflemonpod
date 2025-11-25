@@ -2,7 +2,7 @@
 title: Where You Do Your Best Work
 slug: where-you-do-your-best-work
 episode: 48
-date: '2019-06-06T12:25:03.000Z'
+date: 2019-06-06T12:25:03.000Z
 categories:
   - Productivity
   - Technology
@@ -12,7 +12,7 @@ tags:
   - wwdc
   - milkshakes
 enclosure:
-  url: 'https://media.twistoflemonpod.com/048-lwatol-20190606.mp3'
+  url: https://media.twistoflemonpod.com/048-lwatol-20190606.mp3
   length: 44004635
   type: audio/mpeg
 summary: >-
@@ -33,4 +33,3 @@ Finally we get around to talking about where we do our best work. Not necessaril
 Thanks for listening! Leave a review!
 
 Stan Lemon & Jon Kohlmeier
-

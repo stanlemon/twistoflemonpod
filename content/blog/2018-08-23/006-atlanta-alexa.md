@@ -2,13 +2,13 @@
 title: Atlanta and Alexa
 slug: atlanta-alexa
 episode: 6
-date: '2018-08-23T07:00:51.000Z'
+date: 2018-08-23T07:00:51.000Z
 categories:
   - Technology
 tags:
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/006-lwatol-20180822.mp3'
+  url: https://media.twistoflemonpod.com/006-lwatol-20180822.mp3
   length: 32448411
   type: audio/mpeg
 summary: >-

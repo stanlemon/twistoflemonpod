@@ -2,7 +2,7 @@
 title: Raising the Roof?
 slug: raising-the-roof
 episode: 127
-date: '2021-03-25T14:17:50.000Z'
+date: 2021-03-25T14:17:50.000Z
 categories:
   - Home Ownership
 tags:
@@ -10,7 +10,7 @@ tags:
   - falcon and the winter soldier
   - roof
 enclosure:
-  url: 'https://media.twistoflemonpod.com/127-lwatol-20210325.mp3'
+  url: https://media.twistoflemonpod.com/127-lwatol-20210325.mp3
   length: 43463411
   type: audio/mpeg
 summary: >-

@@ -2,7 +2,7 @@
 title: Our Top Halloween Candy
 slug: our-top-halloween-candy
 episode: 159
-date: '2021-11-04T00:57:54.000Z'
+date: 2021-11-04T00:57:54.000Z
 categories:
   - Career Advice
   - Food
@@ -10,7 +10,7 @@ tags:
   - macbook
   - apple
 enclosure:
-  url: 'https://media.twistoflemonpod.com/159-lwatol-20211104.mp3'
+  url: https://media.twistoflemonpod.com/159-lwatol-20211104.mp3
   length: 51969400
   type: audio/mpeg
 summary: >-

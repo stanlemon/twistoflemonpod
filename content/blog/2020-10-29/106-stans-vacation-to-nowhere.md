@@ -2,14 +2,14 @@
 title: Stan's Vacation to Nowhere
 slug: stans-vacation-to-nowhere
 episode: 106
-date: '2020-10-29T12:29:34.000Z'
+date: 2020-10-29T12:29:34.000Z
 categories:
   - Productivity
 tags:
   - vacation
   - podcast
 enclosure:
-  url: 'https://media.twistoflemonpod.com/106-lwatol-20201029.mp3'
+  url: https://media.twistoflemonpod.com/106-lwatol-20201029.mp3
   length: 33406076
   type: audio/mpeg
 summary: >-

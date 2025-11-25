@@ -2,13 +2,13 @@
 title: Core Values
 slug: core-values
 episode: 158
-date: '2021-10-28T00:49:47.000Z'
+date: 2021-10-28T00:49:47.000Z
 categories:
   - Career Advice
 tags:
   - podcast
 enclosure:
-  url: 'https://media.twistoflemonpod.com/158-lwatol-20211028.mp3'
+  url: https://media.twistoflemonpod.com/158-lwatol-20211028.mp3
   length: 39988973
   type: audio/mpeg
 summary: >-
