@@ -47,9 +47,9 @@ eleventyExcludeFromCollections: true
       {%- if post.data.enclosure and post.data.enclosure.url %}
       <enclosure url="{{ post.data.enclosure.url }}" {% if post.data.enclosure.length %}length="{{ post.data.enclosure.length }}"{% endif %} type="{{ post.data.enclosure.type | default: 'audio/mpeg' }}"/>
       {%- if post.data.enclosure.duration %}<itunes:duration>{{ post.data.enclosure.duration }}</itunes:duration>{% endif -%}
-      {%- endif %}
       <itunes:title>{{ post.data.title | escape }}</itunes:title>
       <itunes:explicit>false</itunes:explicit>
+      {%- endif %}
       {%- assign episodeNum = post.data.episode | floor -%}
       {%- if episodeNum and episodeNum > 0 and episodeNum == post.data.episode %}
       <itunes:episode>{{ post.data.episode }}</itunes:episode>
