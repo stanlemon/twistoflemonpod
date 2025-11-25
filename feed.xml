@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Nov 2025 13:46:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 14:12:25 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,32 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Gemini Floats, Codex Stumbles (But We Still Love It)</title>
+      <link>https://twistoflemonpod.com/2025/11/gemini-floats-codex-stumbles-but-we-still-love-it/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/11/gemini-floats-codex-stumbles-but-we-still-love-it/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Tue, 25 Nov 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+This week we dive deep into the AI wars with Google&#39;s new Antigravity IDE hitting the scene. Stan walks through his experience testing this VS Code-based editor with built-in agent capabilities that can actually resize browser windows, detect UI issues, and iterate on fixes autonomous...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>This week we dive deep into the AI wars with Google's new Antigravity IDE hitting the scene. Stan walks through his experience testing this VS Code-based editor with built-in agent capabilities that can actually resize browser windows, detect UI issues, and iterate on fixes autonomously.</p>
+<p>We compare the big three AI coding assistants - ChatGPT's Codex, Claude, and Gemini Code Assist - and discuss how each is positioning itself in the developer tools space. Jon shares a cautionary tale about Codex going completely off the rails with an overly complex canonical URL solution, reminding us all that you need to be skilled enough to validate AI-generated code.</p>
+<p>In a move that shocked his entire family (his daughter thought it was a terminal illness announcement), Stan purchased his first Windows PC in years. We talk about the nostalgia of his first coding laptop with an AMD Athlon 4 processor, and his curiosity about Windows Subsystem for Linux and modern Windows development workflows.</p>
+<p>Plus, we kick off the episode with an emergency strap wrench situation involving a jar of filthy cherries that nearly derailed Manhattan night.</p>
+<p>Thanks for listening and we'll talk to you soon,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/171-lwatol-20251125.mp3" length="114452396" type="audio/mpeg"/><itunes:duration>01:19:26</itunes:duration>
+      <itunes:title>Gemini Floats, Codex Stumbles (But We Still Love It)</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>171</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Technology</category>
+      <category>Productivity</category>
+      <category>AI</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/11/gemini-floats-codex-stumbles-but-we-still-love-it/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Circuits, Socks, and Broken Promises: An AI Trust Story</title>
