@@ -5,25 +5,23 @@ episode: 171
 date: '2025-11-25T06:00:00.000Z'
 categories:
   - Technology
+  - Productivity
 tags:
   - Antigravity
   - Google AI
   - Gemini 3
   - Codex
   - Claude
-  - AI coding assistants
-  - Windows PC
-  - Windows Subsystem for Linux
-  - WSL
+  - AI
+  - Windows
   - software development
-  - code validation
-  - strap wrench
+  - tools
   - VS Code
 enclosure:
   url: 'https://media.twistoflemonpod.com/171-lwatol-20251125.mp3'
   length: 114452396
   type: audio/mpeg
-  duration: '00:00:00'
+  duration: '01:19:26'
 ---
 Dear Listener,
 
