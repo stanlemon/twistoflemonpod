@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Nov 2025 20:40:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 19:41:19 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,34 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Bonus Round: A Slice with a Twist of Lemon</title>
+      <link>https://twistoflemonpod.com/2025/11/bonus-round-a-slice-with-a-twist-of-lemon/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/11/bonus-round-a-slice-with-a-twist-of-lemon/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 27 Nov 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+In this special Thanksgiving bonus episode, we tackle the most important question of the holiday season: what makes Thanksgiving truly Thanksgiving?
+Stan argues that pie - not turkey - is what defines the holiday. Nobody sits down and says &amp;quot;yum, turkey&#39;s my favorite,&amp;quot; but pi...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>In this special Thanksgiving bonus episode, we tackle the most important question of the holiday season: what makes Thanksgiving truly Thanksgiving?</p>
+<p>Stan argues that pie - not turkey - is what defines the holiday. Nobody sits down and says &quot;yum, turkey's my favorite,&quot; but pie? That's what we're all really here for.</p>
+<p>We debate the merits of various pies (rhubarb reigns supreme for Stan, with pumpkin as a solid backup), discuss whether chocolate pie and cheesecake pie are actually pies or cakes in disguise, and take a firm stance on lattice tops versus crumble crusts. We also settle the age-old question: are McDonald's apple pockets actually pies? (Spoiler: they're delicious, but no.)</p>
+<p>Jon learns that Stan has a deep freezer primarily dedicated to frozen rhubarb for pie-making purposes, and we both agree that calling things by their proper names matters - even if it doesn't change how delicious they are.</p>
+<p>Happy Thanksgiving, and may your pie be plentiful.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/172-lwatol-20251127.mp3" length="17321516" type="audio/mpeg"/><itunes:duration>00:12:00</itunes:duration><itunes:title>Bonus Round: A Slice with a Twist of Lemon</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>172</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Food</category>
+      <category>AI</category>
+      <category>Bonus Round</category>
+      <category>Lifestyle</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/11/bonus-round-a-slice-with-a-twist-of-lemon/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Gemini Floats, Codex Stumbles (But We Still Love It)</title>

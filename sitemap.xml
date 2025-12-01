@@ -3,12 +3,23 @@
   <!-- Homepage -->
   <url>
     <loc>https://twistoflemonpod.com/</loc>
-    <lastmod>2025-11-25</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Blog posts -->
+  
+  
+  
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2025/11/bonus-round-a-slice-with-a-twist-of-lemon/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   
   
   
@@ -3821,12 +3832,21 @@
   
   
   
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2025/11/bonus-round-a-slice-with-a-twist-of-lemon/transcript/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
 
   <!-- Category pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/category/lifestyle/</loc>
-    <lastmod>2025-11-20</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3854,7 +3874,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/food/</loc>
-    <lastmod>2021-11-25</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3917,7 +3937,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/bonus-round/</loc>
-    <lastmod>2020-07-04</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3938,7 +3958,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/ai/</loc>
-    <lastmod>2025-11-25</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4081,7 +4101,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/thanksgiving/</loc>
-    <lastmod>2021-11-25</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4551,6 +4571,41 @@
   <url>
     <loc>https://twistoflemonpod.com/tag/vs-code/</loc>
     <lastmod>2025-11-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/pie/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/cheesecake/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/food/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/holidays/</loc>
+    <lastmod>2025-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/dessert/</loc>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
