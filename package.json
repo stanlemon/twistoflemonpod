@@ -27,7 +27,7 @@
     "simple-icons": "^15.22.0"
   },
   "devDependencies": {
-    "glob": "11.1.0",
+    "glob": "13.0.0",
     "gray-matter": "4.0.3",
     "prettier": "3.7.1"
   },
