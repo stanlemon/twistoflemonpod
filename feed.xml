@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Dec 2025 02:50:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 19:21:54 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,32 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Lists, Buckets, and New Year Habits</title>
+      <link>https://twistoflemonpod.com/2025/12/lists-buckets-and-new-year-habits/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/12/lists-buckets-and-new-year-habits/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 04 Dec 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+In this episode, we kick things off with a mystery: why did Jon unfriend Stan on Facebook? Turns out it was an inbox zero situation gone wrong, which leads us into Stan&#39;s philosophy on &amp;quot;lists vs buckets&amp;quot; - a productivity mindset shift from being a meticulous list-walker to b...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>In this episode, we kick things off with a mystery: why did Jon unfriend Stan on Facebook? Turns out it was an inbox zero situation gone wrong, which leads us into Stan's philosophy on &quot;lists vs buckets&quot; - a productivity mindset shift from being a meticulous list-walker to becoming a free-flowing bucket person.</p>
+<p>We recap our Thanksgiving experiences: deep-fried turkey vs smoked turkey, store-bought pie vs homemade rhubarb with lattice top (temped to perfection, of course), and the eternal debate over whether Cheesecake Factory cheesecake counts as a Thanksgiving dessert.</p>
+<p>As we approach the new year, we dive deep into habits vs goals. Stan shares his habit-tracking journey from reading 15 minutes daily to his two-and-a-half year streak of morning Apple Fitness Plus workouts. Jon points out that Stan's self-discipline is &quot;pretty rare&quot; - though Stan insists he's not a fitness nut, just someone who doesn't want to die young.</p>
+<p>Finally, we resurrect the wine tasting app project with help from Claude, just in time for the Wall Street Journal wine advent calendar. If you want to join us as a TestFlight user, reach out!</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/173-lwatol-20251204.mp3"  type="audio/mpeg"/><itunes:title>Lists, Buckets, and New Year Habits</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>173</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/12/lists-buckets-and-new-year-habits/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Bonus Round: A Slice with a Twist of Lemon</title>

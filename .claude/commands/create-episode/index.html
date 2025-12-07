@@ -1,0 +1,59 @@
+<p>Create a new podcast episode from a transcript file.</p>
+<h2 id="arguments" tabindex="-1">Arguments</h2>
+<p>The path to the transcript file (e.g., <code>content/blog/2025-12-04/transcript.md</code>)</p>
+<p>Transcript path: $ARGUMENTS</p>
+<h2 id="instructions" tabindex="-1">Instructions</h2>
+<ol>
+<li>
+<p><strong>Read a recent episode as template</strong>: Look at the most recent episode in <code>content/blog/</code> (not a transcript) to understand the frontmatter structure (title, slug, episode, date, categories, tags, enclosure)</p>
+</li>
+<li>
+<p><strong>Read the transcript file</strong>: Analyze the content at the provided path</p>
+</li>
+<li>
+<p><strong>Extract from transcript</strong>:</p>
+<ul>
+<li>Main topics and themes discussed</li>
+<li>Appropriate categories (use existing categories like: Technology, Lifestyle, AI, Food, Finance, etc.)</li>
+<li>Relevant tags (5-10 specific topics mentioned)</li>
+<li>A concise 2-3 paragraph summary suitable for the episode description</li>
+</ul>
+</li>
+<li>
+<p><strong>Prompt for episode details</strong>:</p>
+<ul>
+<li>Episode number (check the latest episode and increment)</li>
+<li>Episode title (suggest one based on content)</li>
+<li>Publish date (default to today or the date in the directory name)</li>
+</ul>
+</li>
+<li>
+<p><strong>Create the main episode post</strong>:</p>
+<ul>
+<li>File: <code>content/blog/YYYY-MM-DD/{episode-number}-{slug}.md</code></li>
+<li>Include: title, slug, episode, date, categories, tags, enclosure (url with pattern <code>https://media.twistoflemonpod.com/{episode}-lwatol-{YYYYMMDD}.mp3</code>, length: null, type: audio/mpeg)</li>
+<li>Body: &quot;Dear Listener,&quot; followed by summary, ending with &quot;Thanks for listening,\n\nStan Lemon &amp; Jon Kohlmeier&quot;</li>
+</ul>
+</li>
+<li>
+<p><strong>Add frontmatter to transcript</strong>:</p>
+<ul>
+<li>title: &quot;{Episode Title} - Transcript&quot;</li>
+<li>episode: same as main post</li>
+<li>date: same as main post</li>
+<li>slug: &quot;{main-slug}/transcript&quot;</li>
+<li>type: transcript</li>
+<li>summary: 2-3 sentence AI-generated summary</li>
+<li>keywords: array of 10-15 relevant keywords</li>
+</ul>
+</li>
+<li>
+<p><strong>Rename transcript file</strong> to match pattern: <code>{episode}-lwatol-{YYYYMMDD}.md</code></p>
+</li>
+<li>
+<p><strong>Validate</strong>: Run <code>npm test</code> to ensure the build passes</p>
+</li>
+<li>
+<p><strong>Report</strong>: Show the created files and note that <code>enclosure.length</code> needs to be updated once the MP3 is available (can use <code>node scripts/update-enclosure-metadata.js</code>)</p>
+</li>
+</ol>
