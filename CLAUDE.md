@@ -21,6 +21,7 @@ This is the source code for the "Life with a Twist of Lemon" podcast website, ho
 - `@11ty/eleventy-plugin-rss`: RSS feed generation with podcast support
 - `@11ty/eleventy-plugin-syntaxhighlight`: Code syntax highlighting
 - `@11ty/eleventy-img`: Image optimization
+- `@aws-sdk/client-s3`: S3-compatible client for Cloudflare R2 uploads
 - `plyr`: Audio player for podcast episodes
 - `luxon`: Date/time formatting and manipulation
 - `markdown-it`: Markdown processing with anchor support
@@ -260,6 +261,40 @@ When creating a one-off refactoring script:
 - `add-episode-numbers.js`: Adds episode numbers to posts missing them
 - `add-slug-to-frontmatter.js`: Generates URL slugs from titles
 - Various other maintenance scripts
+
+### R2 Upload Script
+
+- `upload-to-r2.js`: Upload MP3 files to Cloudflare R2 storage
+
+**Usage:**
+
+```bash
+node scripts/upload-to-r2.js <path-to-mp3-file>
+
+# Example:
+node scripts/upload-to-r2.js ~/Sites/twistoflemonpod-mp3s/episodes/175-lwatol-20251211.mp3
+```
+
+**Requirements:**
+
+Set the following environment variables in `.env`:
+
+```bash
+R2_ACCOUNT_ID=your-cloudflare-account-id
+R2_ACCESS_KEY_ID=your-r2-access-key-id
+R2_SECRET_ACCESS_KEY=your-r2-secret-access-key
+```
+
+To get these credentials:
+1. Go to Cloudflare Dashboard > R2 > Manage R2 API Tokens
+2. Create a new API token with "Object Read & Write" permissions for the `twistoflemonpod` bucket
+3. Copy the Access Key ID and Secret Access Key
+
+**Features:**
+- Uploads to `episodes/` prefix in the `twistoflemonpod` bucket
+- Sets correct `Content-Type: audio/mpeg` header
+- Validates file exists and is an MP3
+- Shows file size and destination before upload
 
 ### Transcription and AI Summary Scripts (JavaScript/Node.js)
 
