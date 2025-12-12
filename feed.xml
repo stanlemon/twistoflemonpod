@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 03:25:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 02:15:32 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,31 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Wine, Shakespeare, and the Search for Honest AI</title>
+      <link>https://twistoflemonpod.com/2025/12/wine-shakespeare-and-the-search-for-honest-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/12/wine-shakespeare-and-the-search-for-honest-ai/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 11 Dec 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+It&#39;s day seven of the Wall Street Journal Wine Advent Calendar, and tonight Stan and Jon are sipping a French Cabernet Sauvignon called Bella Roche while discussing everything from wine legs to label scanning mishaps in Stan&#39;s wine tasting app. Pro tip: apparently you should decant th...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>It's day seven of the Wall Street Journal Wine Advent Calendar, and tonight Stan and Jon are sipping a French Cabernet Sauvignon called Bella Roche while discussing everything from wine legs to label scanning mishaps in Stan's wine tasting app. Pro tip: apparently you should decant these little bottles for an hour, which they definitely did not do.</p>
+<p>Jon reveals his 2026 goals, themed around &quot;clarity.&quot; The highlights: reading four Shakespeare plays (Julius Caesar, Othello, King Lear, and The Tempest), being intentional about family time, writing more words, contributing more code to GitHub, and making time for pipe smoking as meditation. Stan commits to reading the Shakespeare plays alongside Jon and challenges him to schedule at least four date nights with Mrs. Kohlmeier.</p>
+<p>The conversation takes a fascinating turn into AI philosophy, specifically the difference between ChatGPT's cheerleader personality and Claude's more critical approach. Stan shares how Claude called out his &quot;sodium bomb&quot; lunch while ChatGPT would have just encouraged him. They explore why most AI models are trained to be sycophantic and whether that's actually what users want - or just what they think they want.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/174-lwatol-20251211.mp3"  type="audio/mpeg"/><itunes:title>Wine, Shakespeare, and the Search for Honest AI</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>174</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/12/wine-shakespeare-and-the-search-for-honest-ai/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Lists, Buckets, and New Year Habits</title>

@@ -3,12 +3,23 @@
   <!-- Homepage -->
   <url>
     <loc>https://twistoflemonpod.com/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Blog posts -->
+  
+  
+  
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2025/12/wine-shakespeare-and-the-search-for-honest-ai/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   
   
   
@@ -3865,19 +3876,28 @@
   
   
   
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2025/12/wine-shakespeare-and-the-search-for-honest-ai/transcript/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
 
   <!-- Category pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/category/lifestyle/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://twistoflemonpod.com/category/technology/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3898,7 +3918,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/food/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3982,7 +4002,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/ai/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4083,7 +4103,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/productivity/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4188,7 +4208,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/new-year/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4391,7 +4411,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/goals/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4517,14 +4537,14 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/claude/</loc>
-    <lastmod>2025-11-25</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://twistoflemonpod.com/tag/chatgpt/</loc>
-    <lastmod>2025-11-20</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4650,7 +4670,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/habits/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4678,7 +4698,63 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/wine/</loc>
-    <lastmod>2025-12-04</lastmod>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/wine-tasting/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/advent-calendar/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/wall-street-journal/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/shakespeare/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/reading/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/sycophant/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/meditation/</loc>
+    <lastmod>2025-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/reflection/</loc>
+    <lastmod>2025-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
