@@ -3,106 +3,69 @@
 A podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon.
 
 **Website:** https://twistoflemonpod.com/
-**Twitter:** [@twistoflemonpod](https://twitter.com/twistoflemonpod)
+**Hosts:** Jon Kohlmeier & Stan Lemon
 
 ## Quick Start
 
-### Prerequisites
-
-- Node.js 22.x or later (see `.nvmrc`)
-- npm
-
-### Installation
-
 ```bash
+# Install dependencies
 npm install
-```
 
-### Development
-
-```bash
+# Start development server (http://localhost:8080)
 npm run dev
-```
 
-Site available at http://localhost:8080 with live reload.
-
-### Build
-
-```bash
+# Build for production
 npm run build
-```
 
-Output in `_site/` directory.
-
-### Test
-
-```bash
+# Run tests
 npm test
 ```
 
-Runs build and content validation.
-
 ## Technology
 
-Built with [Eleventy (11ty)](https://www.11ty.dev/) for fast builds and simple architecture.
+Built with [Eleventy (11ty) 3.x](https://www.11ty.dev/) static site generator.
 
-**Key Features:**
-
-- 172 podcast episodes with audio players
 - Podcast-compatible RSS feed at `/feed.xml`
-- Category and tag organization (15 categories, 88 tags)
-- Responsive design
-- SEO optimized with Open Graph and Twitter Cards
-- Fast builds (~0.4s for 283 pages)
+- Audio players powered by [Plyr](https://plyr.io/)
+- Category and tag organization
+- Full episode transcripts with AI-generated summaries
 
-## Content Structure
+## Content
 
-Episodes are stored as Markdown files in `content/blog/YYYY-MM-DD/slug.md`:
+Episodes are Markdown files in `content/blog/YYYY-MM-DD/`:
 
 ```yaml
 ---
 title: Episode Title
 episode: 1
-date: "2018-07-30T23:20:55.000Z"
-categories:
-  - Technology
-tags:
-  - podcast
+date: "2024-01-15T12:00:00.000Z"
+categories: [Technology]
+tags: [podcast]
 enclosure:
-  url: https://example.com/episode.mp3
+  url: https://bucket.s3.amazonaws.com/episodes/001-episode.mp3
   length: 12345678
   type: audio/mpeg
 ---
+Episode description and show notes...
 ```
-
-## Deployment
-
-Deploy to any static hosting service:
-
-**Build Command:** `npm run build`
-**Publish Directory:** `_site`
-
-Supports GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.
-
-## Development Guide
-
-For detailed development workflows, architecture documentation, and best practices, see [CLAUDE.md](./CLAUDE.md).
 
 ## Scripts
 
-Utility scripts in `scripts/` directory for maintenance tasks:
+Utility scripts in `scripts/`:
 
-- `update-enclosure-metadata.js` - Update podcast RSS metadata
-- `add-episode-numbers.js` - Add episode numbers
-- `add-slug-to-frontmatter.js` - Generate URL slugs
+| Script | Purpose |
+|--------|---------|
+| `create-new-episode.js` | Create new episode from MP3 (transcription, AI summary) |
+| `upload-to-r2.js` | Upload MP3 to Cloudflare R2 |
+| `update-enclosure-metadata.js` | Update RSS feed metadata from MP3 files |
 
-Run with: `node scripts/script-name.js`
+See [CLAUDE.md](./CLAUDE.md) for detailed development workflows and architecture.
 
-## Performance
+## Deployment
 
-- **Build Time:** ~0.4 seconds
-- **Total Pages:** 283
-- **Episodes:** 172
+Static site deployable anywhere. Output directory: `_site/`
+
+Currently hosted on Cloudflare Pages with scheduled redeploys for future-dated posts.
 
 ## License
 
