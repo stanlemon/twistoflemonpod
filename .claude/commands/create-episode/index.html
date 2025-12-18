@@ -28,10 +28,18 @@
 </ul>
 </li>
 <li>
+<p><strong>Check for MP3 file</strong>:</p>
+<ul>
+<li>Look for the MP3 at <code>~/Sites/twistoflemonpod-mp3s/{episode}-lwatol-{YYYYMMDD}.mp3</code></li>
+<li>If found, get the file size in bytes for <code>enclosure.length</code></li>
+<li>If not found, set <code>length: null</code> (can be updated later with <code>node scripts/update-enclosure-metadata.js</code>)</li>
+</ul>
+</li>
+<li>
 <p><strong>Create the main episode post</strong>:</p>
 <ul>
 <li>File: <code>content/blog/YYYY-MM-DD/{episode-number}-{slug}.md</code></li>
-<li>Include: title, slug, episode, date, categories, tags, enclosure (url with pattern <code>https://media.twistoflemonpod.com/{episode}-lwatol-{YYYYMMDD}.mp3</code>, length: null, type: audio/mpeg)</li>
+<li>Include: title, slug, episode, date, categories, tags, enclosure (url with pattern <code>https://media.twistoflemonpod.com/{episode}-lwatol-{YYYYMMDD}.mp3</code>, length from MP3 file or null, type: audio/mpeg)</li>
 <li>Body: &quot;Dear Listener,&quot; followed by summary, ending with &quot;Thanks for listening,\n\nStan Lemon &amp; Jon Kohlmeier&quot;</li>
 </ul>
 </li>
@@ -54,6 +62,6 @@
 <p><strong>Validate</strong>: Run <code>npm test</code> to ensure the build passes</p>
 </li>
 <li>
-<p><strong>Report</strong>: Show the created files and note that <code>enclosure.length</code> needs to be updated once the MP3 is available (can use <code>node scripts/update-enclosure-metadata.js</code>)</p>
+<p><strong>Report</strong>: Show the created files and whether MP3 metadata was found</p>
 </li>
 </ol>
