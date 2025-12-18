@@ -27,12 +27,17 @@ Transcript path: $ARGUMENTS
    - Episode title (suggest one based on content)
    - Publish date (default to today or the date in the directory name)
 
-5. **Create the main episode post**:
+5. **Check for MP3 file**:
+   - Look for the MP3 at `~/Sites/twistoflemonpod-mp3s/{episode}-lwatol-{YYYYMMDD}.mp3`
+   - If found, get the file size in bytes for `enclosure.length`
+   - If not found, set `length: null` (can be updated later with `node scripts/update-enclosure-metadata.js`)
+
+6. **Create the main episode post**:
    - File: `content/blog/YYYY-MM-DD/{episode-number}-{slug}.md`
-   - Include: title, slug, episode, date, categories, tags, enclosure (url with pattern `https://media.twistoflemonpod.com/{episode}-lwatol-{YYYYMMDD}.mp3`, length: null, type: audio/mpeg)
+   - Include: title, slug, episode, date, categories, tags, enclosure (url with pattern `https://media.twistoflemonpod.com/{episode}-lwatol-{YYYYMMDD}.mp3`, length from MP3 file or null, type: audio/mpeg)
    - Body: "Dear Listener," followed by summary, ending with "Thanks for listening,\n\nStan Lemon & Jon Kohlmeier"
 
-6. **Add frontmatter to transcript**:
+7. **Add frontmatter to transcript**:
    - title: "{Episode Title} - Transcript"
    - episode: same as main post
    - date: same as main post
@@ -41,8 +46,8 @@ Transcript path: $ARGUMENTS
    - summary: 2-3 sentence AI-generated summary
    - keywords: array of 10-15 relevant keywords
 
-7. **Rename transcript file** to match pattern: `{episode}-lwatol-{YYYYMMDD}.md`
+8. **Rename transcript file** to match pattern: `{episode}-lwatol-{YYYYMMDD}.md`
 
-8. **Validate**: Run `npm test` to ensure the build passes
+9. **Validate**: Run `npm test` to ensure the build passes
 
-9. **Report**: Show the created files and note that `enclosure.length` needs to be updated once the MP3 is available (can use `node scripts/update-enclosure-metadata.js`)
+10. **Report**: Show the created files and whether MP3 metadata was found

@@ -32,7 +32,7 @@ date: "2024-01-15T12:00:00.000Z"
 categories: [Technology, Life]
 tags: [podcast, topic]
 enclosure:
-  url: https://bucket.s3.us-east-2.amazonaws.com/episodes/123-lwatol-20240115.mp3
+  url: https://media.twistoflemonpod.com/123-lwatol-20240115.mp3
   length: 45678901          # File size in bytes
   type: audio/mpeg
 ---
@@ -173,8 +173,8 @@ Required secrets: `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_PROJECT_NAME`, `CLOUDFLAR
 ## Audio Files
 
 - **Hosted:** Cloudflare R2 bucket `twistoflemonpod`
-- **Path format:** `episodes/NNN-lwatol-YYYYMMDD.mp3`
-- **Local copies:** `~/Sites/twistoflemonpod-mp3s/episodes/`
+- **Path format:** `NNN-lwatol-YYYYMMDD.mp3` (in bucket root)
+- **Local copies:** `~/Sites/twistoflemonpod-mp3s/`
 
 ## Troubleshooting
 

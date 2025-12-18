@@ -5,7 +5,7 @@
  *
  * Usage: node scripts/upload-to-r2.js <path-to-mp3-file>
  *
- * Uploads the file to the "twistoflemonpod" bucket with the path: episodes/<filename>
+ * Uploads the file to the "twistoflemonpod" bucket root.
  *
  * Requires environment variables:
  *   R2_ACCOUNT_ID     - Your Cloudflare account ID
@@ -14,8 +14,12 @@
  */
 
 import { resolve, basename, extname } from "node:path";
-import { readFileSync, statSync, existsSync } from "node:fs";
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { createReadStream, statSync, existsSync } from "node:fs";
+import {
+  S3Client,
+  PutObjectCommand,
+  HeadObjectCommand,
+} from "@aws-sdk/client-s3";
 import "dotenv/config";
 
 const BUCKET_NAME = "twistoflemonpod";
@@ -54,21 +58,53 @@ function createR2Client() {
 }
 
 /**
- * Upload file to R2
+ * Upload file to R2 using streaming (memory efficient for large files)
  */
 async function uploadFile(client, filePath, key) {
-  const fileContent = readFileSync(filePath);
   const stats = statSync(filePath);
+  const fileStream = createReadStream(filePath);
 
   const command = new PutObjectCommand({
     Bucket: BUCKET_NAME,
     Key: key,
-    Body: fileContent,
+    Body: fileStream,
     ContentType: "audio/mpeg",
     ContentLength: stats.size,
   });
 
-  return client.send(command);
+  const response = await client.send(command);
+
+  // Verify upload succeeded
+  const statusCode = response.$metadata?.httpStatusCode;
+  if (statusCode !== 200) {
+    throw new Error(`Upload failed with status ${statusCode}`);
+  }
+
+  if (!response.ETag) {
+    throw new Error("Upload response missing ETag - upload may have failed");
+  }
+
+  return response;
+}
+
+/**
+ * Verify object exists in R2
+ */
+async function verifyUpload(client, key, expectedSize) {
+  const command = new HeadObjectCommand({
+    Bucket: BUCKET_NAME,
+    Key: key,
+  });
+
+  const response = await client.send(command);
+
+  if (response.ContentLength !== expectedSize) {
+    throw new Error(
+      `Size mismatch: expected ${expectedSize}, got ${response.ContentLength}`,
+    );
+  }
+
+  return response;
 }
 
 /**
@@ -81,7 +117,7 @@ async function main() {
     console.error("");
     console.error("Example:");
     console.error(
-      "  node scripts/upload-to-r2.js ~/Sites/twistoflemonpod-mp3s/episodes/175-lwatol-20251211.mp3",
+      "  node scripts/upload-to-r2.js ~/Sites/twistoflemonpod-mp3s/175-lwatol-20251218.mp3",
     );
     process.exit(1);
   }
@@ -120,7 +156,7 @@ async function main() {
   }
 
   const stats = statSync(inputPath);
-  const key = `episodes/${filename}`;
+  const key = filename; // Files go in bucket root
 
   console.log("R2 Upload");
   console.log("=========");
@@ -132,13 +168,15 @@ async function main() {
   try {
     console.log("Uploading...");
     const client = createR2Client();
-    await uploadFile(client, inputPath, key);
+    const uploadResponse = await uploadFile(client, inputPath, key);
+    console.log(`Upload response: ETag=${uploadResponse.ETag}`);
+
+    console.log("Verifying upload...");
+    await verifyUpload(client, key, stats.size);
 
     console.log("");
-    console.log("Upload complete!");
-    console.log(
-      `Public URL: https://twistoflemonpod.com/episodes/${filename}`,
-    );
+    console.log("Upload complete and verified!");
+    console.log(`Public URL: https://media.twistoflemonpod.com/${filename}`);
   } catch (error) {
     console.error("");
     console.error("Upload failed:", error.message);
@@ -146,6 +184,10 @@ async function main() {
     if (error.name === "AccessDenied") {
       console.error("");
       console.error("Check that your R2 API token has write permissions.");
+    }
+
+    if (error.$metadata) {
+      console.error("HTTP Status:", error.$metadata.httpStatusCode);
     }
 
     process.exit(1);
