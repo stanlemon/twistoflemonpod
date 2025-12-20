@@ -102,15 +102,14 @@ This script:
 ### Uploading Audio
 
 ```bash
+# First, authenticate with R2 (pulls credentials from 1Password)
+r2auth
+
+# Then upload
 node scripts/upload-to-r2.js ~/path/to/episode.mp3
 ```
 
-**Requirements in `.env`:**
-```
-R2_ACCOUNT_ID=...
-R2_ACCESS_KEY_ID=...
-R2_SECRET_ACCESS_KEY=...
-```
+**Note:** `r2auth()` is defined in `~/.shell_local` and uses the 1Password CLI (`op`) to fetch R2 credentials. Run it in your shell before executing the upload script.
 
 ### Other Scripts
 
