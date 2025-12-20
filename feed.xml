@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Dec 2025 02:12:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 21:24:35 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,31 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>A Philosophical Debate on Chocolate Pie</title>
+      <link>https://twistoflemonpod.com/2025/12/a-philosophical-debate-on-chocolate-pie/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/12/a-philosophical-debate-on-chocolate-pie/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 18 Dec 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+It&#39;s day sixteen of the Wall Street Journal Wine Advent Calendar, and tonight Stan and Jon are sipping an Argentine Malbec called Bracero from the San Juan region. The wine opens with earthy notes (Stan says grass, Jon disagrees), develops into blackberry and chocolate mid-palate, and...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>It's day sixteen of the Wall Street Journal Wine Advent Calendar, and tonight Stan and Jon are sipping an Argentine Malbec called Bracero from the San Juan region. The wine opens with earthy notes (Stan says grass, Jon disagrees), develops into blackberry and chocolate mid-palate, and proves to be an approachable three-star sipper that would work well for company.</p>
+<p>The chocolate pie debate rages on! A listener email from Emily (one of Jon's coworkers who has dubbed herself a &quot;Twistie&quot;) sparked a deep dive into dessert taxonomy. Stan conducted a 12-person survey at work where nobody had ever had chocolate pie, researched recipes from America's Test Kitchen to Alton Brown, and emerged with a nuanced position: chocolate pie with flour is basically a brownie in a pie crust, while pudding-based chocolate pie gets a pass. The question of whether all cake must be baked remains philosophically unresolved.</p>
+<p>The conversation shifts to the Golden Globes' new podcast category (where's 99% Invisible?), OpenAI's new image generation competing with Google's Nana Banana, and a delightful tangent about ranking Lord of the Rings characters. Spoiler: Eowyn wins for Men of Rohan, Galadriel dominates the elves, and the dwarves need more research. Also, Stan definitely knows what Twitch is.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/175-lwatol-20251218.mp3" length="96822961" type="audio/mpeg"/><itunes:title>A Philosophical Debate on Chocolate Pie</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>175</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Food</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/12/a-philosophical-debate-on-chocolate-pie/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Wine, Shakespeare, and the Search for Honest AI</title>
