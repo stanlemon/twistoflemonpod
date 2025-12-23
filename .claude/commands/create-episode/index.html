@@ -1,14 +1,29 @@
 <p>Create a new podcast episode from a transcript file.</p>
 <h2 id="arguments" tabindex="-1">Arguments</h2>
-<p>The path to the transcript file (e.g., <code>content/blog/2025-12-04/transcript.md</code>)</p>
+<p>The path to the transcript file (can be anywhere, e.g., <code>~/Downloads/transcript.md</code>)</p>
 <p>Transcript path: $ARGUMENTS</p>
 <h2 id="instructions" tabindex="-1">Instructions</h2>
 <ol>
 <li>
+<p><strong>Prompt for episode details first</strong>:</p>
+<ul>
+<li>Episode number (check the latest episode in <code>content/blog/</code> and increment)</li>
+<li>Episode title (can refine after reading transcript)</li>
+<li>Publish date (default to today, format: YYYY-MM-DD)</li>
+</ul>
+</li>
+<li>
+<p><strong>Set up episode directory</strong>:</p>
+<ul>
+<li>Create directory: <code>content/blog/{publish-date}/</code></li>
+<li>Move the transcript file into that directory</li>
+</ul>
+</li>
+<li>
 <p><strong>Read a recent episode as template</strong>: Look at the most recent episode in <code>content/blog/</code> (not a transcript) to understand the frontmatter structure (title, slug, episode, date, categories, tags, enclosure)</p>
 </li>
 <li>
-<p><strong>Read the transcript file</strong>: Analyze the content at the provided path</p>
+<p><strong>Read the transcript file</strong>: Analyze the content</p>
 </li>
 <li>
 <p><strong>Extract from transcript</strong>:</p>
@@ -17,14 +32,7 @@
 <li>Appropriate categories (use existing categories like: Technology, Lifestyle, AI, Food, Finance, etc.)</li>
 <li>Relevant tags (5-10 specific topics mentioned)</li>
 <li>A concise 2-3 paragraph summary suitable for the episode description</li>
-</ul>
-</li>
-<li>
-<p><strong>Prompt for episode details</strong>:</p>
-<ul>
-<li>Episode number (check the latest episode and increment)</li>
-<li>Episode title (suggest one based on content)</li>
-<li>Publish date (default to today or the date in the directory name)</li>
+<li>Suggest a refined title if the initial one could be improved</li>
 </ul>
 </li>
 <li>
@@ -32,7 +40,7 @@
 <ul>
 <li>Look for the MP3 at <code>~/Sites/twistoflemonpod-mp3s/{episode}-lwatol-{YYYYMMDD}.mp3</code></li>
 <li>If found, get the file size in bytes for <code>enclosure.length</code></li>
-<li>If not found, set <code>length: null</code> (can be updated later with <code>node scripts/update-enclosure-metadata.js</code>)</li>
+<li>If not found, set <code>length: null</code> (can be updated manually later)</li>
 </ul>
 </li>
 <li>
