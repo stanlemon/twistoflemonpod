@@ -82,22 +82,16 @@ All scripts in `scripts/`. Run with `node scripts/<script>.js`.
 
 ### Creating New Episodes
 
-**Primary workflow** - use `create-new-episode.js`:
+**Workflow:**
 
-```bash
-node scripts/create-new-episode.js ~/path/to/episode.mp3
-```
+1. Record episode in Zencastr (provides transcript automatically)
+2. Export the transcript as markdown
+3. Run the slash command with the transcript path:
+   ```
+   /create-episode ~/Downloads/transcript.md
+   ```
 
-This script:
-- Prompts for episode number, title, publish date
-- Transcribes audio via Deepgram (speaker diarization)
-- Generates AI summary/keywords via Ollama
-- Creates episode post and transcript files
-- Sets up directory structure
-
-**Requirements:**
-- `DEEPGRAM_API_KEY` in `.env`
-- Ollama running: `brew install ollama && brew services start ollama && ollama pull llama3.2:3b`
+The command prompts for episode details (number, title, date), moves the transcript to the correct directory, analyzes content, and creates both the episode post and formatted transcript with proper frontmatter.
 
 ### Uploading Audio
 
@@ -115,12 +109,8 @@ node scripts/upload-to-r2.js ~/path/to/episode.mp3
 
 | Script | Purpose |
 |--------|---------|
-| `update-enclosure-metadata.js` | Update RSS metadata from local MP3 files |
-| `add-episode-numbers.js` | Add missing episode numbers |
-| `add-slug-to-frontmatter.js` | Generate slugs from titles |
-| `transcribe-with-deepgram.js` | Transcribe single episode |
-| `batch-transcribe-deepgram.js` | Batch transcribe all episodes |
-| `add-ai-summaries.js` | Add AI summaries to transcripts |
+| `upload-to-r2.js` | Upload MP3 files to Cloudflare R2 |
+| `list-categories-and-tags.js` | List all categories and tags in use |
 
 ### Script Policy
 
