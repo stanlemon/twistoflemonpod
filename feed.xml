@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Dec 2025 03:42:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 16:31:13 +0000</lastBuildDate>
     <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Gratitude Journals and Buddy Lists</title>
+      <link>https://twistoflemonpod.com/2025/12/gratitude-journals-and-buddy-lists/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2025/12/gratitude-journals-and-buddy-lists/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Tue, 23 Dec 2025 06:00:00 +0000</pubDate>
+      <description>Dear Listener,
+It&#39;s day twenty-two of the Wall Street Journal Wine Advent Calendar, and Stan and Jon are tasting a French Pinot Noir called Le Champs d&#39;Etoilesse (the field of stars). The wine delivers a pale ruby color with high tannins, funky Pinot character, and notes of blackberry, cherry, and b...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>It's day twenty-two of the Wall Street Journal Wine Advent Calendar, and Stan and Jon are tasting a French Pinot Noir called Le Champs d'Etoilesse (the field of stars). The wine delivers a pale ruby color with high tannins, funky Pinot character, and notes of blackberry, cherry, and baking spices. After an hour of air, the tannins remain prominent but the smokiness mellows into something quite enjoyable.</p>
+<p>The conversation takes a nostalgic turn as Stan recommends The Verge's new podcast &quot;Versions,&quot; specifically the episode about AOL Instant Messenger. The hosts reminisce about their AIM screen names (Tetro4, Trekker1701, DunklerGeist07, and various iterations), crafting the perfect away message with Dashboard Confessional lyrics, and that iconic door sound when someone signed off. They discuss how AIM shaped internet culture and spawned everything from buddy lists to modern Slack.</p>
+<p>Looking ahead to 2026, Stan shares his approach to goals this year: separating hobbies (reading, guitar, coding), habits (exercising, devotions), and actual goals. He's taking up running just to fill in the one missing trend in Apple Fitness, starting a gratitude journal at Mrs. Lemon's suggestion, and considering a return to bread baking. The biggest goal? Improving work-life balance by learning to leave work stress at work. Jon's brilliant suggestion: have Mrs. Lemon rate Stan's post-work mood daily in a vibe-coded &quot;jerk-o-meter&quot; app.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/176-lwatol-20251223.mp3" length="90178796" type="audio/mpeg"/><itunes:title>Gratitude Journals and Buddy Lists</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>176</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2025/12/gratitude-journals-and-buddy-lists/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>A Philosophical Debate on Chocolate Pie</title>
