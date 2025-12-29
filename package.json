@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "description": "A Podcast about technology, finance, life, craftsmanship, theology, and a little bit of everything else with a twist of Stan Lemon. We've moved what we'd normally talk about on the phone, here for your listening enjoyment.",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "contributors": [
     "Jon Kohlmeier <jonkohlmeier@users.noreply.github.com",
     "Stan Lemon <stanlemon@users.noreply.github.com>"
@@ -17,7 +17,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "@aws-sdk/client-s3": "^3.955.0",
+    "@aws-sdk/client-s3": "^3.958.0",
     "@deepgram/sdk": "^4.11.3",
     "dotenv": "^17.2.3",
     "lucide-static": "^0.562.0",
