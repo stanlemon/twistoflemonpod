@@ -2,7 +2,7 @@
 title: "On Taste and Truffles"
 slug: on-taste-and-truffles
 episode: 177
-date: 2025-12-31T06:00:00.000Z
+date: 2026-01-01T06:00:00.000Z
 summary: >-
   Stan and Jon ring in 2026 with Disneyland plans, a ChatGPT-guided roasted
   chicken, and a philosophical detour into why chocolate truffles share a name
@@ -65,7 +65,7 @@ keywords:
   - HubSpot support
   - In-N-Out Burger
 enclosure:
-  url: https://media.twistoflemonpod.com/177-lwatol-20251231.mp3
+  url: https://media.twistoflemonpod.com/177-lwatol-20260101.mp3
   length: 89003165
   type: audio/mpeg
 ---
