@@ -6,8 +6,8 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Dec 2025 13:09:46 +0000</lastBuildDate>
-    <copyright>© 2025 Jon Kohlmeier &amp; Stan Lemon</copyright>
+    <lastBuildDate>Mon, 05 Jan 2026 01:33:50 +0000</lastBuildDate>
+    <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
     <itunes:author>Jon Kohlmeier &amp; Stan Lemon</itunes:author>
@@ -32,6 +32,31 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>On Taste and Truffles</title>
+      <link>https://twistoflemonpod.com/2026/01/on-taste-and-truffles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/01/on-taste-and-truffles/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 01 Jan 2026 06:00:00 +0000</pubDate>
+      <description>Stan and Jon ring in 2026 with Disneyland plans, a ChatGPT-guided roasted chicken, and a philosophical detour into why chocolate truffles share a name with mushroom truffle oil. Stan questions the value of LinkedIn Premium and broader social media algorithms (Instagram gets rare praise) while poking...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Welcome to 2026! This is our first episode of the new year, and Stan and Jon kick things off by talking about New Year's plans. Jon is heading to Disneyland in Southern California with his family on January 3rd, while Stan is eager to hear if the experience lives up to Disney World.</p>
+<p>Jon shares his Christmas cooking adventure: a dry-brined, convection-roasted chicken guided by ChatGPT. The conversation takes an unexpected philosophical turn when Stan poses an existential question about truffles. Why is a chocolate truffle called a truffle when truffle oil comes from mushrooms? Jon's compartmentalization strategy (chocolate = truffle, savory = mushroom truffle) proves more effective than Stan's ethereal floating-through-truffle-space approach.</p>
+<p>Stan gives LinkedIn Premium a resounding two thumbs down, finding little value in the $40/month subscription for someone not actively job hunting. The discussion expands to social media algorithms broadly, with Instagram earning rare praise for actually surfacing interesting content (Lord of the Rings memes, woodworking, Pilates), while LinkedIn's algorithm serves up antagonistic clickbait and irrelevant tech posts. Stan also rants about ChatGPT's desktop app inexplicably hiding group chats.</p>
+<p>The meat of the episode explores &quot;taste&quot; as a topic suggested by ChatGPT itself. Stan pulls out a 2014 book on architectural proportions to argue that some things are objectively beautiful based on geometry and natural ratios. They discuss how taste in code has evolved: Stan has become more tolerant of organizational differences but more militant about test coverage. The key insight? Good taste means building products that are easier for customers to use than they are for developers to build. Exposure to real customers through support rotations, sales calls, and advisory boards is the fuel that develops taste in product teams. As Stan puts it, &quot;The voice of the customer is the cocaine for software engineering.&quot;</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/177-lwatol-20260101.mp3" length="89003165" type="audio/mpeg"/><itunes:title>On Taste and Truffles</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>177</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/01/on-taste-and-truffles/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Gratitude Journals and Buddy Lists</title>
