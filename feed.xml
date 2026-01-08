@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Jan 2026 01:33:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 12:57:57 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Bucatini, Bakeries, and Codex</title>
+      <link>https://twistoflemonpod.com/2026/01/bucatini-bakeries-and-codex/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/01/bucatini-bakeries-and-codex/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 08 Jan 2026 06:00:00 +0000</pubDate>
+      <description>Stan and Jon compare Apple Fitness ring goals, debate competitiveness, and trade thoughts on AI coding tools as Stan switches from Claude to Codex for iOS side projects. They share updates on personal sites, WordPress hosting, and a TestFlight invite for Stan&#39;s wine tasting app. A Pittsburgh trip hi...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Stan and Jon open with Apple Fitness January challenges, with Stan chasing a 14-day exercise goal and Jon staring down a 24-day stand ring. That leads to a quick conversation about competitiveness, board games, and the intensity of Euchre players.</p>
+<p>Stan shares why he has switched from Claude to Codex for his iOS side projects, noting better outputs and the value of forced checkpoints that keep runaway automation in check. They invite listeners to the TestFlight beta for Stan's wine tasting app and talk about personal site updates, WordPress hosting costs, and the perils of running multiple AI coding sessions at once.</p>
+<p>From there, Stan recaps a quick Pittsburgh trip and a stop at Oakmont Bakery, celebrating how it has scaled up without losing quality. The episode closes with a deep dive on pasta: al dente technique, fresh noodles, favorite shapes, and why bucatini takes the crown.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/178-lwatol-20260108.mp3" length="86887916" type="audio/mpeg"/><itunes:title>Bucatini, Bakeries, and Codex</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>178</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/01/bucatini-bakeries-and-codex/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>On Taste and Truffles</title>
