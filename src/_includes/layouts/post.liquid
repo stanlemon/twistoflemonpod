@@ -150,5 +150,19 @@ layout: layouts/base.liquid
   const player = new Plyr('#audio-player', {
     controls: ['play', 'progress', 'current-time', 'duration', 'mute', 'volume', 'download']
   });
+
+  const controls = player && player.elements && player.elements.controls;
+  if (controls) {
+    const times = controls.querySelectorAll('.plyr__time');
+    if (times.length >= 2 && !controls.querySelector('.audio-time-group')) {
+      const group = document.createElement('div');
+      group.className = 'audio-time-group';
+      const first = times[0];
+      const second = times[1];
+      first.parentNode.insertBefore(group, first);
+      group.appendChild(first);
+      group.appendChild(second);
+    }
+  }
 </script>
 {% endif %}
