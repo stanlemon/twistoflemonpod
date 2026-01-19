@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 20:08:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 18:16:46 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Disneyland, Selfies, and Prompt Injection</title>
+      <link>https://twistoflemonpod.com/2026/01/disneyland-selfies-and-prompt-injection/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/01/disneyland-selfies-and-prompt-injection/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 15 Jan 2026 06:00:00 +0000</pubDate>
+      <description>Stan and Jon reflect on Jon&#39;s California trip for his dad&#39;s retirement, unpacking a LinkedIn post about vocation, work, and why &#34;follow your passion&#34; can be misleading. They detour into prompt injection risks for LLMs and web-reading assistants before diving into Disneyland stories: photos vs being ...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Jon is back from California after a family trip to celebrate his dad's retirement, and Stan reads <a href="https://www.linkedin.com/feed/update/urn:li:activity:7416463383266340864/">a LinkedIn post</a> that sparked a bigger conversation about vocation, work, and why &quot;follow your passion&quot; can be a misleading north star. They talk about career pivots, using work as a means to support the people you love, and the pressure we put on young adults to pick the &quot;perfect&quot; path too early.</p>
+<p>From there, the conversation detours into prompt injection: the risks when AI assistants read the web and can be tricked into doing the wrong thing. Stan and Jon talk about why it's hard to defend against, and how tools like ChatGPT, Perplexity, or browser assistants could be vulnerable.</p>
+<p>The back half is all Disneyland. Jon shares the highlights of Long Beach and Newport Beach, a whale watching trip that delivered dolphins but no whales, the magic of a Minnie Mouse encounter, and his evolving relationship with photos and selfies. The food talk returns too: In-N-Out vs Culver's, secret menu fries, and a nod to Chick-fil-A's uncanny consistency.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/179-lwatol-20260115.mp3" length="103609772" type="audio/mpeg"/><itunes:title>Disneyland, Selfies, and Prompt Injection</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>179</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/01/disneyland-selfies-and-prompt-injection/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Bucatini, Bakeries, and Codex</title>

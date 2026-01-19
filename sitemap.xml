@@ -3,12 +3,23 @@
   <!-- Homepage -->
   <url>
     <loc>https://twistoflemonpod.com/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Blog posts -->
+  
+  
+  
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2026/01/disneyland-selfies-and-prompt-injection/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   
   
   
@@ -3975,19 +3986,28 @@
   
   
   
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2026/01/disneyland-selfies-and-prompt-injection/transcript/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
 
   <!-- Category pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/category/lifestyle/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://twistoflemonpod.com/category/technology/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4008,7 +4028,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/food/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4092,7 +4112,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/ai/</loc>
-    <lastmod>2026-01-08</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -5026,14 +5046,14 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/disneyland/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://twistoflemonpod.com/tag/disney-world/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -5068,7 +5088,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/linkedin/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -5145,7 +5165,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/in-n-out-burger/</loc>
-    <lastmod>2026-01-01</lastmod>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -5265,6 +5285,118 @@
   <url>
     <loc>https://twistoflemonpod.com/tag/al-dente/</loc>
     <lastmod>2026-01-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/california/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/retirement/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/vocation/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/follow-your-passion/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/prompt-injection/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/llms/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/ai-assistants/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/photos/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/selfies/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/iphone-6/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/family-travel/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/long-beach/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/whale-watching/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/dolphins/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/culvers/</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/chick-fil-a/</loc>
+    <lastmod>2026-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
