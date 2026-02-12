@@ -1,0 +1,59 @@
+<h1 id="episode-templates" tabindex="-1">Episode Templates</h1>
+<h2 id="naming-conventions" tabindex="-1">Naming conventions</h2>
+<ul>
+<li>Folder: <code>content/blog/YYYY-MM-DD/</code></li>
+<li>Transcript file: <code>NNN-lwatol-YYYYMMDD.md</code></li>
+<li>Episode post file: <code>NNN-&lt;episode-slug&gt;.md</code></li>
+<li>MP3 URL: <code>https://media.twistoflemonpod.com/NNN-lwatol-YYYYMMDD.mp3</code></li>
+</ul>
+<h2 id="transcript-frontmatter-template" tabindex="-1">Transcript frontmatter template</h2>
+<pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> <span class="token string">"&lt;Episode Title> - Transcript"</span>
+<span class="token key atrule">episode</span><span class="token punctuation">:</span> &lt;NNN<span class="token punctuation">></span>
+<span class="token key atrule">date</span><span class="token punctuation">:</span> YYYY<span class="token punctuation">-</span>MM<span class="token punctuation">-</span>DDT06<span class="token punctuation">:</span>00<span class="token punctuation">:</span>00.000Z
+<span class="token key atrule">slug</span><span class="token punctuation">:</span> &lt;episode<span class="token punctuation">-</span>slug<span class="token punctuation">></span>/transcript
+<span class="token key atrule">type</span><span class="token punctuation">:</span> transcript
+<span class="token key atrule">summary</span><span class="token punctuation">:</span> <span class="token punctuation">></span><span class="token punctuation">-</span>
+  &lt;1<span class="token punctuation">-</span>3 sentence summary<span class="token punctuation">></span>
+<span class="token key atrule">keywords</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> &lt;keyword 1<span class="token punctuation">></span>
+  <span class="token punctuation">-</span> &lt;keyword 2<span class="token punctuation">></span>
+  <span class="token punctuation">-</span> &lt;keyword 3<span class="token punctuation">></span>
+<span class="token punctuation">---</span></code></pre>
+<h2 id="episode-post-frontmatter-template" tabindex="-1">Episode post frontmatter template</h2>
+<pre class="language-yaml"><code class="language-yaml"><span class="token punctuation">---</span>
+<span class="token key atrule">title</span><span class="token punctuation">:</span> <span class="token string">"&lt;Episode Title>"</span>
+<span class="token key atrule">slug</span><span class="token punctuation">:</span> &lt;episode<span class="token punctuation">-</span>slug<span class="token punctuation">></span>
+<span class="token key atrule">episode</span><span class="token punctuation">:</span> &lt;NNN<span class="token punctuation">></span>
+<span class="token key atrule">date</span><span class="token punctuation">:</span> YYYY<span class="token punctuation">-</span>MM<span class="token punctuation">-</span>DDT06<span class="token punctuation">:</span>00<span class="token punctuation">:</span>00.000Z
+<span class="token key atrule">summary</span><span class="token punctuation">:</span> <span class="token punctuation">></span><span class="token punctuation">-</span>
+  &lt;1<span class="token punctuation">-</span>3 sentence summary<span class="token punctuation">></span>
+<span class="token key atrule">categories</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> Lifestyle
+  <span class="token punctuation">-</span> Technology
+  <span class="token punctuation">-</span> AI
+  <span class="token punctuation">-</span> Food
+<span class="token comment"># Adjust categories per episode content.</span>
+<span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> &lt;tag 1<span class="token punctuation">></span>
+  <span class="token punctuation">-</span> &lt;tag 2<span class="token punctuation">></span>
+<span class="token key atrule">keywords</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> &lt;keyword 1<span class="token punctuation">></span>
+  <span class="token punctuation">-</span> &lt;keyword 2<span class="token punctuation">></span>
+<span class="token key atrule">enclosure</span><span class="token punctuation">:</span>
+  <span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//media.twistoflemonpod.com/NNN<span class="token punctuation">-</span>lwatol<span class="token punctuation">-</span>YYYYMMDD.mp3
+  <span class="token key atrule">length</span><span class="token punctuation">:</span> &lt;bytes<span class="token punctuation">></span>
+  <span class="token key atrule">type</span><span class="token punctuation">:</span> audio/mpeg
+<span class="token punctuation">---</span></code></pre>
+<h2 id="episode-post-body-template" tabindex="-1">Episode post body template</h2>
+<pre class="language-markdown"><code class="language-markdown">Dear Listener,
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Paragraph</span> <span class="token attr-name"><span class="token namespace">1:</span></span> <span class="token attr-name">opening</span> <span class="token attr-name">highlights</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Paragraph</span> <span class="token attr-name"><span class="token namespace">2:</span></span> <span class="token attr-name">mid-show</span> <span class="token attr-name">highlights</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Paragraph</span> <span class="token attr-name"><span class="token namespace">3:</span></span> <span class="token attr-name">closing</span> <span class="token attr-name">highlights</span><span class="token punctuation">></span></span>
+
+Thanks for listening,
+
+Stan Lemon &amp; Jon Kohlmeier</code></pre>

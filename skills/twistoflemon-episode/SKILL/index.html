@@ -1,0 +1,54 @@
+<h1 id="twistoflemon-episode" tabindex="-1">Twistoflemon Episode</h1>
+<h2 id="overview" tabindex="-1">Overview</h2>
+<p>Create episode artifacts for the Twist of Lemon podcast by adding transcript frontmatter and generating the matching episode post in <code>content/blog/YYYY-MM-DD/</code>.</p>
+<h2 id="workflow" tabindex="-1">Workflow</h2>
+<h3 id="1)-locate-the-latest-transcript" tabindex="-1">1) Locate the latest transcript</h3>
+<ul>
+<li>Find the newest date folder under <code>content/blog/</code>.</li>
+<li>Identify the transcript file (pattern: <code>NNN-lwatol-YYYYMMDD.md</code>) that lacks frontmatter.</li>
+</ul>
+<h3 id="2)-review-the-previous-episode-structure" tabindex="-1">2) Review the previous episode structure</h3>
+<ul>
+<li>Open the prior episode in the previous date folder.</li>
+<li>Reuse its frontmatter structure and formatting conventions.</li>
+</ul>
+<h3 id="3)-add-transcript-frontmatter" tabindex="-1">3) Add transcript frontmatter</h3>
+<ul>
+<li>Use the transcript template from <code>references/episode-templates.md</code>.</li>
+<li>Set:
+<ul>
+<li><code>title</code>: &quot;<Episode Title> - Transcript&quot;</li>
+<li><code>episode</code>: integer</li>
+<li><code>date</code>: <code>YYYY-MM-DDT06:00:00.000Z</code></li>
+<li><code>slug</code>: <code>&lt;episode-slug&gt;/transcript</code></li>
+<li><code>type</code>: <code>transcript</code></li>
+<li><code>summary</code>, <code>keywords</code>: derived from transcript content</li>
+</ul>
+</li>
+<li>Keep the transcript body untouched below the frontmatter.</li>
+</ul>
+<h3 id="4)-create-the-episode-post" tabindex="-1">4) Create the episode post</h3>
+<ul>
+<li>Name the file: <code>NNN-&lt;episode-slug&gt;.md</code> in the same date folder.</li>
+<li>Use the episode post template from <code>references/episode-templates.md</code>.</li>
+<li>Set:
+<ul>
+<li><code>title</code>, <code>slug</code>, <code>episode</code>, <code>date</code>, <code>summary</code></li>
+<li><code>categories</code>, <code>tags</code>, <code>keywords</code></li>
+<li><code>enclosure.url</code> using the standard MP3 URL format</li>
+<li><code>enclosure.length</code> from the local MP3 file size (bytes)</li>
+<li><code>enclosure.type</code>: <code>audio/mpeg</code></li>
+</ul>
+</li>
+<li>Draft the episode letter body in the same style as recent posts.</li>
+</ul>
+<h3 id="5)-sanity-checks" tabindex="-1">5) Sanity checks</h3>
+<ul>
+<li>Ensure <code>summary</code>, <code>categories</code>, <code>tags</code>, and <code>keywords</code> match the transcript topics.</li>
+<li>Confirm slug consistency across transcript and post.</li>
+<li>Verify enclosure length matches the MP3 on disk.</li>
+</ul>
+<h2 id="references" tabindex="-1">References</h2>
+<ul>
+<li>Frontmatter templates and naming conventions: <code>references/episode-templates.md</code></li>
+</ul>

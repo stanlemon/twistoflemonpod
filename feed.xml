@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Jan 2026 13:32:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 03:10:11 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Disney Treasure, Wine Rituals, and AI Hot Takes</title>
+      <link>https://twistoflemonpod.com/2026/01/disney-treasure-wine-rituals-and-ai-hot-takes/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/01/disney-treasure-wine-rituals-and-ai-hot-takes/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 29 Jan 2026 06:00:00 +0000</pubDate>
+      <description>Stan and Jon open with snow, Chianti, and a looming Disney Treasure cruise, then map out an Eastern Caribbean itinerary with St. Thomas, Tortola, and Castaway Cay. They debate Enchante versus Palo reservations, swap cruise food pro tips, and chase the perfect sweet treat. A Mack McAnally concert and...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Stan and Jon kick things off with a winter weather check-in and cruise daydreaming. They map out Stan's upcoming Disney Treasure itinerary, from a St. Thomas catamaran sail and Tortola beach day to Castaway Cay bike rentals. That quickly turns into a food strategy session: Enchante brunch, Palo dinner debates, late-seating pacing, and the sacred cruise popcorn bucket.</p>
+<p>Next up is a night out in Carmel: a Mack McAnally concert at the Palladium, a deeply Italian meal at Ristorante Roma, and Stan's full-on wine ritual, complete with cork inspection and tasting notes. The conversation then pivots to AI: Jon's pro tip is simple—don't ask a model to generate content cold; feed it your raw thoughts and use it as an editor. They wrestle with AI-as-search, junk data, and the surprisingly hard quest for a classy tissue-box riser.</p>
+<p>The episode closes with glow-up prompts from the kids, a 2016 photo throwback, and a quick gripe about the iPhone Photos overhaul.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/181-lwatol-20260129.mp3" length="84781686" type="audio/mpeg"/><itunes:title>Disney Treasure, Wine Rituals, and AI Hot Takes</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>181</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/01/disney-treasure-wine-rituals-and-ai-hot-takes/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Reading Lists, AI Pro Tips, and HomePod Woes</title>
