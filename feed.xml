@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Feb 2026 03:10:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 02:35:54 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Disney Treasure, Champagne Flights, and AI Catch-Up</title>
+      <link>https://twistoflemonpod.com/2026/02/disney-treasure-champagne-flights-and-ai-catch-up/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/02/disney-treasure-champagne-flights-and-ai-catch-up/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 12 Feb 2026 06:00:00 +0000</pubDate>
+      <description>Stan returns from a weather-disrupted Disney Treasure sailing and shares what surprised him most about the Triton class design, from crowd flow and deck access to the Cove Cafe tradeoffs. He and Jon dig into Coco and Enchante, compare wine and champagne tastings, and swap stories about Disney&#39;s serv...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Stan returns from the Disney Treasure with a mix of gratitude and hot takes. Bad weather wiped out most port plans, but the conversation turns into a practical breakdown of Triton class design: stairwells, crowd flow, dead ends, and why Cove Cafe access felt like a miss compared to older ships. Along the way, they compare the Treasure to Dream, Fantasy, and Wonder, with some surprising rankings.</p>
+<p>Food and wine are the real headliners this week. Stan and Jon cover Marceline wins, Coco's standout show-and-menu combo, and Enchante as a full experience worth trying at least once. They swap tasting notes from multiple wine and champagne pairings, including Dom Perignon, Cristal, and a Robert Mondavi bottle that sparked a full Disney magic moment across dining rooms.</p>
+<p>The episode closes with future cruise planning and a quick AI-state-of-the-union: Xcode's new agentic mode, Codex on Mac, Claude and Cursor updates, and waiting on ChatGPT's newer integrations.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/182-lwatol-20260212.mp3" length="88107910" type="audio/mpeg"/><itunes:title>Disney Treasure, Champagne Flights, and AI Catch-Up</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>182</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/02/disney-treasure-champagne-flights-and-ai-catch-up/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Disney Treasure, Wine Rituals, and AI Hot Takes</title>
