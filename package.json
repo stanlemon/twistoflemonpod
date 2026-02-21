@@ -17,7 +17,7 @@
     "@11ty/eleventy-img": "^6.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "@aws-sdk/client-s3": "^3.970.0",
+    "@aws-sdk/client-s3": "^3.995.0",
     "@deepgram/sdk": "^4.11.3",
     "dotenv": "^17.2.3",
     "lucide-static": "^0.562.0",
