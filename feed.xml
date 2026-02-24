@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Feb 2026 02:35:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 02:45:07 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Seven Courses, One Philly Debate, and the Apple Rumor Mill</title>
+      <link>https://twistoflemonpod.com/2026/02/seven-courses-one-philly-debate-and-the-apple-rumor-mill/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/02/seven-courses-one-philly-debate-and-the-apple-rumor-mill/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 19 Feb 2026 06:00:00 +0000</pubDate>
+      <description>Stan and Jon kick off with a spirited food argument over what counts as a true Philly and whether pizza dough should include sugar, then follow the conversation into a Chicago weekend recap. Stan shares highlights from Rosatis, the Drake Hotel, and a seven-course Michelin dinner at Boka with detaile...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Episode 183 opens with a classic Stan-and-Jon food dispute: chicken &quot;Philly&quot; naming, pizza dough ingredients, and a playful scorecard on who has actually cooked for whom. That banter rolls into a Chicago road-trip recap, including suburban tavern-style pizza and the realities of teaching new-driver confidence in city traffic.</p>
+<p>The center of the episode is Stan's Valentine's weekend in Chicago, with a stay at the Drake Hotel and a detailed review of Boka's seven-course Michelin tasting menu. He and Jon break down what made the meal stand out, from service and pacing to how each wine pairing changed bite by bite.</p>
+<p>They wrap with a tech segment covering Apple's next event rumors, Siri delays, Vision Pro momentum, and hands-on Codex thoughts for practical AI work. The closing question for listeners: what should Jon cook the next time Stan visits Iowa?</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/183-lwatol-20260219.mp3" length="90536300" type="audio/mpeg"/><itunes:title>Seven Courses, One Philly Debate, and the Apple Rumor Mill</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>183</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/02/seven-courses-one-philly-debate-and-the-apple-rumor-mill/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Disney Treasure, Champagne Flights, and AI Catch-Up</title>

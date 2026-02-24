@@ -3,12 +3,23 @@
   <!-- Homepage -->
   <url>
     <loc>https://twistoflemonpod.com/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Blog posts -->
+  
+  
+  
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2026/02/seven-courses-one-philly-debate-and-the-apple-rumor-mill/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   
   
   
@@ -4063,19 +4074,30 @@
   
   
   
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2026/02/seven-courses-one-philly-debate-and-the-apple-rumor-mill/transcript/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  
 
   <!-- Category pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/category/lifestyle/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://twistoflemonpod.com/category/technology/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4096,7 +4118,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/food/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4180,7 +4202,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/ai/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4428,7 +4450,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/pizza/</loc>
-    <lastmod>2019-09-26</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4743,7 +4765,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/codex/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -5541,7 +5563,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/siri/</loc>
-    <lastmod>2026-01-22</lastmod>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -5843,6 +5865,76 @@
   <url>
     <loc>https://twistoflemonpod.com/tag/cursor/</loc>
     <lastmod>2026-02-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/chicken-philly/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/chicago/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/rosatis/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/michelin-star-dining/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/boka/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/drake-hotel/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/wine-pairing/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/apple-rumors/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/vision-pro/</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/ai-workflows/</loc>
+    <lastmod>2026-02-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
