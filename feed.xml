@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Feb 2026 13:16:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 00:13:20 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Pizza Dough, Lego Prompts, and the AI Shopping Reality Check</title>
+      <link>https://twistoflemonpod.com/2026/02/pizza-dough-lego-prompts-and-the-ai-shopping-reality-check/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/02/pizza-dough-lego-prompts-and-the-ai-shopping-reality-check/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 26 Feb 2026 06:00:00 +0000</pubDate>
+      <description>A spontaneous Sunday recording turns into a practical AI check-in as Stan and Jon move from pizza dough and app refactoring pain points to prompt design, resume workflows, and contextual assistants. They run a live Lego recommendation test, then compare where AI shopping and ad systems still break d...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Episode 184 is a true no-agenda Sunday conversation that starts with pizza dough and quickly pivots into AI workflow reality. Stan and Jon compare how they are using chat tools for software work and resume drafting, including the frustration of multi-question UX and the limits of SwiftUI testing when you are trying to avoid regressions.</p>
+<p>The middle stretch is a practical AI shopping stress test. A live Lego prompt shows what works when context and preferences are clear, but the wins are balanced by misses on shoes, home items, and in-store wine lookup. They also compare Google and Amazon sponsored placement and talk through what ChatGPT ads could mean for trust and usefulness.</p>
+<p>They close with a broader media detour: podcast recommendations, Star Trek opinions, Downton Abbey catch-up, and one more tasting note on white Bordeaux as a wine style worth revisiting.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/184-lwatol-20260226.mp3" length="84113324" type="audio/mpeg"/><itunes:title>Pizza Dough, Lego Prompts, and the AI Shopping Reality Check</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>184</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/02/pizza-dough-lego-prompts-and-the-ai-shopping-reality-check/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Seven Courses, One Philly Debate, and the Apple Rumor Mill</title>
