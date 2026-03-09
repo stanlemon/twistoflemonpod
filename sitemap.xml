@@ -3,12 +3,23 @@
   <!-- Homepage -->
   <url>
     <loc>https://twistoflemonpod.com/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Blog posts -->
+  
+  
+  
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2026/03/sourdough-1password-price-shock-and-claude-remote-control/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
   
   
   
@@ -4107,19 +4118,30 @@
   
   
   
+  
+  <url>
+    <loc>https://twistoflemonpod.com/2026/03/sourdough-1password-price-shock-and-claude-remote-control/transcript/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+  
 
   <!-- Category pages -->
   
   <url>
     <loc>https://twistoflemonpod.com/category/lifestyle/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://twistoflemonpod.com/category/technology/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4140,7 +4162,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/food/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4224,7 +4246,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/category/ai/</loc>
-    <lastmod>2026-02-26</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4759,7 +4781,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/claude/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4787,7 +4809,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/codex/</loc>
-    <lastmod>2026-02-19</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4822,7 +4844,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/software-development/</loc>
-    <lastmod>2025-11-25</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -4927,7 +4949,7 @@
   
   <url>
     <loc>https://twistoflemonpod.com/tag/wine-tasting/</loc>
-    <lastmod>2026-02-12</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -6020,6 +6042,69 @@
   <url>
     <loc>https://twistoflemonpod.com/tag/white-bordeaux/</loc>
     <lastmod>2026-02-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/sourdough/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/king-arthur-baking/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/butter/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/rick-steves/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/npr/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/1password/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/apple-passwords/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/passkeys/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://twistoflemonpod.com/tag/automation/</loc>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

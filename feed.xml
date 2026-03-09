@@ -6,7 +6,7 @@
     <link>https://twistoflemonpod.com/</link>
     <atom:link href="https://twistoflemonpod.com/feed.xml" rel="self" type="application/rss+xml"/>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 03:18:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 03:07:03 +0000</lastBuildDate>
     <copyright>© 2026 Jon Kohlmeier &amp; Stan Lemon</copyright>
 
     <itunes:type>episodic</itunes:type>
@@ -32,6 +32,30 @@
     <podcast:guid>https://twistoflemonpod.com</podcast:guid>
     <podcast:locked>yes</podcast:locked>
 
+    
+    <item>
+      <title>Sourdough, 1Password Price Shock, and Claude Remote Control</title>
+      <link>https://twistoflemonpod.com/2026/03/sourdough-1password-price-shock-and-claude-remote-control/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</link>
+      <guid isPermaLink="true">https://twistoflemonpod.com/2026/03/sourdough-1password-price-shock-and-claude-remote-control/?utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=podcast</guid>
+      <pubDate>Thu, 05 Mar 2026 06:00:00 +0000</pubDate>
+      <description>Stan and Jon open with sourdough process notes, premium butter rabbit holes, and a wine recap built around NPR&#39;s Rick Steves tasting event and the idea of conviviality. The middle segment turns into a detailed review of 1Password&#39;s 33% pricing change, including what still works, what feels like weak...</description>
+      <content:encoded><![CDATA[<p>Dear Listener,</p>
+<p>Episode 185 starts in the kitchen with a deep dive on sourdough timing, discard strategy, and why no-knead fridge fermentation is still one of Stan's favorite practical bread workflows. That quickly turns into a butter rabbit hole, Instagram cheese-store links, and a lively wine detour after an NPR tasting event with Rick Steves.</p>
+<p>The center of the conversation is a candid reaction to 1Password's new pricing jump. Stan and Jon break down which features actually feel new, where the optics miss, and what it would take to migrate years of credentials and passkeys into Apple Passwords or another manager without creating security headaches.</p>
+<p>They close with AI workflow reality: Claude Remote Control rollout friction, Codex usage patterns, and the tradeoff between fast feature generation and sustainable architecture when building apps. A Downton Abbey mixer analogy sets up a broader question about automation, software jobs, and whether a shorter work week is ever realistically on the table.</p>
+<p>Thanks for listening,</p>
+<p>Stan Lemon &amp; Jon Kohlmeier</p>
+]]></content:encoded>
+      <enclosure url="https://media.twistoflemonpod.com/185-lwatol-20260305.mp3" length="79815212" type="audio/mpeg"/><itunes:title>Sourdough, 1Password Price Shock, and Claude Remote Control</itunes:title>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episode>185</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+      <category>Lifestyle</category>
+      <category>Technology</category>
+      <category>AI</category>
+      <category>Food</category>
+      <podcast:transcript url="https://twistoflemonpod.com/2026/03/sourdough-1password-price-shock-and-claude-remote-control/transcript/" type="text/html"/>
+    </item>
     
     <item>
       <title>Pizza Dough, Lego Prompts, and the AI Shopping Reality Check</title>
